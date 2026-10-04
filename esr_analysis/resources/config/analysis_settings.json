@@ -1,0 +1,102 @@
+{
+  "esr1_uniprot": "P03372",
+  "esr2_uniprot": "Q92731",
+  "receptor_accession_aliases": {
+    "esr2": {
+      "Q9UEV6": {
+        "primary_accession": "Q92731",
+        "source_url": "https://rest.uniprot.org/uniprotkb/Q92731.json",
+        "cache_path": "data/cache/structure_audit/Q92731_accession_aliases.json",
+        "cache_sha256": "2776fe765cc6fafb6e7baa778f9cefdd00b80efb1769421d21052fb5d196100f"
+      }
+    }
+  },
+  "esr1_lbd_start": 305,
+  "esr1_lbd_end": 550,
+  "esr1_core_ranges": [
+    [
+      340,
+      360
+    ],
+    [
+      400,
+      420
+    ],
+    [
+      450,
+      470
+    ],
+    [
+      500,
+      520
+    ]
+  ],
+  "structural_cluster_thresholds_A": [
+    1.5
+  ],
+  "primary_structural_threshold_A": 1.5,
+  "min_chain_lbd_ca": 180,
+  "min_core_ca_for_alignment": 60,
+  "min_pairwise_common_ca": 150,
+  "random_seed": 42,
+  "h12_range": [
+    538,
+    547
+  ],
+  "dna_binding_range": [
+    185,
+    250
+  ],
+  "domain_annotation_source": "https://rest.uniprot.org/uniprotkb/P03372.json; entry version 301; DNA binding feature; LBD/core/H12 are project-defined analysis ranges",
+  "peptide_max_length": 50,
+  "fallback_min_positions": 40,
+  "fallback_min_identity": 0.9,
+  "contact_cutoff_A": 4.5,
+  "pocket_positions": [
+    353,
+    394,
+    524
+  ],
+  "reference_min_lbd_fraction": 0.95,
+  "reference_min_core_fraction": 1.0,
+  "reference_min_h12_fraction": 1.0,
+  "qc_resolution_A": 2.5,
+  "qc_r_free": 0.3,
+  "qc_mean_B_A2": 50.0,
+  "historical_reference": "3Q95|B|1",
+  "solvent_additive_codes": [
+    "SO4",
+    "PO4",
+    "GOL",
+    "EDO",
+    "PEG",
+    "PG4",
+    "PGE",
+    "DMS",
+    "ACT",
+    "ACE",
+    "FMT",
+    "TRS",
+    "MES",
+    "HEP",
+    "MPD",
+    "BME",
+    "DTT",
+    "CL",
+    "BR",
+    "IOD",
+    "NA",
+    "K",
+    "CA",
+    "MG",
+    "MN",
+    "ZN",
+    "CO",
+    "NI",
+    "CD",
+    "CU",
+    "FE"
+  ],
+  "annotated_min_identity": 0.6,
+  "annotated_identity_policy": "Require deposited canonical receptor accession or explicitly evidenced secondary alias plus >=60% agreement in validated correspondence and across the full declared sequence; this is a contradiction screen permitting engineered variants, not a subtype classifier. Canonical deposited segments must retain >=90% of declared segment query positions; named isoforms align full declared sequence to canonical. Accession-free fallback retains >=90% identity and >=90% query coverage."
+}

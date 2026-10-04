@@ -1,0 +1,206 @@
+data_IC7
+# 
+_chem_comp.id                                    IC7 
+_chem_comp.name                                  "[4-(trifluoromethyl)phenyl] (1~{S},2~{R},4~{S})-5-(4-hydroxyphenyl)-6-[4-(1,2,4-triazol-1-yl)phenyl]-7-oxabicyclo[2.2.1]heptane-2-sulfonate" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C27 H20 F3 N3 O5 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-27 
+_chem_comp.pdbx_modified_date                    2023-04-21 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        555.525 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     IC7 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7Y8F 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+IC7 CBA C1  C 0 1 Y N N 24.740 9.034  28.711 5.005  0.264  0.702  CBA IC7 1  
+IC7 CBB C2  C 0 1 Y N N 25.133 7.827  28.108 5.360  -0.940 0.124  CBB IC7 2  
+IC7 CBC C3  C 0 1 Y N N 25.300 7.720  26.714 4.710  -1.380 -1.014 CBC IC7 3  
+IC7 CBK C4  C 0 1 N N N 25.693 6.511  26.114 5.099  -2.694 -1.642 CBK IC7 4  
+IC7 FBM F1  F 0 1 N N N 25.172 5.578  26.454 4.328  -3.722 -1.087 FBM IC7 5  
+IC7 FBJ F2  F 0 1 N N N 26.040 6.514  24.967 4.875  -2.636 -3.021 FBJ IC7 6  
+IC7 FBL F3  F 0 1 N N N 26.855 6.314  26.677 6.453  -2.944 -1.399 FBL IC7 7  
+IC7 CBD C5  C 0 1 Y N N 25.054 8.861  25.943 3.704  -0.617 -1.578 CBD IC7 8  
+IC7 CBE C6  C 0 1 Y N N 24.655 10.057 26.552 3.345  0.587  -1.004 CBE IC7 9  
+IC7 CAZ C7  C 0 1 Y N N 24.492 10.171 27.936 3.992  1.029  0.141  CAZ IC7 10 
+IC7 OAK O1  O 0 1 N N N 24.121 11.385 28.502 3.641  2.213  0.708  OAK IC7 11 
+IC7 SAH S1  S 0 1 N N N 22.609 11.450 28.774 2.564  2.093  1.776  SAH IC7 12 
+IC7 OAI O2  O 0 1 N N N 22.066 10.404 29.796 2.926  0.931  2.509  OAI IC7 13 
+IC7 OAJ O3  O 0 1 N N N 21.810 12.634 28.228 2.541  3.372  2.396  OAJ IC7 14 
+IC7 CAB C8  C 0 1 N N R 22.737 12.668 30.281 1.033  1.809  0.846  CAB IC7 15 
+IC7 CAC C9  C 0 1 N N N 23.063 14.153 30.031 0.692  3.031  -0.047 CAC IC7 16 
+IC7 CAD C10 C 0 1 N N S 24.070 14.291 31.161 -0.682 3.485  0.537  CAD IC7 17 
+IC7 CAE C11 C 0 1 N N N 23.559 13.898 32.447 -1.669 2.384  0.140  CAE IC7 18 
+IC7 CAS C12 C 0 1 Y N N 23.381 14.780 33.446 -2.726 2.468  -0.883 CAS IC7 19 
+IC7 CAT C13 C 0 1 Y N N 22.954 16.067 33.123 -2.388 2.625  -2.230 CAT IC7 20 
+IC7 CAU C14 C 0 1 Y N N 22.791 17.021 34.114 -3.380 2.703  -3.183 CAU IC7 21 
+IC7 CAV C15 C 0 1 Y N N 23.089 16.724 35.447 -4.715 2.624  -2.807 CAV IC7 22 
+IC7 OAY O4  O 0 1 N N N 22.897 17.678 36.370 -5.690 2.701  -3.750 OAY IC7 23 
+IC7 CAW C16 C 0 1 Y N N 23.560 15.467 35.787 -5.056 2.467  -1.470 CAW IC7 24 
+IC7 CAX C17 C 0 1 Y N N 23.698 14.501 34.782 -4.071 2.384  -0.510 CAX IC7 25 
+IC7 OAG O5  O 0 1 N N N 24.904 13.188 30.845 -0.496 3.182  1.961  OAG IC7 26 
+IC7 CAA C18 C 0 1 N N S 23.901 12.214 31.145 -0.199 1.754  1.803  CAA IC7 27 
+IC7 CAF C19 C 0 1 N N N 23.564 12.543 32.442 -1.371 1.316  0.921  CAF IC7 28 
+IC7 CAL C20 C 0 1 Y N N 23.094 11.626 33.282 -2.038 0.003  0.920  CAL IC7 29 
+IC7 CAQ C21 C 0 1 Y N N 23.752 10.404 33.460 -1.966 -0.820 -0.208 CAQ IC7 30 
+IC7 CAP C22 C 0 1 Y N N 23.233 9.436  34.322 -2.591 -2.047 -0.205 CAP IC7 31 
+IC7 CAM C23 C 0 1 Y N N 21.901 11.868 33.945 -2.740 -0.427 2.049  CAM IC7 32 
+IC7 CAN C24 C 0 1 Y N N 21.386 10.903 34.799 -3.363 -1.656 2.045  CAN IC7 33 
+IC7 CAO C25 C 0 1 Y N N 22.041 9.687  34.998 -3.293 -2.468 0.918  CAO IC7 34 
+IC7 NAR N1  N 0 1 Y N N 21.498 8.796  35.828 -3.928 -3.717 0.918  NAR IC7 35 
+IC7 NBI N2  N 0 1 Y N N 21.389 7.497  35.563 -3.942 -4.654 -0.129 NBI IC7 36 
+IC7 CBH C26 C 0 1 Y N N 20.774 6.919  36.609 -4.645 -5.675 0.287  CBH IC7 37 
+IC7 NBG N3  N 0 1 Y N N 20.477 7.839  37.527 -5.069 -5.433 1.527  NBG IC7 38 
+IC7 CBF C27 C 0 1 Y N N 20.920 8.994  37.033 -4.641 -4.262 1.923  CBF IC7 39 
+IC7 H1  H1  H 0 1 N N N 24.628 9.084  29.784 5.512  0.607  1.591  H1  IC7 40 
+IC7 H2  H2  H 0 1 N N N 25.311 6.961  28.728 6.145  -1.538 0.562  H2  IC7 41 
+IC7 H3  H3  H 0 1 N N N 25.173 8.819  24.870 3.201  -0.961 -2.469 H3  IC7 42 
+IC7 H4  H4  H 0 1 N N N 24.467 10.921 25.932 2.560  1.183  -1.444 H4  IC7 43 
+IC7 H5  H5  H 0 1 N N N 21.788 12.573 30.829 1.104  0.898  0.251  H5  IC7 44 
+IC7 H6  H6  H 0 1 N N N 23.509 14.329 29.041 1.441  3.815  0.063  H6  IC7 45 
+IC7 H7  H7  H 0 1 N N N 22.188 14.807 30.160 0.592  2.734  -1.091 H7  IC7 46 
+IC7 H8  H8  H 0 1 N N N 24.581 15.265 31.159 -0.985 4.503  0.291  H8  IC7 47 
+IC7 H10 H10 H 0 1 N N N 22.749 16.322 32.094 -1.350 2.687  -2.524 H10 IC7 48 
+IC7 H11 H11 H 0 1 N N N 22.430 18.005 33.854 -3.119 2.825  -4.224 H11 IC7 49 
+IC7 H12 H12 H 0 1 N N N 23.138 17.344 37.226 -5.948 1.845  -4.120 H12 IC7 50 
+IC7 H13 H13 H 0 1 N N N 23.817 15.235 36.810 -6.095 2.407  -1.182 H13 IC7 51 
+IC7 H14 H14 H 0 1 N N N 24.058 13.517 35.043 -4.337 2.258  0.529  H14 IC7 52 
+IC7 H15 H15 H 0 1 N N N 24.197 11.169 30.971 -0.054 1.192  2.726  H15 IC7 53 
+IC7 H17 H17 H 0 1 N N N 24.670 10.208 32.926 -1.421 -0.493 -1.082 H17 IC7 54 
+IC7 H18 H18 H 0 1 N N N 23.752 8.499  34.464 -2.536 -2.683 -1.076 H18 IC7 55 
+IC7 H19 H19 H 0 1 N N N 21.376 12.800 33.798 -2.795 0.203  2.925  H19 IC7 56 
+IC7 H20 H20 H 0 1 N N N 20.460 11.097 35.320 -3.905 -1.990 2.917  H20 IC7 57 
+IC7 H21 H21 H 0 1 N N N 20.553 5.865  36.693 -4.848 -6.570 -0.282 H21 IC7 58 
+IC7 H22 H22 H 0 1 N N N 20.830 9.951  37.525 -4.829 -3.809 2.885  H22 IC7 59 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+IC7 FBJ CBK SING N N 1  
+IC7 CBD CBE DOUB Y N 2  
+IC7 CBD CBC SING Y N 3  
+IC7 CBK FBM SING N N 4  
+IC7 CBK FBL SING N N 5  
+IC7 CBK CBC SING N N 6  
+IC7 CBE CAZ SING Y N 7  
+IC7 CBC CBB DOUB Y N 8  
+IC7 CAZ OAK SING N N 9  
+IC7 CAZ CBA DOUB Y N 10 
+IC7 CBB CBA SING Y N 11 
+IC7 OAJ SAH DOUB N N 12 
+IC7 OAK SAH SING N N 13 
+IC7 SAH OAI DOUB N N 14 
+IC7 SAH CAB SING N N 15 
+IC7 CAC CAB SING N N 16 
+IC7 CAC CAD SING N N 17 
+IC7 CAB CAA SING N N 18 
+IC7 OAG CAA SING N N 19 
+IC7 OAG CAD SING N N 20 
+IC7 CAA CAF SING N N 21 
+IC7 CAD CAE SING N N 22 
+IC7 CAF CAE DOUB N N 23 
+IC7 CAF CAL SING N N 24 
+IC7 CAE CAS SING N N 25 
+IC7 CAT CAS DOUB Y N 26 
+IC7 CAT CAU SING Y N 27 
+IC7 CAL CAQ DOUB Y N 28 
+IC7 CAL CAM SING Y N 29 
+IC7 CAS CAX SING Y N 30 
+IC7 CAQ CAP SING Y N 31 
+IC7 CAM CAN DOUB Y N 32 
+IC7 CAU CAV DOUB Y N 33 
+IC7 CAP CAO DOUB Y N 34 
+IC7 CAX CAW DOUB Y N 35 
+IC7 CAN CAO SING Y N 36 
+IC7 CAO NAR SING N N 37 
+IC7 CAV CAW SING Y N 38 
+IC7 CAV OAY SING N N 39 
+IC7 NBI NAR SING Y N 40 
+IC7 NBI CBH DOUB Y N 41 
+IC7 NAR CBF SING Y N 42 
+IC7 CBH NBG SING Y N 43 
+IC7 CBF NBG DOUB Y N 44 
+IC7 CBA H1  SING N N 45 
+IC7 CBB H2  SING N N 46 
+IC7 CBD H3  SING N N 47 
+IC7 CBE H4  SING N N 48 
+IC7 CAB H5  SING N N 49 
+IC7 CAC H6  SING N N 50 
+IC7 CAC H7  SING N N 51 
+IC7 CAD H8  SING N N 52 
+IC7 CAT H10 SING N N 53 
+IC7 CAU H11 SING N N 54 
+IC7 OAY H12 SING N N 55 
+IC7 CAW H13 SING N N 56 
+IC7 CAX H14 SING N N 57 
+IC7 CAA H15 SING N N 58 
+IC7 CAQ H17 SING N N 59 
+IC7 CAP H18 SING N N 60 
+IC7 CAM H19 SING N N 61 
+IC7 CAN H20 SING N N 62 
+IC7 CBH H21 SING N N 63 
+IC7 CBF H22 SING N N 64 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+IC7 InChI            InChI                1.06  "InChI=1S/C27H20F3N3O5S/c28-27(29,30)18-5-11-21(12-6-18)38-39(35,36)23-13-22-24(16-3-9-20(34)10-4-16)25(26(23)37-22)17-1-7-19(8-2-17)33-15-31-14-32-33/h1-12,14-15,22-23,26,34H,13H2/t22-,23+,26+/m0/s1" 
+IC7 InChIKey         InChI                1.06  BAFLJQNFEGUISN-PPJWLVRDSA-N                                                                                                                                                                              
+IC7 SMILES_CANONICAL CACTVS               3.385 "Oc1ccc(cc1)C2=C([C@@H]3O[C@H]2C[C@H]3[S](=O)(=O)Oc4ccc(cc4)C(F)(F)F)c5ccc(cc5)n6cncn6"                                                                                                                  
+IC7 SMILES           CACTVS               3.385 "Oc1ccc(cc1)C2=C([CH]3O[CH]2C[CH]3[S](=O)(=O)Oc4ccc(cc4)C(F)(F)F)c5ccc(cc5)n6cncn6"                                                                                                                      
+IC7 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1C2=C([C@@H]3C[C@H]([C@H]2O3)S(=O)(=O)Oc4ccc(cc4)C(F)(F)F)c5ccc(cc5)O)n6cncn6"                                                                                                                  
+IC7 SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1C2=C(C3CC(C2O3)S(=O)(=O)Oc4ccc(cc4)C(F)(F)F)c5ccc(cc5)O)n6cncn6"                                                                                                                               
+# 
+_pdbx_chem_comp_identifier.comp_id           IC7 
+_pdbx_chem_comp_identifier.type              "SYSTEMATIC NAME" 
+_pdbx_chem_comp_identifier.program           "OpenEye OEToolkits" 
+_pdbx_chem_comp_identifier.program_version   2.0.7 
+_pdbx_chem_comp_identifier.identifier        "[4-(trifluoromethyl)phenyl] (1~{S},2~{R},4~{S})-5-(4-hydroxyphenyl)-6-[4-(1,2,4-triazol-1-yl)phenyl]-7-oxabicyclo[2.2.1]hept-5-ene-2-sulfonate" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+IC7 "Create component" 2022-06-27 PDBJ 
+IC7 "Initial release"  2023-04-26 RCSB 
+# 

@@ -1,0 +1,44 @@
+match_type,pattern,action_type,note
+name_contains,ESTRADIOL,agonist,Seeded from examples in project brief; verify final annotation
+name_contains,DIETHYLSTILBESTROL,agonist,Seeded from examples in project brief; verify final annotation
+name_contains,ESTRIOL,agonist,Common estrogen name match; confirm literature class before manuscript claims
+name_contains,EQUILIN,agonist,Equine estrogen name match; confirm literature class
+name_contains,EQUILENIN,agonist,Equine estrogen name match; confirm literature class
+name_contains,ZEARALANOL,agonist,Estrogenic mycotoxin name match; confirm literature class
+code_exact,EST,agonist,PDB code for estradiol; brief example
+code_exact,DES,agonist,PDB code for diethylstilbestrol; brief example
+code_exact,ESL,agonist,PDB code for estriol; common name match
+code_exact,17M,agonist,17-methyl-dihydroequilenin; equine estrogen name match
+code_exact,27J,agonist,alpha-zearalanol; estrogenic mycotoxin name match
+code_exact,B81,agonist,"androst-5-ene-3,17-diol; weak estrogenic steroid; confirm literature class"
+name_contains,TAMOXIFEN,SERM,Seeded from examples in project brief; verify final annotation
+name_contains,RALOXIFENE,SERM,Seeded from examples in project brief; verify final annotation
+name_contains,BAZEDOXIFENE,SERM,Known SERM common name; confirm literature class
+name_contains,ENDOXIFEN,SERM,Active metabolite of tamoxifen; known SERM
+name_contains,CLOMIFENE,SERM,Known SERM common name (clomiphene); confirm literature class
+name_contains,CLOMIPHENE,SERM,Known SERM common name (USAN); confirm literature class
+name_contains,LASOFOXIFEN,SERM,Known SERM common name; confirm literature class
+name_contains,TOREMIFEN,SERM,Known SERM common name; confirm literature class
+name_contains,OSPHEMIFEN,SERM,Known SERM common name; confirm literature class
+name_contains,PALAZESTRANT,SERM,Oral SERD; mapped to brief SERM class (mixed/pure antagonist mechanism)
+name_contains,LSZ102,SERM,Oral SERD; mapped to brief SERM class (mixed/pure antagonist mechanism)
+name_contains,GENISTEIN,SERM,Phytoestrogen; mapped to brief SERM class; confirm literature class
+name_contains,COUMESTROL,SERM,Phytoestrogen; mapped to brief SERM class; confirm literature class
+name_contains,RESVERATROL,SERM,Phytoestrogen-like; mapped to brief SERM class; confirm literature class
+name_contains,FERUTININE,SERM,Phytoestrogen; mapped to brief SERM class; confirm literature class
+code_exact,OHT,SERM,PDB code for 4-hydroxytamoxifen; brief SERM example
+code_exact,RAL,SERM,PDB code for raloxifene; brief SERM example
+code_exact,ZTW,SERM,Raloxifene core fragment; name match
+code_exact,29S,SERM,Bazedoxifene common name match
+code_exact,9XY,SERM,Endoxifen common name match
+code_exact,53Q,SERM,Clomifene common name match
+code_exact,A1AEA,SERM,Palazestrant (SERD) common name match
+code_exact,C6V,SERM,LSZ102 (SERD) common name match
+code_exact,GEN,SERM,Genistein phytoestrogen common name match
+code_exact,CUE,SERM,Coumestrol phytoestrogen common name match
+code_exact,STL,SERM,Resveratrol common name match
+code_exact,27H,SERM,Ferutinine phytoestrogen common name match
+code_exact,GW5,SERM,GW5638-like triphenylethylene SERM; confirm literature class
+name_contains,FULVESTRANT,antagonist,Seeded from examples in project brief; verify final annotation
+name_contains,ICI 182,antagonist,"Fulvestrant / ICI 182,780 synonym; verify final annotation"
+name_contains,ICI182,antagonist,"Fulvestrant / ICI 182,780 synonym; verify final annotation"

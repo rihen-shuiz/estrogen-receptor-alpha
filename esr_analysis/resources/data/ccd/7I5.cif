@@ -1,0 +1,222 @@
+data_7I5
+#
+
+_chem_comp.id                                   7I5
+_chem_comp.name                                 "(2E)-3-(4-{[(1S,2R,4S,5S,6S)-5,6-bis(4-hydroxyphenyl)-7-oxabicyclo[2.2.1]heptane-2-sulfonyl](2,2,2-trifluoroethyl)amino}phenyl)prop-2-enoic acid"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C29 H24 F3 N O7 S"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2021-08-11
+_chem_comp.pdbx_modified_date                   2021-09-03
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       587.564
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    7I5
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       7RS2
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+7I5  C10  C1   C  0  1  Y  N  N  13.689   9.467  79.237  -3.066  -2.330   0.323  C10  7I5   1  
+7I5  C13  C2   C  0  1  Y  N  N  13.063   9.118  76.447  -4.170  -2.919   2.804  C13  7I5   2  
+7I5  C15  C3   C  0  1  Y  N  N  18.769  11.558  76.457  -5.779   0.321  -0.429  C15  7I5   3  
+7I5  C17  C4   C  0  1  Y  N  N  17.767  13.636  75.561  -6.554  -0.092  -2.660  C17  7I5   4  
+7I5  C24  C5   C  0  1  N  N  N  19.739   7.049  82.503   2.084   3.056  -0.697  C24  7I5   5  
+7I5  C26  C6   C  0  1  Y  N  N  16.141   6.656  85.405   3.404  -0.922  -1.920  C26  7I5   6  
+7I5  C28  C7   C  0  1  Y  N  N  15.680   8.928  84.557   4.399  -0.917   0.290  C28  7I5   7  
+7I5  C01  C8   C  0  1  N  N  N  16.290   9.503  78.613  -2.855   0.067   0.954  C01  7I5   8  
+7I5  C02  C9   C  0  1  N  N  S  16.998   8.812  79.857  -1.754   0.890   1.629  C02  7I5   9  
+7I5  C03  C10  C  0  1  N  N  R  17.195   7.367  79.475  -0.593   0.947   0.588  C03  7I5  10  
+7I5  C04  C11  C  0  1  N  N  N  18.232   7.512  78.354  -1.193   1.861  -0.514  C04  7I5  11  
+7I5  C05  C12  C  0  1  N  N  N  17.296   9.906  77.801  -3.392   0.872   0.002  C05  7I5  12  
+7I5  C06  C13  C  0  1  N  N  S  18.524   9.045  78.273  -2.605   2.184   0.068  C06  7I5  13  
+7I5  O07  O1   O  0  1  N  N  N  18.423   9.279  79.698  -2.319   2.240   1.522  O07  7I5  14  
+7I5  C08  C14  C  0  1  Y  N  N  17.544  11.164  77.025  -4.490   0.541  -0.922  C08  7I5  15  
+7I5  C09  C15  C  0  1  Y  N  N  14.763   9.377  78.328  -3.248  -1.317   1.269  C09  7I5  16  
+7I5  C11  C16  C  0  1  Y  N  N  12.325   9.358  78.798  -3.439  -3.623   0.620  C11  7I5  17  
+7I5  C12  C17  C  0  1  Y  N  N  12.002   9.203  77.425  -3.992  -3.921   1.859  C12  7I5  18  
+7I5  C14  C18  C  0  1  Y  N  N  14.410   9.212  76.912  -3.804  -1.622   2.514  C14  7I5  19  
+7I5  C16  C19  C  0  1  Y  N  N  18.862  12.781  75.746  -6.802   0.006  -1.297  C16  7I5  20  
+7I5  C18  C20  C  0  1  Y  N  N  16.493  13.291  76.137  -5.278   0.138  -3.156  C18  7I5  21  
+7I5  C19  C21  C  0  1  Y  N  N  16.391  12.065  76.857  -4.247   0.448  -2.296  C19  7I5  22  
+7I5  O20  O2   O  0  1  N  N  N  17.943  14.798  74.908  -7.566  -0.403  -3.512  O20  7I5  23  
+7I5  O21  O3   O  0  1  N  N  N  10.707   9.143  77.005  -4.354  -5.198   2.150  O21  7I5  24  
+7I5  C23  C22  C  0  1  Y  N  N  17.338   7.459  83.373   2.737   0.705  -0.295  C23  7I5  25  
+7I5  C25  C23  C  0  1  Y  N  N  17.061   6.445  84.327   2.635   0.157  -1.571  C25  7I5  26  
+7I5  C27  C24  C  0  1  Y  N  N  15.448   7.872  85.566   4.294  -1.474  -0.991  C27  7I5  27  
+7I5  C29  C25  C  0  1  Y  N  N  16.622   8.707  83.450   3.629   0.166   0.628  C29  7I5  28  
+7I5  C30  C26  C  0  1  N  N  N  14.411   7.978  86.805   5.116  -2.635  -1.358  C30  7I5  29  
+7I5  C31  C27  C  0  1  N  N  N  13.423   8.858  86.969   5.975  -3.166  -0.460  C31  7I5  30  
+7I5  S32  S1   S  0  1  N  N  N  17.740   6.309  80.864   0.891   1.697   1.314  S32  7I5  31  
+7I5  O33  O4   O  0  1  N  N  N  16.536   5.614  81.231   0.641   3.048   1.677  O33  7I5  32  
+7I5  O34  O5   O  0  1  N  N  N  18.719   5.460  80.268   1.511   0.797   2.222  O34  7I5  33  
+7I5  C35  C28  C  0  1  N  N  N  20.344   8.418  82.711   3.240   3.879  -0.126  C35  7I5  34  
+7I5  F36  F1   F  0  1  N  N  N  20.306   9.136  81.542   3.359   5.076  -0.842  F36  7I5  35  
+7I5  F37  F2   F  0  1  N  N  N  19.711   9.172  83.605   2.989   4.165   1.221  F37  7I5  36  
+7I5  F38  F3   F  0  1  N  N  N  21.674   8.483  83.091   4.429   3.151  -0.234  F38  7I5  37  
+7I5  C39  C29  C  0  1  N  N  N  12.377   8.923  88.185   6.768  -4.286  -0.814  C39  7I5  38  
+7I5  O40  O6   O  0  1  N  N  N  11.668   9.953  88.292   6.676  -4.769  -1.926  O40  7I5  39  
+7I5  O41  O7   O  0  1  N  N  N  12.325   7.927  88.936   7.625  -4.817   0.083  O41  7I5  40  
+7I5  N22  N1   N  0  1  N  N  N  18.312   7.066  82.263   1.959   1.804   0.053  N22  7I5  41  
+7I5  H1   H1   H  0  1  N  N  N  13.896   9.621  80.286  -2.636  -2.100  -0.641  H1   7I5  42  
+7I5  H2   H2   H  0  1  N  N  N  12.844   8.987  75.398  -4.600  -3.155   3.766  H2   7I5  43  
+7I5  H3   H3   H  0  1  N  N  N  19.640  10.928  76.563  -5.972   0.392   0.631  H3   7I5  44  
+7I5  H4   H4   H  0  1  N  N  N  19.931   6.446  83.402   1.157   3.624  -0.613  H4   7I5  45  
+7I5  H5   H5   H  0  1  N  N  N  20.230   6.582  81.636   2.279   2.834  -1.746  H5   7I5  46  
+7I5  H6   H6   H  0  1  N  N  N  15.974   5.859  86.115   3.321  -1.349  -2.909  H6   7I5  47  
+7I5  H7   H7   H  0  1  N  N  N  15.154   9.868  84.634   5.084  -1.340   1.010  H7   7I5  48  
+7I5  H9   H9   H  0  1  N  N  N  16.523   9.004  80.830  -1.473   0.569   2.632  H9   7I5  49  
+7I5  H10  H10  H  0  1  N  N  N  16.263   6.933  79.084  -0.373  -0.045   0.195  H10  7I5  50  
+7I5  H11  H11  H  0  1  N  N  N  17.825   7.145  77.400  -0.603   2.770  -0.631  H11  7I5  51  
+7I5  H12  H12  H  0  1  N  N  N  19.149   6.956  78.600  -1.275   1.327  -1.460  H12  7I5  52  
+7I5  H14  H14  H  0  1  N  N  N  19.478   9.307  77.793  -3.106   3.056  -0.352  H14  7I5  53  
+7I5  H15  H15  H  0  1  N  N  N  11.530   9.395  79.528  -3.303  -4.406  -0.111  H15  7I5  54  
+7I5  H16  H16  H  0  1  N  N  N  15.208   9.159  76.187  -3.943  -0.844   3.250  H16  7I5  55  
+7I5  H17  H17  H  0  1  N  N  N  19.817  13.066  75.329  -7.799  -0.165  -0.917  H17  7I5  56  
+7I5  H18  H18  H  0  1  N  N  N  15.639  13.943  76.027  -5.089   0.061  -4.217  H18  7I5  57  
+7I5  H19  H19  H  0  1  N  N  N  15.442  11.789  77.292  -3.254   0.626  -2.682  H19  7I5  58  
+7I5  H20  H20  H  0  1  N  N  N  17.117  15.264  74.862  -8.042   0.366  -3.854  H20  7I5  59  
+7I5  H21  H21  H  0  1  N  N  N  10.127   9.211  77.754  -5.268  -5.411   1.915  H21  7I5  60  
+7I5  H22  H22  H  0  1  N  N  N  17.557   5.490  84.238   1.948   0.584  -2.287  H22  7I5  61  
+7I5  H23  H23  H  0  1  N  N  N  16.776   9.472  82.703   3.706   0.594   1.617  H23  7I5  62  
+7I5  H24  H24  H  0  1  N  N  N  14.534   7.249  87.592   5.035  -3.064  -2.346  H24  7I5  63  
+7I5  H25  H25  H  0  1  N  N  N  13.315   9.609  86.200   6.057  -2.738   0.528  H25  7I5  64  
+7I5  H26  H26  H  0  1  N  N  N  11.664   8.068  89.604   8.122  -5.577  -0.249  H26  7I5  65  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+7I5  O20  C17  SING  N  N   1  
+7I5  C17  C16  DOUB  Y  N   2  
+7I5  C17  C18  SING  Y  N   3  
+7I5  C16  C15  SING  Y  N   4  
+7I5  C18  C19  DOUB  Y  N   5  
+7I5  C13  C14  DOUB  Y  N   6  
+7I5  C13  C12  SING  Y  N   7  
+7I5  C15  C08  DOUB  Y  N   8  
+7I5  C19  C08  SING  Y  N   9  
+7I5  C14  C09  SING  Y  N  10  
+7I5  O21  C12  SING  N  N  11  
+7I5  C08  C05  SING  N  N  12  
+7I5  C12  C11  DOUB  Y  N  13  
+7I5  C05  C06  SING  N  N  14  
+7I5  C05  C01  DOUB  N  N  15  
+7I5  C06  C04  SING  N  N  16  
+7I5  C06  O07  SING  N  N  17  
+7I5  C09  C01  SING  N  N  18  
+7I5  C09  C10  DOUB  Y  N  19  
+7I5  C04  C03  SING  N  N  20  
+7I5  C01  C02  SING  N  N  21  
+7I5  C11  C10  SING  Y  N  22  
+7I5  C03  C02  SING  N  N  23  
+7I5  C03  S32  SING  N  N  24  
+7I5  O07  C02  SING  N  N  25  
+7I5  O34  S32  DOUB  N  N  26  
+7I5  S32  O33  DOUB  N  N  27  
+7I5  S32  N22  SING  N  N  28  
+7I5  F36  C35  SING  N  N  29  
+7I5  N22  C24  SING  N  N  30  
+7I5  N22  C23  SING  N  N  31  
+7I5  C24  C35  SING  N  N  32  
+7I5  C35  F38  SING  N  N  33  
+7I5  C35  F37  SING  N  N  34  
+7I5  C23  C29  DOUB  Y  N  35  
+7I5  C23  C25  SING  Y  N  36  
+7I5  C29  C28  SING  Y  N  37  
+7I5  C25  C26  DOUB  Y  N  38  
+7I5  C28  C27  DOUB  Y  N  39  
+7I5  C26  C27  SING  Y  N  40  
+7I5  C27  C30  SING  N  N  41  
+7I5  C30  C31  DOUB  N  E  42  
+7I5  C31  C39  SING  N  N  43  
+7I5  C39  O40  DOUB  N  N  44  
+7I5  C39  O41  SING  N  N  45  
+7I5  C10  H1   SING  N  N  46  
+7I5  C13  H2   SING  N  N  47  
+7I5  C15  H3   SING  N  N  48  
+7I5  C24  H4   SING  N  N  49  
+7I5  C24  H5   SING  N  N  50  
+7I5  C26  H6   SING  N  N  51  
+7I5  C28  H7   SING  N  N  52  
+7I5  C02  H9   SING  N  N  53  
+7I5  C03  H10  SING  N  N  54  
+7I5  C04  H11  SING  N  N  55  
+7I5  C04  H12  SING  N  N  56  
+7I5  C06  H14  SING  N  N  57  
+7I5  C11  H15  SING  N  N  58  
+7I5  C14  H16  SING  N  N  59  
+7I5  C16  H17  SING  N  N  60  
+7I5  C18  H18  SING  N  N  61  
+7I5  C19  H19  SING  N  N  62  
+7I5  O20  H20  SING  N  N  63  
+7I5  O21  H21  SING  N  N  64  
+7I5  C25  H22  SING  N  N  65  
+7I5  C29  H23  SING  N  N  66  
+7I5  C30  H24  SING  N  N  67  
+7I5  C31  H25  SING  N  N  68  
+7I5  O41  H26  SING  N  N  69  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+7I5  SMILES            ACDLabs               12.01  "O=S(=O)(C1CC2OC1C(=C2c1ccc(O)cc1)c1ccc(O)cc1)N(CC(F)(F)F)c1ccc(/C=C/C(=O)O)cc1"  
+7I5  InChI             InChI                 1.03   "InChI=1S/C29H24F3NO7S/c30-29(31,32)16-33(20-8-1-17(2-9-20)3-14-25(36)37)41(38,39)24-15-23-26(18-4-10-21(34)11-5-18)27(28(24)40-23)19-6-12-22(35)13-7-19/h1-14,23-24,28,34-35H,15-16H2,(H,36,37)/b14-3+/t23-,24+,28+/m0/s1"  
+7I5  InChIKey          InChI                 1.03   WTEAVYHKJTUWSK-OARPOOJSSA-N  
+7I5  SMILES_CANONICAL  CACTVS                3.385  "OC(=O)/C=C/c1ccc(cc1)N(CC(F)(F)F)[S](=O)(=O)[C@@H]2C[C@@H]3O[C@H]2C(=C3c4ccc(O)cc4)c5ccc(O)cc5"  
+7I5  SMILES            CACTVS                3.385  "OC(=O)C=Cc1ccc(cc1)N(CC(F)(F)F)[S](=O)(=O)[CH]2C[CH]3O[CH]2C(=C3c4ccc(O)cc4)c5ccc(O)cc5"  
+7I5  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "c1cc(ccc1/C=C/C(=O)O)N(CC(F)(F)F)S(=O)(=O)[C@@H]2C[C@H]3C(=C([C@@H]2O3)c4ccc(cc4)O)c5ccc(cc5)O"  
+7I5  SMILES            "OpenEye OEToolkits"  2.0.7  "c1cc(ccc1C=CC(=O)O)N(CC(F)(F)F)S(=O)(=O)C2CC3C(=C(C2O3)c4ccc(cc4)O)c5ccc(cc5)O"  
+#   #
+loop_
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+7I5  "SYSTEMATIC NAME"  ACDLabs               12.01  "(2E)-3-(4-{[(1S,2R,4S)-5,6-bis(4-hydroxyphenyl)-7-oxabicyclo[2.2.1]hept-5-ene-2-sulfonyl](2,2,2-trifluoroethyl)amino}phenyl)prop-2-enoic acid"  
+7I5  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.7  "(~{E})-3-[4-[[(1~{S},2~{R},4~{S})-5,6-bis(4-hydroxyphenyl)-7-oxabicyclo[2.2.1]hept-5-en-2-yl]sulfonyl-[2,2,2-tris(fluoranyl)ethyl]amino]phenyl]prop-2-enoic acid"  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+7I5  "Create component"  2021-08-11  RCSB  
+7I5  "Initial release"   2021-09-08  RCSB  
+##

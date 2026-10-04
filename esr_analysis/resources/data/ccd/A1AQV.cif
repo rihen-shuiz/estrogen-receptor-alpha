@@ -1,0 +1,148 @@
+data_A1AQV
+# 
+_chem_comp.id                                    A1AQV 
+_chem_comp.name                                  chlordecone 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C10 H2 Cl10 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "(1R,1as,3s,3aR,4r,5ar,5bS,6S)-1,1a,3,3a,4,5,5,5a,5b,6-decachlorooctahydro-2H-1,3,4-(methanetriyl)cyclobuta[cd]pentalene-2,2-diol" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-05-06 
+_chem_comp.pdbx_modified_date                    2024-05-10 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        508.652 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1AQV 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4MG5 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1AQV C4   C1   C  0 1 N N N N N N -5.325 -4.058 21.104 -0.974 -1.450 0.147  C4   A1AQV 1  
+A1AQV C6   C2   C  0 1 N N R N N N -6.318 -5.147 21.504 -0.733 -0.211 1.041  C6   A1AQV 2  
+A1AQV C12  C3   C  0 1 N N R N N N -6.291 -3.027 23.147 0.848  -0.269 -1.068 C12  A1AQV 3  
+A1AQV C18  C4   C  0 1 N N N N N N -8.417 -4.160 22.413 -0.299 1.840  -0.172 C18  A1AQV 4  
+A1AQV C21  C5   C  0 1 N N N N N N -7.325 -4.105 23.505 1.065  1.002  -0.141 C21  A1AQV 5  
+A1AQV C2   C6   C  0 1 N N N N N N -4.315 -4.050 22.255 0.352  -2.254 0.264  C2   A1AQV 6  
+A1AQV O1   O1   O  0 1 N N N N N N -3.510 -5.186 22.219 0.460  -2.897 1.536  O1   A1AQV 7  
+A1AQV C10  C7   C  0 1 N N N N N N -5.238 -4.072 23.477 1.379  -1.095 0.125  C10  A1AQV 8  
+A1AQV C14  C8   C  0 1 N N S N N N -6.352 -3.019 21.516 -0.744 -0.482 -1.036 C14  A1AQV 9  
+A1AQV C16  C9   C  0 1 N N N N N N -7.419 -4.099 21.225 -1.316 0.648  -0.112 C16  A1AQV 10 
+A1AQV C8   C10  C  0 1 N N S N N N -6.262 -5.153 23.138 0.801  0.019  1.029  C8   A1AQV 11 
+A1AQV O3   O2   O  0 1 N N N N N N -3.514 -2.910 22.248 0.484  -3.196 -0.803 O3   A1AQV 12 
+A1AQV CL11 CL1  CL 0 0 N N N N N N -4.487 -4.011 25.032 3.133  -1.503 0.220  CL11 A1AQV 13 
+A1AQV CL13 CL2  CL 0 0 N N N N N N -6.245 -1.471 23.929 1.661  -0.423 -2.670 CL13 A1AQV 14 
+A1AQV CL15 CL3  CL 0 0 N N N N N N -6.408 -1.461 20.752 -1.552 -0.853 -2.604 CL15 A1AQV 15 
+A1AQV CL17 CL4  CL 0 0 N N N N N N -8.131 -4.092 19.640 -3.075 1.038  -0.179 CL17 A1AQV 16 
+A1AQV CL19 CL5  CL 0 0 N N N N N N -9.537 -2.792 22.483 -0.470 2.770  -1.707 CL19 A1AQV 17 
+A1AQV CL20 CL6  CL 0 0 N N N N N N -9.374 -5.644 22.456 -0.446 2.918  1.266  CL20 A1AQV 18 
+A1AQV CL22 CL7  CL 0 0 N N N N N N -7.901 -4.092 25.137 2.616  1.915  -0.247 CL22 A1AQV 19 
+A1AQV CL5  CL8  CL 0 0 N N N N N N -4.642 -4.096 19.502 -2.527 -2.356 0.273  CL5  A1AQV 20 
+A1AQV CL7  CL9  CL 0 0 N N N N N N -6.230 -6.695 20.720 -1.550 -0.147 2.647  CL7  A1AQV 21 
+A1AQV CL9  CL10 CL 0 0 N N N N N N -6.271 -6.722 23.905 1.582  0.356  2.619  CL9  A1AQV 22 
+A1AQV H1   H1   H  0 1 N N N N N N -4.057 -5.963 22.224 1.299  -3.358 1.673  H1   A1AQV 23 
+A1AQV H3   H2   H  0 1 N N N N N N -4.064 -2.136 22.273 1.297  -3.719 -0.768 H3   A1AQV 24 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1AQV O1  C2   SING N N 1  
+A1AQV C2  O3   SING N N 2  
+A1AQV C2  C4   SING N N 3  
+A1AQV C4  CL5  SING N N 4  
+A1AQV C4  C6   SING N N 5  
+A1AQV C6  CL7  SING N N 6  
+A1AQV C6  C8   SING N N 7  
+A1AQV C8  CL9  SING N N 8  
+A1AQV C8  C10  SING N N 9  
+A1AQV C10 CL11 SING N N 10 
+A1AQV C10 C12  SING N N 11 
+A1AQV C12 CL13 SING N N 12 
+A1AQV C12 C14  SING N N 13 
+A1AQV C14 CL15 SING N N 14 
+A1AQV C14 C16  SING N N 15 
+A1AQV C16 CL17 SING N N 16 
+A1AQV C16 C18  SING N N 17 
+A1AQV C18 CL19 SING N N 18 
+A1AQV C18 CL20 SING N N 19 
+A1AQV C18 C21  SING N N 20 
+A1AQV C21 CL22 SING N N 21 
+A1AQV C10 C2   SING N N 22 
+A1AQV C21 C12  SING N N 23 
+A1AQV C14 C4   SING N N 24 
+A1AQV C16 C6   SING N N 25 
+A1AQV C21 C8   SING N N 26 
+A1AQV O1  H1   SING N N 27 
+A1AQV O3  H3   SING N N 28 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1AQV SMILES           ACDLabs              12.01   "ClC12C3(Cl)C4(Cl)C5(Cl)C3(Cl)C(O)(O)C1(Cl)C5(Cl)C2(Cl)C4(Cl)Cl"                                                            
+A1AQV InChI            InChI                1.06    "InChI=1S/C10H2Cl10O2/c11-1-2(12)6(16)4(14)3(13,5(1,15)9(6,19)20)7(1,17)10(21,22)8(2,4)18/h21-22H/t1-,2+,3+,4-,5+,6-,7-,8+" 
+A1AQV InChIKey         InChI                1.06    RGFMILSPOLVADO-DYXRAMCBSA-N                                                                                                 
+A1AQV SMILES_CANONICAL CACTVS               3.385   "OC1(O)C2(Cl)[C@]3(Cl)C4(Cl)C(Cl)(Cl)C5(Cl)[C@]3(Cl)C1(Cl)[C@@]5(Cl)[C@@]24Cl"                                              
+A1AQV SMILES           CACTVS               3.385   "OC1(O)C2(Cl)[C]3(Cl)C4(Cl)C(Cl)(Cl)C5(Cl)[C]3(Cl)C1(Cl)[C]5(Cl)[C]24Cl"                                                    
+A1AQV SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "[C@]12([C@@]3(C4([C@]5(C3(C(C1([C@]5(C2(C4(O)O)Cl)Cl)Cl)(Cl)Cl)Cl)Cl)Cl)Cl)Cl"                                             
+A1AQV SMILES           "OpenEye OEToolkits" 3.1.0.0 "C12(C3(C4(C5(C3(C(C1(C5(C2(C4(O)O)Cl)Cl)Cl)(Cl)Cl)Cl)Cl)Cl)Cl)Cl"                                                          
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1AQV "SYSTEMATIC NAME" ACDLabs              12.01   "(1R,1as,3s,3aR,4r,5ar,5bS,6S)-1,1a,3,3a,4,5,5,5a,5b,6-decachlorooctahydro-2H-1,3,4-(methanetriyl)cyclobuta[cd]pentalene-2,2-diol" 
+A1AQV "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "(2~{S},3~{R},7~{R},8~{S})-1,2,3,4,6,7,8,9,10,10-decakis(chloranyl)pentacyclo[5.3.0.0^{2,6}.0^{3,9}.0^{4,8}]decane-5,5-diol"       
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1AQV "Create component" 2024-05-06 RCSB 
+A1AQV "Initial release"  2024-05-15 RCSB 
+# 
+_pdbx_chem_comp_synonyms.ordinal      1 
+_pdbx_chem_comp_synonyms.comp_id      A1AQV 
+_pdbx_chem_comp_synonyms.name         "(1R,1as,3s,3aR,4r,5ar,5bS,6S)-1,1a,3,3a,4,5,5,5a,5b,6-decachlorooctahydro-2H-1,3,4-(methanetriyl)cyclobuta[cd]pentalene-2,2-diol" 
+_pdbx_chem_comp_synonyms.provenance   PDB 
+_pdbx_chem_comp_synonyms.type         ? 
+# 

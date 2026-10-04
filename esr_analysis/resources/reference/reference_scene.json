@@ -1,0 +1,60 @@
+{
+  "name": "reference_context",
+  "molecules": [
+    {
+      "name": "reference_complex",
+      "path": "data/raw/esr1/7NFB.cif",
+      "chain_key": "7NFB|B|1",
+      "model": "1",
+      "state": 1,
+      "label_asym_id": "B",
+      "auth_asym_id": "B",
+      "colour": "marine",
+      "transform": [
+        1.0000000000000002,
+        -2.85797669535406e-17,
+        6.862444088614541e-16,
+        -2.1316282072803006e-14,
+        4.876670827846308e-16,
+        1.0000000000000007,
+        5.0019126522720056e-17,
+        -1.7763568394002505e-15,
+        -1.1512144320842103e-16,
+        1.0258639037921208e-16,
+        1.0000000000000002,
+        -3.552713678800501e-15,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "peptides": [
+        {
+          "label_asym_id": "C",
+          "auth_asym_id": "C"
+        },
+        {
+          "label_asym_id": "D",
+          "auth_asym_id": "D"
+        }
+      ],
+      "highlight_resi": null,
+      "highlight_label": null,
+      "highlight_altloc": null,
+      "entry_title": "ER-PRS*(+) (Y537S) in complex with genistein and SRC-2 coactivator peptide",
+      "ligand_codes": [
+        "GEN"
+      ]
+    }
+  ],
+  "caption": "Reference 7NFB|B|1: author chain B, label chain B, model 1. Selected receptor blue; other polymers grey; short peptides orange; organic molecules sticks. Deposited title: ER-PRS*(+) (Y537S) in complex with genistein and SRC-2 coactivator peptide Canonical ESR1 differences: 28; 28 annotated engineered mutations. Saved contact assignments: 7NFB|B|1: GEN (pocket_compatible). Green carbon sticks: GEN throughout the ASU, including other receptor copies; other organic carbons grey. Deposited asymmetric unit; waters and ions hidden. Contacts alone do not establish binding mechanism.",
+  "overlay": false,
+  "width": 1500,
+  "height": 1000,
+  "legend": [
+    "Blue: reference 7NFB|B|1",
+    "Grey: other polymers; orange: short peptides",
+    "Green carbons: GEN across the ASU",
+    "Canonical ESR1 differences: 28; 28 annotated engineered mutations."
+  ]
+}

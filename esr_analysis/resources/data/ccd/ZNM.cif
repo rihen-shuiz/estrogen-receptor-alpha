@@ -1,0 +1,228 @@
+data_ZNM
+#
+
+_chem_comp.id                                   ZNM
+_chem_comp.name                                 "3-[(1R,3R)-1-(2,6-difluoro-4-{[1-(3-fluoropropyl)azetidin-3-yl]amino}phenyl)-3-methyl-1,3,4,9-tetrahydro-2H-pyrido[3,4-b]indol-2-yl]-2,2-difluoropropan-1-ol"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C27 H31 F5 N4 O"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2021-05-11
+_chem_comp.pdbx_modified_date                   2021-05-28
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       522.553
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    ZNM
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       7MSA
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+ZNM  C4   C1   C  0  1  N  N  N  -64.802  21.223  -86.421    4.840  -0.745  -0.218  C4   ZNM   1  
+ZNM  C14  C2   C  0  1  Y  N  N  -66.971  22.258  -85.722    3.045   0.869   0.507  C14  ZNM   2  
+ZNM  C5   C3   C  0  1  Y  N  N  -65.822  22.321  -86.449    4.281   0.637   0.011  C5   ZNM   3  
+ZNM  C6   C4   C  0  1  Y  N  N  -65.857  23.552  -87.179    4.894   1.925  -0.228  C6   ZNM   4  
+ZNM  C11  C5   C  0  1  Y  N  N  -67.063  24.194  -86.838    3.932   2.893   0.162  C11  ZNM   5  
+ZNM  C7   C6   C  0  1  Y  N  N  -65.019  24.159  -88.109    6.144   2.305  -0.726  C7   ZNM   6  
+ZNM  C8   C7   C  0  1  Y  N  N  -65.388  25.365  -88.686    6.393   3.652  -0.817  C8   ZNM   7  
+ZNM  C9   C8   C  0  1  Y  N  N  -66.592  25.972  -88.353    5.459   4.601  -0.437  C9   ZNM   8  
+ZNM  C10  C9   C  0  1  Y  N  N  -67.443  25.395  -87.423    4.213   4.253   0.058  C10  ZNM   9  
+ZNM  C1   C10  C  0  1  N  N  N  -64.489  20.766  -83.952    4.213  -1.576   2.058  C1   ZNM  10  
+ZNM  C2   C11  C  0  1  N  N  R  -65.074  20.264  -85.263    3.968  -1.742   0.557  C2   ZNM  11  
+ZNM  N12  N1   N  0  1  Y  N  N  -67.727  23.396  -85.923    2.829   2.217   0.600  N12  ZNM  12  
+ZNM  C15  C12  C  0  1  N  N  R  -67.434  21.066  -84.945    2.088  -0.237   0.884  C15  ZNM  13  
+ZNM  N17  N2   N  0  1  N  N  N  -66.513  19.942  -85.187    2.551  -1.487   0.260  N17  ZNM  14  
+ZNM  C18  C13  C  0  1  N  N  N  -66.792  18.822  -84.278    1.715  -2.622   0.672  C18  ZNM  15  
+ZNM  C19  C14  C  0  1  N  N  N  -66.803  17.416  -84.844    1.848  -3.752  -0.352  C19  ZNM  16  
+ZNM  C20  C15  C  0  1  N  N  N  -67.243  16.466  -83.754    0.871  -4.875  -0.002  C20  ZNM  17  
+ZNM  O21  O1   O  0  1  N  N  N  -66.456  16.666  -82.586   -0.465  -4.368  -0.024  O21  ZNM  18  
+ZNM  F22  F1   F  0  1  N  N  N  -67.631  17.306  -85.936    1.557  -3.261  -1.629  F22  ZNM  19  
+ZNM  F23  F2   F  0  1  N  N  N  -65.569  17.051  -85.313    3.156  -4.248  -0.331  F23  ZNM  20  
+ZNM  C24  C16  C  0  1  Y  N  N  -68.782  20.672  -85.439    0.705   0.098   0.389  C24  ZNM  21  
+ZNM  C25  C17  C  0  1  Y  N  N  -69.065  20.441  -86.778    0.404  -0.025  -0.957  C25  ZNM  22  
+ZNM  C26  C18  C  0  1  Y  N  N  -70.284  20.031  -87.248   -0.865   0.283  -1.414  C26  ZNM  23  
+ZNM  C27  C19  C  0  1  Y  N  N  -71.310  19.801  -86.342   -1.837   0.716  -0.521  C27  ZNM  24  
+ZNM  C28  C20  C  0  1  Y  N  N  -71.093  20.041  -84.992   -1.533   0.838   0.828  C28  ZNM  25  
+ZNM  C29  C21  C  0  1  Y  N  N  -69.848  20.442  -84.581   -0.264   0.524   1.281  C29  ZNM  26  
+ZNM  F30  F3   F  0  1  N  N  N  -69.612  20.513  -83.254    0.031   0.637   2.595  F30  ZNM  27  
+ZNM  N31  N3   N  0  1  N  N  N  -72.467  19.165  -86.755   -3.119   1.028  -0.980  N31  ZNM  28  
+ZNM  C32  C22  C  0  1  N  N  N  -73.387  19.642  -87.754   -4.144   1.484  -0.038  C32  ZNM  29  
+ZNM  C33  C23  C  0  1  N  N  N  -72.854  20.092  -89.135   -5.270   2.302  -0.695  C33  ZNM  30  
+ZNM  N34  N4   N  0  1  N  N  N  -74.263  19.767  -89.489   -6.195   1.537   0.170  N34  ZNM  31  
+ZNM  C35  C24  C  0  1  N  N  N  -74.114  18.574  -88.607   -5.220   0.426   0.267  C35  ZNM  32  
+ZNM  C36  C25  C  0  1  N  N  N  -74.671  19.681  -90.895   -7.393   1.125  -0.574  C36  ZNM  33  
+ZNM  C37  C26  C  0  1  N  N  N  -76.167  19.475  -91.076   -8.430   0.562   0.400  C37  ZNM  34  
+ZNM  C38  C27  C  0  1  N  N  N  -76.758  20.314  -92.233   -9.677   0.133  -0.376  C38  ZNM  35  
+ZNM  F39  F4   F  0  1  N  N  N  -77.699  21.218  -91.733  -10.626  -0.382   0.515  F39  ZNM  36  
+ZNM  F40  F5   F  0  1  N  N  N  -68.048  20.545  -87.666    1.350  -0.445  -1.825  F40  ZNM  37  
+ZNM  H1   H1   H  0  1  N  N  N  -64.844  20.666  -87.369    4.813  -0.981  -1.282  H1   ZNM  38  
+ZNM  H2   H2   H  0  1  N  N  N  -63.801  21.663  -86.299    5.866  -0.793   0.145  H2   ZNM  39  
+ZNM  H3   H3   H  0  1  N  N  N  -64.084  23.692  -88.381    6.880   1.572  -1.025  H3   ZNM  40  
+ZNM  H4   H4   H  0  1  N  N  N  -64.732  25.837  -89.402    7.349   3.983  -1.197  H4   ZNM  41  
+ZNM  H5   H5   H  0  1  N  N  N  -66.868  26.904  -88.824    5.710   5.647  -0.531  H5   ZNM  42  
+ZNM  H6   H6   H  0  1  N  N  N  -68.378  25.868  -87.160    3.493   5.003   0.351  H6   ZNM  43  
+ZNM  H7   H7   H  0  1  N  N  N  -64.710  20.045  -83.151    3.956  -0.560   2.357  H7   ZNM  44  
+ZNM  H8   H8   H  0  1  N  N  N  -63.399  20.877  -84.055    3.594  -2.284   2.608  H8   ZNM  45  
+ZNM  H9   H9   H  0  1  N  N  N  -64.934  21.740  -83.701    5.264  -1.764   2.277  H9   ZNM  46  
+ZNM  H10  H10  H  0  1  N  N  N  -64.547  19.329  -85.503    4.225  -2.759   0.257  H10  ZNM  47  
+ZNM  H11  H11  H  0  1  N  N  N  -68.601  23.606  -85.484    2.015   2.631   0.928  H11  ZNM  48  
+ZNM  H12  H12  H  0  1  N  N  N  -67.476  21.305  -83.872    2.071  -0.353   1.968  H12  ZNM  49  
+ZNM  H14  H14  H  0  1  N  N  N  -66.028  18.848  -83.487    2.040  -2.978   1.649  H14  ZNM  50  
+ZNM  H15  H15  H  0  1  N  N  N  -67.783  19.002  -83.836    0.673  -2.305   0.728  H15  ZNM  51  
+ZNM  H16  H16  H  0  1  N  N  N  -68.301  16.650  -83.516    0.966  -5.680  -0.731  H16  ZNM  52  
+ZNM  H17  H17  H  0  1  N  N  N  -67.120  15.430  -84.103    1.098  -5.258   0.993  H17  ZNM  53  
+ZNM  H18  H18  H  0  1  N  N  N  -66.739  16.065  -81.906   -1.140  -5.028   0.189  H18  ZNM  54  
+ZNM  H19  H19  H  0  1  N  N  N  -70.444  19.889  -88.307   -1.100   0.188  -2.464  H19  ZNM  55  
+ZNM  H20  H20  H  0  1  N  N  N  -71.892  19.914  -84.277   -2.288   1.175   1.524  H20  ZNM  56  
+ZNM  H21  H21  H  0  1  N  N  N  -73.015  19.055  -85.926   -3.331   0.942  -1.923  H21  ZNM  57  
+ZNM  H22  H22  H  0  1  N  N  N  -74.102  20.375  -87.352   -3.724   1.952   0.853  H22  ZNM  58  
+ZNM  H23  H23  H  0  1  N  N  N  -72.079  19.457  -89.589   -5.232   3.366  -0.465  H23  ZNM  59  
+ZNM  H24  H24  H  0  1  N  N  N  -72.561  21.148  -89.223   -5.395   2.101  -1.759  H24  ZNM  60  
+ZNM  H26  H26  H  0  1  N  N  N  -75.042  18.161  -88.184   -5.330  -0.325  -0.515  H26  ZNM  61  
+ZNM  H27  H27  H  0  1  N  N  N  -73.492  17.755  -88.996   -5.144  -0.005   1.265  H27  ZNM  62  
+ZNM  H28  H28  H  0  1  N  N  N  -74.143  18.836  -91.361   -7.812   1.987  -1.093  H28  ZNM  63  
+ZNM  H29  H29  H  0  1  N  N  N  -74.384  20.615  -91.400   -7.123   0.359  -1.301  H29  ZNM  64  
+ZNM  H30  H30  H  0  1  N  N  N  -76.675  19.759  -90.143   -8.011  -0.300   0.919  H30  ZNM  65  
+ZNM  H31  H31  H  0  1  N  N  N  -76.351  18.411  -91.285   -8.700   1.328   1.126  H31  ZNM  66  
+ZNM  H32  H32  H  0  1  N  N  N  -77.245  19.644  -92.957  -10.097   0.994  -0.895  H32  ZNM  67  
+ZNM  H33  H33  H  0  1  N  N  N  -75.949  20.868  -92.732   -9.408  -0.633  -1.103  H33  ZNM  68  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+ZNM  C38  F39  SING  N  N   1  
+ZNM  C38  C37  SING  N  N   2  
+ZNM  C37  C36  SING  N  N   3  
+ZNM  C36  N34  SING  N  N   4  
+ZNM  N34  C33  SING  N  N   5  
+ZNM  N34  C35  SING  N  N   6  
+ZNM  C33  C32  SING  N  N   7  
+ZNM  C8   C9   DOUB  Y  N   8  
+ZNM  C8   C7   SING  Y  N   9  
+ZNM  C35  C32  SING  N  N  10  
+ZNM  C9   C10  SING  Y  N  11  
+ZNM  C7   C6   DOUB  Y  N  12  
+ZNM  C32  N31  SING  N  N  13  
+ZNM  F40  C25  SING  N  N  14  
+ZNM  C10  C11  DOUB  Y  N  15  
+ZNM  C26  C25  DOUB  Y  N  16  
+ZNM  C26  C27  SING  Y  N  17  
+ZNM  C6   C11  SING  Y  N  18  
+ZNM  C6   C5   SING  Y  N  19  
+ZNM  C11  N12  SING  Y  N  20  
+ZNM  C25  C24  SING  Y  N  21  
+ZNM  N31  C27  SING  N  N  22  
+ZNM  C5   C4   SING  N  N  23  
+ZNM  C5   C14  DOUB  Y  N  24  
+ZNM  C4   C2   SING  N  N  25  
+ZNM  C27  C28  DOUB  Y  N  26  
+ZNM  F22  C19  SING  N  N  27  
+ZNM  N12  C14  SING  Y  N  28  
+ZNM  C14  C15  SING  N  N  29  
+ZNM  C24  C15  SING  N  N  30  
+ZNM  C24  C29  DOUB  Y  N  31  
+ZNM  F23  C19  SING  N  N  32  
+ZNM  C2   N17  SING  N  N  33  
+ZNM  C2   C1   SING  N  N  34  
+ZNM  N17  C15  SING  N  N  35  
+ZNM  N17  C18  SING  N  N  36  
+ZNM  C28  C29  SING  Y  N  37  
+ZNM  C19  C18  SING  N  N  38  
+ZNM  C19  C20  SING  N  N  39  
+ZNM  C29  F30  SING  N  N  40  
+ZNM  C20  O21  SING  N  N  41  
+ZNM  C4   H1   SING  N  N  42  
+ZNM  C4   H2   SING  N  N  43  
+ZNM  C7   H3   SING  N  N  44  
+ZNM  C8   H4   SING  N  N  45  
+ZNM  C9   H5   SING  N  N  46  
+ZNM  C10  H6   SING  N  N  47  
+ZNM  C1   H7   SING  N  N  48  
+ZNM  C1   H8   SING  N  N  49  
+ZNM  C1   H9   SING  N  N  50  
+ZNM  C2   H10  SING  N  N  51  
+ZNM  N12  H11  SING  N  N  52  
+ZNM  C15  H12  SING  N  N  53  
+ZNM  C18  H14  SING  N  N  54  
+ZNM  C18  H15  SING  N  N  55  
+ZNM  C20  H16  SING  N  N  56  
+ZNM  C20  H17  SING  N  N  57  
+ZNM  O21  H18  SING  N  N  58  
+ZNM  C26  H19  SING  N  N  59  
+ZNM  C28  H20  SING  N  N  60  
+ZNM  N31  H21  SING  N  N  61  
+ZNM  C32  H22  SING  N  N  62  
+ZNM  C33  H23  SING  N  N  63  
+ZNM  C33  H24  SING  N  N  64  
+ZNM  C35  H26  SING  N  N  65  
+ZNM  C35  H27  SING  N  N  66  
+ZNM  C36  H28  SING  N  N  67  
+ZNM  C36  H29  SING  N  N  68  
+ZNM  C37  H30  SING  N  N  69  
+ZNM  C37  H31  SING  N  N  70  
+ZNM  C38  H32  SING  N  N  71  
+ZNM  C38  H33  SING  N  N  72  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+ZNM  SMILES            ACDLabs               12.01  "FCCCN1CC(C1)Nc1cc(F)c(c(F)c1)C1c2[NH]c3ccccc3c2CC(C)N1CC(F)(F)CO"  
+ZNM  InChI             InChI                 1.03   "InChI=1S/C27H31F5N4O/c1-16-9-20-19-5-2-3-6-23(19)34-25(20)26(36(16)14-27(31,32)15-37)24-21(29)10-17(11-22(24)30)33-18-12-35(13-18)8-4-7-28/h2-3,5-6,10-11,16,18,26,33-34,37H,4,7-9,12-15H2,1H3/t16-,26-/m1/s1"  
+ZNM  InChIKey          InChI                 1.03   GQCXHIKRWBIQMD-AKJBCIBTSA-N  
+ZNM  SMILES_CANONICAL  CACTVS                3.385  "C[C@@H]1Cc2c([nH]c3ccccc23)[C@H](N1CC(F)(F)CO)c4c(F)cc(NC5CN(CCCF)C5)cc4F"  
+ZNM  SMILES            CACTVS                3.385  "C[CH]1Cc2c([nH]c3ccccc23)[CH](N1CC(F)(F)CO)c4c(F)cc(NC5CN(CCCF)C5)cc4F"  
+ZNM  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "C[C@@H]1Cc2c3ccccc3[nH]c2[C@H](N1CC(CO)(F)F)c4c(cc(cc4F)NC5CN(C5)CCCF)F"  
+ZNM  SMILES            "OpenEye OEToolkits"  2.0.7  "CC1Cc2c3ccccc3[nH]c2C(N1CC(CO)(F)F)c4c(cc(cc4F)NC5CN(C5)CCCF)F"  
+#   #
+loop_
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+ZNM  "SYSTEMATIC NAME"  ACDLabs               12.01  "3-[(1R,3R)-1-(2,6-difluoro-4-{[1-(3-fluoropropyl)azetidin-3-yl]amino}phenyl)-3-methyl-1,3,4,9-tetrahydro-2H-pyrido[3,4-b]indol-2-yl]-2,2-difluoropropan-1-ol"  
+ZNM  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.7  "3-[(1~{R},3~{R})-1-[2,6-bis(fluoranyl)-4-[[1-(3-fluoranylpropyl)azetidin-3-yl]amino]phenyl]-3-methyl-1,3,4,9-tetrahydropyrido[3,4-b]indol-2-yl]-2,2-bis(fluoranyl)propan-1-ol"  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+ZNM  "Create component"  2021-05-11  RCSB  
+ZNM  "Initial release"   2021-06-02  RCSB  
+##

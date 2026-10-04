@@ -1,0 +1,240 @@
+data_A1AEA
+# 
+_chem_comp.id                                    A1AEA 
+_chem_comp.name                                  palazestrant 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C28 H36 F N3 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "(1R,3R)-2-(2-fluoro-2-methylpropyl)-3-methyl-1-{4-[(1-propylazetidin-3-yl)oxy]phenyl}-2,3,4,9-tetrahydro-1H-pyrido[3,4-b]indole" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-02-06 
+_chem_comp.pdbx_modified_date                    2025-03-14 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        449.603 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1AEA 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        8VV1 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              ? 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1AEA CAW C1  C 0 1 N N N N N N 19.086 -44.529 17.516 2.067   3.356  1.778  CAW A1AEA 1  
+A1AEA CAV C2  C 0 1 N N N N N N 20.325 -43.716 17.931 2.593   3.772  0.403  CAV A1AEA 2  
+A1AEA CAY C3  C 0 1 N N N N N N 20.517 -43.824 19.453 2.032   5.147  0.036  CAY A1AEA 3  
+A1AEA FAX F1  F 0 1 N N N N N N 20.127 -42.424 17.616 3.990   3.832  0.437  FAX A1AEA 4  
+A1AEA CAU C4  C 0 1 N N N N N N 21.570 -44.282 17.182 2.152   2.746  -0.643 CAU A1AEA 5  
+A1AEA NAL N1  N 0 1 N N N N N N 22.788 -43.662 17.645 2.589   1.406  -0.230 NAL A1AEA 6  
+A1AEA CAK C5  C 0 1 N N R N N N 23.093 -42.563 16.777 4.026   1.221  -0.478 CAK A1AEA 7  
+A1AEA CAN C6  C 0 1 N N N N N N 23.455 -43.015 15.358 4.262   1.004  -1.974 CAN A1AEA 8  
+A1AEA CAJ C7  C 0 1 N N N N N N 24.174 -41.685 17.375 4.527   -0.002 0.302  CAJ A1AEA 9  
+A1AEA CAG C8  C 0 1 Y N N N N N 25.317 -42.612 17.708 3.582   -1.146 0.031  CAG A1AEA 10 
+A1AEA CAE C9  C 0 1 Y N N N N N 26.787 -42.345 17.927 3.764   -2.561 0.268  CAE A1AEA 11 
+A1AEA CAD C10 C 0 1 Y N N N N N 27.555 -41.194 17.893 4.818   -3.308 0.803  CAD A1AEA 12 
+A1AEA CAC C11 C 0 1 Y N N N N N 28.924 -41.230 18.286 4.639   -4.667 0.881  CAC A1AEA 13 
+A1AEA CAB C12 C 0 1 Y N N N N N 29.556 -42.506 18.506 3.474   -5.282 0.454  CAB A1AEA 14 
+A1AEA CAA C13 C 0 1 Y N N N N N 28.743 -43.656 18.460 2.415   -4.568 -0.079 CAA A1AEA 15 
+A1AEA CAF C14 C 0 1 Y N N N N N 27.402 -43.547 18.211 2.568   -3.187 -0.171 CAF A1AEA 16 
+A1AEA NAI N2  N 0 1 Y N N N N N 26.437 -44.479 18.179 1.741   -2.204 -0.635 NAI A1AEA 17 
+A1AEA CAH C15 C 0 1 Y N N N N N 25.206 -44.014 17.897 2.353   -0.986 -0.510 CAH A1AEA 18 
+A1AEA CAM C16 C 0 1 N N R N N N 23.827 -44.646 17.750 1.792   0.362  -0.894 CAM A1AEA 19 
+A1AEA CAO C17 C 0 1 Y N N N N N 23.567 -45.470 19.007 0.356   0.460  -0.446 CAO A1AEA 20 
+A1AEA CAT C18 C 0 1 Y N N N N N 23.697 -44.849 20.256 -0.666  0.276  -1.359 CAT A1AEA 21 
+A1AEA CAS C19 C 0 1 Y N N N N N 23.452 -45.575 21.432 -1.982  0.365  -0.951 CAS A1AEA 22 
+A1AEA CAP C20 C 0 1 Y N N N N N 23.200 -46.824 18.937 0.063   0.728  0.878  CAP A1AEA 23 
+A1AEA CAQ C21 C 0 1 Y N N N N N 22.962 -47.550 20.120 -1.252  0.817  1.292  CAQ A1AEA 24 
+A1AEA CAR C22 C 0 1 Y N N N N N 23.097 -46.932 21.375 -2.279  0.639  0.376  CAR A1AEA 25 
+A1AEA OAZ O1  O 0 1 N N N N N N 22.837 -47.669 22.586 -3.573  0.727  0.780  OAZ A1AEA 26 
+A1AEA CBA C23 C 0 1 N N N N N N 24.008 -48.027 23.348 -4.576  0.656  -0.235 CBA A1AEA 27 
+A1AEA CBD C24 C 0 1 N N N N N N 23.677 -49.049 24.330 -5.911  1.311  0.165  CBD A1AEA 28 
+A1AEA CBB C25 C 0 1 N N N N N N 24.418 -47.000 24.284 -5.348  -0.675 -0.252 CBB A1AEA 29 
+A1AEA NBC N3  N 0 1 N N N N N N 24.543 -48.177 25.103 -6.561  0.144  -0.471 NBC A1AEA 30 
+A1AEA CBE C26 C 0 1 N N N N N N 24.073 -47.952 26.360 -7.681  -0.344 0.345  CBE A1AEA 31 
+A1AEA CBF C27 C 0 1 N N N N N N 24.953 -48.656 27.413 -8.478  -1.379 -0.451 CBF A1AEA 32 
+A1AEA CBG C28 C 0 1 N N N N N N 24.475 -50.096 27.638 -9.645  -1.887 0.399  CBG A1AEA 33 
+A1AEA H1  H1  H 0 1 N N N N N N 18.945 -44.454 16.428 0.978   3.310  1.752  H1  A1AEA 34 
+A1AEA H2  H2  H 0 1 N N N N N N 19.229 -45.583 17.795 2.466   2.376  2.039  H2  A1AEA 35 
+A1AEA H3  H3  H 0 1 N N N N N N 18.198 -44.131 18.029 2.381   4.087  2.523  H3  A1AEA 36 
+A1AEA H4  H4  H 0 1 N N N N N N 21.402 -43.244 19.754 2.341   5.877  0.785  H4  A1AEA 37 
+A1AEA H5  H5  H 0 1 N N N N N N 19.628 -43.427 19.964 2.413   5.446  -0.941 H5  A1AEA 38 
+A1AEA H6  H6  H 0 1 N N N N N N 20.659 -44.879 19.731 0.944   5.099  0.003  H6  A1AEA 39 
+A1AEA H7  H7  H 0 1 N N N N N N 21.631 -45.366 17.357 1.066   2.762  -0.732 H7  A1AEA 40 
+A1AEA H8  H8  H 0 1 N N N N N N 21.458 -44.090 16.105 2.599   2.993  -1.606 H8  A1AEA 41 
+A1AEA H10 H10 H 0 1 N N N N N N 22.190 -41.942 16.689 4.569   2.108  -0.150 H10 A1AEA 42 
+A1AEA H11 H11 H 0 1 N N N N N N 23.679 -42.134 14.738 3.907   1.872  -2.528 H11 A1AEA 43 
+A1AEA H12 H12 H 0 1 N N N N N N 24.338 -43.670 15.396 5.328   0.867  -2.158 H12 A1AEA 44 
+A1AEA H13 H13 H 0 1 N N N N N N 22.608 -43.565 14.921 3.720   0.117  -2.302 H13 A1AEA 45 
+A1AEA H14 H14 H 0 1 N N N N N N 24.496 -40.925 16.648 5.530   -0.266 -0.030 H14 A1AEA 46 
+A1AEA H15 H15 H 0 1 N N N N N N 23.805 -41.189 18.285 4.538   0.221  1.369  H15 A1AEA 47 
+A1AEA H16 H16 H 0 1 N N N N N N 27.114 -40.264 17.567 5.731   -2.838 1.138  H16 A1AEA 48 
+A1AEA H17 H17 H 0 1 N N N N N N 29.480 -40.314 18.417 5.433   -5.276 1.289  H17 A1AEA 49 
+A1AEA H18 H18 H 0 1 N N N N N N 30.616 -42.579 18.699 3.389   -6.355 0.539  H18 A1AEA 50 
+A1AEA H19 H19 H 0 1 N N N N N N 29.181 -44.630 18.622 1.512   -5.059 -0.409 H19 A1AEA 51 
+A1AEA H20 H20 H 0 1 N N N N N N 26.619 -45.447 18.352 0.853   -2.347 -0.998 H20 A1AEA 52 
+A1AEA H21 H21 H 0 1 N N N N N N 23.822 -45.309 16.872 1.851   0.489  -1.975 H21 A1AEA 53 
+A1AEA H22 H22 H 0 1 N N N N N N 23.986 -43.810 20.314 -0.434  0.063  -2.392 H22 A1AEA 54 
+A1AEA H23 H23 H 0 1 N N N N N N 23.537 -45.085 22.390 -2.780  0.222  -1.664 H23 A1AEA 55 
+A1AEA H24 H24 H 0 1 N N N N N N 23.100 -47.308 17.977 0.863   0.868  1.590  H24 A1AEA 56 
+A1AEA H25 H25 H 0 1 N N N N N N 22.674 -48.589 20.062 -1.480  1.027  2.326  H25 A1AEA 57 
+A1AEA H26 H26 H 0 1 N N N N N N 24.838 -48.342 22.699 -4.212  0.966  -1.215 H26 A1AEA 58 
+A1AEA H27 H27 H 0 1 N N N N N N 22.625 -49.104 24.647 -6.066  1.368  1.242  H27 A1AEA 59 
+A1AEA H28 H28 H 0 1 N N N N N N 24.053 -50.063 24.130 -6.107  2.255  -0.345 H28 A1AEA 60 
+A1AEA H29 H29 H 0 1 N N N N N N 25.351 -46.467 24.048 -5.095  -1.319 -1.094 H29 A1AEA 61 
+A1AEA H30 H30 H 0 1 N N N N N N 23.647 -46.275 24.584 -5.340  -1.200 0.704  H30 A1AEA 62 
+A1AEA H32 H32 H 0 1 N N N N N N 24.074 -46.870 26.556 -7.294  -0.803 1.254  H32 A1AEA 63 
+A1AEA H33 H33 H 0 1 N N N N N N 23.045 -48.337 26.434 -8.330  0.492  0.607  H33 A1AEA 64 
+A1AEA H34 H34 H 0 1 N N N N N N 25.995 -48.671 27.062 -8.864  -0.919 -1.361 H34 A1AEA 65 
+A1AEA H35 H35 H 0 1 N N N N N N 24.894 -48.103 28.362 -7.829  -2.214 -0.714 H35 A1AEA 66 
+A1AEA H36 H36 H 0 1 N N N N N N 25.113 -50.581 28.391 -10.213 -2.625 -0.168 H36 A1AEA 67 
+A1AEA H37 H37 H 0 1 N N N N N N 23.434 -50.085 27.992 -9.258  -2.347 1.308  H37 A1AEA 68 
+A1AEA H38 H38 H 0 1 N N N N N N 24.535 -50.654 26.692 -10.294 -1.052 0.661  H38 A1AEA 69 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1AEA CAW CAV SING N N 1  
+A1AEA CAV CAY SING N N 2  
+A1AEA CAV FAX SING N N 3  
+A1AEA CAV CAU SING N N 4  
+A1AEA CAU NAL SING N N 5  
+A1AEA NAL CAK SING N N 6  
+A1AEA NAL CAM SING N N 7  
+A1AEA CAK CAN SING N N 8  
+A1AEA CAK CAJ SING N N 9  
+A1AEA CAJ CAG SING N N 10 
+A1AEA CAG CAE SING Y N 11 
+A1AEA CAG CAH DOUB Y N 12 
+A1AEA CAE CAD DOUB Y N 13 
+A1AEA CAE CAF SING Y N 14 
+A1AEA CAD CAC SING Y N 15 
+A1AEA CAC CAB DOUB Y N 16 
+A1AEA CAB CAA SING Y N 17 
+A1AEA CAA CAF DOUB Y N 18 
+A1AEA CAF NAI SING Y N 19 
+A1AEA NAI CAH SING Y N 20 
+A1AEA CAH CAM SING N N 21 
+A1AEA CAM CAO SING N N 22 
+A1AEA CAO CAT DOUB Y N 23 
+A1AEA CAO CAP SING Y N 24 
+A1AEA CAT CAS SING Y N 25 
+A1AEA CAS CAR DOUB Y N 26 
+A1AEA CAP CAQ DOUB Y N 27 
+A1AEA CAQ CAR SING Y N 28 
+A1AEA CAR OAZ SING N N 29 
+A1AEA OAZ CBA SING N N 30 
+A1AEA CBA CBD SING N N 31 
+A1AEA CBA CBB SING N N 32 
+A1AEA CBD NBC SING N N 33 
+A1AEA CBB NBC SING N N 34 
+A1AEA NBC CBE SING N N 35 
+A1AEA CBE CBF SING N N 36 
+A1AEA CBF CBG SING N N 37 
+A1AEA CAW H1  SING N N 38 
+A1AEA CAW H2  SING N N 39 
+A1AEA CAW H3  SING N N 40 
+A1AEA CAY H4  SING N N 41 
+A1AEA CAY H5  SING N N 42 
+A1AEA CAY H6  SING N N 43 
+A1AEA CAU H7  SING N N 44 
+A1AEA CAU H8  SING N N 45 
+A1AEA CAK H10 SING N N 46 
+A1AEA CAN H11 SING N N 47 
+A1AEA CAN H12 SING N N 48 
+A1AEA CAN H13 SING N N 49 
+A1AEA CAJ H14 SING N N 50 
+A1AEA CAJ H15 SING N N 51 
+A1AEA CAD H16 SING N N 52 
+A1AEA CAC H17 SING N N 53 
+A1AEA CAB H18 SING N N 54 
+A1AEA CAA H19 SING N N 55 
+A1AEA NAI H20 SING N N 56 
+A1AEA CAM H21 SING N N 57 
+A1AEA CAT H22 SING N N 58 
+A1AEA CAS H23 SING N N 59 
+A1AEA CAP H24 SING N N 60 
+A1AEA CAQ H25 SING N N 61 
+A1AEA CBA H26 SING N N 62 
+A1AEA CBD H27 SING N N 63 
+A1AEA CBD H28 SING N N 64 
+A1AEA CBB H29 SING N N 65 
+A1AEA CBB H30 SING N N 66 
+A1AEA CBE H32 SING N N 67 
+A1AEA CBE H33 SING N N 68 
+A1AEA CBF H34 SING N N 69 
+A1AEA CBF H35 SING N N 70 
+A1AEA CBG H36 SING N N 71 
+A1AEA CBG H37 SING N N 72 
+A1AEA CBG H38 SING N N 73 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1AEA SMILES           ACDLabs              12.01 "CCCN1CC(C1)Oc1ccc(cc1)C1c2[NH]c3ccccc3c2CC(C)N1CC(C)(C)F"                                                                                                                        
+A1AEA InChI            InChI                1.06  "InChI=1S/C28H36FN3O/c1-5-14-31-16-22(17-31)33-21-12-10-20(11-13-21)27-26-24(23-8-6-7-9-25(23)30-26)15-19(2)32(27)18-28(3,4)29/h6-13,19,22,27,30H,5,14-18H2,1-4H3/t19-,27-/m1/s1" 
+A1AEA InChIKey         InChI                1.06  LBSFUBLFDCAEKV-XHCCPWGMSA-N                                                                                                                                                       
+A1AEA SMILES_CANONICAL CACTVS               3.385 "CCCN1CC(C1)Oc2ccc(cc2)[C@H]3N(CC(C)(C)F)[C@H](C)Cc4c3[nH]c5ccccc45"                                                                                                              
+A1AEA SMILES           CACTVS               3.385 "CCCN1CC(C1)Oc2ccc(cc2)[CH]3N(CC(C)(C)F)[CH](C)Cc4c3[nH]c5ccccc45"                                                                                                                
+A1AEA SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CCCN1CC(C1)Oc2ccc(cc2)[C@@H]3c4c(c5ccccc5[nH]4)C[C@H](N3CC(C)(C)F)C"                                                                                                             
+A1AEA SMILES           "OpenEye OEToolkits" 2.0.7 "CCCN1CC(C1)Oc2ccc(cc2)C3c4c(c5ccccc5[nH]4)CC(N3CC(C)(C)F)C"                                                                                                                      
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1AEA "SYSTEMATIC NAME" ACDLabs              12.01 "(1R,3R)-2-(2-fluoro-2-methylpropyl)-3-methyl-1-{4-[(1-propylazetidin-3-yl)oxy]phenyl}-2,3,4,9-tetrahydro-1H-pyrido[3,4-b]indole"     
+A1AEA "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(1~{R},3~{R})-2-(2-fluoranyl-2-methyl-propyl)-3-methyl-1-[4-(1-propylazetidin-3-yl)oxyphenyl]-1,3,4,9-tetrahydropyrido[3,4-b]indole" 
+# 
+_pdbx_chem_comp_synonyms.ordinal      1 
+_pdbx_chem_comp_synonyms.comp_id      A1AEA 
+_pdbx_chem_comp_synonyms.name         "(1R,3R)-2-(2-fluoro-2-methylpropyl)-3-methyl-1-{4-[(1-propylazetidin-3-yl)oxy]phenyl}-2,3,4,9-tetrahydro-1H-pyrido[3,4-b]indole" 
+_pdbx_chem_comp_synonyms.provenance   PDB 
+_pdbx_chem_comp_synonyms.type         "systematic name" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1AEA "Create component" 2024-02-06 RCSB 
+A1AEA "Modify name"      2024-02-06 RCSB 
+A1AEA "Initial release"  2025-03-19 RCSB 
+# 

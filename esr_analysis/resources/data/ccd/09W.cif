@@ -1,0 +1,178 @@
+data_09W
+# 
+_chem_comp.id                                    09W 
+_chem_comp.name                                  "~{N}-[(5-carbamimidoyl-3-phenyl-thiophen-2-yl)methyl]-2,3-dihydro-1-benzofuran-7-carboxamide" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C21 H19 N3 O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2021-06-03 
+_chem_comp.pdbx_modified_date                    2022-06-17 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        377.459 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     09W 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7OR5 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBE 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+09W C02  C1  C 0 1 N N N 20.567 127.762 55.759 5.268  1.894  0.415  C02  09W 1  
+09W C04  C2  C 0 1 Y N N 20.117 129.220 55.840 4.048  1.161  0.041  C04  09W 2  
+09W C05  C3  C 0 1 Y N N 20.465 130.171 54.825 3.782  -0.123 0.364  C05  09W 3  
+09W C06  C4  C 0 1 Y N N 19.890 131.531 55.171 2.559  -0.571 -0.113 C06  09W 4  
+09W C07  C5  C 0 1 Y N N 19.166 131.441 56.401 1.859  0.347  -0.808 C07  09W 5  
+09W C08  C6  C 0 1 N N N 18.488 132.684 56.943 0.506  0.105  -1.427 C08  09W 6  
+09W C10  C7  C 0 1 N N N 16.914 131.563 58.627 -1.839 0.308  -0.797 C10  09W 7  
+09W C12  C8  C 0 1 Y N N 16.301 131.848 59.983 -2.893 0.652  0.176  C12  09W 8  
+09W C13  C9  C 0 1 Y N N 15.561 133.041 59.949 -4.248 0.503  -0.171 C13  09W 9  
+09W C15  C10 C 0 1 N N N 15.079 135.237 59.514 -6.169 -0.313 -1.090 C15  09W 10 
+09W C16  C11 C 0 1 N N N 14.269 134.752 60.675 -6.565 0.558  0.125  C16  09W 11 
+09W C17  C12 C 0 1 Y N N 14.926 133.484 61.080 -5.218 0.829  0.767  C17  09W 12 
+09W C18  C13 C 0 1 Y N N 15.027 132.740 62.285 -4.866 1.298  2.013  C18  09W 13 
+09W C19  C14 C 0 1 Y N N 15.762 131.548 62.315 -3.530 1.448  2.353  C19  09W 14 
+09W C20  C15 C 0 1 Y N N 16.413 131.094 61.150 -2.548 1.120  1.444  C20  09W 15 
+09W C22  C16 C 0 1 Y N N 20.026 132.786 54.311 2.062  -1.950 0.123  C22  09W 16 
+09W C23  C17 C 0 1 Y N N 20.253 134.050 54.845 2.879  -3.044 -0.149 C23  09W 17 
+09W C24  C18 C 0 1 Y N N 20.356 135.160 54.007 2.412  -4.324 0.072  C24  09W 18 
+09W C25  C19 C 0 1 Y N N 20.237 135.004 52.635 1.134  -4.521 0.564  C25  09W 19 
+09W C26  C20 C 0 1 Y N N 20.004 133.743 52.098 0.318  -3.438 0.836  C26  09W 20 
+09W C27  C21 C 0 1 Y N N 19.895 132.640 52.937 0.777  -2.153 0.624  C27  09W 21 
+09W N01  N1  N 0 1 N N N 20.194 126.787 56.774 5.427  3.210  0.031  N01  09W 22 
+09W N03  N2  N 0 1 N N N 21.252 127.420 54.759 6.199  1.301  1.114  N03  09W 23 
+09W N09  N3  N 0 1 N N N 17.801 132.623 58.208 -0.541 0.446  -0.461 N09  09W 24 
+09W O11  O1  O 0 1 N N N 16.642 130.616 57.974 -2.141 -0.100 -1.902 O11  09W 25 
+09W O14  O2  O 0 1 N N N 15.324 134.000 58.835 -4.809 0.082  -1.335 O14  09W 26 
+09W S21  S1  S 0 1 Y N N 19.225 129.926 56.997 2.711  1.823  -0.887 S21  09W 27 
+09W H051 H1  H 0 0 N N N 21.050 129.951 53.944 4.456  -0.741 0.938  H051 09W 28 
+09W H081 H2  H 0 0 N N N 19.265 133.457 57.038 0.397  0.726  -2.316 H081 09W 29 
+09W H082 H3  H 0 0 N N N 17.748 132.998 56.192 0.416  -0.945 -1.704 H082 09W 30 
+09W H151 H4  H 0 0 N N N 16.015 135.713 59.842 -6.224 -1.373 -0.841 H151 09W 31 
+09W H152 H5  H 0 0 N N N 14.510 135.939 58.887 -6.800 -0.087 -1.950 H152 09W 32 
+09W H161 H6  H 0 0 N N N 14.292 135.482 61.497 -7.037 1.486  -0.197 H161 09W 33 
+09W H162 H7  H 0 0 N N N 13.227 134.571 60.374 -7.216 0.007  0.804  H162 09W 34 
+09W H181 H8  H 0 0 N N N 14.536 133.094 63.180 -5.635 1.551  2.729  H181 09W 35 
+09W H191 H9  H 0 0 N N N 15.830 130.977 63.230 -3.260 1.816  3.332  H191 09W 36 
+09W H201 H10 H 0 0 N N N 16.987 130.180 61.161 -1.508 1.231  1.713  H201 09W 37 
+09W H231 H11 H 0 0 N N N 20.350 134.173 55.914 3.877  -2.892 -0.533 H231 09W 38 
+09W H241 H12 H 0 0 N N N 20.528 136.140 54.427 3.045  -5.173 -0.139 H241 09W 39 
+09W H251 H13 H 0 0 N N N 20.325 135.861 51.984 0.772  -5.524 0.735  H251 09W 40 
+09W H261 H14 H 0 0 N N N 19.908 133.620 51.029 -0.679 -3.597 1.219  H261 09W 41 
+09W H271 H15 H 0 0 N N N 19.707 131.663 52.517 0.139  -1.309 0.837  H271 09W 42 
+09W H011 H16 H 0 0 N N N 19.628 127.065 57.550 4.734  3.651  -0.486 H011 09W 43 
+09W H031 H18 H 0 0 N N N 21.479 126.446 54.776 7.003  1.785  1.360  H031 09W 44 
+09W H091 H19 H 0 0 N N N 17.951 133.376 58.848 -0.300 0.772  0.421  H091 09W 45 
+09W H012 H20 H 0 0 N N N 20.503 125.839 56.695 6.231  3.694  0.277  H012 09W 46 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+09W C26 C25  DOUB Y N 1  
+09W C26 C27  SING Y N 2  
+09W C25 C24  SING Y N 3  
+09W C27 C22  DOUB Y N 4  
+09W C24 C23  DOUB Y N 5  
+09W C22 C23  SING Y N 6  
+09W C22 C06  SING N N 7  
+09W N03 C02  DOUB N N 8  
+09W C05 C06  SING Y N 9  
+09W C05 C04  DOUB Y N 10 
+09W C06 C07  DOUB Y N 11 
+09W C02 C04  SING N N 12 
+09W C02 N01  SING N N 13 
+09W C04 S21  SING Y N 14 
+09W C07 C08  SING N N 15 
+09W C07 S21  SING Y N 16 
+09W C08 N09  SING N N 17 
+09W O11 C10  DOUB N N 18 
+09W N09 C10  SING N N 19 
+09W C10 C12  SING N N 20 
+09W O14 C15  SING N N 21 
+09W O14 C13  SING N N 22 
+09W C15 C16  SING N N 23 
+09W C13 C12  DOUB Y N 24 
+09W C13 C17  SING Y N 25 
+09W C12 C20  SING Y N 26 
+09W C16 C17  SING N N 27 
+09W C17 C18  DOUB Y N 28 
+09W C20 C19  DOUB Y N 29 
+09W C18 C19  SING Y N 30 
+09W C05 H051 SING N N 31 
+09W C08 H081 SING N N 32 
+09W C08 H082 SING N N 33 
+09W C15 H151 SING N N 34 
+09W C15 H152 SING N N 35 
+09W C16 H161 SING N N 36 
+09W C16 H162 SING N N 37 
+09W C18 H181 SING N N 38 
+09W C19 H191 SING N N 39 
+09W C20 H201 SING N N 40 
+09W C23 H231 SING N N 41 
+09W C24 H241 SING N N 42 
+09W C25 H251 SING N N 43 
+09W C26 H261 SING N N 44 
+09W C27 H271 SING N N 45 
+09W N01 H011 SING N N 46 
+09W N03 H031 SING N N 47 
+09W N09 H091 SING N N 48 
+09W N01 H012 SING N N 49 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+09W InChI            InChI                1.03  "InChI=1S/C21H19N3O2S/c22-20(23)17-11-16(13-5-2-1-3-6-13)18(27-17)12-24-21(25)15-8-4-7-14-9-10-26-19(14)15/h1-8,11H,9-10,12H2,(H3,22,23)(H,24,25)" 
+09W InChIKey         InChI                1.03  RQRHDWNYROBPKE-UHFFFAOYSA-N                                                                                                                        
+09W SMILES_CANONICAL CACTVS               3.385 "NC(=N)c1sc(CNC(=O)c2cccc3CCOc23)c(c1)c4ccccc4"                                                                                                    
+09W SMILES           CACTVS               3.385 "NC(=N)c1sc(CNC(=O)c2cccc3CCOc23)c(c1)c4ccccc4"                                                                                                    
+09W SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "[H]/N=C(/c1cc(c(s1)CNC(=O)c2cccc3c2OCC3)c4ccccc4)\N"                                                                                              
+09W SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)c2cc(sc2CNC(=O)c3cccc4c3OCC4)C(=N)N"                                                                                                    
+# 
+_pdbx_chem_comp_identifier.comp_id           09W 
+_pdbx_chem_comp_identifier.type              "SYSTEMATIC NAME" 
+_pdbx_chem_comp_identifier.program           "OpenEye OEToolkits" 
+_pdbx_chem_comp_identifier.program_version   2.0.7 
+_pdbx_chem_comp_identifier.identifier        "~{N}-[(5-carbamimidoyl-3-phenyl-thiophen-2-yl)methyl]-2,3-dihydro-1-benzofuran-7-carboxamide" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+09W "Create component" 2021-06-03 PDBE 
+09W "Initial release"  2022-06-22 RCSB 
+# 

@@ -1,0 +1,214 @@
+data_MVO
+# 
+_chem_comp.id                                    MVO 
+_chem_comp.name                                  "2-chloranyl-N-[[1-[4-[(4-chlorophenyl)amino]oxan-4-yl]carbonylpiperidin-4-yl]methyl]ethanamide" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C20 H27 Cl2 N3 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-08-04 
+_chem_comp.pdbx_modified_date                    2024-09-27 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        428.353 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     MVO 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        8ALW 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBE 
+_chem_comp.pdbx_pcm                              Y 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+MVO C23  C1  C  0 1 N N N N N N -15.397 -18.384 -1.183 -3.806 -2.444 0.461  C23  MVO 1  
+MVO C22  C2  C  0 1 N N N N N N -15.271 -16.946 -0.726 -5.018 -2.161 1.352  C22  MVO 2  
+MVO C20  C3  C  0 1 N N N N N N -14.353 -17.596 1.398  -5.653 -0.272 0.016  C20  MVO 3  
+MVO C26  C4  C  0 1 N N N N N N -16.821 -23.656 -1.458 1.358  -1.269 -1.102 C26  MVO 4  
+MVO C10  C5  C  0 1 N N N N N N -15.461 -19.319 -0.031 -3.315 -1.130 -0.154 C10  MVO 5  
+MVO C12  C6  C  0 1 Y N N N N N -17.523 -20.176 1.376  -2.269 0.992  0.586  C12  MVO 6  
+MVO C13  C7  C  0 1 Y N N N N N -16.837 -21.299 1.841  -2.120 1.363  -0.744 C13  MVO 7  
+MVO C14  C8  C  0 1 Y N N N N N -17.494 -22.233 2.624  -1.532 2.572  -1.061 C14  MVO 8  
+MVO C15  C9  C  0 1 Y N N N N N -18.832 -22.049 2.941  -1.092 3.413  -0.055 C15  MVO 9  
+MVO C16  C10 C  0 1 Y N N N N N -19.518 -20.935 2.479  -1.240 3.047  1.271  C16  MVO 10 
+MVO C17  C11 C  0 1 Y N N N N N -18.863 -20.006 1.703  -1.827 1.839  1.594  C17  MVO 11 
+MVO C19  C12 C  0 1 N N N N N N -14.490 -19.065 1.037  -4.466 -0.480 -0.928 C19  MVO 12 
+MVO C25  C13 C  0 1 N N N N N N -15.723 -22.741 -1.947 0.141  -2.108 -1.503 C25  MVO 13 
+MVO C01  C14 C  0 1 N N N N N N -22.148 -25.329 -3.564 6.481  -1.153 -0.501 C01  MVO 14 
+MVO C02  C15 C  0 1 N N N N N N -20.867 -25.339 -2.734 5.279  -0.629 0.242  C02  MVO 15 
+MVO C04  C16 C  0 1 N N N N N N -19.196 -24.111 -1.321 2.902  -0.686 0.774  C04  MVO 16 
+MVO C05  C17 C  0 1 N N N N N N -18.143 -23.206 -1.951 1.666  -1.496 0.379  C05  MVO 17 
+MVO C06  C18 C  0 1 N N N N N N -18.447 -21.781 -1.658 0.471  -1.048 1.224  C06  MVO 18 
+MVO C07  C19 C  0 1 N N N N N N -17.306 -20.853 -2.026 -0.756 -1.886 0.851  C07  MVO 19 
+MVO C09  C20 C  0 1 N N N N N N -15.148 -20.707 -0.552 -2.169 -1.409 -1.092 C09  MVO 20 
+MVO N03  N1  N  0 1 N N N N N N -20.430 -24.113 -2.105 4.070  -1.194 0.052  N03  MVO 21 
+MVO N08  N2  N  0 1 N N N N N N -16.016 -21.368 -1.464 -0.973 -1.787 -0.600 N08  MVO 22 
+MVO N11  N3  N  0 1 N N N N N N -16.873 -19.176 0.542  -2.869 -0.228 0.910  N11  MVO 23 
+MVO O21  O1  O  0 1 N N N N N N -14.142 -16.781 0.193  -6.039 -1.528 0.577  O21  MVO 24 
+MVO O24  O2  O  0 1 N N N N N N -14.179 -21.284 -0.199 -2.323 -1.293 -2.289 O24  MVO 25 
+MVO O27  O3  O  0 1 N N N N N N -20.215 -26.330 -2.634 5.399  0.300  1.012  O27  MVO 26 
+MVO CL18 CL1 CL 0 0 N N N N N N -19.676 -23.240 3.945  -0.353 4.932  -0.457 CL18 MVO 27 
+MVO H232 H1  H  0 0 N N N N N N -16.315 -18.490 -1.780 -3.010 -2.886 1.059  H232 MVO 28 
+MVO H231 H2  H  0 0 N N N N N N -14.525 -18.640 -1.802 -4.091 -3.134 -0.334 H231 MVO 29 
+MVO H221 H3  H  0 0 N N N N N N -15.116 -16.302 -1.604 -5.398 -3.098 1.758  H221 MVO 30 
+MVO H222 H4  H  0 0 N N N N N N -16.198 -16.650 -0.213 -4.723 -1.503 2.169  H222 MVO 31 
+MVO H202 H5  H  0 0 N N N N N N -13.495 -17.469 2.074  -5.366 0.410  0.817  H202 MVO 32 
+MVO H201 H6  H  0 0 N N N N N N -15.271 -17.262 1.904  -6.490 0.151  -0.539 H201 MVO 33 
+MVO H261 H7  H  0 0 N N N N N N -16.827 -23.655 -0.358 2.218  -1.566 -1.702 H261 MVO 34 
+MVO H262 H8  H  0 0 N N N N N N -16.629 -24.676 -1.823 1.144  -0.213 -1.272 H262 MVO 35 
+MVO H131 H9  H  0 0 N N N N N N -15.796 -21.439 1.591  -2.463 0.706  -1.530 H131 MVO 36 
+MVO H141 H10 H  0 0 N N N N N N -16.966 -23.103 2.987  -1.415 2.860  -2.095 H141 MVO 37 
+MVO H161 H11 H  0 0 N N N N N N -20.560 -20.798 2.727  -0.895 3.706  2.055  H161 MVO 38 
+MVO H171 H12 H  0 0 N N N N N N -19.395 -19.137 1.345  -1.942 1.554  2.630  H171 MVO 39 
+MVO H192 H13 H  0 0 N N N N N N -14.808 -19.615 1.935  -4.765 -1.130 -1.751 H192 MVO 40 
+MVO H191 H14 H  0 0 N N N N N N -13.508 -19.436 0.709  -4.142 0.483  -1.323 H191 MVO 41 
+MVO H252 H15 H  0 0 N N N N N N -15.692 -22.751 -3.047 -0.142 -1.874 -2.529 H252 MVO 42 
+MVO H251 H16 H  0 0 N N N N N N -14.754 -23.077 -1.550 0.384  -3.167 -1.421 H251 MVO 43 
+MVO H011 H17 H  0 0 N N N N N N -22.825 -26.134 -3.241 6.637  -2.201 -0.246 H011 MVO 44 
+MVO H1   H18 H  0 1 N N N N N N -22.661 -24.360 -3.473 6.313  -1.060 -1.574 H1   MVO 45 
+MVO H041 H20 H  0 0 N N N N N N -19.417 -23.751 -0.305 2.745  0.363  0.520  H041 MVO 46 
+MVO H042 H21 H  0 0 N N N N N N -18.802 -25.137 -1.269 3.069  -0.778 1.847  H042 MVO 47 
+MVO H051 H22 H  0 0 N N N N N N -18.178 -23.352 -3.041 1.856  -2.556 0.552  H051 MVO 48 
+MVO H062 H23 H  0 0 N N N N N N -18.651 -21.679 -0.582 0.699  -1.189 2.281  H062 MVO 49 
+MVO H061 H24 H  0 0 N N N N N N -19.339 -21.486 -2.230 0.265  0.005  1.034  H061 MVO 50 
+MVO H072 H25 H  0 0 N N N N N N -17.226 -20.792 -3.121 -0.586 -2.927 1.125  H072 MVO 51 
+MVO H071 H26 H  0 0 N N N N N N -17.506 -19.852 -1.617 -1.632 -1.506 1.377  H071 MVO 52 
+MVO H031 H27 H  0 0 N N N N N N -20.966 -23.275 -2.205 3.974  -1.938 -0.564 H031 MVO 53 
+MVO H111 H28 H  0 0 N N N N N N -16.860 -18.337 1.087  -2.990 -0.477 1.840  H111 MVO 54 
+MVO CL1  CL2 CL 0 0 N Y N N N N -21.614 -25.596 -5.228 7.938  -0.198 -0.036 CL1  MVO 55 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+MVO C01 C02  SING N N 1  
+MVO C02 O27  DOUB N N 2  
+MVO C02 N03  SING N N 3  
+MVO N03 C04  SING N N 4  
+MVO C07 C06  SING N N 5  
+MVO C07 N08  SING N N 6  
+MVO C05 C06  SING N N 7  
+MVO C05 C26  SING N N 8  
+MVO C05 C04  SING N N 9  
+MVO C25 N08  SING N N 10 
+MVO C25 C26  SING N N 11 
+MVO N08 C09  SING N N 12 
+MVO C23 C22  SING N N 13 
+MVO C23 C10  SING N N 14 
+MVO C22 O21  SING N N 15 
+MVO C09 O24  DOUB N N 16 
+MVO C09 C10  SING N N 17 
+MVO C10 N11  SING N N 18 
+MVO C10 C19  SING N N 19 
+MVO O21 C20  SING N N 20 
+MVO N11 C12  SING N N 21 
+MVO C19 C20  SING N N 22 
+MVO C12 C17  DOUB Y N 23 
+MVO C12 C13  SING Y N 24 
+MVO C17 C16  SING Y N 25 
+MVO C13 C14  DOUB Y N 26 
+MVO C16 C15  DOUB Y N 27 
+MVO C14 C15  SING Y N 28 
+MVO C15 CL18 SING N N 29 
+MVO C23 H232 SING N N 30 
+MVO C23 H231 SING N N 31 
+MVO C22 H221 SING N N 32 
+MVO C22 H222 SING N N 33 
+MVO C20 H202 SING N N 34 
+MVO C20 H201 SING N N 35 
+MVO C26 H261 SING N N 36 
+MVO C26 H262 SING N N 37 
+MVO C13 H131 SING N N 38 
+MVO C14 H141 SING N N 39 
+MVO C16 H161 SING N N 40 
+MVO C17 H171 SING N N 41 
+MVO C19 H192 SING N N 42 
+MVO C19 H191 SING N N 43 
+MVO C25 H252 SING N N 44 
+MVO C25 H251 SING N N 45 
+MVO C01 H011 SING N N 46 
+MVO C01 H1   SING N N 47 
+MVO C04 H041 SING N N 48 
+MVO C04 H042 SING N N 49 
+MVO C05 H051 SING N N 50 
+MVO C06 H062 SING N N 51 
+MVO C06 H061 SING N N 52 
+MVO C07 H072 SING N N 53 
+MVO C07 H071 SING N N 54 
+MVO N03 H031 SING N N 55 
+MVO N11 H111 SING N N 56 
+MVO C01 CL1  SING N N 57 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+MVO InChI            InChI                1.06  "InChI=1S/C20H27Cl2N3O3/c21-13-18(26)23-14-15-5-9-25(10-6-15)19(27)20(7-11-28-12-8-20)24-17-3-1-16(22)2-4-17/h1-4,15,24H,5-14H2,(H,23,26)" 
+MVO InChIKey         InChI                1.06  HNNWDZMOTDNJQF-UHFFFAOYSA-N                                                                                                                
+MVO SMILES_CANONICAL CACTVS               3.385 "ClCC(=O)NCC1CCN(CC1)C(=O)C2(CCOCC2)Nc3ccc(Cl)cc3"                                                                                         
+MVO SMILES           CACTVS               3.385 "ClCC(=O)NCC1CCN(CC1)C(=O)C2(CCOCC2)Nc3ccc(Cl)cc3"                                                                                         
+MVO SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1NC2(CCOCC2)C(=O)N3CCC(CC3)CNC(=O)CCl)Cl"                                                                                         
+MVO SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1NC2(CCOCC2)C(=O)N3CCC(CC3)CNC(=O)CCl)Cl"                                                                                         
+# 
+_pdbx_chem_comp_identifier.comp_id           MVO 
+_pdbx_chem_comp_identifier.type              "SYSTEMATIC NAME" 
+_pdbx_chem_comp_identifier.program           "OpenEye OEToolkits" 
+_pdbx_chem_comp_identifier.program_version   2.0.7 
+_pdbx_chem_comp_identifier.identifier        "2-chloranyl-~{N}-[[1-[4-[(4-chlorophenyl)amino]oxan-4-yl]carbonylpiperidin-4-yl]methyl]ethanamide" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+MVO "Create component"         2022-08-04 PDBE 
+MVO "Modify leaving atom flag" 2022-08-16 PDBE 
+MVO "Initial release"          2023-09-20 RCSB 
+MVO "Modify descriptor"        2023-09-23 RCSB 
+MVO "Modify PCM"               2024-09-27 PDBE 
+# 
+_pdbx_chem_comp_pcm.pcm_id                             1 
+_pdbx_chem_comp_pcm.comp_id                            MVO 
+_pdbx_chem_comp_pcm.modified_residue_id                CYS 
+_pdbx_chem_comp_pcm.type                               None 
+_pdbx_chem_comp_pcm.category                           "Covalent chemical modification" 
+_pdbx_chem_comp_pcm.position                           "Amino-acid side chain" 
+_pdbx_chem_comp_pcm.polypeptide_position               "Any position" 
+_pdbx_chem_comp_pcm.comp_id_linking_atom               C01 
+_pdbx_chem_comp_pcm.modified_residue_id_linking_atom   SG 
+_pdbx_chem_comp_pcm.uniprot_specific_ptm_accession     ? 
+_pdbx_chem_comp_pcm.uniprot_generic_ptm_accession      ? 
+# 

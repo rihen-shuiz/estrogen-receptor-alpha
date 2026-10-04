@@ -1,0 +1,230 @@
+data_A1DAJ
+# 
+_chem_comp.id                                    A1DAJ 
+_chem_comp.name                                  "(2S)-2-(1-acetylpiperidin-4-yl)-1-[(3R,5S)-4-(chloroacetyl)-3,5-dimethylpiperazin-1-yl]-2-(4-chlorophenyl)ethan-1-one" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C23 H31 Cl2 N3 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2026-03-12 
+_chem_comp.pdbx_modified_date                    2026-08-27 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        468.417 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1DAJ 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        11SI 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              Y 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1DAJ C1  C1  C  0 1 Y N N N N N -19.973 21.166 -18.795 0.573  -4.066 0.269  C1  A1DAJ 1  
+A1DAJ C2  C2  C  0 1 Y N N N N N -19.572 20.459 -17.685 0.407  -3.412 -0.939 C2  A1DAJ 2  
+A1DAJ C3  C3  C  0 1 Y N N N N N -18.685 21.042 -16.800 0.658  -2.056 -1.031 C3  A1DAJ 3  
+A1DAJ O1  O1  O  0 1 N N N N N N -18.906 27.820 -13.206 7.160  1.201  -1.531 O1  A1DAJ 4  
+A1DAJ O2  O2  O  0 1 N N N N N N -11.942 20.871 -20.285 -5.382 2.347  0.067  O2  A1DAJ 5  
+A1DAJ C11 C4  C  0 1 N N N N N N -18.310 26.699 -15.858 5.187  -0.104 -0.206 C11 A1DAJ 6  
+A1DAJ C12 C5  C  0 1 N N N N N N -18.502 25.186 -15.844 3.728  -0.355 -0.603 C12 A1DAJ 7  
+A1DAJ C13 C6  C  0 1 N N N N N N -17.857 27.998 -13.808 6.433  1.900  -0.857 C13 A1DAJ 8  
+A1DAJ C14 C7  C  0 1 N N N N N N -17.012 29.209 -13.551 6.661  3.388  -0.798 C14 A1DAJ 9  
+A1DAJ C15 C8  C  0 1 N N S N N N -15.068 21.681 -19.423 -2.743 2.371  0.872  C15 A1DAJ 10 
+A1DAJ C16 C9  C  0 1 N N N N N N -15.244 22.765 -18.363 -1.797 1.495  1.703  C16 A1DAJ 11 
+A1DAJ C17 C10 C  0 1 N N N N N N -13.743 21.667 -16.813 -1.485 -0.049 -0.276 C17 A1DAJ 12 
+A1DAJ C18 C11 C  0 1 N N R N N N -13.507 20.470 -17.725 -2.431 0.826  -1.108 C18 A1DAJ 13 
+A1DAJ C19 C12 C  0 1 N N N N N N -14.236 19.226 -17.247 -3.254 -0.057 -2.048 C19 A1DAJ 14 
+A1DAJ C20 C13 C  0 1 N N N N N N -16.331 20.860 -19.625 -3.856 2.919  1.767  C20 A1DAJ 15 
+A1DAJ C21 C14 C  0 1 N N N N N N -13.063 20.404 -20.137 -4.667 1.452  -0.332 C21 A1DAJ 16 
+A1DAJ C22 C15 C  0 1 N N N N N N -13.597 19.326 -21.029 -5.273 0.236  -0.982 C22 A1DAJ 17 
+A1DAJ N   N1  N  0 1 N N N N N N -17.442 27.118 -14.752 5.422  1.345  -0.159 N   A1DAJ 18 
+A1DAJ C   C16 C  0 1 Y N N N N N -19.518 22.446 -19.032 0.989  -3.362 1.384  C   A1DAJ 19 
+A1DAJ O   O3  O  0 1 N N N N N N -15.734 21.482 -14.983 0.911  1.553  1.811  O   A1DAJ 20 
+A1DAJ C10 C17 C  0 1 N N N N N N -16.115 26.484 -14.792 4.533  2.179  0.662  C10 A1DAJ 21 
+A1DAJ C4  C18 C  0 1 Y N N N N N -18.214 22.334 -16.997 1.074  -1.353 0.084  C4  A1DAJ 22 
+A1DAJ C5  C19 C  0 1 Y N N N N N -18.651 23.030 -18.123 1.240  -2.006 1.291  C5  A1DAJ 23 
+A1DAJ C6  C20 C  0 1 N N S N N N -17.298 22.936 -15.942 1.347  0.125  -0.016 C6  A1DAJ 24 
+A1DAJ C7  C21 C  0 1 N N N N N N -15.972 22.173 -15.966 0.439  0.869  0.928  C7  A1DAJ 25 
+A1DAJ C8  C22 C  0 1 N N N N N N -17.140 24.481 -15.968 2.806  0.401  0.356  C8  A1DAJ 26 
+A1DAJ C9  C23 C  0 1 N N N N N N -16.225 24.955 -14.829 3.082  1.903  0.255  C9  A1DAJ 27 
+A1DAJ N1  N2  N  0 1 N N N N N N -13.864 20.846 -19.124 -3.329 1.547  -0.195 N1  A1DAJ 28 
+A1DAJ N2  N3  N  0 1 N N N N N N -15.092 22.209 -17.012 -0.899 0.775  0.790  N2  A1DAJ 29 
+A1DAJ CL  CL1 CL 0 0 N N N N N N -21.090 20.435 -19.909 0.251  -5.768 0.386  CL  A1DAJ 30 
+A1DAJ H1  H1  H  0 1 N N N N N N -19.946 19.461 -17.508 0.082  -3.962 -1.811 H1  A1DAJ 31 
+A1DAJ H2  H2  H  0 1 N N N N N N -18.352 20.482 -15.939 0.529  -1.546 -1.974 H2  A1DAJ 32 
+A1DAJ H10 H3  H  0 1 N N N N N N -17.850 26.996 -16.812 5.377  -0.537 0.776  H10 A1DAJ 33 
+A1DAJ H11 H4  H  0 1 N N N N N N -19.289 27.189 -15.755 5.849  -0.558 -0.943 H11 A1DAJ 34 
+A1DAJ H12 H5  H  0 1 N N N N N N -19.142 24.892 -16.689 3.563  -0.002 -1.621 H12 A1DAJ 35 
+A1DAJ H13 H6  H  0 1 N N N N N N -18.981 24.888 -14.900 3.515  -1.422 -0.549 H13 A1DAJ 36 
+A1DAJ H14 H7  H  0 1 N N N N N N -17.491 29.835 -12.784 7.517  3.649  -1.421 H14 A1DAJ 37 
+A1DAJ H15 H8  H  0 1 N N N N N N -16.018 28.895 -13.199 5.775  3.906  -1.164 H15 A1DAJ 38 
+A1DAJ H16 H9  H  0 1 N N N N N N -16.906 29.786 -14.481 6.857  3.686  0.232  H16 A1DAJ 39 
+A1DAJ H17 H10 H  0 1 N N N N N N -14.872 22.199 -20.373 -2.185 3.196  0.431  H17 A1DAJ 40 
+A1DAJ H18 H11 H  0 1 N N N N N N -14.485 23.546 -18.518 -1.211 2.125  2.373  H18 A1DAJ 41 
+A1DAJ H19 H12 H  0 1 N N N N N N -16.248 23.204 -18.461 -2.378 0.780  2.285  H19 A1DAJ 42 
+A1DAJ H21 H13 H  0 1 N N N N N N -13.631 21.351 -15.765 -2.043 -0.874 0.164  H21 A1DAJ 43 
+A1DAJ H20 H14 H  0 1 N N N N N N -13.002 22.447 -17.042 -0.694 -0.442 -0.915 H20 A1DAJ 44 
+A1DAJ H22 H15 H  0 1 N N N N N N -12.430 20.248 -17.703 -1.850 1.540  -1.692 H22 A1DAJ 45 
+A1DAJ H23 H16 H  0 1 N N N N N N -13.935 18.998 -16.214 -3.884 -0.724 -1.460 H23 A1DAJ 46 
+A1DAJ H25 H17 H  0 1 N N N N N N -15.321 19.401 -17.282 -3.881 0.572  -2.681 H25 A1DAJ 47 
+A1DAJ H24 H18 H  0 1 N N N N N N -13.980 18.378 -17.899 -2.583 -0.647 -2.672 H24 A1DAJ 48 
+A1DAJ H28 H19 H  0 1 N N N N N N -17.175 21.532 -19.840 -4.500 2.100  2.089  H28 A1DAJ 49 
+A1DAJ H26 H20 H  0 1 N N N N N N -16.188 20.169 -20.469 -3.415 3.400  2.641  H26 A1DAJ 50 
+A1DAJ H27 H21 H  0 1 N N N N N N -16.544 20.285 -18.712 -4.445 3.647  1.210  H27 A1DAJ 51 
+A1DAJ H31 H22 H  0 1 N N N N N N -13.585 18.372 -20.482 -5.026 0.229  -2.043 H31 A1DAJ 52 
+A1DAJ H29 H23 H  0 1 N N N N N N -14.631 19.575 -21.310 -4.877 -0.664 -0.511 H29 A1DAJ 53 
+A1DAJ H   H25 H  0 1 N N N N N N -19.833 22.985 -19.913 1.118  -3.872 2.327  H   A1DAJ 54 
+A1DAJ H9  H26 H  0 1 N N N N N N -15.550 26.780 -13.896 4.671  1.932  1.715  H9  A1DAJ 55 
+A1DAJ H8  H27 H  0 1 N N N N N N -15.582 26.826 -15.691 4.767  3.231  0.500  H8  A1DAJ 56 
+A1DAJ H3  H28 H  0 1 N N N N N N -18.308 24.041 -18.289 1.565  -1.456 2.162  H3  A1DAJ 57 
+A1DAJ H4  H29 H  0 1 N N N N N N -17.761 22.703 -14.972 1.164  0.460  -1.037 H4  A1DAJ 58 
+A1DAJ H5  H30 H  0 1 N N N N N N -16.683 24.767 -16.927 2.989  0.065  1.377  H5  A1DAJ 59 
+A1DAJ H7  H31 H  0 1 N N N N N N -16.636 24.603 -13.871 2.409  2.442  0.921  H7  A1DAJ 60 
+A1DAJ H6  H32 H  0 1 N N N N N N -15.222 24.528 -14.976 2.923  2.234  -0.771 H6  A1DAJ 61 
+A1DAJ CL1 CL2 CL 0 0 N Y N N N N -12.647 19.160 -22.471 -7.065 0.278  -0.782 CL1 A1DAJ 62 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1DAJ C22 C21 SING N N 1  
+A1DAJ O2  C21 DOUB N N 2  
+A1DAJ C21 N1  SING N N 3  
+A1DAJ CL  C1  SING N N 4  
+A1DAJ C20 C15 SING N N 5  
+A1DAJ C15 N1  SING N N 6  
+A1DAJ C15 C16 SING N N 7  
+A1DAJ N1  C18 SING N N 8  
+A1DAJ C   C1  DOUB Y N 9  
+A1DAJ C   C5  SING Y N 10 
+A1DAJ C1  C2  SING Y N 11 
+A1DAJ C16 N2  SING N N 12 
+A1DAJ C5  C4  DOUB Y N 13 
+A1DAJ C18 C19 SING N N 14 
+A1DAJ C18 C17 SING N N 15 
+A1DAJ C2  C3  DOUB Y N 16 
+A1DAJ N2  C17 SING N N 17 
+A1DAJ N2  C7  SING N N 18 
+A1DAJ C4  C3  SING Y N 19 
+A1DAJ C4  C6  SING N N 20 
+A1DAJ C8  C6  SING N N 21 
+A1DAJ C8  C12 SING N N 22 
+A1DAJ C8  C9  SING N N 23 
+A1DAJ C7  C6  SING N N 24 
+A1DAJ C7  O   DOUB N N 25 
+A1DAJ C11 C12 SING N N 26 
+A1DAJ C11 N   SING N N 27 
+A1DAJ C9  C10 SING N N 28 
+A1DAJ C10 N   SING N N 29 
+A1DAJ N   C13 SING N N 30 
+A1DAJ C13 C14 SING N N 31 
+A1DAJ C13 O1  DOUB N N 32 
+A1DAJ C2  H1  SING N N 33 
+A1DAJ C3  H2  SING N N 34 
+A1DAJ C11 H10 SING N N 35 
+A1DAJ C11 H11 SING N N 36 
+A1DAJ C12 H12 SING N N 37 
+A1DAJ C12 H13 SING N N 38 
+A1DAJ C14 H14 SING N N 39 
+A1DAJ C14 H15 SING N N 40 
+A1DAJ C14 H16 SING N N 41 
+A1DAJ C15 H17 SING N N 42 
+A1DAJ C16 H18 SING N N 43 
+A1DAJ C16 H19 SING N N 44 
+A1DAJ C17 H21 SING N N 45 
+A1DAJ C17 H20 SING N N 46 
+A1DAJ C18 H22 SING N N 47 
+A1DAJ C19 H23 SING N N 48 
+A1DAJ C19 H25 SING N N 49 
+A1DAJ C19 H24 SING N N 50 
+A1DAJ C20 H28 SING N N 51 
+A1DAJ C20 H26 SING N N 52 
+A1DAJ C20 H27 SING N N 53 
+A1DAJ C22 H31 SING N N 54 
+A1DAJ C22 H29 SING N N 55 
+A1DAJ C   H   SING N N 56 
+A1DAJ C10 H9  SING N N 57 
+A1DAJ C10 H8  SING N N 58 
+A1DAJ C5  H3  SING N N 59 
+A1DAJ C6  H4  SING N N 60 
+A1DAJ C8  H5  SING N N 61 
+A1DAJ C9  H7  SING N N 62 
+A1DAJ C9  H6  SING N N 63 
+A1DAJ C22 CL1 SING N N 64 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1DAJ SMILES           ACDLabs              14.52   "CC1CN(CC(C)N1C(=O)CCl)C(=O)C(c1ccc(Cl)cc1)C1CCN(CC1)C(C)=O"                                                                                                             
+A1DAJ InChI            InChI                1.06    "InChI=1S/C23H31Cl2N3O3/c1-15-13-27(14-16(2)28(15)21(30)12-24)23(31)22(18-4-6-20(25)7-5-18)19-8-10-26(11-9-19)17(3)29/h4-7,15-16,19,22H,8-14H2,1-3H3/t15-,16+,22-/m1/s1" 
+A1DAJ InChIKey         InChI                1.06    VVXNHVTXAHPESY-ZMPRRUGASA-N                                                                                                                                              
+A1DAJ SMILES_CANONICAL CACTVS               3.385   "C[C@@H]1CN(C[C@H](C)N1C(=O)CCl)C(=O)[C@@H](C2CCN(CC2)C(C)=O)c3ccc(Cl)cc3"                                                                                               
+A1DAJ SMILES           CACTVS               3.385   "C[CH]1CN(C[CH](C)N1C(=O)CCl)C(=O)[CH](C2CCN(CC2)C(C)=O)c3ccc(Cl)cc3"                                                                                                    
+A1DAJ SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "C[C@@H]1CN(C[C@@H](N1C(=O)CCl)C)C(=O)[C@H](c2ccc(cc2)Cl)C3CCN(CC3)C(=O)C"                                                                                               
+A1DAJ SMILES           "OpenEye OEToolkits" 3.1.0.0 "CC1CN(CC(N1C(=O)CCl)C)C(=O)C(c2ccc(cc2)Cl)C3CCN(CC3)C(=O)C"                                                                                                             
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1DAJ "SYSTEMATIC NAME" ACDLabs              14.52   "(2S)-2-(1-acetylpiperidin-4-yl)-1-[(3R,5S)-4-(chloroacetyl)-3,5-dimethylpiperazin-1-yl]-2-(4-chlorophenyl)ethan-1-one"                 
+A1DAJ "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "(2~{S})-1-[(3~{S},5~{R})-4-(2-chloranylethanoyl)-3,5-dimethyl-piperazin-1-yl]-2-(4-chlorophenyl)-2-(1-ethanoylpiperidin-4-yl)ethanone" 
+# 
+_pdbx_chem_comp_pcm.pcm_id                             1 
+_pdbx_chem_comp_pcm.comp_id                            A1DAJ 
+_pdbx_chem_comp_pcm.modified_residue_id                CYS 
+_pdbx_chem_comp_pcm.type                               None 
+_pdbx_chem_comp_pcm.category                           "Covalent chemical modification" 
+_pdbx_chem_comp_pcm.position                           "Amino-acid side chain" 
+_pdbx_chem_comp_pcm.polypeptide_position               "Any position" 
+_pdbx_chem_comp_pcm.comp_id_linking_atom               C22 
+_pdbx_chem_comp_pcm.modified_residue_id_linking_atom   SG 
+_pdbx_chem_comp_pcm.uniprot_specific_ptm_accession     ? 
+_pdbx_chem_comp_pcm.uniprot_generic_ptm_accession      ? 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1DAJ "Create component" 2026-03-12 RCSB 
+A1DAJ "Initial release"  2026-08-26 RCSB 
+A1DAJ "Modify atom id"   2026-08-27 RCSB 
+# 

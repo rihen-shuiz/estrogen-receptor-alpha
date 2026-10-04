@@ -1,0 +1,208 @@
+data_A1BHJ
+# 
+_chem_comp.id                                    A1BHJ 
+_chem_comp.name                                  "(2E)-3-{4-[(1R,3R)-2-(bicyclo[1.1.1]pentan-1-yl)-3-methyl-2,3,4,9-tetrahydro-1H-pyrido[3,4-b]indol-1-yl]-3,5-difluorophenyl}prop-2-enoic acid" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C26 H24 F2 N2 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-11-15 
+_chem_comp.pdbx_modified_date                    2026-06-19 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        434.478 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1BHJ 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        9ECK 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              ? 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1BHJ C11  C1  C 0 1 Y N N N N N -10.692 7.040  19.679 1.284  -0.087 -1.215 C11  A1BHJ 1  
+A1BHJ C13  C2  C 0 1 Y N N N N N -11.080 7.241  21.030 0.362  -0.283 -0.200 C13  A1BHJ 2  
+A1BHJ C14  C3  C 0 1 N N R N N N -10.265 8.044  22.087 -1.040 -0.721 -0.534 C14  A1BHJ 3  
+A1BHJ C16  C4  C 0 1 N N R N N N -10.458 9.905  23.688 -2.879 -2.117 0.225  C16  A1BHJ 4  
+A1BHJ C17  C5  C 0 1 N N N N N N -10.490 8.978  24.896 -3.724 -0.972 0.799  C17  A1BHJ 5  
+A1BHJ C18  C6  C 0 1 N N N N N N -8.955  10.336 23.360 -3.203 -2.294 -1.260 C18  A1BHJ 6  
+A1BHJ C19  C7  C 0 1 N N N N N N -11.420 10.144 21.438 -0.623 -2.996 0.190  C19  A1BHJ 7  
+A1BHJ C20  C8  C 0 1 N N N N N N -12.753 10.191 20.650 0.909  -3.159 0.352  C20  A1BHJ 8  
+A1BHJ C21  C9  C 0 1 N N N N N N -11.567 11.689 21.578 -0.694 -4.354 0.922  C21  A1BHJ 9  
+A1BHJ C22  C10 C 0 1 N N N N N N -10.718 10.436 20.071 -0.431 -3.861 -1.081 C22  A1BHJ 10 
+A1BHJ C23  C11 C 0 1 N N N N N N -11.942 11.390 20.105 0.488  -4.597 -0.041 C23  A1BHJ 11 
+A1BHJ C24  C12 C 0 1 Y N N N N N -9.936  7.154  23.308 -1.990 0.440  -0.364 C24  A1BHJ 12 
+A1BHJ C26  C13 C 0 1 Y N N N N N -9.371  5.405  24.671 -2.883 2.490  -0.430 C26  A1BHJ 13 
+A1BHJ C27  C14 C 0 1 Y N N N N N -8.965  4.157  25.230 -3.172 3.840  -0.614 C27  A1BHJ 14 
+A1BHJ C28  C15 C 0 1 Y N N N N N -10.065 7.589  24.614 -3.196 0.325  0.238  C28  A1BHJ 15 
+A1BHJ C29  C16 C 0 1 Y N N N N N -9.704  6.493  25.488 -3.811 1.633  0.218  C29  A1BHJ 16 
+A1BHJ C30  C17 C 0 1 Y N N N N N -9.618  6.307  26.879 -5.036 2.115  0.687  C30  A1BHJ 17 
+A1BHJ C01  C18 C 0 1 N N N N N N -14.286 4.034  18.246 5.213  1.144  -0.244 C01  A1BHJ 18 
+A1BHJ C02  C19 C 0 1 N N N N N N -14.944 3.310  17.077 6.574  1.569  0.081  C02  A1BHJ 19 
+A1BHJ C05  C20 C 0 1 N N N N N N -13.383 5.034  18.023 4.313  0.952  0.743  C05  A1BHJ 20 
+A1BHJ C06  C21 C 0 1 Y N N N N N -12.715 5.759  19.135 2.943  0.524  0.416  C06  A1BHJ 21 
+A1BHJ C07  C22 C 0 1 Y N N N N N -13.127 5.933  20.442 2.007  0.325  1.436  C07  A1BHJ 22 
+A1BHJ C08  C23 C 0 1 Y N N N N N -12.323 6.662  21.360 0.724  -0.077 1.122  C08  A1BHJ 23 
+A1BHJ C10  C24 C 0 1 Y N N N N N -11.489 6.330  18.765 2.572  0.315  -0.916 C10  A1BHJ 24 
+A1BHJ C31  C25 C 0 1 Y N N N N N -9.228  5.105  27.449 -5.295 3.450  0.491  C31  A1BHJ 25 
+A1BHJ C32  C26 C 0 1 Y N N N N N -8.896  4.010  26.618 -4.393 4.290  -0.140 C32  A1BHJ 26 
+A1BHJ F09  F1  F 0 1 N N N N N N -12.822 6.755  22.559 -0.182 -0.270 2.106  F09  A1BHJ 27 
+A1BHJ F12  F2  F 0 1 N N N N N N -9.566  7.530  19.233 0.925  -0.295 -2.501 F12  A1BHJ 28 
+A1BHJ N15  N1  N 0 1 N N N N N N -11.134 9.173  22.524 -1.453 -1.799 0.380  N15  A1BHJ 29 
+A1BHJ N25  N2  N 0 1 Y N N N N N -9.520  5.822  23.339 -1.797 1.733  -0.768 N25  A1BHJ 30 
+A1BHJ O03  O1  O 0 1 N N N N N N -14.570 3.445  15.875 6.894  1.751  1.240  O03  A1BHJ 31 
+A1BHJ O04  O2  O 0 1 N N N N N N -15.928 2.544  17.416 7.474  1.761  -0.905 O04  A1BHJ 32 
+A1BHJ H141 H1  H 0 0 N N N N N N -9.335  8.420  21.635 -1.076 -1.080 -1.563 H141 A1BHJ 33 
+A1BHJ H161 H2  H 0 0 N N N N N N -11.032 10.815 23.919 -3.106 -3.039 0.759  H161 A1BHJ 34 
+A1BHJ H171 H3  H 0 0 N N N N N N -9.822  9.392  25.665 -4.766 -1.101 0.509  H171 A1BHJ 35 
+A1BHJ H172 H4  H 0 0 N N N N N N -11.520 8.951  25.281 -3.642 -0.964 1.886  H172 A1BHJ 36 
+A1BHJ H183 H5  H 0 0 N N N N N N -8.524  10.855 24.229 -2.976 -1.371 -1.794 H183 A1BHJ 37 
+A1BHJ H182 H6  H 0 0 N N N N N N -8.358  9.440  23.134 -2.603 -3.107 -1.668 H182 A1BHJ 38 
+A1BHJ H181 H7  H 0 0 N N N N N N -8.948  11.010 22.490 -4.261 -2.529 -1.376 H181 A1BHJ 39 
+A1BHJ H201 H8  H 0 0 N N N N N N -13.665 10.420 21.220 1.508  -2.635 -0.393 H201 A1BHJ 40 
+A1BHJ H202 H9  H 0 0 N N N N N N -12.954 9.363  19.954 1.278  -3.048 1.371  H202 A1BHJ 41 
+A1BHJ H212 H10 H 0 0 N N N N N N -10.648 12.268 21.756 -0.406 -4.325 1.973  H212 A1BHJ 42 
+A1BHJ H211 H11 H 0 0 N N N N N N -12.367 12.061 22.235 -1.597 -4.933 0.729  H211 A1BHJ 43 
+A1BHJ H221 H12 H 0 0 N N N N N N -10.726 9.633  19.319 -1.304 -4.428 -1.406 H221 A1BHJ 44 
+A1BHJ H222 H13 H 0 0 N N N N N N -9.720  10.896 20.106 0.099  -3.363 -1.893 H222 A1BHJ 45 
+A1BHJ H231 H14 H 0 0 N N N N N N -12.248 12.111 19.333 1.109  -5.483 -0.178 H231 A1BHJ 46 
+A1BHJ H271 H15 H 0 0 N N N N N N -8.712  3.330  24.584 -2.477 4.505  -1.104 H271 A1BHJ 47 
+A1BHJ H301 H16 H 0 0 N N N N N N -9.866  7.133  27.529 -5.747 1.468  1.180  H301 A1BHJ 48 
+A1BHJ H011 H17 H 0 0 N N N N N N -14.536 3.754  19.259 4.929  0.982  -1.273 H011 A1BHJ 49 
+A1BHJ H051 H18 H 0 0 N N N N N N -13.147 5.307  17.005 4.597  1.114  1.772  H051 A1BHJ 50 
+A1BHJ H071 H19 H 0 0 N N N N N N -14.067 5.512  20.769 2.288  0.484  2.466  H071 A1BHJ 51 
+A1BHJ H101 H20 H 0 0 N N N N N N -11.147 6.221  17.746 3.289  0.467  -1.708 H101 A1BHJ 52 
+A1BHJ H311 H21 H 0 0 N N N N N N -9.178  5.005  28.523 -6.232 3.857  0.841  H311 A1BHJ 53 
+A1BHJ H321 H22 H 0 0 N N N N N N -8.592  3.069  27.052 -4.650 5.331  -0.265 H321 A1BHJ 54 
+A1BHJ H251 H24 H 0 0 N N N N N N -9.353  5.252  22.535 -1.007 2.063  -1.225 H251 A1BHJ 55 
+A1BHJ H2   H25 H 0 1 N N N N N N -16.290 2.131  16.641 8.345  2.041  -0.594 H2   A1BHJ 56 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1BHJ O03 C02  DOUB N N 1  
+A1BHJ C02 O04  SING N N 2  
+A1BHJ C02 C01  SING N N 3  
+A1BHJ C05 C01  DOUB N E 4  
+A1BHJ C05 C06  SING N N 5  
+A1BHJ C10 C06  DOUB Y N 6  
+A1BHJ C10 C11  SING Y N 7  
+A1BHJ C06 C07  SING Y N 8  
+A1BHJ F12 C11  SING N N 9  
+A1BHJ C11 C13  DOUB Y N 10 
+A1BHJ C22 C23  SING N N 11 
+A1BHJ C22 C19  SING N N 12 
+A1BHJ C23 C20  SING N N 13 
+A1BHJ C23 C21  SING N N 14 
+A1BHJ C07 C08  DOUB Y N 15 
+A1BHJ C20 C19  SING N N 16 
+A1BHJ C13 C08  SING Y N 17 
+A1BHJ C13 C14  SING N N 18 
+A1BHJ C08 F09  SING N N 19 
+A1BHJ C19 C21  SING N N 20 
+A1BHJ C19 N15  SING N N 21 
+A1BHJ C14 N15  SING N N 22 
+A1BHJ C14 C24  SING N N 23 
+A1BHJ N15 C16  SING N N 24 
+A1BHJ C24 N25  SING Y N 25 
+A1BHJ C24 C28  DOUB Y N 26 
+A1BHJ N25 C26  SING Y N 27 
+A1BHJ C18 C16  SING N N 28 
+A1BHJ C16 C17  SING N N 29 
+A1BHJ C28 C17  SING N N 30 
+A1BHJ C28 C29  SING Y N 31 
+A1BHJ C26 C27  DOUB Y N 32 
+A1BHJ C26 C29  SING Y N 33 
+A1BHJ C27 C32  SING Y N 34 
+A1BHJ C29 C30  DOUB Y N 35 
+A1BHJ C32 C31  DOUB Y N 36 
+A1BHJ C30 C31  SING Y N 37 
+A1BHJ C14 H141 SING N N 38 
+A1BHJ C16 H161 SING N N 39 
+A1BHJ C17 H171 SING N N 40 
+A1BHJ C17 H172 SING N N 41 
+A1BHJ C18 H183 SING N N 42 
+A1BHJ C18 H182 SING N N 43 
+A1BHJ C18 H181 SING N N 44 
+A1BHJ C20 H201 SING N N 45 
+A1BHJ C20 H202 SING N N 46 
+A1BHJ C21 H212 SING N N 47 
+A1BHJ C21 H211 SING N N 48 
+A1BHJ C22 H221 SING N N 49 
+A1BHJ C22 H222 SING N N 50 
+A1BHJ C23 H231 SING N N 51 
+A1BHJ C27 H271 SING N N 52 
+A1BHJ C30 H301 SING N N 53 
+A1BHJ C01 H011 SING N N 54 
+A1BHJ C05 H051 SING N N 55 
+A1BHJ C07 H071 SING N N 56 
+A1BHJ C10 H101 SING N N 57 
+A1BHJ C31 H311 SING N N 58 
+A1BHJ C32 H321 SING N N 59 
+A1BHJ N25 H251 SING N N 60 
+A1BHJ O04 H2   SING N N 61 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1BHJ SMILES           ACDLabs              14.52   "O=C(O)/C=C/c1cc(F)c(c(F)c1)C1c2[NH]c3ccccc3c2CC(C)N1C12CC(C1)C2"                                                                                                                                             
+A1BHJ InChI            InChI                1.06    "InChI=1S/C26H24F2N2O2/c1-14-8-18-17-4-2-3-5-21(17)29-24(18)25(30(14)26-11-16(12-26)13-26)23-19(27)9-15(10-20(23)28)6-7-22(31)32/h2-7,9-10,14,16,25,29H,8,11-13H2,1H3,(H,31,32)/b7-6+/t14-,16-,25-,26-/m1/s1" 
+A1BHJ InChIKey         InChI                1.06    HGFYTUMJTQXEII-DOKAAIGPSA-N                                                                                                                                                                                   
+A1BHJ SMILES_CANONICAL CACTVS               3.385   "C[C@@H]1Cc2c([nH]c3ccccc23)[C@H](N1C45CC(C4)C5)c6c(F)cc(\C=C\C(O)=O)cc6F"                                                                                                                                    
+A1BHJ SMILES           CACTVS               3.385   "C[CH]1Cc2c([nH]c3ccccc23)[CH](N1C45CC(C4)C5)c6c(F)cc(C=CC(O)=O)cc6F"                                                                                                                                         
+A1BHJ SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "C[C@@H]1Cc2c3ccccc3[nH]c2[C@H](N1C45CC(C4)C5)c6c(cc(cc6F)/C=C/C(=O)O)F"                                                                                                                                      
+A1BHJ SMILES           "OpenEye OEToolkits" 3.1.0.0 "CC1Cc2c3ccccc3[nH]c2C(N1C45CC(C4)C5)c6c(cc(cc6F)C=CC(=O)O)F"                                                                                                                                                 
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1BHJ "SYSTEMATIC NAME" ACDLabs              14.52   "(2E)-3-{4-[(1R,3R)-2-(bicyclo[1.1.1]pentan-1-yl)-3-methyl-2,3,4,9-tetrahydro-1H-pyrido[3,4-b]indol-1-yl]-3,5-difluorophenyl}prop-2-enoic acid"          
+A1BHJ "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "(~{E})-3-[4-[(1~{R},3~{R})-2-(1-bicyclo[1.1.1]pentanyl)-3-methyl-1,3,4,9-tetrahydropyrido[3,4-b]indol-1-yl]-3,5-bis(fluoranyl)phenyl]prop-2-enoic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1BHJ "Create component" 2024-11-15 RCSB 
+A1BHJ "Initial release"  2026-06-24 RCSB 
+# 

@@ -1,0 +1,168 @@
+data_5VP
+# 
+_chem_comp.id                                    5VP 
+_chem_comp.name                                  "4-{[(2-chloro-5-phenylthieno[2,3-d]pyrimidin-4-yl)amino]methyl}phenol" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H14 Cl N3 O S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2021-07-23 
+_chem_comp.pdbx_modified_date                    2022-06-17 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        367.852 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     5VP 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7RKE 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+5VP N1  N1  N  0 1 Y N N 3.350  6.377  -5.068  1.871  1.812  0.058  N1  5VP 1  
+5VP N3  N2  N  0 1 N N N 3.790  4.126  -5.714  -0.179 0.661  0.043  N3  5VP 2  
+5VP C4  C1  C  0 1 Y N N 1.542  4.856  -5.124  1.930  -0.549 -0.012 C4  5VP 3  
+5VP C5  C2  C  0 1 Y N N -0.415 3.933  -5.012  2.426  -2.840 -0.083 C5  5VP 4  
+5VP C6  C3  C  0 1 Y N N 0.719  3.814  -5.235  1.457  -1.927 -0.048 C6  5VP 5  
+5VP C7  C4  C  0 1 Y N N 1.211  2.446  -5.740  0.018  -2.283 -0.044 C7  5VP 6  
+5VP C8  C5  C  0 1 Y N N 1.620  2.419  -7.011  -0.824 -1.805 -1.047 C8  5VP 7  
+5VP C10 C6  C  0 1 Y N N 2.114  0.001  -6.948  -2.669 -2.948 -0.036 C10 5VP 8  
+5VP C13 C7  C  0 1 N N N 5.219  4.405  -5.517  -0.919 1.922  -0.043 C13 5VP 9  
+5VP C15 C8  C  0 1 Y N N 7.233  3.540  -6.726  -3.066 1.598  1.201  C15 5VP 10 
+5VP C17 C9  C  0 1 Y N N 7.212  2.827  -9.077  -5.116 1.123  0.052  C17 5VP 11 
+5VP C1  C10 C  0 1 Y N N 2.835  5.149  -5.292  1.204  0.668  0.031  C1  5VP 12 
+5VP C11 C11 C  0 1 Y N N 1.621  0.035  -5.494  -1.837 -3.431 0.958  C11 5VP 13 
+5VP C12 C12 C  0 1 Y N N 1.179  1.150  -4.929  -0.497 -3.102 0.960  C12 5VP 14 
+5VP C14 C13 C  0 1 Y N N 5.944  3.848  -6.758  -2.399 1.640  -0.009 C14 5VP 15 
+5VP C16 C14 C  0 1 Y N N 7.924  2.992  -7.974  -4.423 1.340  1.234  C16 5VP 16 
+5VP C18 C15 C  0 1 Y N N 5.727  3.183  -9.112  -4.444 1.165  -1.161 C18 5VP 17 
+5VP C19 C16 C  0 1 Y N N 5.128  3.657  -8.035  -3.087 1.424  -1.189 C19 5VP 18 
+5VP C2  C17 C  0 1 Y N N 2.411  7.353  -4.645  3.193  1.834  0.046  C2  5VP 19 
+5VP C3  C18 C  0 1 Y N N 0.580  5.945  -4.664  3.322  -0.472 -0.023 C3  5VP 20 
+5VP C9  C19 C  0 1 Y N N 2.120  1.120  -7.662  -2.162 -2.140 -1.038 C9  5VP 21 
+5VP N2  N3  N  0 1 Y N N 1.054  7.125  -4.452  3.908  0.733  0.007  N2  5VP 22 
+5VP O1  O1  O  0 1 N N N 7.832  2.319  -10.222 -6.450 0.868  0.082  O1  5VP 23 
+5VP S1  S1  S  0 1 Y N N -0.935 5.380  -4.525  4.010  -2.089 -0.078 S1  5VP 24 
+5VP CL1 CL1 CL 0 0 N N N 3.021  8.985  -4.350  4.009  3.365  0.083  CL1 5VP 25 
+5VP H1  H1  H  0 1 N N N 3.648  3.969  -6.691  -0.659 -0.179 0.108  H1  5VP 26 
+5VP H2  H2  H  0 1 N N N -1.097 3.104  -5.127  2.258  -3.907 -0.113 H2  5VP 27 
+5VP H4  H4  H  0 1 N N N 1.599  3.328  -7.593  -0.429 -1.173 -1.829 H4  5VP 28 
+5VP H5  H5  H  0 1 N N N 2.453  -0.926 -7.386  -3.718 -3.208 -0.034 H5  5VP 29 
+5VP H6  H6  H  0 1 N N N 5.387  5.489  -5.432  -0.651 2.559  0.801  H6  5VP 30 
+5VP H7  H7  H  0 1 N N N 5.583  3.905  -4.607  -0.666 2.429  -0.974 H7  5VP 31 
+5VP H8  H8  H  0 1 N N N 7.797  3.677  -5.815  -2.526 1.763  2.121  H8  5VP 32 
+5VP H9  H9  H  0 1 N N N 1.635  -0.876 -4.915  -2.239 -4.062 1.738  H9  5VP 33 
+5VP H10 H10 H  0 1 N N N 0.804  1.143  -3.916  0.151  -3.480 1.737  H10 5VP 34 
+5VP H11 H11 H  0 1 N N N 8.975  2.744  -7.956  -4.944 1.307  2.180  H11 5VP 35 
+5VP H12 H12 H  0 1 N N N 5.164  3.046  -10.023 -4.981 0.997  -2.083 H12 5VP 36 
+5VP H13 H13 H  0 1 N N N 4.077  3.906  -8.057  -2.563 1.458  -2.133 H13 5VP 37 
+5VP H14 H14 H  0 1 N N N 2.470  1.117  -8.684  -2.816 -1.770 -1.814 H14 5VP 38 
+5VP H15 H15 H  0 1 N N N 7.197  2.258  -10.926 -7.003 1.660  0.029  H15 5VP 39 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+5VP N1  C1  DOUB Y N 1  
+5VP N1  C2  SING Y N 2  
+5VP N3  C13 SING N N 3  
+5VP N3  C1  SING N N 4  
+5VP C4  C6  SING Y N 5  
+5VP C4  C1  SING Y N 6  
+5VP C4  C3  DOUB Y N 7  
+5VP C5  C6  DOUB Y N 8  
+5VP C5  S1  SING Y N 9  
+5VP C6  C7  SING N N 10 
+5VP C7  C8  DOUB Y N 11 
+5VP C7  C12 SING Y N 12 
+5VP C8  C9  SING Y N 13 
+5VP C10 C11 SING Y N 14 
+5VP C10 C9  DOUB Y N 15 
+5VP C13 C14 SING N N 16 
+5VP C15 C14 DOUB Y N 17 
+5VP C15 C16 SING Y N 18 
+5VP C17 C16 DOUB Y N 19 
+5VP C17 C18 SING Y N 20 
+5VP C17 O1  SING N N 21 
+5VP C11 C12 DOUB Y N 22 
+5VP C14 C19 SING Y N 23 
+5VP C18 C19 DOUB Y N 24 
+5VP C2  N2  DOUB Y N 25 
+5VP C2  CL1 SING N N 26 
+5VP C3  N2  SING Y N 27 
+5VP C3  S1  SING Y N 28 
+5VP N3  H1  SING N N 29 
+5VP C5  H2  SING N N 30 
+5VP C8  H4  SING N N 31 
+5VP C10 H5  SING N N 32 
+5VP C13 H6  SING N N 33 
+5VP C13 H7  SING N N 34 
+5VP C15 H8  SING N N 35 
+5VP C11 H9  SING N N 36 
+5VP C12 H10 SING N N 37 
+5VP C16 H11 SING N N 38 
+5VP C18 H12 SING N N 39 
+5VP C19 H13 SING N N 40 
+5VP C9  H14 SING N N 41 
+5VP O1  H15 SING N N 42 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+5VP SMILES           ACDLabs              12.01 "Oc1ccc(cc1)CNc1nc(Cl)nc2scc(c12)c1ccccc1"                                                                                           
+5VP InChI            InChI                1.03  "InChI=1S/C19H14ClN3OS/c20-19-22-17(21-10-12-6-8-14(24)9-7-12)16-15(11-25-18(16)23-19)13-4-2-1-3-5-13/h1-9,11,24H,10H2,(H,21,22,23)" 
+5VP InChIKey         InChI                1.03  NNBAZKOESMUGEL-UHFFFAOYSA-N                                                                                                          
+5VP SMILES_CANONICAL CACTVS               3.385 "Oc1ccc(CNc2nc(Cl)nc3scc(c4ccccc4)c23)cc1"                                                                                           
+5VP SMILES           CACTVS               3.385 "Oc1ccc(CNc2nc(Cl)nc3scc(c4ccccc4)c23)cc1"                                                                                           
+5VP SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)c2csc3c2c(nc(n3)Cl)NCc4ccc(cc4)O"                                                                                         
+5VP SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)c2csc3c2c(nc(n3)Cl)NCc4ccc(cc4)O"                                                                                         
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+5VP "SYSTEMATIC NAME" ACDLabs              12.01 "4-{[(2-chloro-5-phenylthieno[2,3-d]pyrimidin-4-yl)amino]methyl}phenol"     
+5VP "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "4-[[(2-chloranyl-5-phenyl-thieno[2,3-d]pyrimidin-4-yl)amino]methyl]phenol" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+5VP "Create component" 2021-07-23 RCSB 
+5VP "Initial release"  2022-06-22 RCSB 
+# 

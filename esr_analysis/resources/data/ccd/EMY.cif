@@ -1,0 +1,173 @@
+data_EMY
+# 
+_chem_comp.id                                    EMY 
+_chem_comp.name                                  "S-(2-chloro-6-{[(4-hydroxyphenyl)methyl]amino}pyrimidin-4-yl) phenylethanethioate" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H16 Cl N3 O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2021-12-09 
+_chem_comp.pdbx_modified_date                    2022-06-17 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        385.867 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     EMY 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7T2X 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+EMY N1  N1  N  0 1 Y N N 1.571  6.281  -4.472  -1.116 -0.737 0.002  N1  EMY 1  
+EMY N3  N2  N  0 1 N N N 4.713  4.221  -5.653  2.960  -0.478 0.001  N3  EMY 2  
+EMY C4  C1  C  0 1 Y N N 1.995  4.042  -5.215  0.806  0.608  0.001  C4  EMY 3  
+EMY C5  C2  C  0 1 Y N N 2.660  6.472  -4.612  -0.354 -1.813 0.003  C5  EMY 4  
+EMY C6  C3  C  0 1 Y N N 3.444  4.735  -5.269  1.575  -0.552 0.002  C6  EMY 5  
+EMY C7  C4  C  0 1 Y N N 1.468  1.070  -6.038  -5.610 1.126  -0.002 C7  EMY 6  
+EMY C8  C5  C  0 1 Y N N 1.913  1.065  -7.256  -6.168 0.718  1.195  C8  EMY 7  
+EMY C10 C6  C  0 1 Y N N 2.115  -1.338 -7.280  -7.840 -0.509 -0.001 C10 EMY 8  
+EMY C13 C7  C  0 1 N N N 5.020  2.861  -5.487  3.623  0.828  -0.001 C13 EMY 9  
+EMY C15 C8  C  0 1 Y N N 7.181  2.815  -6.625  5.801  0.542  -1.199 C15 EMY 10 
+EMY C17 C9  C  0 1 Y N N 7.414  2.204  -8.938  7.860  0.275  -0.001 C17 EMY 11 
+EMY C1  C10 C  0 1 N N N 1.110  2.432  -5.486  -4.395 2.017  -0.003 C1  EMY 12 
+EMY C11 C11 C  0 1 Y N N 1.593  -1.331 -5.865  -7.275 -0.111 -1.199 C11 EMY 13 
+EMY C12 C12 C  0 1 Y N N 1.275  -0.215 -5.283  -6.164 0.711  -1.199 C12 EMY 14 
+EMY C14 C13 C  0 1 Y N N 5.904  2.650  -6.692  5.117  0.633  -0.001 C14 EMY 15 
+EMY C16 C14 C  0 1 Y N N 8.007  2.575  -7.855  7.171  0.363  -1.202 C16 EMY 16 
+EMY C18 C15 C  0 1 Y N N 5.942  2.026  -9.002  7.172  0.366  1.200  C18 EMY 17 
+EMY C19 C16 C  0 1 Y N N 5.229  2.224  -7.958  5.802  0.545  1.197  C19 EMY 18 
+EMY C2  C17 C  0 1 N N N -0.416 3.219  -5.003  -3.150 1.168  -0.001 C2  EMY 19 
+EMY C3  C18 C  0 1 Y N N 0.949  5.123  -4.689  -0.579 0.481  0.001  C3  EMY 20 
+EMY C9  C19 C  0 1 Y N N 2.265  -0.230 -7.931  -7.283 -0.099 1.196  C9  EMY 21 
+EMY N2  N3  N  0 1 Y N N 3.436  5.867  -4.942  0.962  -1.734 0.003  N2  EMY 22 
+EMY O1  O1  O  0 1 N N N -1.646 2.596  -4.962  -3.240 -0.041 0.000  O1  EMY 23 
+EMY O2  O2  O  0 1 N N N 8.134  1.966  -10.079 9.208  0.098  -0.001 O2  EMY 24 
+EMY S1  S1  S  0 1 N N N -0.318 4.717  -4.586  -1.608 1.911  -0.002 S1  EMY 25 
+EMY CL1 CL1 CL 0 0 N N N 3.117  8.112  -4.214  -1.105 -3.378 0.005  CL1 EMY 26 
+EMY H1  H1  H  0 1 N N N 4.818  4.420  -6.627  3.489  -1.291 0.002  H1  EMY 27 
+EMY H2  H2  H  0 1 N N N 1.769  3.022  -5.488  1.272  1.582  -0.000 H2  EMY 28 
+EMY H3  H3  H  0 1 N N N 2.031  1.997  -7.788  -5.733 1.038  2.130  H3  EMY 29 
+EMY H4  H4  H  0 1 N N N 2.366  -2.276 -7.754  -8.709 -1.151 -0.001 H4  EMY 30 
+EMY H5  H5  H  0 1 N N N 5.559  2.675  -4.546  3.329  1.384  -0.891 H5  EMY 31 
+EMY H6  H6  H  0 1 N N N 4.119  2.231  -5.525  3.330  1.386  0.889  H6  EMY 32 
+EMY H7  H7  H  0 1 N N N 7.648  3.120  -5.700  5.264  0.606  -2.133 H7  EMY 33 
+EMY H8  H8  H  0 1 N N N 1.720  2.496  -4.573  -4.406 2.645  -0.893 H8  EMY 34 
+EMY H9  H9  H  0 1 N N N 1.512  3.119  -6.245  -4.406 2.647  0.887  H9  EMY 35 
+EMY H10 H10 H  0 1 N N N 1.483  -2.263 -5.331  -7.711 -0.431 -2.134 H10 EMY 36 
+EMY H11 H11 H  0 1 N N N 0.880  -0.210 -4.278  -5.728 1.030  -2.135 H11 EMY 37 
+EMY H12 H12 H  0 1 N N N 9.078  2.711  -7.833  7.705  0.292  -2.138 H12 EMY 38 
+EMY H13 H13 H  0 1 N N N 5.473  1.730  -9.929  7.706  0.298  2.136  H13 EMY 39 
+EMY H14 H14 H  0 1 N N N 4.158  2.086  -7.990  5.265  0.617  2.132  H14 EMY 40 
+EMY H15 H15 H  0 1 N N N 2.638  -0.236 -8.945  -7.719 -0.418 2.131  H15 EMY 41 
+EMY H16 H16 H  0 1 N N N 7.545  1.703  -10.777 9.712  0.923  -0.003 H16 EMY 42 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+EMY N1  C5  DOUB Y N 1  
+EMY N1  C3  SING Y N 2  
+EMY N3  C6  SING N N 3  
+EMY N3  C13 SING N N 4  
+EMY C4  C6  SING Y N 5  
+EMY C4  C3  DOUB Y N 6  
+EMY C5  N2  SING Y N 7  
+EMY C5  CL1 SING N N 8  
+EMY C6  N2  DOUB Y N 9  
+EMY C7  C8  DOUB Y N 10 
+EMY C7  C1  SING N N 11 
+EMY C7  C12 SING Y N 12 
+EMY C8  C9  SING Y N 13 
+EMY C10 C11 SING Y N 14 
+EMY C10 C9  DOUB Y N 15 
+EMY C13 C14 SING N N 16 
+EMY C15 C14 DOUB Y N 17 
+EMY C15 C16 SING Y N 18 
+EMY C17 C16 DOUB Y N 19 
+EMY C17 C18 SING Y N 20 
+EMY C17 O2  SING N N 21 
+EMY C11 C12 DOUB Y N 22 
+EMY C14 C19 SING Y N 23 
+EMY C18 C19 DOUB Y N 24 
+EMY C2  O1  DOUB N N 25 
+EMY C2  S1  SING N N 26 
+EMY C3  S1  SING N N 27 
+EMY C2  C1  SING N N 28 
+EMY N3  H1  SING N N 29 
+EMY C4  H2  SING N N 30 
+EMY C8  H3  SING N N 31 
+EMY C10 H4  SING N N 32 
+EMY C13 H5  SING N N 33 
+EMY C13 H6  SING N N 34 
+EMY C15 H7  SING N N 35 
+EMY C1  H8  SING N N 36 
+EMY C1  H9  SING N N 37 
+EMY C11 H10 SING N N 38 
+EMY C12 H11 SING N N 39 
+EMY C16 H12 SING N N 40 
+EMY C18 H13 SING N N 41 
+EMY C19 H14 SING N N 42 
+EMY C9  H15 SING N N 43 
+EMY O2  H16 SING N N 44 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+EMY SMILES           ACDLabs              12.01 "Clc1nc(NCc2ccc(O)cc2)cc(SC(=O)Cc2ccccc2)n1"                                                                                             
+EMY InChI            InChI                1.03  "InChI=1S/C19H16ClN3O2S/c20-19-22-16(21-12-14-6-8-15(24)9-7-14)11-17(23-19)26-18(25)10-13-4-2-1-3-5-13/h1-9,11,24H,10,12H2,(H,21,22,23)" 
+EMY InChIKey         InChI                1.03  FGFZLZHWBMYAOE-UHFFFAOYSA-N                                                                                                              
+EMY SMILES_CANONICAL CACTVS               3.385 "Oc1ccc(CNc2cc(SC(=O)Cc3ccccc3)nc(Cl)n2)cc1"                                                                                             
+EMY SMILES           CACTVS               3.385 "Oc1ccc(CNc2cc(SC(=O)Cc3ccccc3)nc(Cl)n2)cc1"                                                                                             
+EMY SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)CC(=O)Sc2cc(nc(n2)Cl)NCc3ccc(cc3)O"                                                                                           
+EMY SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)CC(=O)Sc2cc(nc(n2)Cl)NCc3ccc(cc3)O"                                                                                           
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+EMY "SYSTEMATIC NAME" ACDLabs              12.01 "S-(2-chloro-6-{[(4-hydroxyphenyl)methyl]amino}pyrimidin-4-yl) phenylethanethioate"       
+EMY "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "~{S}-[2-chloranyl-6-[(4-hydroxyphenyl)methylamino]pyrimidin-4-yl] 2-phenylethanethioate" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+EMY "Create component" 2021-12-09 RCSB 
+EMY "Initial release"  2022-06-22 RCSB 
+# 

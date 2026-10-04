@@ -1,0 +1,166 @@
+data_T5Q
+# 
+_chem_comp.id                                    T5Q 
+_chem_comp.name                                  "2-[3,5-bis(fluoranyl)phenoxy]-2-methyl-~{N}-(2-sulfanylethyl)propanamide" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C12 H15 F2 N O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2020-12-15 
+_chem_comp.pdbx_modified_date                    2024-09-27 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        275.315 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     T5Q 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7BA6 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBE 
+_chem_comp.pdbx_pcm                              Y 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+T5Q C1  C1  C 0 1 N N N N N N 15.236 20.562 -0.008 -0.002 1.941  0.322  C1  T5Q 1  
+T5Q C2  C2  C 0 1 Y N N N N N 17.200 21.315 1.325  -1.969 0.690  -0.141 C2  T5Q 2  
+T5Q C3  C3  C 0 1 Y N N N N N 17.573 22.216 2.297  -3.269 0.577  -0.613 C3  T5Q 3  
+T5Q C4  C4  C 0 1 Y N N N N N 18.751 22.068 2.993  -3.957 -0.614 -0.468 C4  T5Q 4  
+T5Q C5  C5  C 0 1 Y N N N N N 19.574 20.966 2.759  -3.348 -1.695 0.148  C5  T5Q 5  
+T5Q C6  C6  C 0 1 Y N N N N N 19.207 20.066 1.780  -2.051 -1.584 0.620  C6  T5Q 6  
+T5Q C7  C7  C 0 1 Y N N N N N 18.026 20.209 1.094  -1.361 -0.393 0.476  C7  T5Q 7  
+T5Q C9  C8  C 0 1 N N N N N N 15.988 19.957 -1.191 0.900  0.885  -0.263 C9  T5Q 8  
+T5Q C8  C9  C 0 1 N N N N N N 14.002 21.321 -0.495 -0.137 1.718  1.830  C8  T5Q 9  
+T5Q N   N1  N 0 1 N N N N N N 16.817 20.762 -1.863 2.174  0.774  0.164  N   T5Q 10 
+T5Q C   C10 C 0 1 N N N N N N 14.832 19.454 0.981  0.597  3.325  0.063  C   T5Q 11 
+T5Q O   O1  O 0 1 N N N N N N 16.026 21.567 0.641  -1.291 1.858  -0.289 O   T5Q 12 
+T5Q C10 C11 C 0 1 N N N N N N 17.765 20.215 -2.840 3.051  -0.252 -0.405 C10 T5Q 13 
+T5Q C11 C12 C 0 1 N N N N N N 18.913 19.414 -2.216 4.431  -0.163 0.250  C11 T5Q 14 
+T5Q F   F1  F 0 1 N N N N N N 19.064 22.955 3.954  -5.222 -0.724 -0.927 F   T5Q 15 
+T5Q F1  F2  F 0 1 N N N N N N 19.973 18.987 1.498  -1.459 -2.639 1.222  F1  T5Q 16 
+T5Q O1  O2  O 0 1 N N N N N N 15.840 18.771 -1.473 0.481  0.136  -1.119 O1  T5Q 17 
+T5Q S   S1  S 0 1 N N N N N N 20.283 20.526 -1.757 5.517  -1.434 -0.455 S   T5Q 18 
+T5Q H1  H1  H 0 1 N N N N N N 16.929 23.055 2.517  -3.744 1.420  -1.094 H1  T5Q 19 
+T5Q H2  H2  H 0 1 N N N N N N 20.478 20.821 3.331  -3.886 -2.624 0.262  H2  T5Q 20 
+T5Q H3  H3  H 0 1 N N N N N N 17.732 19.462 0.371  -0.349 -0.307 0.844  H3  T5Q 21 
+T5Q H4  H4  H 0 1 N N N N N N 13.471 21.751 0.367  -0.689 0.796  2.013  H4  T5Q 22 
+T5Q H5  H5  H 0 1 N N N N N N 14.313 22.129 -1.174 0.855  1.642  2.276  H5  T5Q 23 
+T5Q H6  H6  H 0 1 N N N N N N 13.334 20.630 -1.029 -0.672 2.557  2.275  H6  T5Q 24 
+T5Q H7  H7  H 0 1 N N N N N N 16.791 21.748 -1.698 2.509  1.374  0.849  H7  T5Q 25 
+T5Q H8  H8  H 0 1 N N N N N N 14.291 19.898 1.829  -0.059 4.089  0.480  H8  T5Q 26 
+T5Q H9  H9  H 0 1 N N N N N N 14.182 18.728 0.472  1.578  3.391  0.535  H9  T5Q 27 
+T5Q H10 H10 H 0 1 N N N N N N 15.735 18.944 1.348  0.700  3.481  -1.011 H10 T5Q 28 
+T5Q H11 H11 H 0 1 N N N N N N 18.197 21.052 -3.409 2.624  -1.238 -0.220 H11 T5Q 29 
+T5Q H12 H12 H 0 1 N N N N N N 17.213 19.553 -3.524 3.147  -0.093 -1.479 H12 T5Q 30 
+T5Q H13 H13 H 0 1 N N N N N N 18.548 18.897 -1.316 4.858  0.823  0.065  H13 T5Q 31 
+T5Q H14 H14 H 0 1 N N N N N N 19.275 18.672 -2.943 4.335  -0.322 1.324  H14 T5Q 32 
+T5Q H15 H15 H 0 1 N N N N N N 21.148 19.696 -1.255 6.675  -1.241 0.202  H15 T5Q 33 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+T5Q C10 C11 SING N N 1  
+T5Q C10 N   SING N N 2  
+T5Q C11 S   SING N N 3  
+T5Q N   C9  SING N N 4  
+T5Q O1  C9  DOUB N N 5  
+T5Q C9  C1  SING N N 6  
+T5Q C8  C1  SING N N 7  
+T5Q C1  O   SING N N 8  
+T5Q C1  C   SING N N 9  
+T5Q O   C2  SING N N 10 
+T5Q C7  C2  DOUB Y N 11 
+T5Q C7  C6  SING Y N 12 
+T5Q C2  C3  SING Y N 13 
+T5Q F1  C6  SING N N 14 
+T5Q C6  C5  DOUB Y N 15 
+T5Q C3  C4  DOUB Y N 16 
+T5Q C5  C4  SING Y N 17 
+T5Q C4  F   SING N N 18 
+T5Q C3  H1  SING N N 19 
+T5Q C5  H2  SING N N 20 
+T5Q C7  H3  SING N N 21 
+T5Q C8  H4  SING N N 22 
+T5Q C8  H5  SING N N 23 
+T5Q C8  H6  SING N N 24 
+T5Q N   H7  SING N N 25 
+T5Q C   H8  SING N N 26 
+T5Q C   H9  SING N N 27 
+T5Q C   H10 SING N N 28 
+T5Q C10 H11 SING N N 29 
+T5Q C10 H12 SING N N 30 
+T5Q C11 H13 SING N N 31 
+T5Q C11 H14 SING N N 32 
+T5Q S   H15 SING N N 33 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+T5Q InChI            InChI                1.03  "InChI=1S/C12H15F2NO2S/c1-12(2,11(16)15-3-4-18)17-10-6-8(13)5-9(14)7-10/h5-7,18H,3-4H2,1-2H3,(H,15,16)" 
+T5Q InChIKey         InChI                1.03  HNNHYHUTCFDRHL-UHFFFAOYSA-N                                                                             
+T5Q SMILES_CANONICAL CACTVS               3.385 "CC(C)(Oc1cc(F)cc(F)c1)C(=O)NCCS"                                                                       
+T5Q SMILES           CACTVS               3.385 "CC(C)(Oc1cc(F)cc(F)c1)C(=O)NCCS"                                                                       
+T5Q SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CC(C)(C(=O)NCCS)Oc1cc(cc(c1)F)F"                                                                       
+T5Q SMILES           "OpenEye OEToolkits" 2.0.7 "CC(C)(C(=O)NCCS)Oc1cc(cc(c1)F)F"                                                                       
+# 
+_pdbx_chem_comp_identifier.comp_id           T5Q 
+_pdbx_chem_comp_identifier.type              "SYSTEMATIC NAME" 
+_pdbx_chem_comp_identifier.program           "OpenEye OEToolkits" 
+_pdbx_chem_comp_identifier.program_version   2.0.7 
+_pdbx_chem_comp_identifier.identifier        "2-[3,5-bis(fluoranyl)phenoxy]-2-methyl-~{N}-(2-sulfanylethyl)propanamide" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+T5Q "Create component" 2020-12-15 PDBE 
+T5Q "Initial release"  2021-07-07 RCSB 
+T5Q "Modify PCM"       2024-09-27 PDBE 
+# 
+_pdbx_chem_comp_pcm.pcm_id                             1 
+_pdbx_chem_comp_pcm.comp_id                            T5Q 
+_pdbx_chem_comp_pcm.modified_residue_id                CYS 
+_pdbx_chem_comp_pcm.type                               None 
+_pdbx_chem_comp_pcm.category                           "Covalent chemical modification" 
+_pdbx_chem_comp_pcm.position                           "Amino-acid side chain" 
+_pdbx_chem_comp_pcm.polypeptide_position               "Any position" 
+_pdbx_chem_comp_pcm.comp_id_linking_atom               S 
+_pdbx_chem_comp_pcm.modified_residue_id_linking_atom   SG 
+_pdbx_chem_comp_pcm.uniprot_specific_ptm_accession     ? 
+_pdbx_chem_comp_pcm.uniprot_generic_ptm_accession      ? 
+# 

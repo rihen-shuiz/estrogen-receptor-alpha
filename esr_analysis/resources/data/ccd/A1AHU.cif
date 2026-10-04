@@ -1,0 +1,213 @@
+data_A1AHU
+# 
+_chem_comp.id                                    A1AHU 
+_chem_comp.name                                  "4,4'-[(1S,4S,5R)-5-(3,4-dihydroquinoline-1(2H)-sulfonyl)-7-oxabicyclo[2.2.1]hept-2-ene-2,3-diyl]diphenol" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C27 H25 N O5 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2024-03-11 
+_chem_comp.pdbx_modified_date                    2024-06-07 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        475.556 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1AHU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        8VYX 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1AHU N1  N1  N 0 1 N N N N N N 24.288 37.107 9.634  -3.695 -0.297 0.499  N1  A1AHU 1  
+A1AHU C4  C1  C 0 1 N N N N N N 28.876 39.026 10.036 1.668  -0.996 0.870  C4  A1AHU 2  
+A1AHU C5  C2  C 0 1 Y N N N N N 30.269 39.416 10.329 2.791  -1.629 0.158  C5  A1AHU 3  
+A1AHU C6  C3  C 0 1 Y N N N N N 30.888 40.548 9.723  2.555  -2.384 -0.994 C6  A1AHU 4  
+A1AHU C7  C4  C 0 1 Y N N N N N 32.221 40.887 10.089 3.609  -2.975 -1.657 C7  A1AHU 5  
+A1AHU C8  C5  C 0 1 Y N N N N N 32.866 40.086 11.054 4.905  -2.821 -1.181 C8  A1AHU 6  
+A1AHU C10 C6  C 0 1 Y N N N N N 30.967 38.640 11.268 4.098  -1.473 0.630  C10 A1AHU 7  
+A1AHU C13 C7  C 0 1 Y N N N N N 29.440 39.024 6.896  2.386  1.623  -0.891 C13 A1AHU 8  
+A1AHU C15 C8  C 0 1 Y N N N N N 28.812 40.317 4.975  3.813  3.510  -0.499 C15 A1AHU 9  
+A1AHU C17 C9  C 0 1 Y N N N N N 27.512 40.491 6.951  2.913  2.305  1.369  C17 A1AHU 10 
+A1AHU C20 C10 C 0 1 N N N N N N 23.865 38.735 11.455 -4.443 -2.430 -0.386 C20 A1AHU 11 
+A1AHU C21 C11 C 0 1 N N N N N N 23.057 39.677 10.517 -5.109 -1.735 -1.574 C21 A1AHU 12 
+A1AHU C22 C12 C 0 1 Y N N N N N 23.404 37.818 8.758  -3.858 0.299  -0.756 C22 A1AHU 13 
+A1AHU C24 C13 C 0 1 Y N N N N N 21.938 39.673 8.241  -4.665 0.251  -3.010 C24 A1AHU 14 
+A1AHU C26 C14 C 0 1 Y N N N N N 22.258 37.913 6.614  -3.486 2.175  -2.206 C26 A1AHU 15 
+A1AHU C1  C15 C 0 1 N N R N N N 27.077 37.076 9.206  -0.994 0.028  0.855  C1  A1AHU 16 
+A1AHU C11 C16 C 0 1 N N N N N N 28.060 39.233 8.978  1.437  0.333  1.013  C11 A1AHU 17 
+A1AHU C12 C17 C 0 1 Y N N N N N 28.358 39.560 7.590  2.259  1.438  0.488  C12 A1AHU 18 
+A1AHU C14 C18 C 0 1 Y N N N N N 29.683 39.409 5.583  3.160  2.655  -1.377 C14 A1AHU 19 
+A1AHU C16 C19 C 0 1 Y N N N N N 27.742 40.853 5.636  3.689  3.330  0.873  C16 A1AHU 20 
+A1AHU C18 C20 C 0 1 N N S N N N 26.727 38.578 9.380  0.148  0.451  1.831  C18 A1AHU 21 
+A1AHU C19 C21 C 0 1 N N N N N N 23.914 37.246 11.034 -4.487 -1.491 0.826  C19 A1AHU 22 
+A1AHU C2  C22 C 0 1 N N N N N N 27.796 36.803 10.533 -0.731 -1.485 0.684  C2  A1AHU 23 
+A1AHU C23 C23 C 0 1 Y N N N N N 22.797 39.046 9.149  -4.525 -0.362 -1.776 C23 A1AHU 24 
+A1AHU C25 C24 C 0 1 Y N N N N N 21.670 39.115 6.988  -4.148 1.514  -3.224 C25 A1AHU 25 
+A1AHU C27 C25 C 0 1 Y N N N N N 23.133 37.270 7.493  -3.340 1.571  -0.973 C27 A1AHU 26 
+A1AHU C3  C26 C 0 1 N N S N N N 28.042 38.233 11.049 0.518  -1.702 1.594  C3  A1AHU 27 
+A1AHU C9  C27 C 0 1 Y N N N N N 32.261 38.942 11.596 5.145  -2.072 -0.037 C9  A1AHU 28 
+A1AHU O1  O1  O 0 1 N N N N N N 25.419 35.881 7.512  -2.913 1.718  1.616  O1  A1AHU 29 
+A1AHU O2  O2  O 0 1 N N N N N N 34.167 40.307 11.439 5.941  -3.406 -1.837 O2  A1AHU 30 
+A1AHU O3  O3  O 0 1 N N N N N N 29.030 40.715 3.682  4.575  4.525  -0.983 O3  A1AHU 31 
+A1AHU O4  O4  O 0 1 N N N N N N 26.768 38.754 10.786 0.253  -0.743 2.677  O4  A1AHU 32 
+A1AHU O5  O5  O 0 1 N N N N N N 25.810 34.830 9.808  -2.799 -0.475 2.754  O5  A1AHU 33 
+A1AHU S1  S1  S 0 1 N N N N N N 25.522 36.026 9.014  -2.623 0.327  1.595  S1  A1AHU 34 
+A1AHU H6  H2  H 0 1 N N N N N N 30.353 41.141 8.996  1.547  -2.505 -1.364 H6  A1AHU 35 
+A1AHU H7  H3  H 0 1 N N N N N N 32.723 41.732 9.641  3.427  -3.558 -2.547 H7  A1AHU 36 
+A1AHU H10 H4  H 0 1 N N N N N N 30.479 37.798 11.735 4.286  -0.886 1.517  H10 A1AHU 37 
+A1AHU H11 H5  H 0 1 N N N N N N 30.090 38.309 7.378  1.883  0.956  -1.575 H11 A1AHU 38 
+A1AHU H15 H6  H 0 1 N N N N N N 26.682 40.923 7.491  2.818  2.166  2.435  H15 A1AHU 39 
+A1AHU H19 H7  H 0 1 N N N N N N 24.899 39.108 11.499 -4.978 -3.351 -0.155 H19 A1AHU 40 
+A1AHU H18 H8  H 0 1 N N N N N N 23.414 38.788 12.457 -3.407 -2.662 -0.633 H18 A1AHU 41 
+A1AHU H20 H9  H 0 1 N N N N N N 23.625 40.608 10.375 -4.951 -2.330 -2.474 H20 A1AHU 42 
+A1AHU H21 H10 H 0 1 N N N N N N 22.091 39.905 10.991 -6.178 -1.645 -1.385 H21 A1AHU 43 
+A1AHU H22 H11 H 0 1 N N N N N N 21.472 40.608 8.514  -5.181 -0.262 -3.809 H22 A1AHU 44 
+A1AHU H24 H12 H 0 1 N N N N N N 22.040 37.478 5.650  -3.084 3.163  -2.375 H24 A1AHU 45 
+A1AHU H1  H13 H 0 1 N N N N N N 27.722 36.897 8.333  -0.901 0.545  -0.100 H1  A1AHU 46 
+A1AHU H12 H15 H 0 1 N N N N N N 30.530 39.013 5.042  3.260  2.798  -2.443 H12 A1AHU 47 
+A1AHU H14 H16 H 0 1 N N N N N N 27.085 41.550 5.138  4.199  3.997  1.552  H14 A1AHU 48 
+A1AHU H3  H17 H 0 1 N N N N N N 25.837 38.926 8.836  0.001  1.401  2.345  H3  A1AHU 49 
+A1AHU H17 H18 H 0 1 N N N N N N 22.921 36.797 11.187 -4.060 -1.990 1.696  H17 A1AHU 50 
+A1AHU H16 H19 H 0 1 N N N N N N 24.653 36.721 11.657 -5.518 -1.205 1.034  H16 A1AHU 51 
+A1AHU H4  H20 H 0 1 N N N N N N 27.160 36.230 11.224 -1.576 -2.071 1.045  H4  A1AHU 52 
+A1AHU H5  H21 H 0 1 N N N N N N 28.742 36.265 10.374 -0.507 -1.726 -0.355 H5  A1AHU 53 
+A1AHU H23 H22 H 0 1 N N N N N N 21.002 39.621 6.307  -4.261 1.986  -4.189 H23 A1AHU 54 
+A1AHU H25 H23 H 0 1 N N N N N N 23.605 36.344 7.198  -2.824 2.087  -0.177 H25 A1AHU 55 
+A1AHU H2  H24 H 0 1 N N N N N N 28.404 38.289 12.086 0.711  -2.733 1.891  H2  A1AHU 56 
+A1AHU H9  H25 H 0 1 N N N N N N 32.814 38.303 12.269 6.154  -1.955 0.329  H9  A1AHU 57 
+A1AHU H8  H26 H 0 1 N N N N N N 34.417 39.666 12.094 6.336  -2.850 -2.523 H8  A1AHU 58 
+A1AHU H13 H27 H 0 1 N N N N N N 28.354 41.329 3.421  4.090  5.351  -1.116 H13 A1AHU 59 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1AHU O3  C15 SING N N 1  
+A1AHU C15 C14 DOUB Y N 2  
+A1AHU C15 C16 SING Y N 3  
+A1AHU C14 C13 SING Y N 4  
+A1AHU C16 C17 DOUB Y N 5  
+A1AHU C26 C25 DOUB Y N 6  
+A1AHU C26 C27 SING Y N 7  
+A1AHU C13 C12 DOUB Y N 8  
+A1AHU C17 C12 SING Y N 9  
+A1AHU C25 C24 SING Y N 10 
+A1AHU C27 C22 DOUB Y N 11 
+A1AHU O1  S1  DOUB N N 12 
+A1AHU C12 C11 SING N N 13 
+A1AHU C24 C23 DOUB Y N 14 
+A1AHU C22 C23 SING Y N 15 
+A1AHU C22 N1  SING N N 16 
+A1AHU C11 C18 SING N N 17 
+A1AHU C11 C4  DOUB N N 18 
+A1AHU S1  C1  SING N N 19 
+A1AHU S1  N1  SING N N 20 
+A1AHU S1  O5  DOUB N N 21 
+A1AHU C23 C21 SING N N 22 
+A1AHU C1  C18 SING N N 23 
+A1AHU C1  C2  SING N N 24 
+A1AHU C18 O4  SING N N 25 
+A1AHU N1  C19 SING N N 26 
+A1AHU C6  C7  DOUB Y N 27 
+A1AHU C6  C5  SING Y N 28 
+A1AHU C4  C5  SING N N 29 
+A1AHU C4  C3  SING N N 30 
+A1AHU C7  C8  SING Y N 31 
+A1AHU C5  C10 DOUB Y N 32 
+A1AHU C21 C20 SING N N 33 
+A1AHU C2  C3  SING N N 34 
+A1AHU O4  C3  SING N N 35 
+A1AHU C19 C20 SING N N 36 
+A1AHU C8  O2  SING N N 37 
+A1AHU C8  C9  DOUB Y N 38 
+A1AHU C10 C9  SING Y N 39 
+A1AHU C6  H6  SING N N 40 
+A1AHU C7  H7  SING N N 41 
+A1AHU C10 H10 SING N N 42 
+A1AHU C13 H11 SING N N 43 
+A1AHU C17 H15 SING N N 44 
+A1AHU C20 H19 SING N N 45 
+A1AHU C20 H18 SING N N 46 
+A1AHU C21 H20 SING N N 47 
+A1AHU C21 H21 SING N N 48 
+A1AHU C24 H22 SING N N 49 
+A1AHU C26 H24 SING N N 50 
+A1AHU C1  H1  SING N N 51 
+A1AHU C14 H12 SING N N 52 
+A1AHU C16 H14 SING N N 53 
+A1AHU C18 H3  SING N N 54 
+A1AHU C19 H17 SING N N 55 
+A1AHU C19 H16 SING N N 56 
+A1AHU C2  H4  SING N N 57 
+A1AHU C2  H5  SING N N 58 
+A1AHU C25 H23 SING N N 59 
+A1AHU C27 H25 SING N N 60 
+A1AHU C3  H2  SING N N 61 
+A1AHU C9  H9  SING N N 62 
+A1AHU O2  H8  SING N N 63 
+A1AHU O3  H13 SING N N 64 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1AHU SMILES           ACDLabs              12.01 "O=S(=O)(C1CC2OC1C(=C2c1ccc(O)cc1)c1ccc(O)cc1)N1CCCc2ccccc21"                                                                                                                                    
+A1AHU InChI            InChI                1.06  "InChI=1S/C27H25NO5S/c29-20-11-7-18(8-12-20)25-23-16-24(27(33-23)26(25)19-9-13-21(30)14-10-19)34(31,32)28-15-3-5-17-4-1-2-6-22(17)28/h1-2,4,6-14,23-24,27,29-30H,3,5,15-16H2/t23-,24+,27+/m0/s1" 
+A1AHU InChIKey         InChI                1.06  IPUQEFVHNTWOMD-CLCZQPDDSA-N                                                                                                                                                                      
+A1AHU SMILES_CANONICAL CACTVS               3.385 "Oc1ccc(cc1)C2=C([C@@H]3O[C@H]2C[C@H]3[S](=O)(=O)N4CCCc5ccccc45)c6ccc(O)cc6"                                                                                                                     
+A1AHU SMILES           CACTVS               3.385 "Oc1ccc(cc1)C2=C([CH]3O[CH]2C[CH]3[S](=O)(=O)N4CCCc5ccccc45)c6ccc(O)cc6"                                                                                                                         
+A1AHU SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc2c(c1)CCCN2S(=O)(=O)[C@@H]3C[C@H]4C(=C([C@@H]3O4)c5ccc(cc5)O)c6ccc(cc6)O"                                                                                                                  
+A1AHU SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc2c(c1)CCCN2S(=O)(=O)C3CC4C(=C(C3O4)c5ccc(cc5)O)c6ccc(cc6)O"                                                                                                                                
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1AHU "SYSTEMATIC NAME" ACDLabs              12.01 "4,4'-[(1S,4S,5R)-5-(3,4-dihydroquinoline-1(2H)-sulfonyl)-7-oxabicyclo[2.2.1]hept-2-ene-2,3-diyl]diphenol"                        
+A1AHU "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "4-[(1~{S},4~{S},5~{R})-5-(3,4-dihydro-2~{H}-quinolin-1-ylsulfonyl)-3-(4-hydroxyphenyl)-7-oxabicyclo[2.2.1]hept-2-en-2-yl]phenol" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1AHU "Create component" 2024-03-11 RCSB 
+A1AHU "Initial release"  2024-06-12 RCSB 
+# 

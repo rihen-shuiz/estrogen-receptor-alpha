@@ -1,0 +1,7 @@
+{
+  "reference": "7NFB|B|1",
+  "eligible_ESR1_chains": 788,
+  "entry_matrix_n": 351,
+  "entry_policy": "verified historical author chain if eligible; otherwise completeness then chain key",
+  "atom_population": "equivalent ESR1 canonical LBD CA; fit shared configured core >=60 positions; H12 excluded"
+}

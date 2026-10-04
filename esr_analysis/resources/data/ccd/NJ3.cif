@@ -1,0 +1,240 @@
+data_NJ3
+# 
+_chem_comp.id                                    NJ3 
+_chem_comp.name                                  "2-chloranyl-1-[3-[(2R,6S)-4-[(4-chlorophenyl)amino]-2,6-dimethyl-oxan-4-yl]carbonyl-3,9-diazaspiro[5.5]undecan-9-yl]ethanone" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C25 H35 Cl2 N3 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-08-17 
+_chem_comp.pdbx_modified_date                    2024-09-27 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        496.470 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     NJ3 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        8APS 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBE 
+_chem_comp.pdbx_pcm                              Y 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+NJ3 O2  O1  O  0 1 N N N N N N -21.490 26.142 2.280  -6.343 -1.097 0.272  O2  NJ3 1  
+NJ3 C17 C1  C  0 1 N N N N N N -21.248 25.263 3.097  -5.688 -0.076 0.259  C17 NJ3 2  
+NJ3 C18 C2  C  0 1 N N N N N N -21.611 25.417 4.529  -6.378 1.262  0.315  C18 NJ3 3  
+NJ3 N3  N1  N  0 1 N N N N N N -20.650 24.122 2.754  -4.343 -0.139 0.199  N3  NJ3 4  
+NJ3 C16 C3  C  0 1 N N N N N N -19.979 23.199 3.689  -3.655 -1.437 0.149  C16 NJ3 5  
+NJ3 C15 C4  C  0 1 N N N N N N -18.469 23.166 3.359  -2.718 -1.451 -1.062 C15 NJ3 6  
+NJ3 C19 C5  C  0 1 N N N N N N -20.583 23.719 1.359  -3.536 1.089  0.176  C19 NJ3 7  
+NJ3 C20 C6  C  0 1 N N N N N N -19.102 23.829 1.039  -2.600 1.041  -1.036 C20 NJ3 8  
+NJ3 C14 C7  C  0 1 N N N N N N -18.226 22.882 1.878  -1.778 -0.245 -0.990 C14 NJ3 9  
+NJ3 C13 C8  C  0 1 N N N N N N -18.522 21.433 1.510  -0.820 -0.279 -2.183 C13 NJ3 10 
+NJ3 C12 C9  C  0 1 N N N N N N -17.430 20.442 1.892  0.095  0.948  -2.134 C12 NJ3 11 
+NJ3 C21 C10 C  0 1 N N N N N N -16.769 23.217 1.527  -0.977 -0.292 0.312  C21 NJ3 12 
+NJ3 C22 C11 C  0 1 N N N N N N -15.738 22.185 1.988  -0.063 0.935  0.390  C22 NJ3 13 
+NJ3 N2  N2  N  0 1 N N N N N N -16.130 20.919 1.385  0.762  0.988  -0.825 N2  NJ3 14 
+NJ3 C11 C12 C  0 1 N N N N N N -15.342 20.334 0.457  2.105  1.072  -0.741 C11 NJ3 15 
+NJ3 O1  O2  O  0 1 N N N N N N -14.306 20.913 0.127  2.778  1.057  -1.749 O1  NJ3 16 
+NJ3 C4  C13 C  0 1 N N N N N N -15.699 18.994 -0.222 2.769  1.185  0.607  C4  NJ3 17 
+NJ3 C3  C14 C  0 1 N N N N N N -15.594 17.888 0.834  2.450  2.551  1.223  C3  NJ3 18 
+NJ3 C23 C15 C  0 1 N N N N N N -14.709 18.695 -1.340 4.286  1.054  0.443  C23 NJ3 19 
+NJ3 C24 C16 C  0 1 N N S N N N -13.309 18.271 -0.878 4.802  2.212  -0.415 C24 NJ3 20 
+NJ3 C25 C17 C  0 1 N N N N N N -12.490 17.760 -2.065 6.324  2.121  -0.534 C25 NJ3 21 
+NJ3 O3  O3  O  0 1 N N N N N N -13.416 17.216 0.075  4.445  3.453  0.198  O3  NJ3 22 
+NJ3 C2  C18 C  0 1 N N R N N N -14.154 17.590 1.234  3.036  3.652  0.335  C2  NJ3 23 
+NJ3 C1  C19 C  0 1 N N N N N N -14.066 16.482 2.286  2.774  5.017  0.974  C1  NJ3 24 
+NJ3 N1  N3  N  0 1 N N N N N N -17.069 19.001 -0.766 2.276  0.124  1.488  N1  NJ3 25 
+NJ3 C5  C20 C  0 1 Y N N N N N -17.602 20.005 -1.540 2.358  -1.212 1.086  C5  NJ3 26 
+NJ3 C10 C21 C  0 1 Y N N N N N -16.910 21.171 -1.931 1.872  -2.218 1.911  C10 NJ3 27 
+NJ3 C9  C22 C  0 1 Y N N N N N -17.555 22.152 -2.696 1.955  -3.538 1.511  C9  NJ3 28 
+NJ3 C8  C23 C  0 1 Y N N N N N -18.869 21.986 -3.045 2.521  -3.858 0.289  C8  NJ3 29 
+NJ3 CL2 CL2 CL 0 0 N N N N N N -19.663 23.262 -3.970 2.623  -5.517 -0.210 CL2 NJ3 30 
+NJ3 C7  C24 C  0 1 Y N N N N N -19.591 20.864 -2.680 3.006  -2.857 -0.535 C7  NJ3 31 
+NJ3 C6  C25 C  0 1 Y N N N N N -18.946 19.883 -1.912 2.920  -1.536 -0.142 C6  NJ3 32 
+NJ3 H1  H1  H  0 1 N N N N N N -22.095 26.393 4.682  -6.046 1.805  1.200  H1  NJ3 33 
+NJ3 H2  H2  H  0 1 N N N N N N -22.304 24.614 4.820  -6.131 1.837  -0.577 H2  NJ3 34 
+NJ3 CL1 CL1 CL 0 0 N Y N N N N -20.702 25.358 5.146  -8.163 1.015  0.397  CL1 NJ3 35 
+NJ3 H4  H4  H  0 1 N N N N N N -20.124 23.549 4.722  -3.076 -1.579 1.061  H4  NJ3 36 
+NJ3 H5  H5  H  0 1 N N N N N N -20.403 22.190 3.581  -4.390 -2.236 0.054  H5  NJ3 37 
+NJ3 H6  H6  H  0 1 N N N N N N -17.989 22.378 3.958  -2.131 -2.370 -1.057 H6  NJ3 38 
+NJ3 H7  H7  H  0 1 N N N N N N -18.026 24.140 3.614  -3.306 -1.401 -1.979 H7  NJ3 39 
+NJ3 H8  H8  H  0 1 N N N N N N -21.175 24.394 0.724  -4.193 1.956  0.096  H8  NJ3 40 
+NJ3 H9  H9  H  0 1 N N N N N N -20.939 22.687 1.229  -2.950 1.157  1.092  H9  NJ3 41 
+NJ3 H10 H10 H  0 1 N N N N N N -18.956 23.589 -0.025 -3.189 1.065  -1.952 H10 NJ3 42 
+NJ3 H11 H11 H  0 1 N N N N N N -18.780 24.863 1.229  -1.929 1.900  -1.011 H11 NJ3 43 
+NJ3 H12 H12 H  0 1 N N N N N N -19.450 21.133 2.019  -0.216 -1.185 -2.139 H12 NJ3 44 
+NJ3 H13 H13 H  0 1 N N N N N N -18.667 21.379 0.421  -1.393 -0.268 -3.111 H13 NJ3 45 
+NJ3 H14 H14 H  0 1 N N N N N N -17.657 19.460 1.452  0.844  0.878  -2.923 H14 NJ3 46 
+NJ3 H15 H15 H  0 1 N N N N N N -17.385 20.351 2.987  -0.498 1.852  -2.272 H15 NJ3 47 
+NJ3 H16 H16 H  0 1 N N N N N N -16.694 23.309 0.433  -1.661 -0.290 1.161  H16 NJ3 48 
+NJ3 H17 H17 H  0 1 N N N N N N -16.519 24.181 1.994  -0.371 -1.198 0.334  H17 NJ3 49 
+NJ3 H18 H18 H  0 1 N N N N N N -15.745 22.103 3.085  -0.669 1.838  0.460  H18 NJ3 50 
+NJ3 H19 H19 H  0 1 N N N N N N -14.732 22.473 1.649  0.580  0.857  1.267  H19 NJ3 51 
+NJ3 H20 H20 H  0 1 N N N N N N -16.150 18.203 1.730  1.370  2.676  1.292  H20 NJ3 52 
+NJ3 H21 H21 H  0 1 N N N N N N -16.043 16.970 0.428  2.889  2.614  2.218  H21 NJ3 53 
+NJ3 H22 H22 H  0 1 N N N N N N -14.605 19.602 -1.953 4.763  1.086  1.423  H22 NJ3 54 
+NJ3 H23 H23 H  0 1 N N N N N N -15.125 17.883 -1.954 4.519  0.107  -0.045 H23 NJ3 55 
+NJ3 H24 H24 H  0 1 N N N N N N -12.799 19.140 -0.436 4.355  2.156  -1.408 H24 NJ3 56 
+NJ3 H25 H25 H  0 1 N N N N N N -11.490 17.460 -1.719 6.596  1.174  -1.000 H25 NJ3 57 
+NJ3 H26 H26 H  0 1 N N N N N N -12.997 16.894 -2.515 6.691  2.946  -1.145 H26 NJ3 58 
+NJ3 H27 H27 H  0 1 N N N N N N -12.394 18.559 -2.815 6.770  2.178  0.459  H27 NJ3 59 
+NJ3 H28 H28 H  0 1 N N N N N N -13.722 18.505 1.665  2.567  3.614  -0.648 H28 NJ3 60 
+NJ3 H29 H29 H  0 1 N N N N N N -14.638 16.777 3.178  3.244  5.055  1.957  H29 NJ3 61 
+NJ3 H30 H30 H  0 1 N N N N N N -14.483 15.551 1.874  3.191  5.801  0.342  H30 NJ3 62 
+NJ3 H31 H31 H  0 1 N N N N N N -13.013 16.321 2.562  1.699  5.169  1.079  H31 NJ3 63 
+NJ3 H32 H32 H  0 1 N N N N N N -17.672 18.927 0.028  1.892  0.348  2.350  H32 NJ3 64 
+NJ3 H33 H33 H  0 1 N N N N N N -15.879 21.308 -1.639 1.431  -1.969 2.865  H33 NJ3 65 
+NJ3 H34 H34 H  0 1 N N N N N N -17.018 23.035 -3.009 1.578  -4.320 2.152  H34 NJ3 66 
+NJ3 H35 H35 H  0 1 N N N N N N -20.622 20.746 -2.978 3.447  -3.110 -1.487 H35 NJ3 67 
+NJ3 H36 H36 H  0 1 N N N N N N -19.501 19.011 -1.600 3.298  -0.755 -0.786 H36 NJ3 68 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+NJ3 CL2 C8  SING N N 1  
+NJ3 C8  C9  DOUB Y N 2  
+NJ3 C8  C7  SING Y N 3  
+NJ3 C9  C10 SING Y N 4  
+NJ3 C7  C6  DOUB Y N 5  
+NJ3 C25 C24 SING N N 6  
+NJ3 C10 C5  DOUB Y N 7  
+NJ3 C6  C5  SING Y N 8  
+NJ3 C5  N1  SING N N 9  
+NJ3 C23 C24 SING N N 10 
+NJ3 C23 C4  SING N N 11 
+NJ3 C24 O3  SING N N 12 
+NJ3 N1  C4  SING N N 13 
+NJ3 C4  C11 SING N N 14 
+NJ3 C4  C3  SING N N 15 
+NJ3 O3  C2  SING N N 16 
+NJ3 O1  C11 DOUB N N 17 
+NJ3 C11 N2  SING N N 18 
+NJ3 C3  C2  SING N N 19 
+NJ3 C20 C19 SING N N 20 
+NJ3 C20 C14 SING N N 21 
+NJ3 C2  C1  SING N N 22 
+NJ3 C19 N3  SING N N 23 
+NJ3 N2  C12 SING N N 24 
+NJ3 N2  C22 SING N N 25 
+NJ3 C13 C14 SING N N 26 
+NJ3 C13 C12 SING N N 27 
+NJ3 C21 C14 SING N N 28 
+NJ3 C21 C22 SING N N 29 
+NJ3 C14 C15 SING N N 30 
+NJ3 O2  C17 DOUB N N 31 
+NJ3 N3  C17 SING N N 32 
+NJ3 N3  C16 SING N N 33 
+NJ3 C17 C18 SING N N 34 
+NJ3 C15 C16 SING N N 35 
+NJ3 C18 H1  SING N N 36 
+NJ3 C18 H2  SING N N 37 
+NJ3 C18 CL1 SING N N 38 
+NJ3 C16 H4  SING N N 39 
+NJ3 C16 H5  SING N N 40 
+NJ3 C15 H6  SING N N 41 
+NJ3 C15 H7  SING N N 42 
+NJ3 C19 H8  SING N N 43 
+NJ3 C19 H9  SING N N 44 
+NJ3 C20 H10 SING N N 45 
+NJ3 C20 H11 SING N N 46 
+NJ3 C13 H12 SING N N 47 
+NJ3 C13 H13 SING N N 48 
+NJ3 C12 H14 SING N N 49 
+NJ3 C12 H15 SING N N 50 
+NJ3 C21 H16 SING N N 51 
+NJ3 C21 H17 SING N N 52 
+NJ3 C22 H18 SING N N 53 
+NJ3 C22 H19 SING N N 54 
+NJ3 C3  H20 SING N N 55 
+NJ3 C3  H21 SING N N 56 
+NJ3 C23 H22 SING N N 57 
+NJ3 C23 H23 SING N N 58 
+NJ3 C24 H24 SING N N 59 
+NJ3 C25 H25 SING N N 60 
+NJ3 C25 H26 SING N N 61 
+NJ3 C25 H27 SING N N 62 
+NJ3 C2  H28 SING N N 63 
+NJ3 C1  H29 SING N N 64 
+NJ3 C1  H30 SING N N 65 
+NJ3 C1  H31 SING N N 66 
+NJ3 N1  H32 SING N N 67 
+NJ3 C10 H33 SING N N 68 
+NJ3 C9  H34 SING N N 69 
+NJ3 C7  H35 SING N N 70 
+NJ3 C6  H36 SING N N 71 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+NJ3 InChI            InChI                1.06  "InChI=1S/C25H35Cl2N3O3/c1-18-15-25(16-19(2)33-18,28-21-5-3-20(27)4-6-21)23(32)30-13-9-24(10-14-30)7-11-29(12-8-24)22(31)17-26/h3-6,18-19,28H,7-17H2,1-2H3/t18-,19+,25+" 
+NJ3 InChIKey         InChI                1.06  JLJRLKQYLPGKGI-XMZFGDCGSA-N                                                                                                                                              
+NJ3 SMILES_CANONICAL CACTVS               3.385 "C[C@H]1CC(C[C@@H](C)O1)(Nc2ccc(Cl)cc2)C(=O)N3CCC4(CCN(CC4)C(=O)CCl)CC3"                                                                                                 
+NJ3 SMILES           CACTVS               3.385 "C[CH]1CC(C[CH](C)O1)(Nc2ccc(Cl)cc2)C(=O)N3CCC4(CCN(CC4)C(=O)CCl)CC3"                                                                                                    
+NJ3 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C[C@@H]1CC(C[C@@H](O1)C)(C(=O)N2CCC3(CCN(CC3)C(=O)CCl)CC2)Nc4ccc(cc4)Cl"                                                                                                
+NJ3 SMILES           "OpenEye OEToolkits" 2.0.7 "CC1CC(CC(O1)C)(C(=O)N2CCC3(CCN(CC3)C(=O)CCl)CC2)Nc4ccc(cc4)Cl"                                                                                                          
+# 
+_pdbx_chem_comp_identifier.comp_id           NJ3 
+_pdbx_chem_comp_identifier.type              "SYSTEMATIC NAME" 
+_pdbx_chem_comp_identifier.program           "OpenEye OEToolkits" 
+_pdbx_chem_comp_identifier.program_version   2.0.7 
+_pdbx_chem_comp_identifier.identifier        "2-chloranyl-1-[3-[(2~{R},6~{S})-4-[(4-chlorophenyl)amino]-2,6-dimethyl-oxan-4-yl]carbonyl-3,9-diazaspiro[5.5]undecan-9-yl]ethanone" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+NJ3 "Create component"  2022-08-17 PDBE 
+NJ3 "Initial release"   2023-09-20 RCSB 
+NJ3 "Modify descriptor" 2023-09-23 RCSB 
+NJ3 "Modify PCM"        2024-09-27 PDBE 
+# 
+_pdbx_chem_comp_pcm.pcm_id                             1 
+_pdbx_chem_comp_pcm.comp_id                            NJ3 
+_pdbx_chem_comp_pcm.modified_residue_id                CYS 
+_pdbx_chem_comp_pcm.type                               None 
+_pdbx_chem_comp_pcm.category                           "Covalent chemical modification" 
+_pdbx_chem_comp_pcm.position                           "Amino-acid side chain" 
+_pdbx_chem_comp_pcm.polypeptide_position               "Any position" 
+_pdbx_chem_comp_pcm.comp_id_linking_atom               C18 
+_pdbx_chem_comp_pcm.modified_residue_id_linking_atom   SG 
+_pdbx_chem_comp_pcm.uniprot_specific_ptm_accession     ? 
+_pdbx_chem_comp_pcm.uniprot_generic_ptm_accession      ? 
+# 

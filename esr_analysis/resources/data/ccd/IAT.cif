@@ -1,0 +1,203 @@
+data_IAT
+# 
+_chem_comp.id                                    IAT 
+_chem_comp.name                                  "[4-(1,2,4-triazol-1-yl)phenyl] (1~{S},2~{R},4~{S})-5,6-bis(4-hydroxyphenyl)-7-oxabicyclo[2.2.1]hept-5-ene-2-sulfonate" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C26 H21 N3 O6 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2022-06-24 
+_chem_comp.pdbx_modified_date                    2023-04-21 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        503.526 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     IAT 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7Y8G 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+IAT CAV C1  C 0 1 Y N N 4.867 4.096  14.819 -3.086 -1.730 -0.476 CAV IAT 1  
+IAT CAW C2  C 0 1 Y N N 5.620 3.478  13.832 -4.300 -1.618 0.185  CAW IAT 2  
+IAT CAX C3  C 0 1 Y N N 6.043 2.169  13.938 -5.051 -0.466 0.062  CAX IAT 3  
+IAT CAS C4  C 0 1 Y N N 4.889 8.534  10.083 1.846  1.898  0.736  CAS IAT 4  
+IAT CAE C5  C 0 1 N N N 3.146 8.168  11.720 2.038  -0.578 0.893  CAE IAT 5  
+IAT CAF C6  C 0 1 N N S 3.119 7.424  12.940 1.090  -1.681 1.371  CAF IAT 6  
+IAT CAL C7  C 0 1 Y N N 0.745 12.027 9.241  5.641  0.852  -2.538 CAL IAT 7  
+IAT CAM C8  C 0 1 Y N N 0.908 12.320 10.598 4.420  0.505  -3.103 CAM IAT 8  
+IAT CAN C9  C 0 1 Y N N 1.421 11.376 11.483 3.460  -0.125 -2.342 CAN IAT 9  
+IAT CAO C10 C 0 1 Y N N 3.745 6.438  10.244 2.714  0.912  2.767  CAO IAT 10 
+IAT CAP C11 C 0 1 Y N N 4.495 5.921  9.216  2.866  2.171  3.306  CAP IAT 11 
+IAT CAQ C12 C 0 1 Y N N 5.448 6.713  8.614  2.520  3.293  2.565  CAQ IAT 12 
+IAT CAA C13 C 0 1 N N N 2.279 9.191  11.900 2.693  -1.089 -0.180 CAA IAT 13 
+IAT OAG O1  O 0 1 N N N 1.824 7.623  13.519 1.867  -2.877 1.025  OAG IAT 14 
+IAT CAD C14 C 0 1 N N R 3.854 8.071  14.002 -0.042 -1.738 0.299  CAD IAT 15 
+IAT CAC C15 C 0 1 N N N 2.988 9.380  14.176 0.706  -2.322 -0.928 CAC IAT 16 
+IAT CAB C16 C 0 1 N N S 1.853 9.033  13.260 2.151  -2.509 -0.367 CAB IAT 17 
+IAT CAZ C17 C 0 1 Y N N 4.960 2.019  16.080 -3.375 0.469  -1.388 CAZ IAT 18 
+IAT CBA C18 C 0 1 Y N N 4.527 3.363  15.972 -2.625 -0.684 -1.263 CBA IAT 19 
+IAT NBF N1  N 0 1 Y N N 6.177 0.133  15.042 -5.353 1.752  -0.852 NBF IAT 20 
+IAT CAJ C19 C 0 1 Y N N 1.626 9.841  9.657  4.945  -0.063 -0.434 CAJ IAT 21 
+IAT CAK C20 C 0 1 Y N N 1.114 10.775 8.756  5.899  0.566  -1.204 CAK IAT 22 
+IAT OBC O2  O 0 1 N N N 0.244 12.984 8.423  6.587  1.468  -3.294 OBC IAT 23 
+IAT CAI C21 C 0 1 Y N N 1.805 10.110 11.027 3.716  -0.415 -0.998 CAI IAT 24 
+IAT CAH C22 C 0 1 Y N N 3.896 7.753  10.675 2.202  0.766  1.474  CAH IAT 25 
+IAT OBB O3  O 0 1 N N N 6.147 6.156  7.597  2.677  4.533  3.099  OBB IAT 26 
+IAT CAR C23 C 0 1 Y N N 5.659 8.018  9.041  2.006  3.152  1.282  CAR IAT 27 
+IAT SAT S1  S 0 1 N N N 3.812 6.493  15.199 -1.381 -2.842 0.828  SAT IAT 28 
+IAT OBD O4  O 0 1 N N N 2.418 5.936  15.531 -0.915 -4.181 0.922  OBD IAT 29 
+IAT OBE O5  O 0 1 N N N 4.602 7.076  16.357 -2.128 -2.251 1.882  OBE IAT 30 
+IAT OAU O6  O 0 1 N N N 4.600 5.397  14.461 -2.345 -2.862 -0.350 OAU IAT 31 
+IAT CAY C24 C 0 1 Y N N 5.723 1.407  15.054 -4.590 0.581  -0.725 CAY IAT 32 
+IAT NBG N2  N 0 1 Y N N 6.729 -0.584 16.046 -6.594 2.018  -0.250 NBG IAT 33 
+IAT CBH C25 C 0 1 Y N N 7.040 -1.788 15.554 -6.949 3.217  -0.631 CBH IAT 34 
+IAT NBI N3  N 0 1 Y N N 6.699 -1.827 14.261 -6.008 3.715  -1.432 NBI IAT 35 
+IAT CBJ C26 C 0 1 Y N N 6.170 -0.651 13.943 -5.038 2.847  -1.570 CBJ IAT 36 
+IAT H1  H1  H 0 1 N N N 5.885 4.041  12.949 -4.658 -2.432 0.798  H1  IAT 37 
+IAT H2  H2  H 0 1 N N N 6.630 1.732  13.144 -5.996 -0.379 0.577  H2  IAT 38 
+IAT H3  H3  H 0 1 N N N 5.062 9.541  10.433 1.450  1.789  -0.263 H3  IAT 39 
+IAT H4  H4  H 0 1 N N N 3.383 6.364  12.813 0.766  -1.607 2.409  H4  IAT 40 
+IAT H5  H5  H 0 1 N N N 0.631 13.297 10.967 4.224  0.729  -4.141 H5  IAT 41 
+IAT H6  H6  H 0 1 N N N 1.523 11.623 12.529 2.512  -0.395 -2.782 H6  IAT 42 
+IAT H7  H7  H 0 1 N N N 3.017 5.806  10.732 2.991  0.041  3.341  H7  IAT 43 
+IAT H8  H8  H 0 1 N N N 4.339 4.905  8.883  3.261  2.286  4.305  H8  IAT 44 
+IAT H9  H9  H 0 1 N N N 4.907 8.289  13.769 -0.425 -0.740 0.083  H9  IAT 45 
+IAT H10 H10 H 0 1 N N N 3.527 10.279 13.842 0.278  -3.279 -1.227 H10 IAT 46 
+IAT H11 H11 H 0 1 N N N 2.653 9.518  15.215 0.699  -1.618 -1.760 H11 IAT 47 
+IAT H12 H12 H 0 1 N N N 0.919 9.559  13.507 2.797  -3.191 -0.919 H12 IAT 48 
+IAT H13 H13 H 0 1 N N N 4.704 1.449  16.961 -3.017 1.283  -2.000 H13 IAT 49 
+IAT H14 H14 H 0 1 N N N 3.946 3.818  16.761 -1.680 -0.771 -1.778 H14 IAT 50 
+IAT H15 H15 H 0 1 N N N 1.898 8.864  9.285  5.147  -0.285 0.604  H15 IAT 51 
+IAT H16 H16 H 0 1 N N N 1.007 10.533 7.709  6.850  0.838  -0.769 H16 IAT 52 
+IAT H17 H17 H 0 1 N N N 0.051 13.765 8.929  6.530  2.433  -3.285 H17 IAT 53 
+IAT H18 H18 H 0 1 N N N 5.853 5.263  7.462  1.905  4.852  3.586  H18 IAT 54 
+IAT H19 H19 H 0 1 N N N 6.414 8.629  8.569  1.732  4.028  0.712  H19 IAT 55 
+IAT H20 H20 H 0 1 N N N 7.492 -2.596 16.109 -7.859 3.723  -0.343 H20 IAT 56 
+IAT H21 H21 H 0 1 N N N 5.797 -0.369 12.969 -4.145 2.983  -2.162 H21 IAT 57 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+IAT OBB CAQ SING N N 1  
+IAT OBC CAL SING N N 2  
+IAT CAQ CAR DOUB Y N 3  
+IAT CAQ CAP SING Y N 4  
+IAT CAK CAL DOUB Y N 5  
+IAT CAK CAJ SING Y N 6  
+IAT CAR CAS SING Y N 7  
+IAT CAP CAO DOUB Y N 8  
+IAT CAL CAM SING Y N 9  
+IAT CAJ CAI DOUB Y N 10 
+IAT CAS CAH DOUB Y N 11 
+IAT CAO CAH SING Y N 12 
+IAT CAM CAN DOUB Y N 13 
+IAT CAH CAE SING N N 14 
+IAT CAI CAN SING Y N 15 
+IAT CAI CAA SING N N 16 
+IAT CAE CAA DOUB N N 17 
+IAT CAE CAF SING N N 18 
+IAT CAA CAB SING N N 19 
+IAT CAF OAG SING N N 20 
+IAT CAF CAD SING N N 21 
+IAT CAB OAG SING N N 22 
+IAT CAB CAC SING N N 23 
+IAT CAW CAX DOUB Y N 24 
+IAT CAW CAV SING Y N 25 
+IAT CAX CAY SING Y N 26 
+IAT CBJ NBI DOUB Y N 27 
+IAT CBJ NBF SING Y N 28 
+IAT CAD CAC SING N N 29 
+IAT CAD SAT SING N N 30 
+IAT NBI CBH SING Y N 31 
+IAT OAU CAV SING N N 32 
+IAT OAU SAT SING N N 33 
+IAT CAV CBA DOUB Y N 34 
+IAT NBF CAY SING N N 35 
+IAT NBF NBG SING Y N 36 
+IAT CAY CAZ DOUB Y N 37 
+IAT SAT OBD DOUB N N 38 
+IAT SAT OBE DOUB N N 39 
+IAT CBH NBG DOUB Y N 40 
+IAT CBA CAZ SING Y N 41 
+IAT CAW H1  SING N N 42 
+IAT CAX H2  SING N N 43 
+IAT CAS H3  SING N N 44 
+IAT CAF H4  SING N N 45 
+IAT CAM H5  SING N N 46 
+IAT CAN H6  SING N N 47 
+IAT CAO H7  SING N N 48 
+IAT CAP H8  SING N N 49 
+IAT CAD H9  SING N N 50 
+IAT CAC H10 SING N N 51 
+IAT CAC H11 SING N N 52 
+IAT CAB H12 SING N N 53 
+IAT CAZ H13 SING N N 54 
+IAT CBA H14 SING N N 55 
+IAT CAJ H15 SING N N 56 
+IAT CAK H16 SING N N 57 
+IAT OBC H17 SING N N 58 
+IAT OBB H18 SING N N 59 
+IAT CAR H19 SING N N 60 
+IAT CBH H20 SING N N 61 
+IAT CBJ H21 SING N N 62 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+IAT InChI            InChI                1.06  "InChI=1S/C26H21N3O6S/c30-19-7-1-16(2-8-19)24-22-13-23(26(34-22)25(24)17-3-9-20(31)10-4-17)36(32,33)35-21-11-5-18(6-12-21)29-15-27-14-28-29/h1-12,14-15,22-23,26,30-31H,13H2/t22-,23+,26+/m0/s1" 
+IAT InChIKey         InChI                1.06  HPSZQTYGEXTGDY-PPJWLVRDSA-N                                                                                                                                                                      
+IAT SMILES_CANONICAL CACTVS               3.385 "Oc1ccc(cc1)C2=C([C@@H]3O[C@H]2C[C@H]3[S](=O)(=O)Oc4ccc(cc4)n5cncn5)c6ccc(O)cc6"                                                                                                                 
+IAT SMILES           CACTVS               3.385 "Oc1ccc(cc1)C2=C([CH]3O[CH]2C[CH]3[S](=O)(=O)Oc4ccc(cc4)n5cncn5)c6ccc(O)cc6"                                                                                                                     
+IAT SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1C2=C([C@H]3[C@@H](C[C@@H]2O3)S(=O)(=O)Oc4ccc(cc4)n5cncn5)c6ccc(cc6)O)O"                                                                                                                
+IAT SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1C2=C(C3C(CC2O3)S(=O)(=O)Oc4ccc(cc4)n5cncn5)c6ccc(cc6)O)O"                                                                                                                              
+# 
+_pdbx_chem_comp_identifier.comp_id           IAT 
+_pdbx_chem_comp_identifier.type              "SYSTEMATIC NAME" 
+_pdbx_chem_comp_identifier.program           "OpenEye OEToolkits" 
+_pdbx_chem_comp_identifier.program_version   2.0.7 
+_pdbx_chem_comp_identifier.identifier        "[4-(1,2,4-triazol-1-yl)phenyl] (1~{S},2~{R},4~{S})-5,6-bis(4-hydroxyphenyl)-7-oxabicyclo[2.2.1]hept-5-ene-2-sulfonate" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+IAT "Create component"   2022-06-24 PDBJ 
+IAT "Modify coordinates" 2022-07-01 PDBJ 
+IAT "Initial release"    2023-04-26 RCSB 
+# 

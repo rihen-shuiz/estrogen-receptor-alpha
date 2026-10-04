@@ -1,0 +1,171 @@
+data_A1DA6
+# 
+_chem_comp.id                                    A1DA6 
+_chem_comp.name                                  "9-[(3,4-dichlorophenyl)methyl]-6-ethenyl-9H-purine" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C14 H10 Cl2 N4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "9-[(3,4-dichlorophenyl)methyl]-6-ethynyl-9H-purine bound form" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2026-03-23 
+_chem_comp.pdbx_modified_date                    2026-08-28 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        305.162 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     A1DA6 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        11ZU 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              Y 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+A1DA6 C1  C1  C  0 1 Y N N N N N -26.267 -0.991 -13.941 3.343  1.943  0.634  C1  A1DA6 1  
+A1DA6 C2  C2  C  0 1 Y N N N N N -27.301 -3.414 -14.354 3.029  -0.617 -0.115 C2  A1DA6 2  
+A1DA6 C3  C3  C  0 1 Y N N N N N -26.018 -3.191 -13.878 2.134  -0.006 0.784  C3  A1DA6 3  
+A1DA6 C11 C4  C  0 1 Y N N N N N -21.409 -2.582 -15.961 -3.234 0.852  -0.119 C11 A1DA6 4  
+A1DA6 C12 C5  C  0 1 Y N N N N N -21.555 -2.186 -14.648 -2.322 1.687  0.502  C12 A1DA6 5  
+A1DA6 C13 C6  C  0 1 Y N N N N N -22.398 -2.887 -13.805 -1.252 1.150  1.193  C13 A1DA6 6  
+A1DA6 CL1 CL1 CL 0 0 N N N N N N -21.996 -4.193 -18.080 -4.218 -1.571 -0.823 CL1 A1DA6 7  
+A1DA6 C10 C7  C  0 1 Y N N N N N -22.114 -3.686 -16.428 -3.075 -0.522 -0.045 C10 A1DA6 8  
+A1DA6 C9  C8  C  0 1 Y N N N N N -22.947 -4.390 -15.578 -2.004 -1.058 0.647  C9  A1DA6 9  
+A1DA6 CL  CL2 CL 0 0 N N N N N N -20.372 -1.659 -17.007 -4.581 1.525  -0.982 CL  A1DA6 10 
+A1DA6 C8  C9  C  0 1 Y N N N N N -23.100 -3.994 -14.254 -1.093 -0.222 1.266  C8  A1DA6 11 
+A1DA6 C7  C10 C  0 1 N N N N N N -24.072 -4.711 -13.349 0.074  -0.806 2.019  C7  A1DA6 12 
+A1DA6 N2  N1  N  0 1 Y N N N N N -25.459 -4.430 -13.716 1.211  -0.968 1.110  N2  A1DA6 13 
+A1DA6 N1  N2  N  0 1 Y N N N N N -25.444 -2.001 -13.646 2.326  1.263  1.122  N1  A1DA6 14 
+A1DA6 N   N3  N  0 1 Y N N N N N -27.518 -1.047 -14.407 4.211  1.416  -0.207 N   A1DA6 15 
+A1DA6 C4  C11 C  0 1 Y N N N N N -26.423 -5.325 -14.081 1.545  -2.101 0.431  C4  A1DA6 16 
+A1DA6 N3  N4  N  0 1 Y N N N N N -27.544 -4.774 -14.474 2.612  -1.892 -0.287 N3  A1DA6 17 
+A1DA6 C   C12 C  0 1 Y N N N N N -28.074 -2.264 -14.632 4.100  0.151  -0.610 C   A1DA6 18 
+A1DA6 C5  C13 C  0 1 N N N N N N -29.423 -2.386 -15.161 5.076  -0.431 -1.551 C5  A1DA6 19 
+A1DA6 C6  C14 C  0 1 N N N N N N -30.170 -1.350 -15.444 6.081  0.308  -2.007 C6  A1DA6 20 
+A1DA6 H1  H1  H  0 1 N N N N N N -25.869 0.000  -13.782 3.467  2.974  0.930  H1  A1DA6 21 
+A1DA6 H2  H2  H  0 1 N N N N N N -21.011 -1.329 -14.278 -2.445 2.758  0.445  H2  A1DA6 22 
+A1DA6 H3  H3  H  0 1 N N N N N N -22.511 -2.566 -12.780 -0.540 1.802  1.677  H3  A1DA6 23 
+A1DA6 H4  H4  H  0 1 N N N N N N -23.482 -5.253 -15.945 -1.879 -2.129 0.705  H4  A1DA6 24 
+A1DA6 H5  H5  H  0 1 N N N N N N -23.896 -5.794 -13.423 0.352  -0.137 2.833  H5  A1DA6 25 
+A1DA6 H6  H6  H  0 1 N N N N N N -23.904 -4.382 -12.313 -0.206 -1.777 2.427  H6  A1DA6 26 
+A1DA6 H7  H7  H  0 1 N N N N N N -26.274 -6.394 -14.048 1.005  -3.035 0.481  H7  A1DA6 27 
+A1DA6 H8  H8  H  0 1 N N N N N N -29.825 -3.374 -15.327 4.973  -1.458 -1.868 H8  A1DA6 28 
+A1DA6 H9  H9  H  0 1 N N N N N N -31.166 -1.493 -15.835 6.795  -0.118 -2.695 H9  A1DA6 29 
+A1DA6 H10 H10 H  0 1 N N N N N N -29.790 -0.351 -15.286 6.183  1.335  -1.689 H10 A1DA6 30 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+A1DA6 CL1 C10 SING N N 1  
+A1DA6 CL  C11 SING N N 2  
+A1DA6 C10 C11 DOUB Y N 3  
+A1DA6 C10 C9  SING Y N 4  
+A1DA6 C11 C12 SING Y N 5  
+A1DA6 C9  C8  DOUB Y N 6  
+A1DA6 C6  C5  DOUB N N 7  
+A1DA6 C5  C   SING N N 8  
+A1DA6 C12 C13 DOUB Y N 9  
+A1DA6 C   N   DOUB Y N 10 
+A1DA6 C   C2  SING Y N 11 
+A1DA6 N3  C2  SING Y N 12 
+A1DA6 N3  C4  DOUB Y N 13 
+A1DA6 N   C1  SING Y N 14 
+A1DA6 C2  C3  DOUB Y N 15 
+A1DA6 C8  C13 SING Y N 16 
+A1DA6 C8  C7  SING N N 17 
+A1DA6 C4  N2  SING Y N 18 
+A1DA6 C1  N1  DOUB Y N 19 
+A1DA6 C3  N2  SING Y N 20 
+A1DA6 C3  N1  SING Y N 21 
+A1DA6 N2  C7  SING N N 22 
+A1DA6 C1  H1  SING N N 23 
+A1DA6 C12 H2  SING N N 24 
+A1DA6 C13 H3  SING N N 25 
+A1DA6 C9  H4  SING N N 26 
+A1DA6 C7  H5  SING N N 27 
+A1DA6 C7  H6  SING N N 28 
+A1DA6 C4  H7  SING N N 29 
+A1DA6 C5  H8  SING N N 30 
+A1DA6 C6  H9  SING N N 31 
+A1DA6 C6  H10 SING N N 32 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+A1DA6 SMILES           ACDLabs              14.52   "Clc1ccc(cc1Cl)Cn1cnc2c(ncnc21)C=C"                                                                
+A1DA6 InChI            InChI                1.06    "InChI=1S/C14H10Cl2N4/c1-2-12-13-14(18-7-17-12)20(8-19-13)6-9-3-4-10(15)11(16)5-9/h2-5,7-8H,1,6H2" 
+A1DA6 InChIKey         InChI                1.06    DQUMYYLKAGCBKN-UHFFFAOYSA-N                                                                        
+A1DA6 SMILES_CANONICAL CACTVS               3.385   "Clc1ccc(Cn2cnc3c(C=C)ncnc23)cc1Cl"                                                                
+A1DA6 SMILES           CACTVS               3.385   "Clc1ccc(Cn2cnc3c(C=C)ncnc23)cc1Cl"                                                                
+A1DA6 SMILES_CANONICAL "OpenEye OEToolkits" 3.1.0.0 "C=Cc1c2c(ncn1)n(cn2)Cc3ccc(c(c3)Cl)Cl"                                                            
+A1DA6 SMILES           "OpenEye OEToolkits" 3.1.0.0 "C=Cc1c2c(ncn1)n(cn2)Cc3ccc(c(c3)Cl)Cl"                                                            
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+A1DA6 "SYSTEMATIC NAME" ACDLabs              14.52   "9-[(3,4-dichlorophenyl)methyl]-6-ethenyl-9H-purine" 
+A1DA6 "SYSTEMATIC NAME" "OpenEye OEToolkits" 3.1.0.0 "9-[(3,4-dichlorophenyl)methyl]-6-ethenyl-purine"    
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+A1DA6 "Create component" 2026-03-23 RCSB 
+A1DA6 "Initial release"  2026-09-02 RCSB 
+# 
+_pdbx_chem_comp_synonyms.ordinal      1 
+_pdbx_chem_comp_synonyms.comp_id      A1DA6 
+_pdbx_chem_comp_synonyms.name         "9-[(3,4-dichlorophenyl)methyl]-6-ethynyl-9H-purine bound form" 
+_pdbx_chem_comp_synonyms.provenance   AUTHOR 
+_pdbx_chem_comp_synonyms.type         ? 
+# 
+_pdbx_chem_comp_pcm.pcm_id                             1 
+_pdbx_chem_comp_pcm.comp_id                            A1DA6 
+_pdbx_chem_comp_pcm.modified_residue_id                CYS 
+_pdbx_chem_comp_pcm.type                               None 
+_pdbx_chem_comp_pcm.category                           "Covalent chemical modification" 
+_pdbx_chem_comp_pcm.position                           "Amino-acid side chain" 
+_pdbx_chem_comp_pcm.polypeptide_position               "Any position" 
+_pdbx_chem_comp_pcm.comp_id_linking_atom               C6 
+_pdbx_chem_comp_pcm.modified_residue_id_linking_atom   SG 
+_pdbx_chem_comp_pcm.uniprot_specific_ptm_accession     ? 
+_pdbx_chem_comp_pcm.uniprot_generic_ptm_accession      ? 
+# 

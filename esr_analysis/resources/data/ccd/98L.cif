@@ -1,0 +1,168 @@
+data_98L
+# 
+_chem_comp.id                                    98L 
+_chem_comp.name                                  "3-{[(2-chloro-5-phenylthieno[2,3-d]pyrimidin-4-yl)amino]methyl}phenol" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H14 Cl N3 O S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2021-10-05 
+_chem_comp.pdbx_modified_date                    2022-10-07 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        367.852 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     98L 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        7SFO 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+98L N1  N1  N  0 1 Y N N 1.148  7.163  -4.316  -3.844 0.736  -0.101 N1  98L 1  
+98L N3  N2  N  0 1 N N N 3.829  4.184  -5.518  0.238  0.643  0.095  N3  98L 2  
+98L C4  C1  C  0 1 Y N N 1.684  2.450  -6.932  0.598  -3.085 -0.928 C4  98L 3  
+98L C5  C2  C  0 1 Y N N 1.223  2.431  -5.689  0.026  -2.301 0.073  C5  98L 4  
+98L C6  C3  C  0 1 Y N N 1.086  1.126  -4.934  0.810  -1.860 1.138  C6  98L 5  
+98L C7  C4  C  0 1 Y N N 0.748  3.764  -5.166  -1.409 -1.937 0.005  C7  98L 6  
+98L C8  C5  C  0 1 Y N N 0.717  5.966  -4.581  -3.265 -0.472 -0.078 C8  98L 7  
+98L C10 C6  C  0 1 Y N N 2.457  7.355  -4.466  -3.124 1.834  -0.061 C10 98L 8  
+98L C13 C7  C  0 1 N N N 5.241  4.444  -5.394  0.976  1.898  0.265  C13 98L 9  
+98L C15 C8  C  0 1 Y N N 7.109  3.757  -6.826  3.191  1.603  -0.862 C15 98L 10 
+98L C17 C9  C  0 1 Y N N 6.978  3.361  -9.251  5.168  1.067  0.391  C17 98L 11 
+98L C1  C10 C  0 1 Y N N 1.507  0.028  -5.525  2.146  -2.201 1.196  C1  98L 12 
+98L C11 C11 C  0 1 Y N N 2.907  5.211  -5.119  -1.143 0.658  0.028  C11 98L 13 
+98L C12 C12 C  0 1 Y N N -0.590 3.905  -4.954  -2.382 -2.846 -0.046 C12 98L 14 
+98L C14 C13 C  0 1 Y N N 5.846  4.069  -6.743  2.455  1.609  0.307  C14 98L 15 
+98L C16 C14 C  0 1 Y N N 7.725  3.371  -8.167  4.550  1.332  -0.823 C16 98L 16 
+98L C18 C15 C  0 1 Y N N 5.503  3.732  -9.163  4.430  1.084  1.558  C18 98L 17 
+98L C19 C16 C  0 1 Y N N 4.972  4.072  -8.001  3.074  1.349  1.516  C19 98L 18 
+98L C2  C17 C  0 1 Y N N 2.057  0.043  -6.942  2.707  -2.979 0.199  C2  98L 19 
+98L C3  C18 C  0 1 Y N N 2.149  1.172  -7.620  1.933  -3.424 -0.857 C3  98L 20 
+98L C9  C19 C  0 1 Y N N 1.567  4.925  -4.991  -1.874 -0.556 -0.012 C9  98L 21 
+98L N2  N3  N  0 1 Y N N 3.361  6.437  -4.851  -1.804 1.806  0.002  N2  98L 22 
+98L O1  O1  O  0 1 N N N 9.086  3.027  -8.234  5.276  1.326  -1.972 O1  98L 23 
+98L S1  S1  S  0 1 Y N N -1.013 5.529  -4.432  -3.960 -2.086 -0.118 S1  98L 24 
+98L CL1 CL1 CL 0 0 N N N 3.004  9.016  -4.115  -3.931 3.371  -0.093 CL1 98L 25 
+98L H1  H1  H  0 1 N N N 3.649  3.983  -6.481  0.718  -0.197 0.029  H1  98L 26 
+98L H2  H2  H  0 1 N N N 1.731  3.387  -7.466  -0.005 -3.430 -1.756 H2  98L 27 
+98L H3  H3  H  0 1 N N N 0.657  1.097  -3.943  0.373  -1.252 1.916  H3  98L 28 
+98L H4  H4  H  0 1 N N N 5.676  3.828  -4.593  0.760  2.563  -0.570 H4  98L 29 
+98L H5  H5  H  0 1 N N N 5.418  5.508  -5.176  0.673  2.374  1.197  H5  98L 30 
+98L H6  H6  H  0 1 N N N 7.724  3.772  -5.938  2.707  1.805  -1.806 H6  98L 31 
+98L H7  H7  H  0 1 N N N 7.411  3.090  -10.203 6.228  0.860  0.424  H7  98L 32 
+98L H8  H8  H  0 1 N N N 1.460  -0.908 -4.989  2.754  -1.859 2.020  H8  98L 33 
+98L H9  H9  H  0 1 N N N -1.308 3.110  -5.091  -2.219 -3.913 -0.042 H9  98L 34 
+98L H10 H10 H  0 1 N N N 4.890  3.717  -10.052 4.911  0.878  2.503  H10 98L 35 
+98L H11 H11 H  0 1 N N N 3.930  4.350  -7.939  2.498  1.362  2.430  H11 98L 36 
+98L H12 H12 H  0 1 N N N 2.376  -0.882 -7.400  3.753  -3.243 0.248  H12 98L 37 
+98L H13 H13 H  0 1 N N N 2.540  1.189  -8.627  2.377  -4.032 -1.632 H13 98L 38 
+98L H14 H14 H  0 1 N N N 9.471  3.087  -7.368  5.318  0.463  -2.407 H14 98L 39 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+98L C17 C18 DOUB Y N 1  
+98L C17 C16 SING Y N 2  
+98L C18 C19 SING Y N 3  
+98L O1  C16 SING N N 4  
+98L C16 C15 DOUB Y N 5  
+98L C19 C14 DOUB Y N 6  
+98L C3  C2  DOUB Y N 7  
+98L C3  C4  SING Y N 8  
+98L C2  C1  SING Y N 9  
+98L C4  C5  DOUB Y N 10 
+98L C15 C14 SING Y N 11 
+98L C14 C13 SING N N 12 
+98L C5  C7  SING N N 13 
+98L C5  C6  SING Y N 14 
+98L C1  C6  DOUB Y N 15 
+98L N3  C13 SING N N 16 
+98L N3  C11 SING N N 17 
+98L C7  C9  SING Y N 18 
+98L C7  C12 DOUB Y N 19 
+98L C11 C9  DOUB Y N 20 
+98L C11 N2  SING Y N 21 
+98L C9  C8  SING Y N 22 
+98L C12 S1  SING Y N 23 
+98L N2  C10 DOUB Y N 24 
+98L C8  S1  SING Y N 25 
+98L C8  N1  DOUB Y N 26 
+98L C10 N1  SING Y N 27 
+98L C10 CL1 SING N N 28 
+98L N3  H1  SING N N 29 
+98L C4  H2  SING N N 30 
+98L C6  H3  SING N N 31 
+98L C13 H4  SING N N 32 
+98L C13 H5  SING N N 33 
+98L C15 H6  SING N N 34 
+98L C17 H7  SING N N 35 
+98L C1  H8  SING N N 36 
+98L C12 H9  SING N N 37 
+98L C18 H10 SING N N 38 
+98L C19 H11 SING N N 39 
+98L C2  H12 SING N N 40 
+98L C3  H13 SING N N 41 
+98L O1  H14 SING N N 42 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+98L SMILES           ACDLabs              12.01 "Oc1cccc(c1)CNc1nc(Cl)nc2scc(c12)c1ccccc1"                                                                                           
+98L InChI            InChI                1.03  "InChI=1S/C19H14ClN3OS/c20-19-22-17(21-10-12-5-4-8-14(24)9-12)16-15(11-25-18(16)23-19)13-6-2-1-3-7-13/h1-9,11,24H,10H2,(H,21,22,23)" 
+98L InChIKey         InChI                1.03  MSGBLTMRTAWJCK-UHFFFAOYSA-N                                                                                                          
+98L SMILES_CANONICAL CACTVS               3.385 "Oc1cccc(CNc2nc(Cl)nc3scc(c4ccccc4)c23)c1"                                                                                           
+98L SMILES           CACTVS               3.385 "Oc1cccc(CNc2nc(Cl)nc3scc(c4ccccc4)c23)c1"                                                                                           
+98L SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)c2csc3c2c(nc(n3)Cl)NCc4cccc(c4)O"                                                                                         
+98L SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)c2csc3c2c(nc(n3)Cl)NCc4cccc(c4)O"                                                                                         
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+98L "SYSTEMATIC NAME" ACDLabs              12.01 "3-{[(2-chloro-5-phenylthieno[2,3-d]pyrimidin-4-yl)amino]methyl}phenol"     
+98L "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "3-[[(2-chloranyl-5-phenyl-thieno[2,3-d]pyrimidin-4-yl)amino]methyl]phenol" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+98L "Create component" 2021-10-05 RCSB 
+98L "Initial release"  2022-10-12 RCSB 
+# 
