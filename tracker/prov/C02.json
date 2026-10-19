@@ -1,0 +1,19 @@
+{
+ "task": "C02",
+ "ts": "2026-10-14T19:41+05:00",
+ "who": "claude",
+ "git": "e79fac3",
+ "tl_sha": "b7643ec7e0ba9bfa",
+ "ev": [
+  {
+   "path": "results/fp_ecfp4.npy",
+   "size": 983168,
+   "sha": "3e202fc80c54da05"
+  },
+  {
+   "path": "results/fp_index.csv",
+   "size": 29809,
+   "sha": "e1df9277bfb309f8"
+  }
+ ]
+}

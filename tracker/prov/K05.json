@@ -1,0 +1,24 @@
+{
+ "task": "K05",
+ "ts": "2026-10-18T23:53+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/qc_tiers.csv",
+   "size": 27169,
+   "sha": "28409e2832b8e763"
+  },
+  {
+   "path": "esr_analysis/resources/config/qc_tiers.json",
+   "size": 630,
+   "sha": "94a7d1db159add60"
+  },
+  {
+   "path": "scripts/qc_tiers.py",
+   "size": 5774,
+   "sha": "728262ad87f5d619"
+  }
+ ]
+}

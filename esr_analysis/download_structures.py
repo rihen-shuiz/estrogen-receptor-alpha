@@ -3,6 +3,7 @@ Input: explicit PDB IDs and output folder. Output: mmCIF files and manifest.
 Existing valid files remain cached. Network runs only when this function is called.
 """
 from pathlib import Path
+import os
 import time
 import requests
 import pandas as pd
@@ -10,6 +11,11 @@ from Bio.PDB import MMCIFParser
 from Bio.PDB.MMCIF2Dict import MMCIF2Dict
 
 RCSB_CIF_URL = "https://files.rcsb.org/download/{pdb_id}.cif"
+
+
+def manifest_path(path: Path, root=None) -> str:
+    """Path as the manifest stores it: relative to root (default: working directory), no user name."""
+    return Path(os.path.relpath(Path(path).resolve(), Path(root or Path.cwd()).resolve())).as_posix()
 
 
 def validate_mmcif(path: Path, expected_pdb_id=None) -> tuple[bool, str]:
@@ -56,8 +62,9 @@ def download_one(pdb_id: str, out_path: Path, retries: int = 3) -> tuple[bool, s
     return False, last_error
 
 
-def download_structures(pdb_ids, output_folder):
-    """Return and save the explicit-ID download manifest; never query or change IDs."""
+def download_structures(pdb_ids, output_folder, root=None):
+    """Return and save the explicit-ID download manifest; never query or change IDs.
+    Manifest paths are relative to root (default: working directory)."""
     folder = Path(output_folder)
     folder.mkdir(parents=True, exist_ok=True)
     rows = []
@@ -66,7 +73,7 @@ def download_structures(pdb_ids, output_folder):
         path = folder / f"{pdb_id}.cif"
         ok, status = download_one(pdb_id, path)
         rows.append({"pdb_id": pdb_id, "download_ok": ok, "status": status,
-                     "path": str(path), "source_url": RCSB_CIF_URL.format(pdb_id=pdb_id)})
+                     "path": manifest_path(path, root), "source_url": RCSB_CIF_URL.format(pdb_id=pdb_id)})
     manifest = pd.DataFrame(rows, columns=["pdb_id", "download_ok", "status", "path", "source_url"])
     manifest.to_csv(folder / "download_manifest.csv", index=False)
     return manifest
@@ -96,7 +103,7 @@ def main():
                 raise ValueError(f'Offline prerequisite {path}: {reason}; restore it or choose --live explicitly')
             target = out / path.name
             shutil.copy2(path, target)
-            rows.append({'pdb_id': pdb.upper(), 'download_ok': True, 'status': 'bundled_cached', 'path': str(target), 'sha256': sha256(target)})
+            rows.append({'pdb_id': pdb.upper(), 'download_ok': True, 'status': 'bundled_cached', 'path': manifest_path(target), 'sha256': sha256(target)})
         pd.DataFrame(rows).to_csv(out / 'download_manifest.csv', index=False)
     print(f'Block 02: {len(args.ids)} explicit structures, live={args.live}')
 

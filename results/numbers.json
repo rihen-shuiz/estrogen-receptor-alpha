@@ -1,0 +1,1786 @@
+{
+  "numbers": [
+    {
+      "name": "query_esr1_entries",
+      "value": 487,
+      "source": [
+        "data/pdb_ids_esr1.txt"
+      ],
+      "sep": false
+    },
+    {
+      "name": "query_esr2_entries",
+      "value": 39,
+      "source": [
+        "data/pdb_ids_esr2.txt"
+      ],
+      "sep": false
+    },
+    {
+      "name": "entries_master_table",
+      "value": 526,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "raw_cif_download_ok",
+      "value": 526,
+      "source": [
+        "data/raw/download_manifest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "lbd_extract_status_ok",
+      "value": 526,
+      "source": [
+        "results/lbd_extract/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr1_entries_with_esr1_chain",
+      "value": 444,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr1_entries_without_receptor_chain",
+      "value": 43,
+      "source": [
+        "results/lbd_extract/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr1_chain_models",
+      "value": 901,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr1_eligible_chains",
+      "value": 788,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr1_selected_entries",
+      "value": 351,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "lbd_chain_rows",
+      "value": 987,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "eligibility_min_lbd_ca",
+      "value": 180,
+      "source": [
+        "esr_analysis/resources/config/analysis_settings.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "eligibility_min_core_ca",
+      "value": 60,
+      "source": [
+        "esr_analysis/resources/config/analysis_settings.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_resolution_pass",
+      "value": 481,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_resolution_fail",
+      "value": 45,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_resolution_unknown",
+      "value": 0,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_r_free_pass",
+      "value": 513,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_r_free_fail",
+      "value": 11,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_r_free_unknown",
+      "value": 2,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_mean_B_pass",
+      "value": 424,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_mean_B_fail",
+      "value": 102,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_mean_B_unknown",
+      "value": 0,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_combined_pass",
+      "value": 397,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_combined_fail",
+      "value": 128,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_all_combined_unknown",
+      "value": 1,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_resolution_pass",
+      "value": 315,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_resolution_fail",
+      "value": 36,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_resolution_unknown",
+      "value": 0,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_r_free_pass",
+      "value": 343,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_r_free_fail",
+      "value": 8,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_r_free_unknown",
+      "value": 0,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_mean_B_pass",
+      "value": 267,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_mean_B_fail",
+      "value": 84,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_mean_B_unknown",
+      "value": 0,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_combined_pass",
+      "value": 247,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_combined_fail",
+      "value": 104,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_selected_combined_unknown",
+      "value": 0,
+      "source": [
+        "results/entries.csv",
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_cutoff_resolution_A",
+      "value": 2.5,
+      "source": [
+        "esr_analysis/resources/config/analysis_settings.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_cutoff_r_free",
+      "value": 0.3,
+      "source": [
+        "esr_analysis/resources/config/analysis_settings.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "qc_cutoff_mean_B_A2",
+      "value": 50.0,
+      "source": [
+        "esr_analysis/resources/config/analysis_settings.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_chain_key",
+      "value": "7NFB|B|1",
+      "source": [
+        "docs/reference.md"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_resolution_A",
+      "value": 1.33,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_r_free",
+      "value": 0.1781,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_mean_B_A2",
+      "value": 26.75,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_lbd_ca_mapped",
+      "value": 244,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_lbd_ca_expected",
+      "value": 246,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_core_ca_mapped",
+      "value": 84,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_core_ca_expected",
+      "value": 84,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_h12_ca_mapped",
+      "value": 10,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_h12_ca_expected",
+      "value": 10,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_declared_differences",
+      "value": 28,
+      "source": [
+        "results/lbd_chains.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_step2_chains",
+      "value": 40,
+      "source": [
+        "results/lbd_chains.csv",
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_step2_entries",
+      "value": 38,
+      "source": [
+        "results/lbd_chains.csv",
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_step2_first_chain",
+      "value": "7NFB|B|1",
+      "source": [
+        "results/lbd_chains.csv",
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_step2_runner_up_chain",
+      "value": "7NEL|B|1",
+      "source": [
+        "results/lbd_chains.csv",
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_step2_runner_up_resolution_A",
+      "value": 1.45,
+      "source": [
+        "results/entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "reference_chain_key_sep",
+      "value": "7NFB|B|1",
+      "source": [
+        "results/task_outputs/block_08/reference.json"
+      ],
+      "sep": true
+    },
+    {
+      "name": "loi_chains_evaluated",
+      "value": 788,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_chain_ligand_rows",
+      "value": 810,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_chains_with_ligand",
+      "value": 781,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_chains_apo_or_unclear",
+      "value": 7,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_ligand_pairs",
+      "value": 803,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_multi_ligand_rows",
+      "value": 38,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_source_subject_of_investigation",
+      "value": 245,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_source_pocket_contact",
+      "value": 558,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_entries_with_ligand",
+      "value": 349,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_distinct_ligand_ids",
+      "value": 306,
+      "source": [
+        "results/chain_ligand_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_ligands_in_clustering",
+      "value": 306,
+      "source": [
+        "results/ligands_of_interest.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_pocket_residues",
+      "value": 19,
+      "source": [
+        "scripts/ligand_of_interest.py"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_contact_cutoff_A",
+      "value": 4.5,
+      "source": [
+        "scripts/ligand_of_interest.py"
+      ],
+      "sep": false
+    },
+    {
+      "name": "loi_min_pocket_contacts",
+      "value": 3,
+      "source": [
+        "scripts/ligand_of_interest.py"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_ligands",
+      "value": 480,
+      "source": [
+        "results/ligand_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_silhouette_k3",
+      "value": 0.10306129437849902,
+      "source": [
+        "results/kmeans_scores.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_silhouette_k4",
+      "value": 0.11198866172388107,
+      "source": [
+        "results/kmeans_scores.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_silhouette_k5",
+      "value": 0.12014986976460046,
+      "source": [
+        "results/kmeans_scores.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_silhouette_k6",
+      "value": 0.1255428658332816,
+      "source": [
+        "results/kmeans_scores.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_silhouette_k7",
+      "value": 0.1216383151847826,
+      "source": [
+        "results/kmeans_scores.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_best_k",
+      "value": 6,
+      "source": [
+        "results/kmeans_scores.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_best_silhouette",
+      "value": 0.1255428658332816,
+      "source": [
+        "results/kmeans_scores.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_480_cluster_sizes_best_k",
+      "value": [
+        21,
+        105,
+        235,
+        53,
+        44,
+        22
+      ],
+      "source": [
+        "results/ligand_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_ligands",
+      "value": 462,
+      "source": [
+        "results/ligand_clusters_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_silhouette_k3",
+      "value": 0.09928980498528495,
+      "source": [
+        "results/kmeans_scores_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_silhouette_k4",
+      "value": 0.11072549564220326,
+      "source": [
+        "results/kmeans_scores_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_silhouette_k5",
+      "value": 0.1268467353286639,
+      "source": [
+        "results/kmeans_scores_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_silhouette_k6",
+      "value": 0.11694939344928017,
+      "source": [
+        "results/kmeans_scores_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_silhouette_k7",
+      "value": 0.13922085439850163,
+      "source": [
+        "results/kmeans_scores_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_best_k",
+      "value": 7,
+      "source": [
+        "results/kmeans_scores_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_best_silhouette",
+      "value": 0.13922085439850163,
+      "source": [
+        "results/kmeans_scores_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_462_cluster_sizes_best_k",
+      "value": [
+        243,
+        53,
+        42,
+        22,
+        62,
+        17,
+        23
+      ],
+      "source": [
+        "results/ligand_clusters_noadd.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_ligands",
+      "value": 306,
+      "source": [
+        "results/ligand_clusters_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_silhouette_k3",
+      "value": 0.12937724579462004,
+      "source": [
+        "results/kmeans_scores_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_silhouette_k4",
+      "value": 0.11911818650130901,
+      "source": [
+        "results/kmeans_scores_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_silhouette_k5",
+      "value": 0.1311605413137486,
+      "source": [
+        "results/kmeans_scores_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_silhouette_k6",
+      "value": 0.11491402809904441,
+      "source": [
+        "results/kmeans_scores_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_silhouette_k7",
+      "value": 0.14411241248963513,
+      "source": [
+        "results/kmeans_scores_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_best_k",
+      "value": 7,
+      "source": [
+        "results/kmeans_scores_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_best_silhouette",
+      "value": 0.14411241248963513,
+      "source": [
+        "results/kmeans_scores_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_306_cluster_sizes_best_k",
+      "value": [
+        12,
+        30,
+        53,
+        157,
+        17,
+        13,
+        24
+      ],
+      "source": [
+        "results/ligand_clusters_loi.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_kmeans_n_init",
+      "value": 20,
+      "source": [
+        "docs/chemistry_k_choice.md"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chem_kmeans_seed",
+      "value": 42,
+      "source": [
+        "docs/chemistry_k_choice.md"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_activity_rows",
+      "value": 6714,
+      "source": [
+        "data/chembl_esr1_activities.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_standard_type_IC50",
+      "value": 5955,
+      "source": [
+        "data/chembl_esr1_activities.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_standard_type_Ki",
+      "value": 702,
+      "source": [
+        "data/chembl_esr1_activities.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_standard_type_Kd",
+      "value": 57,
+      "source": [
+        "data/chembl_esr1_activities.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_pchembl_present",
+      "value": 6689,
+      "source": [
+        "data/chembl_esr1_activities.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_molecules_distinct",
+      "value": 3856,
+      "source": [
+        "data/chembl_esr1_activities.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_molecules_blank_canonical_smiles",
+      "value": 11,
+      "source": [
+        "data/chembl_esr1_activities.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_pdb_match_rows",
+      "value": 166,
+      "source": [
+        "results/chembl_pdb_matches.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_pdb_match_ligand_codes",
+      "value": 101,
+      "source": [
+        "results/chembl_pdb_matches.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_pdb_match_molecules",
+      "value": 151,
+      "source": [
+        "results/chembl_pdb_matches.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_pdb_match_exact",
+      "value": 79,
+      "source": [
+        "results/chembl_pdb_matches.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_pdb_match_tanimoto_ge_0_9",
+      "value": 87,
+      "source": [
+        "results/chembl_pdb_matches.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "chembl_pdb_match_min_tanimoto",
+      "value": 0.9014,
+      "source": [
+        "results/chembl_pdb_matches.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_entries",
+      "value": 39,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_chain_rows",
+      "value": 86,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_eligible_chain_rows",
+      "value": 86,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_qc_resolution_pass",
+      "value": 34,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_qc_resolution_fail",
+      "value": 5,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_qc_r_free_pass",
+      "value": 36,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_qc_r_free_fail",
+      "value": 3,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_qc_mean_B_pass",
+      "value": 32,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_qc_mean_B_fail",
+      "value": 7,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_qc_combined_pass",
+      "value": 28,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_qc_combined_fail",
+      "value": 11,
+      "source": [
+        "results/esr2_entries.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_numbering_positions",
+      "value": 520,
+      "source": [
+        "results/numbering_map_esr1_esr2.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_numbering_same_residue",
+      "value": 276,
+      "source": [
+        "results/numbering_map_esr1_esr2.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_numbering_in_lbd",
+      "value": 242,
+      "source": [
+        "results/numbering_map_esr1_esr2.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_matched_pairs",
+      "value": 135,
+      "source": [
+        "results/matched_pairs.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_matched_esr1_entries",
+      "value": 39,
+      "source": [
+        "results/matched_pairs.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_matched_esr2_entries",
+      "value": 15,
+      "source": [
+        "results/matched_pairs.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_matched_identical_codes",
+      "value": 135,
+      "source": [
+        "results/matched_pairs.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "esr2_matched_tanimoto_1",
+      "value": 135,
+      "source": [
+        "results/matched_pairs.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "labels_current_file",
+      "value": "absent",
+      "source": [
+        "results/ligand_action_labels.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "labels_sep_identities",
+      "value": 400,
+      "source": [
+        "results/task_outputs/block_06/ligand_identities.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_sep_codes_in_current_table",
+      "value": 400,
+      "source": [
+        "results/task_outputs/block_06/ligand_identities.csv",
+        "results/ligands.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_current_codes_not_in_sep",
+      "value": 80,
+      "source": [
+        "results/ligands.csv",
+        "results/task_outputs/block_06/ligand_identities.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_sep_supported",
+      "value": 7,
+      "source": [
+        "results/task_outputs/block_07/ligand_actions.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_sep_unsupported",
+      "value": 393,
+      "source": [
+        "results/task_outputs/block_07/ligand_actions.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_sep_supported_agonist",
+      "value": 3,
+      "source": [
+        "results/task_outputs/block_07/ligand_actions.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_sep_supported_degrader",
+      "value": 4,
+      "source": [
+        "results/task_outputs/block_07/ligand_actions.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_sep_provisional_rows",
+      "value": 22,
+      "source": [
+        "results/task_outputs/block_07/ligand_actions.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_sep_provisional_SERM",
+      "value": 14,
+      "source": [
+        "results/task_outputs/block_07/ligand_actions.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "labels_sep_provisional_agonist",
+      "value": 8,
+      "source": [
+        "results/task_outputs/block_07/ligand_actions.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "p01_n_clusters_cut_1.0A",
+      "value": 18,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_top3_share_cut_1.0A",
+      "value": 0.8547008547008547,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_entropy_bits_cut_1.0A",
+      "value": 2.000107094094384,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_n_clusters_cut_1.5A",
+      "value": 9,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_top3_share_cut_1.5A",
+      "value": 0.9743589743589743,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_entropy_bits_cut_1.5A",
+      "value": 1.2697168104478722,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_n_clusters_cut_2.0A",
+      "value": 5,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_top3_share_cut_2.0A",
+      "value": 0.9914529914529915,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_entropy_bits_cut_2.0A",
+      "value": 1.1349533169939334,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_n_clusters_cut_2.5A",
+      "value": 4,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_top3_share_cut_2.5A",
+      "value": 0.9971509971509972,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_entropy_bits_cut_2.5A",
+      "value": 1.0219178698707807,
+      "source": [
+        "results/provisional/entropy_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_sizes_cut_1.5A",
+      "value": [
+        212,
+        124,
+        6,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "source": [
+        "results/provisional/clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p01_sep_sizes_cut_1.5A",
+      "value": [
+        212,
+        124,
+        6,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "source": [
+        "results/task_outputs/block_11/entry_clusters.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "p01_matches_sep_cut_1.5A",
+      "value": "yes",
+      "source": [
+        "results/provisional/clusters.csv",
+        "results/task_outputs/block_11/entry_clusters.csv"
+      ],
+      "sep": true
+    },
+    {
+      "name": "p02_n90_cut_1.0A",
+      "value": 293,
+      "source": [
+        "results/provisional/saturation.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p02_n90_cut_1.5A",
+      "value": 275,
+      "source": [
+        "results/provisional/saturation.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p02_n90_cut_2.0A",
+      "value": 217,
+      "source": [
+        "results/provisional/saturation.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p02_n90_cut_2.5A",
+      "value": 241,
+      "source": [
+        "results/provisional/saturation.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n_entries",
+      "value": 351,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n_clusters_cut_1.0A",
+      "value": 18,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_top3_share_cut_1.0A",
+      "value": 0.8547008547008547,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_entropy_bits_cut_1.0A",
+      "value": 2.000107094094384,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n90_cut_1.0A",
+      "value": 293,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n_entries",
+      "value": 247,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n_clusters_cut_1.0A",
+      "value": 15,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_top3_share_cut_1.0A",
+      "value": 0.854251012145749,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_entropy_bits_cut_1.0A",
+      "value": 2.0950260210696534,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n90_cut_1.0A",
+      "value": 206,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_clusters_absent_count_cut_1.0A",
+      "value": 4,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_clusters_absent_cut_1.0A",
+      "value": "1:1;2:1;12:1;14:2",
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n_clusters_cut_1.5A",
+      "value": 9,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_top3_share_cut_1.5A",
+      "value": 0.9743589743589743,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_entropy_bits_cut_1.5A",
+      "value": 1.2697168104478722,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n90_cut_1.5A",
+      "value": 275,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n_clusters_cut_1.5A",
+      "value": 7,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_top3_share_cut_1.5A",
+      "value": 0.9757085020242915,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_entropy_bits_cut_1.5A",
+      "value": 1.3133668822583626,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n90_cut_1.5A",
+      "value": 184,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_clusters_absent_count_cut_1.5A",
+      "value": 2,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_clusters_absent_cut_1.5A",
+      "value": "1:2;5:1",
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n_clusters_cut_2.0A",
+      "value": 5,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_top3_share_cut_2.0A",
+      "value": 0.9914529914529915,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_entropy_bits_cut_2.0A",
+      "value": 1.1349533169939334,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n90_cut_2.0A",
+      "value": 217,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n_clusters_cut_2.0A",
+      "value": 4,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_top3_share_cut_2.0A",
+      "value": 0.9959514170040485,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_entropy_bits_cut_2.0A",
+      "value": 1.1634455313371799,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n90_cut_2.0A",
+      "value": 159,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_clusters_absent_count_cut_2.0A",
+      "value": 1,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_clusters_absent_cut_2.0A",
+      "value": "1:2",
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n_clusters_cut_2.5A",
+      "value": 4,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_top3_share_cut_2.5A",
+      "value": 0.9971509971509972,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_entropy_bits_cut_2.5A",
+      "value": 1.0219178698707807,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_all351_n90_cut_2.5A",
+      "value": 241,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n_clusters_cut_2.5A",
+      "value": 3,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_top3_share_cut_2.5A",
+      "value": 1.0,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_entropy_bits_cut_2.5A",
+      "value": 1.0185189723005774,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_qcpass247_n90_cut_2.5A",
+      "value": 193,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_clusters_absent_count_cut_2.5A",
+      "value": 1,
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p03_clusters_absent_cut_2.5A",
+      "value": "1:2",
+      "source": [
+        "results/provisional/qc_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_n",
+      "value": 346,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_chi2_statistic",
+      "value": 151.1804943213629,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_chi2_df",
+      "value": 48,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_chi2_p_value",
+      "value": 1.3119994864158683e-12,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_cells_expected_below_5",
+      "value": 50,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_cells_total",
+      "value": 63,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_permutation_p_value",
+      "value": 9.999000099990002e-05,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_permutations",
+      "value": 10000,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_ligands",
+      "value": 292,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_excluded_no_ligand",
+      "value": 5,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "p04_multi_ligand_resolved",
+      "value": 6,
+      "source": [
+        "results/provisional/chem_struct_test.csv"
+      ],
+      "sep": false
+    }
+  ]
+}

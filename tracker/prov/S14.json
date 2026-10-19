@@ -1,0 +1,19 @@
+{
+ "task": "S14",
+ "ts": "2026-10-18T23:17+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "figures/structural_sensitivity.png",
+   "size": 63291,
+   "sha": "0e55b71c93459612"
+  },
+  {
+   "path": "scripts/figure_sensitivity.py",
+   "size": 4901,
+   "sha": "1f94812389a3b0e7"
+  }
+ ]
+}

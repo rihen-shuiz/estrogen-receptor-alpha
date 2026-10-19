@@ -1,0 +1,1055 @@
+LANG tasks v1
+# ESR1 Structural Diversity and Redundancy - what must exist for the project to be finished.
+# Source of truth: project description (sections 4-10). Language rules: TASK_LANG.md.
+# Every task is small (XS <30 min, S <=2 h, M <=half day) and has a machine-checkable chk.
+# Path convention: data/ inputs, results/ tables+npy, figures/ png+pml, docs/ text, docs/manuscript/ draft.
+# orig = file in the ORIGINAL project folder that already implements it (hint only; port, do not trust).
+# who: A data+QC, B structure+redundancy, C chemistry, D comparison+figures+manuscript, ALL.
+
+# ===================== QC / DATA (phase qc) =====================
+
+T Q01 XS run "Query ESR1 PDB IDs"
+  help List every X-ray PDB entry for UniProt P03372 (ESR1) from the RCSB search API, one ID per line.
+  meta wk=1 who=A ph=qc
+  tool requests, RCSB search API
+  out data/pdb_ids_esr1.txt
+  chk lines data/**/pdb_ids_esr1*.txt >=450
+  orig esr_analysis/query_structures.py
+  src desc 4.1
+
+T Q02 XS run "Query ESR2 PDB IDs"
+  help Same query for UniProt Q92731 (ESR2); this is the validation set (~37-40 entries).
+  meta wk=1 who=A ph=qc
+  tool requests, RCSB search API
+  out data/pdb_ids_esr2.txt
+  chk lines data/**/pdb_ids_esr2*.txt >=30
+  orig esr_analysis/query_structures.py
+  src desc 4.1
+
+T Q03 S run "Download all mmCIF files"
+  help Download every ESR1+ESR2 structure as mmCIF into data/raw; skip files already present; record a hash per file.
+  meta wk=1 who=A ph=qc
+  needs Q01 Q02
+  tool requests, hashlib
+  out data/raw/*.cif
+  chk glob data/raw/**/*.cif >=450
+  orig esr_analysis/download_structures.py
+
+T Q17 XS code "Make the download manifest portable (relative paths only)"
+  help data/raw/download_manifest.csv stores absolute paths with the local user name. Rewrite the path column as repo-relative (data/raw/XXXX.cif) without re-downloading, and fix the writer so it stays relative.
+  meta wk=2 who=A ph=qc
+  needs Q03
+  out data/raw/download_manifest.csv
+  chk csv data/raw/download_manifest.csv rows>=500 cols=pdb_id,download_ok,status,path,source_url nonempty=pdb_id,path uniq=pdb_id
+  chk cmd ! grep -q "/home/" data/raw/download_manifest.csv
+
+T Q04 S code "Extract LBD chain per entry (residues 305-550)"
+  help Map each entry's receptor chains onto canonical ESR1/ESR2 numbering and keep the ligand-binding domain; record coverage per chain.
+  meta wk=1 who=A ph=qc
+  needs Q03
+  tool biopython
+  out results/lbd_chains.csv
+  chk csv results/**/lbd*.csv rows>=400 cols=entry_id,chain_id
+  orig esr_analysis/extract_lbd.py
+  src desc 5.1 step 1
+
+T Q05 S code "Build master metadata CSV"
+  help One row per entry: resolution, R-free, mean B, space group, deposit date, depositing authors, ligand ids.
+  meta wk=2 who=A ph=qc
+  needs Q03
+  tool biopython, pandas
+  out results/entries.csv
+  chk csv results/**/entries*.csv rows>=450 cols=entry_id,resolution,r_free,mean_b,space_group,deposit_date
+  orig esr_analysis/extract_metadata.py
+  src desc 4.2
+
+T Q06 XS code "Add QC flags (resolution, R-free, B)"
+  help Flag resolution >2.5 A, R-free >0.30, mean B >50 A^2; a combined pass needs all three; missing values are not passes. Do not delete failing entries.
+  meta wk=2 who=A ph=qc
+  needs Q05
+  tool pandas
+  out results/entries.csv
+  chk csv results/**/entries*.csv rows>=450 cols=qc_res,qc_rfree,qc_b,qc_pass
+  orig esr_analysis/flag_quality.py
+  src desc 4.2
+
+T Q07 XS text "Write QC summary (counts pass/fail per flag)"
+  help One short table: how many entries pass each flag and the combined flag, for all entries and for the selected-LBD set.
+  meta wk=2 who=A ph=qc
+  needs Q06 Q04
+  out docs/qc_summary.md
+  chk lines docs/qc_summary.md >=8
+  chk grep docs/qc_summary.md (?i)R-free
+
+T Q08 S code "Ligand identity table with SMILES"
+  help One row per distinct non-water ligand (CCD code) with canonical SMILES from the PDB Chemical Component Dictionary, plus which entries carry it.
+  meta wk=2 who=A ph=qc
+  needs Q05
+  tool requests, RCSB CCD
+  out results/ligands.csv
+  chk csv results/ligands.csv rows>=300 cols=ligand_id,smiles nonempty=ligand_id uniq=ligand_id
+  orig esr_analysis/build_ligand_table.py
+
+T Q09 XS code "Rank ligands by number of entries"
+  help Sort ligands by how many entries carry them; this is the worklist for labelling.
+  meta wk=2 who=A ph=qc
+  needs Q08
+  out results/ligands_ranked.csv
+  chk csv results/ligands_ranked.csv rows>=300 cols=ligand_id,n_entries nonempty=ligand_id uniq=ligand_id
+
+T Q16 XS code "Flag crystallization additives and ions in the ligand ranking"
+  help Add an is_additive column to results/ligands_ranked.csv (ions, buffer and cryoprotectants such as MG, CL, GOL, EDO, SO4, ZN, NA). Keep every row; read ligand_id as text so the real code NA (sodium) stays NA.
+  meta wk=2 who=A ph=qc
+  needs Q09
+  out results/ligands_ranked.csv
+  chk csv results/ligands_ranked.csv rows>=300 cols=ligand_id,n_entries,is_additive nonempty=ligand_id,is_additive uniq=ligand_id
+
+T Q18 S code "One ligand of interest per selected chain (drop waters, ions, buffer, cryoprotectants)"
+  help For each eligible ESR1 chain, find the non-polymer that sits in the ligand-binding pocket. Use the mmCIF flag pdbx_entity_instance_feature 'SUBJECT OF INVESTIGATION' when present; otherwise keep non-polymers with heavy atoms within 4.5 A of at least 3 pocket residues (M343 L346 T347 A350 E353 W383 L384 L387 M388 L391 R394 F404 M421 I424 F425 L428 G521 H524 L525; put the list in config and cite it). Never count HOH, ions, glycerol, ethylene glycol, PEG, sulfate, phosphate, DMSO, acetate, formate or buffers as the ligand. Keep every chain; a chain with no pocket ligand gets ligand_id empty and status apo_or_unclear. Several pocket ligands: one row each, flag multi. Save the script in scripts/ and read ids with keep_default_na=False.
+  meta wk=2 who=A ph=qc
+  needs Q04 Q08
+  tool biopython or gemmi, numpy
+  out scripts/ligand_of_interest.py
+  out results/chain_ligand_of_interest.csv
+  chk csv results/chain_ligand_of_interest.csv rows>=700 cols=chain_key,entry_id,ligand_id,source,n_pocket_residues,status nonempty=chain_key,status
+  chk cmd ! grep -Eq "(^|,)(HOH|MG|CL|NA|K|CA|ZN|NI|GOL|EDO|PEG|SO4|PO4|DMS|ACY|FMT|BME)(,|$)" results/chain_ligand_of_interest.csv
+  chk file scripts/ligand_of_interest.py
+
+T Q10 M manual "Label top 30 ligands as agonist / antagonist / SERM (with source)"
+  help For the 30 most frequent non-additive ligands (is_additive is false) record the pharmacological class and a citable source (paper or ChEMBL). Unsure = unknown, never guess. TEAMMATE LABELS THIS BY HAND: Claude must not search, draft, pre-fill or prepare anything for this task.
+  meta wk=2 who=A ph=qc
+  needs Q16 Q18
+  out results/ligand_action_labels.csv
+  chk csv results/**/ligand_action*.csv rows>=30 cols=ligand_id,action,source
+  chk man Human confirms every label has a real source and uncertain ones are marked unknown
+  orig results/week6/ligand_action_evidence.csv (14 supported identities so far)
+  src desc 3.2
+
+T Q11 M manual "Label next 30 ligands"
+  help Same as Q10 for ligands ranked 31-60. Goal: most entries covered by a supported label. TEAMMATE LABELS THIS BY HAND: Claude must not search, draft, pre-fill or prepare anything for this task.
+  meta wk=3 who=A ph=qc
+  needs Q10
+  out results/ligand_action_labels.csv
+  chk csv results/**/ligand_action*.csv rows>=60 cols=ligand_id,action,source
+  chk man Human confirms sources for the added labels
+
+T Q12 S code "Flag near-duplicate entries"
+  help Mark entries with the same ligand, same space group and same depositing group as near-duplicates; this explains part of the redundancy.
+  meta wk=2 who=A ph=qc
+  needs Q05 Q08
+  out results/near_duplicates.csv
+  chk csv results/**/near_dup*.csv rows>=1 cols=entry_id,group_id
+
+T Q13 XS fig "Temporal bias: entries deposited per year"
+  help Bar chart of deposits per year to check whether recent depositions drive the redundancy.
+  meta wk=3 who=A ph=qc
+  needs Q05
+  tool matplotlib
+  out figures/deposits_per_year.png
+  chk file figures/**/deposits_per_year*.png
+
+T Q14 S code "QC question 1: do conformational singletons have worse resolution?"
+  help Compare resolution and R-free of singleton/rare clusters against the large clusters; a stats line plus one plot.
+  meta wk=6 who=A ph=qc
+  needs S09 Q06
+  out results/qc_outliers.csv
+  chk csv results/qc_outliers.csv rows>=1
+  chk file docs/qc_outliers.md
+  src desc 4.2
+
+T Q15 S code "QC question 2: do high-B entries cluster together or scatter?"
+  help Cross-tabulate B-factor flag against structural cluster; report whether high-B entries concentrate in particular clusters.
+  meta wk=6 who=A ph=qc
+  needs S08 Q06
+  out results/qc_bfactor_clusters.csv
+  chk csv results/qc_bfactor_clusters.csv rows>=1
+  src desc 4.2
+
+# ===================== KEEP-ALL-DATA REVISION (phase keep) =====================
+# Professor notes after the presentation: (1) which helices are most stable by B-factor group, use them for alignment;
+# (2) label a structure you do not like, keep as much data as possible. H12 stays in. Bad data is labelled "bad", never removed.
+# The completeness screen (LBD / core Calpha counts) is unchanged. Strict outputs are archived, not deleted.
+
+T K00 XS run "Archive the strict (351-chain) outputs before the rewrite"
+  help COPY, never move or delete: results/rmsd_entry.npy, rmsd_entry_index.csv, entry_clusters.csv, linkage_entry.npy, cluster_stats.csv, medoids.csv, qc_clustering_delta.csv, h12_metric.csv, alignment_core_rmsd.csv and figures/dendrogram.png, figures/structural_sensitivity.png into results/archive_v2_strict/ (same file names). Write MANIFEST.csv with the sha256 of each copy. These stay as the "strict" comparison.
+  meta wk=7 who=B ph=keep
+  out results/archive_v2_strict/MANIFEST.csv
+  chk csv results/archive_v2_strict/MANIFEST.csv rows>=10 cols=file,sha256 nonempty=file,sha256 uniq=file
+  src professor notes 2026-10-18
+
+T K01 S run "Attrition funnel: every step that removes a chain, entry or residue"
+  help Start from all downloaded ESR1 chains and list each step that removes or ignores something: completeness screen, apo/no-ligand, one-chain-per-entry selection (frozen index), distance pruning (min_pairwise_common_ca), QC flags, anything else you find in the code. One row per step: n before, n after, n removed, rule, code file, and necessary = yes only when it is identity or mathematics (wrong protein, no overlap), otherwise no. Also write one row per ESR1 chain with the stage where it was lost (empty if it reached the old matrix) and the reason. Numbers come from files, never from memory. Delete nothing.
+  meta wk=7 who=A ph=keep
+  needs Q04 Q06 K00
+  out results/attrition_funnel.csv results/chain_loss_reasons.csv
+  chk csv results/attrition_funnel.csv rows>=4 cols=step,n_before,n_after,n_removed,rule,code_file,necessary nonempty=step,rule
+  chk csv results/chain_loss_reasons.csv rows>=788 cols=chain_key,entry_id,stage_lost,reason nonempty=chain_key,entry_id
+  src professor notes 2026-10-18
+
+T K02 S code "Helix table: residue range of each LBD helix, with its source"
+  help One row per helix of the ERalpha LBD (305-550) from the mmCIF helix annotation (struct_conf) of the reference chain in docs/reference.md, or from DSSP if the binary exists; record which. Helix names the source does not give are unknown, never invented. H12 must come out as 538-547 as in the settings; if the source disagrees, report both and do not overwrite the settings.
+  meta wk=7 who=B ph=keep
+  needs S01
+  out results/helix_table.csv
+  chk csv results/helix_table.csv rows>=8 cols=helix,start,end,source,name_status nonempty=helix,start,end,source
+  src professor note 1
+
+T K03 M code "Normalised B-factor per helix for every eligible chain"
+  help For every eligible ESR1 chain take the Calpha B-factors and divide each by that chain's own median Calpha B, so resolution and refinement differences cancel; average per helix from K02. Keep raw means too. Per chain also: core mean B, H12 mean B and the ratio H12 / core, and b_group = low / mid / high tertile of the chain's mean B. A chain missing a helix gets blank, not zero. Do not drop high-B chains.
+  meta wk=7 who=B ph=keep
+  needs K02 Q04
+  out results/helix_bfactor_by_chain.csv
+  chk csv results/helix_bfactor_by_chain.csv rows>=700 cols=chain_key,entry_id,b_group,mean_b_chain,h12_mean_b,core_mean_b,h12_to_core_ratio nonempty=chain_key,b_group
+  src professor note 1
+
+T K04 S code "Which helices are most stable per B-factor group; choose the alignment core"
+  help Per b_group and over all chains: median and IQR of normalised B per helix, rank 1 = most stable, n chains. Report the H12 / core ratio (median and quartiles, raw and normalised) and say whether the team's earlier estimate, H12 about 12 times the core, holds; if not, state what was measured. Recommended core = helices that rank in the better half in every b_group, never H12, at least 60 residues in total; say if it equals the current core (340-360, 400-420, 450-470, 500-520) or how it differs. Save it as core_ranges in the config JSON that S03 reads. Figure: heatmap helix x b_group of median normalised B. Every number in the text comes from the CSV.
+  meta wk=7 who=B ph=keep
+  needs K03
+  out results/helix_stability_by_bgroup.csv docs/helix_stability.md figures/helix_bfactor_stability.png esr_analysis/resources/config/alignment_core_v3.json
+  chk csv results/helix_stability_by_bgroup.csv rows>=8 cols=helix,b_group,n_chains,median_norm_b,iqr_norm_b,rank nonempty=helix,b_group
+  chk lines docs/helix_stability.md >=15
+  chk grep docs/helix_stability.md (?i)recommended core
+  chk grep esr_analysis/resources/config/alignment_core_v3.json core_ranges
+  chk file figures/helix_bfactor_stability.png
+  src professor note 1
+
+T K05 S code "Graded QC tiers instead of a hard cutoff"
+  help Tiers A / B / C for resolution, R-free and mean B per entry. A limits = the old flags (2.5 A, 0.30, 50). B limits are relaxed starting values in esr_analysis/resources/config/qc_tiers.json (resolution 3.5 A, R-free 0.40, mean B 80 A^2); the human may edit that file and rerun. qc_label: A = all metrics A; B = some B, no C; C = any C; unknown = a metric is missing (never a pass). Add a short plain-language warning per entry, for example "resolution 3.2 A (tier B)". No entry is removed; the old qc_* columns in results/entries.csv stay untouched.
+  meta wk=7 who=A ph=keep
+  needs Q06
+  out results/qc_tiers.csv esr_analysis/resources/config/qc_tiers.json
+  chk csv results/qc_tiers.csv rows>=450 cols=entry_id,tier_resolution,tier_rfree,tier_b,qc_label,warning nonempty=entry_id,qc_label
+  chk grep esr_analysis/resources/config/qc_tiers.json resolution
+  src professor note 2
+
+T K06 S code "Master chain status table: every chain labelled, none dropped"
+  help One row per ESR1 chain: completeness status and reason, qc_label and warning (K05), h12_b_group and h12_to_core_ratio (K03), in_matrix true/false, why it was lost in the old pipeline (K01). in_matrix is false only for a stated mathematical reason (no overlap), and the chain still has its row.
+  meta wk=7 who=A ph=keep
+  needs S05 K01 K03 K05
+  out results/chain_status.csv
+  chk csv results/chain_status.csv rows>=788 cols=chain_key,entry_id,completeness_status,qc_label,h12_b_group,in_matrix,warning nonempty=chain_key,entry_id,in_matrix
+  src professor note 2
+
+T K07 S code "Entry-level view next to the chain-level result"
+  help Chains of one entry are not independent crystals. Pick one chain per entry by a stated rule (most mapped LBD Calpha, then lowest mean B, then chain_key order), slice those rows from the saved S04 matrix (do not recompute), cluster at the same four cuts, and compare with the chain-level clustering: clusters per cut, top-3 share, ARI. Keep both views; neither replaces the other.
+  meta wk=7 who=B ph=keep
+  needs S08 K06
+  out results/entry_level_clusters.csv results/entry_vs_chain_clusters.csv
+  chk csv results/entry_level_clusters.csv rows>=350 cols=entry_id,chain_key,cut_1.0,cut_1.5,cut_2.0,cut_2.5 nonempty=entry_id,chain_key uniq=entry_id
+  chk csv results/entry_vs_chain_clusters.csv rows>=4 cols=cut,n_clusters_chain,n_clusters_entry,top3_chain,top3_entry,ari
+  src professor notes 2026-10-18
+
+T K09 M run "Alignment-core sensitivity: old core vs data-chosen core"
+  help Rebuild the matrix with the old core fit (stored by S03) as a NEW file results/rmsd_old_core.npy (the primary matrix is not replaced), cluster it at 1.5 A, and compare with the primary result: cluster counts, ARI, and Spearman correlation of all pairwise RMSDs. Say whether the choice of core changes the clusters.
+  meta wk=7 who=B ph=keep
+  needs S03 S04 S08 K04
+  out results/core_sensitivity.csv results/rmsd_old_core.npy
+  chk csv results/core_sensitivity.csv rows>=1 cols=core,n_chains,n_clusters_1_5,ari_vs_primary,spearman_pairwise
+  chk npy results/rmsd_old_core.npy square>=700
+  src professor note 1
+
+T K08 S text "Data-retention note for the professor: what was removed before, what is kept now"
+  help Plain markdown, every number from a results file. Old strict set (351 chains) versus now; what each former filter removed (K01); QC tier counts and how many chains carry a warning (K05, K06); the H12 / core B ratio (K04); entry-level versus chain-level clusters (K07); effect of the strict subsets (S13). State plainly: nothing is removed for quality, chains are labelled; the only chains outside the matrix are listed with a mathematical reason. Answer note 1 (most stable helices per B-group, the core used) and note 2 in a few sentences each.
+  meta wk=8 who=ALL ph=keep
+  needs K01 K04 K06 K07 S13
+  out docs/data_retention.md
+  chk lines docs/data_retention.md >=25
+  chk grep docs/data_retention.md (?i)label
+  chk grep docs/data_retention.md (?i)stable
+  src professor notes 2026-10-18
+
+# ===================== STRUCTURE (phase core) =====================
+
+T S01 S code "Choose and document the reference structure"
+  help Pick one reference: QC pass, high LBD coverage, complete core helices and H12, best resolution. Write down why and what its limitations are (engineered substitutions).
+  meta wk=2 who=B ph=core
+  needs Q04 Q06
+  out docs/reference.md
+  chk grep docs/reference.md (?i)reference
+  chk lines docs/reference.md >=5
+  orig choose_reference.py (clean version chose 7NFB chain B model 1)
+
+T S02 M code "Core-helix superposition function (H3,H5,H7,H10; exclude H12)"
+  help Kabsch fit on Calpha of residues 340-360, 400-420, 450-470, 500-520 only, so H12 (538-547) stays free to be measured afterwards. Returns core RMSD.
+  meta wk=2 who=B ph=core
+  needs S01
+  tool biopython, numpy
+  out esr_analysis/align_structures.py
+  chk file esr_analysis/align_structures.py
+  chk grep esr_analysis/align_structures.py esr1_core_ranges
+  orig esr_analysis/align_structures.py
+  src desc 5.1 step 1
+
+T S03 S run "Align EVERY eligible chain (not one per entry); log core RMSD per chain"
+  help Apply S02 to all eligible ESR1 chains (the completeness screen stays exactly as it is) on the core ranges in esr_analysis/resources/config/alignment_core_v3.json (K04). Also fit with the old core (340-360, 400-420, 450-470, 500-520) and store both core RMSDs so the choice can be compared. Same reference as the last run; log its chain_key in a NOTE. A large core RMSD is labelled, never a reason to drop the chain.
+  meta wk=3 who=B ph=core
+  needs S02 Q04 K00 K04
+  out results/alignment_core_rmsd.csv
+  chk csv results/alignment_core_rmsd.csv rows>=700 cols=entry_id,chain_key,core_rmsd,core_rmsd_old_core,core_used nonempty=chain_key
+  orig esr_analysis/align_structures.py
+  src professor notes 2026-10-18 (keep as much data as possible; which helices are stable)
+
+T S04 S run "Pairwise Calpha RMSD matrix over ALL eligible chains (H12 included) - save to disk"
+  help N x N RMSD over common LBD Calpha positions, H12 positions included, after the core fit. Rows are every eligible chain from S03, not one chain per entry; the file name keeps "entry" so downstream paths still work, and the row-order file (S05) says which chain is which. Keep min_pairwise_common_ca as in the settings (never lower it silently). A chain is left out of the matrix only if it cannot meet it, and then it is listed with the reason in results/alignment/distance_exclusions.json and in chain_status (K06), never silently. Save with np.save, no NaN, never recompute in notebooks. The previous 351-chain matrix is archived in results/archive_v2_strict/ (K00).
+  meta wk=3 who=B ph=core
+  needs S03
+  tool numpy
+  out results/rmsd_entry.npy
+  chk npy results/rmsd_entry.npy square>=700
+  orig esr_analysis/calculate_rmsd.py
+  src desc 5.1 step 2; professor notes 2026-10-18
+
+T S05 XS code "Save matrix row order (index file, one row per chain)"
+  help Ordered chain_key / entry_id list matching the matrix rows, so every analysis loads labels without guessing. Rows are chains; an entry with several chains appears several times.
+  meta wk=3 who=B ph=core
+  needs S04
+  out results/rmsd_entry_index.csv
+  chk csv results/rmsd_entry_index.csv rows>=700 cols=chain_key,entry_id nonempty=chain_key uniq=chain_key
+  orig results/current/rmsd_entry_index.txt
+
+T S06 XS text "State the Calpha-only limitation"
+  help One paragraph: RMSD uses Calpha only, side-chain rearrangements are not measured; say what that could hide.
+  meta wk=3 who=B ph=core
+  needs S04
+  out docs/limitations.md
+  chk grep docs/limitations.md (?i)all-atom|side.chain
+  src desc 2, 5.1
+
+T S07 M run "All-atom RMSD on a 50-entry subset (validation)"
+  help Recompute RMSD with all heavy atoms on 50 entries and compare with the Calpha ranking (Spearman); tells whether Calpha-only changes cluster order.
+  meta wk=4 who=B ph=ext
+  needs S04
+  tool numpy, scipy
+  out results/rmsd_allatom_subset.csv
+  chk csv results/**/rmsd_allatom*.csv rows>=50
+  src desc 5.1 step 2
+
+T S08 S code "Hierarchical clustering of all chains at cuts 1.0 / 1.5 / 2.0 / 2.5 A"
+  help Average linkage on the RMSD matrix (rows = chains); one label column per cut, plus the linkage saved for the dendrogram. Every chain in the matrix gets a label; nothing is filtered before clustering. Copy qc_label (K05) next to the labels for reading only.
+  meta wk=3 who=B ph=core
+  needs S04 S05 K05
+  tool scipy
+  out results/entry_clusters.csv
+  chk csv results/entry_clusters.csv rows>=700 cols=entry_id,chain_key,cut_1.0,cut_1.5,cut_2.0,cut_2.5,qc_label nonempty=chain_key
+  orig esr_analysis/cluster_structures.py
+  src desc 5.1 step 3
+
+T S09 XS code "Cluster statistics table"
+  help Per cut: number of clusters, share of entries in the 3 largest clusters, median RMSD within and between clusters.
+  meta wk=4 who=B ph=core
+  needs S08
+  out results/cluster_stats.csv
+  chk csv results/cluster_stats.csv rows>=4 cols=cut,n_clusters,top3_fraction
+  src desc 5.1 report list
+
+T S10 XS fig "Dendrogram"
+  help Dendrogram of the linkage with the chosen cut drawn as a line.
+  meta wk=4 who=B ph=core
+  needs S08
+  tool matplotlib, scipy
+  out figures/dendrogram.png
+  chk file figures/dendrogram.png
+
+T S11 S fig "PCA conformational landscape coloured by ligand class"
+  help PCA of RMSD rows, axes with explained variance, points coloured agonist/antagonist/SERM/unknown; shows whether the landscape is multi-basin.
+  meta wk=4 who=B ph=core
+  needs S04 Q10
+  tool scikit-learn, matplotlib
+  out results/pca_coords.csv figures/pca_landscape_ligand_class.png
+  chk csv results/**/pca*.csv rows>=300 cols=entry_id,pc1,pc2
+  chk file figures/**/pca*class*.png
+  orig esr_analysis/structural_pca.py
+
+T S12 S code "Medoid structure per cluster"
+  help For each cluster at the chosen cut, the entry with the smallest mean RMSD to its cluster mates.
+  meta wk=4 who=B ph=core
+  needs S08
+  out results/medoids.csv
+  chk csv results/medoids.csv rows>=1 cols=cluster,entry_id
+  orig esr_analysis/representative_set.py
+
+T S13 S code "QC-tier sensitivity: all chains vs tier A only vs tiers A+B"
+  help Replaces the old "drop R-free > 0.30" test. The main result stays on ALL chains. For each cut recluster (same method as S08, a slice of the saved S04 matrix, not recomputed) the chains with qc_label A only and with A or B, and tabulate clusters, top-3 share, clusters that have no member in the subset, and ARI against the all-chain labelling. Poor or failing chains stay in every file; this table only shows whether the conclusion depends on them.
+  meta wk=6 who=B ph=core
+  needs S08 Q06 K05
+  out results/qc_clustering_delta.csv
+  chk csv results/qc_clustering_delta.csv rows>=8 cols=cut,subset,n_chains,n_clusters,top3_fraction,clusters_without_members,ari_vs_all
+  orig esr_analysis/compare_qc_clustering.py
+  src desc 5.1 report list; professor notes 2026-10-18
+
+T S14 XS fig "Threshold sensitivity figure"
+  help Number of clusters and top-3 share as the cut moves from 1.0 to 2.5 A.
+  meta wk=7 who=B ph=core
+  needs S09
+  out figures/structural_sensitivity.png
+  chk file figures/structural_sensitivity.png
+  orig esr_analysis/plot_structural_sensitivity.py
+
+T S15 S code "Minimal representative set covering >=90% of conformational diversity"
+  help Smallest list of medoid entries (QC-pass if possible) whose clusters cover 90% of diversity, with a one-line justification per entry. If 90% is not reachable under QC, say so and show the number.
+  meta wk=7 who=B ph=core
+  needs S12 R04
+  out results/representative_set.csv
+  chk csv results/**/representative*.csv rows>=1 cols=entry_id,justification
+  orig esr_analysis/representative_set.py
+  src desc 10 deliverables
+
+T S16 S code "Measure H12 position per chain after core fit (keep every chain)"
+  help RMSD of H12 residues 538-547 versus the reference after the core fit; this is the agonist/antagonist signal. Keep every chain: no shared H12 Calpha -> h12_rmsd blank and h12_label not_modelled; fewer than 10 shared -> partial; otherwise complete. Add h12_mean_b and h12_b_group from K03 so a reader sees how mobile H12 is. Large values are reported next to n_h12_ca and never filtered.
+  meta wk=4 who=B ph=core
+  needs S03 K03
+  out results/h12_metric.csv
+  chk csv results/h12_metric.csv rows>=700 cols=entry_id,chain_key,n_h12_ca,h12_rmsd,h12_label,h12_mean_b,h12_b_group nonempty=chain_key,h12_label
+  src desc 3.2, 5.1; professor notes 2026-10-18
+
+T S17 S run "Clean coordinate files: receptor chain + its ligand of interest"
+  help Write one PDB per eligible chain with only that protein chain and its ligand(s) of interest (no waters, ions, additives, partner chains). For pockets (P2Rank), all-atom checks and PyMOL figures; the Calpha RMSD does not need it. Save the script in scripts/.
+  meta wk=3 who=B ph=core
+  needs Q18
+  tool gemmi or biopython
+  out data/clean/
+  chk glob data/clean/*.pdb >=700
+  chk cmd ! grep -lq "HOH" data/clean/*.pdb
+
+# ===================== REDUNDANCY (phase core) =====================
+
+T R01 XS code "Shannon entropy of the clustering, each cut"
+  help Entropy (bits) of the cluster-size distribution at each cut; low = redundant dataset.
+  meta wk=5 who=B ph=core
+  needs S08
+  tool scipy
+  out results/entropy.csv
+  chk csv results/entropy.csv rows>=4 cols=cut,entropy_bits
+  orig esr_analysis/cluster_entropy.py
+  src desc 5.4
+
+T R02 S code "Cumulative diversity curve (100 random orderings)"
+  help For N = 1..total, mean and SD of clusters seen in a random sample of N structures; save the curve as CSV.
+  meta wk=5 who=B ph=core
+  needs S08
+  out results/diversity_curve.csv
+  chk csv results/diversity_curve.csv rows>=300 cols=n,mean_clusters,sd_clusters
+  orig esr_analysis/diversity_curve.py
+  src desc 5.4
+
+T R03 XS fig "Cumulative diversity figure with 90% line"
+  help Plot R02 with a band and a dashed line at 90% of total diversity.
+  meta wk=5 who=B ph=core
+  needs R02
+  out figures/diversity_curve.png
+  chk file figures/diversity_curve.png
+
+T R04 XS code "90% saturation N at each cut"
+  help The N where the mean curve reaches 90% of its maximum, for each of the 4 cuts.
+  meta wk=5 who=B ph=core
+  needs R02
+  out results/saturation.csv
+  chk csv results/saturation.csv rows>=4 cols=cut,n_90
+
+T R05 S code "Diversity curve per ligand class"
+  help Repeat R02/R04 for agonist, antagonist, SERM separately; says which class is most redundant. Only valid if labels exist for enough entries; report n per class.
+  meta wk=5 who=B ph=core
+  needs R02 Q10
+  out results/saturation_by_class.csv
+  chk csv results/**/saturation_by_class*.csv rows>=1 cols=ligand_class,n_entries,n_90
+
+T R06 XS code "Entropy with and without failing-QC entries"
+  help Compare entropy and 90% N between the full set and the R-free<=0.30 set; answers whether QC changes the conclusion.
+  meta wk=6 who=B ph=core
+  needs R01 Q06 S13
+  out results/entropy_qc_compare.csv
+  chk csv results/entropy_qc_compare.csv rows>=2
+  src desc 4.2 question 3
+
+T R07 XS text "Plain-language answer to the central question"
+  help Two paragraphs: how many structures are needed to capture 90% of ESR1 conformational diversity, by cut, and how much of the dataset is repetition. Every number must come from a results file.
+  meta wk=8 who=B ph=core
+  needs R04 R05 R06
+  out docs/redundancy_answer.md
+  chk lines docs/redundancy_answer.md >=6
+  chk grep docs/redundancy_answer.md \d
+  src desc 1, 5.4
+
+# ===================== CHEMISTRY (phase core) =====================
+
+T C01 XS code "RDKit parse check on all SMILES"
+  help Parse every SMILES; write failures to a file so no ligand silently drops out.
+  meta wk=2 who=C ph=core
+  needs Q08
+  tool rdkit
+  out results/smiles_parse_report.csv
+  chk csv results/**/smiles_parse*.csv rows>=1 cols=ligand_id,parsed
+
+T C02 XS code "ECFP4 fingerprints (radius 2, 2048 bits)"
+  help Morgan fingerprint per ligand, saved as an array with an id index.
+  meta wk=2 who=C ph=core
+  needs C01
+  tool rdkit, numpy
+  out results/fp_ecfp4.npy
+  chk file results/**/fp_ecfp4*.npy
+  orig esr_analysis/ligand_similarity.py
+
+T C03 XS code "MACCS fingerprints (166 keys)"
+  help MACCS key vector per ligand, saved like C02.
+  meta wk=2 who=C ph=core
+  needs C01
+  tool rdkit, numpy
+  out results/fp_maccs.npy
+  chk file results/**/fp_maccs*.npy
+  orig esr_analysis/ligand_similarity.py
+
+T C04 XS code "Tanimoto similarity matrix - save to disk"
+  help Pairwise Tanimoto on ECFP4; save with np.save.
+  meta wk=3 who=C ph=core
+  needs C02
+  out results/tanimoto_ecfp4.npy
+  chk npy results/**/tanimoto*.npy square>=300
+  orig esr_analysis/ligand_similarity.py
+
+T C05 S code "UMAP embedding of fingerprint space"
+  help UMAP (Jaccard metric) of the fingerprints to 2D; log how many rows were finite.
+  meta wk=4 who=C ph=core
+  needs C02 C03
+  tool umap-learn
+  out results/umap_coords.csv
+  chk csv results/**/umap*.csv rows>=300 cols=ligand_id,umap1,umap2
+  orig esr_analysis/ligand_embedding.py
+
+T C06 XS code "t-SNE embedding (optional comparison)"
+  help t-SNE of the same fingerprints, to see whether UMAP structure is real.
+  meta wk=4 who=C ph=ext
+  needs C02
+  out results/tsne_coords.csv
+  chk csv results/**/tsne*.csv rows>=300
+
+T C07 S code "K-means for K = 3..7 with silhouette scores"
+  help Run K-means for each K and save silhouette (and BIC if easy) so K can be chosen with evidence.
+  meta wk=3 who=C ph=core
+  needs C02 C03
+  tool scikit-learn
+  out results/kmeans_scores.csv results/ligand_clusters.csv
+  chk csv results/**/kmeans_scores*.csv rows>=5 cols=k,silhouette
+  chk csv results/**/ligand_clusters*.csv rows>=300 cols=ligand_id,chem_cluster
+  orig esr_analysis/cluster_ligands.py
+
+T C10 S run "Rerun ECFP4 K-means on non-additive ligands only"
+  help Keep only ligands where is_additive is false in results/ligands_ranked.csv, rerun K-means for K=3..7, save new scores and labels under new names. Keep the old files. Read ligand_id as text (keep_default_na=False).
+  meta wk=7 who=C ph=core
+  needs Q16 C07
+  tool scikit-learn
+  out results/ligand_clusters_noadd.csv
+  out results/kmeans_scores_noadd.csv
+  chk csv results/ligand_clusters_noadd.csv rows>=250 cols=ligand_id,chem_cluster nonempty=ligand_id uniq=ligand_id
+  chk csv results/kmeans_scores_noadd.csv rows>=5 cols=k,silhouette
+
+T C11 S run "Chemistry on ligands of interest only"
+  help Rebuild the chemistry set as the distinct ligand_id values from results/chain_ligand_of_interest.csv (selected chains only), then recompute ECFP4, Tanimoto and K-means K=3..7 on that set. Keep the old files. Save the script in scripts/.
+  meta wk=3 who=C ph=core
+  needs Q18 C02
+  tool rdkit, scikit-learn
+  out results/ligands_of_interest.csv
+  out results/kmeans_scores_loi.csv
+  chk csv results/ligands_of_interest.csv rows>=150 cols=ligand_id,smiles,n_chains nonempty=ligand_id,smiles uniq=ligand_id
+  chk csv results/kmeans_scores_loi.csv rows>=5 cols=k,silhouette
+  chk glob scripts/*chem*.py >=1
+
+T C08 XS decide "Choose K and write the reason"
+  help Pick the K to use downstream from the non-additive clustering (C10) and state why (silhouette plus chemical sense); a human signs off.
+  meta wk=7 who=C ph=core
+  needs C07 C10 C11
+  out docs/chemistry_k_choice.md
+  chk grep docs/chemistry_k_choice.md (?i)silhouette
+  chk man Human agrees with the chosen K
+
+T C09 XS fig "UMAP figure by action type and cluster"
+  help Two panels: coloured by K-means cluster and by action type (unknown shown in grey).
+  meta wk=4 who=C ph=core
+  needs C05 C08 Q10
+  out figures/umap_ligands.png
+  chk file figures/**/umap*.png
+
+# ===================== LINKAGE (phase core) =====================
+
+T L01 S code "Chemistry cluster vs action type test"
+  help Contingency table chemistry cluster x action type (supported labels only) and a test; the earlier work found a link, reproduce it and state n.
+  meta wk=5 who=C ph=core
+  needs C08 Q10
+  out results/link_chem_action.csv
+  chk csv results/**/link_chem_action*.csv rows>=1 cols=statistic,n
+
+T L02 S code "Chemistry cluster vs structural cluster contingency table"
+  help Join each entry to its ligand's chemistry cluster and its structural cluster; save the table and the expected-count check (how many cells <5).
+  meta wk=5 who=C ph=core
+  needs C08 S08
+  out results/link_chem_struct.csv
+  chk csv results/**/link_chem_struct*.csv rows>=1
+  orig esr_analysis/chemistry_structure_linkage.py
+
+T L03 S code "p-values that are valid for sparse, dependent tables"
+  help Entries from one study share ligand and crystal form, so a plain chi-square p is unreliable. Use a permutation or Monte-Carlo exact test (shuffle at ligand level), report the p-value and the caveat. Never leave p as None.
+  meta wk=6 who=C ph=core
+  needs L01 L02
+  out results/link_tests.csv
+  chk csv results/**/link_tests*.csv rows>=2 cols=test,p_value,method
+  chk cmd ! grep -rlq --include='link_tests*.csv' None results
+  orig esr_analysis/chemistry_structure_linkage.py (p was withheld there)
+  src desc 5.3, 6.3 stats
+
+T L04 S fig "Overlay chemistry clusters on the structural PCA"
+  help PCA landscape (S11) with point colour = chemistry cluster and marker = action type; do chemistry clusters separate or interleave?
+  meta wk=5 who=C ph=core
+  needs S11 C08
+  out figures/overlay_chem_on_pca.png
+  chk file figures/**/overlay*.png
+  src desc 5.3
+
+T L05 S code "List disagreement cases"
+  help Entries whose chemistry cluster and structural cluster do not match the dominant pairing; save as a table.
+  meta wk=6 who=C ph=core
+  needs L02
+  out results/disagreements.csv
+  chk csv results/**/disagreement*.csv rows>=1 cols=entry_id
+  src desc 5.3
+
+T L06 M text "Explain disagreement cases (crystal form, resolution, H12)"
+  help For the disagreement entries, check space group, resolution and H12 metric and write what explains each group of cases.
+  meta wk=6 who=ALL ph=core
+  needs L05 Q06 Q12 S16
+  out docs/disagreement_analysis.md
+  chk lines docs/disagreement_analysis.md >=15
+  src desc 5.3
+
+# ===================== ESR1 vs ESR2 (phase core) =====================
+
+T E01 M manual "Selectivity-residue list from the literature"
+  help Table of positions reported to differ between ESR1 and ESR2 (e.g. 384, 394, 391, 421), each with the amino acids and a paper reference.
+  meta wk=1 who=D ph=core
+  out data/selectivity_residues.csv
+  chk csv data/selectivity_residues.csv rows>=4 cols=esr1_pos,esr1_aa,esr2_aa,source
+  chk man Human confirms every row has a real citation
+  src desc 6.3
+
+T E02 S code "Verify literature positions against UniProt sequences"
+  help Align P03372 and Q92731 and check that each listed position really has the stated amino acids; mark supported / unverified / contradictory.
+  meta wk=7 who=D ph=core
+  needs E01
+  tool biopython, UniProt
+  out results/selectivity_verified.csv
+  chk csv results/**/selectivity_verified*.csv rows>=4 cols=esr1_pos,status
+
+T E03 S code "Canonical numbering map ESR1 <-> ESR2"
+  help Per-residue map between the two receptors (LBD), so equivalent positions can be compared.
+  meta wk=3 who=D ph=core
+  needs Q04
+  out results/numbering_map_esr1_esr2.csv
+  chk csv results/**/numbering_map*.csv rows>=200 cols=esr1_pos,esr2_pos
+
+T E04 S code "Match ligands present in both receptors (Tanimoto > 0.9)"
+  help Pairs of ESR1 and ESR2 entries whose ligands are identical or have Tanimoto > 0.9.
+  meta wk=4 who=D ph=core
+  needs C02 Q08 Q04
+  out results/matched_pairs.csv
+  chk csv results/**/matched_pairs*.csv rows>=5 cols=esr1_entry,esr2_entry,tanimoto
+  orig esr_analysis/match_receptor_pairs.py
+
+T E05 S code "Superimpose matched ESR1/ESR2 pairs on core helices"
+  help Fit each ESR2 chain onto its ESR1 partner using the shared core helices.
+  meta wk=5 who=D ph=core
+  needs E04 E03 S02
+  out results/pair_superposition.csv
+  chk csv results/pair_superposition.csv rows>=5
+
+T E06 S code "Per-residue Calpha displacement, first 5 pairs"
+  help After E05, distance between equivalent Calpha atoms for 5 pairs.
+  meta wk=5 who=D ph=core
+  needs E05
+  out results/first_five_displacements.csv
+  chk csv results/first_five_displacements.csv rows>=200
+  orig esr_analysis/receptor_displacements.py
+
+T E07 S code "Per-residue displacement for all matched pairs"
+  help Scale E06 to every pair; save a position x pair matrix.
+  meta wk=6 who=D ph=core
+  needs E06
+  out results/displacement_matrix.csv
+  chk csv results/displacement_matrix.csv rows>=200
+  orig esr_analysis/receptor_displacements.py
+
+T E08 XS fig "Displacement heatmap"
+  help Heatmap of E07 (position x pair).
+  meta wk=6 who=D ph=core
+  needs E07
+  out figures/displacement_heatmap.png
+  chk file figures/displacement_heatmap.png
+
+T E09 XS fig "Heatmap with literature positions marked"
+  help E08 with the positions from E02 outlined; do known selectivity positions show high displacement?
+  meta wk=7 who=D ph=core
+  needs E08 E02
+  out figures/displacement_heatmap_annotated.png
+  chk file figures/**/displacement_heatmap_annot*.png
+  orig esr_analysis/plot_selectivity_heatmap.py
+
+T E10 S code "Positions with displacement > 1.5 A in most pairs"
+  help List positions that are consistently displaced (threshold 1.5 A, fraction of pairs reported).
+  meta wk=6 who=D ph=core
+  needs E07
+  out results/consistent_positions.csv
+  chk csv results/**/consistent_positions*.csv rows>=1 cols=position,fraction_pairs
+
+T E11 S text "Novel candidate positions not in the literature"
+  help Which consistently displaced positions are not in E01/E02; mark as candidates only (backbone movement does not prove a selectivity mechanism).
+  meta wk=9 who=D ph=core
+  needs E10 E09
+  out docs/selectivity_candidates.md
+  chk lines docs/selectivity_candidates.md >=8
+  chk grep docs/selectivity_candidates.md (?i)candidate
+
+# ===================== EXTENSIONS (phase ext) =====================
+
+T X01 M code "ESR2: extract LBD chains and QC flags for all entries"
+  help Run Q04 and Q06 logic on every ESR2 entry (about 37-40); earlier pilot covered only 6.
+  meta wk=8 who=B ph=ext
+  needs Q04 Q06
+  out results/esr2_entries.csv
+  chk csv results/**/esr2_entries*.csv rows>=35 cols=entry_id,qc_pass
+  orig esr_analysis/analyze_esr2_landscape.py (pilot, 6 entries)
+
+T X02 S run "ESR2 RMSD matrix - save to disk"
+  help Align ESR2 chains to an ESR2 reference on core helices and compute the matrix.
+  meta wk=9 who=B ph=ext
+  needs X01 S02
+  out results/rmsd_esr2.npy
+  chk npy results/rmsd_esr2.npy square>=30
+
+T X03 S code "ESR2 clustering at 1.5 A"
+  help Same clustering as S08 on the ESR2 matrix.
+  meta wk=9 who=B ph=ext
+  needs X02
+  out results/esr2_clusters.csv
+  chk csv results/esr2_clusters.csv rows>=30
+
+T X04 S fig "ESR2 PCA landscape"
+  help Same method as S11, ESR2 only.
+  meta wk=9 who=B ph=ext
+  needs X02
+  out figures/esr2_pca_landscape.png
+  chk file figures/esr2_pca_landscape.png
+
+T X05 XS code "ESR2 basin sizes and confidence caveat"
+  help Number of entries per ESR2 basin; mark basins with fewer than 3 entries as not interpretable.
+  meta wk=9 who=B ph=ext
+  needs X03
+  out results/esr2_basin_counts.csv
+  chk csv results/esr2_basin_counts.csv rows>=1 cols=basin,n_entries,interpretable
+
+T X06 S text "Compare ESR1 and ESR2 basins"
+  help Which conformational states appear in both receptors and which only in ESR1; respect the small-N caveat.
+  meta wk=9 who=B ph=ext
+  needs X04 S11 X05
+  out docs/esr1_esr2_basins.md
+  chk lines docs/esr1_esr2_basins.md >=10
+
+T X07 XS run "P2Rank installed and runnable"
+  help Check Java (JDK 11+) and the prank binary run on one PDB file.
+  meta wk=9 who=D ph=ext
+  tool java, P2Rank
+  out docs/p2rank_check.md
+  chk cmd command -v prank
+  chk cmd java -version
+
+T X08 M run "P2Rank batch on selected ESR1 chains"
+  help Run P2Rank on the selected ESR1 structures; keep predictions and per-pocket residues.
+  meta wk=9 who=D ph=ext
+  needs X07 Q04
+  tool P2Rank
+  out results/p2rank/*_predictions.csv
+  chk glob results/**/p2rank/**/*_predictions.csv >=300
+
+T X09 S code "Pocket volume/score table, and overlap with the real ligand"
+  help For each entry take the top pocket: volume proxy, score, residues, and whether it overlaps the ligand position.
+  meta wk=9 who=D ph=ext
+  needs X08
+  out results/pockets.csv
+  chk csv results/**/pockets.csv rows>=300 cols=entry_id,pocket_score,overlaps_ligand
+
+T X10 XS fig "Pocket size by ligand class"
+  help Distribution plot (violin or box) of pocket values per ligand class.
+  meta wk=9 who=D ph=ext
+  needs X09 Q10
+  out figures/pocket_by_class.png
+  chk file figures/**/pocket_by_class*.png
+
+T X11 XS code "Kruskal-Wallis: pocket vs ligand class"
+  help One test of pocket values across classes; report n per class and p.
+  meta wk=10 who=D ph=ext
+  needs X09 Q10
+  out results/pocket_kruskal.csv
+  chk csv results/**/pocket_kruskal*.csv rows>=1 cols=statistic,p_value,n
+
+T X12 S code "PCA of pocket descriptors"
+  help PCA of pocket descriptors across entries; do they cluster by ligand class?
+  meta wk=10 who=D ph=ext
+  needs X09
+  out figures/pocket_pca.png
+  chk file figures/**/pocket_pca*.png
+
+T X13 S run "Download full ChEMBL activities for ESR1 (CHEMBL206)"
+  help All IC50, Ki, Kd with relation '=' for CHEMBL206, fetched across ALL result pages (earlier attempt kept only first pages).
+  meta wk=8 who=C ph=ext
+  tool chembl_webresource_client
+  out data/chembl_esr1_activities.csv
+  chk csv data/chembl_esr1_activities.csv rows>=500 cols=molecule_chembl_id,standard_type,standard_value,canonical_smiles
+  orig esr_analysis/collect_chembl_activities.py (4 compounds, 80 rows only)
+  src desc 6.2
+
+T X14 S code "Match ChEMBL compounds to PDB ligands"
+  help Match by Tanimoto >= 0.9 (or exact structure) from ChEMBL SMILES to PDB ligand SMILES; save the matches with the similarity.
+  meta wk=9 who=C ph=ext
+  needs X13 C02
+  out results/chembl_pdb_matches.csv
+  chk csv results/**/chembl_pdb_match*.csv rows>=10 cols=ligand_id,molecule_chembl_id,tanimoto
+
+T X15 S fig "Potency by structural cluster"
+  help IC50/Ki plot (log scale) grouped by structural cluster of the matched entries.
+  meta wk=9 who=C ph=ext
+  needs X14 S08
+  out figures/potency_by_cluster.png
+  chk file figures/**/potency_by_cluster*.png
+
+T X16 XS code "Spearman / Kruskal: potency vs cluster"
+  help Does structural cluster relate to potency? One table with n and p.
+  meta wk=10 who=C ph=ext
+  needs X14 S08
+  out results/potency_tests.csv
+  chk csv results/**/potency_tests*.csv rows>=1 cols=test,p_value,n
+
+# ===================== PROVISIONAL (September matrix, until S04 is redone) =====================
+# Outputs go to results/provisional/ and every figure/table says "provisional: September RMSD matrix".
+# Input: results/task_outputs/block_10/rmsd_entry.npy plus its row-order file in the same folder. If no row-order file exists, log BLOCK.
+
+T P01 S run "Provisional: clusters at 1.0/1.5/2.0/2.5 A, Shannon entropy, threshold sensitivity"
+  help Average linkage on the September matrix; one label column per cut; entropy (bits) per cut; number of clusters and top-3 share per cut, plus one figure. Check that the 1.5 A cut reproduces 9 groups (212, 124, 6, 2, 2, 2, 1, 1, 1); if not, log PART with the difference. Save the script in scripts/.
+  meta wk=7 who=B ph=core
+  tool scipy, numpy, matplotlib
+  out results/provisional/clusters.csv
+  out results/provisional/entropy_sensitivity.csv
+  out figures/provisional_threshold_sensitivity.png
+  chk csv results/provisional/clusters.csv rows>=300 cols=entry_id,cut_1.0,cut_1.5,cut_2.0,cut_2.5 nonempty=entry_id uniq=entry_id
+  chk csv results/provisional/entropy_sensitivity.csv rows>=4 cols=cut,n_clusters,top3_fraction,entropy_bits
+  chk file figures/provisional_threshold_sensitivity.png
+
+T P02 S run "Provisional: cumulative diversity curve and 90% saturation N"
+  help 100 random orderings; mean and SD of clusters seen for N=1..351 at each cut; the N where the mean reaches 90% of the total; one figure with the 90% line. Fixed random seed, recorded in the CSV.
+  meta wk=7 who=B ph=core
+  needs P01
+  tool numpy, matplotlib
+  out results/provisional/diversity_curve.csv
+  out results/provisional/saturation.csv
+  out figures/provisional_diversity_curve.png
+  chk csv results/provisional/diversity_curve.csv rows>=300 cols=cut,n,mean_clusters,sd_clusters
+  chk csv results/provisional/saturation.csv rows>=4 cols=cut,n_90,seed
+  chk file figures/provisional_diversity_curve.png
+
+T P03 XS run "Provisional: QC-conditioned clustering delta"
+  help Recluster without entries failing combined QC (results/entries.csv); per cut report clusters, top-3 share, entropy, n_90 with and without, and which clusters disappear.
+  meta wk=7 who=B ph=core
+  needs P01 P02
+  out results/provisional/qc_delta.csv
+  chk csv results/provisional/qc_delta.csv rows>=4 cols=cut,set,n_entries,n_clusters,entropy_bits
+
+T P04 S run "Provisional: chemistry cluster x structural cluster test"
+  help Join each selected entry's ligand of interest (Q18) to its chemistry cluster (C11) and its 1.5 A structural cluster (P01). Contingency table, count of cells with expected < 5, chi-squared p and a permutation p (shuffle at ligand level, 10000 permutations). Report n. Never write p as None.
+  meta wk=7 who=C ph=core
+  needs Q18 C11 P01
+  tool scipy, pandas
+  out results/provisional/chem_struct_test.csv
+  chk csv results/provisional/chem_struct_test.csv rows>=2 cols=test,n,statistic,p_value,method nonempty=p_value
+
+# ===================== STATISTICS (phase stat) =====================
+
+T T01 XS code "Inventory of every test with raw p-values"
+  help One table listing each statistical test used (chemistry-structure, chemistry-action, pocket, potency), n, statistic, raw p.
+  meta wk=10 who=ALL ph=stat
+  needs L03 X11 X16
+  out results/stats_table.csv
+  chk csv results/**/stats_table*.csv rows>=4 cols=test,n,p_value
+
+T T02 XS code "Benjamini-Hochberg correction"
+  help Add q-values across the family of tests in T01.
+  meta wk=10 who=ALL ph=stat
+  needs T01
+  out results/stats_table.csv
+  chk csv results/**/stats_table*.csv rows>=4 cols=test,p_value,q_value
+
+T T03 XS text "Stats methods paragraph"
+  help Short methods text: which tests, why (sparse tables, dependence), BH correction, limits.
+  meta wk=10 who=ALL ph=stat
+  needs T02
+  out docs/stats_methods.md
+  chk lines docs/stats_methods.md >=6
+
+# ===================== FIGURES (phase fig) =====================
+
+T F01 S fig "PyMOL script: medoid per basin"
+  help A .pml that loads the medoid entries, aligns them on the core and colours H12; run headless to make a PNG.
+  meta wk=10 who=D ph=fig
+  needs S12
+  tool pymol
+  out figures/medoids.pml figures/medoids.png
+  chk file figures/**/medoids*.pml
+  chk file figures/**/medoids*.png
+
+T F02 S fig "PyMOL script: displacement mapped on structure"
+  help Write per-residue displacement into the B-factor column of an ESR1 medoid and colour by it (blue-white-red, 0-3 A).
+  meta wk=10 who=D ph=fig
+  needs E07
+  tool pymol
+  out figures/displacement_structure.pml figures/displacement_structure.png
+  chk file figures/**/displacement_structure*.pml
+  chk file figures/**/displacement_structure*.png
+
+T F03 S fig "PyMOL script: selectivity positions as spheres, H12 highlighted"
+  help Add spheres for the verified selectivity positions and a thick red H12 to the F02 scene.
+  meta wk=10 who=D ph=fig
+  needs F02 E02
+  tool pymol
+  out figures/selectivity_sites.pml figures/selectivity_sites.png
+  chk file figures/**/selectivity_sites*.pml
+  chk file figures/**/selectivity_sites*.png
+
+T F04 S code "One command renders all figures (300 dpi)"
+  help A single script that runs every .pml and writes 300 dpi PNGs; no manual view setting.
+  meta wk=11 who=D ph=fig
+  needs F01 F02 F03
+  out scripts/render_all_figures.py
+  chk file **/render_all_figures*
+  chk grep **/render_all_figures* 300
+  orig esr_analysis/render_structures.py
+
+T F05 XS text "Figure index"
+  help Table: figure file, what it shows, which task made it, which data file it reads.
+  meta wk=11 who=D ph=fig
+  needs F04
+  out figures/INDEX.md
+  chk lines figures/INDEX.md >=10
+
+# ===================== WRAP-UP: repo, README, manuscript (phase wrap) =====================
+
+T W01 XS decide "Decide: are Weeks 9-12 extensions to be rebuilt in the active code?"
+  help Either accept archived outputs as delivered and say so in the README, or implement X07-X16 and T01-T03 as active code. Human decides.
+  meta wk=8 who=ALL ph=wrap
+  out docs/decision_weeks9_12.md
+  chk grep docs/decision_weeks9_12.md (?i)accept|implement
+  chk man Human chose and wrote the position
+
+T W02 M code "Make active code self-contained (no imports from archive/)"
+  help Move the few helpers still imported from archive/ into the package so a fresh clone runs.
+  meta wk=9 who=ALL ph=wrap
+  out esr_analysis/
+  chk cmd ! grep -rEq --include=*.py --exclude-dir=.venv --exclude-dir=archive "^(from|import) archive" .
+  src repo hygiene
+
+T W03 XS code "requirements.txt with versions"
+  help Pin numpy, scipy, pandas, scikit-learn, matplotlib, biopython, rdkit, umap-learn, chembl_webresource_client, requests.
+  meta wk=9 who=ALL ph=wrap
+  out requirements.txt
+  chk grep requirements.txt (?i)biopython
+  chk grep requirements.txt (?i)rdkit
+
+T W04 S code "Script that rebuilds git-ignored raw inputs"
+  help One command that re-downloads data/raw, CCD files and rebuilds data/lbd, so a clone can reproduce from scratch.
+  meta wk=9 who=A ph=wrap
+  needs Q03
+  out scripts/fetch_data.py
+  chk file **/fetch_data*
+
+T W05 XS manual "Commit the work (human chooses branch and split)"
+  help Commit all current work so history matches the files. Claude does not run git commit for this task.
+  meta wk=9 who=ALL ph=wrap
+  chk cmd git diff --quiet && git diff --cached --quiet
+  chk man Human committed and pushed to the intended branch
+
+T W06 S run "Clean clone passes the tests"
+  help Clone the repo into a temp folder and run pytest there; collection errors must be zero.
+  meta wk=10 who=ALL ph=wrap
+  needs W02 W05
+  chk cmd d=$(mktemp -d) && git clone -q . "$d/c" && cd "$d/c" && python -m pytest -q
+
+T W07 S text "README.md (one README) with run order"
+  help What the project is, how to install, how to run each stage in order, where each output goes, known limits.
+  meta wk=11 who=D ph=wrap
+  needs W03
+  out README.md
+  chk lines README.md >=40
+  chk grep README.md (?i)install
+  chk grep README.md (?i)limitation
+
+T W08 XS manual "Remove duplicate packages and stale ZIPs"
+  help Keep one standalone folder or ZIP and one Month-2 ZIP; move the rest to archive/.
+  meta wk=11 who=ALL ph=wrap
+  chk man Human confirms duplicates are gone
+
+T W09 M code "Worked example notebook (runs from README)"
+  help One notebook that loads saved outputs and reproduces the main figure and the 90% saturation number.
+  meta wk=11 who=B ph=wrap
+  needs R04
+  out notebooks/worked_example.ipynb
+  chk file notebooks/**/*.ipynb
+
+T W10 S text "Manuscript: Dataset and QC section"
+  help Methods + results for sections Q01-Q15 with every number taken from results files.
+  meta wk=11 who=A ph=wrap
+  needs Q07 Q14
+  out docs/manuscript/02_dataset_qc.md
+  chk lines docs/manuscript/02_dataset_qc.md >=25
+
+T W11 S text "Manuscript: conformational clustering and redundancy section"
+  help Methods + results for S and R tasks, including the Calpha-only limitation and the 90% answer.
+  meta wk=11 who=B ph=wrap
+  needs R07 S15 S06
+  out docs/manuscript/03_clustering_redundancy.md
+  chk lines docs/manuscript/03_clustering_redundancy.md >=30
+
+T W12 S text "Manuscript: ligand chemistry and linkage section"
+  help Methods + results for C and L tasks with the valid p-values and the dependence caveat.
+  meta wk=11 who=C ph=wrap
+  needs L06 C08 L03
+  out docs/manuscript/04_chemistry_linkage.md
+  chk lines docs/manuscript/04_chemistry_linkage.md >=25
+
+T W13 S text "Manuscript: ESR1/ESR2 selectivity, pockets, ChEMBL section"
+  help Methods + results for E, X tasks that were completed; say clearly what was not done.
+  meta wk=11 who=D ph=wrap
+  needs E11
+  out docs/manuscript/05_selectivity_pockets.md
+  chk lines docs/manuscript/05_selectivity_pockets.md >=25
+
+T W14 S text "Manuscript: introduction"
+  help Background on ESR1/ESR2, ligand classes, why redundancy matters; cite the essential reading.
+  meta wk=11 who=D ph=wrap
+  out docs/manuscript/01_introduction.md
+  chk lines docs/manuscript/01_introduction.md >=20
+
+T W15 S text "Manuscript: discussion and limitations"
+  help What the results mean, and the limits: Calpha-only RMSD, sparse action labels, dependence between entries, engineered reference, provisional H12.
+  meta wk=12 who=D ph=wrap
+  needs W11 W12 W13
+  out docs/manuscript/06_discussion.md
+  chk lines docs/manuscript/06_discussion.md >=25
+  chk grep docs/manuscript/06_discussion.md (?i)limitation
+
+T W16 S code "Numbers cross-check script"
+  help Script that reads results files and prints the headline numbers (n entries, QC pass, clusters per cut, 90% N, p-values) to results/numbers.json so the manuscript can be checked against it.
+  meta wk=11 who=ALL ph=wrap
+  needs W10
+  out results/numbers.json
+  chk file results/numbers.json
+
+T W17 S manual "Internal results presentation to supervisor, feedback recorded"
+  help Present the four core components; write the supervisor's feedback in one file.
+  meta wk=8 who=ALL ph=wrap
+  out docs/supervisor_feedback.md
+  chk lines docs/supervisor_feedback.md >=5
+  chk man Human confirms the presentation took place

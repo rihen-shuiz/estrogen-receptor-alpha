@@ -1,0 +1,39 @@
+{
+ "task": "P04",
+ "ts": "2026-10-16T00:18+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/provisional/chem_struct_test.csv",
+   "size": 388,
+   "sha": "3806fc2ae55955e3"
+  },
+  {
+   "path": "results/provisional/chem_struct_contingency.csv",
+   "size": 244,
+   "sha": "519e7f11d34908ec"
+  },
+  {
+   "path": "scripts/provisional_chem_struct.py",
+   "size": 5740,
+   "sha": "5093a5f488ba9386"
+  },
+  {
+   "path": "results/provisional/clusters.csv",
+   "size": 9809,
+   "sha": "4508d0336750d61d"
+  },
+  {
+   "path": "results/chain_ligand_of_interest.csv",
+   "size": 114681,
+   "sha": "d1427959697c33e7"
+  },
+  {
+   "path": "results/ligand_clusters_loi.csv",
+   "size": 5014,
+   "sha": "d152d1c1b8e3aff2"
+  }
+ ]
+}

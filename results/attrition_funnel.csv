@@ -1,0 +1,17 @@
+step,n_before,n_after,n_removed,rule,code_file,necessary
+chain-models of ESR2 validation entries,1666,1517,149,chains of the 39 ESR2 entries (data/pdb_ids_esr2.txt) are not ESR1 receptor chains,esr_analysis/extract_lbd.py; data/pdb_ids_esr2.txt,yes
+non-receptor peptide chains in ESR1 entries,1517,1055,462,identity peptide: not the receptor protein,esr_analysis/extract_lbd.py identify_entity,yes
+non-receptor partner chains in ESR1 entries,1055,909,146,identity partner: not the receptor protein,esr_analysis/extract_lbd.py identify_entity,yes
+DNA chains in ESR1 entries,909,901,8,identity dna: not the receptor protein,esr_analysis/extract_lbd.py identify_entity,yes
+ESR1 entries without an ESR1 receptor chain,487,444,43,entry has no ESR1 protein chain (entry-level step),esr_analysis/extract_lbd.py,yes
+completeness: non-LBD fragment,901,792,109,eligibility_reason non_LBD_fragment: no LBD overlap (mathematics),esr_analysis/extract_lbd.py; esr_analysis/flag_quality.py,yes
+completeness: LBD/core CA below screen,792,788,4,screen unchanged: mapped LBD CA >= 180 and core CA >= 60,esr_analysis/extract_lbd.py; esr_analysis/flag_quality.py,no
+one chain per entry (historical author chain),788,351,437,project choice: historical author chain per entry (receptor_chain_choices.csv); equals frozen index,esr_analysis/resources/data/receptor_chain_choices.csv; esr_analysis/resources/frozen/rmsd_entry_index.txt,no
+"distance pruning, old 351-chain matrix",351,351,0,min_pairwise_common_ca 150; chains dropped in the strict run (results/archive_v2_strict/alignment/distance_exclusions.json),esr_analysis/calculate_rmsd.py,no
+"distance pruning, keep-all matrix (all eligible chains)",788,788,0,min_pairwise_common_ca 150; pairs below 150: 0; minimum pairwise overlap 177,esr_analysis/calculate_rmsd.py,no
+residue: LBD positions with no CA coordinate,193848,181829,12019,positions without modelled CA cannot be fitted or measured; chains kept,esr_analysis/extract_lbd.py; esr_analysis/align_structures.py,yes
+"residue: CA B-factor invalid (NaN or negative), eligible chains",181829,181829,0,B-factor only; coordinates kept; K03 leaves these blank,esr_analysis/_regional_bfactors.py (old),no
+"apo / no pocket ligand (labelled, Q18)",788,788,0,"status apo_or_unclear labelled, not removed (7 chains)",scripts/ligand_of_interest.py,no
+"QC flags (resolution, R-free, mean B)",526,526,0,flags only; combined pass needs all three; nothing deleted,esr_analysis/flag_quality.py,no
+old sensitivity drop: R-free above limit (strict set),351,343,8,R-free above 0.3; used only by the strict S13 comparison,scripts/qc_clustering_delta.py (archived),no
+"regional-B coverage at 0.8 (old block 13, full cohort)",3510,3422,88,unit: chain x interval pairs (10 intervals); within-chain regional B distributions only; the chain stays in every matrix,esr_analysis/_regional_bfactors.py,no

@@ -1,0 +1,24 @@
+{
+ "task": "S06",
+ "ts": "2026-10-18T23:13+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "docs/limitations.md",
+   "size": 1098,
+   "sha": "5903e09abc4dd7dc"
+  },
+  {
+   "path": "results/rmsd_entry.npy",
+   "size": 985736,
+   "sha": "847a707441ac455a"
+  },
+  {
+   "path": "results/h12_metric.csv",
+   "size": 12443,
+   "sha": "509cc70e4734ee68"
+  }
+ ]
+}

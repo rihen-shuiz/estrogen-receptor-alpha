@@ -1,0 +1,19 @@
+{
+ "task": "C10",
+ "ts": "2026-10-14T20:44+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/ligand_clusters_noadd.csv",
+   "size": 7558,
+   "sha": "aed9397225263868"
+  },
+  {
+   "path": "results/kmeans_scores_noadd.csv",
+   "size": 279,
+   "sha": "7520eaf0984261bc"
+  }
+ ]
+}

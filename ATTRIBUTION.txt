@@ -1,0 +1,17 @@
+SOURCE ATTRIBUTION
+
+Scientific task code and resources originate in the user's existing ESR1 project.
+Copied calculation bodies retain their original docstrings and methods. The
+regional producer is the reported ESR1 portion of tools/regional_bfactors.py;
+its arithmetic is preserved while later ESR2/matched-pair/sensitivity work is
+excluded. Original source-file hashes and input selections are recorded in
+verification/SOURCE_PROVENANCE.json. No upstream repository licence file was
+found in the supplied project; this package does not invent redistribution rights
+or apply a new licence to the user's scientific code/data. Dependencies retain
+their own licences in the separately installed distributions.
+
+Reference mmCIF: RCSB PDB 7NFB; the actual deposited title/citations, mutation
+records, GEN assignments and source hashes are retained. Sequence, annotation
+and CCD sources are recorded in their unchanged resources and evidence fields.
+The supplied seven-page report/LaTeX recipe was absent; no reconstructed script
+is falsely attributed as that original recipe.

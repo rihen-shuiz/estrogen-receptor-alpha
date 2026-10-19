@@ -1,0 +1,527 @@
+entry_id,resolution_A,r_free,mean_b_A2,tier_resolution,tier_rfree,tier_b,qc_label,warning,old_qc_pass
+11SD,2.816,0.2511,60.82,B,A,B,B,resolution 2.82 A (tier B); mean-b 60.8 A^2 (tier B),fail
+11SE,2.239,0.2562,63.74,A,A,B,B,mean-b 63.7 A^2 (tier B),fail
+11SF,2.24,0.2496,66.40958794247788,A,A,B,B,mean-b 66.4 A^2 (tier B),fail
+11SG,2.6,0.2482,65.88,B,A,B,B,resolution 2.60 A (tier B); mean-b 65.9 A^2 (tier B),fail
+11SH,2.2,0.2367,42.9,A,A,A,A,none,pass
+11SI,2.5,0.2774,55.86,A,A,B,B,mean-b 55.9 A^2 (tier B),fail
+11SJ,2.4,0.2434,52.59,A,A,B,B,mean-b 52.6 A^2 (tier B),fail
+11ZU,2.25,0.2263,50.11260820685778,A,A,B,B,mean-b 50.1 A^2 (tier B),fail
+1A52,2.8,0.274,25.43,B,A,A,B,resolution 2.80 A (tier B),fail
+1ERE,3.1,0.251,57.48,B,A,B,B,resolution 3.10 A (tier B); mean-b 57.5 A^2 (tier B),fail
+1ERR,2.6,0.299,53.8,B,A,B,B,resolution 2.60 A (tier B); mean-b 53.8 A^2 (tier B),fail
+1G50,2.9,0.31,61.2,B,B,B,B,resolution 2.90 A (tier B); r-free 0.310 (tier B); mean-b 61.2 A^2 (tier B),fail
+1GWQ,2.45,0.269,37.5,A,A,A,A,none,pass
+1GWR,2.4,0.288,41.3,A,A,A,A,none,pass
+1HCQ,2.4,,34.98348660714286,A,unknown,A,unknown,r-free missing (unknown),unknown
+1L2I,1.95,0.243,38.53,A,A,A,A,none,pass
+1PCG,2.7,0.254,47.3,B,A,A,B,resolution 2.70 A (tier B),fail
+1QKT,2.2,0.273,34.3,A,A,A,A,none,pass
+1QKU,3.2,0.275,56.7,B,A,B,B,resolution 3.20 A (tier B); mean-b 56.7 A^2 (tier B),fail
+1R5K,2.7,0.23561,45.993,B,A,A,B,resolution 2.70 A (tier B),fail
+1SJ0,1.9,0.272,41.52084281282316,A,A,A,A,none,pass
+1UOM,2.28,0.287,40.2,A,A,A,A,none,pass
+1X7E,2.8,0.286,18.8,B,A,A,B,resolution 2.80 A (tier B),fail
+1X7R,2.0,0.269,28.8,A,A,A,A,none,pass
+1XP1,1.8,0.269,45.369784725781656,A,A,A,A,none,pass
+1XP6,1.7,0.267,42.5745310097386,A,A,A,A,none,pass
+1XP9,1.8,0.299,44.17013839056894,A,A,A,A,none,pass
+1XPC,1.6,0.251,39.42103536647873,A,A,A,A,none,pass
+1XQC,2.05,0.25425,41.123,A,A,A,A,none,pass
+1YIM,1.9,0.258,46.288493080471554,A,A,A,A,none,pass
+1YIN,2.2,0.296,52.07145909327775,A,A,B,B,mean-b 52.1 A^2 (tier B),fail
+1ZKY,2.25,0.23141,28.764,A,A,A,A,none,pass
+2AYR,1.9,0.263,39.64,A,A,A,A,none,pass
+2B1V,1.8,0.2383,27.484,A,A,A,A,none,pass
+2B1Z,1.78,0.23779,28.838,A,A,A,A,none,pass
+2B23,2.1,0.27211,33.637,A,A,A,A,none,pass
+2BJ4,2.0,0.219,29.81,A,A,A,A,none,pass
+2FAI,2.1,0.24044,42.092,A,A,A,A,none,pass
+2G44,2.65,0.25561,59.705,B,A,B,B,resolution 2.65 A (tier B); mean-b 59.7 A^2 (tier B),fail
+2G5O,2.3,0.26401,49.818,A,A,A,A,none,pass
+2I0J,2.9,0.263,59.0,B,A,B,B,resolution 2.90 A (tier B); mean-b 59.0 A^2 (tier B),fail
+2IOG,1.6,0.328,32.28038699690403,A,B,A,B,r-free 0.328 (tier B),fail
+2IOK,2.4,0.323,44.21021282476506,A,B,A,B,r-free 0.323 (tier B),fail
+2JF9,2.1,0.198,25.43,A,A,A,A,none,pass
+2JFA,2.55,0.213,42.46,B,A,A,B,resolution 2.55 A (tier B),fail
+2OCF,2.95,0.25091,67.996,B,A,B,B,resolution 2.95 A (tier B); mean-b 68.0 A^2 (tier B),fail
+2OUZ,2.0,0.269,39.196,A,A,A,A,none,pass
+2P15,1.94,0.216,20.061,A,A,A,A,none,pass
+2POG,1.84,0.252,37.1,A,A,A,A,none,pass
+2Q6J,2.7,0.297,21.983,B,A,A,B,resolution 2.70 A (tier B),fail
+2Q70,1.95,0.303,46.5,A,B,A,B,r-free 0.303 (tier B),fail
+2QA6,2.6,0.249,34.666,B,A,A,B,resolution 2.60 A (tier B),fail
+2QA8,1.85,0.264,48.196,A,A,A,A,none,pass
+2QAB,1.89,0.27,32.174,A,A,A,A,none,pass
+2QE4,2.4,0.279,46.6,A,A,A,A,none,pass
+2QGT,2.15,0.24,16.469,A,A,A,A,none,pass
+2QGW,2.39,0.296,24.294,A,A,A,A,none,pass
+2QH6,2.7,0.291,17.364,B,A,A,B,resolution 2.70 A (tier B),fail
+2QR9,2.0,0.262,17.465,A,A,A,A,none,pass
+2QSE,1.85,0.225,21.827,A,A,A,A,none,pass
+2QXM,2.3,0.296,26.26,A,A,A,A,none,pass
+2QXS,1.7,0.216,10.195,A,A,A,A,none,pass
+2QZO,1.72,0.221,17.541,A,A,A,A,none,pass
+2R6W,2.0,0.25734,42.286,A,A,A,A,none,pass
+2R6Y,2.0,0.27098,42.769,A,A,A,A,none,pass
+2YAT,2.602,0.2277,68.1,B,A,B,B,resolution 2.60 A (tier B); mean-b 68.1 A^2 (tier B),fail
+2YJA,1.82,0.2342,29.42,A,A,A,A,none,pass
+3CBM,1.69,0.229,27.4,A,A,A,A,none,pass
+3CBO,1.65,0.231,28.4,A,A,A,A,none,pass
+3CBP,1.42,0.243,25.3,A,A,A,A,none,pass
+3DT3,2.4,0.262,44.619,A,A,A,A,none,pass
+3ERD,2.03,0.248,33.9,A,A,A,A,none,pass
+3ERT,1.9,0.262,40.4,A,A,A,A,none,pass
+3HLV,3.0,0.2687,72.2026282853567,B,A,B,B,resolution 3.00 A (tier B); mean-b 72.2 A^2 (tier B),fail
+3HM1,2.33,0.2889,70.9464161849711,A,A,B,B,mean-b 70.9 A^2 (tier B),fail
+3L03,1.896,0.2196,45.051606204653496,A,A,A,A,none,pass
+3OS8,2.031,0.2276,48.033196377888906,A,A,A,A,none,pass
+3OS9,2.303,0.2491,68.93429535986209,A,A,B,B,mean-b 68.9 A^2 (tier B),fail
+3OSA,2.296,0.24,40.908021872863976,A,A,A,A,none,pass
+3Q95,2.05,0.24149,37.791,A,A,A,A,none,pass
+3UU7,2.196,0.2456,34.36606209573092,A,A,A,A,none,pass
+3UUA,2.05,0.2313,46.59947312961011,A,A,A,A,none,pass
+3UUC,2.1,0.2548,34.13630099857347,A,A,A,A,none,pass
+3UUD,1.6,0.1948,27.15960143076137,A,A,A,A,none,pass
+4AA6,2.6,,22.72721179624665,B,unknown,A,unknown,resolution 2.60 A (tier B); r-free missing (unknown),fail
+4DMA,2.3,0.251,30.273697838109605,A,A,A,A,none,pass
+4IU7,2.29,0.2367,36.92016376663255,A,A,A,A,none,pass
+4IUI,2.3,0.3121,58.54764028776978,A,B,B,B,r-free 0.312 (tier B); mean-b 58.5 A^2 (tier B),fail
+4IV2,2.14,0.2256,43.18023431398073,A,A,A,A,none,pass
+4IV4,2.3,0.2369,45.71565922381712,A,A,A,A,none,pass
+4IVW,2.06,0.2295,52.00863127764767,A,A,B,B,mean-b 52.0 A^2 (tier B),fail
+4IVY,1.95,0.2322,42.28393653291372,A,A,A,A,none,pass
+4IW6,1.98,0.2268,44.89509492847855,A,A,A,A,none,pass
+4IW8,2.0375,0.2468,47.73780699514935,A,A,A,A,none,pass
+4IWC,2.24,0.2267,39.19335208386602,A,A,A,A,none,pass
+4IWF,1.932,0.2086,45.78157139128165,A,A,A,A,none,pass
+4JC3,2.05,0.23512,14.867,A,A,A,A,none,pass
+4JDD,2.1,0.2316,20.0007,A,A,A,A,none,pass
+4MG5,2.05,0.2278,43.97,A,A,A,A,none,pass
+4MG6,2.1,0.2298,26.958448990160537,A,A,A,A,none,pass
+4MG7,2.15,0.2298,24.78939512961508,A,A,A,A,none,pass
+4MG8,1.85,0.2127,33.588941839610555,A,A,A,A,none,pass
+4MG9,2.0,0.2369,36.75461437565582,A,A,A,A,none,pass
+4MGA,1.8,0.2221,35.63740046838407,A,A,A,A,none,pass
+4MGB,1.85,0.2499,40.56716441620333,A,A,A,A,none,pass
+4MGC,2.15,0.2405,30.66102764736568,A,A,A,A,none,pass
+4MGD,1.9,0.2345,38.10197080291971,A,A,A,A,none,pass
+4O6F,2.822,0.2355,29.830594868903297,B,A,A,B,resolution 2.82 A (tier B),fail
+4PP6,2.201,0.221,26.43087117212249,A,A,A,A,none,pass
+4PPP,2.686,0.2474,58.26858725013506,B,A,B,B,resolution 2.69 A (tier B); mean-b 58.3 A^2 (tier B),fail
+4PPS,1.929,0.2018,36.21150114300229,A,A,A,A,none,pass
+4PXM,1.9,0.21417,34.335,A,A,A,A,none,pass
+4Q13,2.24,0.2492,44.778,A,A,A,A,none,pass
+4Q50,3.07,0.28277,59.167,B,A,B,B,resolution 3.07 A (tier B); mean-b 59.2 A^2 (tier B),fail
+4TUZ,1.9,0.2072,32.95879146310105,A,A,A,A,none,pass
+4TV1,1.85,0.2024,28.829657068062826,A,A,A,A,none,pass
+4XI3,2.491,0.2683,60.93943450250536,A,A,B,B,mean-b 60.9 A^2 (tier B),fail
+4ZN7,1.934,0.2262,44.4111,A,A,A,A,none,pass
+4ZN9,2.215,0.2417,36.59,A,A,A,A,none,pass
+4ZNH,1.933,0.2506,27.8216,A,A,A,A,none,pass
+4ZNS,1.86,0.2356,43.3245,A,A,A,A,none,pass
+4ZNT,1.903,0.2145,38.8668,A,A,A,A,none,pass
+4ZNU,2.4,0.2452,69.8059,A,A,B,B,mean-b 69.8 A^2 (tier B),fail
+4ZNV,1.771,0.1969,39.4462,A,A,A,A,none,pass
+4ZNW,2.31,0.2361,47.3422,A,A,A,A,none,pass
+5AAU,1.9,0.22591,28.396,A,A,A,A,none,pass
+5AAV,1.95,0.23413,28.491,A,A,A,A,none,pass
+5ACC,1.88,0.26628,36.43,A,A,A,A,none,pass
+5AK2,2.19,0.26226,31.349,A,A,A,A,none,pass
+5DI7,2.241,0.2131,33.8992,A,A,A,A,none,pass
+5DID,2.24,0.2281,41.7543,A,A,A,A,none,pass
+5DIE,2.24,0.2473,46.0147,A,A,A,A,none,pass
+5DIG,2.24,0.2122,44.2879,A,A,A,A,none,pass
+5DK9,2.28,0.2377,47.0196,A,A,A,A,none,pass
+5DKB,2.4,0.2261,54.7762,A,A,B,B,mean-b 54.8 A^2 (tier B),fail
+5DKE,2.6,0.2627,48.2758,B,A,A,B,resolution 2.60 A (tier B),fail
+5DKG,2.15,0.2325,49.9108,A,A,A,A,none,pass
+5DKS,2.6,0.2597,51.186,B,A,B,B,resolution 2.60 A (tier B); mean-b 51.2 A^2 (tier B),fail
+5DL4,2.1,0.214,50.525,A,A,B,B,mean-b 50.5 A^2 (tier B),fail
+5DLR,2.26,0.232,49.395,A,A,A,A,none,pass
+5DMC,2.403,0.2458,52.5532,A,A,B,B,mean-b 52.6 A^2 (tier B),fail
+5DMF,2.4,0.2541,52.2838,A,A,B,B,mean-b 52.3 A^2 (tier B),fail
+5DP0,2.382,0.2379,49.7494,A,A,A,A,none,pass
+5DRJ,2.07,0.2223,42.5359,A,A,A,A,none,pass
+5DRM,2.241,0.215,36.08849571317225,A,A,A,A,none,pass
+5DTV,2.295,0.2475,74.97679552119433,A,A,B,B,mean-b 75.0 A^2 (tier B),fail
+5DU5,2.195,0.2497,71.76664422300027,A,A,B,B,mean-b 71.8 A^2 (tier B),fail
+5DUE,2.09,0.2382,67.3816,A,A,B,B,mean-b 67.4 A^2 (tier B),fail
+5DUG,2.252,0.2331,44.7113,A,A,A,A,none,pass
+5DUH,2.24,0.2391,37.9477,A,A,A,A,none,pass
+5DVS,2.28,0.2632,63.14100386100386,A,A,B,B,mean-b 63.1 A^2 (tier B),fail
+5DVV,2.505,0.2576,50.3972,B,A,B,B,resolution 2.50 A (tier B); mean-b 50.4 A^2 (tier B),fail
+5DWE,1.92,0.2377,51.3492,A,A,B,B,mean-b 51.3 A^2 (tier B),fail
+5DWG,2.3,0.254,67.87,A,A,B,B,mean-b 67.9 A^2 (tier B),fail
+5DWI,2.43,0.2308,70.9845,A,A,B,B,mean-b 71.0 A^2 (tier B),fail
+5DWJ,2.001,0.232,57.9095,A,A,B,B,mean-b 57.9 A^2 (tier B),fail
+5DX3,2.0903,0.2571,38.36337024918198,A,A,A,A,none,pass
+5DXB,2.08,0.21,32.98252380952381,A,A,A,A,none,pass
+5DXE,1.5,0.201,24.03936715481172,A,A,A,A,none,pass
+5DXG,1.86,0.2,25.46252388535032,A,A,A,A,none,pass
+5DXK,2.226,0.2264,53.3189,A,A,B,B,mean-b 53.3 A^2 (tier B),fail
+5DXM,2.37,0.2321,60.9708,A,A,B,B,mean-b 61.0 A^2 (tier B),fail
+5DXP,2.201,0.2352,42.0981,A,A,A,A,none,pass
+5DXQ,2.4,0.2393,43.47545798432856,A,A,A,A,none,pass
+5DXR,2.28,0.2355,52.1836,A,A,B,B,mean-b 52.2 A^2 (tier B),fail
+5DY8,2.031,0.2432,43.7782,A,A,A,A,none,pass
+5DYB,2.27,0.2384,51.678,A,A,B,B,mean-b 51.7 A^2 (tier B),fail
+5DYD,2.485,0.2556,70.68700332963373,A,A,B,B,mean-b 70.7 A^2 (tier B),fail
+5DZ0,2.24,0.2322,48.142506493506495,A,A,A,A,none,pass
+5DZ1,2.2,0.239,48.8774,A,A,A,A,none,pass
+5DZ3,2.15,0.234,44.5204,A,A,A,A,none,pass
+5DZH,2.11,0.2204,47.0294,A,A,A,A,none,pass
+5DZI,1.9,0.2138,40.9411,A,A,A,A,none,pass
+5E0W,2.0,0.2255,41.7356,A,A,A,A,none,pass
+5E0X,2.014,0.237,42.0657,A,A,A,A,none,pass
+5E14,2.22,0.255,57.6233,A,A,B,B,mean-b 57.6 A^2 (tier B),fail
+5E15,2.1,0.241,45.68,A,A,A,A,none,pass
+5E19,2.24,0.2329,56.1718,A,A,B,B,mean-b 56.2 A^2 (tier B),fail
+5E1C,1.98,0.2145,43.4256,A,A,A,A,none,pass
+5EGV,2.863,0.2764,51.9321,B,A,B,B,resolution 2.86 A (tier B); mean-b 51.9 A^2 (tier B),fail
+5EHJ,2.5,0.2543,41.6753,A,A,A,A,none,pass
+5EI1,2.4,0.2278,46.7439,A,A,A,A,none,pass
+5EIT,2.68,0.2385,46.7372,B,A,A,B,resolution 2.68 A (tier B),fail
+5FQP,1.88,0.23084,25.428,A,A,A,A,none,pass
+5FQR,1.88,0.23686,30.215,A,A,A,A,none,pass
+5FQS,1.94,0.22317,26.921,A,A,A,A,none,pass
+5FQT,1.99,0.23219,27.755,A,A,A,A,none,pass
+5FQV,1.74,0.2336,27.252334419109665,A,A,A,A,none,pass
+5GS4,2.4,0.2815,39.46354177344951,A,A,A,A,none,pass
+5GTR,2.804,0.3674,32.29438075742068,B,B,A,B,resolution 2.80 A (tier B); r-free 0.367 (tier B),fail
+5HYR,2.271,0.252,34.669906442127775,A,A,A,A,none,pass
+5JMM,2.1,0.2161,36.89680621379674,A,A,A,A,none,pass
+5KCC,2.386,0.2649,40.933,A,A,A,A,none,pass
+5KCD,1.82,0.2053,40.9956,A,A,A,A,none,pass
+5KCE,1.847,0.2496,39.4108,A,A,A,A,none,pass
+5KCF,2.07,0.2361,41.2044,A,A,A,A,none,pass
+5KCT,1.6,0.2124,36.4823,A,A,A,A,none,pass
+5KCU,2.03,0.2517,61.1455,A,A,B,B,mean-b 61.1 A^2 (tier B),fail
+5KCW,1.905,0.2455,56.6801,A,A,B,B,mean-b 56.7 A^2 (tier B),fail
+5KD9,1.78,0.2126,52.0199,A,A,B,B,mean-b 52.0 A^2 (tier B),fail
+5KR9,2.25,0.2508,48.935282478521216,A,A,A,A,none,pass
+5KRA,2.401,0.2485,38.8750989968321,A,A,A,A,none,pass
+5KRC,2.4,0.2352,43.19791353870048,A,A,A,A,none,pass
+5KRF,2.193,0.2661,46.26860265417642,A,A,A,A,none,pass
+5KRH,2.243,0.2433,56.30487064413939,A,A,B,B,mean-b 56.3 A^2 (tier B),fail
+5KRI,2.247,0.2203,62.43337240277038,A,A,B,B,mean-b 62.4 A^2 (tier B),fail
+5KRJ,2.7,0.2355,47.46073033707865,B,A,A,B,resolution 2.70 A (tier B),fail
+5KRK,2.391,0.2319,53.264545454545456,A,A,B,B,mean-b 53.3 A^2 (tier B),fail
+5KRL,2.4,0.2176,35.79722444622365,A,A,A,A,none,pass
+5KRM,2.24,0.2131,30.4784,A,A,A,A,none,pass
+5KRO,2.1,0.2281,42.62743928764167,A,A,A,A,none,pass
+5N10,1.6,0.1935,37.86210465266143,A,A,A,A,none,pass
+5T1Z,2.102,0.2456,47.09241195844945,A,A,A,A,none,pass
+5T92,2.22,0.2817,50.23,A,A,B,B,mean-b 50.2 A^2 (tier B),fail
+5T97,3.0,0.2909,75.83,B,A,B,B,resolution 3.00 A (tier B); mean-b 75.8 A^2 (tier B),fail
+5TLD,2.375,0.237,46.0882,A,A,A,A,none,pass
+5TLF,2.204,0.2291,47.7181,A,A,A,A,none,pass
+5TLG,2.228,0.2296,44.0179,A,A,A,A,none,pass
+5TLL,2.423,0.2384,45.9891,A,A,A,A,none,pass
+5TLM,2.497,0.2765,62.9412,A,A,B,B,mean-b 62.9 A^2 (tier B),fail
+5TLO,2.28,0.241,68.09,A,A,B,B,mean-b 68.1 A^2 (tier B),fail
+5TLP,2.08,0.232,33.81,A,A,A,A,none,pass
+5TLT,1.903,0.2205,44.578,A,A,A,A,none,pass
+5TLU,2.223,0.2234,50.0502,A,A,B,B,mean-b 50.1 A^2 (tier B),fail
+5TLV,2.323,0.2356,46.1353,A,A,A,A,none,pass
+5TLX,2.103,0.2263,49.9416,A,A,A,A,none,pass
+5TLY,2.143,0.2212,58.2832,A,A,B,B,mean-b 58.3 A^2 (tier B),fail
+5TM1,2.231,0.2361,53.481,A,A,B,B,mean-b 53.5 A^2 (tier B),fail
+5TM2,2.603,0.2436,56.39,B,A,B,B,resolution 2.60 A (tier B); mean-b 56.4 A^2 (tier B),fail
+5TM3,2.194,0.234,44.04,A,A,A,A,none,pass
+5TM4,2.25,0.2361,55.626,A,A,B,B,mean-b 55.6 A^2 (tier B),fail
+5TM5,2.24,0.232,63.14,A,A,B,B,mean-b 63.1 A^2 (tier B),fail
+5TM6,2.542,0.2448,66.8919,B,A,B,B,resolution 2.54 A (tier B); mean-b 66.9 A^2 (tier B),fail
+5TM7,2.4,0.231,58.52,A,A,B,B,mean-b 58.5 A^2 (tier B),fail
+5TM8,1.99,0.222,51.91,A,A,B,B,mean-b 51.9 A^2 (tier B),fail
+5TM9,2.5,0.2373,53.2671,A,A,B,B,mean-b 53.3 A^2 (tier B),fail
+5TML,2.25,0.2332,63.7798,A,A,B,B,mean-b 63.8 A^2 (tier B),fail
+5TMM,2.2,0.251,42.14,A,A,A,A,none,pass
+5TMO,2.172,0.2325,60.0331,A,A,B,B,mean-b 60.0 A^2 (tier B),fail
+5TMQ,2.24,0.2419,49.8624,A,A,A,A,none,pass
+5TMR,2.296,0.238,62.418591477417706,A,A,B,B,mean-b 62.4 A^2 (tier B),fail
+5TMS,2.24,0.2408,67.6431,A,A,B,B,mean-b 67.6 A^2 (tier B),fail
+5TMT,2.051,0.2471,48.7269,A,A,A,A,none,pass
+5TMU,2.429,0.2375,66.8,A,A,B,B,mean-b 66.8 A^2 (tier B),fail
+5TMV,2.38,0.252,48.51,A,A,A,A,none,pass
+5TMW,2.286,0.2451,45.6789,A,A,A,A,none,pass
+5TMZ,2.207,0.2423,40.3463,A,A,A,A,none,pass
+5TN1,2.055,0.2148,51.9381,A,A,B,B,mean-b 51.9 A^2 (tier B),fail
+5TN3,2.543,0.2564,44.35896438494569,B,A,A,B,resolution 2.54 A (tier B),fail
+5TN4,1.857,0.2176,47.68916750756811,A,A,A,A,none,pass
+5TN5,1.892,0.2333,37.308,A,A,A,A,none,pass
+5TN6,2.091,0.2254,38.7697,A,A,A,A,none,pass
+5TN7,2.238,0.2352,53.4304,A,A,B,B,mean-b 53.4 A^2 (tier B),fail
+5TN8,2.652,0.2586,43.60233163402201,B,A,A,B,resolution 2.65 A (tier B),fail
+5TN9,2.253,0.2381,35.59185891748003,A,A,A,A,none,pass
+5TNB,2.08,0.2178,40.1724,A,A,A,A,none,pass
+5U2B,2.22,0.229,51.95,A,A,B,B,mean-b 52.0 A^2 (tier B),fail
+5U2D,1.86,0.215,38.09,A,A,A,A,none,pass
+5UFW,1.583,0.2104,22.344484159220144,A,A,A,A,none,pass
+5UFX,1.5503,0.2299,21.583789991796557,A,A,A,A,none,pass
+5W9C,1.802,0.242,27.35210776102736,A,A,A,A,none,pass
+5W9D,1.6464,0.1952,21.38857898915057,A,A,A,A,none,pass
+5WGD,1.8,0.208,25.219940233632165,A,A,A,A,none,pass
+5WGQ,2.3,0.257,37.70158602150538,A,A,A,A,none,pass
+6B0F,2.86,0.299,51.9,B,A,B,B,resolution 2.86 A (tier B); mean-b 51.9 A^2 (tier B),fail
+6C42,1.997,0.2684,32.945799943165675,A,A,A,A,none,pass
+6CBZ,1.65,0.2135,20.30085140562249,A,A,A,A,none,pass
+6CHW,1.89,0.25694,37.582,A,A,A,A,none,pass
+6CHZ,1.68,0.26187,43.722,A,A,A,A,none,pass
+6CZN,2.5,0.238,52.21936414483368,A,A,B,B,mean-b 52.2 A^2 (tier B),fail
+6D0F,2.5,0.2414,53.69552670844524,A,A,B,B,mean-b 53.7 A^2 (tier B),fail
+6DF6,2.5,0.2727,54.465,A,A,B,B,mean-b 54.5 A^2 (tier B),fail
+6DFN,2.1,0.26503,62.522,A,A,B,B,mean-b 62.5 A^2 (tier B),fail
+6HHP,1.802,0.2153,13.7519,A,A,A,A,none,pass
+6HKB,1.7,0.2,13.7022,A,A,A,A,none,pass
+6HKF,1.801,0.2114,13.1832,A,A,A,A,none,pass
+6HMU,1.2,0.2061,15.4692,A,A,A,A,none,pass
+6IAR,1.84,0.23945,30.284,A,A,A,A,none,pass
+6OWC,1.85,0.22609,35.411,A,A,A,A,none,pass
+6PET,2.203,0.2323,68.34,A,A,B,B,mean-b 68.3 A^2 (tier B),fail
+6PFM,2.84,0.2488,73.166,B,A,B,B,resolution 2.84 A (tier B); mean-b 73.2 A^2 (tier B),fail
+6PIT,2.25,0.247,37.2929,A,A,A,A,none,pass
+6PSJ,1.8,0.2146,27.824337349397595,A,A,A,A,none,pass
+6SBO,1.48,0.212,27.49,A,A,A,A,none,pass
+6SQ0,1.77,0.198,40.2,A,A,A,A,none,pass
+6SUO,1.74,0.244,41.99,A,A,A,A,none,pass
+6TJM,1.85,0.218,62.1073,A,A,B,B,mean-b 62.1 A^2 (tier B),fail
+6TL3,2.455,0.2592,39.6118,A,A,A,A,none,pass
+6V87,2.4,0.2714,47.5320194676,A,A,A,A,none,pass
+6V8T,2.1,0.256,42.94,A,A,A,A,none,pass
+6VGH,2.1,0.274,35.9,A,A,A,A,none,pass
+6VJD,1.8,0.2259,25.27,A,A,A,A,none,pass
+6VPF,1.6,0.2344,24.02,A,A,A,A,none,pass
+6WOK,2.309,0.2503,51.4118,A,A,B,B,mean-b 51.4 A^2 (tier B),fail
+6ZOQ,1.8,0.232,42.61,A,A,A,A,none,pass
+6ZOR,1.97,0.229,54.9,A,A,B,B,mean-b 54.9 A^2 (tier B),fail
+6ZOS,2.0,0.242,57.19,A,A,B,B,mean-b 57.2 A^2 (tier B),fail
+7B9M,1.7,0.2128,15.3591,A,A,A,A,none,pass
+7B9R,1.15,0.1957,18.357,A,A,A,A,none,pass
+7B9T,1.15,0.1943,17.569,A,A,A,A,none,pass
+7BA3,1.4,0.2038,19.5482,A,A,A,A,none,pass
+7BA5,1.45,0.2009,22.4851,A,A,A,A,none,pass
+7BA6,1.4,0.206,23.8344,A,A,A,A,none,pass
+7BA7,1.45,0.2078,22.4878,A,A,A,A,none,pass
+7BA8,1.2,0.2067,18.8457,A,A,A,A,none,pass
+7BA9,1.48,0.2118,22.6345,A,A,A,A,none,pass
+7BAA,1.1,0.1972,16.0982,A,A,A,A,none,pass
+7BAB,1.3,0.2011,18.8515,A,A,A,A,none,pass
+7JHD,2.402,0.2651,43.9783,A,A,A,A,none,pass
+7KBS,1.834,0.2097,23.226,A,A,A,A,none,pass
+7MSA,2.24,0.2464,69.223,A,A,B,B,mean-b 69.2 A^2 (tier B),fail
+7N9O,2.0,0.225,31.3202,A,A,A,A,none,pass
+7NDO,1.6,0.1954,42.14,A,A,A,A,none,pass
+7NEL,1.45,0.186,33.62,A,A,A,A,none,pass
+7NFB,1.33,0.1781,26.75,A,A,A,A,none,pass
+7NFW,1.19,0.2262,17.03,A,A,A,A,none,pass
+7NIZ,1.48,0.2394,25.35,A,A,A,A,none,pass
+7OPW,1.81,0.2291,25.95,A,A,A,A,none,pass
+7OQ7,1.6,0.1975,27.2,A,A,A,A,none,pass
+7OQ8,1.43,0.2056,22.63,A,A,A,A,none,pass
+7PWT,2.312,0.2535,52.6796,A,A,B,B,mean-b 52.7 A^2 (tier B),fail
+7PWZ,2.5,0.298,47.5355,A,A,A,A,none,pass
+7QVJ,1.68,0.216,46.43,A,A,A,A,none,pass
+7QVL,1.9,0.245,48.07,A,A,A,A,none,pass
+7R62,1.5,0.2298,23.1061,A,A,A,A,none,pass
+7RKE,1.55,0.2726,21.1338,A,A,A,A,none,pass
+7RNM,1.9,0.2211,27.0684,A,A,A,A,none,pass
+7RRX,1.78,0.2647,36.2,A,A,A,A,none,pass
+7RRY,1.87,0.2356,44.747,A,A,A,A,none,pass
+7RRZ,1.83,0.2575,17.3125,A,A,A,A,none,pass
+7RS0,1.67,0.2269,42.014,A,A,A,A,none,pass
+7RS1,1.59,0.2191,34.887,A,A,A,A,none,pass
+7RS2,1.72,0.221,32.008,A,A,A,A,none,pass
+7RS3,1.84,0.2832,42.933,A,A,A,A,none,pass
+7RS4,1.78,0.2509,35.832,A,A,A,A,none,pass
+7RS7,1.58,0.251,27.969,A,A,A,A,none,pass
+7RS8,1.64,0.2496,29.285,A,A,A,A,none,pass
+7RS9,1.7,0.2517,39.87,A,A,A,A,none,pass
+7SFO,1.9,0.2255,26.0865,A,A,A,A,none,pass
+7T2X,2.6,0.2767,39.117,B,A,A,B,resolution 2.60 A (tier B),fail
+7TE7,1.85,0.246,23.1,A,A,A,A,none,pass
+7UJ7,1.68,0.24,36.08,A,A,A,A,none,pass
+7UJ8,2.385,0.2714,47.5385,A,A,A,A,none,pass
+7UJC,1.78,0.23,31.2316,A,A,A,A,none,pass
+7UJF,1.7,0.2392,24.0899,A,A,A,A,none,pass
+7UJM,1.8,0.2329,23.3838,A,A,A,A,none,pass
+7UJO,1.449,0.228219,22.5769,A,A,A,A,none,pass
+7UJW,2.6,0.263,51.5961,B,A,B,B,resolution 2.60 A (tier B); mean-b 51.6 A^2 (tier B),fail
+7UJY,1.7,0.224,21.85,A,A,A,A,none,pass
+7WNV,2.3,0.2355,42.455,A,A,A,A,none,pass
+7Y8F,2.22,0.2514,45.948,A,A,A,A,none,pass
+7Y8G,2.14,0.248,41.986,A,A,A,A,none,pass
+7YMK,2.25,0.2531,44.197,A,A,A,A,none,pass
+8AFN,1.36,0.1848,21.6922,A,A,A,A,none,pass
+8AI0,1.6,0.1767,20.6743,A,A,A,A,none,pass
+8ALR,1.4,0.17062,16.066,A,A,A,A,none,pass
+8ALT,1.4,0.15837,14.737,A,A,A,A,none,pass
+8ALV,1.6,0.1846,18.4347,A,A,A,A,none,pass
+8ALW,1.5,0.16829,13.694,A,A,A,A,none,pass
+8AM7,1.5,0.16341,16.556,A,A,A,A,none,pass
+8ANF,1.4,0.16201,16.364,A,A,A,A,none,pass
+8AOY,1.4,0.1529,13.744,A,A,A,A,none,pass
+8APS,1.2,0.1514,12.483,A,A,A,A,none,pass
+8AQ1,1.4,0.18083,12.251,A,A,A,A,none,pass
+8AQC,1.5,0.17195,17.258,A,A,A,A,none,pass
+8AQE,1.6,0.24032,14.216,A,A,A,A,none,pass
+8AQZ,1.4,0.15954,17.232,A,A,A,A,none,pass
+8AR4,1.5,0.21926,15.797,A,A,A,A,none,pass
+8AR5,1.4,0.16225,13.185,A,A,A,A,none,pass
+8ARG,1.5,0.1634,16.847,A,A,A,A,none,pass
+8ARO,1.6,0.2004,14.047,A,A,A,A,none,pass
+8ARQ,1.4,0.17486,15.673,A,A,A,A,none,pass
+8ARR,1.35,0.19904,17.479,A,A,A,A,none,pass
+8ARW,1.5,0.17888,19.548,A,A,A,A,none,pass
+8ARX,1.4,0.16535,16.207,A,A,A,A,none,pass
+8ARY,1.45,0.16525,16.992,A,A,A,A,none,pass
+8ARZ,1.5,0.1695,17.644,A,A,A,A,none,pass
+8AS1,1.5,0.19176,21.18,A,A,A,A,none,pass
+8AT9,1.4,0.17846,20.682,A,A,A,A,none,pass
+8ATP,1.4,0.15548,13.804,A,A,A,A,none,pass
+8AU2,1.6,0.20249,13.138,A,A,A,A,none,pass
+8AUS,1.4,0.21601,13.729,A,A,A,A,none,pass
+8AUY,1.5,0.22674,15.597,A,A,A,A,none,pass
+8AV3,1.8,0.19491,16.944,A,A,A,A,none,pass
+8AV4,1.6,0.1989,14.725,A,A,A,A,none,pass
+8AV7,1.4,0.17073,18.737,A,A,A,A,none,pass
+8AV8,1.8,0.24787,29.405,A,A,A,A,none,pass
+8AWG,1.8,0.18504,11.672,A,A,A,A,none,pass
+8AXE,1.8,0.217,22.496,A,A,A,A,none,pass
+8AXU,1.6,0.1695,17.13,A,A,A,A,none,pass
+8AZE,1.6,0.2013,17.974,A,A,A,A,none,pass
+8B39,1.4,0.16039,13.428,A,A,A,A,none,pass
+8BWJ,1.6,0.1867,19.405728000000003,A,A,A,A,none,pass
+8BWX,1.6,0.1874,19.312766355140187,A,A,A,A,none,pass
+8BWZ,1.6,0.1981,17.348119999999998,A,A,A,A,none,pass
+8BX0,1.6,0.1964,24.086232,A,A,A,A,none,pass
+8BX3,1.2,0.1894,18.030834666666667,A,A,A,A,none,pass
+8BX4,1.6,0.192,18.084232,A,A,A,A,none,pass
+8BXI,1.2,0.1866,14.906658666666669,A,A,A,A,none,pass
+8BXM,1.6,0.1877,18.925834445927904,A,A,A,A,none,pass
+8BXN,1.6,0.1881,18.680381842456608,A,A,A,A,none,pass
+8BXO,1.6,0.1911,17.137444592790388,A,A,A,A,none,pass
+8BXQ,1.6,0.1822,18.015906542056072,A,A,A,A,none,pass
+8BXS,1.6,0.1912,17.33641922563418,A,A,A,A,none,pass
+8BY9,1.6,0.191,19.96636048064085,A,A,A,A,none,pass
+8BYB,1.6,0.1855,18.987046728971965,A,A,A,A,none,pass
+8BYC,1.6,0.1943,18.052937249666225,A,A,A,A,none,pass
+8BYD,1.6,0.1948,15.989866488651536,A,A,A,A,none,pass
+8BYE,1.6,0.2066,20.824472630173563,A,A,A,A,none,pass
+8BYF,1.65,0.2024,16.817543906333157,A,A,A,A,none,pass
+8BYG,1.7,0.2202,19.42353379457158,A,A,A,A,none,pass
+8BYO,1.2,0.171,15.17904,A,A,A,A,none,pass
+8BYY,1.6,0.1863,17.412267022696927,A,A,A,A,none,pass
+8BYZ,1.4,0.1824,18.64955941255007,A,A,A,A,none,pass
+8BZ0,1.2,0.2014,17.937973297730306,A,A,A,A,none,pass
+8BZ9,1.3,0.1947,21.568886515353803,A,A,A,A,none,pass
+8BZA,1.25,0.196,20.579922563417888,A,A,A,A,none,pass
+8BZB,1.7,0.1933,13.617952419139266,A,A,A,A,none,pass
+8BZC,1.1,0.1768,16.317064636752136,A,A,A,A,none,pass
+8BZD,1.5,0.2031,25.98552533333333,A,A,A,A,none,pass
+8BZE,1.43,0.1901,22.196421333333333,A,A,A,A,none,pass
+8BZF,1.53,0.2142,27.653589333333336,A,A,A,A,none,pass
+8BZG,1.49,0.1891,28.849248,A,A,A,A,none,pass
+8BZH,1.46,0.1889,28.238202666666663,A,A,A,A,none,pass
+8BZT,1.65,0.208,29.208901333333333,A,A,A,A,none,pass
+8BZW,1.1,0.1925,15.40642761930152,A,A,A,A,none,pass
+8C04,1.1,0.1972,16.458573717948717,A,A,A,A,none,pass
+8C0K,1.4,0.1841,19.44591188251001,A,A,A,A,none,pass
+8C0L,1.6,0.2076,22.287391188251,A,A,A,A,none,pass
+8C42,1.4,0.196,18.35819399785637,A,A,A,A,none,pass
+8C4F,1.4,0.2014,21.73773297730307,A,A,A,A,none,pass
+8C4G,1.46,0.2196,24.71377938034188,A,A,A,A,none,pass
+8DU6,2.1,0.239,30.92,A,A,A,A,none,pass
+8DU8,1.47,0.1941,22.0204,A,A,A,A,none,pass
+8DU9,2.5,0.2578,37.2597,A,A,A,A,none,pass
+8DUB,1.84,0.2205,24.01287517934003,A,A,A,A,none,pass
+8DUC,1.7,0.2624,23.1166,A,A,A,A,none,pass
+8DUD,1.81,0.2551,26.5361,A,A,A,A,none,pass
+8DUG,2.2,0.2502,41.6441,A,A,A,A,none,pass
+8DUH,1.9,0.2351,26.2141,A,A,A,A,none,pass
+8DUI,2.04,0.2264,34.4529,A,A,A,A,none,pass
+8DUK,1.7,0.2684,20.0932,A,A,A,A,none,pass
+8DUS,1.9,0.3268,25.5308,A,B,A,B,r-free 0.327 (tier B),fail
+8DV5,1.85,0.2131,25.742,A,A,A,A,none,pass
+8DV7,1.59,0.2079,23.6869,A,A,A,A,none,pass
+8DV8,1.7,0.2109,21.1119,A,A,A,A,none,pass
+8DVB,2.19,0.2421,42.71345624656027,A,A,A,A,none,pass
+8EV1,1.83,0.2242,48.005,A,A,A,A,none,pass
+8EV2,2.01,0.2479,52.437,A,A,B,B,mean-b 52.4 A^2 (tier B),fail
+8VV1,2.196,0.2306,36.21383557719851,A,A,A,A,none,pass
+8VYT,1.61,0.2118,31.61303586037633,A,A,A,A,none,pass
+8VYX,1.69,0.2462,27.179949885153476,A,A,A,A,none,pass
+8VZ0,1.86,0.249,49.06825408192496,A,A,A,A,none,pass
+8VZ1,1.82,0.2745,39.88671353620148,A,A,A,A,none,pass
+8VZP,1.72,0.2216,44.06076561073261,A,A,A,A,none,pass
+8VZQ,1.75,0.2201,37.73400382057449,A,A,A,A,none,pass
+8W03,1.68,0.2447,36.73814090416892,A,A,A,A,none,pass
+8W07,1.83,0.2177,47.19163152436917,A,A,A,A,none,pass
+9B25,1.45,0.2232,32.72032855939343,A,A,A,A,none,pass
+9B2B,2.08,0.3182,29.03282314379365,A,B,A,B,r-free 0.318 (tier B),fail
+9BPX,2.2,0.2211,38.87764885073387,A,A,A,A,none,pass
+9BQE,1.98,0.2665,38.23420238095238,A,A,A,A,none,pass
+9BU1,1.75,0.2262,26.55636363636364,A,A,A,A,none,pass
+9EBG,2.02,0.2479,49.46816052631579,A,A,A,A,none,pass
+9ECK,3.2,0.2928,116.49761559317066,B,A,C,C,resolution 3.20 A (tier B); mean-b 116.5 A^2 (tier C),fail
+9I6S,1.3,0.18217,20.39,A,A,A,A,none,pass
+9I6T,1.3,0.15383,26.971,A,A,A,A,none,pass
+9I6U,1.3,0.16055,19.947,A,A,A,A,none,pass
+9I6V,1.3,0.15826,18.908,A,A,A,A,none,pass
+9I6W,1.3,0.17205,22.43,A,A,A,A,none,pass
+9I6X,1.3,0.16275,22.018,A,A,A,A,none,pass
+9I6Y,1.5,0.1795,15.693,A,A,A,A,none,pass
+9I6Z,1.4,0.15727,15.149,A,A,A,A,none,pass
+9I70,1.4,0.14697,19.054,A,A,A,A,none,pass
+9I71,1.35,0.16196,19.287,A,A,A,A,none,pass
+9I72,1.35,0.16441,17.105,A,A,A,A,none,pass
+9I73,1.4,0.15418,15.399,A,A,A,A,none,pass
+9I74,1.5,0.16045,17.533,A,A,A,A,none,pass
+9I75,1.4,0.15078,15.917,A,A,A,A,none,pass
+9VT5,2.27,0.26737,64.977,A,A,B,B,mean-b 65.0 A^2 (tier B),fail
+9VTU,2.09,0.26803,54.512,A,A,B,B,mean-b 54.5 A^2 (tier B),fail
+9W11,1.83,0.22573,33.986,A,A,A,A,none,pass
+9W12,1.75,0.19661,35.013,A,A,A,A,none,pass
+9W13,2.05,0.22396,49.081,A,A,A,A,none,pass
+9WB2,1.95,0.23785,43.208,A,A,A,A,none,pass
+9Y7E,2.28,0.2662,67.93,A,A,B,B,mean-b 67.9 A^2 (tier B),fail
+9YC4,2.152,0.2574,52.27,A,A,B,B,mean-b 52.3 A^2 (tier B),fail
+1L2J,2.95,0.299,40.08,B,A,A,B,resolution 2.95 A (tier B),fail
+1NDE,3.0,0.273,65.16,B,A,B,B,resolution 3.00 A (tier B); mean-b 65.2 A^2 (tier B),fail
+1QKM,1.8,0.252,41.3,A,A,A,A,none,pass
+1U3Q,2.4,0.279,39.92381658045575,A,A,A,A,none,pass
+1U3R,2.21,0.267,34.733995215311005,A,A,A,A,none,pass
+1U3S,2.5,0.25,28.03631393775372,A,A,A,A,none,pass
+1U9E,2.4,0.279,30.5,A,A,A,A,none,pass
+1X76,2.2,0.265,31.1,A,A,A,A,none,pass
+1X78,2.3,0.27,34.0,A,A,A,A,none,pass
+1X7B,2.3,0.266,34.4,A,A,A,A,none,pass
+1X7J,2.3,0.282,30.2,A,A,A,A,none,pass
+1YY4,2.7,0.269,37.0,B,A,A,B,resolution 2.70 A (tier B),fail
+1YYE,2.03,0.269,26.6,A,A,A,A,none,pass
+1ZAF,2.2,0.286,26.3,A,A,A,A,none,pass
+2FSZ,2.2,0.299,40.8,A,A,A,A,none,pass
+2GIU,2.2,0.323,52.57599091425326,A,B,B,B,r-free 0.323 (tier B); mean-b 52.6 A^2 (tier B),fail
+2I0G,2.5,0.271,53.6,A,A,B,B,mean-b 53.6 A^2 (tier B),fail
+2JJ3,2.28,0.255,48.4,A,A,A,A,none,pass
+2NV7,2.1,0.265,25.6,A,A,A,A,none,pass
+2QTU,2.53,0.279,70.1,B,A,B,B,resolution 2.53 A (tier B); mean-b 70.1 A^2 (tier B),fail
+2YJD,1.93,0.2602,35.27,A,A,A,A,none,pass
+2YLY,3.2,0.2749,103.44,B,A,C,C,resolution 3.20 A (tier B); mean-b 103.4 A^2 (tier C),fail
+2Z4B,2.34,0.253,45.9,A,A,A,A,none,pass
+3OLL,1.5,0.20809,23.167,A,A,A,A,none,pass
+3OLS,2.2,0.2664,26.3963,A,A,A,A,none,pass
+3OMO,2.21,0.2638,20.5507,A,A,A,A,none,pass
+3OMP,2.05,0.2547,20.3572,A,A,A,A,none,pass
+3OMQ,1.97,0.26,22.0894,A,A,A,A,none,pass
+4J24,2.1,0.22385,36.147,A,A,A,A,none,pass
+4J26,2.3,0.24197,32.44,A,A,A,A,none,pass
+4ZI1,2.1,0.2227,43.341,A,A,A,A,none,pass
+5TOA,2.5,0.2445,64.82262313537855,A,A,B,B,mean-b 64.8 A^2 (tier B),fail
+7XVY,1.544,0.2375,19.881,A,A,A,A,none,pass
+7XVZ,2.08,0.307,36.228,A,B,A,B,r-free 0.307 (tier B),fail
+7XWP,1.919,0.2551,32.643,A,A,A,A,none,pass
+7XWQ,1.89,0.2393,22.567,A,A,A,A,none,pass
+7XWR,2.164,0.3178,26.142,A,B,A,B,r-free 0.318 (tier B),fail
+9EBL,2.2,0.2765,57.55184936401315,A,A,B,B,mean-b 57.6 A^2 (tier B),fail
+9ECF,2.0,0.2775,35.480609378376435,A,A,A,A,none,pass

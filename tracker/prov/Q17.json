@@ -1,0 +1,24 @@
+{
+ "task": "Q17",
+ "ts": "2026-10-15T23:37+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "data/raw/download_manifest.csv",
+   "size": 40018,
+   "sha": "0e575b8030906928"
+  },
+  {
+   "path": "scripts/relative_manifest_paths.py",
+   "size": 1276,
+   "sha": "8108e94f4ab7c80e"
+  },
+  {
+   "path": "esr_analysis/download_structures.py",
+   "size": 4886,
+   "sha": "07ccdcc3f1b1b89b"
+  }
+ ]
+}

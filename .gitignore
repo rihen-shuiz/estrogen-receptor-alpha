@@ -1,0 +1,14 @@
+# Bulk data, rebuilt by scripts/fetch_data.py and scripts/clean_chain_pdbs.py.
+# ID lists, the ChEMBL export and raw download metadata stay tracked.
+data/raw/*
+!data/raw/download_manifest.csv
+!data/raw/sha256sums.txt
+data/ccd/
+data/clean/
+data/lbd/
+
+# Python bytecode
+__pycache__/
+
+# Tracker bundles (include environment details)
+tracker/bundle_*.zip

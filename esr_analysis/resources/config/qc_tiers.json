@@ -1,0 +1,18 @@
+{
+  "name": "qc_tiers",
+  "tier_A_limits": {
+    "resolution_max_A": 2.5,
+    "r_free_max": 0.3,
+    "mean_b_max_A2": 50.0
+  },
+  "tier_B_limits": {
+    "resolution_max_A": 3.5,
+    "r_free_max": 0.4,
+    "mean_b_max_A2": 80.0
+  },
+  "tier_A_source": "analysis_settings.json: qc_resolution_A, qc_r_free, qc_mean_B_A2 (the old flags)",
+  "tier_B_source": "starting values; the team may edit these and rerun scripts/qc_tiers.py",
+  "tier_C": "beyond the tier B limit",
+  "missing_metric": "unknown, never a pass",
+  "qc_label_rule": "C if any metric is C; else unknown if any metric is missing; else B if any metric is B; else A"
+}

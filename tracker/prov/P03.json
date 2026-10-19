@@ -1,0 +1,24 @@
+{
+ "task": "P03",
+ "ts": "2026-10-16T00:17+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/provisional/qc_delta.csv",
+   "size": 630,
+   "sha": "204416c264bd34d6"
+  },
+  {
+   "path": "scripts/provisional_qc_delta.py",
+   "size": 2333,
+   "sha": "439efb69809a67ef"
+  },
+  {
+   "path": "scripts/provisional_common.py",
+   "size": 3008,
+   "sha": "faaf796d293ad979"
+  }
+ ]
+}

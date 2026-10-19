@@ -1,0 +1,1 @@
+Q10 and Q11 (ligand action labels) are done by hand by a teammate. Do not search for labels, draft them, pre-fill results/ligand_action_labels.csv, or log MANUAL for them. Skip them and take the next ready task

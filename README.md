@@ -58,7 +58,9 @@ inputs, which must contain all prerequisites for that task. The figure command
 also reads frozen products by default.
 
 Only four raw mmCIFs are bundled: 3Q95, 7NFB, 7BAA, and 6CHZ. Full raw
-reconstruction requires the remaining structures. Block 09 defaults to two
+reconstruction requires the remaining structures; `python scripts/fetch_data.py`
+downloads them into `data/raw`, fetches missing CCD files into `data/ccd`, and
+rebuilds `data/lbd`. Block 09 defaults to two
 chains; the full saved ensemble contains 788 aligned chains. Block 06 also
 resolves action evidence. Block 12 uses saved PCA signs and structural labels.
 Block 13 recomputes profiles and displacements, but its regional producer reads
@@ -109,6 +111,16 @@ excluded from the GitHub upload.
 Coordinate diversity, B-factors, and contact annotations are descriptive
 measurements. They do not establish biological causality. H12* 536–545 is a
 provisional regional annotation, distinct from configured H12 538–547.
+
+## Known limitations
+
+- Coordinates are C-alpha only. No all-atom RMSD validation is in this repository yet.
+- The reference `7NFB|B|1` is an engineered PROSS variant with 28 declared substitutions, not wild-type ESR1. See `docs/reference.md`.
+- The ligand table includes crystallization ions and additives (for example MG, CL, GOL, EDO). The top-ranked "ligands" are mostly these. See `results/ligands_ranked.csv`.
+- Chemistry clusters have low silhouette (0.10 to 0.13 for K=3 to 7). The choice of K is provisional until the human sign-off in `docs/chemistry_k_choice.md`.
+- The ESR2 validation set is 39 entries. It is kept separate from the 351-entry ESR1 selection.
+- Cross-receptor ligand matches (`results/matched_pairs.csv`) use identical ligand codes only, with at least 10 heavy atoms.
+- Not yet in the repository: P2Rank pocket analysis and the manuscript text. The ChEMBL activity table is a separate pending task.
 
 ## Sources
 
