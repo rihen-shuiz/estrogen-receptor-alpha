@@ -1,0 +1,19 @@
+{
+ "task": "S05",
+ "ts": "2026-10-18T23:51+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/rmsd_entry_index.csv",
+   "size": 14097,
+   "sha": "2e32f23e14106261"
+  },
+  {
+   "path": "scripts/save_rmsd_index.py",
+   "size": 1143,
+   "sha": "03a11946bd9527e8"
+  }
+ ]
+}

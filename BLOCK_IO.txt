@@ -1,0 +1,108 @@
+FIRST-MONTH BLOCK INPUTS, METHODS AND OUTPUTS
+
+All relative scientific inputs below are inside esr_analysis/resources/. The default saved source folder is resources/frozen/. Every --output is explicit and separate from the input resources. Helpers are dependencies, not extra reported tasks.
+
+01. Find structure IDs
+Python: esr_analysis/query_structures.py
+Input: frozen/query_snapshot.json; data/pdb_ids_esr1.txt
+Method/tool: Frozen exact ID snapshot; explicit separate RCSB query
+Output: pdb_ids_esr1.txt; query_provenance.json
+Command: python -m esr_analysis.query_structures --output RUN_OUTPUT/block_01
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+02. Download structures
+Python: esr_analysis/download_structures.py
+Input: four local mmCIFs or explicit live IDs
+Method/tool: Existing mmCIF entry/atom validation; cached copy or explicit request
+Output: mmCIFs; download_manifest.csv
+Command: python -m esr_analysis.download_structures --output RUN_OUTPUT/block_02
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+03. Extract metadata and molecular contents
+Python: esr_analysis/extract_metadata.py
+Input: four local mmCIFs; settings
+Method/tool: Depositor metadata; unchanged occupancy-selected mean-B fallback
+Output: entries.csv
+Command: python -m esr_analysis.extract_metadata --output RUN_OUTPUT/block_03
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+04. Prepare comparable receptor domains
+Python: esr_analysis/extract_lbd.py
+Input: four mmCIFs; FASTAs; native equivalence; settings
+Method/tool: Existing accession/declared-sequence checks and canonical mapping
+Output: entries.csv; receptor_chains.csv; residue_mapping.csv
+Command: python -m esr_analysis.extract_lbd --output RUN_OUTPUT/block_04
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+05. Add quality flags
+Python: esr_analysis/flag_quality.py
+Input: entries.csv; receptor_chains.csv; QC limits
+Method/tool: Known-metric cutoffs; fail precedes unknown
+Output: entries.csv; receptor_chains.csv
+Command: python -m esr_analysis.flag_quality --output RUN_OUTPUT/block_05
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+06. Build ligand identity table
+Python: esr_analysis/build_ligand_table.py
+Input: contacts.csv; ligand_instances.csv; local CCDs; exact annotation resources
+Method/tool: RDKit canonical isomeric SMILES; no standardization or fingerprint
+Output: ligand_identities.csv; identity_sources.json
+Command: python -m esr_analysis.build_ligand_table --output RUN_OUTPUT/block_06
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+07. Assign and verify action classes
+Python: esr_analysis/assign_action_classes.py
+Input: ligand_identities.csv; receptor-specific annotation/override/rule CSVs
+Method/tool: Original supported-action policy; exact identity/target and evidence hashes
+Output: ligand_actions.csv
+Command: python -m esr_analysis.assign_action_classes --output RUN_OUTPUT/block_07
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+08. Select reference
+Python: esr_analysis/choose_reference.py
+Input: entries.csv; receptor_chains.csv; completeness/ranking settings
+Method/tool: Original completeness/QC screen; resolution/coverage/difference/key ordering
+Output: reference.json; reference_candidates.csv
+Command: python -m esr_analysis.choose_reference --output RUN_OUTPUT/block_08
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+09. Align structures
+Python: esr_analysis/align_structures.py
+Input: residue_mapping.csv; reference.json; explicit chain keys; core settings
+Method/tool: Original shared-core SVD/Kabsch; one saved transform for every atom
+Output: aligned_coordinates.npz; alignment_transforms.json; global_alignment.csv
+Command: python -m esr_analysis.align_structures --output RUN_OUTPUT/block_09
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+10. Calculate structural distances
+Python: esr_analysis/calculate_rmsd.py
+Input: aligned_coordinates.npz; ordered rmsd_entry_index.txt; minimum overlap
+Method/tool: Shared observed positions; no pair refit; original greedy missing-pair pruning
+Output: rmsd_entry.npy; overlap_entry.npy; ordered index; exclusions JSON
+Command: python -m esr_analysis.calculate_rmsd --output RUN_OUTPUT/block_10
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+11. Cluster conformations
+Python: esr_analysis/cluster_structures.py
+Input: indexed RMSD matrix; primary 1.5-A threshold
+Method/tool: SciPy average linkage on condensed distances; preserved numeric group IDs
+Output: entry_clusters.csv; linkage_entry.npy
+Command: python -m esr_analysis.cluster_structures --output RUN_OUTPUT/block_11
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+12. Show conformational landscape
+Python: esr_analysis/structural_pca.py
+Input: indexed matrix; original labels and saved display-sign anchor
+Method/tool: sklearn PCA of unscaled distance rows; signs anchored to baseline only
+Output: entry_embedding.csv; PCA_variance.json
+Command: python -m esr_analysis.structural_pca --output RUN_OUTPUT/block_12
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+
+13. Summarize regional B and geometry
+Python: esr_analysis/regional_variation.py
+Input: aligned coordinates; saved transforms/mapping/index; ensemble/local profiles; provisional helix annotations
+Method/tool: Original per-position population RMSF; ddof=0 within-chain B z; >=80% coverage
+Output: ensemble_profiles.csv; local_displacements.csv; common trajectory/check status; within-chain/regional B tables
+Command: python -m esr_analysis.regional_variation --output RUN_OUTPUT/block_13
+Dependencies: see imports and requirements.txt; optional MDAnalysis only for block 13 and separate PyMOL for the reference figure.
+

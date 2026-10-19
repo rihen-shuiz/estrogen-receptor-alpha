@@ -1,0 +1,120 @@
+[
+  {
+    "module": "query_structures",
+    "unchanged_existing_functions": [
+      "query_structures",
+      "refresh_cohort"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "download_structures",
+    "unchanged_existing_functions": [
+      "validate_mmcif",
+      "download_one",
+      "download_structures"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "extract_metadata",
+    "unchanged_existing_functions": [
+      "numeric_field",
+      "entry_quality"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "extract_lbd",
+    "unchanged_existing_functions": [
+      "residue_observations",
+      "coordinate_metadata",
+      "inventory_entry"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "flag_quality",
+    "unchanged_existing_functions": [
+      "quality_status",
+      "normalize_cached_coordinates",
+      "validate_inventory_labels",
+      "run_quality"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "build_ligand_table",
+    "unchanged_existing_functions": [
+      "_file_hash",
+      "read_ccd",
+      "_read_csv",
+      "build_ligand_table"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "assign_action_classes",
+    "unchanged_existing_functions": [
+      "record_hash",
+      "_action",
+      "receptor_contexts",
+      "_human_review",
+      "resolve_action"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "choose_reference",
+    "unchanged_existing_functions": [
+      "run_reference",
+      "select_reference_chain"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "align_structures",
+    "unchanged_existing_functions": [
+      "load_coordinates",
+      "kabsch_align",
+      "apply_transform",
+      "rmsd",
+      "fit_to_reference"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "calculate_rmsd",
+    "unchanged_existing_functions": [
+      "compute_distances"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "cluster_structures",
+    "unchanged_existing_functions": [
+      "structural_groups"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "structural_pca",
+    "unchanged_existing_functions": [
+      "structural_pca"
+    ],
+    "adapted_existing_functions": []
+  },
+  {
+    "module": "regional_variation",
+    "unchanged_existing_functions": [
+      "ensemble_rmsf",
+      "_entry",
+      "_frames",
+      "_mdanalysis_rmsf",
+      "run_local"
+    ],
+    "adapted_existing_functions": [
+      "regional_bfactors"
+    ]
+  }
+]

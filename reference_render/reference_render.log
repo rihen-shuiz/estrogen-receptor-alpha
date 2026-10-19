@@ -1,0 +1,249 @@
+PyMOL>python
+PyMOL>scene = {'name': 'reference_context', 'molecules': [{'name': 'reference_complex', 'path': 'data/raw/esr1/7NFB.cif', 'chain_key': '7NFB|B|1', 'model': '1', 'state': 1, 'label_asym_id': 'B', 'auth_asym_id': 'B', 'colour': 'marine', 'transform': [1.0000000000000002, -2.85797669535406e-17, 6.862444088614541e-16, -2.1316282072803006e-14, 4.876670827846308e-16, 1.0000000000000007, 5.0019126522720056e-17, -1.7763568394002505e-15, -1.1512144320842103e-16, 1.0258639037921208e-16, 1.0000000000000002, -3.552713678800501e-15, 0.0, 0.0, 0.0, 1.0], 'peptides': [{'label_asym_id': 'C', 'auth_asym_id': 'C'}, {'label_asym_id': 'D', 'auth_asym_id': 'D'}], 'highlight_resi': None, 'highlight_label': None, 'highlight_altloc': None, 'entry_title': 'ER-PRS*(+) (Y537S) in complex with genistein and SRC-2 coactivator peptide', 'ligand_codes': ['GEN']}], 'caption': 'Reference 7NFB|B|1: author chain B, label chain B, model 1. Selected receptor blue; other polymers grey; short peptides orange; organic molecules sticks. Deposited title: ER-PRS*(+) (Y537S) in complex with genistein and SRC-2 coactivator peptide Canonical ESR1 differences: 28; 28 annotated engineered mutations. Saved contact assignments: 7NFB|B|1: GEN (pocket_compatible). Green carbon sticks: GEN throughout the ASU, including other receptor copies; other organic carbons grey. Deposited asymmetric unit; waters and ions hidden. Contacts alone do not establish binding mechanism.', 'overlay': False, 'width': 1500, 'height': 1000, 'legend': ['Blue: reference 7NFB|B|1', 'Grey: other polymers; orange: short peptides', 'Green carbons: GEN across the ASU', 'Canonical ESR1 differences: 28; 28 annotated engineered mutations.']}
+    1:scene = {'name': 'reference_context', 'molecules': [{'name': 'reference_complex', 'path': 'data/raw/esr1/7NFB.cif', 'chain_key': '7NFB|B|1', 'model': '1', 'state': 1, 'label_asym_id': 'B', 'auth_asym_id': 'B', 'colour': 'marine', 'transform': [1.0000000000000002, -2.85797669535406e-17, 6.862444088614541e-16, -2.1316282072803006e-14, 4.876670827846308e-16, 1.0000000000000007, 5.0019126522720056e-17, -1.7763568394002505e-15, -1.1512144320842103e-16, 1.0258639037921208e-16, 1.0000000000000002, -3.552713678800501e-15, 0.0, 0.0, 0.0, 1.0], 'peptides': [{'label_asym_id': 'C', 'auth_asym_id': 'C'}, {'label_asym_id': 'D', 'auth_asym_id': 'D'}], 'highlight_resi': None, 'highlight_label': None, 'highlight_altloc': None, 'entry_title': 'ER-PRS*(+) (Y537S) in complex with genistein and SRC-2 coactivator peptide', 'ligand_codes': ['GEN']}], 'caption': 'Reference 7NFB|B|1: author chain B, label chain B, model 1. Selected receptor blue; other polymers grey; short peptides orange; organic molecules sticks. Deposited title: ER-PRS*(+) (Y537S) in complex with genistein and SRC-2 coactivator peptide Canonical ESR1 differences: 28; 28 annotated engineered mutations. Saved contact assignments: 7NFB|B|1: GEN (pocket_compatible). Green carbon sticks: GEN throughout the ASU, including other receptor copies; other organic carbons grey. Deposited asymmetric unit; waters and ions hidden. Contacts alone do not establish binding mechanism.', 'overlay': False, 'width': 1500, 'height': 1000, 'legend': ['Blue: reference 7NFB|B|1', 'Grey: other polymers; orange: short peptides', 'Green carbons: GEN across the ASU', 'Canonical ESR1 differences: 28; 28 annotated engineered mutations.']}
+    2:
+PyMOL>import os
+    3:import os
+PyMOL>from pathlib import Path
+    4:from pathlib import Path
+PyMOL>output = Path(os.environ['ESR1_REFERENCE_OUTPUT']).resolve()
+    5:output = Path(os.environ['ESR1_REFERENCE_OUTPUT']).resolve()
+PyMOL>output.mkdir(parents=True, exist_ok=True)
+    6:output.mkdir(parents=True, exist_ok=True)
+PyMOL>for molecule in scene['molecules']:
+    7:for molecule in scene['molecules']:
+PyMOL>molecule['path'] = str(Path(os.environ['ESR1_REFERENCE_CIF']).resolve())
+    8:    molecule['path'] = str(Path(os.environ['ESR1_REFERENCE_CIF']).resolve())
+PyMOL>scene['png'] = str(output / 'reference_context.png')
+    9:scene['png'] = str(output / 'reference_context.png')
+PyMOL>scene['details'] = str(output / 'reference_context.details.json')
+   10:scene['details'] = str(output / 'reference_context.details.json')
+PyMOL>scene['error'] = str(output / 'reference_context.error.txt')
+   11:scene['error'] = str(output / 'reference_context.error.txt')
+   12:
+PyMOL>from pathlib import Path
+   13:from pathlib import Path
+PyMOL>import json
+   14:import json
+PyMOL>import textwrap
+   15:import textwrap
+PyMOL>import traceback
+   16:import traceback
+PyMOL>import numpy as np
+   17:import numpy as np
+PyMOL>from pymol import cmd
+   18:from pymol import cmd
+   19:
+PyMOL>def chain_selection(name, author, label):
+   20:def chain_selection(name, author, label):
+PyMOL>selection = f"(model {name} and chain {json.dumps(author)} and polymer)"
+   21:    selection = f"(model {name} and chain {json.dumps(author)} and polymer)"
+PyMOL>labelled = selection + f" and segi {json.dumps(label)}"
+   22:    labelled = selection + f" and segi {json.dumps(label)}"
+PyMOL>if cmd.count_atoms(labelled):
+   23:    if cmd.count_atoms(labelled):
+PyMOL>selection = labelled
+   24:        selection = labelled
+PyMOL>if not cmd.count_atoms(selection):
+   25:    if not cmd.count_atoms(selection):
+PyMOL>raise ValueError(f"PyMOL author chain selection has no polymer atoms: {name}, {author}, label {label}")
+   26:        raise ValueError(f"PyMOL author chain selection has no polymer atoms: {name}, {author}, label {label}")
+PyMOL>return selection
+   27:    return selection
+   28:
+PyMOL>try:
+   29:try:
+PyMOL>cmd.reinitialize()
+   30:    cmd.reinitialize()
+PyMOL>cmd.set("cif_use_auth", 1)
+   31:    cmd.set("cif_use_auth", 1)
+PyMOL>cmd.set("matrix_mode", 0)
+   32:    cmd.set("matrix_mode", 0)
+PyMOL>cmd.set("orthoscopic", 1)
+   33:    cmd.set("orthoscopic", 1)
+PyMOL>cmd.set("ray_shadows", 0)
+   34:    cmd.set("ray_shadows", 0)
+PyMOL>cmd.set("antialias", 2)
+   35:    cmd.set("antialias", 2)
+PyMOL>cmd.set("opaque_background", 1)
+   36:    cmd.set("opaque_background", 1)
+PyMOL>cmd.bg_color("white")
+   37:    cmd.bg_color("white")
+PyMOL>cmd.set("cartoon_fancy_helices", 1)
+   38:    cmd.set("cartoon_fancy_helices", 1)
+PyMOL>cmd.set("stick_radius", .16)
+   39:    cmd.set("stick_radius", .16)
+PyMOL>cmd.set("label_color", "black")
+   40:    cmd.set("label_color", "black")
+PyMOL>cmd.set("label_outline_color", "white")
+   41:    cmd.set("label_outline_color", "white")
+PyMOL>cmd.set("label_size", 24)
+   42:    cmd.set("label_size", 24)
+PyMOL>cmd.set("label_font_id", 7)
+   43:    cmd.set("label_font_id", 7)
+PyMOL>cmd.set("float_labels", 1)
+   44:    cmd.set("float_labels", 1)
+PyMOL>cmd.set("label_distance_digits", 3)
+   45:    cmd.set("label_distance_digits", 3)
+PyMOL>cmd.viewport(scene["width"], scene["height"])
+   46:    cmd.viewport(scene["width"], scene["height"])
+PyMOL>focus = []
+   47:    focus = []
+PyMOL>highlights = []
+   48:    highlights = []
+PyMOL>atom_counts = {}
+   49:    atom_counts = {}
+PyMOL>highlighted_coords = []
+   50:    highlighted_coords = []
+PyMOL>transformed_objects = []
+   51:    transformed_objects = []
+PyMOL>for molecule in scene["molecules"]:
+   52:    for molecule in scene["molecules"]:
+PyMOL>name = molecule["name"]
+   53:        name = molecule["name"]
+PyMOL>cmd.load(molecule["path"], "raw_input", multiplex=0)
+   54:        cmd.load(molecule["path"], "raw_input", multiplex=0)
+PyMOL>cmd.create(name, "raw_input", source_state=molecule["state"], target_state=1)
+   55:        cmd.create(name, "raw_input", source_state=molecule["state"], target_state=1)
+PyMOL>cmd.delete("raw_input")
+   56:        cmd.delete("raw_input")
+PyMOL>atom_counts[name] = cmd.count_atoms(name)
+   57:        atom_counts[name] = cmd.count_atoms(name)
+PyMOL>if not atom_counts[name]:
+   58:        if not atom_counts[name]:
+PyMOL>raise ValueError(f"No atoms loaded from {molecule['path']} state {molecule['state']}")
+   59:            raise ValueError(f"No atoms loaded from {molecule['path']} state {molecule['state']}")
+PyMOL>if molecule["transform"] is not None:
+   60:        if molecule["transform"] is not None:
+PyMOL>before = cmd.get_coords(name, state=1)
+   61:            before = cmd.get_coords(name, state=1)
+PyMOL>cmd.transform_object(name, molecule["transform"], state=1, homogenous=1, transpose=0)
+   62:            cmd.transform_object(name, molecule["transform"], state=1, homogenous=1, transpose=0)
+PyMOL>after = cmd.get_coords(name, state=1)
+   63:            after = cmd.get_coords(name, state=1)
+PyMOL>matrix = np.array(molecule["transform"]).reshape(4, 4)
+   64:            matrix = np.array(molecule["transform"]).reshape(4, 4)
+PyMOL>expected = before @ matrix[:3, :3].T + matrix[:3, 3]
+   65:            expected = before @ matrix[:3, :3].T + matrix[:3, 3]
+PyMOL>if not np.allclose(after, expected, atol=2e-4, rtol=1e-6):
+   66:            if not np.allclose(after, expected, atol=2e-4, rtol=1e-6):
+PyMOL>raise ValueError(f"PyMOL whole-molecule transform disagrees with saved rigid transform: {molecule['chain_key']}")
+   67:                raise ValueError(f"PyMOL whole-molecule transform disagrees with saved rigid transform: {molecule['chain_key']}")
+PyMOL>transformed_objects.append(name)
+   68:            transformed_objects.append(name)
+PyMOL>cmd.hide("everything", name)
+   69:        cmd.hide("everything", name)
+PyMOL>cmd.color("grey70", name)
+   70:        cmd.color("grey70", name)
+PyMOL>cmd.show("cartoon", f"model {name} and polymer")
+   71:        cmd.show("cartoon", f"model {name} and polymer")
+PyMOL>if scene["overlay"]:
+   72:        if scene["overlay"]:
+PyMOL>cmd.set("cartoon_transparency", .8, name)
+   73:            cmd.set("cartoon_transparency", .8, name)
+PyMOL>elif scene["name"] == "7baa_context":
+   74:        elif scene["name"] == "7baa_context":
+PyMOL>cmd.set("cartoon_transparency", .35, name)
+   75:            cmd.set("cartoon_transparency", .35, name)
+PyMOL>selected = chain_selection(name, molecule["auth_asym_id"], molecule["label_asym_id"])
+   76:        selected = chain_selection(name, molecule["auth_asym_id"], molecule["label_asym_id"])
+PyMOL>if molecule.get("domain_resi"):
+   77:        if molecule.get("domain_resi"):
+PyMOL>cmd.hide("everything", name)
+   78:            cmd.hide("everything", name)
+PyMOL>selected += " and resi " + json.dumps(molecule["domain_resi"])
+   79:            selected += " and resi " + json.dumps(molecule["domain_resi"])
+PyMOL>cmd.show("cartoon", selected)
+   80:            cmd.show("cartoon", selected)
+PyMOL>focus.append(selected)
+   81:        focus.append(selected)
+PyMOL>cmd.color(molecule["colour"], selected)
+   82:        cmd.color(molecule["colour"], selected)
+PyMOL>cmd.set("cartoon_transparency", 0, selected)
+   83:        cmd.set("cartoon_transparency", 0, selected)
+PyMOL>for author in molecule.get("partner_chains", []):
+   84:        for author in molecule.get("partner_chains", []):
+PyMOL>partner = f"model {name} and chain {json.dumps(author)} and polymer"
+   85:            partner = f"model {name} and chain {json.dumps(author)} and polymer"
+PyMOL>if not cmd.count_atoms(partner):
+   86:            if not cmd.count_atoms(partner):
+PyMOL>raise ValueError(f"Requested partner chain absent: {name}, {author}")
+   87:                raise ValueError(f"Requested partner chain absent: {name}, {author}")
+PyMOL>cmd.show("cartoon", partner)
+   88:            cmd.show("cartoon", partner)
+PyMOL>cmd.color("orange", partner)
+   89:            cmd.color("orange", partner)
+PyMOL>for peptide in ([] if molecule.get("domain_resi") else molecule["peptides"]):
+   90:        for peptide in ([] if molecule.get("domain_resi") else molecule["peptides"]):
+PyMOL>peptide_selection = chain_selection(name, peptide["auth_asym_id"], peptide["label_asym_id"])
+   91:            peptide_selection = chain_selection(name, peptide["auth_asym_id"], peptide["label_asym_id"])
+PyMOL>cmd.color("orange", peptide_selection)
+   92:            cmd.color("orange", peptide_selection)
+PyMOL>cmd.show("sticks", peptide_selection)
+   93:            cmd.show("sticks", peptide_selection)
+PyMOL>if not molecule.get("domain_resi"):
+   94:        if not molecule.get("domain_resi"):
+PyMOL>cmd.show("sticks", f"model {name} and organic")
+   95:            cmd.show("sticks", f"model {name} and organic")
+PyMOL>cmd.color("grey50", f"model {name} and organic and elem C")
+   96:        cmd.color("grey50", f"model {name} and organic and elem C")
+PyMOL>cmd.color("red", f"model {name} and organic and elem O")
+   97:        cmd.color("red", f"model {name} and organic and elem O")
+PyMOL>cmd.color("blue", f"model {name} and organic and elem N")
+   98:        cmd.color("blue", f"model {name} and organic and elem N")
+PyMOL>for code in molecule["ligand_codes"]:
+   99:        for code in molecule["ligand_codes"]:
+PyMOL>ligand_selection = f"model {name} and organic and resn {json.dumps(code)}"
+  100:            ligand_selection = f"model {name} and organic and resn {json.dumps(code)}"
+PyMOL>cmd.show("sticks", ligand_selection)
+  101:            cmd.show("sticks", ligand_selection)
+PyMOL>if scene["name"] == "reference_context":
+  102:            if scene["name"] == "reference_context":
+PyMOL>cmd.color("forest", ligand_selection + " and elem C")
+  103:                cmd.color("forest", ligand_selection + " and elem C")
+PyMOL>cmd.set("stick_radius", .22, ligand_selection)
+  104:                cmd.set("stick_radius", .22, ligand_selection)
+PyMOL>ligand_atoms = cmd.index(ligand_selection)
+  105:            ligand_atoms = cmd.index(ligand_selection)
+PyMOL>if ligand_atoms:
+  106:            if ligand_atoms:
+PyMOL>object_name, atom_index = ligand_atoms[0]
+  107:                object_name, atom_index = ligand_atoms[0]
+PyMOL>cmd.label(f"model {object_name} and index {atom_index}", repr(code))
+  108:                cmd.label(f"model {object_name} and index {atom_index}", repr(code))
+PyMOL>if not molecule.get("domain_resi"):
+  109:        if not molecule.get("domain_resi"):
+PyMOL>cmd.show("sticks", f"model {name} and polymer.nucleic")
+  110:            cmd.show("sticks", f"model {name} and polymer.nucleic")
+PyMOL>if molecule["highlight_resi"] is not None:
+  111:        if molecule["highlight_resi"] is not None:
+PyMOL>highlight = selected + f" and resi {json.dumps(molecule['highlight_resi'])} and name CA and alt {json.dumps(molecule['highlight_altloc'])}"
+  112:            highlight = selected + f" and resi {json.dumps(molecule['highlight_resi'])} and name CA and alt {json.dumps(molecule['highlight_altloc'])}"
+  113:            # The saved alternate choice is the one represented in the mapping.
+  114:            # More than one CA would make a distance label ambiguous.
+PyMOL>if cmd.count_atoms(highlight) != 1:
+  115:            if cmd.count_atoms(highlight) != 1:
+PyMOL>raise ValueError(f"Outlier CA selection must contain exactly one atom: {highlight}")
+  116:                raise ValueError(f"Outlier CA selection must contain exactly one atom: {highlight}")
+PyMOL>cmd.show("spheres", highlight)
+  117:            cmd.show("spheres", highlight)
+PyMOL>cmd.set("sphere_scale", 1, highlight)
+  118:            cmd.set("sphere_scale", 1, highlight)
+PyMOL>cmd.label(highlight, repr(molecule["highlight_label"]))
+  119:            cmd.label(highlight, repr(molecule["highlight_label"]))
+PyMOL>cmd.set("label_position", [0, 3, 0], highlight)
+  120:            cmd.set("label_position", [0, 3, 0], highlight)
+PyMOL>highlighted_coords.append(cmd.get_coords(highlight, state=1)[0].tolist())
+  121:            highlighted_coords.append(cmd.get_coords(highlight, state=1)[0].tolist())
+PyMOL>highlights.append(highlight)
+  122:            highlights.append(highlight)
+PyMOL>measured_displacement = None
+  123:    measured_displacement = None
+PyMOL>if len(highlights) == 2:
+  124:    if len(highlights) == 2:
+PyMOL>measured_displacement = float(np.linalg.norm(np.array(highlighted_coords[1]) - highlighted_coords[0]))
+  125:        measured_displacement = float(np.linalg.norm(np.array(highlighted_coords[1]) - highlighted_coords[0]))
+PyMOL>if not np.isclose(measured_displacement, scene["displacement_A"], atol=2e-4, rtol=1e-6):
+  126:        if not np.isclose(measured_displacement, scene["displacement_A"], atol=2e-4, rtol=1e-6):
+PyMOL>raise ValueError(f"Rendered CA distance {measured_displacement} differs from saved displacement {scene['displacement_A']}")
+  127:            raise ValueError(f"Rendered CA distance {measured_displacement} differs from saved displacement {scene['displacement_A']}")

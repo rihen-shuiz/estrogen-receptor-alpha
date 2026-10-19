@@ -1,0 +1,24 @@
+{
+ "task": "S08",
+ "ts": "2026-10-18T23:14+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/entry_clusters.csv",
+   "size": 8042,
+   "sha": "3349dc2adfa858a3"
+  },
+  {
+   "path": "results/linkage_entry.npy",
+   "size": 11328,
+   "sha": "4ea2085d54c443bb"
+  },
+  {
+   "path": "scripts/cluster_selected.py",
+   "size": 1662,
+   "sha": "89de108d43ac57c4"
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+LANG log v1
+2026-10-14T17:51+05:00 | S02 | PART | who=audit | chk=1/2 | ev=esr_analysis/align_structures.py | note=audit: failing: grep **/align_structures.py 340
+2026-10-14T17:51+05:00 | S04 | DONE | who=audit | chk=1/1 | ev=chk | note=audit: all checks pass
+2026-10-14T17:51+05:00 | W03 | DONE | who=audit | chk=2/2 | ev=requirements.txt | note=audit: all checks pass
+2026-10-14T17:51+05:00 | W07 | PART | who=audit | chk=2/3 | ev=README.md | note=audit: failing: grep README.md (?i)limitation
+2026-10-14T17:52+05:00 | S04 | REOPEN | who=haiku | note=audit DONE wrong: ev=chk is not a file; out results/rmsd_entry.npy missing; chk matched results/task_outputs/block_10/rmsd_entry.npy (351x351, symmetric, zero diag, same md5 as esr_analysis/resources/frozen copy); provenance unknown, S02 core fit PART and Q04 chains absent, so not verified as core-fit output for selected chains
+2026-10-14T17:52+05:00 | W03 | REOPEN | who=haiku | note=audit DONE wrong: help names umap-learn and chembl_webresource_client, absent from requirements.txt; entries are >= floors, not pins; chk only tests biopython and rdkit
+2026-10-14T17:53+05:00 | Q01 | DONE | who=haiku | chk=1/1 | ev=data/pdb_ids_esr1.txt
+2026-10-14T17:53+05:00 | Q02 | DONE | who=haiku | chk=1/1 | ev=data/pdb_ids_esr2.txt
+2026-10-14T18:05+05:00 | Q03 | DONE | who=haiku | chk=1/1 | ev=data/raw/download_manifest.csv,data/raw/sha256sums.txt
+2026-10-14T18:09+05:00 | Q04 | DONE | who=haiku | chk=1/1 | ev=results/lbd_chains.csv,results/lbd_extract/entries.csv,results/lbd_extract/receptor_chains.csv,results/lbd_extract/residue_mapping.csv
+2026-10-14T18:12+05:00 | Q05 | DONE | who=haiku | chk=1/1 | ev=results/entries.csv
+2026-10-14T18:12+05:00 | Q06 | DONE | who=haiku | chk=1/1 | ev=results/entries.csv
+2026-10-14T18:14+05:00 | Q08 | DONE | who=haiku | chk=1/1 | ev=results/ligands.csv
+2026-10-14T18:14+05:00 | C01 | DONE | who=haiku | chk=1/1 | ev=results/smiles_parse_report.csv
+2026-10-14T18:15+05:00 | Q07 | DONE | who=haiku | chk=2/2 | ev=docs/qc_summary.md,results/entries.csv,results/lbd_chains.csv
+2026-10-14T18:15+05:00 | Q09 | DONE | who=haiku | chk=1/1 | ev=results/ligands_ranked.csv
+2026-10-14T18:15+05:00 | Q12 | DONE | who=haiku | chk=1/1 | ev=results/near_duplicates.csv
+2026-10-14T18:16+05:00 | S01 | DONE | who=haiku | chk=2/2 | ev=docs/reference.md,results/lbd_chains.csv,results/entries.csv
+2026-10-14T18:17+05:00 | C02 | DONE | who=haiku | chk=1/1 | ev=results/fp_ecfp4.npy,results/fp_index.csv
+2026-10-14T18:17+05:00 | C03 | DONE | who=haiku | chk=1/1 | ev=results/fp_maccs.npy,results/fp_index.csv
+2026-10-14T18:17+05:00 | S02 | PART | who=haiku | note=chk grep align_structures.py 340 fails: literal range absent; ranges are passed in from esr1_core_ranges in main(). Function verified on synthetic rigid motion (84 core CA, H12 excluded, error ~1e-14 A). Needs human decision on the grep check; no code change made
+2026-10-14T18:17+05:00 | C04 | DONE | who=haiku | chk=1/1 | ev=results/tanimoto_ecfp4.npy
+2026-10-14T18:18+05:00 | C07 | DONE | who=haiku | chk=2/2 | ev=results/kmeans_scores.csv,results/ligand_clusters.csv
+2026-10-14T18:19+05:00 | C08 | MANUAL | who=haiku | note=prepared docs/chemistry_k_choice.md (silhouettes 0.10-0.13, K=6 provisional). Human must decide whether crystallization additives (MG, CL, GOL...) stay in the chemistry set, then choose K and sign off
+2026-10-14T18:19+05:00 | E03 | DONE | who=haiku | chk=1/1 | ev=results/numbering_map_esr1_esr2.csv
+2026-10-14T18:20+05:00 | Q13 | DONE | who=haiku | chk=1/1 | ev=figures/deposits_per_year.png
+2026-10-14T18:20+05:00 | X01 | DONE | who=haiku | chk=1/1 | ev=results/esr2_entries.csv
+2026-10-14T18:21+05:00 | E04 | DONE | who=haiku | chk=1/1 | ev=results/matched_pairs.csv
+2026-10-14T18:22+05:00 | W03 | DONE | who=haiku | chk=2/2 | ev=requirements.txt
+2026-10-14T18:23+05:00 | C05 | DONE | who=haiku | chk=1/1 | ev=results/umap_coords.csv
+2026-10-14T18:23+05:00 | - | NOTE | who=haiku | note=C05 UMAP: 474 of 480 rows finite; 6 fully disconnected vertices are NaN (kept, flagged finite=False)
+2026-10-14T18:23+05:00 | C06 | DONE | who=haiku | chk=1/1 | ev=results/tsne_coords.csv
+2026-10-14T18:25+05:00 | W02 | DONE | who=haiku | chk=1/1 | ev=esr_analysis/__init__.py
+2026-10-14T18:34+05:00 | W04 | DONE | who=haiku | chk=1/1 | ev=scripts/fetch_data.py,data/lbd/entries.csv
+2026-10-14T18:34+05:00 | W07 | DONE | who=haiku | chk=3/3 | ev=README.md
+2026-10-14T18:34+05:00 | X07 | BLOCK | who=haiku | note=needs JDK 11+ (only /usr/lib/jvm java-8-openjdk present, java -version 1.8.0_504) and prank on PATH (command -v prank fails). System JDK install needs root; not attempted. Human to install JDK 11+ and P2Rank, or approve a user-local install with PATH set
+2026-10-14T18:36+05:00 | W14 | DONE | who=haiku | chk=1/1 | ev=docs/manuscript/01_introduction.md,results/entries.csv,results/near_duplicates.csv
+2026-10-14T18:53+05:00 | X13 | DONE | who=haiku | chk=1/1 | ev=data/chembl_esr1_activities.csv
+2026-10-14T18:53+05:00 | - | NOTE | who=haiku | note=X13 ChEMBL: 6714 activities, equal to API total_count; 11 of 3856 molecules have no canonical_smiles (kept, blank)
+2026-10-14T18:54+05:00 | X14 | DONE | who=haiku | chk=1/1 | ev=results/chembl_pdb_matches.csv
+2026-10-14T19:41+05:00 | Q16 | DONE | who=claude | chk=1/1 | ev=results/ligands_ranked.csv
+2026-10-14T19:41+05:00 | C01 | REOPEN | who=claude | note=ligand_id blank for NA (sodium ion) row: pandas read_csv parsed NA as NaN when building the row-ordered table; row content is correct, only the ID column is empty. Fix: rewrite ID column from results/ligands.csv in the same row order
+2026-10-14T19:41+05:00 | C02 | REOPEN | who=claude | note=ligand_id blank for NA (sodium ion) row: pandas read_csv parsed NA as NaN when building the row-ordered table; row content is correct, only the ID column is empty. Fix: rewrite ID column from results/ligands.csv in the same row order
+2026-10-14T19:41+05:00 | C03 | REOPEN | who=claude | note=ligand_id blank for NA (sodium ion) row: pandas read_csv parsed NA as NaN when building the row-ordered table; row content is correct, only the ID column is empty. Fix: rewrite ID column from results/ligands.csv in the same row order
+2026-10-14T19:41+05:00 | C05 | REOPEN | who=claude | note=ligand_id blank for NA (sodium ion) row: pandas read_csv parsed NA as NaN when building the row-ordered table; row content is correct, only the ID column is empty. Fix: rewrite ID column from results/ligands.csv in the same row order
+2026-10-14T19:41+05:00 | C06 | REOPEN | who=claude | note=ligand_id blank for NA (sodium ion) row: pandas read_csv parsed NA as NaN when building the row-ordered table; row content is correct, only the ID column is empty. Fix: rewrite ID column from results/ligands.csv in the same row order
+2026-10-14T19:41+05:00 | C07 | REOPEN | who=claude | note=ligand_id blank for NA (sodium ion) row: pandas read_csv parsed NA as NaN when building the row-ordered table; row content is correct, only the ID column is empty. Fix: rewrite ID column from results/ligands.csv in the same row order
+2026-10-14T19:41+05:00 | C01 | DONE | who=claude | chk=1/1 | ev=results/smiles_parse_report.csv
+2026-10-14T19:41+05:00 | C02 | DONE | who=claude | chk=1/1 | ev=results/fp_ecfp4.npy,results/fp_index.csv
+2026-10-14T19:41+05:00 | C03 | DONE | who=claude | chk=1/1 | ev=results/fp_maccs.npy,results/fp_index.csv
+2026-10-14T19:41+05:00 | C05 | DONE | who=claude | chk=1/1 | ev=results/umap_coords.csv
+2026-10-14T19:41+05:00 | C06 | DONE | who=claude | chk=1/1 | ev=results/tsne_coords.csv
+2026-10-14T19:41+05:00 | C07 | DONE | who=claude | chk=2/2 | ev=results/kmeans_scores.csv,results/ligand_clusters.csv
+2026-10-14T20:44+05:00 | C10 | DONE | who=haiku | chk=2/2 | ev=results/ligand_clusters_noadd.csv,results/kmeans_scores_noadd.csv
+2026-10-14T20:44+05:00 | - | NOTE | who=haiku | note=C07 superseded for chemistry: ligand_clusters.csv and kmeans_scores.csv cluster all 480 ligands incl. is_additive rows. Use the C10 *_noadd files. Old files kept; C07 state unchanged
+2026-10-15T23:35+05:00 | Q18 | DONE | who=haiku | chk=3/3 | ev=scripts/ligand_of_interest.py,results/chain_ligand_of_interest.csv | note=788 eligible ESR1 chains kept, 810 rows; flag-contact ligand else 3+ pocket contacts at 4.5 A; waters ions additives excluded; 7 apo_or_unclear; 38 multi rows
+2026-10-15T23:37+05:00 | Q17 | DONE | who=haiku | chk=2/2 | ev=data/raw/download_manifest.csv,scripts/relative_manifest_paths.py,esr_analysis/download_structures.py | note=526 paths now data/raw/<ID>.cif, no network; writer download_structures gets root arg, offline main path fixed, fetch_data passes root
+2026-10-15T23:39+05:00 | C11 | DONE | who=haiku | chk=3/3 | ev=results/ligands_of_interest.csv,results/kmeans_scores_loi.csv,results/ligand_clusters_loi.csv,results/loi_fp_ecfp4.npy,results/loi_tanimoto_ecfp4.npy,scripts/chem_ligands_of_interest.py | note=306 ligands from 803 chain-ligand rows; ECFP4 bits and Tanimoto equal saved full-set rows (diff 0); K-means n_init 20 seed 42; best silhouette K=7 (0.144); old files kept
+2026-10-15T23:45+05:00 | S17 | DONE | who=haiku | chk=2/2 | ev=scripts/clean_chain_pdbs.py,data/clean/resname_map.csv,data/clean/1A52_A.pdb,data/clean/3OS9_A.pdb,data/clean/6PET_A.pdb | note=788 PDBs, one per eligible ESR1 chain; receptor chain plus Q18 ligand instances; no waters ions additives partners; 20 long CCD IDs shortened to last 3 chars (resname_map.csv); coordinates checked vs mmCIF on 28 files; Biopython parses all
+2026-10-15T23:46+05:00 | - | NOTE | who=haiku | note=Q17 writer change also touched scripts/fetch_data.py (download_structures called with root=ROOT); that file is not in the Q17 ev list
+2026-10-16T00:15+05:00 | P01 | DONE | who=haiku | chk=3/3 | ev=results/provisional/clusters.csv,results/provisional/entropy_sensitivity.csv,figures/provisional_threshold_sensitivity.png,scripts/provisional_clusters.py,scripts/provisional_common.py | note=Sep matrix loaded; average linkage reproduces Sep 1.5A groups 212,124,6,2,2,2,1,1,1 (ARI 1.0). Clusters 18/9/5/4 at 1.0/1.5/2.0/2.5A; entropy 2.000/1.270/1.135/1.022 bits
+2026-10-16T00:17+05:00 | P02 | DONE | who=haiku | chk=3/3 | ev=results/provisional/diversity_curve.csv,results/provisional/saturation.csv,figures/provisional_diversity_curve.png,scripts/provisional_saturation.py,scripts/provisional_common.py | note=100 random orderings, seed 42. n_90 = 293 (1.0A, total 18), 275 (1.5A, 9), 217 (2.0A, 5), 241 (2.5A, 4)
+2026-10-16T00:17+05:00 | P03 | DONE | who=haiku | chk=1/1 | ev=results/provisional/qc_delta.csv,scripts/provisional_qc_delta.py,scripts/provisional_common.py | note=QC pass set 247 entries reclustered per cut; 1.5A: 9 to 7 clusters, n_90 275 to 184, 2 full-set clusters lose all pass members (sizes 2 and 1)
+2026-10-16T00:18+05:00 | P04 | DONE | who=haiku | chk=1/1 | ev=results/provisional/chem_struct_test.csv,results/provisional/chem_struct_contingency.csv,scripts/provisional_chem_struct.py,results/provisional/clusters.csv,results/chain_ligand_of_interest.csv,results/ligand_clusters_loi.csv | note=n=346 entries (5 apo excluded, 6 multi resolved by max pocket contacts). Chi2=151.18 df=48 p=1.3e-12 with 50 of 63 cells expected below 5; permutation p=9.999e-05 (0 of 10000 shuffles reached the observed statistic, p=(k+1)/(N+1))
+2026-10-16T00:19+05:00 | - | NOTE | who=haiku | note=numbers sheet: docs/numbers.md
+2026-10-18T23:05+05:00 | S02 | DONE | who=haiku | chk=2/2 | ev=esr_analysis/align_structures.py
+2026-10-18T23:11+05:00 | S03 | DONE | who=haiku | chk=1/1 | ev=results/alignment_core_rmsd.csv,results/alignment/aligned_coordinates.npz,results/alignment/alignment_transforms.json,results/alignment/global_alignment.csv,scripts/align_selected_chains.py
+2026-10-18T23:12+05:00 | S04 | DONE | who=haiku | chk=1/1 | ev=results/rmsd_entry.npy,results/alignment/rmsd_entry_index.txt,results/alignment/overlap_entry.npy,results/alignment/distance_exclusions.json,scripts/build_selected_rmsd.py
+2026-10-18T23:12+05:00 | - | NOTE | who=haiku | note=S04 rebuilt from S03 fits: 351 entries (0 pruned); 0 of 61425 pairs differ from Sep matrix (threshold 1e-6 A, max diff 0 A); result byte-identical to esr_analysis/resources/frozen/rmsd_entry.npy
+2026-10-18T23:12+05:00 | - | NOTE | who=haiku | note=S04 index source: frozen rmsd_entry_index.txt (351 chains, one per entry, all eligible in results/lbd_chains.csv). No repo code derives it. A completeness-first rule (mapped LBD, core, H12 CA, then resolution) matched 346 of 351 entries, so the frozen list was used as given
+2026-10-18T23:12+05:00 | S05 | DONE | who=haiku | chk=1/1 | ev=results/rmsd_entry_index.csv,scripts/save_rmsd_index.py
+2026-10-18T23:13+05:00 | S16 | DONE | who=haiku | chk=1/1 | ev=results/h12_metric.csv,scripts/h12_metric.py | note=351 entries; 7 with no shared H12 CA left empty (h12_rmsd blank); 127 entries above 5 A
+2026-10-18T23:13+05:00 | S06 | DONE | who=haiku | chk=1/1 | ev=docs/limitations.md,results/rmsd_entry.npy,results/h12_metric.csv
+2026-10-18T23:14+05:00 | S08 | DONE | who=haiku | chk=1/1 | ev=results/entry_clusters.csv,results/linkage_entry.npy,scripts/cluster_selected.py | note=clusters per cut 18/9/5/4 at 1.0/1.5/2.0/2.5 A; matches provisional P01 counts
+2026-10-18T23:14+05:00 | S09 | DONE | who=haiku | chk=1/1 | ev=results/cluster_stats.csv,scripts/cluster_stats.py
+2026-10-18T23:15+05:00 | S10 | DONE | who=haiku | chk=1/1 | ev=figures/dendrogram.png,scripts/figure_dendrogram.py | note=PNG is static: no hover or table view; table twin is results/entry_clusters.csv
+2026-10-18T23:15+05:00 | S12 | DONE | who=haiku | chk=1/1 | ev=results/medoids.csv,scripts/medoids.py | note=9 clusters at 1.5 A, sizes 212/124/6/2/2/2/1/1/1; size-2 clusters tie (both members equal), first in matrix order taken
+2026-10-18T23:16+05:00 | S13 | DONE | who=haiku | chk=1/1 | ev=results/qc_clustering_delta.csv,scripts/qc_clustering_delta.py | note=8 R-free failures left out (343 kept); cluster counts unchanged at 1.0/1.5/2.0/2.5 A; no full-set cluster loses all members; top-3 share moves by under 0.01
+2026-10-18T23:17+05:00 | S14 | DONE | who=haiku | chk=1/1 | ev=figures/structural_sensitivity.png,scripts/figure_sensitivity.py | note=sweep 1.0-2.5 A every 0.05 A from saved linkage; reported cuts match results/cluster_stats.csv; table twin is that CSV; PNG is static
+2026-10-18T23:36+05:00 | S03 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S04 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S05 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S06 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S08 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S09 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S10 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S12 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S13 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S14 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:36+05:00 | S16 | REOPEN | who=human | note=keep-all-data rewrite (professor notes 2026-10-18): rerun on all eligible chains; strict outputs archived by K00
+2026-10-18T23:39+05:00 | K00 | DONE | who=haiku | chk=1/1 | ev=results/archive_v2_strict/MANIFEST.csv,scripts/archive_strict_outputs.py | note=copied 19 strict outputs (12 top-level incl. docs/limitations.md, 7 under alignment/); sources untouched; sha256 verified against source
+2026-10-18T23:43+05:00 | K01 | DONE | who=haiku | chk=2/2 | ev=results/attrition_funnel.csv,results/chain_loss_reasons.csv,scripts/attrition_funnel.py | note=901 ESR1 chains: 113 completeness (109 no LBD overlap, necessary yes; 4 below screen), 437 one-per-entry, 351 in old matrix; 0 pruned by min overlap (min pairwise overlap 177); all rows kept
+2026-10-18T23:44+05:00 | K02 | DONE | who=haiku | chk=1/1 | ev=results/helix_table.csv,scripts/helix_table.py | note=11 helices from 7NFB chain B struct_conf (no DSSP binary). Source H12 = 537-546 vs settings 538-547: disagrees by one residue at each end, both reported, settings unchanged; names other than H12 are unknown
+2026-10-18T23:45+05:00 | K03 | DONE | who=haiku | chk=1/1 | ev=results/helix_bfactor_by_chain.csv,scripts/helix_bfactors.py | note=788 chains; tertile cut points about 34.1 and 45.6 A^2 mean CA B; 23 chains with no H12 CA (blank), 29 chains missing a helix (blank). Raw and normalised H12/core ratios are identical by construction (chain median cancels). Core = current settings core; H12 = settings 538-547
+2026-10-18T23:47+05:00 | K04 | DONE | who=haiku | chk=5/5 | ev=results/helix_stability_by_bgroup.csv,results/h12_core_ratio_by_bgroup.csv,docs/helix_stability.md,figures/helix_bfactor_stability.png,esr_analysis/resources/config/alignment_core_v3.json,scripts/helix_stability.py | note=recommended core AB5 338-362, AB7 371-396, AB9 420-439, AC1 441-456, AC3 496-531 = 123 residues; differs from current 84-residue core. H12/core median ratio 1.255 (not 12x); raw and normalised ratios identical by construction; settings unchanged
+2026-10-18T23:50+05:00 | S03 | DONE | who=haiku | chk=1/1 | ev=results/alignment_core_rmsd.csv,results/alignment/aligned_coordinates.npz,results/alignment/alignment_transforms.json,results/alignment/global_alignment.csv,results/alignment/aligned_coordinates_old_core.npz,results/alignment/alignment_transforms_old_core.json,results/alignment/global_alignment_old_core.csv,scripts/align_selected_chains.py | note=788 eligible chains on new core (123 residues) and old core (84). Core RMSD new median 0.473 A (max 1.839), old median 0.665 (max 4.236). Old-core fit matches archived strict run (coords identical). No chain labelled large (2.0 A, label only)
+2026-10-18T23:50+05:00 | - | NOTE | who=haiku | note=S03 reference chain_key: 7NFB|B|1 (same reference as the last run, esr_analysis/resources/frozen/reference.json)
+2026-10-18T23:51+05:00 | S04 | DONE | who=haiku | chk=1/1 | ev=results/rmsd_entry.npy,results/alignment/rmsd_entry_index.txt,results/alignment/overlap_entry.npy,results/alignment/distance_exclusions.json,scripts/build_selected_rmsd.py | note=788 chains, 0 left out (min pairwise overlap 177 >= 150), 310078 pairs, no NaN. Against archived 351-chain matrix on shared chains: 61422 of 61425 pairs differ (new vs old core), max 2.198 A
+2026-10-18T23:51+05:00 | S05 | DONE | who=haiku | chk=1/1 | ev=results/rmsd_entry_index.csv,scripts/save_rmsd_index.py | note=788 chain rows; 351 entries; an entry with several chains appears several times
+2026-10-18T23:52+05:00 | S16 | DONE | who=haiku | chk=1/1 | ev=results/h12_metric.csv,scripts/h12_metric.py | note=788 chains: complete 553, partial 212, not_modelled 23 (blank h12_rmsd). 327 chains above 5 A, all kept. Largest: 6PFM|A|1 28.6 A (8 CA, partial)
+2026-10-18T23:53+05:00 | K05 | DONE | who=haiku | chk=2/2 | ev=results/qc_tiers.csv,esr_analysis/resources/config/qc_tiers.json,scripts/qc_tiers.py | note=526 entries, none removed. qc_label A 397 / B 125 / C 2 / unknown 2 (missing R-free). Tier A agrees with old flags on every metric. B limits are starting values in qc_tiers.json
+2026-10-18T23:53+05:00 | - | NOTE | who=haiku | note=correction to the earlier S04 index note: the frozen rmsd_entry_index.txt (351 chains) equals the historical author chain per entry in esr_analysis/resources/data/receptor_chain_choices.csv (historical_eligible True; all 351 match). The earlier note saying no source existed was wrong

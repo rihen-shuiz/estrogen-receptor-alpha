@@ -1,0 +1,34 @@
+{
+ "task": "P01",
+ "ts": "2026-10-16T00:15+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/provisional/clusters.csv",
+   "size": 9809,
+   "sha": "4508d0336750d61d"
+  },
+  {
+   "path": "results/provisional/entropy_sensitivity.csv",
+   "size": 276,
+   "sha": "f04ed4aac6edcd88"
+  },
+  {
+   "path": "figures/provisional_threshold_sensitivity.png",
+   "size": 75403,
+   "sha": "bd538a608c04c9a7"
+  },
+  {
+   "path": "scripts/provisional_clusters.py",
+   "size": 4523,
+   "sha": "dc0454e017845248"
+  },
+  {
+   "path": "scripts/provisional_common.py",
+   "size": 3008,
+   "sha": "faaf796d293ad979"
+  }
+ ]
+}

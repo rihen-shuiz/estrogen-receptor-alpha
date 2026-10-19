@@ -1,0 +1,19 @@
+{
+ "task": "Q18",
+ "ts": "2026-10-15T23:35+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "scripts/ligand_of_interest.py",
+   "size": 7162,
+   "sha": "4394e71a285f2abc"
+  },
+  {
+   "path": "results/chain_ligand_of_interest.csv",
+   "size": 114681,
+   "sha": "d1427959697c33e7"
+  }
+ ]
+}

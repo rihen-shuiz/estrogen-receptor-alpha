@@ -1,0 +1,19 @@
+{
+ "task": "S10",
+ "ts": "2026-10-18T23:15+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "figures/dendrogram.png",
+   "size": 46754,
+   "sha": "a5876c05a8c20835"
+  },
+  {
+   "path": "scripts/figure_dendrogram.py",
+   "size": 2699,
+   "sha": "16171087d146234a"
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "block": 1,
+    "module": "query_structures",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.query_structures",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_01"
+    ],
+    "returncode": 0,
+    "stdout": "Block 01: 487 IDs, live=False\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 2,
+    "module": "download_structures",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.download_structures",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_02"
+    ],
+    "returncode": 0,
+    "stdout": "Block 02: 4 explicit structures, live=False\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 3,
+    "module": "extract_metadata",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.extract_metadata",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_03"
+    ],
+    "returncode": 0,
+    "stdout": "Block 03: metadata for 4 raw entries\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 4,
+    "module": "extract_lbd",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.extract_lbd",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_04"
+    ],
+    "returncode": 0,
+    "stdout": "Block 04: 11 declared chain/models; fragments retained\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 5,
+    "module": "flag_quality",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.flag_quality",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_05"
+    ],
+    "returncode": 0,
+    "stdout": "Block 05: {'pass': 369, 'fail': 117, 'unknown': 1}\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 6,
+    "module": "build_ligand_table",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.build_ligand_table",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_06"
+    ],
+    "returncode": 0,
+    "stdout": "Block 06: 400 contacting CCD/context rows; 400 exact identities\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 7,
+    "module": "assign_action_classes",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.assign_action_classes",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_07"
+    ],
+    "returncode": 0,
+    "stdout": "Block 07: {'unknown': 393, 'degrader': 4, 'agonist': 3}\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 8,
+    "module": "choose_reference",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.choose_reference",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_08"
+    ],
+    "returncode": 0,
+    "stdout": "Block 08: 7NFB|B|1\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 9,
+    "module": "align_structures",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.align_structures",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_09"
+    ],
+    "returncode": 0,
+    "stdout": "Block 09: 2 explicit chains; no pairwise refits\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 10,
+    "module": "calculate_rmsd",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.calculate_rmsd",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_10"
+    ],
+    "returncode": 0,
+    "stdout": "Block 10: 351 entries, 61425 distinct pairs\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 11,
+    "module": "cluster_structures",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.cluster_structures",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_11"
+    ],
+    "returncode": 0,
+    "stdout": "Block 11: 9 baseline groups\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 12,
+    "module": "structural_pca",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.structural_pca",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_12"
+    ],
+    "returncode": 0,
+    "stdout": "Block 12: variance [0.9061001199700581, 0.07493449329557664]\n",
+    "stderr": "",
+    "help_returncode": 0
+  },
+  {
+    "block": 13,
+    "module": "regional_variation",
+    "command": [
+      "/tmp/esr_firstmonth_verify/env/bin/python",
+      "-m",
+      "esr_analysis.regional_variation",
+      "--output",
+      "/tmp/esr_firstmonth_verify/trial/block_13"
+    ],
+    "returncode": 0,
+    "stdout": "Local variation: 351 entry frames, 172/246 common CA atoms; MDAnalysis unavailable. Profiles and displacements: /tmp/esr_firstmonth_verify/trial/block_13\n",
+    "stderr": "",
+    "help_returncode": 0
+  }
+]

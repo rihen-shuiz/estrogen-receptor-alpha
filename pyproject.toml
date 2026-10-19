@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esr1-first-month-standalone"
+version = "1.0.0"
+description = "Independent, frozen ESR1 first-month task and figure reproduction"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.1", "biopython>=1.83", "scipy>=1.11", "scikit-learn>=1.4", "matplotlib>=3.8", "requests>=2.31", "rdkit>=2024.3", "pillow>=9"]
+
+[tool.setuptools.packages.find]
+include = ["esr_analysis*", "tools"]
+
+[tool.setuptools.package-data]
+esr_analysis = ["resources/**/*"]

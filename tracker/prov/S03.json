@@ -1,0 +1,49 @@
+{
+ "task": "S03",
+ "ts": "2026-10-18T23:50+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/alignment_core_rmsd.csv",
+   "size": 66402,
+   "sha": "4c72a944d9893da8"
+  },
+  {
+   "path": "results/alignment/aligned_coordinates.npz",
+   "size": 4202269,
+   "sha": "df601a986e0ed353"
+  },
+  {
+   "path": "results/alignment/alignment_transforms.json",
+   "size": 1637443,
+   "sha": "99573c6aa3241569"
+  },
+  {
+   "path": "results/alignment/global_alignment.csv",
+   "size": 39602,
+   "sha": "3f5808d7ccb843f2"
+  },
+  {
+   "path": "results/alignment/aligned_coordinates_old_core.npz",
+   "size": 4202637,
+   "sha": "0a6a5fde4d27b58a"
+  },
+  {
+   "path": "results/alignment/alignment_transforms_old_core.json",
+   "size": 1256748,
+   "sha": "98e09182c57991a9"
+  },
+  {
+   "path": "results/alignment/global_alignment_old_core.csv",
+   "size": 38674,
+   "sha": "4d68faa042e08581"
+  },
+  {
+   "path": "scripts/align_selected_chains.py",
+   "size": 7196,
+   "sha": "c38e13390d1391df"
+  }
+ ]
+}

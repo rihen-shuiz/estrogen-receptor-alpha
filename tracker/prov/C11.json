@@ -1,0 +1,39 @@
+{
+ "task": "C11",
+ "ts": "2026-10-15T23:39+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/ligands_of_interest.csv",
+   "size": 69780,
+   "sha": "35b583f02e7b57b9"
+  },
+  {
+   "path": "results/kmeans_scores_loi.csv",
+   "size": 275,
+   "sha": "e97eeae90db6d954"
+  },
+  {
+   "path": "results/ligand_clusters_loi.csv",
+   "size": 5014,
+   "sha": "d152d1c1b8e3aff2"
+  },
+  {
+   "path": "results/loi_fp_ecfp4.npy",
+   "size": 626816,
+   "sha": "4d26a6c6172dd76c"
+  },
+  {
+   "path": "results/loi_tanimoto_ecfp4.npy",
+   "size": 749216,
+   "sha": "b73ab5a7f066b564"
+  },
+  {
+   "path": "scripts/chem_ligands_of_interest.py",
+   "size": 5226,
+   "sha": "fed9c1134b8403d1"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "task": "S16",
+ "ts": "2026-10-18T23:52+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/h12_metric.csv",
+   "size": 46900,
+   "sha": "c32b4553130b9932"
+  },
+  {
+   "path": "scripts/h12_metric.py",
+   "size": 3049,
+   "sha": "454fe384c7192709"
+  }
+ ]
+}

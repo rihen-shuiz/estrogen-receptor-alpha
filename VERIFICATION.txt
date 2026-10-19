@@ -1,0 +1,165 @@
+FIRST-MONTH ISOLATION VERIFICATION — 2026-10-03
+
+PASSED
+
+The final code/input candidate was zipped, extracted into
+/tmp/esr_firstmonth_verify/final_extracted/ESR1_First_Month_Standalone,
+and installed with a fresh independent Python environment. The environment's
+sitecustomize audit hook rejected every file open under the original ESR1
+repository and every socket.connect during offline execution. PYTHONPATH was
+empty; subprocesses ran from /tmp. Selected module paths were asserted to be
+inside the new environment, not the original repository or its virtualenv.
+Actual installation built and installed a resource-containing wheel. No runtime
+original-repository fallback, sys.path workaround or network retrieval was used.
+The installed final scientific code/resources equal those in this delivery;
+only generated figures, execution outputs and verification documentation were
+added after the candidate execution. PACKAGE_MANIFEST.json indexes the delivery.
+
+All thirteen selected modules imported without triggering analyses/downloads.
+All thirteen --help commands returned zero. All thirteen real task invocations
+returned zero, followed by all eleven offline figure producers. Exact commands,
+stdout, stderr and return codes are in verification/COMMAND_RESULTS.json and
+per-block logs. Focused contract suite: 11 passed in 2.96 seconds, zero failed.
+Dependency check: No broken requirements found. All Python files additionally
+parsed under Python 3.10 syntax; runtime verification used Python 3.12.3 only.
+
+verification/NUMERICAL_COMPARISONS.json records 33 passed before/after
+comparisons and two explicitly skipped checks. Exact ordered IDs, residue and
+chain identifiers, action/evidence labels, reference choice and group labels
+were checked, not just output file existence. Comparisons use rtol=0,
+equal_nan=True and per-comparison absolute tolerances: matrix 1e-12 A;
+alignment transforms/centroids 1e-10; PCA coordinates 1e-8;
+ensemble and regional calculations 1e-10. Metadata comparison uses 1e-12.
+Regional displayed acceptance values use 0.0005 for three-decimal rounding.
+
+Verified frozen denominators: 487 master entries, 444 containing verified ESR1,
+351 selected; 901 verified ESR1 chain-models and 788 eligible copies.
+Master QC: 369 pass, 117 fail, one unknown; selected QC: 247 pass, 104 fail.
+Selected overlapping contexts: 319 multiple-copy, 211 partner-containing,
+zero DNA-containing entries. All 400 ESR1 exact identities were recomputed from
+local CCD descriptors; action policy reproduces 3 agonists, 4 degraders and
+393 unknowns with evidence support retained. Reference: 7NFB|B|1,
+244/246 observed LBD CA, 84/84 core and 10/10 configured H12 positions.
+
+The complete ordered 351x351 symmetric zero-diagonal matrix was recomputed
+from saved aligned coordinates, without repeating the full structural fit.
+61,425 distinct pairs; within/between-group median distances round to
+0.800/3.820 A. Average-linkage primary threshold remains 1.5 A.
+Nine group counts by ID remain 2,2,2,124,1,6,212,1,1; groups 4 and 7 contain
+336/351 entries. PCA variance fractions remain 0.9061001199700581 and
+0.07493449329557664, with saved display signs preserved. Explicit saved-core
+fit verification uses 84 shared positions for 3Q95 B and 7NFB B.
+
+Block 13 regenerated the 351-frame experimental ensemble, with 172/246 common
+CA atoms for the optional cross-check population. All 3,510 reported regional
+chain rows retain identifiers and reproduce the original regional values.
+B normalization uses population SD (ddof=0), valid B>=0 and >=80% valid regional
+coverage. Missing observations remain missing. Provisional H12* 536-545 remains
+distinct from configured H12 538-547. Representative report rows match:
+  H6: 328 chains; full z 1.144; QC z 1.086; variation 0.703 A.
+  H12*: 344 chains; full z 0.339; QC z 0.325; variation 6.500 A.
+  H5: 351 chains; full z -0.846; QC z -0.830; variation 0.423 A.
+  H8: 351 chains; full z -0.860; QC z -0.857; variation 0.334 A.
+Experimental-ensemble RMSF is structural variability, not molecular-dynamics motion.
+
+ACTUAL RENDER AND VISUAL REVIEW
+
+Fresh PyMOL rendering ran through esr_analysis.render_reference using the
+bundled 7NFB mmCIF and an explicit fresh-environment PyMOL executable.
+Command: /tmp/esr_firstmonth_verify/env/bin/python -m esr_analysis.render_reference
+  --output /tmp/esr_firstmonth_verify/trial/reference_render
+  --pymol /tmp/esr_firstmonth_verify/env/bin/pymol
+Return code zero; 9,328 atoms in reference_complex; saved whole-object transform
+checked against all atom coordinates (absolute tolerance 2e-4 A).
+PyMOL runtime reports 3.2.0a; installed distribution is 3.2.0a0.
+reference_render/ contains the newly rendered full image, details, recipe and log.
+Original full image remains independently preserved in the input resources.
+Both images are 1500x1170 pixels including captions; mean absolute RGB-channel
+difference is 0.00003209876543209876 on the 0-255 scale. This is an actual
+render comparison, not a cached-image-only verification.
+
+All eleven generated PNGs were visually inspected for panel content, readable
+labels, units, legends, population ordering and explicit missing observations.
+The alignment figure uses deposited, centered and saved-fit stages; PCA panels
+share coordinates and limits; group QC bars retain baseline membership.
+Regional labels retain provisional boundaries. RMSF and coverage remain separate
+panels. New and original 7NFB images retain the full ASU, GEN across copies,
+reference B blue, other polymers grey, peptides orange and truthful captions.
+Ordinary plots have PNG and vector PDF versions; reference PDF necessarily
+embeds the raster molecular image. Exact PDFs are not compared byte-for-byte.
+
+FAILED
+
+No final focused contract, task, figure producer, dependency, baseline numerical
+or original-preservation check failed. This statement concerns the scoped final
+package, not a completion audit of later-month work.
+
+SKIPPED / DECLARED LIMITS
+
+1. MDAnalysis is not installed in the fresh environment. Its optional numerical
+cross-check reports unavailable; it is not counted as passed. NumPy RMSF and
+regional calculations were executed and compared. The frozen historical
+common-atom trajectory does not imply a fresh MDAnalysis execution.
+2. ESR1_First_Month_Report.pdf, ESR1_First_Month_LaTeX_Source.zip and their
+reference/REPORT_FIGURE_RECIPE.txt were not present. The user instructed ignoring
+those references and using the folder contents. Exact missing-report styling,
+crop and layout matching is therefore skipped. All eleven figures use actual
+local scientific inputs; none is falsely attributed to the absent report recipe.
+3. Network/live collection was not executed; it is an explicit alternative,
+separate from the frozen report cohort. The query snapshot is derived from the
+original master ID list, not an invented historical HTTP response/date.
+4. Raw pilot execution covers exactly 3Q95, 7NFB, 7BAA and 6CHZ, retaining
+all declared chains/models, including fragments. Full 487-entry raw re-inventory
+requires additional local mmCIFs or explicitly requested downloads. The full
+487-entry master tables and complete reported selected ensemble are bundled.
+
+ORIGINAL PRESERVATION
+
+All 7,586 original protected active files were rehashed against the preceding
+cleanup manifest; zero changed or missing. Original master data, scientific
+source, configuration, results and previous delivery ZIP remain untouched.
+verification/ORIGINAL_PRESERVATION.json records that result.
+verification/FUNCTION_CORRESPONDENCE.json compares existing task function ASTs:
+retained calculation functions are unchanged; regional_bfactors is a small
+adapter to the scoped ESR1 producer. Only standalone CLIs, paths and focused
+figure helpers were added; later scientific products are excluded.
+
+ACTUAL TEST ENVIRONMENT
+
+Python: 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
+Platform: Linux x86_64.
+Core requirements: requirements.txt and pyproject.toml.
+Actual tested constraints (including separate render/test/build tools):
+  Pygments==2.21.0
+  biopython==1.88
+  certifi==2026.7.22
+  charset-normalizer==3.5.2
+  cloudpickle==3.1.2
+  contourpy==1.4.0
+  cycler==0.12.1
+  fonttools==4.66.1
+  idna==3.20
+  iniconfig==2.3.0
+  joblib==1.6.0
+  kiwisolver==1.5.1
+  matplotlib==3.11.2
+  narwhals==2.26.0
+  numpy==2.5.3
+  packaging==26.3
+  pandas==3.0.6
+  pillow==12.3.0
+  pip==24.0
+  pluggy==1.6.0
+  pymol-open-source==3.2.0a0
+  pyparsing==3.3.3
+  pytest==9.1.1
+  python-dateutil==2.9.0.post0
+  rdkit==2026.3.6
+  requests==2.34.2
+  scikit-learn==1.9.1
+  scipy==1.18.1
+  setuptools==84.0.0
+  six==1.17.0
+  threadpoolctl==3.7.0
+  urllib3==2.8.0
+  wheel==0.48.0

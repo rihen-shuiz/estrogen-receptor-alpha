@@ -1,0 +1,34 @@
+{
+ "task": "S17",
+ "ts": "2026-10-15T23:45+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "scripts/clean_chain_pdbs.py",
+   "size": 5318,
+   "sha": "a6717690b0316336"
+  },
+  {
+   "path": "data/clean/resname_map.csv",
+   "size": 2510,
+   "sha": "b383f5b2f2748989"
+  },
+  {
+   "path": "data/clean/1A52_A.pdb",
+   "size": 151870,
+   "sha": "535313bc3be7372c"
+  },
+  {
+   "path": "data/clean/3OS9_A.pdb",
+   "size": 146893,
+   "sha": "f3ab0b6db3e8fb83"
+  },
+  {
+   "path": "data/clean/6PET_A.pdb",
+   "size": 301733,
+   "sha": "61ed7f5598eecece"
+  }
+ ]
+}

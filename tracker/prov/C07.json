@@ -1,0 +1,19 @@
+{
+ "task": "C07",
+ "ts": "2026-10-14T19:41+05:00",
+ "who": "claude",
+ "git": "e79fac3",
+ "tl_sha": "b7643ec7e0ba9bfa",
+ "ev": [
+  {
+   "path": "results/kmeans_scores.csv",
+   "size": 278,
+   "sha": "1c414837ddfd4062"
+  },
+  {
+   "path": "results/ligand_clusters.csv",
+   "size": 7838,
+   "sha": "a2476f8711f440a3"
+  }
+ ]
+}

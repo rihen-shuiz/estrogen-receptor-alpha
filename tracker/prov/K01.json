@@ -1,0 +1,24 @@
+{
+ "task": "K01",
+ "ts": "2026-10-18T23:43+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/attrition_funnel.csv",
+   "size": 2864,
+   "sha": "3c03ff1302589fab"
+  },
+  {
+   "path": "results/chain_loss_reasons.csv",
+   "size": 101622,
+   "sha": "81d15681f32d5fd7"
+  },
+  {
+   "path": "scripts/attrition_funnel.py",
+   "size": 13897,
+   "sha": "32a19cd4b5cf9d95"
+  }
+ ]
+}

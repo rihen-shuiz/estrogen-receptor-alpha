@@ -1,0 +1,24 @@
+FIRST-MONTH REPORTED FUNCTION CHECKLIST
+
+This isolated checklist covers only the thirteen reported first-month tasks.
+Each tick corresponds to exactly one main Python task file. Shared helpers,
+figure producers and optional rendering tools are dependencies, not extra ticks.
+Ticks mean the isolated module imported, CLI help worked, and its declared
+bundled-input invocation executed successfully. Raw-input scope is the explicit
+four-entry pilot where documented; ticks do not imply a new full raw download.
+The original project's later monthly checklist groups remain unchanged.
+
+MONTH 1 — REPORTED TASK GROUP
+[x] 01 esr_analysis/query_structures.py
+[x] 02 esr_analysis/download_structures.py
+[x] 03 esr_analysis/extract_metadata.py
+[x] 04 esr_analysis/extract_lbd.py
+[x] 05 esr_analysis/flag_quality.py
+[x] 06 esr_analysis/build_ligand_table.py
+[x] 07 esr_analysis/assign_action_classes.py
+[x] 08 esr_analysis/choose_reference.py
+[x] 09 esr_analysis/align_structures.py
+[x] 10 esr_analysis/calculate_rmsd.py
+[x] 11 esr_analysis/cluster_structures.py
+[x] 12 esr_analysis/structural_pca.py
+[x] 13 esr_analysis/regional_variation.py

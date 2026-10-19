@@ -1,0 +1,39 @@
+{
+ "task": "K04",
+ "ts": "2026-10-18T23:47+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/helix_stability_by_bgroup.csv",
+   "size": 5429,
+   "sha": "b18db1ee21b4e768"
+  },
+  {
+   "path": "results/h12_core_ratio_by_bgroup.csv",
+   "size": 921,
+   "sha": "b8ff75d09b12f1a7"
+  },
+  {
+   "path": "docs/helix_stability.md",
+   "size": 4740,
+   "sha": "bc34d3f89b78ffe8"
+  },
+  {
+   "path": "figures/helix_bfactor_stability.png",
+   "size": 106627,
+   "sha": "c8bfe3cf20cc17c5"
+  },
+  {
+   "path": "esr_analysis/resources/config/alignment_core_v3.json",
+   "size": 840,
+   "sha": "520fe23686bee748"
+  },
+  {
+   "path": "scripts/helix_stability.py",
+   "size": 7615,
+   "sha": "503f3e51a87dffc3"
+  }
+ ]
+}

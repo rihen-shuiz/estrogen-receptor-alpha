@@ -1,0 +1,12 @@
+helix,name,name_status,start,end,length,ca_observed,source_label_seq_start,source_label_seq_end,source_auth_start,source_auth_end,helix_class,source,settings_h12_range,h12_source_vs_settings
+AB3,unknown,unknown_source_gives_no_name,306,310,5,5,5,9,306,310,5,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AB4,unknown,unknown_source_gives_no_name,311,322,12,12,10,21,311,322,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AB5,unknown,unknown_source_gives_no_name,338,362,25,25,37,61,338,362,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AB6,unknown,unknown_source_gives_no_name,366,370,5,5,65,69,366,370,5,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AB7,unknown,unknown_source_gives_no_name,371,396,26,26,70,95,371,396,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AB8,unknown,unknown_source_gives_no_name,412,416,5,5,111,115,412,416,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AB9,unknown,unknown_source_gives_no_name,420,439,20,20,119,138,420,439,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AC1,unknown,unknown_source_gives_no_name,441,456,16,16,140,155,441,456,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AC2,unknown,unknown_source_gives_no_name,465,493,29,29,164,192,465,493,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AC3,unknown,unknown_source_gives_no_name,496,531,36,36,195,230,496,531,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,
+AC4,H12,named_from_settings_h12_range,537,546,10,10,236,245,537,546,1,"mmCIF struct_conf HELX_P (data/raw/7NFB.cif, chain B); DSSP binary not found",538-547,"disagrees: source 537-546, settings 538-547; settings not changed"

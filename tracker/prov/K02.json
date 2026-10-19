@@ -1,0 +1,19 @@
+{
+ "task": "K02",
+ "ts": "2026-10-18T23:44+05:00",
+ "who": "haiku",
+ "git": "e79fac3",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/helix_table.csv",
+   "size": 2008,
+   "sha": "c3cac18252680e03"
+  },
+  {
+   "path": "scripts/helix_table.py",
+   "size": 4685,
+   "sha": "5f3ec06ca12ab5ad"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+Actual final candidate check: Python 3.12.3, fresh environment, installed extracted package.
+Command: PYTHONPATH='' PYTHONDONTWRITEBYTECODE=1 /tmp/esr_firstmonth_verify/env/bin/python -m pytest -q /tmp/esr_firstmonth_verify/final_extracted/ESR1_First_Month_Standalone/tests
+........... [100%]
+11 passed in 2.96s
