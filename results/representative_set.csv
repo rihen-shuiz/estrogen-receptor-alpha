@@ -1,0 +1,8 @@
+rank,cluster,entry_id,chain_key,qc_label,qc_pass,cluster_size_chains,cluster_entries,mean_rmsd_to_mates_A,is_medoid,in_minimal_set,justification,cum_cluster_fraction,cum_chain_fraction
+1,7,5WGD,5WGD|B|1,A,True,445,221,0.45123417387434506,False,True,"cluster 7 at 1.5 A (445 chains, rank 1 by size): medoid 5TM1|A|1 is tier B; most central tier-A chain of 282 in the cluster",0.14285714285714285,0.5647208121827412
+2,4,2QE4,2QE4|B|1,A,True,329,128,0.5039134183956449,True,True,"cluster 4 at 1.5 A (329 chains, rank 2 by size): S12 medoid, QC tier A",0.2857142857142857,0.9822335025380711
+3,1,2JF9,2JF9|A|1,A,True,5,3,0.571782326822496,True,True,"cluster 1 at 1.5 A (5 chains, rank 3 by size): S12 medoid, QC tier A",0.42857142857142855,0.9885786802030457
+4,2,1R5K,1R5K|B|1,B,False,3,1,0.5166378987207454,True,True,"cluster 2 at 1.5 A (3 chains, rank 4 by size): S12 medoid kept; no tier-A chain in this cluster (medoid tier B)",0.5714285714285714,0.9923857868020305
+5,3,9B25,9B25|B|1,A,True,3,2,0.8086270340434355,True,True,"cluster 3 at 1.5 A (3 chains, rank 5 by size): S12 medoid, QC tier A",0.7142857142857143,0.9961928934010152
+6,6,9B25,9B25|A|1,A,True,2,1,0.9844805157215015,True,True,"cluster 6 at 1.5 A (2 chains, rank 6 by size): S12 medoid, QC tier A",0.8571428571428571,0.998730964467005
+7,5,3DT3,3DT3|B|1,A,True,1,1,,True,True,"cluster 5 at 1.5 A (1 chains, rank 7 by size): S12 medoid, QC tier A",1.0,1.0

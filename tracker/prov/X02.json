@@ -1,0 +1,34 @@
+{
+ "task": "X02",
+ "ts": "2026-10-20T22:28+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/rmsd_esr2.npy",
+   "size": 59296,
+   "sha": "ec76852cca831bcd"
+  },
+  {
+   "path": "results/rmsd_esr2_index.txt",
+   "size": 860,
+   "sha": "8b1a960882587296"
+  },
+  {
+   "path": "results/esr2_alignment.csv",
+   "size": 5259,
+   "sha": "71c382d2d9e71803"
+  },
+  {
+   "path": "results/esr2_reference.json",
+   "size": 570,
+   "sha": "388cffadb612b471"
+  },
+  {
+   "path": "scripts/esr2_rmsd.py",
+   "size": 6083,
+   "sha": "01227205414e58a9"
+  }
+ ]
+}

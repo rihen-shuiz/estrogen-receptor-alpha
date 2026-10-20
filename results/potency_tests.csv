@@ -1,0 +1,4 @@
+test,groups,n,statistic,p_value,median_a,median_b,cut,unit
+kruskal_wallis,"4,7",80,16.115631667335084,5.9590145795987964e-05,,,1.5,"PDB ligand (median pChEMBL over IC50/Ki/Kd, relation '=')"
+mann_whitney,4 vs 7,80,1110.0,6.088870798976637e-05,8.305,7.11,1.5,"PDB ligand (median pChEMBL over IC50/Ki/Kd, relation '=')"
+spearman_pchembl_vs_h12_rmsd,all,79,0.45412992312222167,2.6252530874850246e-05,,,1.5,"PDB ligand (median pChEMBL over IC50/Ki/Kd, relation '=')"

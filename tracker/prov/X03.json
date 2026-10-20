@@ -1,0 +1,24 @@
+{
+ "task": "X03",
+ "ts": "2026-10-20T22:31+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/esr2_clusters.csv",
+   "size": 2468,
+   "sha": "f5fa7b4c2d414940"
+  },
+  {
+   "path": "results/esr2_linkage.npy",
+   "size": 2848,
+   "sha": "e8c0d327014cf3af"
+  },
+  {
+   "path": "scripts/esr2_clusters.py",
+   "size": 1974,
+   "sha": "462950c4f6a898b3"
+  }
+ ]
+}

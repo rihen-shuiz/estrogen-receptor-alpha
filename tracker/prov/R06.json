@@ -1,0 +1,19 @@
+{
+ "task": "R06",
+ "ts": "2026-10-20T22:25+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/entropy_qc_compare.csv",
+   "size": 1318,
+   "sha": "3664938dd97d9bf9"
+  },
+  {
+   "path": "scripts/entropy_qc_compare.py",
+   "size": 3803,
+   "sha": "9eacbc095a809ac9"
+  }
+ ]
+}

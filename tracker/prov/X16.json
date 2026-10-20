@@ -1,0 +1,24 @@
+{
+ "task": "X16",
+ "ts": "2026-10-20T22:29+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/potency_tests.csv",
+   "size": 467,
+   "sha": "cadd948e882ddf1d"
+  },
+  {
+   "path": "results/potency_by_cluster.csv",
+   "size": 5806,
+   "sha": "0022131ce162ae99"
+  },
+  {
+   "path": "scripts/potency_by_cluster.py",
+   "size": 7196,
+   "sha": "d53bfd788ab2b4d4"
+  }
+ ]
+}

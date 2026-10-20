@@ -1,4 +1,4 @@
-"""Tracker S14: threshold sensitivity of the selected-set clustering, cut from 1.0 to 2.5 A.
+"""Tracker S14: threshold sensitivity of the all-eligible-chain clustering (keep-all run), cut from 1.0 to 2.5 A.
 
 Input: results/linkage_entry.npy (S08 linkage), results/cluster_stats.csv (S09, the four reported cuts),
 primary_structural_threshold_A from analysis_settings.json.
@@ -6,7 +6,7 @@ Method: flat clusters from the saved linkage every 0.05 A (scipy fcluster, dista
 Steps show the value at each sampled cut. The values at the four reported cuts are checked against
 results/cluster_stats.csv before drawing.
 Output: figures/structural_sensitivity.png. Two panels, one series each (no dual axis): cluster count and
-share of entries in the three largest clusters. Reported cuts are marked and labeled. Light surface only.
+share of chains in the three largest clusters. Reported cuts are marked and labeled. Light surface only.
 Run from the repo root: python scripts/figure_sensitivity.py
 """
 import json
@@ -35,20 +35,20 @@ SERIES = "#2a78d6"  # categorical slot 1, one series per panel
 REPORTED = [1.0, 1.5, 2.0, 2.5]
 
 
-def stats_at(linkage_matrix, cut, n_entries):
+def stats_at(linkage_matrix, cut, n_chains):
     labels = fcluster(linkage_matrix, t=cut, criterion="distance")
     sizes = pd.Series(labels).value_counts().sort_values(ascending=False)
-    return int(sizes.size), float(sizes.head(3).sum() / n_entries)
+    return int(sizes.size), float(sizes.head(3).sum() / n_chains)
 
 
 def main():
     primary = json.loads(SETTINGS.read_text())["primary_structural_threshold_A"]
     linkage_matrix = np.load(ROOT / "results/linkage_entry.npy")
-    n_entries = linkage_matrix.shape[0] + 1
+    n_chains = linkage_matrix.shape[0] + 1
     reported = pd.read_csv(ROOT / "results/cluster_stats.csv")
 
     grid = np.round(np.arange(1.0, 2.5 + 1e-9, 0.05), 2)
-    counts, shares = np.array([stats_at(linkage_matrix, cut, n_entries) for cut in grid]).T
+    counts, shares = np.array([stats_at(linkage_matrix, cut, n_chains) for cut in grid]).T
     for cut in REPORTED:
         row = reported[np.isclose(reported.cut, cut)].iloc[0]
         at = int(np.flatnonzero(np.isclose(grid, cut))[0])
@@ -59,7 +59,7 @@ def main():
     fig.patch.set_facecolor(SURFACE)
     panels = [
         (left, counts, "Clusters", (0, 20), range(0, 21, 4), "{:d}", True),
-        (right, shares * 100, "Entries in the 3 largest clusters (%)", (80, 100), range(80, 101, 5), "{:.0f}%", False),
+        (right, shares * 100, "Chains in the 3 largest clusters (%)", (80, 100), range(80, 101, 5), "{:.0f}%", False),
     ]
     for ax, values, title, ylim, yticks, fmt, label_above in panels:
         ax.set_facecolor(SURFACE)
@@ -89,7 +89,7 @@ def main():
 
     left.annotate(f"primary {primary:.1f} Å", (primary, 20), textcoords="offset points", xytext=(4, -2),
                   ha="left", va="top", color=INK_SECONDARY, fontsize=9)
-    fig.suptitle(f"Threshold sensitivity, selected ESR1 set ({n_entries} entries, one chain each)",
+    fig.suptitle(f"Threshold sensitivity, all eligible ESR1 chains ({n_chains} chains, {int(reported.n_entries.iloc[0])} entries)",
                  x=0.02, ha="left", color=INK, fontsize=12, fontweight="bold")
     fig.tight_layout(rect=(0, 0, 1, 0.94))
     fig.savefig(OUT, facecolor=SURFACE, bbox_inches="tight")

@@ -1,0 +1,24 @@
+{
+ "task": "K09",
+ "ts": "2026-10-20T22:23+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/core_sensitivity.csv",
+   "size": 442,
+   "sha": "7dc3c5a10aba9d38"
+  },
+  {
+   "path": "results/rmsd_old_core.npy",
+   "size": 4967680,
+   "sha": "608405e4c8aef77f"
+  },
+  {
+   "path": "scripts/core_sensitivity.py",
+   "size": 3762,
+   "sha": "6fa9ef9069821496"
+  }
+ ]
+}

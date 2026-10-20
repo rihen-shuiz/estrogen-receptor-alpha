@@ -1,12 +1,13 @@
-"""Tracker S13: clustering of the selected ESR1 set with and without the R-free failures.
+"""Tracker S13 (keep-all): QC-tier sensitivity of the clustering, all chains vs tier A only vs tiers A+B.
 
-Failing entries: r_free above qc_r_free (0.30, analysis_settings.json). The script checks that this rule
-matches the qc_rfree flag in results/entries.csv before using it.
-Method: average linkage on the submatrix of passing entries (the saved S04 matrix is only sliced, not
-recomputed), same cuts and method as S08 via esr_analysis.cluster_structures.structural_groups.
-Per cut, compares the full set with the passing set: entries, clusters, top-3 share, and full-set clusters
-that have no passing member ("lost" clusters). Failing entries stay in the files; they are only left out of
-the passing-set clustering.
+Replaces the old "drop R-free > 0.30" comparison. The main result stays on ALL chains; this table only shows
+whether the conclusion depends on the poorer chains. Nothing is removed from any file.
+Inputs: results/rmsd_entry.npy (S04, sliced, never recomputed), results/entry_clusters.csv (S08 all-chain labels and
+the K05 qc_label copied per chain).
+Method: same as S08, esr_analysis.cluster_structures.structural_groups (average linkage, distance cuts) on the
+submatrix of each subset.
+Per cut and subset: chains, entries, clusters, top-3 share, all-chain clusters with no member in the subset, and the
+adjusted Rand index between the subset labelling and the all-chain labelling of the same chains.
 Output: results/qc_clustering_delta.csv.
 Run from the repo root: PYTHONPATH=. python scripts/qc_clustering_delta.py
 """
@@ -15,12 +16,14 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from sklearn.metrics import adjusted_rand_score
 
 from esr_analysis.cluster_structures import structural_groups
 
 ROOT = Path(__file__).resolve().parents[1]
 SETTINGS = ROOT / "esr_analysis/resources/config/analysis_settings.json"
 CUTS = [1.0, 1.5, 2.0, 2.5]
+SUBSETS = {"all": None, "tier_A": {"A"}, "tier_A+B": {"A", "B"}}
 
 
 def top3_fraction(labels):
@@ -29,39 +32,27 @@ def top3_fraction(labels):
 
 
 def main():
-    settings = json.loads(SETTINGS.read_text())
-    primary = settings["primary_structural_threshold_A"]
-    index = pd.read_csv(ROOT / "results/rmsd_entry_index.csv")
-    entries = pd.read_csv(ROOT / "results/entries.csv", dtype=str, keep_default_na=False)
-    merged = index.merge(entries[["entry_id", "r_free", "qc_rfree"]], on="entry_id", how="left", validate="one_to_one")
-    r_free = merged.r_free.astype(float)
-    fails = r_free > settings["qc_r_free"]
-    if not (fails == merged.qc_rfree.eq("fail")).all():
-        raise ValueError("R-free rule disagrees with the qc_rfree flag in results/entries.csv")
-    passes = ~fails
-
+    primary = json.loads(SETTINGS.read_text())["primary_structural_threshold_A"]
     matrix = np.load(ROOT / "results/rmsd_entry.npy")
-    pass_positions = np.flatnonzero(passes.to_numpy())
-    pass_keys = merged.chain_key[passes].tolist()
-    sub = matrix[np.ix_(pass_positions, pass_positions)]
-    pass_assign, _ = structural_groups(pass_keys, sub, CUTS, primary)
-
-    full_labels = pd.read_csv(ROOT / "results/entry_clusters.csv")
+    clusters = pd.read_csv(ROOT / "results/entry_clusters.csv")
+    if clusters.chain_key.tolist() != (ROOT / "results/alignment/rmsd_entry_index.txt").read_text().splitlines():
+        raise ValueError("entry_clusters.csv row order does not match the RMSD matrix")
     rows = []
-    for cut in CUTS:
-        full = full_labels[f"cut_{cut:.1f}"].to_numpy()
-        reduced = pass_assign[f"cluster_{cut:.1f}A"].to_numpy()
-        lost = len(set(full) - set(full[passes.to_numpy()]))
-        rows.append({
-            "cut": cut,
-            "n_entries_full": len(full),
-            "n_entries_pass": int(passes.sum()),
-            "n_clusters_full": int(np.unique(full).size),
-            "n_clusters_pass": int(np.unique(reduced).size),
-            "top3_fraction_full": top3_fraction(full),
-            "top3_fraction_pass": top3_fraction(reduced),
-            "clusters_without_pass_members": lost,
-        })
+    for subset, labels_kept in SUBSETS.items():
+        mask = np.ones(len(clusters), bool) if labels_kept is None else clusters.qc_label.isin(labels_kept).to_numpy()
+        keys = clusters.chain_key[mask].tolist()
+        assignments, _ = structural_groups(keys, matrix[np.ix_(mask, mask)], CUTS, primary)
+        for cut in CUTS:
+            sub = assignments[f"cluster_{cut:.1f}A"].to_numpy()
+            full = clusters[f"cut_{cut:.1f}"].to_numpy()
+            rows.append({
+                "cut": f"{cut:.1f}", "subset": subset, "n_chains": int(mask.sum()),
+                "n_entries": int(clusters.entry_id[mask].nunique()),
+                "n_clusters": int(len(np.unique(sub))), "top3_fraction": top3_fraction(sub),
+                "clusters_all": int(len(np.unique(full))),
+                "clusters_without_members": int(len(set(full) - set(full[mask]))),
+                "ari_vs_all": float(adjusted_rand_score(full[mask], sub)),
+            })
     table = pd.DataFrame(rows)
     table.to_csv(ROOT / "results/qc_clustering_delta.csv", index=False)
     print(table.to_string(index=False))

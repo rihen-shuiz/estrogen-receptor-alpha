@@ -1,0 +1,109 @@
+{
+ "task": "W10",
+ "ts": "2026-10-20T22:33+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "docs/manuscript/02_dataset_qc.md",
+   "size": 7670,
+   "sha": "2bc9be74e28fc2cc"
+  },
+  {
+   "path": "data/pdb_ids_esr1.txt",
+   "size": 2922,
+   "sha": "44b5719154e8db1c"
+  },
+  {
+   "path": "data/pdb_ids_esr2.txt",
+   "size": 234,
+   "sha": "8e4df74917106a52"
+  },
+  {
+   "path": "data/raw/download_manifest.csv",
+   "size": 40545,
+   "sha": "58e51620f2640a6b"
+  },
+  {
+   "path": "results/entries.csv",
+   "size": 181161,
+   "sha": "bac5cd2c8897404f"
+  },
+  {
+   "path": "results/attrition_funnel.csv",
+   "size": 2881,
+   "sha": "d20658157ddc76bc"
+  },
+  {
+   "path": "results/lbd_chains.csv",
+   "size": 5170509,
+   "sha": "9c2f3877fa797ff6"
+  },
+  {
+   "path": "results/chain_status.csv",
+   "size": 229906,
+   "sha": "3c8aceac4c4d05a8"
+  },
+  {
+   "path": "results/qc_tiers.csv",
+   "size": 27696,
+   "sha": "979c682c0d9eb133"
+  },
+  {
+   "path": "results/ligands.csv",
+   "size": 170283,
+   "sha": "0ca3f542a3f81d8d"
+  },
+  {
+   "path": "results/ligands_ranked.csv",
+   "size": 176621,
+   "sha": "d5019586f8af5801"
+  },
+  {
+   "path": "results/chain_ligand_of_interest.csv",
+   "size": 115492,
+   "sha": "60d555c7d4da1458"
+  },
+  {
+   "path": "results/near_duplicates.csv",
+   "size": 70128,
+   "sha": "e5965dccd17f8b0d"
+  },
+  {
+   "path": "results/representative_set.csv",
+   "size": 1425,
+   "sha": "da8b9231c96c95c1"
+  },
+  {
+   "path": "results/entropy.csv",
+   "size": 475,
+   "sha": "a7dd4a776ea0b55f"
+  },
+  {
+   "path": "results/qc_outliers_stats.csv",
+   "size": 541,
+   "sha": "710859877ec03219"
+  },
+  {
+   "path": "results/qc_bfactor_clusters.csv",
+   "size": 642,
+   "sha": "80a0e7add2e9e183"
+  },
+  {
+   "path": "results/qc_bfactor_clusters_tests.json",
+   "size": 770,
+   "sha": "dfb764390213ae85"
+  },
+  {
+   "path": "results/qc_clustering_delta.csv",
+   "size": 694,
+   "sha": "7dd247a852fb1f32"
+  },
+  {
+   "path": "results/entropy_qc_compare.csv",
+   "size": 1318,
+   "sha": "3664938dd97d9bf9"
+  }
+ ]
+}

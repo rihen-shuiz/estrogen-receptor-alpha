@@ -1,0 +1,19 @@
+{
+ "task": "E05",
+ "ts": "2026-10-20T22:16+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/pair_superposition.csv",
+   "size": 85595,
+   "sha": "c3ffa2fe9c1a0b54"
+  },
+  {
+   "path": "scripts/pair_superposition.py",
+   "size": 5274,
+   "sha": "9be56be4d47e0cc9"
+  }
+ ]
+}

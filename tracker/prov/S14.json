@@ -1,19 +1,19 @@
 {
  "task": "S14",
- "ts": "2026-10-18T23:17+05:00",
- "who": "haiku",
- "git": "e79fac3",
- "tl_sha": "0d05c1e8dbd9846c",
+ "ts": "2026-10-20T22:23+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
  "ev": [
   {
    "path": "figures/structural_sensitivity.png",
-   "size": 63291,
-   "sha": "0e55b71c93459612"
+   "size": 54761,
+   "sha": "3717501e7a807a3c"
   },
   {
    "path": "scripts/figure_sensitivity.py",
-   "size": 4901,
-   "sha": "1f94812389a3b0e7"
+   "size": 5048,
+   "sha": "ede21c7ffe8644fa"
   }
  ]
 }

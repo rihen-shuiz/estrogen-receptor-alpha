@@ -1,9 +1,9 @@
-"""Tracker S10: dendrogram of the selected-chain average linkage, with the primary cut drawn.
+"""Tracker S10: dendrogram of the all-eligible-chain average linkage (keep-all run), with the primary cut drawn.
 
 Input: results/linkage_entry.npy (S08 linkage), results/entry_clusters.csv (S08, cluster count at the cut),
 primary_structural_threshold_A from analysis_settings.json.
 Output: figures/dendrogram.png. One series in categorical slot 1 (blue); the cut is a dashed reference line.
-Leaves are not labeled; the entry labels are in results/entry_clusters.csv. Light surface only.
+Leaves (chains) are not labeled; the chain labels are in results/entry_clusters.csv. Light surface only.
 Run from the repo root: python scripts/figure_dendrogram.py
 """
 import json
@@ -35,7 +35,8 @@ def main():
     cut = json.loads(SETTINGS.read_text())["primary_structural_threshold_A"]
     linkage_matrix = np.load(ROOT / "results/linkage_entry.npy")
     clusters = pd.read_csv(ROOT / "results/entry_clusters.csv")
-    n_entries = len(clusters)
+    n_chains = len(clusters)
+    n_entries = clusters.entry_id.nunique()
     n_clusters = int(clusters[f"cut_{cut:.1f}"].nunique())
 
     fig, ax = plt.subplots(figsize=(10, 5.5), dpi=150)
@@ -46,9 +47,9 @@ def main():
     ax.text(0.99, cut, f"cut {cut:.1f} Å: {n_clusters} clusters", transform=ax.get_yaxis_transform(),
             ha="right", va="bottom", color=INK_SECONDARY, fontsize=9)
 
-    ax.set_title("Average-linkage dendrogram, selected ESR1 set", loc="left", color=INK, fontsize=12, fontweight="bold")
+    ax.set_title("Average-linkage dendrogram, all eligible ESR1 chains", loc="left", color=INK, fontsize=12, fontweight="bold")
     ax.set_ylabel("C-alpha RMSD linkage distance (Å)", color=INK_SECONDARY)
-    ax.set_xlabel(f"{n_entries} entries, one chain each (leaves unlabeled)", color=INK_SECONDARY)
+    ax.set_xlabel(f"{n_chains} chains from {n_entries} entries (leaves unlabeled)", color=INK_SECONDARY)
     ax.set_xticks([])
     ax.tick_params(axis="y", colors=MUTED)
     ax.yaxis.grid(True, color=GRID, linewidth=0.8)
@@ -58,7 +59,7 @@ def main():
     ax.spines["left"].set_color(BASELINE)
 
     fig.savefig(OUT, facecolor=SURFACE, bbox_inches="tight")
-    print(f"S10: {OUT.relative_to(ROOT)} written; {n_entries} leaves; cut {cut} A gives {n_clusters} clusters")
+    print(f"S10: {OUT.relative_to(ROOT)} written; {n_chains} leaves ({n_entries} entries); cut {cut} A gives {n_clusters} clusters")
 
 
 if __name__ == "__main__":

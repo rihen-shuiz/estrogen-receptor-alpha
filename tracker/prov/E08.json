@@ -1,0 +1,19 @@
+{
+ "task": "E08",
+ "ts": "2026-10-20T22:24+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "figures/displacement_heatmap.png",
+   "size": 146091,
+   "sha": "1e01a612d77652cf"
+  },
+  {
+   "path": "scripts/figure_displacement_heatmap.py",
+   "size": 4305,
+   "sha": "1346be3882e2af6e"
+  }
+ ]
+}

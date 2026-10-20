@@ -1,10 +1,10 @@
-"""Tracker S12: medoid entry per cluster at the primary distance cut.
+"""Tracker S12: medoid chain per cluster at the primary distance cut (keep-all run: rows are all eligible chains).
 
 Medoid = the member with the smallest mean RMSD to its cluster mates (ties: first in matrix order).
 A singleton cluster is its own medoid, with no mean (blank mean_rmsd_to_mates_A).
 Input: results/rmsd_entry.npy (S04), results/rmsd_entry_index.csv (S05), results/entry_clusters.csv (S08),
 primary_structural_threshold_A from analysis_settings.json.
-Output: results/medoids.csv (cluster, entry_id, chain_key, cluster_size, mean_rmsd_to_mates_A).
+Output: results/medoids.csv (cluster, entry_id, chain_key, cluster_size, cluster_entries, mean_rmsd_to_mates_A).
 Run from the repo root: python scripts/medoids.py
 """
 import json
@@ -21,7 +21,10 @@ def main():
     cut = json.loads(SETTINGS.read_text())["primary_structural_threshold_A"]
     matrix = np.load(ROOT / "results/rmsd_entry.npy")
     index = pd.read_csv(ROOT / "results/rmsd_entry_index.csv")
-    labels = pd.read_csv(ROOT / "results/entry_clusters.csv")[f"cut_{cut:.1f}"].to_numpy()
+    clusters = pd.read_csv(ROOT / "results/entry_clusters.csv")
+    if not (clusters.chain_key.tolist() == index.chain_key.tolist() == (ROOT / "results/alignment/rmsd_entry_index.txt").read_text().splitlines()):
+        raise ValueError("entry_clusters.csv / rmsd_entry_index.csv row order does not match the RMSD matrix")
+    labels = clusters[f"cut_{cut:.1f}"].to_numpy()
     rows = []
     for cluster in sorted(set(labels)):
         members = np.flatnonzero(labels == cluster)
@@ -37,6 +40,7 @@ def main():
             "entry_id": index.entry_id[best],
             "chain_key": index.chain_key[best],
             "cluster_size": int(members.size),
+            "cluster_entries": int(index.entry_id[members].nunique()),
             "mean_rmsd_to_mates_A": mean_to_mates,
         })
     table = pd.DataFrame(rows)

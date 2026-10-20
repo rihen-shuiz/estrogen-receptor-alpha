@@ -1,24 +1,24 @@
 {
  "task": "S08",
- "ts": "2026-10-18T23:14+05:00",
- "who": "haiku",
- "git": "e79fac3",
- "tl_sha": "0d05c1e8dbd9846c",
+ "ts": "2026-10-20T22:07+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
  "ev": [
   {
    "path": "results/entry_clusters.csv",
-   "size": 8042,
-   "sha": "3349dc2adfa858a3"
+   "size": 20519,
+   "sha": "6ce7d962bc0012c6"
   },
   {
    "path": "results/linkage_entry.npy",
-   "size": 11328,
-   "sha": "4ea2085d54c443bb"
+   "size": 25312,
+   "sha": "3b6f478588bdb62f"
   },
   {
    "path": "scripts/cluster_selected.py",
-   "size": 1662,
-   "sha": "89de108d43ac57c4"
+   "size": 2510,
+   "sha": "8fdf58fd6f9f5c1c"
   }
  ]
 }

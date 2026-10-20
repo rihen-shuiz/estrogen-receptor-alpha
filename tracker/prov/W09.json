@@ -1,0 +1,34 @@
+{
+ "task": "W09",
+ "ts": "2026-10-20T22:34+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "notebooks/worked_example.ipynb",
+   "size": 114668,
+   "sha": "eea839c91be1fdb2"
+  },
+  {
+   "path": "results/rmsd_entry.npy",
+   "size": 4967680,
+   "sha": "49c77f38f3b91e9f"
+  },
+  {
+   "path": "results/entry_clusters.csv",
+   "size": 20519,
+   "sha": "6ce7d962bc0012c6"
+  },
+  {
+   "path": "results/diversity_curve.csv",
+   "size": 141096,
+   "sha": "59cfc5d2ea06bae5"
+  },
+  {
+   "path": "results/saturation.csv",
+   "size": 300,
+   "sha": "3086465d385e761c"
+  }
+ ]
+}

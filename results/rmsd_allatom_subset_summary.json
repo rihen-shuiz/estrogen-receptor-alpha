@@ -1,0 +1,298 @@
+{
+  "task": "S07",
+  "n_entries": 50,
+  "n_pairs": 1225,
+  "seed": 20261020,
+  "cluster_column": "cut_1.5",
+  "subset_by_cluster": {
+    "1": 3,
+    "2": 1,
+    "3": 1,
+    "4": 16,
+    "5": 1,
+    "6": 1,
+    "7": 27
+  },
+  "chains": [
+    "1A52|B|1",
+    "1R5K|A|1",
+    "1XP1|A|1",
+    "1XP9|A|1",
+    "2JF9|A|1",
+    "2Q6J|A|1",
+    "2QAB|B|1",
+    "2QSE|B|1",
+    "3DT3|B|1",
+    "3HM1|B|1",
+    "4IV2|B|1",
+    "4IWC|B|1",
+    "4PP6|A|1",
+    "5DI7|B|1",
+    "5DKS|B|1",
+    "5DLR|B|1",
+    "5DTV|C|1",
+    "5DUG|A|1",
+    "5DWJ|A|1",
+    "5FQV|A|1",
+    "5JMM|B|1",
+    "5KRH|B|1",
+    "5TLG|B|1",
+    "5TLY|B|1",
+    "5TM4|A|1",
+    "5TM6|B|1",
+    "5TM8|A|1",
+    "5TMV|B|1",
+    "5TN7|A|1",
+    "5TNB|C|1",
+    "5U2B|C|1",
+    "6CZN|B|1",
+    "6IAR|A|1",
+    "6OWC|B|1",
+    "6PET|C|1",
+    "6PFM|A|1",
+    "6SQ0|A|1",
+    "7MSA|A|1",
+    "7NDO|B|1",
+    "7NEL|B|1",
+    "7RS1|C|1",
+    "7RS2|C|1",
+    "7UJM|C|1",
+    "7UJO|B|1",
+    "7UJY|C|1",
+    "8DV7|A|1",
+    "8VZ1|A|1",
+    "9B25|A|1",
+    "9VT5|A|1",
+    "9W12|B|1"
+  ],
+  "spearman_ca_vs_allatom_pairs": {
+    "rho": 0.9852754021673922,
+    "p": 0.0
+  },
+  "spearman_ca_same_residues_vs_allatom_pairs": 0.9863033826907597,
+  "per_chain_neighbour_spearman": {
+    "median": 0.9524489795918367,
+    "min": 0.8226530612244897,
+    "worst_chain": "2JF9|A|1"
+  },
+  "cophenetic_spearman_ca_vs_allatom": 0.9850177283337025,
+  "adjusted_rand_same_n_clusters": {
+    "2": 1.0,
+    "3": 1.0,
+    "4": 0.9240053944706675,
+    "5": 1.0,
+    "7": 0.973743811041174
+  },
+  "allatom_rmsd_A": {
+    "median": 2.697313769860279,
+    "max": 8.676769393268298
+  },
+  "ca_rmsd_A": {
+    "median": 2.447759336443073,
+    "max": 7.902307248951862
+  },
+  "n_heavy_atoms_min": 1456,
+  "downloads": {
+    "1A52": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "1R5K": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "1XP1": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "1XP9": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "2JF9": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "2Q6J": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "2QAB": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "2QSE": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "3DT3": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "3HM1": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "4IV2": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "4IWC": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "4PP6": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5DI7": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5DKS": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5DLR": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5DTV": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5DUG": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5DWJ": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5FQV": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5JMM": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5KRH": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5TLG": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5TLY": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5TM4": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5TM6": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5TM8": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5TMV": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5TN7": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5TNB": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "5U2B": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "6CZN": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "6IAR": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "6OWC": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "6PET": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "6PFM": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "6SQ0": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "7MSA": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "7NDO": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "7NEL": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "7RS1": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "7RS2": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "7UJM": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "7UJO": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "7UJY": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "8DV7": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "8VZ1": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "9B25": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "9VT5": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    },
+    "9W12": {
+      "download": "cached",
+      "sha256_matches_manifest": true
+    }
+  },
+  "note": "same S03 core-fit superposition for both measures; all-atom adds side chains, no refit"
+}

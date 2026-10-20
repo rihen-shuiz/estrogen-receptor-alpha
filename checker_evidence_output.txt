@@ -1,0 +1,45 @@
+PASS  task S06: recount MATCH -> (788, 351, 123, True); expected (788, 351, 123, True); tl.py check PASS (1 chk)
+PASS  task S08: recount MATCH -> [16, 7, 4, 3, 7, 544, 240, 4]; expected [16, 7, 4, 3, 7, 544, 240, 4]; tl.py check PASS (1 chk)
+PASS  task S09: recount MATCH -> [16, 7, 4, 3, 0.954, 0.989, 0.997, 1]; expected [16, 7, 4, 3, 0.954, 0.989, 0.997, 1]; tl.py check PASS (1 chk)
+PASS  task S10: recount MATCH -> (788, 7, True); expected (788, 7, True); tl.py check PASS (1 chk)
+PASS  task S12: recount MATCH -> [5, 3, 3, 329, 1, 2, 445, '5TM1|A|1']; expected [5, 3, 3, 329, 1, 2, 445, '5TM1|A|1']; tl.py check PASS (1 chk)
+PASS  task S13: recount MATCH -> [14, 4, 3, 2, 1, 1, 1, 1]; expected [14, 4, 3, 2, 1, 1, 1, 1]; tl.py check PASS (1 chk)
+PASS  task S14: recount MATCH -> [16, 7, 4, 3, True]; expected [16, 7, 4, 3, True]; tl.py check PASS (1 chk)
+PASS  task S07: recount MATCH -> (1225, 0.985, 50); expected (1225, 0.985, 50); tl.py check PASS (1 chk)
+PASS  task E05: recount MATCH -> (671, 135, 0.523739, 1.87637, 1.43361, 1.95702); expected (671, 135, 0.524, 1.876, 1.434, 1.957); tl.py check PASS (1 chk)
+PASS  task R01: recount MATCH -> [1.59584, 1.13327, 1.05811, 1.03465]; expected [1.6, 1.13, 1.06, 1.03]; tl.py check PASS (1 chk)
+PASS  task R02: recount MATCH -> (3152, [520, 488, 315, 147]); expected (3152, [520, 488, 315, 147]); tl.py check PASS (1 chk)
+FAIL  task E06: recount MISMATCH -> (1125, 5, 0.529464, 0.734414, 540, 544); expected (1125, 5, 0.53, 0.73, 538, 544); tl.py check PASS (1 chk)
+PASS  task E07: recount MATCH -> (246, 135); expected (246, 135); tl.py check PASS (1 chk)
+PASS  task R04: recount MATCH -> ([520, 488, 315, 147], [0.659898, 0.619289, 0.399746, 0.186548]); expected ([520, 488, 315, 147], [0.66, 0.62, 0.4, 0.19]); tl.py check PASS (1 chk)
+PASS  task R03: recount MATCH -> (4, True); expected (4, True); tl.py check PASS (1 chk)
+PASS  task Q14: recount MATCH -> (7, 344, 2.4, 2.1, 0.206738, 0.747674); expected (7, 344, 2.4, 2.1, 0.21, 0.75); tl.py check PASS (2 chk)
+PASS  task Q15: recount MATCH -> (0.420225, 0.209726, '5.6e-12', 7, 8); expected (0.42, 0.21, '5.6e-12', 7, 8); tl.py check PASS (1 chk)
+PASS  task K06: recount MATCH -> (901, 444, 788, 113, [628, 261, 4, 8]); expected (901, 444, 788, 113, [628, 261, 4, 8]); tl.py check PASS (1 chk)
+PASS  task K09: recount MATCH -> ((788, 788), 0.98775, 0.0441086, 2.21761, [20, 7, 6, 4]); expected ((788, 788), 0.988, 0.044, 2.22, [20, 7, 6, 4]); tl.py check PASS (2 chk)
+PASS  task E08: recount MATCH -> (246, True); expected (246, True); tl.py check PASS (1 chk)
+PASS  task E10: recount MATCH -> (48, 0, 7, 29); expected (48, 0, 7, 29); tl.py check PASS (1 chk)
+PASS  task R06: recount MATCH -> (767, 343, 21, [17, 6, 4, 3]); expected (767, 343, 21, [17, 6, 4, 3]); tl.py check PASS (1 chk)
+PASS  task K07: recount MATCH -> (351, True, [18, 6, 3, 3], [0.840702, 0.973633, 0.981531, 0.988673]); expected (351, True, [18, 6, 3, 3], [0.84, 0.97, 0.98, 0.99]); tl.py check PASS (2 chk)
+PASS  task S15: recount MATCH -> (7, 6, '1R5K|B|1', 0.982234); expected (7, 6, '1R5K|B|1', 0.982); tl.py check PASS (1 chk)
+PASS  task K08: recount MATCH -> (244, 113, True); expected (244, 113, True); tl.py check PASS (3 chk)
+PASS  task X02: recount MATCH -> (86, True, 39, 0.947077, 6.64165, 0.571783, '3OLL|A|1'); expected (86, True, 39, 0.947, 6.64, 0.572, '3OLL|A|1'); tl.py check PASS (1 chk)
+PASS  task X15: recount MATCH -> (82, {4: 53, 7: 27, 1: 1, 2: 1}, True); expected (82, {4: 53, 7: 27, 1: 1, 2: 1}, True); tl.py check PASS (1 chk)
+PASS  task X16: recount MATCH -> ('6.0e-05', 8.305, 7.11, 0.45413, 79); expected ('6.0e-05', 8.31, 7.11, 0.45, 79); tl.py check PASS (1 chk)
+PASS  task X03: recount MATCH -> (86, 39, [7, 5, 4, 3], [68, 12, 2, 2, 2], 5); expected (86, 39, [7, 5, 4, 3], [68, 12, 2, 2, 2], 5); tl.py check PASS (1 chk)
+PASS  task X04: recount MATCH -> (0.818628, 0.129961); expected (0.819, 0.13); tl.py check PASS (1 chk)
+PASS  task X05: recount MATCH -> ([29, 7, 2, 1, 1], 2); expected ([29, 7, 2, 1, 1], 2); tl.py check PASS (1 chk)
+PASS  task W10: recount MATCH -> (True, 1666, 247, True, True); expected (True, 1666, 247, True, True); tl.py check PASS (1 chk)
+PASS  task W09: recount MATCH -> (True, False, True); expected (True, False, True); tl.py check PASS (1 chk)
+PASS  task W16: recount MATCH -> (279, 64); expected (279, 64); tl.py check PASS (1 chk)
+FAIL  invariant: archive hashes equal MANIFEST (raw bytes): 6/19 byte-identical; differ: rmsd_entry_index.csv, entry_clusters.csv, cluster_stats.csv, medoids.csv, qc_clustering_delta.csv, h12_metric.csv, alignment_core_rmsd.csv, limitations.md, alignment/alignment_transforms.json, alignment/global_alignment.csv, alignment/chain_keys.txt, alignment/rmsd_entry_index.txt, alignment/distance_exclusions.json
+PASS  invariant: archive hashes equal MANIFEST (after CRLF->LF): 19/19 match after CRLF->LF; differ: none
+PASS  invariant: rmsd_entry.npy 788x788, no NaN, symmetric; index 788 unique: shape (788, 788), NaN 0, symmetric True, index rows 788, unique 788
+PASS  invariant: chain-level tables have >= 788 rows: results/entry_clusters.csv 788; results/rmsd_entry_index.csv 788; results/alignment_core_rmsd.csv 788; results/h12_metric.csv 788; results/helix_bfactor_by_chain.csv 788; results/chain_status.csv 901; results/qc_outliers.csv 788; results/alignment/global_alignment.csv 788; results/chain_ligand_of_interest.csv (unique chain_key) 788
+PASS  invariant: clustering files differ from archive; entry_clusters 788 rows: identical to archive: none; entry_clusters rows 788
+FAIL  invariant: S13 and R06 show all, tier A and tier A+B; main file uses all chains: S13 subsets ['all', 'tier_A', 'tier_A+B']; R06 subsets ['all', 'rfree<=0.30', 'tier_A']; main file all 788 chains True
+FAIL  invariant: no archived file lost rows: rmsd_entry.npy 351->788; rmsd_entry_index.csv 351->788; entry_clusters.csv 351->788; linkage_entry.npy 350->787; cluster_stats.csv 4->4; medoids.csv 9->7; qc_clustering_delta.csv 4->12; h12_metric.csv 351->788; alignment_core_rmsd.csv 788->788; alignment/global_alignment.csv 788->788; alignment/chain_keys.txt 788->788; alignment/rmsd_entry_index.txt 351->788; alignment/overlap_entry.npy 351->788; lost rows: medoids.csv
+PASS  invariant: H12 present: 788 rows, labels add up to 788: rows 788; {'complete': 553, 'partial': 212, 'not_modelled': 23}
+PASS  invariant: every ESR2 entry appears in the ESR2 outputs: 39 ESR2 entries; missing: none
+PASS  invariant: tl.py validate 0 errors; DONE tasks without prov: 125 tasks in 1 file(s), 140 log lines, 0 errors, 59 warnings; DONE tasks without prov file (23): C04, E03, E04, Q01, Q02, Q03, Q04, Q05, Q06, Q07, Q08, Q09, Q12, Q13, S01, W02, W03, W04, W07, W14, X01, X13, X14
+TOTAL: 40/44 PASS, 4 FAIL

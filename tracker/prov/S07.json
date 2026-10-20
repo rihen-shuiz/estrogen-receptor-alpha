@@ -1,0 +1,24 @@
+{
+ "task": "S07",
+ "ts": "2026-10-20T22:14+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/rmsd_allatom_subset.csv",
+   "size": 122808,
+   "sha": "41f7dcf64be611d0"
+  },
+  {
+   "path": "results/rmsd_allatom_subset_summary.json",
+   "size": 6501,
+   "sha": "0019043673212952"
+  },
+  {
+   "path": "scripts/allatom_rmsd_subset.py",
+   "size": 10044,
+   "sha": "34849c86ca1d5632"
+  }
+ ]
+}

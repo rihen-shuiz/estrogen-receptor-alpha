@@ -1,0 +1,3 @@
+core,core_residues,n_chains,spearman_pairwise,median_abs_diff_A,max_abs_diff_A,n_clusters_1_0,ari_1_0,n_clusters_1_5,ari_1_5,n_clusters_2_0,ari_2_0,n_clusters_2_5,ari_2_5,ari_vs_primary
+alignment_core_v3 (primary),123,788,1.0,0.0,0.0,16,1.0,7,1.0,4,1.0,3,1.0,1.0
+old_core,84,788,0.987749902642129,0.04410863340130783,2.217611800209484,20,0.7748116661675736,7,0.9574551981391647,6,0.9680340002421056,4,0.9848678435127994,0.9574551981391647

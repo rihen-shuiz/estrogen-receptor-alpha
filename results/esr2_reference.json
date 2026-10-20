@@ -1,0 +1,16 @@
+{
+  "chain_key": "3OLL|A|1",
+  "pdb_id": "3OLL",
+  "resolution_A": 1.5,
+  "lbd_fraction": 0.9669421487603306,
+  "mapped_lbd_ca": 234,
+  "n_candidates_meeting_policy": 3,
+  "n_chains": 86,
+  "n_in_matrix": 86,
+  "core_fraction": 0.9759036144578314,
+  "best_core_fraction_any_esr2": 0.9759036144578314,
+  "excluded": [],
+  "core": "alignment_core_v3",
+  "policy": "ESR1 block-08 policy on ESR2: quality pass, LBD and H12 fraction minimums, best resolution",
+  "deviation": "reference_min_core_fraction 1.0 not applied: unreachable for ESR2 (best 0.976)"
+}

@@ -1,0 +1,29 @@
+{
+ "task": "X04",
+ "ts": "2026-10-20T22:32+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "figures/esr2_pca_landscape.png",
+   "size": 66062,
+   "sha": "f9e794db75e911aa"
+  },
+  {
+   "path": "results/esr2_pca_coords.csv",
+   "size": 4811,
+   "sha": "6875920a44571173"
+  },
+  {
+   "path": "results/esr2_pca_variance.json",
+   "size": 150,
+   "sha": "1ba91a90a79679ea"
+  },
+  {
+   "path": "scripts/esr2_pca.py",
+   "size": 3786,
+   "sha": "9e7c98a87b255270"
+  }
+ ]
+}

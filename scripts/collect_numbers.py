@@ -288,6 +288,58 @@ def provisional_tests():
     add("p04_multi_ligand_resolved", int(chi.n_multi_resolved), test_path)
 
 
+def keep_all():
+    """Headline numbers of the keep-all run (all eligible chains), for checking the manuscript (W16)."""
+    status_path = "results/chain_status.csv"
+    status = read(status_path)
+    add("keep_esr1_chains", len(status), status_path)
+    add("keep_chains_in_matrix", int((status.in_matrix == "True").sum()), status_path)
+    add("keep_chains_outside_matrix", int((status.in_matrix != "True").sum()), status_path)
+    in_matrix = status[status.in_matrix == "True"]
+    for label in ["A", "B", "C"]:
+        add(f"keep_matrix_chains_tier_{label}", int((in_matrix.qc_label == label).sum()), status_path)
+    add("keep_matrix_chains_with_warning", int((in_matrix.warning != "none").sum()), status_path)
+
+    for row in read("results/cluster_stats.csv").itertuples(index=False):
+        add(f"keep_n_clusters_cut_{row.cut}A", int(row.n_clusters), "results/cluster_stats.csv")
+        add(f"keep_top3_share_cut_{row.cut}A", float(row.top3_fraction), "results/cluster_stats.csv")
+    for row in read("results/entropy.csv").itertuples(index=False):
+        add(f"keep_entropy_bits_cut_{row.cut}A", float(row.entropy_bits), "results/entropy.csv")
+    for row in read("results/saturation.csv").itertuples(index=False):
+        add(f"keep_n90_cut_{row.cut}A", int(row.n_90), "results/saturation.csv")
+
+    delta = "results/qc_clustering_delta.csv"
+    for row in read(delta).itertuples(index=False):
+        if row.subset != "all":
+            tag = row.subset.replace("+", "").replace("tier_", "tier")
+            add(f"keep_{tag}_n_clusters_cut_{row.cut}A", int(row.n_clusters), delta)
+            add(f"keep_{tag}_ari_cut_{row.cut}A", float(row.ari_vs_all), delta)
+    for row in read("results/entry_vs_chain_clusters.csv").itertuples(index=False):
+        add(f"keep_entry_level_n_clusters_cut_{row.cut}A", int(row.n_clusters_entry), "results/entry_vs_chain_clusters.csv")
+        add(f"keep_entry_vs_chain_ari_cut_{row.cut}A", float(row.ari), "results/entry_vs_chain_clusters.csv")
+    core = read("results/core_sensitivity.csv").set_index("core").loc["old_core"]
+    add("keep_old_core_spearman_pairwise", float(core.spearman_pairwise), "results/core_sensitivity.csv")
+    add("keep_old_core_ari_cut_1.5A", float(core.ari_1_5), "results/core_sensitivity.csv")
+
+    outliers = read("results/qc_outliers_stats.csv")
+    for row in outliers[outliers.cut == "1.5"].itertuples(index=False):
+        add(f"q14_{row.metric}_p_cut_1.5A", float(row.mannwhitney_p), "results/qc_outliers_stats.csv")
+    q15 = json.loads((ROOT / "results/qc_bfactor_clusters_tests.json").read_text())
+    add("q15_chain_chi2_p", q15["chain_level"]["p"], "results/qc_bfactor_clusters_tests.json")
+    add("q15_entry_p", q15["entry_level"]["p"], "results/qc_bfactor_clusters_tests.json")
+    allatom = json.loads((ROOT / "results/rmsd_allatom_subset_summary.json").read_text())
+    add("s07_spearman_ca_vs_allatom", allatom["spearman_ca_vs_allatom_pairs"]["rho"], "results/rmsd_allatom_subset_summary.json")
+    for row in read("results/potency_tests.csv").itertuples(index=False):
+        add(f"x16_{row.test}_p", float(row.p_value), "results/potency_tests.csv")
+        add(f"x16_{row.test}_n", int(row.n), "results/potency_tests.csv")
+    esr2_ref = json.loads((ROOT / "results/esr2_reference.json").read_text())
+    add("x02_esr2_chains_in_matrix", esr2_ref["n_in_matrix"], "results/esr2_reference.json")
+    add("x02_esr2_reference", esr2_ref["chain_key"], "results/esr2_reference.json")
+    basins = read("results/esr2_basin_counts.csv")
+    add("x05_esr2_basins", len(basins), "results/esr2_basin_counts.csv")
+    add("x05_esr2_basins_interpretable", int((basins.interpretable == "True").sum()), "results/esr2_basin_counts.csv")
+
+
 def write():
     settings = json.loads((ROOT / SETTINGS).read_text())
     dataset(settings)
@@ -299,6 +351,7 @@ def write():
     esr2()
     labels()
     provisional_tests()
+    keep_all()
     (ROOT / "results/numbers.json").write_text(json.dumps({"numbers": NUMBERS}, indent=2) + "\n")
     lines = [f"{item['name']}: {text(item['value'])} ({', '.join(item['source'])})" + (" (Sep)" if item["sep"] else "")
              for item in NUMBERS]

@@ -1,0 +1,24 @@
+{
+ "task": "E07",
+ "ts": "2026-10-20T22:18+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/displacement_matrix.csv",
+   "size": 580406,
+   "sha": "2b939e9fedbd0e7b"
+  },
+  {
+   "path": "results/displacement_pairs.csv",
+   "size": 9502,
+   "sha": "12a44cb0ee1fbd65"
+  },
+  {
+   "path": "scripts/receptor_displacements.py",
+   "size": 5226,
+   "sha": "318524d1a13f6220"
+  }
+ ]
+}

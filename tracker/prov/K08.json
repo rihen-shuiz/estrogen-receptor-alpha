@@ -1,0 +1,69 @@
+{
+ "task": "K08",
+ "ts": "2026-10-20T22:26+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "docs/data_retention.md",
+   "size": 5722,
+   "sha": "1c58084256588ae4"
+  },
+  {
+   "path": "results/attrition_funnel.csv",
+   "size": 2881,
+   "sha": "d20658157ddc76bc"
+  },
+  {
+   "path": "results/chain_status.csv",
+   "size": 229906,
+   "sha": "3c8aceac4c4d05a8"
+  },
+  {
+   "path": "results/qc_clustering_delta.csv",
+   "size": 694,
+   "sha": "7dd247a852fb1f32"
+  },
+  {
+   "path": "results/entropy_qc_compare.csv",
+   "size": 1318,
+   "sha": "3664938dd97d9bf9"
+  },
+  {
+   "path": "results/entry_vs_chain_clusters.csv",
+   "size": 337,
+   "sha": "fdc032c2b8539c5e"
+  },
+  {
+   "path": "results/helix_stability_by_bgroup.csv",
+   "size": 5474,
+   "sha": "b45d523ab3a6e46c"
+  },
+  {
+   "path": "results/h12_core_ratio_by_bgroup.csv",
+   "size": 930,
+   "sha": "67e9be1027b0c322"
+  },
+  {
+   "path": "results/core_sensitivity.csv",
+   "size": 442,
+   "sha": "7dc3c5a10aba9d38"
+  },
+  {
+   "path": "results/h12_metric.csv",
+   "size": 47689,
+   "sha": "e01334aacadba42f"
+  },
+  {
+   "path": "results/cluster_stats.csv",
+   "size": 352,
+   "sha": "9e631cff9cb1c5ef"
+  },
+  {
+   "path": "results/archive_v2_strict/cluster_stats.csv",
+   "size": 318,
+   "sha": "b59e681e58c60230"
+  }
+ ]
+}

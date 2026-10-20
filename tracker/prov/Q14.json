@@ -1,0 +1,34 @@
+{
+ "task": "Q14",
+ "ts": "2026-10-20T22:20+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/qc_outliers.csv",
+   "size": 69341,
+   "sha": "2872721cffd0cbed"
+  },
+  {
+   "path": "docs/qc_outliers.md",
+   "size": 2236,
+   "sha": "f31f2425372d9aa1"
+  },
+  {
+   "path": "results/qc_outliers_stats.csv",
+   "size": 541,
+   "sha": "710859877ec03219"
+  },
+  {
+   "path": "figures/qc_outliers.png",
+   "size": 75017,
+   "sha": "aa5d9f13a578d0d9"
+  },
+  {
+   "path": "scripts/qc_outliers.py",
+   "size": 7407,
+   "sha": "f64b32ca9dc8a020"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": "K07",
+ "ts": "2026-10-20T22:25+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/entry_level_clusters.csv",
+   "size": 20048,
+   "sha": "a4a6ccf05ac99201"
+  },
+  {
+   "path": "results/entry_vs_chain_clusters.csv",
+   "size": 337,
+   "sha": "fdc032c2b8539c5e"
+  },
+  {
+   "path": "scripts/entry_level_clusters.py",
+   "size": 3875,
+   "sha": "d9cbba998e36f858"
+  }
+ ]
+}

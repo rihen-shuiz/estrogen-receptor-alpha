@@ -1,0 +1,36 @@
+{
+  "task": "Q15",
+  "cut": "1.5",
+  "n_chains": 788,
+  "overall_high_share": 0.33375634517766495,
+  "chain_level": {
+    "clusters_tested": [
+      4,
+      7
+    ],
+    "min_chains_to_test": 20,
+    "chi2": 51.8043688793551,
+    "dof": 2,
+    "p": 5.634095817108025e-12
+  },
+  "entry_level": {
+    "n_entries": 343,
+    "entries_split_or_untested": 8,
+    "tier_b_by_cluster": {
+      "4": {
+        "A": 107,
+        "B": 16,
+        "C": 1
+      },
+      "7": {
+        "A": 153,
+        "B": 66,
+        "C": 0
+      }
+    },
+    "test": "chi2",
+    "statistic": 14.42052969542663,
+    "p": 0.0007389614173019611
+  },
+  "note": "chain-level counts repeat entries with several chains; the entry-level test is the safer reading"
+}

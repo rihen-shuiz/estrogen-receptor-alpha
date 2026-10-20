@@ -1,0 +1,24 @@
+{
+ "task": "Q15",
+ "ts": "2026-10-20T22:20+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/qc_bfactor_clusters.csv",
+   "size": 642,
+   "sha": "80a0e7add2e9e183"
+  },
+  {
+   "path": "results/qc_bfactor_clusters_tests.json",
+   "size": 770,
+   "sha": "dfb764390213ae85"
+  },
+  {
+   "path": "scripts/qc_bfactor_clusters.py",
+   "size": 4597,
+   "sha": "0aa962f15bbbe79d"
+  }
+ ]
+}

@@ -1,8 +1,9 @@
 """Tracker S09: per-cut cluster statistics for the selected-chain clustering.
 
 Input: results/rmsd_entry.npy (S04), results/entry_clusters.csv (S08, same row order as the matrix).
-Per cut: number of clusters, share of entries in the three largest clusters, and the median RMSD of
-entry pairs inside one cluster and of pairs in different clusters (angstrom, over the S04 matrix).
+Rows are chains (keep-all run: every eligible chain, an entry with several chains appears several times).
+Per cut: number of clusters, share of chains in the three largest clusters, and the median RMSD of
+chain pairs inside one cluster and of pairs in different clusters (angstrom, over the S04 matrix).
 Output: results/cluster_stats.csv.
 Run from the repo root: python scripts/cluster_stats.py
 """
@@ -30,11 +31,15 @@ def cut_stats(labels, matrix, upper):
 def main():
     matrix = np.load(ROOT / "results/rmsd_entry.npy")
     clusters = pd.read_csv(ROOT / "results/entry_clusters.csv")
+    matrix_keys = (ROOT / "results/alignment/rmsd_entry_index.txt").read_text().splitlines()
+    if clusters.chain_key.tolist() != matrix_keys:
+        raise ValueError("entry_clusters.csv row order does not match the RMSD matrix")
     upper = np.triu_indices(matrix.shape[0], k=1)
     rows = []
     for cut in CUTS:
         labels = clusters[f"cut_{cut}"].to_numpy()
-        rows.append({"cut": cut, **cut_stats(labels, matrix, upper)})
+        rows.append({"cut": cut, "n_chains": labels.size, "n_entries": clusters.entry_id.nunique(),
+                     **cut_stats(labels, matrix, upper)})
     table = pd.DataFrame(rows)
     table.to_csv(ROOT / "results/cluster_stats.csv", index=False)
     print(table.to_string(index=False))

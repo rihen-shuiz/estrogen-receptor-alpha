@@ -1781,6 +1781,518 @@
         "results/provisional/chem_struct_test.csv"
       ],
       "sep": false
+    },
+    {
+      "name": "keep_esr1_chains",
+      "value": 901,
+      "source": [
+        "results/chain_status.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_chains_in_matrix",
+      "value": 788,
+      "source": [
+        "results/chain_status.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_chains_outside_matrix",
+      "value": 113,
+      "source": [
+        "results/chain_status.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_matrix_chains_tier_A",
+      "value": 544,
+      "source": [
+        "results/chain_status.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_matrix_chains_tier_B",
+      "value": 240,
+      "source": [
+        "results/chain_status.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_matrix_chains_tier_C",
+      "value": 4,
+      "source": [
+        "results/chain_status.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_matrix_chains_with_warning",
+      "value": 244,
+      "source": [
+        "results/chain_status.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_n_clusters_cut_1.0A",
+      "value": 16,
+      "source": [
+        "results/cluster_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_top3_share_cut_1.0A",
+      "value": 0.9543147208121827,
+      "source": [
+        "results/cluster_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_n_clusters_cut_1.5A",
+      "value": 7,
+      "source": [
+        "results/cluster_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_top3_share_cut_1.5A",
+      "value": 0.9885786802030457,
+      "source": [
+        "results/cluster_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_n_clusters_cut_2.0A",
+      "value": 4,
+      "source": [
+        "results/cluster_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_top3_share_cut_2.0A",
+      "value": 0.9974619289340102,
+      "source": [
+        "results/cluster_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_n_clusters_cut_2.5A",
+      "value": 3,
+      "source": [
+        "results/cluster_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_top3_share_cut_2.5A",
+      "value": 1.0,
+      "source": [
+        "results/cluster_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entropy_bits_cut_1.0A",
+      "value": 1.595844356895745,
+      "source": [
+        "results/entropy.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entropy_bits_cut_1.5A",
+      "value": 1.1332722559505624,
+      "source": [
+        "results/entropy.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entropy_bits_cut_2.0A",
+      "value": 1.0581080713180215,
+      "source": [
+        "results/entropy.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entropy_bits_cut_2.5A",
+      "value": 1.034647173521042,
+      "source": [
+        "results/entropy.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_n90_cut_1.0A",
+      "value": 520,
+      "source": [
+        "results/saturation.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_n90_cut_1.5A",
+      "value": 488,
+      "source": [
+        "results/saturation.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_n90_cut_2.0A",
+      "value": 315,
+      "source": [
+        "results/saturation.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_n90_cut_2.5A",
+      "value": 147,
+      "source": [
+        "results/saturation.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierA_n_clusters_cut_1.0A",
+      "value": 14,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierA_ari_cut_1.0A",
+      "value": 0.9068286092985085,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierA_n_clusters_cut_1.5A",
+      "value": 4,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierA_ari_cut_1.5A",
+      "value": 0.9819838401639648,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierA_n_clusters_cut_2.0A",
+      "value": 3,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierA_ari_cut_2.0A",
+      "value": 0.9888546408145604,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierA_n_clusters_cut_2.5A",
+      "value": 2,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierA_ari_cut_2.5A",
+      "value": 0.988801352558865,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierAB_n_clusters_cut_1.0A",
+      "value": 16,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierAB_ari_cut_1.0A",
+      "value": 1.0,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierAB_n_clusters_cut_1.5A",
+      "value": 7,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierAB_ari_cut_1.5A",
+      "value": 1.0,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierAB_n_clusters_cut_2.0A",
+      "value": 4,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierAB_ari_cut_2.0A",
+      "value": 1.0,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierAB_n_clusters_cut_2.5A",
+      "value": 3,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_tierAB_ari_cut_2.5A",
+      "value": 1.0,
+      "source": [
+        "results/qc_clustering_delta.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entry_level_n_clusters_cut_1.0A",
+      "value": 18,
+      "source": [
+        "results/entry_vs_chain_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entry_vs_chain_ari_cut_1.0A",
+      "value": 0.8407022832014079,
+      "source": [
+        "results/entry_vs_chain_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entry_level_n_clusters_cut_1.5A",
+      "value": 6,
+      "source": [
+        "results/entry_vs_chain_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entry_vs_chain_ari_cut_1.5A",
+      "value": 0.9736325239143379,
+      "source": [
+        "results/entry_vs_chain_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entry_level_n_clusters_cut_2.0A",
+      "value": 3,
+      "source": [
+        "results/entry_vs_chain_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entry_vs_chain_ari_cut_2.0A",
+      "value": 0.9815305853014417,
+      "source": [
+        "results/entry_vs_chain_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entry_level_n_clusters_cut_2.5A",
+      "value": 3,
+      "source": [
+        "results/entry_vs_chain_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_entry_vs_chain_ari_cut_2.5A",
+      "value": 0.9886726572165185,
+      "source": [
+        "results/entry_vs_chain_clusters.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_old_core_spearman_pairwise",
+      "value": 0.987749902642129,
+      "source": [
+        "results/core_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "keep_old_core_ari_cut_1.5A",
+      "value": 0.9574551981391647,
+      "source": [
+        "results/core_sensitivity.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "q14_resolution_A_p_cut_1.5A",
+      "value": 0.20673785400506672,
+      "source": [
+        "results/qc_outliers_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "q14_r_free_p_cut_1.5A",
+      "value": 0.7476740665220909,
+      "source": [
+        "results/qc_outliers_stats.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "q15_chain_chi2_p",
+      "value": 5.634095817108025e-12,
+      "source": [
+        "results/qc_bfactor_clusters_tests.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "q15_entry_p",
+      "value": 0.0007389614173019611,
+      "source": [
+        "results/qc_bfactor_clusters_tests.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "s07_spearman_ca_vs_allatom",
+      "value": 0.9852754021673922,
+      "source": [
+        "results/rmsd_allatom_subset_summary.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x16_kruskal_wallis_p",
+      "value": 5.9590145795987964e-05,
+      "source": [
+        "results/potency_tests.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x16_kruskal_wallis_n",
+      "value": 80,
+      "source": [
+        "results/potency_tests.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x16_mann_whitney_p",
+      "value": 6.088870798976637e-05,
+      "source": [
+        "results/potency_tests.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x16_mann_whitney_n",
+      "value": 80,
+      "source": [
+        "results/potency_tests.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x16_spearman_pchembl_vs_h12_rmsd_p",
+      "value": 2.6252530874850246e-05,
+      "source": [
+        "results/potency_tests.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x16_spearman_pchembl_vs_h12_rmsd_n",
+      "value": 79,
+      "source": [
+        "results/potency_tests.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x02_esr2_chains_in_matrix",
+      "value": 86,
+      "source": [
+        "results/esr2_reference.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x02_esr2_reference",
+      "value": "3OLL|A|1",
+      "source": [
+        "results/esr2_reference.json"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x05_esr2_basins",
+      "value": 5,
+      "source": [
+        "results/esr2_basin_counts.csv"
+      ],
+      "sep": false
+    },
+    {
+      "name": "x05_esr2_basins_interpretable",
+      "value": 2,
+      "source": [
+        "results/esr2_basin_counts.csv"
+      ],
+      "sep": false
     }
   ]
 }
