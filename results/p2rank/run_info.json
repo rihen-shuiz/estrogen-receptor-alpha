@@ -1,0 +1,7 @@
+{
+  "p2rank_version": "P2Rank 2.5.1",
+  "command": "prank predict <data/clean/*.pdb dataset> -threads 16 -visualizations 0",
+  "n_input_pdb": 788,
+  "n_predictions": 788,
+  "exit_code": 0
+}

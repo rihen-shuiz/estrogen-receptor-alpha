@@ -1,0 +1,24 @@
+{
+ "task": "X08",
+ "ts": "2026-10-21T00:54+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/p2rank/run_info.json",
+   "size": 197,
+   "sha": "741bd74b76d456b0"
+  },
+  {
+   "path": "results/p2rank/5TM1_A.pdb_predictions.csv",
+   "size": 784,
+   "sha": "7f9d3bc7fc89f392"
+  },
+  {
+   "path": "scripts/p2rank_batch.py",
+   "size": 2584,
+   "sha": "ed8074ae90c77056"
+  }
+ ]
+}

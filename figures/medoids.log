@@ -1,0 +1,170 @@
+ Setting: cif_use_auth set to on.
+ Setting: matrix_mode set to 0.
+ Setting: orthoscopic set to on.
+ Setting: ray_shadow set to off.
+ Setting: antialias set to 2.
+ Setting: opaque_background set to on.
+ Setting: cartoon_fancy_helices set to on.
+TITLE     Crystal Structure of the ER-alpha Ligand-binding Domain (Y537S) in Complex with 2,5-bis(2-fluoro-4-hydroxyphenyl)thiophene 1-oxide
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "data/raw/5TM1.cif" loaded as "raw_c7_5TM1_A".
+ Selector: found 1715 atoms.
+ Executive: object "c7_5TM1_A" created.
+ Executive: Colored 1715 atoms and 1 object.
+ Executive: Colored 75 atoms.
+TITLE     Estrogen receptor alpha ligand-binding domain in complex with a benzopyran agonist
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "data/raw/2QE4.cif" loaded as "raw_c4_2QE4_B".
+ Selector: found 1672 atoms.
+ Executive: object "c4_2QE4_B" created.
+ Executive: Colored 1672 atoms and 1 object.
+TITLE     ESTROGEN RECEPTOR ALPHA LBD IN COMPLEX WITH A TAMOXIFEN-SPECIFIC PEPTIDE ANTAGONIST
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "data/raw/2JF9.cif" loaded as "raw_c1_2JF9_A".
+ Selector: found 1740 atoms.
+ Executive: object "c1_2JF9_A" created.
+ Executive: Colored 1740 atoms and 1 object.
+TITLE     Crystal Structure of the ER-alpha Ligand-binding Domain (L372S, L536S) in complex with NA98
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "data/raw/9B25.cif" loaded as "raw_c3_9B25_B".
+ Selector: found 3701 atoms.
+ Executive: object "c3_9B25_B" created.
+ Executive: Colored 3701 atoms and 1 object.
+ Executive: Colored 159 atoms.
+TITLE     Human Estrogen Receptor alpha Ligand-Binding Domain In Complex With GW5638
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "data/raw/1R5K.cif" loaded as "raw_c2_1R5K_B".
+ Selector: found 1902 atoms.
+ Executive: object "c2_1R5K_B" created.
+ Executive: Colored 1902 atoms and 1 object.
+ Executive: Colored 57 atoms.
+TITLE     Crystal Structure of the ER-alpha Ligand-binding Domain (L372S, L536S) in complex with NA98
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "data/raw/9B25.cif" loaded as "raw_c6_9B25_A".
+ Selector: found 4053 atoms.
+ Executive: object "c6_9B25_A" created.
+ Executive: Colored 4053 atoms and 1 object.
+ Executive: Colored 142 atoms.
+TITLE     Human Estrogen receptor alpha LBD with GW368
+ ExecutiveLoad-Detail: Detected mmCIF
+ CmdLoad: "data/raw/3DT3.cif" loaded as "raw_c5_3DT3_B".
+ Selector: found 1879 atoms.
+ Executive: object "c5_3DT3_B" created.
+ Executive: Colored 1879 atoms and 1 object.
+ Executive: Colored 80 atoms.
+ Setting: cartoon_transparency set to 0.15000.
+ Ray: render time: 80.27 sec. = 44.8 frames/hour (80.27 sec. accum.).
+ ScenePNG: wrote 1400x1050 pixel image to file "figures/medoids.png".
+PyMOL>reinitialize
+PyMOL>set cif_use_auth, 1
+PyMOL>set matrix_mode, 0
+PyMOL>set orthoscopic, 1
+PyMOL>set ray_shadows, 0
+PyMOL>set antialias, 2
+PyMOL>set opaque_background, 1
+PyMOL>bg_color white
+PyMOL>set cartoon_fancy_helices, 1
+PyMOL>viewport 1400, 1050
+PyMOL>load data/raw/5TM1.cif, raw_c7_5TM1_A
+PyMOL>create c7_5TM1_A, raw_c7_5TM1_A and polymer and chain A and segi A
+PyMOL>delete raw_c7_5TM1_A
+PyMOL>python
+PyMOL>cmd.transform_object('c7_5TM1_A', [0.71601464, -0.38110077, 0.58488054, -2.29602585, -0.35661297, -0.91994798, -0.16285852, 1.79357696, 0.60012518, -0.0919669, -0.7946017, 26.0161089, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+    1:cmd.transform_object('c7_5TM1_A', [0.71601464, -0.38110077, 0.58488054, -2.29602585, -0.35661297, -0.91994798, -0.16285852, 1.79357696, 0.60012518, -0.0919669, -0.7946017, 26.0161089, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+PyMOL>python end
+PyMOL>python end
+PyMOL>color 0x2a78d6, c7_5TM1_A
+PyMOL>color 0xe34948, c7_5TM1_A and resi 538+539+540+541+542+543+544+545+546+547
+  File "toplevel", line 1
+    H12 [538, 547] = author resi 538+539+540+541+542+543+544+545+546+547
+                            ^^^^
+SyntaxError: invalid syntax
+PyMOL>load data/raw/2QE4.cif, raw_c4_2QE4_B
+PyMOL>create c4_2QE4_B, raw_c4_2QE4_B and polymer and chain B and segi B
+PyMOL>delete raw_c4_2QE4_B
+PyMOL>python
+PyMOL>cmd.transform_object('c4_2QE4_B', [-0.59685049, 0.4892248, 0.635947, 1.72599847, 0.31897108, -0.58260339, 0.74754983, -25.19151791, 0.73622479, 0.64902418, 0.19167855, 4.02147779, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+    1:cmd.transform_object('c4_2QE4_B', [-0.59685049, 0.4892248, 0.635947, 1.72599847, 0.31897108, -0.58260339, 0.74754983, -25.19151791, 0.73622479, 0.64902418, 0.19167855, 4.02147779, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+PyMOL>python end
+PyMOL>python end
+PyMOL>color 0xeb6834, c4_2QE4_B
+  File "toplevel", line 1
+    H12 [538, 547] = author resi not modelled
+                            ^^^^
+SyntaxError: invalid syntax
+PyMOL>load data/raw/2JF9.cif, raw_c1_2JF9_A
+PyMOL>create c1_2JF9_A, raw_c1_2JF9_A and polymer and chain A and segi A
+PyMOL>delete raw_c1_2JF9_A
+PyMOL>python
+PyMOL>cmd.transform_object('c1_2JF9_A', [-0.50463771, -0.65473254, 0.56273092, 64.17588978, 0.11031803, 0.59756713, 0.79419359, -46.6246906, -0.85625388, 0.4628594, -0.2293261, 79.43649426, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+    1:cmd.transform_object('c1_2JF9_A', [-0.50463771, -0.65473254, 0.56273092, 64.17588978, 0.11031803, 0.59756713, 0.79419359, -46.6246906, -0.85625388, 0.4628594, -0.2293261, 79.43649426, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+PyMOL>python end
+PyMOL>python end
+PyMOL>color 0x1baf7a, c1_2JF9_A
+  File "toplevel", line 1
+    H12 [538, 547] = author resi not modelled
+                            ^^^^
+SyntaxError: invalid syntax
+PyMOL>load data/raw/9B25.cif, raw_c3_9B25_B
+PyMOL>create c3_9B25_B, raw_c3_9B25_B and polymer and chain B and segi B
+PyMOL>delete raw_c3_9B25_B
+PyMOL>python
+PyMOL>cmd.transform_object('c3_9B25_B', [0.38882257, 0.43882295, 0.81009347, -0.63856311, -0.8427804, 0.52463772, 0.12031817, 15.07826028, -0.37220721, -0.72951331, 0.57382237, 3.0721051, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+    1:cmd.transform_object('c3_9B25_B', [0.38882257, 0.43882295, 0.81009347, -0.63856311, -0.8427804, 0.52463772, 0.12031817, 15.07826028, -0.37220721, -0.72951331, 0.57382237, 3.0721051, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+PyMOL>python end
+PyMOL>python end
+PyMOL>color 0xeda100, c3_9B25_B
+PyMOL>color 0xe34948, c3_9B25_B and resi 538+539+540+541+542+543+544+545+546+547
+  File "toplevel", line 1
+    H12 [538, 547] = author resi 538+539+540+541+542+543+544+545+546+547
+                            ^^^^
+SyntaxError: invalid syntax
+PyMOL>load data/raw/1R5K.cif, raw_c2_1R5K_B
+PyMOL>create c2_1R5K_B, raw_c2_1R5K_B and polymer and chain B and segi B
+PyMOL>delete raw_c2_1R5K_B
+PyMOL>python
+PyMOL>cmd.transform_object('c2_1R5K_B', [0.62637978, -0.01506072, -0.77937253, 290.10950629, 0.67830016, -0.48215862, 0.55446547, -166.10411602, -0.38413183, -0.87595448, -0.29179872, 142.44423008, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+    1:cmd.transform_object('c2_1R5K_B', [0.62637978, -0.01506072, -0.77937253, 290.10950629, 0.67830016, -0.48215862, 0.55446547, -166.10411602, -0.38413183, -0.87595448, -0.29179872, 142.44423008, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+PyMOL>python end
+PyMOL>python end
+PyMOL>color 0xe87ba4, c2_1R5K_B
+PyMOL>color 0xe34948, c2_1R5K_B and resi 538+539+540+541+542+543+544
+  File "toplevel", line 1
+    H12 [538, 547] = author resi 538+539+540+541+542+543+544
+                            ^^^^
+SyntaxError: invalid syntax
+PyMOL>load data/raw/9B25.cif, raw_c6_9B25_A
+PyMOL>create c6_9B25_A, raw_c6_9B25_A and polymer and chain A and segi A
+PyMOL>delete raw_c6_9B25_A
+PyMOL>python
+PyMOL>cmd.transform_object('c6_9B25_A', [0.22945637, -0.11876056, 0.96604643, -9.58501727, 0.81813009, -0.51414199, -0.25752898, -27.55692914, 0.52726932, 0.84944331, -0.02081157, 22.30376636, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+    1:cmd.transform_object('c6_9B25_A', [0.22945637, -0.11876056, 0.96604643, -9.58501727, 0.81813009, -0.51414199, -0.25752898, -27.55692914, 0.52726932, 0.84944331, -0.02081157, 22.30376636, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+PyMOL>python end
+PyMOL>python end
+PyMOL>color 0x008300, c6_9B25_A
+PyMOL>color 0xe34948, c6_9B25_A and resi 538+539+540+541+542+543+544+545+546
+  File "toplevel", line 1
+    H12 [538, 547] = author resi 538+539+540+541+542+543+544+545+546
+                            ^^^^
+SyntaxError: invalid syntax
+PyMOL>load data/raw/3DT3.cif, raw_c5_3DT3_B
+PyMOL>create c5_3DT3_B, raw_c5_3DT3_B and polymer and chain B and segi B
+PyMOL>delete raw_c5_3DT3_B
+PyMOL>python
+PyMOL>cmd.transform_object('c5_3DT3_B', [0.6980312, -0.69711019, 0.16367599, -10.42607565, -0.10614467, 0.12531922, 0.98642202, -24.29524689, -0.70815658, -0.70592668, 0.0134822, 32.9901162, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+    1:cmd.transform_object('c5_3DT3_B', [0.6980312, -0.69711019, 0.16367599, -10.42607565, -0.10614467, 0.12531922, 0.98642202, -24.29524689, -0.70815658, -0.70592668, 0.0134822, 32.9901162, 0.0, 0.0, 0.0, 1.0], state=1, homogenous=1, transpose=0)
+PyMOL>python end
+PyMOL>python end
+PyMOL>color 0x4a3aa7, c5_3DT3_B
+PyMOL>color 0xe34948, c5_3DT3_B and resi 538+539+540+541+542+543+544+545+546+547
+  File "toplevel", line 1
+    H12 [538, 547] = author resi 538+539+540+541+542+543+544+545+546+547
+                            ^^^^
+SyntaxError: invalid syntax
+PyMOL>hide everything
+PyMOL>show cartoon
+PyMOL>set cartoon_transparency, 0.15
+PyMOL>orient
+PyMOL>turn x, -90
+PyMOL>ray 1400, 1050
+PyMOL>png figures/medoids.png, dpi=150

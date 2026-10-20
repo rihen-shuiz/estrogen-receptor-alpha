@@ -1,0 +1,29 @@
+{
+ "task": "X12",
+ "ts": "2026-10-21T00:56+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "figures/pocket_pca.png",
+   "size": 117258,
+   "sha": "4c3fb0d95b8cd3be"
+  },
+  {
+   "path": "results/pocket_pca_coords.csv",
+   "size": 44108,
+   "sha": "068e7004e0f2e3ad"
+  },
+  {
+   "path": "results/pocket_pca_loadings.csv",
+   "size": 402,
+   "sha": "accdc15c883b2c72"
+  },
+  {
+   "path": "scripts/pocket_pca.py",
+   "size": 3879,
+   "sha": "5ec116d125c4e0b5"
+  }
+ ]
+}
