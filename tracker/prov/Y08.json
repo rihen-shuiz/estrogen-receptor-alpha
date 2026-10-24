@@ -1,0 +1,44 @@
+{
+ "task": "Y08",
+ "ts": "2026-10-25T00:53+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/chem_zoo_runs.csv",
+   "size": 45184,
+   "sha": "35b4046bb51d6c2b"
+  },
+  {
+   "path": "results/ext/chem_zoo_ranking.csv",
+   "size": 39652,
+   "sha": "8d0886068b094425"
+  },
+  {
+   "path": "results/ext/chem_labels_best.csv",
+   "size": 75464,
+   "sha": "a2ec9a6ac396a74f"
+  },
+  {
+   "path": "results/ext/chem_umap.csv",
+   "size": 7613,
+   "sha": "02f5f56fa1947c7f"
+  },
+  {
+   "path": "figures/ext/Y08_chem_zoo_metrics.png",
+   "size": 401695,
+   "sha": "4df70578ce3edbe6"
+  },
+  {
+   "path": "figures/ext/Y08_chem_map.png",
+   "size": 206497,
+   "sha": "47d7a370ebfa18bb"
+  },
+  {
+   "path": "scripts/ext_chem_zoo.py",
+   "size": 16958,
+   "sha": "ab8a67fbf4122bf5"
+  }
+ ]
+}

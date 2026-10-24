@@ -1,0 +1,30 @@
+{
+ "cl7": {
+  "run_id": "S08|cut_1.5",
+  "size": 445,
+  "medoid": 423,
+  "mean_intra_A": 0.704185447087144,
+  "medoid_radius_A": 0.44351475229004966,
+  "max_intra_A": 0.967931141629766,
+  "diameter_A": 3.1195205034544187,
+  "separation_A": 2.155774434349215,
+  "cohesion_separation": 0.32665080161771354,
+  "s08_majority": 7
+ },
+ "cl4": {
+  "run_id": "S08|cut_1.5",
+  "size": 329,
+  "medoid": 89,
+  "mean_intra_A": 0.9090084920510688,
+  "medoid_radius_A": 0.5039134183956449,
+  "max_intra_A": 0.9684008113050907,
+  "diameter_A": 2.448623286555624,
+  "separation_A": 1.5014996468611965,
+  "cohesion_separation": 0.6054004034908045,
+  "s08_majority": 4
+ },
+ "cl7_medoid": "5TM1|A|1",
+ "cl4_medoid": "2QE4|B|1",
+ "mean_cl7_cl4_A": 3.4985139394138614,
+ "n_cluster_rows": 457
+}

@@ -1,0 +1,244 @@
+{
+ "scores": [
+  {
+   "model": "decision_tree",
+   "feature_set": "quality",
+   "n_features": 10,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.7173,
+   "balanced_accuracy_sd": 0.0655,
+   "roc_auc_mean": 0.7277,
+   "roc_auc_sd": 0.0753
+  },
+  {
+   "model": "random_forest",
+   "feature_set": "quality",
+   "n_features": 10,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.802,
+   "balanced_accuracy_sd": 0.0566,
+   "roc_auc_mean": 0.8882,
+   "roc_auc_sd": 0.0534
+  },
+  {
+   "model": "logistic",
+   "feature_set": "quality",
+   "n_features": 10,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.7858,
+   "balanced_accuracy_sd": 0.0339,
+   "roc_auc_mean": 0.8687,
+   "roc_auc_sd": 0.0359
+  },
+  {
+   "model": "decision_tree",
+   "feature_set": "crystal",
+   "n_features": 17,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9358,
+   "balanced_accuracy_sd": 0.0327,
+   "roc_auc_mean": 0.9298,
+   "roc_auc_sd": 0.0337
+  },
+  {
+   "model": "random_forest",
+   "feature_set": "crystal",
+   "n_features": 17,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9663,
+   "balanced_accuracy_sd": 0.0207,
+   "roc_auc_mean": 0.9962,
+   "roc_auc_sd": 0.0047
+  },
+  {
+   "model": "logistic",
+   "feature_set": "crystal",
+   "n_features": 17,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9452,
+   "balanced_accuracy_sd": 0.0272,
+   "roc_auc_mean": 0.9759,
+   "roc_auc_sd": 0.0307
+  },
+  {
+   "model": "decision_tree",
+   "feature_set": "construct",
+   "n_features": 9,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9594,
+   "balanced_accuracy_sd": 0.036,
+   "roc_auc_mean": 0.9877,
+   "roc_auc_sd": 0.0115
+  },
+  {
+   "model": "random_forest",
+   "feature_set": "construct",
+   "n_features": 9,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9594,
+   "balanced_accuracy_sd": 0.036,
+   "roc_auc_mean": 0.9895,
+   "roc_auc_sd": 0.0102
+  },
+  {
+   "model": "logistic",
+   "feature_set": "construct",
+   "n_features": 9,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9594,
+   "balanced_accuracy_sd": 0.036,
+   "roc_auc_mean": 0.9898,
+   "roc_auc_sd": 0.0108
+  },
+  {
+   "model": "decision_tree",
+   "feature_set": "ligand",
+   "n_features": 6,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.8348,
+   "balanced_accuracy_sd": 0.033,
+   "roc_auc_mean": 0.9157,
+   "roc_auc_sd": 0.0392
+  },
+  {
+   "model": "random_forest",
+   "feature_set": "ligand",
+   "n_features": 6,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.8925,
+   "balanced_accuracy_sd": 0.0404,
+   "roc_auc_mean": 0.948,
+   "roc_auc_sd": 0.0186
+  },
+  {
+   "model": "logistic",
+   "feature_set": "ligand",
+   "n_features": 6,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.8522,
+   "balanced_accuracy_sd": 0.0418,
+   "roc_auc_mean": 0.9117,
+   "roc_auc_sd": 0.0311
+  },
+  {
+   "model": "decision_tree",
+   "feature_set": "structure",
+   "n_features": 5,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9889,
+   "balanced_accuracy_sd": 0.0069,
+   "roc_auc_mean": 0.9996,
+   "roc_auc_sd": 0.0003
+  },
+  {
+   "model": "random_forest",
+   "feature_set": "structure",
+   "n_features": 5,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9923,
+   "balanced_accuracy_sd": 0.0082,
+   "roc_auc_mean": 0.9998,
+   "roc_auc_sd": 0.0002
+  },
+  {
+   "model": "logistic",
+   "feature_set": "structure",
+   "n_features": 5,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9789,
+   "balanced_accuracy_sd": 0.0097,
+   "roc_auc_mean": 0.9986,
+   "roc_auc_sd": 0.0007
+  },
+  {
+   "model": "decision_tree",
+   "feature_set": "context",
+   "n_features": 42,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9717,
+   "balanced_accuracy_sd": 0.0153,
+   "roc_auc_mean": 0.9746,
+   "roc_auc_sd": 0.0128
+  },
+  {
+   "model": "random_forest",
+   "feature_set": "context",
+   "n_features": 42,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9838,
+   "balanced_accuracy_sd": 0.0137,
+   "roc_auc_mean": 0.9983,
+   "roc_auc_sd": 0.0023
+  },
+  {
+   "model": "logistic",
+   "feature_set": "context",
+   "n_features": 42,
+   "n_chains": 774,
+   "n_entries": 347,
+   "balanced_accuracy_mean": 0.9737,
+   "balanced_accuracy_sd": 0.026,
+   "roc_auc_mean": 0.9959,
+   "roc_auc_sd": 0.0057
+  }
+ ],
+ "top_mi": [
+  {
+   "feature": "h12_h3_angle",
+   "mutual_info": 0.661
+  },
+  {
+   "feature": "k362_e542_A",
+   "mutual_info": 0.6609
+  },
+  {
+   "feature": "l540_pocket_A",
+   "mutual_info": 0.6598
+  },
+  {
+   "feature": "h12_shift_A",
+   "mutual_info": 0.6561
+  },
+  {
+   "feature": "h12_to_h11_A",
+   "mutual_info": 0.6559
+  },
+  {
+   "feature": "peptide_present",
+   "mutual_info": 0.5191
+  },
+  {
+   "feature": "lig_clogp",
+   "mutual_info": 0.4638
+  },
+  {
+   "feature": "sg=P 1 21 1",
+   "mutual_info": 0.4567
+  },
+  {
+   "feature": "lig_mw",
+   "mutual_info": 0.4342
+  },
+  {
+   "feature": "mean_b",
+   "mutual_info": 0.4051
+  }
+ ]
+}

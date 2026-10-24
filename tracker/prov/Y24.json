@@ -1,0 +1,39 @@
+{
+ "task": "Y24",
+ "ts": "2026-10-25T01:30+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/chembl_esr2_activities.csv",
+   "size": 368660,
+   "sha": "471b7acc9aa7fc1b"
+  },
+  {
+   "path": "results/ext/chembl_esr2_meta.json",
+   "size": 217,
+   "sha": "aba585b54d15decc"
+  },
+  {
+   "path": "results/ext/selectivity_ratios.csv",
+   "size": 87224,
+   "sha": "d48de0f306a031ff"
+  },
+  {
+   "path": "results/ext/selectivity_tests.csv",
+   "size": 298,
+   "sha": "92408efc658ad6cd"
+  },
+  {
+   "path": "figures/ext/Y24_potency_esr1_vs_esr2.png",
+   "size": 315014,
+   "sha": "bd911d3f63b0732e"
+  },
+  {
+   "path": "scripts/ext_selectivity.py",
+   "size": 8842,
+   "sha": "e2e8b08d8db8c844"
+  }
+ ]
+}

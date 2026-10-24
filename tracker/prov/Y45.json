@@ -1,0 +1,29 @@
+{
+ "task": "Y45",
+ "ts": "2026-10-25T01:56+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/cl4_subclusters.csv",
+   "size": 40577,
+   "sha": "f27d51b0e417dacd"
+  },
+  {
+   "path": "results/ext/cl4_subcluster_summary.csv",
+   "size": 767,
+   "sha": "9a52898007702321"
+  },
+  {
+   "path": "figures/ext/Y45_cl4_substructure.png",
+   "size": 426591,
+   "sha": "4b2d3a6d9f7aaf9f"
+  },
+  {
+   "path": "scripts/ext_cl4_substructure.py",
+   "size": 7916,
+   "sha": "5f17630252568654"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "task": "Y06",
+ "ts": "2026-10-25T00:41+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/zoo_agreement.csv",
+   "size": 19091,
+   "sha": "bec399eacbfa0a79"
+  },
+  {
+   "path": "figures/ext/Y06_agreement.png",
+   "size": 546810,
+   "sha": "88ff649ccd9e56da"
+  },
+  {
+   "path": "figures/ext/Y06_alluvial.png",
+   "size": 288935,
+   "sha": "360d44c3e32d61e1"
+  },
+  {
+   "path": "scripts/ext_agreement.py",
+   "size": 8050,
+   "sha": "857cd5115bef268f"
+  }
+ ]
+}

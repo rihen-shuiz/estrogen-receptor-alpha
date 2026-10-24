@@ -1,0 +1,24 @@
+# Exact versions used for the final run (2026-10-25), Python 3.11.0 on Windows 11, `.venv`.
+# Install: python -m pip install -r requirements-lock.txt
+# (requirements.txt is the earlier W03 pin list and is kept unchanged.)
+numpy==2.3.5
+scipy==1.16.3
+pandas==3.0.6
+scikit-learn==1.7.2
+matplotlib==3.10.8
+seaborn==0.13.2
+biopython==1.88
+gemmi==0.7.5
+rdkit==2026.9.1
+umap-learn==0.5.12
+pynndescent==0.6.0
+numba==0.68.0
+plotly==7.1.0
+statsmodels==0.15.0
+joblib==1.5.2
+requests==2.34.2
+pillow==12.2.0
+tabulate==0.10.0
+nbconvert==7.17.1
+# External programs (not pip): open-source PyMOL 3.1.0 in a separate conda env (scripts/pymol_safe.py finds it via
+# PYMOL_PYTHON or C:/Users/duise/anaconda3/envs/pymol/python.exe); P2Rank 2.5.1 + OpenJDK 21 (docs/p2rank_check.md).

@@ -1,0 +1,85 @@
+{
+ "K": 4,
+ "silhouette_used": 0.15301727169323268,
+ "silhouettes_avg_maxclust": {
+  "2": 0.2886101134319329,
+  "3": 0.1950136968745155,
+  "4": 0.09166610058002238,
+  "5": 0.0829945082389396
+ },
+ "summary": [
+  {
+   "sub_cluster": "1",
+   "n_chains": "262",
+   "n_entries": "100",
+   "h12_shift_A": "12.228",
+   "h12_h3_angle_deg": "42.505",
+   "k362_e542_A": "13.533",
+   "h12_complete": "0.328",
+   "h12_contacts": "9.0",
+   "L536S": "0.844",
+   "Y537S": "0.073",
+   "basic_amine": "0.679",
+   "ligand_heavy_atoms": "34.0",
+   "top_space_group": "P 1",
+   "top_space_group_share": "0.485",
+   "top_chem": "2"
+  },
+  {
+   "sub_cluster": "2",
+   "n_chains": "48",
+   "n_entries": "35",
+   "h12_shift_A": "12.691",
+   "h12_h3_angle_deg": "41.566",
+   "k362_e542_A": "13.798",
+   "h12_complete": "0.521",
+   "h12_contacts": "17.0",
+   "L536S": "0.0",
+   "Y537S": "0.375",
+   "basic_amine": "0.708",
+   "ligand_heavy_atoms": "32.0",
+   "top_space_group": "P 65 2 2",
+   "top_space_group_share": "0.312",
+   "top_chem": "2"
+  },
+  {
+   "sub_cluster": "3",
+   "n_chains": "11",
+   "n_entries": "9",
+   "h12_shift_A": "11.62",
+   "h12_h3_angle_deg": "58.965",
+   "k362_e542_A": "14.004",
+   "h12_complete": "0.545",
+   "h12_contacts": "8.0",
+   "L536S": "0.909",
+   "Y537S": "0.0",
+   "basic_amine": "0.636",
+   "ligand_heavy_atoms": "36.0",
+   "top_space_group": "P 1",
+   "top_space_group_share": "0.545",
+   "top_chem": "5"
+  },
+  {
+   "sub_cluster": "4",
+   "n_chains": "8",
+   "n_entries": "5",
+   "h12_shift_A": "12.31",
+   "h12_h3_angle_deg": "40.492",
+   "k362_e542_A": "13.755",
+   "h12_complete": "0.375",
+   "h12_contacts": "7.0",
+   "L536S": "0.75",
+   "Y537S": "0.0",
+   "basic_amine": "0.375",
+   "ligand_heavy_atoms": "28.0",
+   "top_space_group": "P 1",
+   "top_space_group_share": "0.75",
+   "top_chem": "5"
+  }
+ ],
+ "top_positions": [
+  534,
+  533,
+  339
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "n_entries": 351,
+ "n_ph": 307,
+ "ph_median": 8.3,
+ "n_peg": 323,
+ "n_peptide": 210,
+ "n_space_groups": 17,
+ "top_space_group": "P 1 21 1",
+ "n_rcsb_gap_queries": 78,
+ "chains_mutation_status": {
+  "Y537S": 443,
+  "L536S": 243,
+  "wild type": 58,
+  "Cys->Ser/Ala only": 30,
+  "D538G": 12,
+  "other": 2
+ },
+ "n_xray": 351
+}

@@ -1,0 +1,282 @@
+{
+ "coactivator/other peptide present|chain": {
+  "effect": 6.85837,
+  "ci_low": 5.860015,
+  "ci_high": 7.856726,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "coactivator/other peptide present|entry": {
+  "effect": 6.730225,
+  "ci_low": 5.354361,
+  "ci_high": 8.10609,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "Y537S construct|chain": {
+  "effect": 4.357943,
+  "ci_low": 3.889003,
+  "ci_high": 4.826882,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "Y537S construct|entry": {
+  "effect": 4.191054,
+  "ci_low": 3.502698,
+  "ci_high": 4.879409,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "L536S construct|chain": {
+  "effect": -7.735303,
+  "ci_low": -10.519101,
+  "ci_high": -4.951506,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "L536S construct|entry": {
+  "effect": -6.684131,
+  "ci_low": -9.482634,
+  "ci_high": -3.885628,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "D538G construct|chain": {
+  "effect": -0.953169,
+  "ci_low": -2.104817,
+  "ci_high": 0.198478,
+  "p_value": 0.138263,
+  "q_value": 0.145944,
+  "n": 774
+ },
+ "D538G construct|entry": {
+  "effect": -0.035718,
+  "ci_low": -2.071807,
+  "ci_high": 2.000371,
+  "p_value": 1.0,
+  "q_value": 1.0,
+  "n": 347
+ },
+ "wild-type LBD|chain": {
+  "effect": -0.043539,
+  "ci_low": -0.601397,
+  "ci_high": 0.51432,
+  "p_value": 0.886685,
+  "q_value": 0.886685,
+  "n": 774
+ },
+ "wild-type LBD|entry": {
+  "effect": -0.745488,
+  "ci_low": -1.48766,
+  "ci_high": -0.003315,
+  "p_value": 0.072523,
+  "q_value": 0.077358,
+  "n": 347
+ },
+ "H12 complete (all 10 C-alpha)|chain": {
+  "effect": 3.946193,
+  "ci_low": 3.376932,
+  "ci_high": 4.515454,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "H12 complete (all 10 C-alpha)|entry": {
+  "effect": 3.574428,
+  "ci_low": 2.577339,
+  "ci_high": 4.571518,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "space group P21|chain": {
+  "effect": 5.857866,
+  "ci_low": 5.10836,
+  "ci_high": 6.607371,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "space group P21|entry": {
+  "effect": 6.093289,
+  "ci_low": 4.767641,
+  "ci_high": 7.418936,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "QC tier A|chain": {
+  "effect": -0.685558,
+  "ci_low": -1.007575,
+  "ci_high": -0.36354,
+  "p_value": 2.7e-05,
+  "q_value": 3.3e-05,
+  "n": 774
+ },
+ "QC tier A|entry": {
+  "effect": -0.968653,
+  "ci_low": -1.500275,
+  "ci_high": -0.437031,
+  "p_value": 0.000221,
+  "q_value": 0.000272,
+  "n": 347
+ },
+ "ligand has a basic amine|chain": {
+  "effect": -5.313537,
+  "ci_low": -6.270298,
+  "ci_high": -4.356776,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "ligand has a basic amine|ligand": {
+  "effect": -5.280999,
+  "ci_low": -6.599086,
+  "ci_high": -3.962912,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 296
+ },
+ "ligand heavy atoms|chain": {
+  "effect": -0.704168,
+  "ci_low": -0.786091,
+  "ci_high": -0.608401,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 767
+ },
+ "ligand heavy atoms|entry": {
+  "effect": -0.691741,
+  "ci_low": -0.767603,
+  "ci_high": -0.602393,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 342
+ },
+ "resolution (A)|chain": {
+  "effect": 0.440743,
+  "ci_low": 0.288067,
+  "ci_high": 0.567289,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "resolution (A)|entry": {
+  "effect": 0.48214,
+  "ci_low": 0.36471,
+  "ci_high": 0.594788,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "R-free|chain": {
+  "effect": -0.157638,
+  "ci_low": -0.301836,
+  "ci_high": -0.023431,
+  "p_value": 0.000175,
+  "q_value": 0.000196,
+  "n": 774
+ },
+ "R-free|entry": {
+  "effect": -0.159377,
+  "ci_low": -0.295251,
+  "ci_high": -0.029091,
+  "p_value": 0.0134,
+  "q_value": 0.015314,
+  "n": 347
+ },
+ "mean B (A^2)|chain": {
+  "effect": 0.300693,
+  "ci_low": 0.15707,
+  "ci_high": 0.435129,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "mean B (A^2)|entry": {
+  "effect": 0.34456,
+  "ci_low": 0.21832,
+  "ci_high": 0.462494,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "pocket size (P2Rank SAS points)|chain": {
+  "effect": -0.577248,
+  "ci_low": -0.664837,
+  "ci_high": -0.488705,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "pocket size (P2Rank SAS points)|entry": {
+  "effect": -0.63393,
+  "ci_low": -0.717375,
+  "ci_high": -0.545598,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "release year|chain": {
+  "effect": -0.480489,
+  "ci_low": -0.600452,
+  "ci_high": -0.338378,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "release year|entry": {
+  "effect": -0.354402,
+  "ci_low": -0.486723,
+  "ci_high": -0.214497,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 347
+ },
+ "crystallisation pH|chain": {
+  "effect": 0.650389,
+  "ci_low": 0.468329,
+  "ci_high": 0.784876,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 645
+ },
+ "crystallisation pH|entry": {
+  "effect": 0.682658,
+  "ci_low": 0.552711,
+  "ci_high": 0.78127,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 304
+ },
+ "quality adds to peptide + mutation|chain": {
+  "effect": 0.052619,
+  "ci_low": NaN,
+  "ci_high": NaN,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ },
+ "basic amine adds to peptide + mutation|chain": {
+  "effect": 0.087576,
+  "ci_low": NaN,
+  "ci_high": NaN,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 767
+ },
+ "peptide, stratified by mutation status|chain": {
+  "effect": 3.724067,
+  "ci_low": 2.870504,
+  "ci_high": 4.577629,
+  "p_value": 0.0,
+  "q_value": 0.0,
+  "n": 774
+ }
+}

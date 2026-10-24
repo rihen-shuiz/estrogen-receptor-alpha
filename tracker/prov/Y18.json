@@ -1,0 +1,39 @@
+{
+ "task": "Y18",
+ "ts": "2026-10-25T01:19+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "figures/ext/Y18_colour_by_quality.png",
+   "size": 723424,
+   "sha": "bc276d94afe75729"
+  },
+  {
+   "path": "figures/ext/Y18_colour_by_experiment.png",
+   "size": 686682,
+   "sha": "f1d8bb4766f2ecaa"
+  },
+  {
+   "path": "figures/ext/Y18_colour_by_biology.png",
+   "size": 747597,
+   "sha": "37dd44dc722df3ab"
+  },
+  {
+   "path": "figures/ext/Y18_colour_by_pca.png",
+   "size": 385901,
+   "sha": "0c970c6d835a54f3"
+  },
+  {
+   "path": "results/ext/colour_by_table.csv",
+   "size": 516342,
+   "sha": "178f2e282fbc9acb"
+  },
+  {
+   "path": "scripts/ext_colour_by.py",
+   "size": 11746,
+   "sha": "6aae963aca409692"
+  }
+ ]
+}

@@ -1,0 +1,2657 @@
+{
+ "hill_s08_15": {
+  "q0": 7,
+  "q1": 2.193557091833487,
+  "q2": 2.027148612208387
+ },
+ "n90_r10": 2.0,
+ "n90_r15": 2.0,
+ "n90_r05": 48.0,
+ "n90_clusters_random": 490.0,
+ "n90_coverage_random": 6.0,
+ "redundancy": [
+  {
+   "cluster": 1,
+   "size": 5,
+   "entries": 3,
+   "reps_95_at_1A": 1,
+   "redundancy": 0.8
+  },
+  {
+   "cluster": 2,
+   "size": 3,
+   "entries": 1,
+   "reps_95_at_1A": 1,
+   "redundancy": 0.6667
+  },
+  {
+   "cluster": 3,
+   "size": 3,
+   "entries": 2,
+   "reps_95_at_1A": 2,
+   "redundancy": 0.3333
+  },
+  {
+   "cluster": 4,
+   "size": 329,
+   "entries": 128,
+   "reps_95_at_1A": 1,
+   "redundancy": 0.997
+  },
+  {
+   "cluster": 5,
+   "size": 1,
+   "entries": 1,
+   "reps_95_at_1A": 1,
+   "redundancy": 0.0
+  },
+  {
+   "cluster": 6,
+   "size": 2,
+   "entries": 1,
+   "reps_95_at_1A": 1,
+   "redundancy": 0.5
+  },
+  {
+   "cluster": 7,
+   "size": 445,
+   "entries": 221,
+   "reps_95_at_1A": 1,
+   "redundancy": 0.9978
+  }
+ ],
+ "set_cover": [
+  {
+   "subset": "all chains",
+   "radius_A": 0.3,
+   "coverage_target": 0.9,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.783
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.3,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.783
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.3,
+   "coverage_target": 0.9,
+   "n_structures": 329.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.3,
+   "coverage_target": 0.95,
+   "n_structures": 368.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.4,
+   "coverage_target": 0.9,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8756
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.4,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8756
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.4,
+   "coverage_target": 0.9,
+   "n_structures": 62.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.4,
+   "coverage_target": 0.95,
+   "n_structures": 101.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.5,
+   "coverage_target": 0.9,
+   "n_structures": 48.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9251
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.5,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9251
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.5,
+   "coverage_target": 0.9,
+   "n_structures": 6.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.5,
+   "coverage_target": 0.95,
+   "n_structures": 19.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.6,
+   "coverage_target": 0.9,
+   "n_structures": 13.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.948
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.6,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.948
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.6,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.6,
+   "coverage_target": 0.95,
+   "n_structures": 3.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.7,
+   "coverage_target": 0.9,
+   "n_structures": 4.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.981
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.7,
+   "coverage_target": 0.95,
+   "n_structures": 8.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.981
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.7,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.7,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.8,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.8,
+   "coverage_target": 0.95,
+   "n_structures": 3.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.8,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.8,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.9,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9898
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.9,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9898
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.9,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 0.9,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.0,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9898
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.0,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9898
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.0,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.0,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.1,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9898
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.1,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9898
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.1,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.1,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.2,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.2,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.2,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.2,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.3,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.3,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.3,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.3,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.4,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.4,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.4,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.4,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.5,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.5,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.5,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.5,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.6,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.6,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.6,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.6,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.7,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.7,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.7,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.7,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.8,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.8,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.8,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.8,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.9,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.9,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.9,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 1.9,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 2.0,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 2.0,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 2.0,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "all chains",
+   "radius_A": 2.0,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.3,
+   "coverage_target": 0.9,
+   "n_structures": NaN,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8015
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.3,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8015
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.3,
+   "coverage_target": 0.9,
+   "n_structures": 197.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.3,
+   "coverage_target": 0.95,
+   "n_structures": 224.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.4,
+   "coverage_target": 0.9,
+   "n_structures": NaN,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8915
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.4,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8915
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.4,
+   "coverage_target": 0.9,
+   "n_structures": 47.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.4,
+   "coverage_target": 0.95,
+   "n_structures": 73.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.5,
+   "coverage_target": 0.9,
+   "n_structures": 32.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9357
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.5,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9357
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.5,
+   "coverage_target": 0.9,
+   "n_structures": 10.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.5,
+   "coverage_target": 0.95,
+   "n_structures": 21.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.6,
+   "coverage_target": 0.9,
+   "n_structures": 10.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9632
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.6,
+   "coverage_target": 0.95,
+   "n_structures": 23.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9632
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.6,
+   "coverage_target": 0.9,
+   "n_structures": 3.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.6,
+   "coverage_target": 0.95,
+   "n_structures": 6.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.7,
+   "coverage_target": 0.9,
+   "n_structures": 4.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9908
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.7,
+   "coverage_target": 0.95,
+   "n_structures": 7.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9908
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.7,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.7,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.8,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9945
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.8,
+   "coverage_target": 0.95,
+   "n_structures": 3.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9945
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.8,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.8,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.9,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9945
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.9,
+   "coverage_target": 0.95,
+   "n_structures": 3.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9945
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.9,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 0.9,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.0,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.0,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.0,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.0,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.1,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.1,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.1,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.1,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.2,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.2,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.2,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.2,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.3,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.3,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.3,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.3,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.4,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.4,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.4,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.4,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.5,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.5,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.5,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.5,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.6,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.6,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9963
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.6,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.6,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.7,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9982
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.7,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9982
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.7,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.7,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.8,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9982
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.8,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9982
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.8,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.8,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.9,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9982
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.9,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9982
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.9,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 1.9,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 2.0,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9982
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 2.0,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 544,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9982
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 2.0,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "tier A",
+   "radius_A": 2.0,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 544,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.3,
+   "coverage_target": 0.9,
+   "n_structures": NaN,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8547
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.3,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8547
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.3,
+   "coverage_target": 0.9,
+   "n_structures": 162.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.3,
+   "coverage_target": 0.95,
+   "n_structures": 180.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.4,
+   "coverage_target": 0.9,
+   "n_structures": NaN,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8974
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.4,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.8974
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.4,
+   "coverage_target": 0.9,
+   "n_structures": 39.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.4,
+   "coverage_target": 0.95,
+   "n_structures": 57.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.5,
+   "coverage_target": 0.9,
+   "n_structures": 34.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9259
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.5,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9259
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.5,
+   "coverage_target": 0.9,
+   "n_structures": 3.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.5,
+   "coverage_target": 0.95,
+   "n_structures": 9.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.6,
+   "coverage_target": 0.9,
+   "n_structures": 9.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9516
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.6,
+   "coverage_target": 0.95,
+   "n_structures": 24.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9516
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.6,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.6,
+   "coverage_target": 0.95,
+   "n_structures": 4.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.7,
+   "coverage_target": 0.9,
+   "n_structures": 4.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9687
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.7,
+   "coverage_target": 0.95,
+   "n_structures": 9.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9687
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.7,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.7,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.8,
+   "coverage_target": 0.9,
+   "n_structures": 3.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9801
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.8,
+   "coverage_target": 0.95,
+   "n_structures": 4.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9801
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.8,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.8,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.9,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9829
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.9,
+   "coverage_target": 0.95,
+   "n_structures": 3.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9829
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.9,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 0.9,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.0,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.0,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.0,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.0,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.1,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.1,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.1,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.1,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.2,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.2,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.2,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.2,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.3,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.3,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.3,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.3,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.4,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.4,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.4,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.4,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.5,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.5,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.5,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.5,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.6,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.6,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.6,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.6,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.7,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.7,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9915
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.7,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.7,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.8,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9943
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.8,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9943
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.8,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.8,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.9,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9943
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.9,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9943
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.9,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 1.9,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 2.0,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9943
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 2.0,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 351,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9943
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 2.0,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "one chain per entry",
+   "radius_A": 2.0,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 351,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.3,
+   "coverage_target": 0.9,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.7855
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.3,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.7855
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.3,
+   "coverage_target": 0.9,
+   "n_structures": 403.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.3,
+   "coverage_target": 0.95,
+   "n_structures": 442.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.4,
+   "coverage_target": 0.9,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.868
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.4,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.868
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.4,
+   "coverage_target": 0.9,
+   "n_structures": 147.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.4,
+   "coverage_target": 0.95,
+   "n_structures": 186.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.5,
+   "coverage_target": 0.9,
+   "n_structures": 72.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9264
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.5,
+   "coverage_target": 0.95,
+   "n_structures": NaN,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9264
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.5,
+   "coverage_target": 0.9,
+   "n_structures": 18.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.5,
+   "coverage_target": 0.95,
+   "n_structures": 48.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.6,
+   "coverage_target": 0.9,
+   "n_structures": 19.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9518
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.6,
+   "coverage_target": 0.95,
+   "n_structures": 53.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9518
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.6,
+   "coverage_target": 0.9,
+   "n_structures": 3.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.6,
+   "coverage_target": 0.95,
+   "n_structures": 9.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.7,
+   "coverage_target": 0.9,
+   "n_structures": 5.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9784
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.7,
+   "coverage_target": 0.95,
+   "n_structures": 15.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9784
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.7,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.7,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.8,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9873
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.8,
+   "coverage_target": 0.95,
+   "n_structures": 4.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9873
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.8,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.8,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.9,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.9,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.9,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 0.9,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.0,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.0,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9886
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.0,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.0,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.1,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9898
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.1,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9898
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.1,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.1,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.2,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.2,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.2,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.2,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.3,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.3,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.3,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.3,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.4,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.4,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.4,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.4,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.5,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.5,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.5,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.5,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.6,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.6,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9937
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.6,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.6,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.7,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.7,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.7,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.7,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.8,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.8,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.8,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.8,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.9,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.9,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.9,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 1.9,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 2.0,
+   "coverage_target": 0.9,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 2.0,
+   "coverage_target": 0.95,
+   "n_structures": 2.0,
+   "n_chains": 788,
+   "representatives": "complete-H12 only",
+   "max_coverage": 0.9949
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 2.0,
+   "coverage_target": 0.9,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  },
+  {
+   "subset": "old-core matrix",
+   "radius_A": 2.0,
+   "coverage_target": 0.95,
+   "n_structures": 1.0,
+   "n_chains": 788,
+   "representatives": "any chain",
+   "max_coverage": 1.0
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "task": "Y40",
+ "ts": "2026-10-25T02:29+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "scripts/check_evidence_ext.py",
+   "size": 16829,
+   "sha": "a1ee3e6b0f5e7658"
+  },
+  {
+   "path": "docs/EVIDENCE_EXT.md",
+   "size": 19671,
+   "sha": "0dd15304377e6ea9"
+  }
+ ]
+}

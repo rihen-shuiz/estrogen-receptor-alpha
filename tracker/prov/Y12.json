@@ -1,0 +1,29 @@
+{
+ "task": "Y12",
+ "ts": "2026-10-25T01:03+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/phipsi_pca.csv",
+   "size": 58125,
+   "sha": "b72f38eb2a09d817"
+  },
+  {
+   "path": "results/ext/phipsi_loadings.csv",
+   "size": 32595,
+   "sha": "972464b06e5b90b5"
+  },
+  {
+   "path": "figures/ext/Y12_phipsi_pca.png",
+   "size": 243444,
+   "sha": "8c0f489e01df8444"
+  },
+  {
+   "path": "scripts/ext_phipsi.py",
+   "size": 7241,
+   "sha": "77d605e9aa33897a"
+  }
+ ]
+}

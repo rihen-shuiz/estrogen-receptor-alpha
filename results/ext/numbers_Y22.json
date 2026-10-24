@@ -1,0 +1,19 @@
+{
+ "n_chains": 86,
+ "n_entries": 39,
+ "best_run": "hier_average|k=2",
+ "best_sil": 0.7808584167802726,
+ "best_stab": 1.0,
+ "best_ari_x03": 0.15914137855044666,
+ "n_peptide_entries": 27,
+ "n_outliers": 8,
+ "peptide_frac_main": 0.9264705882352942,
+ "peptide_frac_second": 0.0,
+ "basin_sizes": {
+  "2": 68,
+  "5": 12,
+  "3": 2,
+  "1": 2,
+  "4": 2
+ }
+}

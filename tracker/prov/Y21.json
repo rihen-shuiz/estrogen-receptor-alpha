@@ -1,0 +1,39 @@
+{
+ "task": "Y21",
+ "ts": "2026-10-25T01:23+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/helix_b_summary.csv",
+   "size": 7888,
+   "sha": "9efc098085fac00c"
+  },
+  {
+   "path": "results/ext/core_b_v3.csv",
+   "size": 97160,
+   "sha": "c7ac293ceb71e4e1"
+  },
+  {
+   "path": "results/ext/bfactor_profile.csv",
+   "size": 10991,
+   "sha": "52ffd2d8477f85ac"
+  },
+  {
+   "path": "figures/ext/Y21_helix_b.png",
+   "size": 573629,
+   "sha": "d593d87dee480be3"
+  },
+  {
+   "path": "figures/ext/Y21_core_selection.png",
+   "size": 277575,
+   "sha": "e22e1804f39db2cc"
+  },
+  {
+   "path": "scripts/ext_bfactors.py",
+   "size": 13218,
+   "sha": "33d89a29afd347f1"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "task": "Y31",
+ "ts": "2026-10-25T00:54+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "scripts/rebuild_all.py",
+   "size": 2062,
+   "sha": "d394d84b75a5dc8d"
+  },
+  {
+   "path": "results/rebuild/rebuild_report.csv",
+   "size": 5833,
+   "sha": "a6fe32610097cefe"
+  },
+  {
+   "path": "scripts/rebuild_common.py",
+   "size": 7729,
+   "sha": "43323df152766459"
+  },
+  {
+   "path": "scripts/rebuild_lbd_extract.py",
+   "size": 2871,
+   "sha": "53c8636928c29a27"
+  },
+  {
+   "path": "scripts/rebuild_entries_qc.py",
+   "size": 3311,
+   "sha": "ba66f741564079bf"
+  },
+  {
+   "path": "scripts/rebuild_ligands.py",
+   "size": 3685,
+   "sha": "b57f36c0c594af4b"
+  },
+  {
+   "path": "scripts/rebuild_fingerprints.py",
+   "size": 2316,
+   "sha": "283d65bd683f06fc"
+  },
+  {
+   "path": "scripts/rebuild_kmeans.py",
+   "size": 2697,
+   "sha": "c188c452aa6aed57"
+  },
+  {
+   "path": "scripts/rebuild_embeddings.py",
+   "size": 1776,
+   "sha": "7f0f8d53744a272d"
+  },
+  {
+   "path": "scripts/rebuild_esr1_esr2_maps.py",
+   "size": 3686,
+   "sha": "d97ce40a6c812729"
+  },
+  {
+   "path": "scripts/rebuild_esr2_entries.py",
+   "size": 1604,
+   "sha": "7e78ac7c99fa68f1"
+  },
+  {
+   "path": "scripts/rebuild_chembl_activities.py",
+   "size": 3264,
+   "sha": "6abdf5b2d7750721"
+  },
+  {
+   "path": "scripts/rebuild_chembl_pdb_matches.py",
+   "size": 3048,
+   "sha": "071c9ef432dafa8c"
+  },
+  {
+   "path": "scripts/rebuild_compare.py",
+   "size": 8250,
+   "sha": "60f25dafb574ddab"
+  },
+  {
+   "path": "scripts/rebuild_fetch_raw.py",
+   "size": 2310,
+   "sha": "0727f32f176872c9"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": "Y41",
+ "ts": "2026-10-25T02:29+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "final_pack_20261025.zip",
+   "size": 117333524,
+   "sha": "a9286a190501e28b"
+  },
+  {
+   "path": "docs/MANIFEST_final.csv",
+   "size": 83226,
+   "sha": "d5062d71d059d9bd"
+  },
+  {
+   "path": "scripts/make_final_pack.py",
+   "size": 3238,
+   "sha": "b4e021d0889adb3a"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": "Y17",
+ "ts": "2026-10-25T01:17+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/metadata_tests.csv",
+   "size": 17499,
+   "sha": "5fc6251185268de7"
+  },
+  {
+   "path": "figures/ext/Y17_metadata_effects.png",
+   "size": 371408,
+   "sha": "cdb7181005d10e1e"
+  },
+  {
+   "path": "scripts/ext_metadata_tests.py",
+   "size": 8144,
+   "sha": "9223f832df924ec9"
+  }
+ ]
+}

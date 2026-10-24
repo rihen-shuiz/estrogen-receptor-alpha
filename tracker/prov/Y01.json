@@ -1,0 +1,19 @@
+{
+ "task": "Y01",
+ "ts": "2026-10-25T00:16+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "scripts/ext_common.py",
+   "size": 10665,
+   "sha": "60803c9e47396adb"
+  },
+  {
+   "path": "scripts/pymol_safe.py",
+   "size": 3498,
+   "sha": "5518d9a054e38788"
+  }
+ ]
+}

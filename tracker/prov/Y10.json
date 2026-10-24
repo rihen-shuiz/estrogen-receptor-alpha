@@ -1,0 +1,24 @@
+{
+ "task": "Y10",
+ "ts": "2026-10-25T00:56+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/cluster_displacement_profile.csv",
+   "size": 33864,
+   "sha": "96dfd4ccd80b94bb"
+  },
+  {
+   "path": "figures/ext/Y10_displacement_profile.png",
+   "size": 509335,
+   "sha": "85656c9118df6f8a"
+  },
+  {
+   "path": "scripts/ext_displacement_profile.py",
+   "size": 6532,
+   "sha": "eb79ef16417979f2"
+  }
+ ]
+}

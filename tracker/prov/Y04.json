@@ -1,0 +1,39 @@
+{
+ "task": "Y04",
+ "ts": "2026-10-25T00:31+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/zoo_runs.csv",
+   "size": 17886,
+   "sha": "35b596728bfb29ed"
+  },
+  {
+   "path": "results/ext/zoo_labels.csv",
+   "size": 140428,
+   "sha": "f6f4594783053adb"
+  },
+  {
+   "path": "results/ext/zoo_ranking.csv",
+   "size": 10006,
+   "sha": "a09bb0441c2a4482"
+  },
+  {
+   "path": "figures/ext/Y04_zoo_metrics.png",
+   "size": 352216,
+   "sha": "f8fadae0c86b4dea"
+  },
+  {
+   "path": "figures/ext/Y04_zoo_grid.png",
+   "size": 592147,
+   "sha": "05d846b35583476a"
+  },
+  {
+   "path": "scripts/ext_zoo.py",
+   "size": 17619,
+   "sha": "4a8fb7d9fba2a1df"
+  }
+ ]
+}

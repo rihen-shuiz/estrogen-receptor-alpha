@@ -1,0 +1,66 @@
+== rebuild_fetch_raw.py
+{'local': 351, 'cached': 175} sha matches: 526 / 526
+== rebuild_lbd_extract.py
+  50/526
+  100/526
+  150/526
+  200/526
+  250/526
+  300/526
+  350/526
+  400/526
+  450/526
+  500/526
+Q04 rebuild: 526 entries, 1666 chain/models, 987 receptor chains
+== rebuild_entries_qc.py
+Q06 rebuild: 526 entries; {'pass': 397, 'fail': 128, 'unknown': 1}
+== rebuild_esr2_entries.py
+X01 rebuild: 39 ESR2 entries, 86 ESR2 chains
+== rebuild_ligands.py
+Q08/C01 rebuild: 480 ligands; parsed 480/480
+== rebuild_fingerprints.py
+C02-C04 rebuild: (480, 2048) ECFP4, (480, 166) MACCS, (480, 480) Tanimoto
+== rebuild_kmeans.py
+K-means (all): n=480, best K=6
+K-means_noadd: n=462, best K=7
+K-means_noadd_settings: n=466, best K=6
+== rebuild_embeddings.py
+C05 rebuild: 474 of 480 UMAP rows finite
+C06 rebuild: t-SNE done
+== rebuild_esr1_esr2_maps.py
+E03 rebuild: 520 aligned positions, 242 in LBD
+E04 rebuild: 135 entry pairs; {'identical': 135}
+== rebuild_chembl_activities.py
+  1000/6714
+  2000/6714
+  3000/6714
+  4000/6714
+  5000/6714
+  6000/6714
+  6714/6714
+ChEMBL: 6714 activities kept (API total_count 6714); 3856 molecules, 11 rows without SMILES
+== rebuild_chembl_pdb_matches.py
+X14 rebuild: 166 matches, 101 PDB ligands, 151 ChEMBL molecules (from results/rebuild/chembl_esr1_activities.csv)
+== rebuild_compare.py
+[equivalent] Q04 lbd_chains: rows frozen=987 rebuilt=987; within tol: mean_CA_B_A2 max|d|=3.55e-15
+[equivalent] Q04 lbd_extract/entries: rows frozen=526 rebuilt=526; ignored column source_path: 175 differ; 2 text cells differ only by embedded CRLF vs LF; within tol: mean_B_factor_A2 max|d|=1.42e-14
+[identical] Q04 lbd_extract/receptor_chains: rows frozen=1666 rebuilt=1666
+[identical] Q04 lbd_extract/residue_mapping: rows frozen=222348 rebuilt=222348
+[equivalent] Q06 entries: rows frozen=526 rebuilt=526; within tol: mean_b max|d|=1.42e-14
+[equivalent] Q08 ligands: rows frozen=480 rebuilt=480; ignored column ccd_sha256: 400 differ; 2 text cells differ only by embedded CRLF vs LF; ccd_sha256: 400 differ, all local CCD files checked out with CRLF (git core.autocrlf); LF-normalised hash equals frozen for 400/400
+[identical] C01 smiles_parse_report: rows frozen=480 rebuilt=480
+[identical] C02/C03 fp_index: rows frozen=480 rebuilt=480
+[identical] C02 fp_ecfp4: shape=(480, 2048); dtype frozen=uint8 rebuilt=uint8; max|d|=0; elements differing>1e-06=0; nan mismatch=0
+[identical] C03 fp_maccs: shape=(480, 166); dtype frozen=uint8 rebuilt=uint8; max|d|=0; elements differing>1e-06=0; nan mismatch=0
+[identical] C04 tanimoto_ecfp4: shape=(480, 480); dtype frozen=float64 rebuilt=float64; max|d|=0; elements differing>1e-06=0; nan mismatch=0
+[differs] C05 umap_coords: stochastic embedding, coordinates not expected to match; rows frozen=480 rebuilt=480; finite frozen=474 rebuilt=474; non-finite rows same set=True (AU,CL,EU,MG,NA,NI); max|d| coords=25; Procrustes disparity=0.550; mean 10-NN overlap=0.782
+[differs] C06 tsne_coords: stochastic embedding, coordinates not expected to match; rows frozen=480 rebuilt=480; finite frozen=480 rebuilt=480; non-finite rows same set=True (); max|d| coords=120; Procrustes disparity=0.593; mean 10-NN overlap=0.760
+[equivalent] C07 kmeans all ligands: scores: equivalent (rows frozen=5 rebuilt=5; within tol: inertia max|d|=3.64e-12); labels: identical (rows frozen=480 rebuilt=480); common ligands=480; ARI chem_cluster=1.000, cluster_k3=1.000, cluster_k4=1.000, cluster_k5=1.000, cluster_k6=1.000, cluster_k7=1.000
+[equivalent] C10 kmeans noadd (Q16 is_additive): scores: equivalent (rows frozen=5 rebuilt=5; within tol: inertia max|d|=3.64e-12); labels: identical (rows frozen=462 rebuilt=462); common ligands=462; ARI chem_cluster=1.000, cluster_k3=1.000, cluster_k4=1.000, cluster_k5=1.000, cluster_k6=1.000, cluster_k7=1.000
+[differs] C10 variant: settings solvent_additive_codes only: scores: differs (rows frozen=5 rebuilt=5; value diffs: silhouette: 5 differ (max |d|=0.02285730123750579) | inertia: 5 differ (max |d|=76.91754645103174)); labels: differs (rows frozen=462 rebuilt=466; keys only_frozen=0 only_rebuilt=4 eg_frozen=[] eg_rebuilt=[('ACY',), ('AU',), ('BCT',)]; value dif
+[identical] E03 numbering_map_esr1_esr2: rows frozen=520 rebuilt=520
+[identical] E04 matched_pairs: rows frozen=135 rebuilt=135
+[equivalent] X01 esr2_entries: rows frozen=39 rebuilt=39; within tol: mean_b max|d|=7.11e-15
+[identical] X13 chembl_esr1_activities: rows frozen=6714 rebuilt=6714
+[identical] X14 chembl_pdb_matches: rows frozen=166 rebuilt=166
+{'identical': 11, 'equivalent': 7, 'differs': 3}

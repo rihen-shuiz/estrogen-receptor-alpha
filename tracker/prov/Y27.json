@@ -1,0 +1,34 @@
+{
+ "task": "Y27",
+ "ts": "2026-10-25T01:42+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/time_trends.csv",
+   "size": 2338,
+   "sha": "c470d2fe81e6f0fc"
+  },
+  {
+   "path": "results/ext/novelty_by_chain.csv",
+   "size": 47479,
+   "sha": "9c34241aa8a98a9c"
+  },
+  {
+   "path": "figures/ext/Y27_timeline.png",
+   "size": 228548,
+   "sha": "517fdccd6fb62826"
+  },
+  {
+   "path": "figures/ext/Y27_novelty.png",
+   "size": 243300,
+   "sha": "ec256bca25467d03"
+  },
+  {
+   "path": "scripts/ext_time.py",
+   "size": 7404,
+   "sha": "041266f39fdedfdd"
+  }
+ ]
+}

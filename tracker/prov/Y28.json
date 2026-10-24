@@ -1,0 +1,24 @@
+{
+ "task": "Y28",
+ "ts": "2026-10-25T01:44+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/robustness_grid.csv",
+   "size": 10336,
+   "sha": "298fc30305ac8bfc"
+  },
+  {
+   "path": "figures/ext/Y28_robustness_grid.png",
+   "size": 486781,
+   "sha": "80fe5285d23e7f93"
+  },
+  {
+   "path": "scripts/ext_robustness.py",
+   "size": 6991,
+   "sha": "536e6becbb213ff0"
+  }
+ ]
+}

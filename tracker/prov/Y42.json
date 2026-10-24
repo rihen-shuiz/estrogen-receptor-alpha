@@ -1,0 +1,49 @@
+{
+ "task": "Y42",
+ "ts": "2026-10-25T00:37+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/metric_check.csv",
+   "size": 1238,
+   "sha": "40b8618259b172c0"
+  },
+  {
+   "path": "results/ext/rmsd_fixedpos.npy",
+   "size": 4967680,
+   "sha": "7ea2f5704f9da83f"
+  },
+  {
+   "path": "results/ext/rmsd_noh12.npy",
+   "size": 4967680,
+   "sha": "9cbcf166c68ceae2"
+  },
+  {
+   "path": "results/ext/rmsd_h12only.npy",
+   "size": 4967680,
+   "sha": "6a30b47269e5256d"
+  },
+  {
+   "path": "results/ext/rmsd_coreonly.npy",
+   "size": 4967680,
+   "sha": "dfc950719c4a2c63"
+  },
+  {
+   "path": "figures/ext/Y42_metric_check.png",
+   "size": 193764,
+   "sha": "6730e9f255815752"
+  },
+  {
+   "path": "figures/ext/Y42_region_rmsd.png",
+   "size": 317416,
+   "sha": "48d26a62707911fc"
+  },
+  {
+   "path": "scripts/ext_metric_check.py",
+   "size": 10686,
+   "sha": "ce65895b14d998c3"
+  }
+ ]
+}

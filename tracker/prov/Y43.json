@@ -1,0 +1,29 @@
+{
+ "task": "Y43",
+ "ts": "2026-10-25T01:50+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/ncs_copies.csv",
+   "size": 18614,
+   "sha": "96fd7b998f980e2f"
+  },
+  {
+   "path": "results/ext/ncs_pair_classes.csv",
+   "size": 325,
+   "sha": "d27a8b278f07e8bd"
+  },
+  {
+   "path": "figures/ext/Y43_ncs_copies.png",
+   "size": 135674,
+   "sha": "7b184467e800c541"
+  },
+  {
+   "path": "scripts/ext_ncs_copies.py",
+   "size": 5966,
+   "sha": "69ad1862f70ac527"
+  }
+ ]
+}

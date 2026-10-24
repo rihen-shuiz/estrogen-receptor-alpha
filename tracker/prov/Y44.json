@@ -1,0 +1,24 @@
+{
+ "task": "Y44",
+ "ts": "2026-10-25T01:54+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/h12_crystal_contacts.csv",
+   "size": 60445,
+   "sha": "0f483f7616126d80"
+  },
+  {
+   "path": "figures/ext/Y44_h12_contacts.png",
+   "size": 178921,
+   "sha": "7ed2f23573d8ca6b"
+  },
+  {
+   "path": "scripts/ext_h12_contacts.py",
+   "size": 9348,
+   "sha": "c76b543405b72393"
+  }
+ ]
+}

@@ -391,7 +391,7 @@ T S15 S code "Minimal representative set covering >=90% of conformational divers
   meta wk=7 who=B ph=core
   needs S12 R04
   out results/representative_set.csv
-  chk csv results/**/representative*.csv rows>=1 cols=entry_id,justification
+  chk csv results/representative_set.csv rows>=1 cols=entry_id,justification
   orig esr_analysis/representative_set.py
   src desc 10 deliverables
 
@@ -809,21 +809,21 @@ T X14 S code "Match ChEMBL compounds to PDB ligands"
   meta wk=9 who=C ph=ext
   needs X13 C02
   out results/chembl_pdb_matches.csv
-  chk csv results/**/chembl_pdb_match*.csv rows>=10 cols=ligand_id,molecule_chembl_id,tanimoto
+  chk csv results/chembl_pdb_matches.csv rows>=10 cols=ligand_id,molecule_chembl_id,tanimoto
 
 T X15 S fig "Potency by structural cluster"
   help IC50/Ki plot (log scale) grouped by structural cluster of the matched entries.
   meta wk=9 who=C ph=ext
   needs X14 S08
   out figures/potency_by_cluster.png
-  chk file figures/**/potency_by_cluster*.png
+  chk file figures/potency_by_cluster.png
 
 T X16 XS code "Spearman / Kruskal: potency vs cluster"
   help Does structural cluster relate to potency? One table with n and p.
   meta wk=10 who=C ph=ext
   needs X14 S08
   out results/potency_tests.csv
-  chk csv results/**/potency_tests*.csv rows>=1 cols=test,p_value,n
+  chk csv results/potency_tests.csv rows>=1 cols=test,p_value,n
 
 # ===================== PROVISIONAL (September matrix, until S04 is redone) =====================
 # Outputs go to results/provisional/ and every figure/table says "provisional: September RMSD matrix".
@@ -874,14 +874,14 @@ T T01 XS code "Inventory of every test with raw p-values"
   meta wk=10 who=ALL ph=stat
   needs L03 X11 X16
   out results/stats_table.csv
-  chk csv results/**/stats_table*.csv rows>=4 cols=test,n,p_value
+  chk csv results/stats_table.csv rows>=4 cols=test,n,p_value
 
 T T02 XS code "Benjamini-Hochberg correction"
   help Add q-values across the family of tests in T01.
   meta wk=10 who=ALL ph=stat
   needs T01
   out results/stats_table.csv
-  chk csv results/**/stats_table*.csv rows>=4 cols=test,p_value,q_value
+  chk csv results/stats_table.csv rows>=4 cols=test,p_value,q_value
 
 T T03 XS text "Stats methods paragraph"
   help Short methods text: which tests, why (sparse tables, dependence), BH correction, limits.
@@ -898,8 +898,8 @@ T F01 S fig "PyMOL script: medoid per basin"
   needs S12
   tool pymol
   out figures/medoids.pml figures/medoids.png
-  chk file figures/**/medoids*.pml
-  chk file figures/**/medoids*.png
+  chk file figures/medoids.pml
+  chk file figures/medoids.png
 
 T F02 S fig "PyMOL script: displacement mapped on structure"
   help Write per-residue displacement into the B-factor column of an ESR1 medoid and colour by it (blue-white-red, 0-3 A).
@@ -907,8 +907,8 @@ T F02 S fig "PyMOL script: displacement mapped on structure"
   needs E07
   tool pymol
   out figures/displacement_structure.pml figures/displacement_structure.png
-  chk file figures/**/displacement_structure*.pml
-  chk file figures/**/displacement_structure*.png
+  chk file figures/displacement_structure.pml
+  chk file figures/displacement_structure.png
 
 T F03 S fig "PyMOL script: selectivity positions as spheres, H12 highlighted"
   help Add spheres for the verified selectivity positions and a thick red H12 to the F02 scene.
@@ -916,16 +916,16 @@ T F03 S fig "PyMOL script: selectivity positions as spheres, H12 highlighted"
   needs F02 E02
   tool pymol
   out figures/selectivity_sites.pml figures/selectivity_sites.png
-  chk file figures/**/selectivity_sites*.pml
-  chk file figures/**/selectivity_sites*.png
+  chk file figures/selectivity_sites.pml
+  chk file figures/selectivity_sites.png
 
 T F04 S code "One command renders all figures (300 dpi)"
   help A single script that runs every .pml and writes 300 dpi PNGs; no manual view setting.
   meta wk=11 who=D ph=fig
   needs F01 F02 F03
   out scripts/render_all_figures.py
-  chk file **/render_all_figures*
-  chk grep **/render_all_figures* 300
+  chk file scripts/render_all_figures.py
+  chk grep scripts/render_all_figures.py 300
   orig esr_analysis/render_structures.py
 
 T F05 XS text "Figure index"
@@ -963,7 +963,7 @@ T W04 S code "Script that rebuilds git-ignored raw inputs"
   meta wk=9 who=A ph=wrap
   needs Q03
   out scripts/fetch_data.py
-  chk file **/fetch_data*
+  chk file scripts/fetch_data.py
 
 T W05 XS manual "Commit the work (human chooses branch and split)"
   help Commit all current work so history matches the files. Claude does not run git commit for this task.
@@ -996,7 +996,7 @@ T W09 M code "Worked example notebook (runs from README)"
   meta wk=11 who=B ph=wrap
   needs R04
   out notebooks/worked_example.ipynb
-  chk file notebooks/**/*.ipynb
+  chk file notebooks/worked_example.ipynb
 
 T W10 S text "Manuscript: Dataset and QC section"
   help Methods + results for sections Q01-Q15 with every number taken from results files.
@@ -1053,3 +1053,478 @@ T W17 S manual "Internal results presentation to supervisor, feedback recorded"
   out docs/supervisor_feedback.md
   chk lines docs/supervisor_feedback.md >=5
   chk man Human confirms the presentation took place
+
+# ===================== EXTENDED ANALYSES, FINAL RUN (phase ext, Y tasks) =====================
+# Plan: docs/PLAN_EXTENDED.md. Professor (last meeting): go beyond the description; many clustering methods with
+# compactness; auto-selected chemistry clustering; outliers vs quality vs experimental conditions; colour-by plots;
+# "why are there two clusters". Keep-all: every one of the 788 matrix chains is used in every full run; tier A / other
+# subsets are sensitivity runs next to the full run. Outputs: scripts/ext_*.py, results/ext/, figures/ext/ (200 dpi PNG
+# + SVG). Frozen outputs of earlier tasks are read, never rewritten. Seed 42. Ligand action labels (Q10/Q11) are done by a
+# teammate by hand: no Y task drafts them; only the 7 evidence-supported block-07 labels are used, all else "unlabelled".
+
+T Y01 S code "Shared style, one cluster palette, figure-card registry, safe PyMOL runner"
+  help One module with loaders of the frozen inputs, the validated cluster palette used by every figure, 200 dpi PNG+SVG saving and a figure-card registry; plus the PyMOL wrapper with faulthandler, timeout and output checks.
+  meta wk=13 who=ALL ph=ext
+  needs S04 S08
+  tool numpy, pandas, matplotlib
+  out scripts/ext_common.py
+  out scripts/pymol_safe.py
+  chk grep scripts/ext_common.py CLUSTER_COLOR
+  chk grep scripts/pymol_safe.py faulthandler
+  chk grep scripts/pymol_safe.py 150
+
+T Y02 M code "Experimental metadata from mmCIF for every ESR1 entry"
+  help Method, crystallisation method, pH, temperature, crystallisation solution and additive classes, space group, cell, chains per ASU, release year, expression system, mutations, coactivator peptide, oligomer state; local mmCIF first, RCSB API for gaps; missing = not_reported.
+  meta wk=13 who=A ph=ext
+  needs Q03 Q06
+  tool gemmi, requests
+  out results/ext/entry_metadata.csv
+  out figures/ext/Y02_metadata_overview.png
+  chk csv results/ext/entry_metadata.csv rows>=351 cols=entry_id,exp_method,cryst_method,ph,temp_K,space_group,chains_asu,release_year,expression_system,mutations,peptide_present,additive_class nonempty=entry_id,exp_method
+  chk file figures/ext/Y02_metadata_overview.png
+
+T Y03 S code "Shared embeddings of the 788x788 RMSD matrix (PCA, classical MDS, metric MDS, t-SNE, UMAP)"
+  help One set of 2-D coordinates per chain reused by every colour-by figure; PCA of RMSD rows and classical MDS with explained variance, plus stress/trustworthiness of each embedding.
+  meta wk=13 who=B ph=ext
+  needs S04
+  tool scikit-learn, umap-learn
+  out results/ext/embedding_rmsd.csv
+  out results/ext/embedding_quality.csv
+  out figures/ext/Y03_embeddings.png
+  chk csv results/ext/embedding_rmsd.csv rows>=788 cols=chain_key,pca1,pca2,cmds1,cmds2,mds1,mds2,tsne1,tsne2,umap1,umap2
+  chk csv results/ext/embedding_quality.csv rows>=4 cols=embedding,trustworthiness
+  chk file figures/ext/Y03_embeddings.png
+
+T Y04 M code "Structural clustering zoo with automatic evaluation and a pre-declared selection rule"
+  help Hierarchical (average/complete/single/Ward on embedding), k-means, k-medoids (PAM), spectral (several sigma), DBSCAN, HDBSCAN, OPTICS, affinity propagation, mean shift, BIRCH, GMM; silhouette (precomputed), Davies-Bouldin, Calinski-Harabasz, bootstrap ARI (80% x 50); ranking table and the chosen method.
+  meta wk=13 who=B ph=ext
+  needs S04 Y03
+  tool scikit-learn, scipy
+  out results/ext/zoo_runs.csv
+  out results/ext/zoo_labels.csv
+  out results/ext/zoo_ranking.csv
+  out figures/ext/Y04_zoo_metrics.png
+  out figures/ext/Y04_zoo_grid.png
+  chk csv results/ext/zoo_runs.csv rows>=40 cols=run_id,method,params,n_clusters,silhouette,davies_bouldin,calinski_harabasz,stability_ari,noise_fraction
+  chk csv results/ext/zoo_labels.csv rows>=788 cols=chain_key
+  chk csv results/ext/zoo_ranking.csv rows>=10 cols=rank,run_id,score
+  chk file figures/ext/Y04_zoo_metrics.png
+  chk file figures/ext/Y04_zoo_grid.png
+
+T Y05 S code "Cluster compactness per cluster and per method"
+  help Mean and max intra-cluster RMSD, medoid radius, diameter, cohesion/separation ratio for every cluster of every zoo run.
+  meta wk=13 who=B ph=ext
+  needs Y04
+  out results/ext/zoo_compactness.csv
+  out figures/ext/Y05_compactness.png
+  chk csv results/ext/zoo_compactness.csv rows>=50 cols=run_id,cluster,size,mean_intra_A,max_intra_A,medoid_radius_A,diameter_A,cohesion_separation
+  chk file figures/ext/Y05_compactness.png
+
+T Y06 S code "Method agreement (ARI/AMI) and cross-method contingency"
+  help Pairwise ARI and AMI between the best setting of every method; contingency heatmap of S08 vs the chosen method; alluvial across methods.
+  meta wk=13 who=B ph=ext
+  needs Y04
+  out results/ext/zoo_agreement.csv
+  out figures/ext/Y06_agreement.png
+  out figures/ext/Y06_alluvial.png
+  chk csv results/ext/zoo_agreement.csv rows>=10 cols=run_a,run_b,ari,ami
+  chk file figures/ext/Y06_agreement.png
+  chk file figures/ext/Y06_alluvial.png
+
+T Y07 S fig "Dendrogram with metadata colour bars and cluster-ordered RMSD heatmap"
+  help Average-linkage dendrogram (S08 linkage) with bars for cluster, tier, R-free, B-group, H12 label, peptide, space group; the RMSD matrix ordered by the leaves with the same sidebars.
+  meta wk=13 who=B ph=ext
+  needs S08 Y02
+  out results/ext/leaf_order.csv
+  out figures/ext/Y07_dendrogram_metadata.png
+  out figures/ext/Y07_rmsd_heatmap_annotated.png
+  chk csv results/ext/leaf_order.csv rows>=788 cols=leaf_rank,chain_key
+  chk file figures/ext/Y07_dendrogram_metadata.png
+  chk file figures/ext/Y07_rmsd_heatmap_annotated.png
+
+T Y08 M code "Chemistry clustering zoo with automatic selection (C08 auto-K)"
+  help ECFP4, ECFP6, FCFP4, MACCS, atom-pair, topological-torsion fingerprints on the ligands of interest; Tanimoto distance; Butina, k-medoids, spectral, hierarchical, HDBSCAN, DBSCAN, k-means on an embedding; pre-declared score; best fingerprint x method x K, marked auto-selected.
+  meta wk=13 who=C ph=ext
+  needs C11
+  tool rdkit, scikit-learn
+  out results/ext/chem_zoo_runs.csv
+  out results/ext/chem_zoo_ranking.csv
+  out results/ext/chem_labels_best.csv
+  out figures/ext/Y08_chem_zoo_metrics.png
+  out figures/ext/Y08_chem_map.png
+  chk csv results/ext/chem_zoo_runs.csv rows>=60 cols=run_id,fingerprint,method,params,n_clusters,silhouette,stability_ari
+  chk csv results/ext/chem_zoo_ranking.csv rows>=10 cols=rank,run_id,score
+  chk csv results/ext/chem_labels_best.csv rows>=300 cols=ligand_id,chem_cluster_auto,selection
+  chk file figures/ext/Y08_chem_zoo_metrics.png
+  chk file figures/ext/Y08_chem_map.png
+
+T Y09 S code "Murcko scaffolds and physico-chemical descriptors of the ligands"
+  help MW, cLogP, TPSA, HBD, HBA, rotatable bonds, heavy atoms, rings, Murcko scaffold per ligand of interest; distributions per structural cluster (unit = ligand).
+  meta wk=13 who=C ph=ext
+  needs C11
+  tool rdkit
+  out results/ext/ligand_descriptors.csv
+  out figures/ext/Y09_physchem_by_cluster.png
+  out figures/ext/Y09_scaffolds.png
+  chk csv results/ext/ligand_descriptors.csv rows>=300 cols=ligand_id,mw,clogp,tpsa,hbd,hba,rotb,heavy_atoms,murcko
+  chk file figures/ext/Y09_physchem_by_cluster.png
+  chk file figures/ext/Y09_scaffolds.png
+
+T Y10 S code "Why two clusters: per-residue displacement between the main clusters"
+  help Per-position distance between the cluster-mean (and medoid) C-alpha traces of cl7 and cl4 with helix bands, per-position within-cluster spread, and where the RMSD between the two clusters comes from.
+  meta wk=13 who=B ph=ext
+  needs S03 S08 S12
+  out results/ext/cluster_displacement_profile.csv
+  out figures/ext/Y10_displacement_profile.png
+  chk csv results/ext/cluster_displacement_profile.csv rows>=200 cols=position,d_mean_A,d_medoid_A,sd_cl7_A,sd_cl4_A
+  chk file figures/ext/Y10_displacement_profile.png
+
+T Y11 M code "Structural features: H12 geometry, helix axes and angles, charge clamp, contacts"
+  help Per chain: H12 centroid and its distance to H3/H5/H11, helix-axis angles H12 vs H3/H11, Lys362-Glu542 and Leu540 distances, contact-map differences between the two clusters, pocket size and ligand size.
+  meta wk=13 who=B ph=ext
+  needs S03 X09
+  out results/ext/structural_features.csv
+  out figures/ext/Y11_features_by_cluster.png
+  out figures/ext/Y11_contact_map_diff.png
+  chk csv results/ext/structural_features.csv rows>=788 cols=chain_key,h12_to_h3_A,h12_h3_angle_deg,k362_e542_A,h12_n_ca
+  chk file figures/ext/Y11_features_by_cluster.png
+  chk file figures/ext/Y11_contact_map_diff.png
+
+T Y12 S code "Backbone dihedral (phi/psi) PCA"
+  help Phi/psi from the cleaned chain PDBs, circular (sin/cos) PCA over positions observed in most chains; which residues carry the dihedral differences between clusters.
+  meta wk=13 who=B ph=ext
+  needs Q05
+  tool biopython
+  out results/ext/phipsi_pca.csv
+  out figures/ext/Y12_phipsi_pca.png
+  chk csv results/ext/phipsi_pca.csv rows>=700 cols=chain_key,dpc1,dpc2
+  chk file figures/ext/Y12_phipsi_pca.png
+
+T Y13 S code "Supervised check: predict the main cluster from features"
+  help Decision tree, random forest, logistic regression with grouped (by entry) cross-validation; permutation importance and mutual information; which features explain the split.
+  meta wk=13 who=B ph=ext
+  needs Y11 Y02
+  out results/ext/supervised_scores.csv
+  out results/ext/feature_importance.csv
+  out figures/ext/Y13_feature_importance.png
+  out figures/ext/Y13_decision_tree.png
+  chk csv results/ext/supervised_scores.csv rows>=3 cols=model,feature_set,balanced_accuracy_mean
+  chk csv results/ext/feature_importance.csv rows>=5 cols=feature,perm_importance,mutual_info
+  chk file figures/ext/Y13_feature_importance.png
+  chk file figures/ext/Y13_decision_tree.png
+
+T Y14 S code "Hypothesis tests for the two-cluster split"
+  help Test, not assume: coactivator peptide, mutations (Y537S, D538G, L536S...), ligand size, H12 completeness, quality, crystal form; effect size with CI, BH correction, entry-level sensitivity.
+  meta wk=13 who=B ph=ext
+  needs Y11 Y02
+  out results/ext/split_hypotheses.csv
+  out figures/ext/Y14_split_hypotheses.png
+  chk csv results/ext/split_hypotheses.csv rows>=6 cols=hypothesis,test,n,effect,p_value,q_value
+  chk file figures/ext/Y14_split_hypotheses.png
+
+T Y15 S code "Multi-method outlier detection on the RMSD matrix"
+  help kNN distance, distance to own-cluster medoid, LOF (precomputed), isolation forest and Mahalanobis on the PCA embedding; consensus flag; every chain kept and labelled.
+  meta wk=13 who=B ph=ext
+  needs Y03
+  out results/ext/outlier_flags.csv
+  out figures/ext/Y15_outliers.png
+  chk csv results/ext/outlier_flags.csv rows>=788 cols=chain_key,knn_flag,medoid_flag,lof_flag,iforest_flag,mahal_flag,n_methods
+  chk file figures/ext/Y15_outliers.png
+
+T Y16 S code "Outliers: explained by quality or a real conformation?"
+  help Flagged vs not on resolution, R-free, R-work, mean B, B-group, completeness, missing residues, H12 label, tier, plus metadata; Mann-Whitney / Fisher / chi-square, effect sizes, BH.
+  meta wk=13 who=B ph=ext
+  needs Y15 Y02
+  out results/ext/outlier_tests.csv
+  out figures/ext/Y16_outlier_quality.png
+  chk csv results/ext/outlier_tests.csv rows>=8 cols=group,variable,test,effect,p_value,q_value
+  chk file figures/ext/Y16_outlier_quality.png
+
+T Y17 S code "Experimental metadata vs cluster and vs outlier status"
+  help Cramer's V / Kruskal-Wallis / mutual information for every metadata variable against main-cluster membership and outlier status, BH-corrected; chain and entry level.
+  meta wk=13 who=A ph=ext
+  needs Y02 Y15
+  out results/ext/metadata_tests.csv
+  out figures/ext/Y17_metadata_effects.png
+  chk csv results/ext/metadata_tests.csv rows>=10 cols=variable,target,test,effect,p_value,q_value,level
+  chk file figures/ext/Y17_metadata_effects.png
+
+T Y18 S fig "Colour-by small multiples of the shared embedding"
+  help One MDS embedding drawn as small multiples coloured by cluster, R-free, resolution, mean B, B-group, tier, H12 label, space group, pH, additive class, peptide, mutation, ligand cluster, action label, year, method.
+  meta wk=13 who=ALL ph=ext
+  needs Y03 Y02 Y08
+  out figures/ext/Y18_colour_by_quality.png
+  out figures/ext/Y18_colour_by_experiment.png
+  out figures/ext/Y18_colour_by_biology.png
+  chk file figures/ext/Y18_colour_by_quality.png
+  chk file figures/ext/Y18_colour_by_experiment.png
+  chk file figures/ext/Y18_colour_by_biology.png
+
+T Y19 S fig "Interactive embedding scatter (offline plotly HTML)"
+  help MDS / PCA / UMAP scatter with hover: PDB id, chain, cluster, tier, resolution, R-free, mean B, H12 label, ligand, peptide.
+  meta wk=13 who=D ph=ext
+  needs Y03 Y02
+  tool plotly
+  out docs/interactive_embedding.html
+  chk grep docs/interactive_embedding.html chain_key|1A52
+
+T Y20 S code "PCA of superposed C-alpha coordinates"
+  help Principal modes of the core-fitted traces (positions observed in >=95% chains, mean-imputed), variance, per-residue loadings along the sequence, projections, comparison with the RMSD embedding.
+  meta wk=13 who=B ph=ext
+  needs S03
+  out results/ext/coord_pca_scores.csv
+  out results/ext/coord_pca_loadings.csv
+  out figures/ext/Y20_coord_pca.png
+  out figures/ext/Y20_coord_pca_loadings.png
+  chk csv results/ext/coord_pca_scores.csv rows>=788 cols=chain_key,cpc1,cpc2,cpc3
+  chk csv results/ext/coord_pca_loadings.csv rows>=150 cols=position,load1,load2
+  chk file figures/ext/Y20_coord_pca.png
+  chk file figures/ext/Y20_coord_pca_loadings.png
+
+T Y21 S code "B-factors by helix, B-group, cluster and tier; core-selection figure (K03 with core v3)"
+  help Normalised B per helix per B-group/cluster/tier; which helices are most stable; core v3 vs old core mean normalised B per chain; final core-selection figure.
+  meta wk=13 who=B ph=ext
+  needs K03 K04
+  out results/ext/helix_b_summary.csv
+  out results/ext/core_b_v3.csv
+  out figures/ext/Y21_helix_b.png
+  out figures/ext/Y21_core_selection.png
+  chk csv results/ext/helix_b_summary.csv rows>=20 cols=helix,group_by,group,n_chains,median_norm_b
+  chk csv results/ext/core_b_v3.csv rows>=788 cols=chain_key,core_v3_norm_b,old_core_norm_b
+  chk file figures/ext/Y21_helix_b.png
+  chk file figures/ext/Y21_core_selection.png
+
+T Y22 M code "ESR2 parallel analysis (zoo, outliers, metadata, PCA)"
+  help Same zoo, outlier and metadata analyses on the 86-chain ESR2 matrix (X02), small-N caveat.
+  meta wk=13 who=B ph=ext
+  needs X02 X03 Y04
+  out results/ext/esr2_zoo_runs.csv
+  out results/ext/esr2_metadata.csv
+  out figures/ext/Y22_esr2_parallel.png
+  chk csv results/ext/esr2_zoo_runs.csv rows>=15 cols=run_id,method,n_clusters,silhouette,stability_ari
+  chk csv results/ext/esr2_metadata.csv rows>=39 cols=entry_id,space_group,ph,peptide_present
+  chk file figures/ext/Y22_esr2_parallel.png
+
+T Y23 M code "Joint ESR1+ESR2 embedding and per-residue receptor differences"
+  help ESR2 chains fitted on the ESR1 reference frame (core v3, shared numbering), joint 874x874 C-alpha RMSD (new file), joint MDS, per-position ESR1-vs-ESR2 mean-trace distance with sequence differences and draft selectivity positions marked.
+  meta wk=13 who=D ph=ext
+  needs X02 E03 S03
+  out results/ext/rmsd_joint.npy
+  out results/ext/joint_embedding.csv
+  out results/ext/receptor_residue_diff.csv
+  out figures/ext/Y23_joint_embedding.png
+  out figures/ext/Y23_receptor_residue_diff.png
+  chk npy results/ext/rmsd_joint.npy square>=870
+  chk csv results/ext/joint_embedding.csv rows>=870 cols=chain_key,receptor,mds1,mds2
+  chk csv results/ext/receptor_residue_diff.csv rows>=200 cols=position,esr1_aa,esr2_aa,d_mean_A
+  chk file figures/ext/Y23_joint_embedding.png
+  chk file figures/ext/Y23_receptor_residue_diff.png
+
+T Y24 S code "ESR1 vs ESR2 potency and selectivity ratios (ChEMBL)"
+  help ESR2 (CHEMBL242) activities for compounds with ESR1 data; per-compound median pChEMBL per receptor, selectivity = pESR1 - pESR2; PDB ligands marked.
+  meta wk=13 who=C ph=ext
+  needs X13 X14
+  tool requests
+  out results/ext/chembl_esr2_activities.csv
+  out results/ext/selectivity_ratios.csv
+  out figures/ext/Y24_potency_esr1_vs_esr2.png
+  chk csv results/ext/selectivity_ratios.csv rows>=50 cols=molecule_chembl_id,p_esr1,p_esr2,selectivity
+  chk file figures/ext/Y24_potency_esr1_vs_esr2.png
+
+T Y25 M code "Ligand <-> conformation link on the 788 matrix (P04 redone)"
+  help Chemistry cluster (auto-selected) x structural cluster: chi-square, ligand-level permutation p, Cramer's V with bootstrap CI, MI, purity, nearest-neighbour agreement (similar ligands -> similar poses?), potency by cluster within chemistry class.
+  meta wk=13 who=C ph=ext
+  needs Y08 S08 X15
+  out results/ext/chem_struct_link.csv
+  out figures/ext/Y25_chem_struct_link.png
+  out figures/ext/Y25_nn_agreement.png
+  chk csv results/ext/chem_struct_link.csv rows>=5 cols=test,n,statistic,p_value,method nonempty=p_value
+  chk file figures/ext/Y25_chem_struct_link.png
+  chk file figures/ext/Y25_nn_agreement.png
+
+T Y26 M code "Redundancy and diversity: rarefaction, Hill numbers, set cover, representative sets"
+  help Rarefaction of clusters, Hill numbers q=0,1,2 (effective number of conformations), greedy set cover at radius r for 90/95/99% of chains (the S15 '90% of diversity' made explicit), k-medoids and farthest-first representative sets, redundancy per cluster, across methods/cores/tiers.
+  meta wk=13 who=B ph=ext
+  needs S08 Y04 K09
+  out results/ext/hill_numbers.csv
+  out results/ext/set_cover.csv
+  out results/ext/representatives_ext.csv
+  out figures/ext/Y26_rarefaction.png
+  out figures/ext/Y26_hill_numbers.png
+  out figures/ext/Y26_set_cover.png
+  chk csv results/ext/hill_numbers.csv rows>=8 cols=run_id,q0,q1,q2
+  chk csv results/ext/set_cover.csv rows>=12 cols=radius_A,coverage_target,n_structures,subset
+  chk csv results/ext/representatives_ext.csv rows>=10 cols=method,k,chain_key
+  chk file figures/ext/Y26_rarefaction.png
+  chk file figures/ext/Y26_hill_numbers.png
+  chk file figures/ext/Y26_set_cover.png
+
+T Y27 S code "Time: release-year trends and conformational novelty"
+  help Deposits per year per cluster, first appearance of each cluster, novelty of each new structure (distance to everything earlier), quality over time.
+  meta wk=13 who=B ph=ext
+  needs Y02 S08
+  out results/ext/time_trends.csv
+  out figures/ext/Y27_timeline.png
+  out figures/ext/Y27_novelty.png
+  chk csv results/ext/time_trends.csv rows>=20 cols=release_year,n_chains,n_cl7,n_cl4,median_novelty_A
+  chk file figures/ext/Y27_timeline.png
+  chk file figures/ext/Y27_novelty.png
+
+T Y28 S code "Robustness grid: clustering method x alignment core x tier subset"
+  help ARI to the S08 1.5 A reference and main-split agreement for each method on the core-v3 and old-core matrices, for all chains, tier A only, R-free <= 0.25, entry-level.
+  meta wk=13 who=B ph=ext
+  needs Y04 K09
+  out results/ext/robustness_grid.csv
+  out figures/ext/Y28_robustness_grid.png
+  chk csv results/ext/robustness_grid.csv rows>=20 cols=method,core,subset,n_chains,ari_vs_ref,main_split_agreement
+  chk file figures/ext/Y28_robustness_grid.png
+
+T Y29 S text "ESR2 reference core-fraction question answered"
+  help Why reference_min_core_fraction 1.0 cannot be met for ESR2, what the best reachable value is under core v3 and the old core, and whether the chosen ESR2 reference changes the ESR2 clusters (alternative references).
+  meta wk=13 who=B ph=ext
+  needs X02
+  out docs/esr2_core_fraction.md
+  out results/ext/esr2_reference_alternatives.csv
+  chk lines docs/esr2_core_fraction.md >=10
+  chk csv results/ext/esr2_reference_alternatives.csv rows>=3 cols=reference,core_fraction,ari_vs_x03
+
+T Y30 S fig "PyMOL renders via pymol_safe: cluster medoids, H12, B-factor putty"
+  help Main-cluster medoids superposed and coloured with the palette, H12 highlighted; B-factor putty of both medoids; matplotlib C-alpha fallback if PyMOL fails.
+  meta wk=13 who=D ph=ext
+  needs Y01 S12
+  tool pymol
+  out figures/ext/Y30_pymol_medoids.png
+  out figures/ext/Y30_pymol_bputty.png
+  chk file figures/ext/Y30_pymol_medoids.png
+  chk file figures/ext/Y30_pymol_bputty.png
+
+T Y31 M code "Upstream rebuild scripts (Q04, Q06, C01-C07, C10, E03, E04, X01, X13, X14) with frozen-vs-rebuilt report"
+  help Scripts that regenerate the upstream tables from raw inputs into results/rebuild/ and a report saying identical / equivalent / differs per target.
+  meta wk=13 who=ALL ph=ext
+  needs Q04 Q06 C07 C10 E03 E04 X01 X13 X14
+  out scripts/rebuild_all.py
+  out results/rebuild/rebuild_report.csv
+  chk csv results/rebuild/rebuild_report.csv rows>=10 cols=target,frozen_path,rebuilt_path,script,status
+  chk grep scripts/rebuild_all.py rebuild_
+
+T Y32 S text "Preparation for the human tasks"
+  help One page listing each human step (E01, C08, W01, W05, W08, W17, X07 if open; Q10/Q11 belong to the teammate and are only listed) with what is ready and the exact action left.
+  meta wk=13 who=ALL ph=ext
+  out docs/HUMAN_STEPS.md
+  chk lines docs/HUMAN_STEPS.md >=12
+  chk grep docs/HUMAN_STEPS.md E01
+
+T Y33 S code "Figure index, offline gallery and figure count"
+  help docs/figures/INDEX.md (file, what it shows, takeaway, source table, script) and docs/gallery.html (all figures, grouped by section, works offline) built from results/ext/figure_cards.csv.
+  meta wk=13 who=D ph=ext
+  needs Y01
+  out scripts/ext_build_index.py
+  out docs/figures/INDEX.md
+  out docs/gallery.html
+  chk lines docs/figures/INDEX.md >=60
+  chk grep docs/gallery.html <img
+
+T Y34 S text "Exploration log"
+  help docs/EXPLORATION.md: every analysis tried, including what showed nothing, with the result file.
+  meta wk=13 who=ALL ph=ext
+  out docs/EXPLORATION.md
+  chk lines docs/EXPLORATION.md >=30
+
+T Y35 S code "Numbers for the documents (collect_numbers extension)"
+  help Every number used in METHODOLOGY / RESULTS_SUMMARY read from result files into results/ext/numbers_ext.json and docs/numbers_ext.md.
+  meta wk=13 who=ALL ph=ext
+  out scripts/collect_numbers_ext.py
+  out results/ext/numbers_ext.json
+  chk file results/ext/numbers_ext.json
+  chk grep scripts/collect_numbers_ext.py numbers_
+
+T Y36 M text "METHODOLOGY.md: the whole pipeline step by step"
+  help Purpose, input/output files and formats, script + function, parameters and why, what was recorded, for every step from acquisition to the extended analyses.
+  meta wk=13 who=ALL ph=ext
+  needs Y35
+  out docs/METHODOLOGY.md
+  chk lines docs/METHODOLOGY.md >=120
+  chk grep docs/METHODOLOGY.md rmsd_entry\.npy
+
+T Y37 S text "PIPELINE.md and REPO_MAP.md"
+  help Short pipeline order and a repo map (what matters, what is archive).
+  meta wk=13 who=ALL ph=ext
+  out docs/PIPELINE.md
+  out docs/REPO_MAP.md
+  chk lines docs/PIPELINE.md >=20
+  chk lines docs/REPO_MAP.md >=20
+
+T Y38 M text "RESULTS_SUMMARY.md with a 10-figure storyline"
+  help What was done and found, section by section, each finding pointing to its figure and result file; storyline of about 10 figures with two plain sentences each.
+  meta wk=13 who=ALL ph=ext
+  needs Y35
+  out docs/RESULTS_SUMMARY.md
+  chk lines docs/RESULTS_SUMMARY.md >=60
+  chk grep docs/RESULTS_SUMMARY.md (?i)storyline
+
+T Y39 S code "One command reproduces everything; exact-version lock file"
+  help run_all.sh runs upstream rebuild, frozen-pipeline scripts and every ext script in order; requirements-lock.txt pins the exact versions used in this run.
+  meta wk=13 who=ALL ph=ext
+  out run_all.sh
+  out requirements-lock.txt
+  chk grep run_all.sh ext_
+  chk grep requirements-lock.txt (?i)scikit-learn==
+
+T Y40 S code "Evidence refresh for this run"
+  help Independent recounts for every Y task logged DONE (docs/EVIDENCE_EXT.md, scripts/check_evidence_ext.py), exact paths.
+  meta wk=13 who=ALL ph=ext
+  out scripts/check_evidence_ext.py
+  out docs/EVIDENCE_EXT.md
+  chk grep docs/EVIDENCE_EXT.md Y04
+  chk lines docs/EVIDENCE_EXT.md >=20
+
+T Y41 S run "Final pack zip with MANIFEST"
+  help final_pack_<date>.zip with docs/, figures/, key results CSVs, scripts/, gallery, interactive HTML and a MANIFEST.
+  meta wk=13 who=ALL ph=ext
+  out final_pack_20261025.zip
+  out docs/MANIFEST_final.csv
+  chk file final_pack_20261025.zip
+  chk csv docs/MANIFEST_final.csv rows>=100 cols=path,bytes,sha256
+
+T Y42 S code "Is the RMSD a metric? Hub chains and fixed-position / region-restricted RMSD variants"
+  help Triangle-inequality violations of the pairwise-common-residue RMSD, hubness vs completeness; new matrices on a fixed position set (observed in >=99% of chains), on LBD without H12 and on H12 only (same S03 superposition); does the cl7/cl4 split survive without H12?
+  meta wk=13 who=B ph=ext
+  needs S03 S04 Y04
+  out results/ext/metric_check.csv
+  out results/ext/rmsd_fixedpos.npy
+  out results/ext/rmsd_noh12.npy
+  out figures/ext/Y42_metric_check.png
+  out figures/ext/Y42_region_rmsd.png
+  chk csv results/ext/metric_check.csv rows>=3 cols=matrix,n_positions,triangle_violation_frac,ari_vs_s08_k2
+  chk npy results/ext/rmsd_fixedpos.npy square>=788
+  chk npy results/ext/rmsd_noh12.npy square>=788
+  chk file figures/ext/Y42_metric_check.png
+  chk file figures/ext/Y42_region_rmsd.png
+
+T Y43 S code "Copies in one crystal: within-entry vs between-entry conformational variation"
+  help Chains of one entry (NCS copies) - RMSD within entries vs between entries with the same ligand vs all; entries whose chains fall in different clusters; is the PDB redundancy mostly copies?
+  meta wk=13 who=B ph=ext
+  needs S04 S08
+  out results/ext/ncs_copies.csv
+  out figures/ext/Y43_ncs_copies.png
+  chk csv results/ext/ncs_copies.csv rows>=100 cols=entry_id,n_chains,max_within_rmsd_A,mixed_clusters
+  chk file figures/ext/Y43_ncs_copies.png
+
+T Y44 M code "Crystal contacts at H12: does packing hold H12 in place?"
+  help For every matrix chain, atoms of other chains and symmetry mates within 4 A of H12 (538-547) and of the AF-2 groove; compare cl7 vs cl4, partial vs complete H12, space groups; is the H12 position explained by packing?
+  meta wk=13 who=B ph=ext
+  needs S03 Y02
+  tool gemmi
+  out results/ext/h12_crystal_contacts.csv
+  out figures/ext/Y44_h12_contacts.png
+  chk csv results/ext/h12_crystal_contacts.csv rows>=788 cols=chain_key,h12_contact_atoms,h12_contact_residues,contacts_with_symmetry
+  chk file figures/ext/Y44_h12_contacts.png
+
+T Y45 S code "Inside cl4: what splits the antagonist-like cluster?"
+  help Sub-cluster the 329 cl4 chains (average linkage at 1.0 A and K=2..4 by silhouette) and characterise the sub-clusters by H12 geometry, peptide, mutation, ligand chemistry, space group.
+  meta wk=13 who=B ph=ext
+  needs Y11 Y08
+  out results/ext/cl4_subclusters.csv
+  out figures/ext/Y45_cl4_substructure.png
+  chk csv results/ext/cl4_subclusters.csv rows>=300 cols=chain_key,sub_cluster
+  chk file figures/ext/Y45_cl4_substructure.png

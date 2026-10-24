@@ -1,0 +1,54 @@
+{
+ "task": "Y26",
+ "ts": "2026-10-25T01:40+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/hill_numbers.csv",
+   "size": 1242,
+   "sha": "155fc80ba79c1ece"
+  },
+  {
+   "path": "results/ext/set_cover.csv",
+   "size": 32333,
+   "sha": "ead2daaf5b9718f0"
+  },
+  {
+   "path": "results/ext/representatives_ext.csv",
+   "size": 2528,
+   "sha": "6e74c5888dbfbb11"
+  },
+  {
+   "path": "results/ext/rarefaction.csv",
+   "size": 41938,
+   "sha": "996f0c45522f281d"
+  },
+  {
+   "path": "results/ext/redundancy_by_cluster.csv",
+   "size": 207,
+   "sha": "d5172caf80fb4cfb"
+  },
+  {
+   "path": "figures/ext/Y26_rarefaction.png",
+   "size": 312366,
+   "sha": "bcbd5338c04a034d"
+  },
+  {
+   "path": "figures/ext/Y26_hill_numbers.png",
+   "size": 215344,
+   "sha": "1a8fbddf79ffcda3"
+  },
+  {
+   "path": "figures/ext/Y26_set_cover.png",
+   "size": 243583,
+   "sha": "213451a91733099d"
+  },
+  {
+   "path": "scripts/ext_redundancy.py",
+   "size": 18011,
+   "sha": "b6bf6a216a94cfac"
+  }
+ ]
+}

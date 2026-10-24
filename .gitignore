@@ -12,3 +12,11 @@ __pycache__/
 
 # Tracker bundles (include environment details)
 tracker/bundle_*.zip
+
+# Final run (2026-10-25): re-downloadable bulk inputs (scripts/rebuild_fetch_raw.py, scripts/ext_esr2.py)
+results/rebuild/raw/
+results/rebuild/ccd/
+data/cache/esr2_cif/
+
+# Final pack (>100 MB, GitHub limit); rebuild with: python scripts/make_final_pack.py
+final_pack_*.zip

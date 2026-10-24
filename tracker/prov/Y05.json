@@ -1,0 +1,29 @@
+{
+ "task": "Y05",
+ "ts": "2026-10-25T00:39+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/zoo_compactness.csv",
+   "size": 65470,
+   "sha": "f9e4389443761293"
+  },
+  {
+   "path": "results/ext/zoo_compactness_runs.csv",
+   "size": 13412,
+   "sha": "a45513b4923b16ac"
+  },
+  {
+   "path": "figures/ext/Y05_compactness.png",
+   "size": 243955,
+   "sha": "44af55177a7a2e67"
+  },
+  {
+   "path": "scripts/ext_compactness.py",
+   "size": 7937,
+   "sha": "59351b8af120ca11"
+  }
+ ]
+}

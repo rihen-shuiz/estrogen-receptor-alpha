@@ -1,0 +1,44 @@
+{
+ "task": "Y23",
+ "ts": "2026-10-25T01:29+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/rmsd_joint.npy",
+   "size": 6111136,
+   "sha": "a42181302388d064"
+  },
+  {
+   "path": "results/ext/joint_index.csv",
+   "size": 24566,
+   "sha": "68afd397edd89d83"
+  },
+  {
+   "path": "results/ext/joint_embedding.csv",
+   "size": 61027,
+   "sha": "5af53d535d54933f"
+  },
+  {
+   "path": "results/ext/receptor_residue_diff.csv",
+   "size": 18855,
+   "sha": "6524cdd5cdf100fe"
+  },
+  {
+   "path": "figures/ext/Y23_joint_embedding.png",
+   "size": 219646,
+   "sha": "86f575db6eba4bd5"
+  },
+  {
+   "path": "figures/ext/Y23_receptor_residue_diff.png",
+   "size": 387458,
+   "sha": "25e1c536f33ce193"
+  },
+  {
+   "path": "scripts/ext_joint_esr1_esr2.py",
+   "size": 11978,
+   "sha": "b73f4aa5adead6b9"
+  }
+ ]
+}

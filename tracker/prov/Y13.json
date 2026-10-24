@@ -1,0 +1,34 @@
+{
+ "task": "Y13",
+ "ts": "2026-10-25T01:10+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/supervised_scores.csv",
+   "size": 2119,
+   "sha": "5af9de63989d4ca9"
+  },
+  {
+   "path": "results/ext/feature_importance.csv",
+   "size": 2741,
+   "sha": "d11d822b1de71fb8"
+  },
+  {
+   "path": "figures/ext/Y13_feature_importance.png",
+   "size": 255124,
+   "sha": "2129e41309b536ef"
+  },
+  {
+   "path": "figures/ext/Y13_decision_tree.png",
+   "size": 227824,
+   "sha": "b1fe44d9dfc36d65"
+  },
+  {
+   "path": "scripts/ext_supervised.py",
+   "size": 13031,
+   "sha": "c13ffe6b65fd6067"
+  }
+ ]
+}

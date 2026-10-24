@@ -1,0 +1,29 @@
+{
+ "task": "Y30",
+ "ts": "2026-10-25T01:49+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "figures/ext/Y30_pymol_medoids.png",
+   "size": 1181478,
+   "sha": "b2930f450fb09fcc"
+  },
+  {
+   "path": "figures/ext/Y30_pymol_bputty.png",
+   "size": 1052078,
+   "sha": "dcdd3276c64ded43"
+  },
+  {
+   "path": "scripts/ext_pymol_renders.py",
+   "size": 9060,
+   "sha": "d0c9a36e632e50fe"
+  },
+  {
+   "path": "scripts/pymol_safe.py",
+   "size": 3741,
+   "sha": "d03086605b5d4e85"
+  }
+ ]
+}

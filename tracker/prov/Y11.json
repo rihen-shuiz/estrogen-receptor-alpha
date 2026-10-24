@@ -1,0 +1,39 @@
+{
+ "task": "Y11",
+ "ts": "2026-10-25T00:58+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/structural_features.csv",
+   "size": 251765,
+   "sha": "8773ccb4409b03a8"
+  },
+  {
+   "path": "results/ext/structural_feature_tests.csv",
+   "size": 1497,
+   "sha": "7a15aeff3d756d3a"
+  },
+  {
+   "path": "results/ext/contact_freq_diff.npy",
+   "size": 484256,
+   "sha": "f1886e9432f66030"
+  },
+  {
+   "path": "figures/ext/Y11_features_by_cluster.png",
+   "size": 560118,
+   "sha": "41d1ae812b59455b"
+  },
+  {
+   "path": "figures/ext/Y11_contact_map_diff.png",
+   "size": 196675,
+   "sha": "54cd5c42e00b2e90"
+  },
+  {
+   "path": "scripts/ext_structural_features.py",
+   "size": 12055,
+   "sha": "0d17357777f558fd"
+  }
+ ]
+}

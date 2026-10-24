@@ -1,0 +1,23 @@
+chain_key,entry_id,cluster,n_methods,resolution_A,r_free,mean_b_chain,missing_lbd_ca,h12_label,h12_shift_A,mutation_status,peptide,space_group,verdict,reasons
+1A52|A|1,1A52,1,3,2.8,0.274,58.396276150627614,7,partial,29.129659488089224,other,False,H 3 2,quality,resolution_A 2.8 > p95 2.7
+1A52|B|1,1A52,1,4,2.8,0.274,54.611375,6,partial,29.075826956384685,other,False,H 3 2,quality,resolution_A 2.8 > p95 2.7
+1R5K|C|1,1R5K,2,3,2.7,0.23561,46.30987234042553,11,partial,7.826644618944977,wild type,False,P 61 2 2,conformation,none
+2BJ4|B|1,2BJ4,4,4,2.0,0.219,31.318280542986425,25,not_modelled,,wild type,True,P 21 21 21,quality,H12 not modelled
+2JFA|B|1,2JFA,4,4,2.55,0.213,50.89766816143498,23,not_modelled,,wild type,True,P 32 2 1,quality,H12 not modelled
+2Q70|A|1,2Q70,4,4,1.95,0.303,46.003531914893614,11,complete,12.490926368269813,Cys->Ser/Ala only,False,C 2 2 21,quality,r_free 0.303 > p95 0.275
+3DT3|B|1,3DT3,5,4,2.4,0.262,44.529125,6,complete,11.297935967502651,wild type,False,C 1 2 1,conformation,none
+3ERT|A|1,3ERT,4,3,1.9,0.262,39.3594693877551,1,complete,12.534116242860156,wild type,False,P 65 2 2,conformation,none
+5DKE|B|1,5DKE,7,4,2.6,0.2627,50.56922077922079,15,complete,0.3808926358597427,Y537S,True,P 1 21 1,conformation,none
+5DXP|B|1,5DXP,7,3,2.201,0.2352,44.57930434782609,16,complete,0.3402660507627832,Y537S,True,P 1 21 1,conformation,none
+6DF6|B|1,6DF6,4,3,2.5,0.2727,56.57390909090908,26,partial,11.714243664411487,L536S,False,P 1,conformation,none
+6OWC|B|1,6OWC,3,3,1.85,0.22609,33.960337552742615,9,partial,13.84451565223201,Y537S,False,P 43 21 2,conformation,none
+6PFM|A|1,6PFM,1,4,2.84,0.2488,70.69855319148938,11,partial,28.74122928182057,L536S,False,H 3 2,quality,resolution_A 2.84 > p95 2.7; mean_b_chain 70.7 > p95 66.4
+6ZOQ|A|1,6ZOQ,4,4,1.8,0.232,39.06416666666667,18,complete,11.463426224245245,L536S,False,C 1 2 1,conformation,none
+7NDO|A|1,7NDO,4,3,1.6,0.1954,43.69259025862068,14,complete,12.649942793740614,L536S,False,P 1,conformation,none
+7NDO|B|1,7NDO,4,4,1.6,0.1954,34.07165995780591,9,complete,13.626972616028906,L536S,False,P 1,conformation,none
+7RS4|B|1,7RS4,4,3,1.78,0.2509,33.34545081967214,2,complete,11.614214430423406,L536S,False,P 1,conformation,none
+7RS4|D|1,7RS4,4,3,1.78,0.2509,36.05489539748954,7,complete,11.718891001950292,L536S,False,P 1,conformation,none
+8DUK|B|1,8DUK,4,3,1.7,0.2684,19.6833185840708,20,complete,12.915746035677191,L536S,False,C 1 2 1,conformation,none
+8DUK|D|1,8DUK,4,3,1.7,0.2684,15.201415929203538,20,complete,12.92090690404688,L536S,False,C 1 2 1,conformation,none
+9B25|A|1,9B25,6,3,1.45,0.2232,23.22206611570248,4,partial,6.995230067449848,L536S,False,P 1 21 1,conformation,none
+9B25|C|1,9B25,6,3,1.45,0.2232,23.88834710743802,4,partial,9.394741478431364,L536S,False,P 1 21 1,conformation,none

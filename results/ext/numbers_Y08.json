@@ -1,0 +1,17 @@
+{
+ "n_ligands": 306,
+ "n_runs": 276,
+ "n_eligible": 242,
+ "best_run": "MACCS|hier_average|k=2",
+ "best_k": 2,
+ "best_sil": 0.2859254634819486,
+ "best_stab": 1.0,
+ "best_largest": 0.9934640522875817,
+ "balanced_run": "MACCS|kmeans_mds|k=6",
+ "balanced_k": 6,
+ "balanced_sil": 0.2906384063803968,
+ "balanced_stab": 0.9745115278798653,
+ "ecfp4_vs_frozen_maxdiff": 5.551115123125783e-17,
+ "n_lig_cl7": 192,
+ "n_lig_cl4": 104
+}

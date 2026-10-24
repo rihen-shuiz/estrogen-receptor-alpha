@@ -362,3 +362,6 @@ def write():
 
 if __name__ == "__main__":
     write()
+    # final run (Y35): numbers of the extended analyses and rendering of the generated documents
+    import collect_numbers_ext
+    collect_numbers_ext.main()

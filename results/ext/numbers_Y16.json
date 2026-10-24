@@ -1,0 +1,125 @@
+{
+ "n_tests": 180,
+ "n_sig": 40,
+ "n_consensus": 22,
+ "n_quality": 6,
+ "n_conformation": 16,
+ "thresholds_p95": {
+  "resolution_A": 2.7,
+  "r_free": 0.27545,
+  "mean_b_chain": 66.44052541726276,
+  "missing_lbd_ca": 31.0
+ },
+ "verdicts": [
+  {
+   "chain_key": "1A52|A|1",
+   "verdict": "quality",
+   "reasons": "resolution_A 2.8 > p95 2.7"
+  },
+  {
+   "chain_key": "1A52|B|1",
+   "verdict": "quality",
+   "reasons": "resolution_A 2.8 > p95 2.7"
+  },
+  {
+   "chain_key": "1R5K|C|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "2BJ4|B|1",
+   "verdict": "quality",
+   "reasons": "H12 not modelled"
+  },
+  {
+   "chain_key": "2JFA|B|1",
+   "verdict": "quality",
+   "reasons": "H12 not modelled"
+  },
+  {
+   "chain_key": "2Q70|A|1",
+   "verdict": "quality",
+   "reasons": "r_free 0.303 > p95 0.275"
+  },
+  {
+   "chain_key": "3DT3|B|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "3ERT|A|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "5DKE|B|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "5DXP|B|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "6DF6|B|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "6OWC|B|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "6PFM|A|1",
+   "verdict": "quality",
+   "reasons": "resolution_A 2.84 > p95 2.7; mean_b_chain 70.7 > p95 66.4"
+  },
+  {
+   "chain_key": "6ZOQ|A|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "7NDO|A|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "7NDO|B|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "7RS4|B|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "7RS4|D|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "8DUK|B|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "8DUK|D|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "9B25|A|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  },
+  {
+   "chain_key": "9B25|C|1",
+   "verdict": "conformation",
+   "reasons": "none"
+  }
+ ]
+}

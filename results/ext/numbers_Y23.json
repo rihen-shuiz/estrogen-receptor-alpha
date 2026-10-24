@@ -1,0 +1,19 @@
+{
+ "reference": "7NFB|B|1",
+ "esr1_block_maxdiff": 5.462209677620233e-12,
+ "n_esr2_fit_ok": 86,
+ "esr2_core_rmsd_median": 0.5786196169570881,
+ "block_medians": {
+  "ESR1cl7-ESR2main": 1.3265612789923857,
+  "ESR1cl4-ESR2main": 3.557839062077366,
+  "ESR1cl7-ESR2second": 2.997525893926979,
+  "ESR1cl4-ESR2second": 2.305702199028982,
+  "ESR1cl7-ESR1cl4": 3.493710368661944
+ },
+ "median_shift_lt528": 0.49215570295900934,
+ "selectivity_shift": {
+  "384": 0.115,
+  "421": 0.206
+ },
+ "n_seq_diff_lbd": 97
+}

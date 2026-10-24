@@ -1,0 +1,24 @@
+{
+ "n_runs": 81,
+ "n_families": 14,
+ "n_eligible": 71,
+ "best_run": "spectral|sigma=2.0,k=2",
+ "best_k": 2,
+ "best_sil": 0.7444207343334351,
+ "best_stab": 0.9951768819007424,
+ "best_ari_s08": 0.935193529680323,
+ "n_main_split_agree": 17,
+ "n_runs_k2plus": 76,
+ "top10": [
+  "spectral|sigma=2.0,k=2",
+  "hier_average|k=3",
+  "hier_complete|k=3",
+  "kmeans|k=2",
+  "spectral|sigma=1.0,k=2",
+  "spectral|sigma=0.5,k=2",
+  "hier_average|k=4",
+  "hier_average|k=6",
+  "hier_average|k=5",
+  "hier_average|k=7"
+ ]
+}

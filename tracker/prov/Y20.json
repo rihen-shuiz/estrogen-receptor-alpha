@@ -1,0 +1,39 @@
+{
+ "task": "Y20",
+ "ts": "2026-10-25T01:22+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/coord_pca_scores.csv",
+   "size": 72377,
+   "sha": "7e62b266bd92a24e"
+  },
+  {
+   "path": "results/ext/coord_pca_loadings.csv",
+   "size": 17266,
+   "sha": "0dc156fcefc29369"
+  },
+  {
+   "path": "results/ext/coord_pca_variance.csv",
+   "size": 486,
+   "sha": "ac0019436e58fe55"
+  },
+  {
+   "path": "figures/ext/Y20_coord_pca.png",
+   "size": 222501,
+   "sha": "2d7725a7935a8c66"
+  },
+  {
+   "path": "figures/ext/Y20_coord_pca_loadings.png",
+   "size": 135227,
+   "sha": "064f9bbeaebb2f42"
+  },
+  {
+   "path": "scripts/ext_coord_pca.py",
+   "size": 7622,
+   "sha": "50d1142b89e1df5c"
+  }
+ ]
+}

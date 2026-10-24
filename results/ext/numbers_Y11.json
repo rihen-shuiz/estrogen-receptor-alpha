@@ -1,0 +1,123 @@
+{
+ "tests": {
+  "h12_shift_A": {
+   "n_cl7": 436,
+   "n_cl4": 315,
+   "median_cl7": 0.2188,
+   "median_cl4": 12.2617,
+   "rank_biserial": 1.0,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "h12_to_h3_A": {
+   "n_cl7": 436,
+   "n_cl4": 315,
+   "median_cl7": 12.3322,
+   "median_cl4": 15.8087,
+   "rank_biserial": 1.0,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "h12_to_h5_A": {
+   "n_cl7": 436,
+   "n_cl4": 315,
+   "median_cl7": 13.1473,
+   "median_cl4": 15.0899,
+   "rank_biserial": 1.0,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "h12_to_h11_A": {
+   "n_cl7": 436,
+   "n_cl4": 315,
+   "median_cl7": 20.1617,
+   "median_cl4": 26.8108,
+   "rank_biserial": 1.0,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "h12_h3_angle_deg": {
+   "n_cl7": 436,
+   "n_cl4": 315,
+   "median_cl7": 81.7043,
+   "median_cl4": 42.5104,
+   "rank_biserial": -1.0,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "h12_h11_angle_deg": {
+   "n_cl7": 436,
+   "n_cl4": 315,
+   "median_cl7": 111.9819,
+   "median_cl4": 122.8711,
+   "rank_biserial": 0.9738,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "k362_e542_A": {
+   "n_cl7": 438,
+   "n_cl4": 315,
+   "median_cl7": 19.345,
+   "median_cl4": 13.6224,
+   "rank_biserial": -1.0,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "l540_pocket_A": {
+   "n_cl7": 437,
+   "n_cl4": 315,
+   "median_cl7": 11.9296,
+   "median_cl4": 17.0596,
+   "rank_biserial": 1.0,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "h12_n_ca": {
+   "n_cl7": 445,
+   "n_cl4": 329,
+   "median_cl7": 10.0,
+   "median_cl4": 9.0,
+   "rank_biserial": -0.5922,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "loop_533_537_n_ca": {
+   "n_cl7": 445,
+   "n_cl4": 329,
+   "median_cl7": 5.0,
+   "median_cl4": 5.0,
+   "rank_biserial": -0.165,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "h2h3_loop_shift_A": {
+   "n_cl7": 430,
+   "n_cl4": 265,
+   "median_cl7": 1.1351,
+   "median_cl4": 3.4781,
+   "rank_biserial": 0.7769,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "pocket_sas_points": {
+   "n_cl7": 445,
+   "n_cl4": 329,
+   "median_cl7": 67.0,
+   "median_cl4": 90.0,
+   "rank_biserial": 0.5772,
+   "p_value": 0.0,
+   "q_value": 0.0
+  },
+  "ligand_heavy_atoms": {
+   "n_cl7": 438,
+   "n_cl4": 329,
+   "median_cl7": 24.0,
+   "median_cl4": 34.0,
+   "rank_biserial": 0.7042,
+   "p_value": 0.0,
+   "q_value": 0.0
+  }
+ },
+ "n_pairs_diff05": 68,
+ "n_pairs_diff05_h12": 35
+}

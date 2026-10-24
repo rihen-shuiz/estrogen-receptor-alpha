@@ -1,0 +1,37 @@
+{
+ "pca_var_2d": 0.9830615588103524,
+ "cmds_var_2d": 0.7745628728028203,
+ "cmds_var_1": 0.6993814521498215,
+ "quality": {
+  "pca": {
+   "trustworthiness": 0.7828,
+   "spearman_dist": 0.8665,
+   "explained_2d": 0.9831,
+   "stress1": NaN
+  },
+  "cmds": {
+   "trustworthiness": 0.8054,
+   "spearman_dist": 0.8674,
+   "explained_2d": 0.7746,
+   "stress1": NaN
+  },
+  "mds": {
+   "trustworthiness": 0.8461,
+   "spearman_dist": 0.9176,
+   "explained_2d": NaN,
+   "stress1": 0.1514
+  },
+  "tsne": {
+   "trustworthiness": 0.9372,
+   "spearman_dist": 0.6789,
+   "explained_2d": NaN,
+   "stress1": NaN
+  },
+  "umap": {
+   "trustworthiness": 0.9131,
+   "spearman_dist": 0.5835,
+   "explained_2d": NaN,
+   "stress1": NaN
+  }
+ }
+}

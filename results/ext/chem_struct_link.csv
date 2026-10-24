@@ -1,0 +1,12 @@
+test,n,statistic,p_value,method
+chi-square chem cluster x structural majority (ligand),304,170.0939188109684,2.340498389542355e-28,"asymptotic, dof 15; 12/24 cells expected < 5"
+chi-square chem cluster x structural majority (ligand),304,170.0939188109684,9.999000099990002e-05,"permutation, 10000 shuffles of structural labels over ligands"
+Cramer's V (ligand),304,0.4318639715515841,9.999000099990002e-05,bootstrap 95% CI 0.401-0.554; p from the permutation chi-square
+"mutual information (ligand, nats)",304,0.31149151110408674,0.0004997501249375312,"permutation, 2000 shuffles"
+cluster purity (ligand),304,0.8289473684210527,0.0004997501249375312,permutation null mean 0.632
+chi-square chem cluster x S08 cluster (chain),781,384.51105987269983,0.0004997501249375312,"permutation, chemistry labels shuffled among ligands (2000); chains of one ligand move together"
+Cramer's V (chain),781,0.49615103687382633,0.0004997501249375312,p from the ligand-level permutation
+nearest-neighbour ligand shares structural majority,304,0.8914473684210527,0.0004997501249375312,permutation null mean 0.514
+Spearman ligand Tanimoto vs median inter-chain RMSD (ligand pairs),46056,-0.1682427499157411,0.004975124378109453,Mantel-style permutation of ligand labels (200); one-sided (more similar -> closer)
+potency: pChEMBL difference cl4 - cl7 (unadjusted OLS),80,1.1284067085953835,2.7462048909864916e-05,"X15 ligands, OLS"
+potency: pChEMBL difference cl4 - cl7 adjusted for chem cluster,80,0.8267779588065076,0.02067843768188907,OLS with chem-cluster fixed effects

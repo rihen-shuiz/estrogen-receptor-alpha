@@ -1,0 +1,24 @@
+{
+ "task": "Y15",
+ "ts": "2026-10-25T01:14+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/outlier_flags.csv",
+   "size": 163278,
+   "sha": "00b307ca9a7f6356"
+  },
+  {
+   "path": "figures/ext/Y15_outliers.png",
+   "size": 367061,
+   "sha": "f90e64fa5d580d27"
+  },
+  {
+   "path": "scripts/ext_outliers.py",
+   "size": 7166,
+   "sha": "d88911c9874ac9d2"
+  }
+ ]
+}

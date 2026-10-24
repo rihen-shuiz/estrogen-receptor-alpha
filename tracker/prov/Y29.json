@@ -1,0 +1,29 @@
+{
+ "task": "Y29",
+ "ts": "2026-10-25T01:45+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "docs/esr2_core_fraction.md",
+   "size": 2866,
+   "sha": "2e421ecc890d1eb6"
+  },
+  {
+   "path": "results/ext/esr2_reference_alternatives.csv",
+   "size": 429,
+   "sha": "e7b7269d350b39d4"
+  },
+  {
+   "path": "results/ext/esr2_core_fraction_chains.csv",
+   "size": 6443,
+   "sha": "30f822a13f7a747e"
+  },
+  {
+   "path": "scripts/ext_esr2_core_fraction.py",
+   "size": 8624,
+   "sha": "f78754c31617eef7"
+  }
+ ]
+}

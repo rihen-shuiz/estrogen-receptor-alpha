@@ -1,0 +1,39 @@
+{
+ "task": "Y09",
+ "ts": "2026-10-25T00:55+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/ligand_descriptors.csv",
+   "size": 54091,
+   "sha": "584d96300874c4db"
+  },
+  {
+   "path": "results/ext/ligand_descriptor_tests.csv",
+   "size": 1362,
+   "sha": "29336d6fa6ba1211"
+  },
+  {
+   "path": "results/ext/ligand_top_scaffolds.csv",
+   "size": 536,
+   "sha": "c3d92768c1d0fa10"
+  },
+  {
+   "path": "figures/ext/Y09_physchem_by_cluster.png",
+   "size": 400648,
+   "sha": "9ad08e5193f3fa5b"
+  },
+  {
+   "path": "figures/ext/Y09_scaffolds.png",
+   "size": 447861,
+   "sha": "c7f80c9a2b7d1bb5"
+  },
+  {
+   "path": "scripts/ext_ligand_descriptors.py",
+   "size": 9551,
+   "sha": "2a16ac8182335dac"
+  }
+ ]
+}

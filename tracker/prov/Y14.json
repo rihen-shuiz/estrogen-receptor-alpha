@@ -1,0 +1,24 @@
+{
+ "task": "Y14",
+ "ts": "2026-10-25T01:13+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/split_hypotheses.csv",
+   "size": 7372,
+   "sha": "a93362da3aab0fd0"
+  },
+  {
+   "path": "figures/ext/Y14_split_hypotheses.png",
+   "size": 358144,
+   "sha": "7d225849e6c62863"
+  },
+  {
+   "path": "scripts/ext_split_hypotheses.py",
+   "size": 11528,
+   "sha": "24247b9b98859efd"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "task": "Y03",
+ "ts": "2026-10-25T00:22+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/embedding_rmsd.csv",
+   "size": 165221,
+   "sha": "0de77a0f3123cd80"
+  },
+  {
+   "path": "results/ext/embedding_quality.csv",
+   "size": 342,
+   "sha": "b5c812b796fcdf95"
+  },
+  {
+   "path": "figures/ext/Y03_embeddings.png",
+   "size": 351328,
+   "sha": "645d39bbb7239949"
+  },
+  {
+   "path": "scripts/ext_embeddings.py",
+   "size": 5966,
+   "sha": "930d1c1141dd732c"
+  }
+ ]
+}

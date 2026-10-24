@@ -1,0 +1,25 @@
+{
+ "median_cl7": 1.0,
+ "median_cl4": 10.0,
+ "p_cl7_cl4": 5.859119835245491e-70,
+ "median_cl4_complete": 17.5,
+ "median_cl4_partial": 8.0,
+ "p_complete_partial": 1.2520013498094792e-16,
+ "rho_cl4_shift": 0.5481495060296955,
+ "frac_no_contact": {
+  "cl7": 0.25842696629213485,
+  "cl4": 0.10030395136778116
+ },
+ "mean_by_partner": {
+  "7": {
+   "contacts_with_symmetry": 0.41,
+   "contacts_receptor_asu": 1.53,
+   "contacts_peptide": 9.67
+  },
+  "4": {
+   "contacts_with_symmetry": 6.21,
+   "contacts_receptor_asu": 4.86,
+   "contacts_peptide": 0.0
+  }
+ }
+}

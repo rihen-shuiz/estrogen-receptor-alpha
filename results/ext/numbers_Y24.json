@@ -1,0 +1,32 @@
+{
+ "n_esr2_rows": 2683,
+ "n_both": 1615,
+ "median_sel": -0.20999999999999996,
+ "frac_within_10fold": 0.5442724458204334,
+ "n_esr1_sel": 295,
+ "n_esr2_sel": 441,
+ "spearman": 0.5024334078091088,
+ "tests": [
+  {
+   "test": "median selectivity != 0 (all compounds)",
+   "n": 1615,
+   "statistic": 539601.5,
+   "p_value": 0.0,
+   "effect": -0.21
+  },
+  {
+   "test": "Spearman pESR1 vs pESR2",
+   "n": 1615,
+   "statistic": 0.502433,
+   "p_value": 0.0,
+   "effect": 0.502433
+  },
+  {
+   "test": "selectivity, PDB ligands cl7 vs cl4",
+   "n": 76,
+   "statistic": 397.0,
+   "p_value": 0.036537,
+   "effect": -1.08
+  }
+ ]
+}

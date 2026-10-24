@@ -1,0 +1,34 @@
+{
+ "task": "Y22",
+ "ts": "2026-10-25T01:27+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/esr2_metadata.csv",
+   "size": 6325,
+   "sha": "65972f330142550a"
+  },
+  {
+   "path": "results/ext/esr2_zoo_runs.csv",
+   "size": 15987,
+   "sha": "f288b6ece271e0f0"
+  },
+  {
+   "path": "results/ext/esr2_chain_table.csv",
+   "size": 12368,
+   "sha": "60f5c64e43bd3005"
+  },
+  {
+   "path": "figures/ext/Y22_esr2_parallel.png",
+   "size": 303864,
+   "sha": "63e50406323b5ae5"
+  },
+  {
+   "path": "scripts/ext_esr2.py",
+   "size": 10706,
+   "sha": "e0aed87ae4b5a37b"
+  }
+ ]
+}

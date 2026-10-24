@@ -1,0 +1,39 @@
+{
+ "task": "Y25",
+ "ts": "2026-10-25T01:37+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/chem_struct_link.csv",
+   "size": 1564,
+   "sha": "c659e8287939ce58"
+  },
+  {
+   "path": "results/ext/chem_struct_contingency.csv",
+   "size": 121,
+   "sha": "ae9e0eaec3d0139d"
+  },
+  {
+   "path": "results/ext/nn_agreement.csv",
+   "size": 11713,
+   "sha": "9c50b6c884de78d1"
+  },
+  {
+   "path": "figures/ext/Y25_chem_struct_link.png",
+   "size": 191103,
+   "sha": "82cef25f1b87d2b5"
+  },
+  {
+   "path": "figures/ext/Y25_nn_agreement.png",
+   "size": 306199,
+   "sha": "36e9a7b102aba04c"
+  },
+  {
+   "path": "scripts/ext_chem_struct_link.py",
+   "size": 15629,
+   "sha": "e83834ccadb7481b"
+  }
+ ]
+}

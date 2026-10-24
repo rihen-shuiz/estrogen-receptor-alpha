@@ -1,0 +1,36 @@
+{
+ "n_any": 357,
+ "n_consensus": 22,
+ "n_consensus_entries": 17,
+ "per_method": {
+  "knn_flag": 13,
+  "medoid_flag": 13,
+  "lof_flag": 42,
+  "iforest_flag": 94,
+  "mahal_flag": 339
+ },
+ "consensus_chains": [
+  "1A52|A|1",
+  "1A52|B|1",
+  "1R5K|C|1",
+  "2BJ4|B|1",
+  "2JFA|B|1",
+  "2Q70|A|1",
+  "3DT3|B|1",
+  "3ERT|A|1",
+  "5DKE|B|1",
+  "5DXP|B|1",
+  "6DF6|B|1",
+  "6OWC|B|1",
+  "6PFM|A|1",
+  "6ZOQ|A|1",
+  "7NDO|A|1",
+  "7NDO|B|1",
+  "7RS4|B|1",
+  "7RS4|D|1",
+  "8DUK|B|1",
+  "8DUK|D|1",
+  "9B25|A|1",
+  "9B25|C|1"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "task": "Y07",
+ "ts": "2026-10-25T00:42+05:00",
+ "who": "opus",
+ "git": "The system cannot find the path specified.",
+ "tl_sha": "3d5b4a5e11a1c7cb",
+ "ev": [
+  {
+   "path": "results/ext/leaf_order.csv",
+   "size": 15573,
+   "sha": "d1c9ff427ccca83e"
+  },
+  {
+   "path": "figures/ext/Y07_dendrogram_metadata.png",
+   "size": 165253,
+   "sha": "e23683bdbaf1a1f8"
+  },
+  {
+   "path": "figures/ext/Y07_rmsd_heatmap_annotated.png",
+   "size": 1123153,
+   "sha": "b35a1e4dd9237c5a"
+  },
+  {
+   "path": "scripts/ext_dendrogram.py",
+   "size": 8733,
+   "sha": "68be8357c572bf27"
+  }
+ ]
+}
