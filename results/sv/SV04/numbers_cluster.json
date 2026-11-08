@@ -1,0 +1,399 @@
+{
+ "dropped_no_shared_helix": [],
+ "n_clustered": 788,
+ "n_shared_helices": {
+  "7": 30700,
+  "8": 279378
+ },
+ "reference_h12_midpoints": {
+  "cl7": [
+   18.94919698646689,
+   -16.18161143442254,
+   33.63852590094251
+  ],
+  "cl4": [
+   9.855758683780309,
+   -23.102780982673707,
+   38.20149883552899
+  ]
+ },
+ "n_reference": {
+  "cl7": 427,
+  "cl4": 120
+ },
+ "reference_distance_cl7_cl4_A": 12.30503677695339,
+ "cluster_label_k2": {
+  "1": "cl7",
+  "2": "cl4"
+ },
+ "cluster_label_k7": {
+  "2": "none",
+  "1": "none",
+  "5": "cl7",
+  "4": "cl4",
+  "3": "none",
+  "6": "none",
+  "7": "none"
+ },
+ "partial": {
+  "n": 212,
+  "by_group": {
+   "cl4": 195,
+   "minor": 10,
+   "cl7": 7
+  },
+  "h12_eligible": 199,
+  "placed_on_map": 199,
+  "placed_by_group": {
+   "cl4": 187,
+   "minor": 8,
+   "cl7": 4
+  },
+  "landing_h12": {
+   "cl4": {
+    "n": 195,
+    "cl4": 187,
+    "not placed": 8
+   },
+   "cl7": {
+    "n": 7,
+    "cl7": 4,
+    "not placed": 3
+   },
+   "minor": {
+    "n": 10,
+    "cl7": 5,
+    "cl4": 3,
+    "not placed": 2
+   }
+  },
+  "landing_k2": {
+   "cl4": {
+    "n": 195,
+    "cl4": 194,
+    "cl7": 1
+   },
+   "cl7": {
+    "n": 7,
+    "cl7": 5,
+    "cl4": 2
+   },
+   "minor": {
+    "n": 10,
+    "n/a (minor cluster)": 10
+   }
+  },
+  "landing_k7": {
+   "cl4": {
+    "n": 195,
+    "cl4": 192,
+    "none": 2,
+    "cl7": 1
+   },
+   "cl7": {
+    "n": 7,
+    "cl7": 5,
+    "cl4": 2
+   },
+   "minor": {
+    "n": 10,
+    "none": 5,
+    "cl4": 5
+   }
+  },
+  "agree_h12": {
+   "cl4": [
+    187,
+    187
+   ],
+   "cl7": [
+    4,
+    4
+   ],
+   "minor": [
+    0,
+    0
+   ]
+  },
+  "agree_k2": {
+   "cl4": [
+    194,
+    195
+   ],
+   "cl7": [
+    5,
+    7
+   ],
+   "minor": [
+    0,
+    0
+   ]
+  },
+  "agree_k7": {
+   "cl4": [
+    192,
+    195
+   ],
+   "cl7": [
+    5,
+    7
+   ],
+   "minor": [
+    0,
+    10
+   ]
+  },
+  "agree_by_h12_eligible": {
+   "agree_h12|cl4|h12_eligible=False": [
+    0,
+    0
+   ],
+   "agree_h12|cl4|h12_eligible=True": [
+    187,
+    187
+   ],
+   "agree_h12|cl7|h12_eligible=False": [
+    0,
+    0
+   ],
+   "agree_h12|cl7|h12_eligible=True": [
+    4,
+    4
+   ],
+   "agree_h12|minor|h12_eligible=False": [
+    0,
+    0
+   ],
+   "agree_h12|minor|h12_eligible=True": [
+    0,
+    0
+   ],
+   "agree_k2|cl4|h12_eligible=False": [
+    7,
+    8
+   ],
+   "agree_k2|cl4|h12_eligible=True": [
+    187,
+    187
+   ],
+   "agree_k2|cl7|h12_eligible=False": [
+    1,
+    3
+   ],
+   "agree_k2|cl7|h12_eligible=True": [
+    4,
+    4
+   ],
+   "agree_k2|minor|h12_eligible=False": [
+    0,
+    0
+   ],
+   "agree_k2|minor|h12_eligible=True": [
+    0,
+    0
+   ],
+   "agree_k7|cl4|h12_eligible=False": [
+    7,
+    8
+   ],
+   "agree_k7|cl4|h12_eligible=True": [
+    185,
+    187
+   ],
+   "agree_k7|cl7|h12_eligible=False": [
+    1,
+    3
+   ],
+   "agree_k7|cl7|h12_eligible=True": [
+    4,
+    4
+   ],
+   "agree_k7|minor|h12_eligible=False": [
+    0,
+    2
+   ],
+   "agree_k7|minor|h12_eligible=True": [
+    0,
+    8
+   ]
+  },
+  "margin_d4_minus_d7_A": {
+   "cl4": {
+    "median": -12.140951189939562,
+    "min": -12.296892369075355,
+    "max": -9.312500740406524
+   },
+   "cl7": {
+    "median": 12.191843007455379,
+    "min": 10.850725827459492,
+    "max": 12.291785423663871
+   },
+   "minor": {
+    "median": 4.777390283836822,
+    "min": -12.26067592455209,
+    "max": 7.677876997111365
+   }
+  },
+  "sv04_minus_sv03_map": {
+   "n": 199,
+   "x_median": 1.4646317155927058,
+   "x_median_abs": 1.4709922864181273,
+   "x_max_abs": 2.7237128982709464,
+   "y_max_abs": 2.4868995751603507e-14,
+   "placed_without_sv03_point": 0
+  }
+ },
+ "entry_level": {
+  "landing_h12": {
+   "n_entries": 88,
+   "agree": 83,
+   "disagree": 0,
+   "tie": 1,
+   "n_a_minor": 4,
+   "by_group": {
+    "cl4": [
+     80,
+     80
+    ],
+    "cl7": [
+     3,
+     3
+    ],
+    "minor": [
+     0,
+     4
+    ],
+    "tie": [
+     0,
+     1
+    ]
+   }
+  },
+  "landing_k2": {
+   "n_entries": 90,
+   "agree": 88,
+   "disagree": 2,
+   "tie": 0,
+   "n_a_minor": 0,
+   "by_group": {
+    "cl4": [
+     84,
+     84
+    ],
+    "cl7": [
+     4,
+     6
+    ]
+   }
+  },
+  "landing_k7": {
+   "n_entries": 94,
+   "agree": 85,
+   "disagree": 7,
+   "tie": 2,
+   "n_a_minor": 0,
+   "by_group": {
+    "cl4": [
+     81,
+     83
+    ],
+    "cl7": [
+     4,
+     6
+    ],
+    "minor": [
+     0,
+     4
+    ],
+    "tie": [
+     0,
+     1
+    ]
+   }
+  }
+ },
+ "complete_sv04_minus_sv03_map": {
+  "n": 549,
+  "x_median": -0.6264728490499767,
+  "x_median_abs": 0.695106695445947,
+  "x_max_abs": 2.432363362366175,
+  "y_max_abs": 2.1316282072803006e-14
+ },
+ "sv04_minus_sv03_map_x_by_status_group": {
+  "complete|cl4": {
+   "n": 120,
+   "median": 1.5144147288768615,
+   "min": -0.02864881962400645,
+   "max": 2.432363362366175
+  },
+  "complete|cl7": {
+   "n": 427,
+   "median": -0.6780535965144736,
+   "min": -1.4253156780819776,
+   "max": -0.008726306690560293
+  },
+  "complete|minor": {
+   "n": 2,
+   "median": 0.9840657351361219,
+   "min": 0.5565509755080882,
+   "max": 1.4115804947641557
+  },
+  "partial|cl4": {
+   "n": 187,
+   "median": 1.4737232059105985,
+   "min": 0.9369726613068501,
+   "max": 2.7237128982709464
+  },
+  "partial|cl7": {
+   "n": 4,
+   "median": -1.3069291460982928,
+   "min": -1.4763726523362397,
+   "max": -1.2109676740037827
+  },
+  "partial|minor": {
+   "n": 8,
+   "median": 1.629167592727141,
+   "min": 0.6905352278356744,
+   "max": 2.7208424776202165
+  }
+ },
+ "k2_chain_mismatch": {
+  "n": 9,
+  "n_without_usable_h12": 9,
+  "by_h12_status": {
+   "not_modelled": 6,
+   "partial": 3
+  },
+  "by_group": {
+   "cl4": 5,
+   "cl7": 4
+  }
+ },
+ "n_without_usable_h12_by_group": {
+  "cl4": 22,
+  "cl7": 14,
+  "minor": 4
+ },
+ "map_layers": {
+  "filled (SV03 position)": 549,
+  "hollow (SV04 estimate)": 199,
+  "not drawn": 40
+ },
+ "map_layers_by_group": {
+  "filled (SV03 position)": {
+   "cl7": 427,
+   "cl4": 120,
+   "minor": 2
+  },
+  "hollow (SV04 estimate)": {
+   "cl4": 187,
+   "minor": 8,
+   "cl7": 4
+  },
+  "not drawn": {
+   "cl4": 22,
+   "cl7": 14,
+   "minor": 4
+  }
+ }
+}

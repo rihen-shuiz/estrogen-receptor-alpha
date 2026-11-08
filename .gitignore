@@ -20,3 +20,15 @@ data/cache/esr2_cif/
 
 # Final pack (>100 MB, GitHub limit); rebuild with: python scripts/make_final_pack.py
 final_pack_*.zip
+
+# RUN_SV1028 (docs/sv/RUN_SV1028.md): large regenerable arrays under data/sv, rebuilt from data/raw by
+# scripts/sv/SV00_extract.py, SV00_gate.py, SV04_cluster.py, SV05_core_v4.py, SV14_extract.py.
+# Small tables, frozen transforms and the RCSB/ChEMBL response caches stay tracked.
+data/sv/lbd_extract/
+data/sv/lbd_chains.csv
+data/sv/backbone/
+data/sv/gate/*.npz
+data/sv/gate/*.npy
+data/sv/SV04/*.npy
+data/sv/SV05/*.npz
+data/sv/SV14/atoms_core.npz

@@ -1,0 +1,9 @@
+measure,n,k,fraction
+multi-chain entries,317,317,1.0
+H12 label differs (complete/partial/not modelled),317,59,0.1861198738170347
+binary outcome differs (complete vs not),317,56,0.17665615141955837
+S08 cluster differs,317,5,0.015772870662460567
+label and cluster both differ,317,1,0.0031545741324921135
+label differs between chains of the same cluster (entries with >=2 chains in one cluster),313,59,0.18849840255591055
+cl7: binary outcome differs between the entry's cl7 chains (entries with >=2 cl7 chains),212,7,0.0330188679245283
+cl4: binary outcome differs between the entry's cl4 chains (entries with >=2 cl4 chains),97,48,0.4948453608247423

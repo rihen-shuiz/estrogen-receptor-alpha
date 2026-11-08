@@ -1,0 +1,29 @@
+{
+ "task": "SV01b",
+ "ts": "2026-11-08T18:07+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV01b/model_blocks.csv",
+   "size": 48618,
+   "sha": "5a73d44139680697"
+  },
+  {
+   "path": "results/sv/SV01b/verdict.md",
+   "size": 1734,
+   "sha": "b9cbe01b11751b2c"
+  },
+  {
+   "path": "results/sv/SV01b/SUMMARY.md",
+   "size": 24683,
+   "sha": "0b20dbebf5df0a26"
+  },
+  {
+   "path": "scripts/sv/common/lattice_contacts.py",
+   "size": 12175,
+   "sha": "4010e1c0ced0f30f"
+  }
+ ]
+}

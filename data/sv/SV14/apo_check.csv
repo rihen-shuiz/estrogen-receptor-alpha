@@ -1,0 +1,8 @@
+chain_key,entry_id,n_site_heavy_atoms,n_site_residues_observed,residues_ge6_within_4A,n_residues_ge6_within_4A,residues_lt6_within_4A,passes_apo_check
+2B23|A|1,2B23,151,18,,0,,True
+2B23|B|1,2B23,151,18,,0,,True
+4Q13|A|1,4Q13,151,18,,0,,True
+4Q13|B|1,4Q13,151,18,,0,,True
+7Y8F|A|1,7Y8F,151,18,E|PEG|601|.,1,,False
+7YMK|A|1,7YMK,151,18,E|PEG|601|.,1,,False
+9VTU|A|1,9VTU,151,18,,0,,True

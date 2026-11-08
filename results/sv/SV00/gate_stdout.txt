@@ -1,0 +1,51 @@
+{
+ "verdict": "pass",
+ "ari_by_cut": {
+  "1.0": 1.0,
+  "1.5": 1.0,
+  "2.0": 1.0,
+  "2.5": 1.0
+ },
+ "labels_identical_by_cut": {
+  "1.0": true,
+  "1.5": true,
+  "2.0": true,
+  "2.5": true
+ },
+ "max_abs_delta_rmsd_A": 9.2148511043888e-15,
+ "n_pairs_delta_gt_1e-6": 0,
+ "n_chains_recomputed": 788,
+ "n_chains_frozen": 788,
+ "n_chains_compared": 788,
+ "n_distance_exclusions": 0,
+ "reference_chain": "7NFB|B|1",
+ "core": "alignment_core_v3",
+ "aligned_coords_max_abs_diff_A": 3.552713678800501e-14,
+ "aligned_coords_same_gaps": true,
+ "n_chains_coordinates_differ": 0,
+ "n_chains_cluster_differs_1.5": 0,
+ "n_differing_chains": 0,
+ "max_differing_tolerated": 8,
+ "original_download_date": "2026-10-14",
+ "clusters_per_cut_recomputed": {
+  "1.0": 16,
+  "1.5": 7,
+  "2.0": 4,
+  "2.5": 3
+ },
+ "clusters_per_cut_frozen": {
+  "1.0": 16,
+  "1.5": 7,
+  "2.0": 4,
+  "2.5": 3
+ }
+}
+          quantity  run_file  frozen_tables  regenerated  match
+      esr1_entries       487            487          487   True
+       esr1_chains       901            901          901   True
+esr1_chain_entries       444            444          444   True
+       kept_chains       788            788          788   True
+      kept_entries       351            351          351   True
+   excluded_chains       113            113          113   True
+      esr2_entries        39             39           39   True
+       esr2_chains        86             86           86   True

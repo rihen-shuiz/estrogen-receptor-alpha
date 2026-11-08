@@ -1,0 +1,16 @@
+{
+ "n_chains": 788,
+ "n_entries": 351,
+ "mask_vs_s16_label_agree": 788,
+ "n_tests_bh": 169,
+ "step_verdict": {
+  "complete": "mixed",
+  "fraction_observed": "mixed"
+ },
+ "level_verdicts": {
+  "complete|chain": "mixed",
+  "complete|entry": "artifact",
+  "fraction_observed|chain": "mixed",
+  "fraction_observed|entry": "artifact"
+ }
+}

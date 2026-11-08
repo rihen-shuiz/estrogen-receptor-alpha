@@ -1,0 +1,24 @@
+{
+ "task": "SV10",
+ "ts": "2026-11-08T17:47+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV10/ligand_druglikeness.csv",
+   "size": 113245,
+   "sha": "a576e5f17afed3d0"
+  },
+  {
+   "path": "results/sv/SV10/druglikeness_by_group.csv",
+   "size": 13368,
+   "sha": "d0271b1d20ac2593"
+  },
+  {
+   "path": "results/sv/SV10/SUMMARY.md",
+   "size": 7640,
+   "sha": "a158558c9628678f"
+  }
+ ]
+}

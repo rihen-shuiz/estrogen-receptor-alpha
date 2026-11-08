@@ -1,0 +1,12 @@
+# SV13 view: one view for every Part C panel (RUN_SV1028 SV13 step 8)
+frame: core v3 (data/sv/SV03/core_v3_transforms.csv; x_core = (x_deposited - m) @ R_fit + c, scripts/sv/common/core_frame.py)
+selection: 5TM1|A|1 (cl7 medoid) C-alpha at the core v3 positions [[338, 362], [371, 396], [420, 439], [441, 456], [496, 531]] (122 atoms) + H12 538-547 (10 atoms); 132 atoms
+method: principal axes of the selection (PyMOL 'orient' convention): screen x = PC1, screen y = PC2, screen z = x cross y (towards the viewer); signs: the selection's H12 centroid at +x and +y
+projection: orthographic, [sx, sy, depth] = ROT @ (x_core - CENTRE); drawn with matplotlib (PyMOL not available: step 12 fallback)
+CENTRE (A, core v3 frame): 8.9072 -6.2084 28.2263
+ROT row 1 (screen x): 0.783534 -0.282425 0.553453
+ROT row 2 (screen y): -0.345023 -0.938546 0.009519
+ROT row 3 (screen z): 0.516753 -0.198412 -0.832826
+limits (A, screen): x -32.16 47.55; y -22.82 32.59 (box of everything drawn in any panel + 2 A); equal aspect
+H12 centroid of 5TM1|A|1 on screen (A): 13.98 6.24 2.97
+used unchanged for every panel of figures/sv/SV13/SV13_h12_class_panels.png

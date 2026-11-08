@@ -1,0 +1,6 @@
+# PRE addition environment (RUN_SV1028, steps of 2026-11-04), 2026-11-08 18:52 +0500
+Interpreter: .venv Python 3.11.18 (see docs/sv/env_pre.txt for package versions)
+PyMOL: not available (no 'pymol' module in .venv, no pymol binary, no conda/Homebrew); package installs from this session are blocked on this machine -> SV13 Part C uses its fallback (matplotlib C-alpha traces projected onto the saved view)
+ChEMBL API: target/CHEMBL206.json HTTP 200 (pref_name 'Estrogen receptor', Homo sapiens); molecule filter molecule_structures__standard_inchi_key=VOXZDWNPVJITMN-ZBRFXRBCSA-N (EST InChIKey) HTTP 200. An earlier probe at 17:00 returned HTTP 500 (transient).
+Teammate action-class file data/sv/action_class_teammate.csv: absent at run time -> SV12 uses ChEMBL (route b) and the validated route (c)
+Appendix C appended verbatim to docs/supervisor_feedback.md under 'Meeting notes received 2026-11-04'

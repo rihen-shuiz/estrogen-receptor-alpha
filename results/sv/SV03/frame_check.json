@@ -1,0 +1,24 @@
+{
+ "source": {
+  "transforms": "data/sv/gate/alignment_transforms.json",
+  "aligned_ca": "data/sv/gate/aligned_coordinates.npz",
+  "backbone": "data/sv/backbone/backbone.npz"
+ },
+ "sha256_16": {
+  "data/sv/gate/alignment_transforms.json": "7442451976aed123",
+  "data/sv/gate/aligned_coordinates.npz": "a3edaef283e13776",
+  "data/sv/backbone/backbone.npz": "b8b39bd97667d1fb",
+  "data/sv/SV03/core_v3_transforms.csv": "ff2fd64c29393255"
+ },
+ "core": "alignment_core_v3 (338-362, 371-396, 420-439, 441-456, 496-531), reference 7NFB|B|1 (SV00 gate)",
+ "convention": "x_core = (x_deposited - mobile_centroid) @ R + reference_centroid (row vectors)",
+ "n_chains": 788,
+ "status_counts": {
+  "ok": 788
+ },
+ "max_abs_diff_backbone_CA_vs_aligned_A": 2.1316282072803006e-14,
+ "observed_mask_identical": true,
+ "chain_order_equals_chain_table": true,
+ "frozen_copy": "data/sv/SV03/core_v3_transforms.csv",
+ "reuse": "scripts/sv/common/core_frame.py: load_transforms(), to_core(), load_ca_core()"
+}

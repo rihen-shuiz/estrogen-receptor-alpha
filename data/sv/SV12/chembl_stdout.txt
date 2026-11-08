@@ -1,0 +1,30 @@
+{
+ "n_ccd": 306,
+ "match_type": {
+  "no_chembl": 146,
+  "full": 129,
+  "connectivity_only": 31
+ },
+ "multi_parent": 3,
+ "n_parents": 157,
+ "n_mechanism_records": 19,
+ "n_mechanism_records_esr1": 16,
+ "n_dois": 87,
+ "n_dois_with_document": 31,
+ "n_documents": 31,
+ "n_document_esr1_activities": 1766,
+ "n_activities_chembl206": 1170,
+ "n_parents_with_activities": 128,
+ "EST": [
+  {
+   "chembl_parent": "CHEMBL135",
+   "match_type": "full",
+   "parent_pref_name": "ESTRADIOL"
+  }
+ ],
+ "http": {
+  "network": 1224,
+  "cache": 7,
+  "retries": 2
+ }
+}

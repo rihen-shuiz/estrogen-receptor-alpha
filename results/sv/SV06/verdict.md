@@ -1,0 +1,3 @@
+cl7 vs cl4: pattern - of the 14 consensus outliers inside the main clusters, 2 are in cl7 and 12 in cl4 (chain 2 vs 8.0 expected, q 0.0023; entry 2 vs 7.0, q 0.0034; hypergeometric, BH over 8 tests).
+Minor clusters hold 8 of 22 outliers from 14 chains (pattern: chain 8 vs 0.4 expected, q 2e-09; entry 6 vs 0.3, q 1.2e-07); expected by construction, since the Y15 detectors measure distance from the main clusters.
+Panel B (complete-H12 medoids 5TM1|A|1 / 7UJ7|C|1, 3.68 A apart): 0 of 14 main-cluster outliers are closer to the other medoid than to their own (own/other RMSD ratio 0.21-0.63, median 0.25; highest 2BJ4|B 0.63, Y16 reason: H12 not modelled); the S12 cl4 medoid 2QE4|B|1 has no modelled H12 and is not used.

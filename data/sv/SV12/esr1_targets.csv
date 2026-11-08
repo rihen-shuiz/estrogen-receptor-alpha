@@ -1,0 +1,10 @@
+target_chembl_id,pref_name,target_type,organism,n_components,accessions
+CHEMBL206,Estrogen receptor,SINGLE PROTEIN,Homo sapiens,1,P03372
+CHEMBL2093866,Estrogen receptor,PROTEIN FAMILY,Homo sapiens,2,P03372;Q92731
+CHEMBL3885521,Baculoviral IAP repeat-containing protein 2/Estrogen receptor,PROTEIN COMPLEX,Homo sapiens,2,P03372;Q13490
+CHEMBL4523681,Protein cereblon/Estrogen receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens,2,P03372;Q96SW2
+CHEMBL4523713,Protein cereblon/Estrogen receptor/Cullin-4A,PROTEIN-PROTEIN INTERACTION,Homo sapiens,3,P03372;Q13619;Q96SW2
+CHEMBL4523721,Estrogen receptor/E3 ubiquitin-protein ligase XIAP,PROTEIN-PROTEIN INTERACTION,Homo sapiens,2,P03372;P98170
+CHEMBL4523726,von Hippel-Lindau disease tumor suppressor/Estrogen receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens,2,P03372;P40337
+CHEMBL4523754,von Hippel-Lindau disease tumor suppressor/Estrogen receptor/Cullin-2,PROTEIN-PROTEIN INTERACTION,Homo sapiens,3,P03372;P40337;Q13617
+CHEMBL6193788,IAP-Estrogen receptor,PROTEIN-PROTEIN INTERACTION,Homo sapiens,3,P03372;P98170;Q13490

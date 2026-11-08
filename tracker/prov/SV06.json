@@ -1,0 +1,24 @@
+{
+ "task": "SV06",
+ "ts": "2026-11-08T17:44+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV06/outliers_on_map.csv",
+   "size": 7639,
+   "sha": "08c6bad683bd9ebe"
+  },
+  {
+   "path": "results/sv/SV06/verdict.md",
+   "size": 723,
+   "sha": "4f46dd4214a325f6"
+  },
+  {
+   "path": "results/sv/SV06/SUMMARY.md",
+   "size": 6275,
+   "sha": "9ef2f76bd0aad797"
+  }
+ ]
+}

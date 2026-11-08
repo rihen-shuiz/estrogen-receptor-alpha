@@ -1,0 +1,24 @@
+{
+ "task": "SV01a",
+ "ts": "2026-11-08T17:38+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV01a/model_blocks.csv",
+   "size": 19805,
+   "sha": "5b1ae59f43b6f108"
+  },
+  {
+   "path": "results/sv/SV01a/verdict.md",
+   "size": 1299,
+   "sha": "29069b2cd295cfce"
+  },
+  {
+   "path": "results/sv/SV01a/SUMMARY.md",
+   "size": 11508,
+   "sha": "6876f0837be4d05c"
+  }
+ ]
+}

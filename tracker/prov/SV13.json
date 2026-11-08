@@ -1,0 +1,29 @@
+{
+ "task": "SV13",
+ "ts": "2026-11-08T19:40+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV13/class_by_cluster.csv",
+   "size": 5145,
+   "sha": "d8fa51ad0d2edfb5"
+  },
+  {
+   "path": "results/sv/SV13/tests.csv",
+   "size": 19496,
+   "sha": "8b3023d1d3b6c7c2"
+  },
+  {
+   "path": "results/sv/SV13/verdict.md",
+   "size": 1189,
+   "sha": "fe934320a72058d8"
+  },
+  {
+   "path": "results/sv/SV13/SUMMARY.md",
+   "size": 10946,
+   "sha": "20beca81b0490e83"
+  }
+ ]
+}

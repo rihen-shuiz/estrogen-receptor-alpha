@@ -1,0 +1,195 @@
+{
+ "activities_raw": 1170,
+ "cleaning_cascade": [
+  {
+   "step": "raw",
+   "kept": 1170,
+   "removed": 0
+  },
+  {
+   "step": "target CHEMBL206",
+   "kept": 1170,
+   "removed": 0
+  },
+  {
+   "step": "standard_relation '='",
+   "kept": 968,
+   "removed": 202
+  },
+  {
+   "step": "pChEMBL present",
+   "kept": 551,
+   "removed": 417
+  },
+  {
+   "step": "no data_validity_comment",
+   "kept": 551,
+   "removed": 0
+  },
+  {
+   "step": "not a potential duplicate",
+   "kept": 409,
+   "removed": 142
+  }
+ ],
+ "clean_by_assay_type": {
+  "B": 355,
+  "F": 49,
+  "A": 5
+ },
+ "clean_by_system": {
+  "binding": 273,
+  "dropped": 87,
+  "functional": 49
+ },
+ "clean_B_not_Ki_Kd_IC50": 82,
+ "clean_B_other_types": {
+  "EC50": 72,
+  "AC50": 9,
+  "ED50": 1
+ },
+ "binding_act_by_type": {
+  "IC50": 223,
+  "Ki": 45,
+  "Kd": 5
+ },
+ "binding_parents": 73,
+ "binding_assay_values": 269,
+ "binding_assays": 167,
+ "e2_binding_act": 47,
+ "e2_binding_assays": 46,
+ "e2_binding_assay_values_by_type": {
+  "IC50": 34,
+  "Ki": 9,
+  "Kd": 4
+ },
+ "e2_abs_reference_medians": {
+  "Ki/Kd": 8.7,
+  "IC50": 8.71
+ },
+ "pairs": 31,
+ "paired_assays": 19,
+ "paired_parents": 15,
+ "type_level_pairs": 38,
+ "type_level_pairs_by_type": {
+  "IC50": 30,
+  "Ki": 8
+ },
+ "pairs_two_types": 7,
+ "two_type_assays": [
+  "CHEMBL1909145"
+ ],
+ "two_type_max_abs_dpx_difference": 0.010000000000000675,
+ "pairs_variant_assays": 0,
+ "unpaired_type_mismatch_values": 0,
+ "unpaired_type_mismatch_parents": [],
+ "ligands": 306,
+ "basis_counts": {
+  "no_chembl_parent": 146,
+  "no_binding_data": 86,
+  "absolute": 58,
+  "relative": 15,
+  "reference (E2)": 1
+ },
+ "basis_counts_primary_set": {
+  "no_chembl_parent": 146,
+  "no_binding_data": 66,
+  "absolute": 48,
+  "relative": 14,
+  "reference (E2)": 1
+ },
+ "basis_counts_connectivity_only": {
+  "no_binding_data": 20,
+  "absolute": 10,
+  "relative": 1
+ },
+ "absolute_by_type": {
+  "IC50": 43,
+  "Ki/Kd": 15
+ },
+ "tested_ligands_primary": 14,
+ "tested_ligands_primary_by_group": {
+  "cl7": 7,
+  "cl4": 6,
+  "mixed cl7/cl4": 1
+ },
+ "tested_ligands_primary_by_class": {
+  "unlabelled": 7,
+  "SERM": 5,
+  "agonist": 2
+ },
+ "tested_ligands_sensitivity": 15,
+ "tested_entries_primary": 31,
+ "tested_entries_primary_by_group": {
+  "cl4": 18,
+  "cl7": 10,
+  "mixed cl7/cl4": 2,
+  "minor": 1
+ },
+ "tested_entries_primary_by_class": {
+  "SERM": 18,
+  "unlabelled": 10,
+  "agonist": 3
+ },
+ "tested_entries_sensitivity": 32,
+ "e2_entries_sv10": 23,
+ "dpx_tested_median": -0.7412500000000004,
+ "dpx_tested_q1": -1.9049999999999998,
+ "dpx_tested_q3": -0.004999999999999893,
+ "dpx_tested_min": -3.1499999999999995,
+ "dpx_tested_max": 0.8500000000000005,
+ "tested_ligands_dpx_gt0": 3,
+ "tested_paired_assays_median": 1.0,
+ "tested_single_assay_ligands": 9,
+ "tested_with_sv14": 14,
+ "class_gate_primary": {
+  "sv12_gate_classes": [
+   "agonist",
+   "SERM"
+  ],
+  "entries_in_sv15_tested_set": {
+   "agonist": 3,
+   "SERM": 18
+  },
+  "ligands_in_sv15_tested_set": {
+   "agonist": 2,
+   "SERM": 5
+  },
+  "classes_passing": [
+   "SERM"
+  ]
+ },
+ "class_gate_sensitivity": {
+  "sv12_gate_classes": [
+   "agonist",
+   "SERM"
+  ],
+  "entries_in_sv15_tested_set": {
+   "agonist": 3,
+   "SERM": 18
+  },
+  "ligands_in_sv15_tested_set": {
+   "agonist": 2,
+   "SERM": 5
+  },
+  "classes_passing": [
+   "SERM"
+  ]
+ },
+ "spread_ligands": 5,
+ "spread_median_sd_abs": 0.8640891157745249,
+ "spread_median_sd_dpx": 0.5640966229290861,
+ "spread_median_sd_e2": 0.5573505031246792,
+ "spread_pooled_sd_abs": 1.0410455231400788,
+ "spread_pooled_sd_dpx": 0.6738264393094856,
+ "spread_n_smaller": 4,
+ "spread_median_ratio": 0.6528222756555139,
+ "spread_median_reduction": 0.2999924928454387,
+ "functional_ligands": 20,
+ "functional_act": 49,
+ "shared_parents": {
+  "CHEMBL1628190": "NYU;QYM",
+  "CHEMBL5280976": "86V;86Y",
+  "CHEMBL5406865": "OB4;OB5"
+ }
+}

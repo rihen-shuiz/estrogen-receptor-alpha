@@ -1,0 +1,29 @@
+{
+ "task": "SV05",
+ "ts": "2026-11-08T18:24+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV05/core_v4.json",
+   "size": 4488,
+   "sha": "d3eb4fe156fb1fc8"
+  },
+  {
+   "path": "results/sv/SV05/spread.csv",
+   "size": 24308,
+   "sha": "ddbe991d6def8c68"
+  },
+  {
+   "path": "results/sv/SV05/ari.csv",
+   "size": 840,
+   "sha": "c040a099aa9879b2"
+  },
+  {
+   "path": "results/sv/SV05/SUMMARY.md",
+   "size": 9947,
+   "sha": "383e4bc53c317169"
+  }
+ ]
+}

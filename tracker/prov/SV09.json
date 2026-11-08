@@ -1,0 +1,29 @@
+{
+ "task": "SV09",
+ "ts": "2026-11-08T20:01+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "docs/RESULTS_SUMMARY.md",
+   "size": 32609,
+   "sha": "9ac2eb69c220b692"
+  },
+  {
+   "path": "docs/limitations.md",
+   "size": 6855,
+   "sha": "c305a11964c84bec"
+  },
+  {
+   "path": "results/sv/SV09/number_check.csv",
+   "size": 98828,
+   "sha": "56d6640f0ef34176"
+  },
+  {
+   "path": "results/sv/SV09/SUMMARY.md",
+   "size": 7235,
+   "sha": "09107a16353f047e"
+  }
+ ]
+}

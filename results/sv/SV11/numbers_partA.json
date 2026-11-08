@@ -1,0 +1,119 @@
+{
+ "n_chains": 788,
+ "n_entries": 351,
+ "n_pockets": 2647,
+ "chain_groups": {
+  "cl7": 445,
+  "cl4": 329,
+  "minor": 14
+ },
+ "entry_groups": {
+  "cl7": 219,
+  "cl4": 124,
+  "minor": 4,
+  "mixed cl7/cl4": 4
+ },
+ "entry_groups_equal_sv10": 351,
+ "residue_chain_mismatch": 0,
+ "relevant_chains": {
+  "ligand pocket": 781,
+  "AF-2 groove": 419,
+  "dimer interface": 788
+ },
+ "site_size": {
+  "ligand pocket": 18,
+  "AF-2 groove": 11,
+  "dimer interface": 27
+ },
+ "site_members": {
+  "ligand pocket": [
+   343,
+   346,
+   347,
+   350,
+   353,
+   383,
+   384,
+   387,
+   388,
+   391,
+   394,
+   404,
+   421,
+   424,
+   428,
+   521,
+   524,
+   525
+  ],
+  "AF-2 groove": [
+   358,
+   362,
+   372,
+   375,
+   376,
+   379,
+   380,
+   538,
+   539,
+   542,
+   543
+  ],
+  "dimer interface": [
+   430,
+   434,
+   451,
+   455,
+   459,
+   476,
+   480,
+   483,
+   484,
+   487,
+   497,
+   498,
+   501,
+   502,
+   504,
+   505,
+   506,
+   508,
+   509,
+   510,
+   511,
+   512,
+   513,
+   515,
+   516,
+   519,
+   523
+  ]
+ },
+ "overlap": {
+  "ligand pocket & AF-2 groove": [],
+  "ligand pocket & dimer interface": [],
+  "AF-2 groove & dimer interface": []
+ },
+ "label_counts": {
+  "other surface": 1386,
+  "ligand pocket": 793,
+  "AF-2 groove": 240,
+  "dimer interface": 228
+ },
+ "n_tie_pockets": 0,
+ "label_counts_rank1": {
+  "ligand pocket": 788
+ },
+ "n_pockets_per_chain": {
+  "min": 2,
+  "median": 3.0,
+  "max": 8
+ },
+ "q18_cutoff_A": 4.5,
+ "q18_positions": 19,
+ "contact_cutoff_A": 4.0,
+ "offset_vs_residue_mapping": {
+  "residues": 182124,
+  "equal": 182124
+ }
+}

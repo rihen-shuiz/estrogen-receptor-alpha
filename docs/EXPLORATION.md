@@ -146,3 +146,159 @@ and the tracker log; the documents in docs/ read them through scripts/collect_nu
 
 - TPSA of ligands (q 0.26), D538G and wild-type status (n.s.), precipitant/additive class, X-ray source, diffraction
   temperature, completeness, Wilson B vs cluster; release year vs novelty (flat).
+
+## Suggested, not done (SV11, 2026-11-08)
+
+- Ligand-pocket site set from 4 A heavy-atom contacts over all residues of the SV00 structures (SV11 used the Q18
+  pocket_residues as the run file asks: 4.5 A over 19 fixed positions), to check that the pocket labels do not
+  depend on that list.
+- In cl7, AF-2 groove pockets occur only in peptide-bound chains (234/414 vs 0/31; results/sv/SV11/site_by_chain.csv):
+  compare the empty-groove geometry of peptide-bound and peptide-free cl7 chains.
+- A small-cluster-robust test (bias-reduced sandwich or entry bootstrap) for the AF-2 groove best rank / probability
+  contrast, which rests on 5 cl4 chains in 4 entries (results/sv/SV11/site_tests.csv).
+
+## Suggested, not done (SV02, 2026-11-08)
+
+- Re-run the SV02 secondary structure with mkdssp >= 4 where it can be installed: pydssp's 'H' merges 3-, 4- and
+  5-turn helices, so the helix ends (e.g. the proposed H12 end at 544, results/sv/SV02/h12_window.md) may move when
+  3_10 and pi turns are separated.
+- cl4 starts H9 at 466 and cl7 at 473 (results/sv/SV02/helix_boundaries.csv), but cl7 observes 462-469 in < 50 % of
+  chains: check whether the H8-H9 loop/H9 start differs between clusters on chains that observe it in both.
+
+## Suggested, not done (SV01b, 2026-11-08)
+
+- Run the SV01b step-8 medoid H12 clash test (scripts/sv/SV01b_clash.py, written but gated) even though the
+  re-issued verdict is "artifact": the lattice terms are counted on modelled atoms of 528-550, so for the
+  completeness outcome they are partly a consequence of the outcome (cl4 complete chains carry 12.3 of their 24.3
+  mean symmetry-contact atoms on 546-550, which partial chains rarely model; results/sv/SV01b/lattice_contacts_by_group.csv).
+  The clash test places the medoid H12 independently of what was modelled.
+- A lattice term that does not depend on the chain's own modelled atoms (e.g. neighbour atoms within 4 A of the
+  superposed medoid H12, or contacts of 528-545 only), refitted as a sensitivity of the SV01b completeness verdict.
+- The mobility models without the lattice terms, to show whether the mobility "artifact" verdict rests on them
+  (lattice_sym has the smallest q of the X predictors at chain level in cl7 and cl4; results/sv/SV01b/odds_ratios.csv).
+
+## Suggested, not done (SV03, 2026-11-08)
+
+- H12 axis descriptors on one fixed residue set for every chain (or stratified by the number of C-alpha used): on
+  ideal helices the [DEFAULT] window-centroid axis is off by 9.6 / 4.5 / 0.6 deg with 6 / 7 / 8 C-alpha
+  (results/sv/SV03/axis_method_check.csv), and cl4 H12 axes rest mostly on 7 C-alpha, cl7 on 8
+  (results/sv/SV03/numbers_geometry.json h12_axis_n_ca_by_group), so within-cluster H12 angle differences of a few
+  degrees may partly follow how many H12 residues are helical.
+- A small-cluster-robust test (entry bootstrap or bias-reduced sandwich) for the 4 SV03 [DEFAULT] hits whose smaller
+  group has <= 5 entries (D538G in cl7: 2 entries; peptide-bound chains in cl4: 3 entries; other mutation and H9
+  length in cl7: 5 entries; results/sv/SV03/sensitivity_check.csv).
+- An interval-censored length comparison that also uses the censored helices: censoring differs by cluster (H3 0.094
+  cl7 vs 0.447 cl4, H10/11 0.079 vs 0.413, H12 0.140 vs 0.589; results/sv/SV03/helix_length_summary.csv), so the
+  uncensored subsets are selected differently in the two clusters.
+- One model per within-cluster hit with mutation, ligand chemistry and peptide together (descriptor rank ~ Y537S /
+  L536S + amine + acid + heavy atoms + peptide, entry-clustered): the SV03 rank tests take one covariate at a time,
+  and mutation and ligand series co-vary by entry.
+
+## Suggested, not done (SV04, 2026-11-08)
+
+- Midpoint clustering without H12 (the 7 other consensus helices only), to see whether they alone separate cl7 from
+  cl4: in SV04 the cl7-cl4 midpoint distance is 12.6 A for H12 and <= 0.30 A for every other helix
+  (results/sv/SV04/distance_summary.csv), so the ARI with H12 mostly restates the H12 split, and all 9 K = 2
+  mismatches are chains without a usable H12 (results/sv/SV04/numbers_cluster.json k2_chain_mismatch).
+- H12 midpoints on the SV02 data-derived window 538-544 as a sensitivity: with 538-547 only 75 chains have every
+  residue helical (results/sv/SV04/numbers_midpoints.json complete_helices), so most H12 midpoints extrapolate over
+  546-547, which are observed but not helical in most chains; the truncation curve on those 75 fully helical H12s
+  may be optimistic for real disordered ends.
+
+## Suggested, not done (SV05, 2026-11-08)
+
+- Repeat any result that uses the S08 1.0 A sub-clusters of cl4 with the core-v4 labels: at 1.0 A the cl4 sub-clusters
+  regroup (S08 262/48/11 chains vs v4 211/114; ARI 0.817, 66 chains change; results/sv/SV05/ari.csv,
+  cluster_sizes.csv), while at 1.5-2.5 A only 2-3 chains change, so the 1.0 A sub-structure of cl4 depends on the core.
+- A look at the three chains whose 1.5 A cluster depends on the core (2JF9|A|1, 2JFA|B|1, 3DT3|B|1;
+  results/sv/SV05/SUMMARY.md step 5): which positions carry their v4-v3 RMSD change.
+
+## Suggested, not done (SV07, 2026-11-08)
+
+- Within-cluster look at the two genuine spike regions of the Y10 profile (results/sv/SV07/covariate_tests.csv): at
+  335-337 the cl4 chains with a basic-amine ligand sit 3.3-3.8 A along the cl7->cl4 displacement and the cl4 chains
+  with 'other' ligands 0.4-0.9 A from the cl7 mean (335: 3.75 vs 0.44 A), and at 467 the 22 peptide-free cl7 chains sit near
+  cl4 (467: 1.86 vs 2.19 A). A within-cl4 (chemotype) and within-cl7 (peptide) comparison with matched crystal forms
+  would show whether these loops follow the ligand / peptide rather than the cluster.
+- The re-picked medoid pair (results/sv/SV07/restricted_profile.csv) exceeds 1.0 A at 463, 465, 470 and 471, where the
+  Y10 medoids do not observe the residue; a medoid-free loop comparison (e.g. per-entry distributions) would cover them.
+
+## Suggested, not done (SV01c, 2026-11-08)
+
+- A lattice term that is not counted on modelled atoms: the step-8 medoid H12 clash counts (5TM1|A|1 and 7UJ7|C|1
+  positions) computed for every chain, complete ones included, as a block-X predictor. On 538-544 the two SV01b lattice
+  terms are dropped by joint separation in cl7 because the not-modelled chains have no atoms on 528-550 to contact
+  (results/sv/SV01c/odds_ratios.csv, lattice_contacts_by_group.csv), so the current terms cannot say whether the
+  lattice holds H12 in place.
+- Completeness on the cluster-specific SV02 windows (cl7 538-545, cl4 537-544; results/sv/SV02/helix_boundaries.csv):
+  SV01c used the global consensus 538-544 for both clusters.
+
+## Suggested, not done (SV12, 2026-11-08)
+
+- Validate route (c) against the teammate labels once data/sv/action_class_teammate.csv exists: route (c) labels 24
+  entry x ligand rows (SERD 19, antagonist 4, agonist 1; 22 of them have no ChEMBL mechanism record), but only 2 rows
+  overlap with route (b), so the [DEFAULT] gate (>= 80 % of >= 10 rows) cannot pass on ChEMBL mechanism records alone
+  (results/sv/SV12/route_c_validation.csv, numbers.json).
+- Cross-check the InChIKey -> ChEMBL match with the ChEMBL/DrugBank links in the RCSB chemcomp records
+  (rcsb_chem_comp_related, cached in data/sv/rcsb_chemcomp/); 146 of 306 CCD codes have no ChEMBL molecule by full or
+  connectivity InChIKey (results/sv/SV12/ligand_ids.csv).
+
+## Suggested, not done (SV14, 2026-11-08)
+
+- Pocket volume with a larger grid box or a buriedness-bounded region: at >= 10 rays the pocket reaches the [DEFAULT]
+  box (ligand-pocket residues + 6 A) in 203 of 788 chains (612 at >= 8 rays, 4 at >= 12;
+  results/sv/SV14/numbers.json), so those volumes are bounded by the box.
+- A pocket definition that separates the ligand pocket from the buried region past E353/R394: in 9 of 17 wild-type
+  EST reference chains the >= 10-ray pocket joins it (405-495 A^3 farther than 4 A from E2), in 8 it does not
+  (<= 21 A^3), which makes the E2 pocket reference bimodal (results/sv/SV14/e2_reference_pocket_lining.csv).
+- Apo pocket baseline from more apo structures: only 3 entries pass the SV14 apo check (2B23, 4Q13, 9VTU); 7Y8F and
+  7YMK carry a PEG in the pocket (results/sv/SV14/apo_blocking_residues.csv).
+
+## Suggested, not done (SV15, 2026-11-08)
+
+- Bridge relative affinities through a second shared reference (e.g. raloxifene or 4-hydroxytamoxifen measured in
+  the same assay as the ligand and, elsewhere, together with E2): 48 primary-set ligands have only an absolute
+  binding pChEMBL because none of their binding assays also measured E2, against 14 with a same-assay E2 pair
+  (results/sv/SV15/numbers.json, affinity_per_ligand.csv).
+- Check which activities the ChEMBL potential_duplicate flag removes: it drops 142 of 551 activities with pChEMBL
+  (results/sv/SV15/numbers.json cleaning_cascade); where the flagged copy is the one measured next to E2, keeping the
+  original instead could add same-assay pairs.
+
+## Suggested, not done (SV13, 2026-11-08)
+
+- Class representative among chains with a complete H12: the [DEFAULT] (lowest median RMSD in results/rmsd_entry.npy)
+  picks 2BJ4|A|1 for SERM, which has no modelled H12 (the matrix compares chains on their common C-alpha positions,
+  so chains without H12 are compared on fewer positions); runner-up 2JFA|A|1 (results/sv/SV13/representatives.csv).
+- Agonist vs SERM is the only class pair with >= 5 entries per side, but it is not one of the SV13 comparisons and it
+  almost coincides with cl7 vs cl4 (agonist 25 of 27 entries in cl7, SERM 19 of 20 in cl4;
+  results/sv/SV13/class_by_cluster.csv), which SV03 already tests.
+- Re-run SV13 Part B with the teammate labels: SERD needs one more entry (4 of 5) for C1 SERD vs SERM, and C2b needs
+  >= 5 agonist entries with a same-assay dpX (3 now: DES 2, J3Z 1; results/sv/SV13/gate.csv).
+
+## Suggested, not done (SV09, 2026-11-08)
+
+- docs/RESULTS_SUMMARY.md is re-rendered from docs/templates/RESULTS_SUMMARY.md by scripts/collect_numbers_ext.py, and
+  a re-render drops the appended section "Supervisor requests 2026-10-28". Adding a hook in that script that re-runs
+  scripts/sv/SV09_docs.py (or moving the section into the template) would keep it; until then, re-run
+  scripts/sv/SV09_docs.py and scripts/sv/SV09_number_check.py after any re-render.
+
+## Suggested, not done (VIS1, 2026-11-08)
+
+- Split the multi images VIS1 left uncut (results/sv/VIS1/cut_log.csv, status not_cut) with method (b) once a
+  faithful SVG renderer is available (libcairo for cairosvg or rsvg-convert, plus the DejaVu Sans font, since the
+  SVGs carry live text), or re-save those figures with a little more space between axes: in each of them a title or
+  tick label of one graph reaches past the edge of its neighbour, so no rectangle separates them.
+- scripts/sv/common/sv_fig.py crops each panel to the axes' tight bounding box, which takes in fragments of a close
+  neighbour or cuts a label at the panel edge (SV01a/SV01b forests, SV04, SV05, SV06 outliers map, SV14 filling;
+  results/sv/VIS1/SUMMARY.md); hiding the other axes before saving each panel would avoid both.
+
+## Suggested, not done (VIS2, 2026-11-08)
+
+- figures/ext/Y02_metadata_overview.png, panel 6: the title says "Peptide in 60% of entries" but the bars show ESR1
+  chains per asymmetric unit, so the data claim "210 carry a co-crystallised peptide" has no graph in visuals/
+  (results/sv/VIS2/selection.csv); a peptide bar in that figure would give it one.
+- RESULTS_SUMMARY section 6 cites figures/ext/Y26_rarefaction.png for "488 random chains to see 90% of the 1.5 A
+  clusters", but the number is printed only in figures/diversity_curve.png (used for that claim in visuals/); citing
+  that file, or labelling N=488 in Y26, would align the citation with the graph.
+- figures/sv/SV13/SV13_h12_class_panels.png draws three empty panels (antagonist, partial agonist, other: 0 chains);
+  when SV13 is re-run with the teammate labels, drawing only classes that have chains would make the figure denser.

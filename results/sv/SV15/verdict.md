@@ -1,0 +1,5 @@
+- Same-assay E2 reference: 19 binding assays pair a ligand with E2 (31 ligand x assay pairs, 15 ChEMBL parents); 14 primary-set ligands (E2 excluded) get a relative dpX, 48 only an absolute value; median dpX -0.74 (IQR -1.90 to 0.00), 3 of 14 bind tighter than E2; 9 rest on one assay.
+- Spread check (5 ligands with >= 2 paired assays): SD across assays median 0.86 (absolute pX) vs 0.56 (dpX), pooled 1.04 vs 0.67; smaller with the E2 reference in 4 of 5.
+- cl7 vs cl4 (SV10 groups): median dpX -2.17 vs -0.23 (7 vs 6 ligands, q 0.15); entries -2.18 vs -0.23 (10 vs 18, q 0.057): not significant at q < 0.05 at either level. Classes: not tested (agonist 3 entries with relative dpX, < 5).
+- dpX vs SV14 filling %: rho -0.03 ligands (q 0.92), -0.02 entries (q 0.92); vs ligand volume: rho 0.49 ligands (q 0.14, n 14), 0.60 entries (q 0.0021, n 31; entries repeat ligands: OHT 7, RAL 6, GEN 3, C3D 3).
+- These are in-vitro binding affinities to the ERa target (CHEMBL206) relative to E2; they say nothing about cellular activity, receptor degradation or H12 order.

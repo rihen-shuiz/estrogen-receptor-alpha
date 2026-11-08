@@ -1,0 +1,24 @@
+{
+ "task": "SV01c",
+ "ts": "2026-11-08T18:36+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV01c/SUMMARY.md",
+   "size": 20259,
+   "sha": "c20557c92463a176"
+  },
+  {
+   "path": "results/sv/SV01c/side_by_side.csv",
+   "size": 5096,
+   "sha": "2db065d58e846a16"
+  },
+  {
+   "path": "results/sv/SV01c/verdict.md",
+   "size": 1292,
+   "sha": "522080d5364faa3b"
+  }
+ ]
+}

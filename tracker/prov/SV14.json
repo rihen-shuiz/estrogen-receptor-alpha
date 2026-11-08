@@ -1,0 +1,24 @@
+{
+ "task": "SV14",
+ "ts": "2026-11-08T19:28+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV14/pocket_per_chain.csv",
+   "size": 359805,
+   "sha": "a6b4598a328d7762"
+  },
+  {
+   "path": "results/sv/SV14/references.json",
+   "size": 3122,
+   "sha": "cb4f17d50920538b"
+  },
+  {
+   "path": "results/sv/SV14/SUMMARY.md",
+   "size": 8037,
+   "sha": "00d67a7493466696"
+  }
+ ]
+}

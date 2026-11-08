@@ -1,0 +1,58 @@
+{
+ "n_targets": 31,
+ "n_rows": 62,
+ "targets_by_group_status": [
+  {
+   "cluster_group": "cl4",
+   "h12_status": "not_modelled",
+   "n": 14
+  },
+  {
+   "cluster_group": "cl4",
+   "h12_status": "partial",
+   "n": 5
+  },
+  {
+   "cluster_group": "cl7",
+   "h12_status": "not_modelled",
+   "n": 7
+  },
+  {
+   "cluster_group": "cl7",
+   "h12_status": "partial",
+   "n": 3
+  },
+  {
+   "cluster_group": "minor",
+   "h12_status": "not_modelled",
+   "n": 2
+  }
+ ],
+ "core_ca_fit_min": 112,
+ "core_rmsd_median": 0.475338376473161,
+ "core_rmsd_max": 1.5631589462642295,
+ "frame_check_direct_vs_gate_h12_ca_max_dev_A": {
+  "n": 62,
+  "median": 0.07656063726030413,
+  "max": 0.39384934053855125
+ },
+ "medoid_h12_atoms": {
+  "cl7": 57,
+  "cl4": 54
+ },
+ "clash_cutoff_A": 3.0,
+ "window": [
+  538,
+  544
+ ],
+ "targets_from": "results/sv/SV01c/chain_outcomes.csv h12_status_538_544",
+ "lattice_from": "results/sv/SV01b/lattice_contacts_per_chain.csv",
+ "distance_fix": {
+  "n_calls": 3441,
+  "n_hits": 1058,
+  "n_hits_stored_image_dist_gt_cutoff": 196,
+  "max_nearest_image_dist_A": 2.9998440189793847,
+  "max_stored_image_dist_A": 146.93801952457213,
+  "hit_sets_identical": true
+ }
+}

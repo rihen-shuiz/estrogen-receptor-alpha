@@ -1,0 +1,87 @@
+{
+ "n_consensus_positions": 140,
+ "n_consensus_below_98pct": 1,
+ "consensus_below_98pct_positions": [
+  526
+ ],
+ "n_consensus_in_528_550": 7,
+ "n_candidates": 132,
+ "iterations": 2,
+ "converged": true,
+ "final_mean_shift_A": 2.9841314837994084e-06,
+ "n_core_v4": 128,
+ "blocked": false,
+ "n_lowest": 123,
+ "spread_max_in_lowest_123_A": 0.3790983096574463,
+ "candidate_spread_min_A": 0.10186913578073448,
+ "candidate_spread_median_A": 0.1899872876850999,
+ "candidate_spread_max_A": 0.7847616927101416,
+ "jaccard_v4_v3": 0.6405228758169934,
+ "jaccard_lowest123_v3": 0.6078431372549019,
+ "s03_path_check_v3": {
+  "max_abs_diff_A": 3.552713678800501e-14,
+  "same_gaps": true
+ },
+ "v4_fit_status": {
+  "ok": 788
+ },
+ "v4_core_rmsd_median_A": 0.39823801188513286,
+ "v4_core_rmsd_max_A": 0.5635909532709619,
+ "v4_n_common_core_min": 126,
+ "n_distance_exclusions": 0,
+ "spearman_pairwise_v4_vs_v3": 0.997452623767923,
+ "median_abs_diff_A": 0.01491133897251068,
+ "max_abs_diff_A": 0.5246878026565308,
+ "p95_abs_diff_A": 0.10476007056315668,
+ "n_pairs_abs_diff_gt_0_5A": 5,
+ "n_pairs": 310078,
+ "y10_reproduction_max_abs_diff": 3.552713678800501e-15,
+ "y10_reproduction_same_medoids": true,
+ "profile_v4": {
+  "share_528_550": 0.984911423745679,
+  "share_h12_538_547": 0.34478235383487993,
+  "max_d_mean_outside_528_A": 3.711164887483869,
+  "position_max_d_mean_outside_528": 333,
+  "top_positions": [
+   550,
+   549,
+   548,
+   547,
+   546
+  ],
+  "top_d_mean_A": [
+   37.021,
+   33.71,
+   31.013,
+   26.089,
+   20.043
+  ],
+  "medoid_cl7": "5TM1|A|1",
+  "medoid_cl4": "7UJ7|C|1"
+ },
+ "profile_v3_y10": {
+  "share_528_550": 0.9857753305481156,
+  "share_h12_538_547": 0.3457157039100503,
+  "max_d_mean_outside_528_A": 3.584889875269255,
+  "position_max_d_mean_outside_528": 333,
+  "top_positions": [
+   550,
+   549,
+   548,
+   547,
+   546
+  ],
+  "top_d_mean_A": [
+   36.856,
+   33.544,
+   30.869,
+   25.977,
+   19.985
+  ],
+  "medoid_cl7": "5TM1|A|1",
+  "medoid_cl4": "7UJ7|C|1"
+ },
+ "profile_max_abs_delta_d_mean_A": 0.33651925479256484,
+ "profile_position_max_abs_delta": 531,
+ "profile_max_abs_delta_outside_528_A": 0.14547533859885098
+}

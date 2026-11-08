@@ -1,0 +1,123 @@
+{
+ "class_by_cluster_primary": {
+  "agonist": {
+   "chains": 55,
+   "entries": 27,
+   "complete_h12": 53
+  },
+  "SERM": {
+   "chains": 53,
+   "entries": 20,
+   "complete_h12": 19
+  },
+  "SERD": {
+   "chains": 9,
+   "entries": 4,
+   "complete_h12": 5
+  },
+  "unlabelled": {
+   "chains": 602,
+   "entries": 271,
+   "complete_h12": 427
+  }
+ },
+ "gate_rows_primary": 22,
+ "gate_rows_pass": 0,
+ "comparison_verdicts": {
+  "all|C1_SERD_vs_SERM": "not testable",
+  "all|C1_antagonist_vs_SERM": "not testable",
+  "all|C2a_partial_agonist_vs_agonist": "not testable",
+  "all|C2b_agonist_rho_dpX": "not testable",
+  "primary|C1_SERD_vs_SERM": "not testable",
+  "primary|C1_antagonist_vs_SERM": "not testable",
+  "primary|C2a_partial_agonist_vs_agonist": "not testable",
+  "primary|C2b_agonist_rho_dpX": "not testable"
+ },
+ "representatives": [
+  {
+   "action_class": "agonist",
+   "representative": "5WGD|B|1",
+   "rep_ligand": "EST",
+   "rep_cluster": "cl7",
+   "rep_median_rmsd_A": 0.3822184412741604,
+   "rep_resolution_A": 1.8,
+   "rep_h12_complete": 1.0
+  },
+  {
+   "action_class": "SERM",
+   "representative": "2BJ4|A|1",
+   "rep_ligand": "OHT",
+   "rep_cluster": "cl4",
+   "rep_median_rmsd_A": 0.7209516406756831,
+   "rep_resolution_A": 2.0,
+   "rep_h12_complete": 0.0
+  },
+  {
+   "action_class": "SERD",
+   "representative": "7MSA|C|1",
+   "rep_ligand": "ZNM",
+   "rep_cluster": "cl4",
+   "rep_median_rmsd_A": 0.559665708519356,
+   "rep_resolution_A": 2.24,
+   "rep_h12_complete": 0.0
+  }
+ ],
+ "view": {
+  "chain": "5TM1|A|1",
+  "n_atoms": 132,
+  "limits": {
+   "xlim": [
+    -32.15745572291227,
+    47.55164498276213
+   ],
+   "ylim": [
+    -22.817366225367643,
+    32.58944819660997
+   ]
+  }
+ },
+ "ligand_check": {
+  "5WGD|B|1": {
+   "n_atoms": 20,
+   "n_atoms_sv14": 20,
+   "max_abs_diff_A": 1.860242967265501e-06,
+   "instance_rule": "all instances (no alternate ids)",
+   "ligand_ids": [
+    "EST"
+   ]
+  },
+  "2BJ4|A|1": {
+   "n_atoms": 29,
+   "n_atoms_sv14": 29,
+   "max_abs_diff_A": 1.8999913591188177e-06,
+   "instance_rule": "all instances (no alternate ids)",
+   "ligand_ids": [
+    "OHT"
+   ]
+  },
+  "7MSA|C|1": {
+   "n_atoms": 37,
+   "n_atoms_sv14": 37,
+   "max_abs_diff_A": 1.6778480257166586e-06,
+   "instance_rule": "all instances (no alternate ids)",
+   "ligand_ids": [
+    "ZNM"
+   ]
+  }
+ },
+ "b_z_colour_range": [
+  0.0,
+  3.0
+ ],
+ "psi537": {
+  "cl7_circular_mean_psi537_deg": 156.4569872271355,
+  "n_cl7_chains_with_psi537": 435,
+  "n_cl7_chains": 445
+ },
+ "connectivity_only_chains": 69,
+ "connectivity_only_classes": {
+  "unlabelled": 69
+ },
+ "code_check_rows": 22,
+ "code_check_fitted": 22
+}

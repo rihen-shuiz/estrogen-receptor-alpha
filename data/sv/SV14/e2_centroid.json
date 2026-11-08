@@ -1,0 +1,29 @@
+{
+ "definition": "per-coordinate median of EST heavy-atom centroids (core v3 frame), wild-type EST chains with a complete ligand",
+ "chains": [
+  "1ERE|A|1",
+  "1ERE|B|1",
+  "1ERE|C|1",
+  "1ERE|D|1",
+  "1ERE|E|1",
+  "1ERE|F|1",
+  "1G50|A|1",
+  "1G50|B|1",
+  "1G50|C|1",
+  "1GWR|A|1",
+  "1GWR|B|1",
+  "1QKU|A|1",
+  "1QKU|B|1",
+  "1QKU|C|1",
+  "2YJA|B|1",
+  "5GS4|A|1",
+  "5GTR|A|1"
+ ],
+ "n_chains": 17,
+ "centroid_A": [
+  15.029818534851074,
+  -3.3368983268737793,
+  33.39582443237305
+ ],
+ "max_distance_of_chain_centroid_to_median_A": 0.367617666721344
+}

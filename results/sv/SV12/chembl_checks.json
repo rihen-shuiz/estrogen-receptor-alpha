@@ -1,0 +1,115 @@
+{
+ "EST_inchikey_rcsb": "VOXZDWNPVJITMN-ZBRFXRBCSA-N",
+ "EST_molecule_hits": [
+  "CHEMBL135"
+ ],
+ "EST_molecule_hierarchy": [
+  {
+   "active_chembl_id": "CHEMBL135",
+   "molecule_chembl_id": "CHEMBL135",
+   "parent_chembl_id": "CHEMBL135"
+  }
+ ],
+ "EST_pref_name": [
+  "ESTRADIOL"
+ ],
+ "EST_standard_inchi_key_returned": [
+  "VOXZDWNPVJITMN-ZBRFXRBCSA-N"
+ ],
+ "EST_response_cache": "data/sv/chembl_cache/molecule_cb092016c6dfb9dcc6e4151fd1ac16659e568cc5.json",
+ "CHEMBL206": {
+  "pref_name": "Estrogen receptor",
+  "target_type": "SINGLE PROTEIN",
+  "organism": "Homo sapiens",
+  "components": [
+   [
+    "P03372",
+    "PROTEIN"
+   ]
+  ],
+  "cache": "data/sv/chembl_cache/target_b57ceec7c70c512fb113ecf51f16fef214fbc6ee.json"
+ },
+ "CHEMBL206_is_single_protein_P03372": true,
+ "targets_containing_P03372": [
+  {
+   "target_chembl_id": "CHEMBL206",
+   "pref_name": "Estrogen receptor",
+   "target_type": "SINGLE PROTEIN",
+   "organism": "Homo sapiens",
+   "n_components": 1,
+   "accessions": "P03372"
+  },
+  {
+   "target_chembl_id": "CHEMBL2093866",
+   "pref_name": "Estrogen receptor",
+   "target_type": "PROTEIN FAMILY",
+   "organism": "Homo sapiens",
+   "n_components": 2,
+   "accessions": "P03372;Q92731"
+  },
+  {
+   "target_chembl_id": "CHEMBL3885521",
+   "pref_name": "Baculoviral IAP repeat-containing protein 2/Estrogen receptor",
+   "target_type": "PROTEIN COMPLEX",
+   "organism": "Homo sapiens",
+   "n_components": 2,
+   "accessions": "P03372;Q13490"
+  },
+  {
+   "target_chembl_id": "CHEMBL4523681",
+   "pref_name": "Protein cereblon/Estrogen receptor",
+   "target_type": "PROTEIN-PROTEIN INTERACTION",
+   "organism": "Homo sapiens",
+   "n_components": 2,
+   "accessions": "P03372;Q96SW2"
+  },
+  {
+   "target_chembl_id": "CHEMBL4523713",
+   "pref_name": "Protein cereblon/Estrogen receptor/Cullin-4A",
+   "target_type": "PROTEIN-PROTEIN INTERACTION",
+   "organism": "Homo sapiens",
+   "n_components": 3,
+   "accessions": "P03372;Q13619;Q96SW2"
+  },
+  {
+   "target_chembl_id": "CHEMBL4523721",
+   "pref_name": "Estrogen receptor/E3 ubiquitin-protein ligase XIAP",
+   "target_type": "PROTEIN-PROTEIN INTERACTION",
+   "organism": "Homo sapiens",
+   "n_components": 2,
+   "accessions": "P03372;P98170"
+  },
+  {
+   "target_chembl_id": "CHEMBL4523726",
+   "pref_name": "von Hippel-Lindau disease tumor suppressor/Estrogen receptor",
+   "target_type": "PROTEIN-PROTEIN INTERACTION",
+   "organism": "Homo sapiens",
+   "n_components": 2,
+   "accessions": "P03372;P40337"
+  },
+  {
+   "target_chembl_id": "CHEMBL4523754",
+   "pref_name": "von Hippel-Lindau disease tumor suppressor/Estrogen receptor/Cullin-2",
+   "target_type": "PROTEIN-PROTEIN INTERACTION",
+   "organism": "Homo sapiens",
+   "n_components": 3,
+   "accessions": "P03372;P40337;Q13617"
+  },
+  {
+   "target_chembl_id": "CHEMBL6193788",
+   "pref_name": "IAP-Estrogen receptor",
+   "target_type": "PROTEIN-PROTEIN INTERACTION",
+   "organism": "Homo sapiens",
+   "n_components": 3,
+   "accessions": "P03372;P98170;Q13490"
+  }
+ ],
+ "single_protein_targets_for_P03372": [
+  "CHEMBL206"
+ ],
+ "http": {
+  "network": 0,
+  "cache": 4,
+  "retries": 0
+ }
+}

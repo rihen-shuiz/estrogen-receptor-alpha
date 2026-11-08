@@ -1,0 +1,24 @@
+{
+ "task": "SV07",
+ "ts": "2026-11-08T18:32+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV07/spikes.csv",
+   "size": 18607,
+   "sha": "918b5ff3b2cc9747"
+  },
+  {
+   "path": "results/sv/SV07/verdict.csv",
+   "size": 6695,
+   "sha": "9452fd0c763703c8"
+  },
+  {
+   "path": "results/sv/SV07/SUMMARY.md",
+   "size": 13780,
+   "sha": "c76714b2ee6f29dd"
+  }
+ ]
+}

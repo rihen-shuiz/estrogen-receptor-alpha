@@ -1,0 +1,6 @@
+field,plausible_range,n_entries,n_missing_in_mmcif,n_unparseable,n_out_of_range_set_nan,out_of_range_entries,n_filled_from_api,n_missing_final
+ph,3.0-11.0,351,109,0,0,,0,109
+growth_temp_K,270.0-315.0,351,35,0,0,,0,35
+ambient_temp_K,50.0-320.0,351,7,0,0,,0,7
+r_work,,351,8,0,0,,0,8
+multi_valued,,351,0,0,0,1XQC:diffrn;2POG:diffrn,0,2

@@ -1,0 +1,51 @@
+{
+ "counts": {
+  "files": 788,
+  "one_chain_id": 788,
+  "chain_id_is_author": 788,
+  "het_after_ter_only_q18": 788,
+  "apo_files_no_het": 7,
+  "p2rank_residues_in_polymer": 788,
+  "pocket_residues_in_polymer": 788,
+  "n_p2rank_residues": 182303,
+  "n_p2rank_residues_not_in_polymer": 0,
+  "n_pocket_tokens": 32761,
+  "n_pocket_tokens_not_in_polymer": 0
+ },
+ "problems": [],
+ "s17_sha_check": [
+  {
+   "path": "data/clean/1A52_A.pdb",
+   "prov_sha": "535313bc3be7372c",
+   "now_sha": "535313bc3be7372c",
+   "equal": true
+  },
+  {
+   "path": "data/clean/3OS9_A.pdb",
+   "prov_sha": "f3ab0b6db3e8fb83",
+   "now_sha": "f3ab0b6db3e8fb83",
+   "equal": true
+  },
+  {
+   "path": "data/clean/6PET_A.pdb",
+   "prov_sha": "61ed7f5598eecece",
+   "now_sha": "61ed7f5598eecece",
+   "equal": true
+  }
+ ],
+ "p2rank_run_info": {
+  "p2rank_version": "P2Rank 2.5.1",
+  "command": "prank predict <data/clean/*.pdb dataset> -threads 16 -visualizations 0",
+  "n_input_pdb": 788,
+  "n_predictions": 788,
+  "exit_code": 0
+ },
+ "script_reading": {
+  "scripts/p2rank_batch.py": "P2Rank 'predict' on a dataset listing every data/clean/*.pdb (default model, -visualizations 0); no other input file.",
+  "scripts/clean_chain_pdbs.py": "per chain: polymer atoms of its own label_asym_id (model of the chain) + its Q18 ligand instance(s) as HETATM; waters, ions, additives, partner chains and peptides are not written."
+ },
+ "offset_vs_residue_mapping": {
+  "residues": 182124,
+  "equal": 182124
+ }
+}

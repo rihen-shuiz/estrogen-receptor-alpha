@@ -1528,3 +1528,199 @@ T Y45 S code "Inside cl4: what splits the antagonist-like cluster?"
   out figures/ext/Y45_cl4_substructure.png
   chk csv results/ext/cl4_subclusters.csv rows>=300 cols=chain_key,sub_cluster
   chk file figures/ext/Y45_cl4_substructure.png
+
+# ===================== SUPERVISOR REQUESTS 2026-10-28 (RUN_SV1028, phase ext) =====================
+# Spec: docs/sv/RUN_SV1028.md (one step = one card). Status board of the run: docs/sv/RUN_STATUS.md.
+
+T SV00 M run "Restore mmCIF data and build the shared chain table"
+  help Re-download the frozen entry list, pass the RMSD reproduction gate and write one row per kept chain with metadata, chemotype and dimer partner.
+  meta wk=14 who=A ph=ext
+  tool requests, gemmi, rdkit
+  out data/sv/manifest.csv
+  out results/sv/SV00/chain_table.csv
+  out results/sv/SV00/observed_mask.npy
+  chk csv results/sv/SV00/chain_table.csv rows>=788 cols=ligand_chemotype,remediated,multi_valued
+  chk file results/sv/SV00/observed_mask.npy
+  chk file results/sv/SV00/SUMMARY.md
+
+T SV01a M run "H12 completeness first pass: distribution and Q/X/B models within cl7 and cl4"
+  help Is H12 completeness explained by quality and experiment, or by biology? Distribution, within-entry concordance and block models with entry-clustered errors.
+  meta wk=14 who=B ph=ext
+  tool statsmodels
+  out results/sv/SV01a/model_blocks.csv
+  out results/sv/SV01a/verdict.md
+  chk csv results/sv/SV01a/model_blocks.csv rows>=1
+  chk file results/sv/SV01a/verdict.md
+  chk file results/sv/SV01a/SUMMARY.md
+
+T SV01b M run "H12 completeness with coordinates: mobility outcome and lattice contacts"
+  help Add the H12 B z-score as a second outcome and lattice-contact terms to block X, refit and re-issue the verdict.
+  meta wk=14 who=B ph=ext
+  needs SV00
+  tool gemmi, statsmodels
+  out results/sv/SV01b/model_blocks.csv
+  out results/sv/SV01b/verdict.md
+  out scripts/sv/common/lattice_contacts.py
+  chk csv results/sv/SV01b/model_blocks.csv rows>=1
+  chk file results/sv/SV01b/verdict.md
+  chk file results/sv/SV01b/SUMMARY.md
+
+T SV01c S run "H12 completeness: sensitivity to the data-derived H12 window"
+  help Re-run SV01b on the SV02 consensus H12 window when it differs from 538-547 and report both verdicts side by side.
+  meta wk=14 who=B ph=ext
+  needs SV01b SV02
+  out results/sv/SV01c/SUMMARY.md
+  chk file results/sv/SV01c/SUMMARY.md
+
+T SV02 M run "Consensus secondary structure (DSSP) and per-residue Ramachandran plots"
+  help DSSP on every kept chain, consensus helices and a data-derived H12 window; phi/psi per chain and 13 fixed-position Ramachandran plots.
+  meta wk=14 who=B ph=ext
+  needs SV00
+  tool mkdssp or pydssp, gemmi
+  out results/sv/SV02/helix_boundaries.csv
+  out results/sv/SV02/phipsi_per_chain.csv
+  out results/sv/SV02/h12_window.md
+  chk csv results/sv/SV02/sse_per_position.csv rows>=200
+  chk csv results/sv/SV02/rama_summary.csv rows>=13
+  chk file results/sv/SV02/h12_window.md
+  chk file results/sv/SV02/SUMMARY.md
+
+T SV03 M run "Helix geometry: uncensored lengths, axes, angles and the H12 map"
+  help Helix lengths and axis descriptors per chain; cl7 vs cl4 and within-cluster tests; is geometry more sensitive than RMSD?
+  meta wk=14 who=B ph=ext
+  needs SV02
+  out results/sv/SV03/geometry_per_chain.csv
+  out results/sv/SV03/tests.csv
+  chk csv results/sv/SV03/geometry_per_chain.csv rows>=100
+  chk file results/sv/SV03/SUMMARY.md
+
+T SV04 M run "Helix midpoints for incomplete helices (Ye)"
+  help Estimate helix midpoints and axes from partial helices, validate by truncation, cluster on midpoints and place partial-H12 chains.
+  meta wk=14 who=B ph=ext
+  needs SV02
+  out results/sv/SV04/validation_error.csv
+  out results/sv/SV04/midpoints.csv
+  out results/sv/SV04/partial_h12_assignment.csv
+  chk csv results/sv/SV04/midpoints.csv rows>=100
+  chk file results/sv/SV04/SUMMARY.md
+
+T SV05 M run "Stable core v4 from complete helices, compared with core v3"
+  help Iterative superposition on well-observed consensus-helix positions, low-spread core v4, RMSD and clusters recomputed on it.
+  meta wk=14 who=B ph=ext
+  needs SV02
+  out results/sv/SV05/core_v4.json
+  out results/sv/SV05/spread.csv
+  out results/sv/SV05/ari.csv
+  chk file results/sv/SV05/core_v4.json
+  chk file results/sv/SV05/SUMMARY.md
+
+T SV06 S fig "Consensus outliers on the clustering map"
+  help Label the 22 Y16 consensus outliers on the shared MDS map, own vs other medoid RMSD, side bar on the Y07 heatmap, hypergeometric test.
+  meta wk=14 who=B ph=ext
+  out results/sv/SV06/outliers_on_map.csv
+  out results/sv/SV06/verdict.md
+  chk csv results/sv/SV06/outliers_on_map.csv rows>=20
+  chk file results/sv/SV06/SUMMARY.md
+
+T SV07 M run "Spike audit of the Y10 displacement profile (slide 5)"
+  help List every displacement spike outside 528-550 and classify each as sparse sample, few entries, numbering error or genuine loop difference.
+  meta wk=14 who=B ph=ext
+  needs SV00 SV02
+  out results/sv/SV07/spikes.csv
+  out results/sv/SV07/verdict.csv
+  chk csv results/sv/SV07/spikes.csv rows>=1
+  chk file results/sv/SV07/SUMMARY.md
+
+T SV08 S text "Literature: is only H12 different between ERalpha LBD structures?"
+  help Answer four fixed questions from opened sources only, as a claim table with sources.
+  meta wk=14 who=D ph=ext
+  tool WebSearch, WebFetch
+  out docs/sv/literature.md
+  chk lines docs/sv/literature.md >=10
+
+T SV10 S run "Ligand drug-likeness table, cl7 vs cl4 with a size check"
+  help Lipinski, Veber, QED, Brenk/PAINS and efficiency per ligand; group comparison at ligand and entry level, adjusted for heavy atoms.
+  meta wk=14 who=C ph=ext
+  tool rdkit, statsmodels
+  out results/sv/SV10/ligand_druglikeness.csv
+  out results/sv/SV10/druglikeness_by_group.csv
+  out results/sv/SV10/verdict.md
+  chk csv results/sv/SV10/ligand_druglikeness.csv rows>=100
+  chk file results/sv/SV10/SUMMARY.md
+
+T SV11 M run "P2Rank pocket site labels and steroid flag"
+  help Label every P2Rank pocket by ligand pocket, AF-2 groove, dimer interface or other surface; compare cl7 vs cl4; flag steroid ligands.
+  meta wk=14 who=C ph=ext
+  tool gemmi, rdkit
+  out results/sv/SV11/pocket_labels.csv
+  out results/sv/SV11/ligand_steroid.csv
+  chk csv results/sv/SV11/pocket_labels.csv rows>=100
+  chk file results/sv/SV11/SUMMARY.md
+
+T SV12 M run "Ligand identifiers, provisional action classes and ChEMBL activities"
+  help SMILES, InChIKey and DOIs from RCSB; ChEMBL match; provisional 6-class labels from ChEMBL mechanism and validated assay text; activities on CHEMBL206.
+  meta wk=14 who=C ph=ext
+  tool requests, rdkit
+  out results/sv/SV12/ligand_ids.csv
+  out results/sv/SV12/action_class.csv
+  out results/sv/SV12/chembl_activities.csv
+  chk csv results/sv/SV12/action_class.csv rows>=100
+  chk file results/sv/SV12/SUMMARY.md
+
+T SV13 M run "H12 by action class: maps, fixed tests and per-class H12 pictures"
+  help Classes on the MDS and H12 maps; C1 (destabilisation) and C2 (agonist subtypes) models; one H12 + ligand panel per class.
+  meta wk=14 who=B ph=ext
+  needs SV12 SV01b SV02 SV03
+  tool statsmodels, pymol
+  out results/sv/SV13/class_by_cluster.csv
+  out results/sv/SV13/tests.csv
+  out results/sv/SV13/verdict.md
+  chk csv results/sv/SV13/class_by_cluster.csv rows>=1
+  chk file results/sv/SV13/SUMMARY.md
+
+T SV14 M run "Ligand volume vs pocket volume and pocket filling"
+  help Grid-based pocket and ligand volumes per chain, apo and E2 references, filling percentage by cluster and class.
+  meta wk=14 who=B ph=ext
+  needs SV00
+  tool numpy, gemmi
+  out results/sv/SV14/pocket_per_chain.csv
+  out results/sv/SV14/references.json
+  chk csv results/sv/SV14/pocket_per_chain.csv rows>=100
+  chk file results/sv/SV14/SUMMARY.md
+
+T SV15 S run "Affinities across assay systems, relative to E2 in the same assay"
+  help Clean ChEMBL binding data, compute same-assay delta pX to E2, check the spread reduction and compare by cluster and class.
+  meta wk=14 who=C ph=ext
+  needs SV12
+  out results/sv/SV15/affinity_per_ligand.csv
+  out results/sv/SV15/assay_spread.csv
+  chk csv results/sv/SV15/affinity_per_ligand.csv rows>=10
+  chk file results/sv/SV15/SUMMARY.md
+
+T SV08b S text "Literature for the action-class questions (VDR superagonists, SERD H12, pocket volumes)"
+  help Answer three fixed questions from opened sources only, as a claim table with sources.
+  meta wk=14 who=D ph=ext
+  tool WebSearch, WebFetch
+  out docs/sv/literature_class.md
+  chk lines docs/sv/literature_class.md >=10
+
+T SV09 M text "Integrate the supervisor-request results into RESULTS_SUMMARY"
+  help One paragraph and one figure per step in a new RESULTS_SUMMARY section, new limitations, and a scripted number check.
+  meta wk=14 who=D ph=ext
+  out docs/RESULTS_SUMMARY.md
+  out results/sv/SV09/number_check.csv
+  chk grep docs/RESULTS_SUMMARY.md Supervisor requests 2026-10-28
+  chk csv results/sv/SV09/number_check.csv rows>=10
+
+T VIS1 M fig "Cut multi-graph images into single-graph panels"
+  help Split every multi-graph PNG into one file per graph by SV script, SVG groups or white gutters, with a manifest and contact sheets.
+  meta wk=14 who=D ph=ext
+  out figures/panels/manifest.csv
+  chk csv figures/panels/manifest.csv rows>=50 cols=panel_path,method
+
+T VIS2 S fig "Collect the valuable visuals into visuals/ with an index"
+  help Copy one clearest graph per stated claim into visuals/ and write INDEX.md, checked by script.
+  meta wk=14 who=D ph=ext
+  needs VIS1 SV09
+  out visuals/INDEX.md
+  chk lines visuals/INDEX.md >=10

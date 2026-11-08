@@ -1,0 +1,10 @@
+column,compared_with,n_entries,n_both,n_agree,n_only_chain_table,n_only_other
+ph,Y02 ph (also parsed from crystal-growth text),351,242,242,0,65
+growth_temp_K,Y02 temp_K,351,316,316,0,0
+ambient_temp_K,Y02 diffraction_temp_K,351,344,344,0,0
+r_work,Y02 r_work,351,343,343,0,0
+resolution_A,mmCIF _refine.ls_d_res_high,351,351,351,0,0
+r_free,mmCIF _refine.ls_R_factor_R_free,351,351,351,0,0
+esr1_chains_asu,regenerated Q04 table: ESR1 chains in model 1,351,351,351,0,0
+release_year,mmCIF initial release (revision ordinal 1),351,351,351,0,0
+space_group,mmCIF _symmetry.space_group_name_H-M,351,351,351,0,0

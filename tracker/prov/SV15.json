@@ -1,0 +1,24 @@
+{
+ "task": "SV15",
+ "ts": "2026-11-08T19:33+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV15/affinity_per_ligand.csv",
+   "size": 82642,
+   "sha": "52a78d38c6ad8ab1"
+  },
+  {
+   "path": "results/sv/SV15/assay_spread.csv",
+   "size": 1183,
+   "sha": "01684a238e153a94"
+  },
+  {
+   "path": "results/sv/SV15/SUMMARY.md",
+   "size": 10479,
+   "sha": "e8ae907187222f53"
+  }
+ ]
+}

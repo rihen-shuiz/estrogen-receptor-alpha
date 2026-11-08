@@ -1,0 +1,17 @@
+outcome,level,cluster,order,gain_QX,gain_B,QX_exceeds_B,B_exceeds_QX,level_verdict,step_verdict
+complete,chain,7,first,0.22374473380166637,0.22540771117430325,False,True,mixed,mixed
+complete,chain,7,last,0.15297863031644598,0.15464160768908286,False,True,mixed,mixed
+complete,chain,4,first,0.20792143221151682,0.07934497179888556,True,False,mixed,mixed
+complete,chain,4,last,0.2002638993210969,0.07168743890846563,True,False,mixed,mixed
+complete,entry,7,first,0.6126863720082907,0.3151068667322968,True,False,artifact,mixed
+complete,entry,7,last,0.439862220745706,0.14228271546971216,True,False,artifact,mixed
+complete,entry,4,first,0.34597195801394265,0.11719467110206938,True,False,artifact,mixed
+complete,entry,4,last,0.30718413652095644,0.07840684960908317,True,False,artifact,mixed
+fraction_observed,chain,7,first,0.2722208311293962,0.3515705617307875,False,True,mixed,mixed
+fraction_observed,chain,7,last,0.21461735964978013,0.2939670902511714,False,True,mixed,mixed
+fraction_observed,chain,4,first,0.06694425795553816,0.05697373537371153,True,False,mixed,mixed
+fraction_observed,chain,4,last,0.05970222603696784,0.04973170345514122,True,False,mixed,mixed
+fraction_observed,entry,7,first,0.6761004378357982,0.40533789939836007,True,False,artifact,mixed
+fraction_observed,entry,7,last,0.37256154954053355,0.10179901110309542,True,False,artifact,mixed
+fraction_observed,entry,4,first,0.20857408913797826,0.11777006476937979,True,False,artifact,mixed
+fraction_observed,entry,4,last,0.14855063538982605,0.05774661102122758,True,False,artifact,mixed

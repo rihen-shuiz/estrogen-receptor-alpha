@@ -1,0 +1,29 @@
+{
+ "task": "SV12",
+ "ts": "2026-11-08T19:19+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV12/action_class.csv",
+   "size": 56585,
+   "sha": "39bd66413d8407e5"
+  },
+  {
+   "path": "results/sv/SV12/ligand_ids.csv",
+   "size": 55639,
+   "sha": "984f5bf606c12db1"
+  },
+  {
+   "path": "results/sv/SV12/chembl_activities.csv",
+   "size": 534219,
+   "sha": "8403a65e478b027b"
+  },
+  {
+   "path": "results/sv/SV12/SUMMARY.md",
+   "size": 8722,
+   "sha": "88c0865182d156a4"
+  }
+ ]
+}

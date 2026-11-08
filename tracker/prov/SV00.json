@@ -1,0 +1,29 @@
+{
+ "task": "SV00",
+ "ts": "2026-11-08T17:31+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV00/chain_table.csv",
+   "size": 231277,
+   "sha": "5026e25ab88d1c70"
+  },
+  {
+   "path": "results/sv/SV00/observed_mask.npy",
+   "size": 193976,
+   "sha": "9db089728326dfaa"
+  },
+  {
+   "path": "results/sv/SV00/SUMMARY.md",
+   "size": 9227,
+   "sha": "d71a373a6d4ce918"
+  },
+  {
+   "path": "data/sv/manifest.csv",
+   "size": 142412,
+   "sha": "ab9ac4224e0759df"
+  }
+ ]
+}

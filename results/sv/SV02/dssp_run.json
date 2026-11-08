@@ -1,0 +1,23 @@
+{
+ "tool": "pydssp 0.9.1 (numpy backend), fallback for mkdssp (not installed)",
+ "chains": 788,
+ "residues_passed": 182293,
+ "residues_in_table": 182302,
+ "residues_missing_backbone_atoms": 9,
+ "segments": 2380,
+ "segments_padded_lt6": 24,
+ "residues_in_padded_segments": 57,
+ "segments_per_chain_median": 3.0,
+ "segment_rule": "consecutive label_seq_id, all of N/CA/C/O, C(i)-N(i+1) <= 2.5 A",
+ "numbering_atoms_equal_auth_plus_offset": 728475,
+ "numbering_atoms_differ": 0,
+ "lbd_positions_observed_dssp": 181824,
+ "lbd_positions_observed_ca_mask": 181829,
+ "ca_observed_but_incomplete_backbone": 5,
+ "dssp_observed_not_in_ca_mask": 0,
+ "sse_counts_lbd": {
+  "H": 124973,
+  "-": 50879,
+  "E": 5972
+ }
+}

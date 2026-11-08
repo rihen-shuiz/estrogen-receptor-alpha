@@ -1,0 +1,68 @@
+{
+ "n_chains": 788,
+ "n_entries": 351,
+ "n_tests_bh": 368,
+ "step_verdict": "artifact",
+ "outcome_verdicts": {
+  "complete": "artifact",
+  "fraction_observed": "artifact",
+  "mobility": "artifact",
+  "mobility_no_tls": "artifact"
+ },
+ "level_verdicts": {
+  "complete|chain": "artifact",
+  "complete|entry": "artifact",
+  "fraction_observed|chain": "artifact",
+  "fraction_observed|entry": "artifact",
+  "mobility|chain": "artifact",
+  "mobility|entry": "artifact",
+  "mobility_no_tls|chain": "artifact",
+  "mobility_no_tls|entry": "artifact"
+ },
+ "sv01a_step_verdict": {
+  "complete": "mixed",
+  "fraction_observed": "mixed"
+ },
+ "run_step8": false,
+ "b_crosscheck": {
+  "n_compared": 181829,
+  "max_abs_diff": 0.0,
+  "n_nan_in_backbone": 0
+ },
+ "core_ranges": [
+  [
+   338,
+   362
+  ],
+  [
+   371,
+   396
+  ],
+  [
+   420,
+   439
+  ],
+  [
+   441,
+   456
+  ],
+  [
+   496,
+   531
+  ]
+ ],
+ "mobility_defined": {
+  "cl7": 442,
+  "cl4": 325
+ },
+ "mobility_undefined_chains": [
+  "5T92|A|1",
+  "5T97|B|1",
+  "5TM9|A|1",
+  "6B0F|B|1",
+  "7RS3|B|1",
+  "7RS3|C|1",
+  "7YMK|C|1"
+ ],
+ "core_not_ok": []
+}

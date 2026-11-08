@@ -1,0 +1,75 @@
+entry_id,ccd,chembl_parent,document_chembl_ids,assay_chembl_ids,n_activities,max_pchembl,assay_description,degradation,antagonism,agonism
+1SJ0,E4D,CHEMBL304552,CHEMBL1149328,CHEMBL679324,1,9.1,Binding affinity towards human recombinant Estrogen receptor alpha was determined,False,False,False
+1SJ0,E4D,CHEMBL304552,CHEMBL1149328,CHEMBL679890,1,9.1,In vitro binding affinity for Estrogen receptor alpha in HEK293 cells,False,False,False
+1UOM,PTI,CHEMBL101382,CHEMBL1145829,CHEMBL682289,1,7.78,Inhibitory concentration against estrogen receptor alpha using estrogen response element (ERE) assay.,False,False,False
+1UOM,PTI,CHEMBL101382,CHEMBL1145829,CHEMBL682290,1,7.72,Inhibitory concentration against estrogen receptor alpha using radioligand binding assay.,False,False,False
+1XP1,AIH,CHEMBL182980,CHEMBL1144457,CHEMBL837868,1,9.4,In vitro inhibition of estradiol-stimulated MCF-7 breast cancer cell proliferation,False,False,False
+1XP1,AIH,CHEMBL182980,CHEMBL1144457,CHEMBL832667,1,9.3,Inhibition of bindign to recombinant human estrogen receptor alpha,False,False,False
+1XP6,AIU,CHEMBL183467,CHEMBL1144457,CHEMBL832667,1,9.4,Inhibition of bindign to recombinant human estrogen receptor alpha,False,False,False
+1XPC,AIT,CHEMBL180792,CHEMBL1144457,CHEMBL837868,2,9.52,In vitro inhibition of estradiol-stimulated MCF-7 breast cancer cell proliferation,False,False,False
+1XPC,AIT,CHEMBL180792,CHEMBL1144457,CHEMBL832667,2,8.89,Inhibition of bindign to recombinant human estrogen receptor alpha,False,False,False
+1XQC,AEJ,CHEMBL195212,CHEMBL1141171,CHEMBL831007,1,7.63,Inhibition of 17-beta-estradiol mediated luciferase transcription in HeLa cells expressing human estrogen receptor alpha; ERE assay,False,False,False
+1XQC,AEJ,CHEMBL195212,CHEMBL1141171,CHEMBL831528,1,7.2,Inhibition of [3H]estradiol binding to human estrogen receptor alpha expressed in HeLa cells,False,False,False
+1XQC,AEJ,CHEMBL195212,CHEMBL1141171,CHEMBL836357,1,7.68,Inhibition of estrogen-mediated human breast adenocarcinoma (MCF-7) cell proliferation,False,False,False
+1YIM,CM4,CHEMBL181936,CHEMBL1142044,CHEMBL824937,1,8.82,Inhibition of estrogen dependent human MCF-7 cell proliferation,False,False,False
+1YIM,CM4,CHEMBL181936,CHEMBL1142044,CHEMBL831077,1,8.82,Inhibition of estrogen receptor alpha,False,False,False
+1YIN,CM3,CHEMBL180146,CHEMBL1142044,CHEMBL824937,1,8.85,Inhibition of estrogen dependent human MCF-7 cell proliferation,False,False,False
+1YIN,CM3,CHEMBL180146,CHEMBL1142044,CHEMBL831077,1,9.1,Inhibition of estrogen receptor alpha,False,False,False
+2AYR,L4G,CHEMBL243789,CHEMBL1141131,CHEMBL856242,1,9.07,Half maximal inhibitory concentration against estrogen-induced proliferation of MCF-7 breast cells by 10 pM E2,False,False,False
+2AYR,L4G,CHEMBL243789,CHEMBL1141131,CHEMBL885080,1,7.97,Inhibitory concentration against estrogen-induced proliferation of Ishikawa uterine cells by 1 nM E2,False,False,False
+2I0J,I0G,CHEMBL278703,CHEMBL1137384,CHEMBL856666,1,7.71,Activity at ERalpha in PC3 cells by transcription assay,False,False,False
+2I0J,I0G,CHEMBL278703,CHEMBL1137384,CHEMBL855028,1,8.57,Displacement of [3H]estradiol from human recombinant ERalpha,False,False,False
+2IOG,IOG,CHEMBL241303,CHEMBL1139144,CHEMBL886514,1,8.1,Displacement of [3H]estradiol from full length human recombinant ERalpha after 3 hrs by scintillation proximity assay,False,False,False
+2IOK,IOK,CHEMBL391910,CHEMBL1139144,CHEMBL886514,1,9.0,Displacement of [3H]estradiol from full length human recombinant ERalpha after 3 hrs by scintillation proximity assay,False,False,False
+2POG,WST,CHEMBL234638,CHEMBL1148875,CHEMBL896315,1,9.46,Binding affinity to human ERalpha,False,False,False
+2Q70,DC8,CHEMBL236718,CHEMBL1149651,CHEMBL897773,1,8.08,Binding affinity to human ERalpha,False,False,False
+2QE4,JJ3,CHEMBL236086,CHEMBL1149686,CHEMBL897997,1,7.96,Displacement of [3H]estradiol from human recombinant ERalpha,False,False,False
+5AAV,GW5,CHEMBL33899,CHEMBL3621041,CHEMBL3624758,1,8.49,Binding affinity to ERalpha receptor (unknown origin),False,False,False
+5ACC,KE9,CHEMBL3623004,CHEMBL3621041,CHEMBL3624759,1,9.86,Antagonist activity at ERalpha receptor in human MCF7 cells,False,True,False
+5ACC,KE9,CHEMBL3623004,CHEMBL3621041,CHEMBL3625856,1,9.68,Antagonist activity at ERalpha receptor in human MCF7 cells in presence of 0.25 uM tamoxifen,False,True,False
+5ACC,KE9,CHEMBL3623004,CHEMBL3621041,CHEMBL3624758,2,9.17,Binding affinity to ERalpha receptor (unknown origin),False,False,False
+5AK2,85Z,CHEMBL3427397,CHEMBL3425438,CHEMBL3429910,1,8.41,Binding affinity to ER alpha (unknown origin) by LanthaScreen TR-FRET competitive binding assay,False,False,False
+5AK2,85Z,CHEMBL3427397,CHEMBL3425438,CHEMBL3429911,1,6.93,Suppression of ER alpha in human MCF7 cells after 24 hrs by immunostaining analysis,False,False,False
+5FQP,GQD,CHEMBL3775378,CHEMBL3774369,CHEMBL3776150,1,7.72,Displacement of fluormone ES2 from GST-tagged recombinant human ERalpha LBD after 1 hr by Lanthascreen TR-FRET assay,False,False,False
+5FQP,GQD,CHEMBL3775378,CHEMBL3774369,CHEMBL3776153,1,8.89,Downregulation of ERalpha in human MCF7 cells incubated for 18 to 22 hrs by immunofluorescence assay,True,False,False
+5FQR,QHG,CHEMBL3775824,CHEMBL3774369,CHEMBL3776150,1,7.58,Displacement of fluormone ES2 from GST-tagged recombinant human ERalpha LBD after 1 hr by Lanthascreen TR-FRET assay,False,False,False
+5FQR,QHG,CHEMBL3775824,CHEMBL3774369,CHEMBL3776153,1,8.36,Downregulation of ERalpha in human MCF7 cells incubated for 18 to 22 hrs by immunofluorescence assay,True,False,False
+5FQS,J0W,CHEMBL3774494,CHEMBL3774369,CHEMBL3776150,1,7.36,Displacement of fluormone ES2 from GST-tagged recombinant human ERalpha LBD after 1 hr by Lanthascreen TR-FRET assay,False,False,False
+5FQS,J0W,CHEMBL3774494,CHEMBL3774369,CHEMBL3776153,1,7.96,Downregulation of ERalpha in human MCF7 cells incubated for 18 to 22 hrs by immunofluorescence assay,True,False,False
+5FQT,7QN,CHEMBL3774774,CHEMBL3774369,CHEMBL3776150,1,6.21,Displacement of fluormone ES2 from GST-tagged recombinant human ERalpha LBD after 1 hr by Lanthascreen TR-FRET assay,False,False,False
+5FQT,7QN,CHEMBL3774774,CHEMBL3774369,CHEMBL3776153,1,6.77,Downregulation of ERalpha in human MCF7 cells incubated for 18 to 22 hrs by immunofluorescence assay,True,False,False
+5FQV,VQI,CHEMBL3775060,CHEMBL3774369,CHEMBL3776150,1,6.8,Displacement of fluormone ES2 from GST-tagged recombinant human ERalpha LBD after 1 hr by Lanthascreen TR-FRET assay,False,False,False
+5FQV,VQI,CHEMBL3775060,CHEMBL3774369,CHEMBL3776153,1,7.37,Downregulation of ERalpha in human MCF7 cells incubated for 18 to 22 hrs by immunofluorescence assay,True,False,False
+5T92,77W,CHEMBL4063001,CHEMBL4007492,CHEMBL4011149,1,6.7,Antagonist activity at ERalpha in human MCF7 cells assessed as inhibition of estrogen-induced transcription preincubated overnight followed by estrogen addition measured after 24 hrs by dual luciferase reporter gene assay,False,True,False
+5T92,77W,CHEMBL4063001,CHEMBL4007492,CHEMBL4011151,1,8.15,Induction of ERalpha degradation in human MCF7 cells after 18 to 24 hrs by Western blot analysis,True,False,False
+5T97,782,CHEMBL4063838,CHEMBL4007492,CHEMBL4011149,1,7.47,Antagonist activity at ERalpha in human MCF7 cells assessed as inhibition of estrogen-induced transcription preincubated overnight followed by estrogen addition measured after 24 hrs by dual luciferase reporter gene assay,False,True,False
+6B0F,C6V,CHEMBL4076124,CHEMBL4020850,CHEMBL4024646,1,9.7,Induction of selective estrogen receptor alpha degradation in human MCF7 cells after 18 to 24 hrs by in-cell Western analysis,True,False,False
+6B0F,C6V,CHEMBL4076124,CHEMBL4020850,CHEMBL4024656,1,8.05,Induction of selective estrogen receptor alpha degradation in human MCF7 cells harboring TK-ERE-Luc assessed as reduction in estradiol-induced GREB1 mRNA expression after 24 hrs by TaqMan assay,True,False,False
+6B0F,C6V,CHEMBL4076124,CHEMBL4020850,CHEMBL4024644,1,8.22,Induction of selective estrogen receptor alpha degradation in human MCF7 cells harboring TK-ERE-Luc assessed as reduction in estradiol-induced transcriptional activity after 24 hrs by luciferase reporter gene assay,True,False,False
+6DF6,G8Y,CHEMBL4464058,CHEMBL4422679,CHEMBL4424724,1,10.23,Induction of ERalpha degradation in human MCF7 cells after 4 hrs by Alexafluor-488 conjugate anti-mouse IgG antibody/Hoechst 33342 staining based immunofluorescence imaging analysis,True,False,False
+6DFN,G91,CHEMBL4437985,CHEMBL4422679,CHEMBL4424724,1,10.26,Induction of ERalpha degradation in human MCF7 cells after 4 hrs by Alexafluor-488 conjugate anti-mouse IgG antibody/Hoechst 33342 staining based immunofluorescence imaging analysis,True,False,False
+6PET,ODY,CHEMBL4455953,CHEMBL4387785,CHEMBL4390558,1,10.3,Induction of ERalpha degradation in human MCF7 cells after 4 hrs by FITC/Hoechst 33342 staining based immunofluorescence imaging analysis,True,False,False
+6PFM,OGJ,CHEMBL4447340,CHEMBL4387785,CHEMBL4390558,1,10.52,Induction of ERalpha degradation in human MCF7 cells after 4 hrs by FITC/Hoechst 33342 staining based immunofluorescence imaging analysis,True,False,False
+6SBO,L5B,CHEMBL4475463,CHEMBL4321847,CHEMBL4324346,1,9.7,Induction of ERalpha degradation in human MCF7 cells incubated for 4 hrs by Alexafluor-488 conjugate anti-rabbit antibody/Syto-64 staining based immunofluorescence analysis,True,False,False
+6SQ0,LRQ,CHEMBL4452972,CHEMBL4304838,CHEMBL4308796,1,9.1,Displacement of fluorescent labelled fluormone ES2 from human recombinant GST tagged ER alpha LBD ( 282 to 595 residues) expressed in baculovirus infected insect cells measured after 20 mins by TR-FRET Lanthascreen assay,False,False,False
+6SQ0,LRQ,CHEMBL4452972,CHEMBL4304838,CHEMBL4308797,1,7.8,Induction of ERalpha degradation in human MCF7 cells assessed as downregulation of ER alpha receptor expression measured after 18 to 22 hrs by immunofluorescence assay,True,False,False
+6SUO,LVH,CHEMBL4447306,CHEMBL4304838,CHEMBL4308796,1,9.4,Displacement of fluorescent labelled fluormone ES2 from human recombinant GST tagged ER alpha LBD ( 282 to 595 residues) expressed in baculovirus infected insect cells measured after 20 mins by TR-FRET Lanthascreen assay,False,False,False
+6SUO,LVH,CHEMBL4447306,CHEMBL4304838,CHEMBL4308797,1,8.9,Induction of ERalpha degradation in human MCF7 cells assessed as downregulation of ER alpha receptor expression measured after 18 to 22 hrs by immunofluorescence assay,True,False,False
+6WOK,U6D,CHEMBL4528514,CHEMBL4616717,CHEMBL4619351,1,9.72,Induction of ERalpha degradation in human MCF7 cells after 4 hrs by FITC/Hoechst staining based immunofluorescence imaging analysis,True,False,False
+6ZOQ,QNE,CHEMBL4742862,CHEMBL4673245,CHEMBL4676155,1,8.1,Displacement of fluormone ES2 green reagent from human GST-tagged ERalpha LBD (282 to 595 residues) expressed in baculovirus infected insect cells incubated for 1 hrs by TR-FRET Lanthascreen assay,False,False,False
+6ZOQ,QNE,CHEMBL4742862,CHEMBL4673245,CHEMBL4676154,1,9.5,Induction of ERalpha degradation in human MCF7 cells assessed as decrease in ER-alpha level incubated for 18 to 24 hrs by Alexa fluor 488/Hoechst staining based immunofluorescence imaging analysis,True,False,False
+6ZOS,QNK,CHEMBL4759607,CHEMBL4673245,CHEMBL4676155,1,8.2,Displacement of fluormone ES2 green reagent from human GST-tagged ERalpha LBD (282 to 595 residues) expressed in baculovirus infected insect cells incubated for 1 hrs by TR-FRET Lanthascreen assay,False,False,False
+6ZOS,QNK,CHEMBL4759607,CHEMBL4673245,CHEMBL4676154,1,9.2,Induction of ERalpha degradation in human MCF7 cells assessed as decrease in ER-alpha level incubated for 18 to 24 hrs by Alexa fluor 488/Hoechst staining based immunofluorescence imaging analysis,True,False,False
+7MSA,ZNM,CHEMBL4650316,CHEMBL4825708,CHEMBL4827352,1,10.3,Antagonist activity at estrogen receptor in human T47D cells incubated for 18 hrs by ultra high sensitivity luminescence reporter gene assay,False,True,False
+7QVJ,H09,CHEMBL5400637,CHEMBL5380788,CHEMBL5381568,1,9.1,Binding affinity to ERalpha (unknown origin) by LanthaScreen TR-FRET competitive binding assay,False,False,False
+7QVJ,H09,CHEMBL5400637,CHEMBL5380788,CHEMBL5381569,1,10.5,Induction of ERalpha degradation in human MCF7 cells assessed as downregulation of ERaplha by multiplexed assay,True,False,False
+7QVL,GZI,CHEMBL5426983,CHEMBL5380788,CHEMBL5381568,1,8.8,Binding affinity to ERalpha (unknown origin) by LanthaScreen TR-FRET competitive binding assay,False,False,False
+7QVL,GZI,CHEMBL5426983,CHEMBL5380788,CHEMBL5381569,1,9.4,Induction of ERalpha degradation in human MCF7 cells assessed as downregulation of ERaplha by multiplexed assay,True,False,False
+7QVL,GZI,CHEMBL5426983,CHEMBL5380788,CHEMBL5381619,1,9.8,Induction of ERalpha degradation in human MCF7 cells assessed as downregulation of ERaplha in presence of cycloheximide,True,False,False
+7QVL,GZI,CHEMBL5426983,CHEMBL5380788,CHEMBL5381620,1,7.6,Induction of ERalpha degradation in human MCF7 cells assessed as reduction in potency in presence of tamoxifen,True,False,False
+7RKE,5VP,CHEMBL5173390,CHEMBL5120928,CHEMBL5125510,1,7.32,Agonist activity at RST7-ERalpha (unknown origin) co-expressed with (ERE)TK-luciferase reporter plasmid transfected in human HepG2 cells incubated for 24 hrs by Renilla luciferase based reporter assay,False,False,True
+7RKE,5VP,CHEMBL5173390,CHEMBL5120928,CHEMBL5125509,1,7.96,Binding affinity to ERalpha (unknown origin) co-expressed wih Gal4-alphaII-VP16 transfected in human HepG2 cells incubated for 24 hrs by LiSA assay,False,False,False
+7RKE,5VP,CHEMBL5173390,CHEMBL5120928,CHEMBL5125508,1,7.19,Displacement of 3H-E2 from ERalpha in human MCF7 incubated for 2 hrs by competition binding assay,False,False,False
+7Y8F,IC7,CHEMBL5405944,CHEMBL5325416,CHEMBL5326439,1,6.48,Antagonist activity against ERalpha in estradiol stimulated HEK293T cells measuring luciferase activity after 24 hrs by luciferase reporter assay,False,True,False
+7Y8F,IC7,CHEMBL5405944,CHEMBL5325416,CHEMBL5326431,1,6.92,Binding affinity to ERalpha (unknown origin) assessed as inhibition constant,False,False,False
+7Y8G,IAT,CHEMBL5394546,CHEMBL5325416,CHEMBL5326431,1,7.11,Binding affinity to ERalpha (unknown origin) assessed as inhibition constant,False,False,False

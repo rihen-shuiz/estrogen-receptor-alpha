@@ -1,0 +1,422 @@
+{
+ "n_tests": {
+  "(a) chain": {
+   "size": 16,
+   "sum": 16
+  },
+  "(a) entry": {
+   "size": 16,
+   "sum": 16
+  },
+  "(b) chain": {
+   "size": 256,
+   "sum": 208
+  },
+  "(b) entry": {
+   "size": 256,
+   "sum": 208
+  }
+ },
+ "entry_groups": {
+  "cl7": 219,
+  "cl4": 124,
+  "mixed": 8
+ },
+ "a_separates_both_levels": [
+  "ulen_H3",
+  "ulen_H9",
+  "ulen_H1011",
+  "ulen_H12",
+  "angle_H12_H3_deg",
+  "angle_H12_H11_deg",
+  "angle_H12_H45_deg",
+  "angle_H11_H3_deg",
+  "dist_H12c_H3axis_A",
+  "dist_H12c_H11axis_A",
+  "kink_H11_deg",
+  "hinge_H11C_H12_deg"
+ ],
+ "a_not_separating": [
+  "ulen_H1",
+  "ulen_H45",
+  "ulen_H7",
+  "ulen_H8"
+ ],
+ "b_comparisons": 256,
+ "b_tested_both_levels": 208,
+ "b_q_lt_005_both": 43,
+ "b_meets_default": 37,
+ "b_hits": [
+  {
+   "cluster": "cl7",
+   "descriptor": "ulen_H1",
+   "covariate": "mut_Y537S",
+   "effect_chain": -0.4540123456790124,
+   "effect_entry": -0.3385714285714285,
+   "q_chain": 4.150107884835401e-05,
+   "q_entry": 0.013898090802559037,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "ulen_H3",
+   "covariate": "ligand_carboxylic_acid",
+   "effect_chain": 0.5636998254799301,
+   "effect_entry": 0.7004950495049505,
+   "q_chain": 9.55925550132173e-13,
+   "q_entry": 0.005514146449312569,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "ulen_H3",
+   "covariate": "mut_Y537S",
+   "effect_chain": -0.3118755118755119,
+   "effect_entry": -0.4324238578680203,
+   "q_chain": 8.861520306042438e-05,
+   "q_entry": 0.01677803990109221,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "ulen_H9",
+   "covariate": "mut_Y537S",
+   "effect_chain": -0.49950347567030784,
+   "effect_entry": -0.5570362473347548,
+   "q_chain": 0.000500589822645266,
+   "q_entry": 0.005514146449312569,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "ulen_H9",
+   "covariate": "mut_other",
+   "effect_chain": 0.7736006683375105,
+   "effect_entry": 0.7902097902097902,
+   "q_chain": 5.151954886600987e-45,
+   "q_entry": 0.01511320064052978,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "angle_H12_H3_deg",
+   "covariate": "mut_Y537S",
+   "effect_chain": -0.5593421247592236,
+   "effect_entry": -0.566065622228791,
+   "q_chain": 1.3810629555498986e-06,
+   "q_entry": 0.0015141150297654192,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "angle_H12_H11_deg",
+   "covariate": "ligand_carboxylic_acid",
+   "effect_chain": -0.5475142624286878,
+   "effect_entry": -0.6625615763546798,
+   "q_chain": 1.2508493136499837e-05,
+   "q_entry": 0.006576105942786304,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "angle_H12_H11_deg",
+   "covariate": "peptide_bound",
+   "effect_chain": 0.5286699507389163,
+   "effect_entry": 0.5165048543689321,
+   "q_chain": 0.0013078151170874924,
+   "q_entry": 0.029839023520704607,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "angle_H12_H11_deg",
+   "covariate": "mut_Y537S",
+   "effect_chain": 0.9103570899392504,
+   "effect_entry": 0.9361513449600947,
+   "q_chain": 4.509768843534331e-82,
+   "q_entry": 8.07126313058665e-09,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "angle_H12_H11_deg",
+   "covariate": "mut_D538G",
+   "effect_chain": -0.9730679156908665,
+   "effect_entry": -0.9813084112149533,
+   "q_chain": 1.7346499997378851e-183,
+   "q_entry": 0.006576105942786304,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "angle_H12_H45_deg",
+   "covariate": "mut_Y537S",
+   "effect_chain": -0.606015706030523,
+   "effect_entry": -0.5849837422406148,
+   "q_chain": 1.1874615122166966e-12,
+   "q_entry": 0.0009467417139998529,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "dist_H12c_H3axis_A",
+   "covariate": "mut_Y537S",
+   "effect_chain": 0.7058823529411764,
+   "effect_entry": 0.9101389299438369,
+   "q_chain": 2.4578598203390035e-09,
+   "q_entry": 1.6987848446264593e-08,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "kink_H11_deg",
+   "covariate": "ligand_heavy_atoms",
+   "effect_chain": -0.5396743060369631,
+   "effect_entry": -0.6344790893832928,
+   "q_chain": 1.5607906038507727e-33,
+   "q_entry": 9.410197820712433e-24,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "kink_H11_deg",
+   "covariate": "ligand_carboxylic_acid",
+   "effect_chain": -0.5992063492063492,
+   "effect_entry": -0.5684210526315789,
+   "q_chain": 1.8371529185386317e-06,
+   "q_entry": 0.014438309251984112,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "kink_H11_deg",
+   "covariate": "mut_Y537S",
+   "effect_chain": -0.40209876543209877,
+   "effect_entry": -0.35,
+   "q_chain": 0.005175669450868804,
+   "q_entry": 0.03977351122237958,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "hinge_H11C_H12_deg",
+   "covariate": "ligand_heavy_atoms",
+   "effect_chain": -0.33997786977612177,
+   "effect_entry": -0.4652815405085907,
+   "q_chain": 5.029679919206702e-09,
+   "q_entry": 1.0264592260951592e-10,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "hinge_H11C_H12_deg",
+   "covariate": "ligand_carboxylic_acid",
+   "effect_chain": -0.5960880195599022,
+   "effect_entry": -0.6613300492610837,
+   "q_chain": 8.689042505127014e-07,
+   "q_entry": 0.006576105942786304,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "hinge_H11C_H12_deg",
+   "covariate": "mut_Y537S",
+   "effect_chain": 0.7331456512075862,
+   "effect_entry": 0.781259237363287,
+   "q_chain": 2.4555961397915826e-36,
+   "q_entry": 2.1377318241995903e-06,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl7",
+   "descriptor": "hinge_H11C_H12_deg",
+   "covariate": "mut_D538G",
+   "effect_chain": -0.9063231850117096,
+   "effect_entry": -0.9672897196261683,
+   "q_chain": 1.9164661564497925e-152,
+   "q_entry": 0.012355579316285009,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "ulen_H3",
+   "covariate": "ligand_basic_amine",
+   "effect_chain": -0.3539459745762712,
+   "effect_entry": -0.3766346992153444,
+   "q_chain": 0.0013902448977376137,
+   "q_entry": 0.013124602425851674,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "ulen_H3",
+   "covariate": "mut_L536S",
+   "effect_chain": 0.4910877192982457,
+   "effect_entry": 0.5425278219395866,
+   "q_chain": 1.2324095891569654e-05,
+   "q_entry": 7.0509839917229e-05,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "ulen_H3",
+   "covariate": "mut_other",
+   "effect_chain": 0.45855263157894743,
+   "effect_entry": 0.46104725415070247,
+   "q_chain": 0.0008585592517776643,
+   "q_entry": 0.012441542547931124,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "ulen_H1011",
+   "covariate": "mut_L536S",
+   "effect_chain": 0.4131205673758864,
+   "effect_entry": 0.3585081585081584,
+   "q_chain": 2.9105945789592277e-05,
+   "q_entry": 0.01677803990109221,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "ulen_H1011",
+   "covariate": "mut_other",
+   "effect_chain": 0.42538000921234453,
+   "effect_entry": 0.4641768292682926,
+   "q_chain": 0.005658688017857569,
+   "q_entry": 0.015594305529149505,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "ulen_H12",
+   "covariate": "ligand_carboxylic_acid",
+   "effect_chain": 0.39787798408488073,
+   "effect_entry": 0.5513513513513513,
+   "q_chain": 0.03796822999898003,
+   "q_entry": 0.012441542547931124,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "ulen_H12",
+   "covariate": "mut_L536S",
+   "effect_chain": -0.45387205387205387,
+   "effect_entry": -0.4522417153996101,
+   "q_chain": 0.0007799714616324247,
+   "q_entry": 0.0027839853352537875,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "angle_H12_H3_deg",
+   "covariate": "mut_L536S",
+   "effect_chain": 0.5951439864483343,
+   "effect_entry": 0.6133254015466985,
+   "q_chain": 2.8661482265040577e-13,
+   "q_entry": 8.384336496314779e-07,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "angle_H12_H3_deg",
+   "covariate": "mut_other",
+   "effect_chain": 0.5766546329723226,
+   "effect_entry": 0.5538290788013318,
+   "q_chain": 1.0010031067296143e-06,
+   "q_entry": 0.0029933790852871727,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "angle_H12_H11_deg",
+   "covariate": "ligand_basic_amine",
+   "effect_chain": 0.3915590863952334,
+   "effect_entry": 0.5103942652329749,
+   "q_chain": 4.706853665253491e-06,
+   "q_entry": 0.0004827288926276181,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "angle_H12_H45_deg",
+   "covariate": "ligand_basic_amine",
+   "effect_chain": -0.31449851042701094,
+   "effect_entry": -0.39856630824372763,
+   "q_chain": 0.0004444352875510044,
+   "q_entry": 0.008238060821833263,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "angle_H12_H45_deg",
+   "covariate": "mut_L536S",
+   "effect_chain": -0.627442123094297,
+   "effect_entry": -0.6918500892325996,
+   "q_chain": 3.864542400602933e-13,
+   "q_entry": 1.6987848446264593e-08,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "angle_H12_H45_deg",
+   "covariate": "mut_other",
+   "effect_chain": -0.4113116726835139,
+   "effect_entry": -0.48057713651498335,
+   "q_chain": 0.019509155831134852,
+   "q_entry": 0.01134417991804893,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "angle_H11_H3_deg",
+   "covariate": "ligand_heavy_atoms",
+   "effect_chain": 0.48385468811043286,
+   "effect_entry": 0.5491546926440058,
+   "q_chain": 4.647651090036547e-14,
+   "q_entry": 1.3314106473867438e-09,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "angle_H11_H3_deg",
+   "covariate": "peptide_bound",
+   "effect_chain": -0.9646153846153847,
+   "effect_entry": -0.9893333333333333,
+   "q_chain": 2.3710442127625487e-80,
+   "q_entry": 0.018569941228823078,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "dist_H12c_H11axis_A",
+   "covariate": "ligand_heavy_atoms",
+   "effect_chain": 0.38078047646752233,
+   "effect_entry": 0.4790458011919518,
+   "q_chain": 3.651199578332735e-05,
+   "q_entry": 6.185142217126463e-07,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "dist_H12c_H11axis_A",
+   "covariate": "ligand_basic_amine",
+   "effect_chain": -0.3041708043694141,
+   "effect_entry": -0.31182795698924726,
+   "q_chain": 0.0062299637284175344,
+   "q_entry": 0.04549080043457574,
+   "same_sign": true
+  },
+  {
+   "cluster": "cl4",
+   "descriptor": "kink_H11_deg",
+   "covariate": "ligand_basic_amine",
+   "effect_chain": 0.3182621874210658,
+   "effect_entry": 0.365234375,
+   "q_chain": 0.0051958480433055565,
+   "q_entry": 0.013124602425851674,
+   "same_sign": true
+  }
+ ],
+ "verdict": "more sensitive than RMSD: ulen_H1 x mut_Y537S in cl7; ulen_H3 x ligand_carboxylic_acid in cl7; ulen_H3 x mut_Y537S in cl7; ulen_H9 x mut_Y537S in cl7; ulen_H9 x mut_other in cl7; angle_H12_H3_deg x mut_Y537S in cl7; angle_H12_H11_deg x ligand_carboxylic_acid in cl7; angle_H12_H11_deg x peptide_bound in cl7; angle_H12_H11_deg x mut_Y537S in cl7; angle_H12_H11_deg x mut_D538G in cl7; angle_H12_H45_deg x mut_Y537S in cl7; dist_H12c_H3axis_A x mut_Y537S in cl7; kink_H11_deg x ligand_heavy_atoms in cl7; kink_H11_deg x ligand_carboxylic_acid in cl7; kink_H11_deg x mut_Y537S in cl7; hinge_H11C_H12_deg x ligand_heavy_atoms in cl7; hinge_H11C_H12_deg x ligand_carboxylic_acid in cl7; hinge_H11C_H12_deg x mut_Y537S in cl7; hinge_H11C_H12_deg x mut_D538G in cl7; ulen_H3 x ligand_basic_amine in cl4; ulen_H3 x mut_L536S in cl4; ulen_H3 x mut_other in cl4; ulen_H1011 x mut_L536S in cl4; ulen_H1011 x mut_other in cl4; ulen_H12 x ligand_carboxylic_acid in cl4; ulen_H12 x mut_L536S in cl4; angle_H12_H3_deg x mut_L536S in cl4; angle_H12_H3_deg x mut_other in cl4; angle_H12_H11_deg x ligand_basic_amine in cl4; angle_H12_H45_deg x ligand_basic_amine in cl4; angle_H12_H45_deg x mut_L536S in cl4; angle_H12_H45_deg x mut_other in cl4; angle_H11_H3_deg x ligand_heavy_atoms in cl4; angle_H11_H3_deg x peptide_bound in cl4; dist_H12c_H11axis_A x ligand_heavy_atoms in cl4; dist_H12c_H11axis_A x ligand_basic_amine in cl4; kink_H11_deg x ligand_basic_amine in cl4"
+}

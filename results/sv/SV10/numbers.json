@@ -1,0 +1,158 @@
+{
+ "n_ligands": 306,
+ "n_parsed": 306,
+ "n_unparsed": 0,
+ "unparsed": [],
+ "smiles_column_counts": {
+  "canonical_isomeric_smiles": 306
+ },
+ "heavy_atoms_rdkit_equal_y09": 306,
+ "ligand_group_counts": {
+  "cl7": 192,
+  "cl4": 104,
+  "mixed cl7/cl4": 6,
+  "none": 2,
+  "minor": 2
+ },
+ "n_ligands_compared": {
+  "cl7": 192,
+  "cl4": 104
+ },
+ "n_ligands_with_pchembl": 82,
+ "n_ligands_with_pchembl_compared": {
+  "cl7": 27,
+  "cl4": 52
+ },
+ "n_potency_rows": 82,
+ "n_entries": 351,
+ "entry_group_counts": {
+  "cl7": 219,
+  "cl4": 124,
+  "minor": 4,
+  "mixed cl7/cl4": 4
+ },
+ "n_entries_without_ligand": 2,
+ "n_entries_multiple_ligands": 11,
+ "n_entries_ligand_tie": 9,
+ "entries_ligand_tie": [
+  "5KCF",
+  "5KCT",
+  "5KRA",
+  "5TLP",
+  "6DFN",
+  "6PET",
+  "7MSA",
+  "8EV1",
+  "9BPX"
+ ],
+ "n_entries_group_differs_from_ligand_group": 8,
+ "n_entries_compared": {
+  "cl7": 217,
+  "cl4": 124
+ },
+ "n_distinct_ligands_entry_level": 290,
+ "heavy_atoms_ligand": {
+  "cl7": {
+   "n": 192,
+   "median": 24.0,
+   "q1": 21.0,
+   "q3": 30.0
+  },
+  "cl4": {
+   "n": 104,
+   "median": 34.0,
+   "q1": 32.0,
+   "q3": 37.0
+  }
+ },
+ "heavy_atoms_entry": {
+  "cl7": {
+   "n": 217,
+   "median": 24.0,
+   "q1": 20.0,
+   "q3": 29.0
+  },
+  "cl4": {
+   "n": 124,
+   "median": 34.0,
+   "q1": 31.0,
+   "q3": 36.25
+  }
+ },
+ "heavy_atoms_mw_p": {
+  "ligand": 1.0511626238657887e-21,
+  "entry": 1.5051809467752293e-25
+ },
+ "n_parameters": 21,
+ "n_q_lt_005": {
+  "ligand": 16,
+  "entry": 17
+ },
+ "n_adj_q_lt_005": {
+  "ligand": 12,
+  "entry": 10
+ },
+ "adds_beyond_size": [
+  "hbd",
+  "hba",
+  "rotb",
+  "tpsa",
+  "qed_hbd",
+  "qed_psa",
+  "qed_rotb",
+  "qed_alerts",
+  "brenk_n",
+  "pains_n"
+ ],
+ "restates_size": [
+  "mw",
+  "clogp",
+  "lipinski_violations",
+  "veber_violations",
+  "qed",
+  "qed_mw",
+  "qed_alogp",
+  "qed_hba",
+  "qed_arom",
+  "le",
+  "lipe"
+ ],
+ "blocked": [],
+ "qed_property_n_equal": {
+  "qed_mw": 306,
+  "qed_alogp": 306,
+  "qed_hba": 250,
+  "qed_hbd": 306,
+  "qed_psa": 306,
+  "qed_rotb": 306
+ },
+ "qed_property_identical_to": {
+  "qed_mw": "mw",
+  "qed_alogp": "clogp",
+  "qed_hbd": "hbd",
+  "qed_psa": "tpsa",
+  "qed_rotb": "rotb"
+ },
+ "n_distinct_beyond_size": 7,
+ "n_ligands_brenk_ge1": 156,
+ "n_ligands_pains_ge1": 10,
+ "brenk_names_compared": {
+  "stilbene": 86,
+  "Sulfonic_acid_1": 28,
+  "Aliphatic_long_chain": 25,
+  "Michael_acceptor_1": 22,
+  "imine_1": 12,
+  "isolated_alkene": 9,
+  "oxime_1": 5,
+  "Oxygen-nitrogen_single_bond": 5,
+  "alkyl_halide": 3,
+  "iodine": 3
+ },
+ "pains_names_all": {
+  "indol_3yl_alk(461)": 8,
+  "anil_di_alk_C(246)": 1,
+  "anil_di_alk_D(198)": 1
+ },
+ "ligand_groups_recomputed_equal": 306,
+ "ligand_groups_total": 306
+}

@@ -1,0 +1,9 @@
+group,helix_name,helix_table_row,table_overlaps,start,end,length,run_start_before_trim,run_end_before_trim,n_low_support_inside,min_frac_alpha_H,mean_frac_alpha_H,min_frac_observing
+cl4,H1,AB4,AB4:10,312,321,10,312,321,0,0.9666,0.9967,1.0
+cl4,H3,AB5,AB5:20,342,361,20,342,361,0,0.9726,0.9982,0.997
+cl4,H4/5,AB7,AB7:23,372,394,23,372,394,0,0.9787,0.9971,0.997
+cl4,H7,AB9,AB9:16,422,437,16,422,437,0,0.936,0.9935,0.997
+cl4,H8,AC1,AC1:14,442,455,14,442,455,0,0.9818,0.9987,1.0
+cl4,H9,AC2,AC2:27,466,492,27,466,492,0,0.8842,0.9782,0.6717
+cl4,H10/11,AC3,AC3:29,497,525,29,497,525,0,0.8963,0.9959,0.997
+cl4,H12,AC4,AC4:8,537,544,8,537,544,0,0.8818,0.9748,0.9483

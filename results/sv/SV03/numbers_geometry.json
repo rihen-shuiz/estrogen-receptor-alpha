@@ -1,0 +1,218 @@
+{
+ "ranges": {
+  "H1": [
+   312,
+   321
+  ],
+  "H3": [
+   342,
+   361
+  ],
+  "H4/5": [
+   372,
+   394
+  ],
+  "H7": [
+   422,
+   437
+  ],
+  "H8": [
+   442,
+   455
+  ],
+  "H9": [
+   473,
+   492
+  ],
+  "H10/11": [
+   497,
+   526
+  ],
+  "H12": [
+   538,
+   547
+  ]
+ },
+ "halves": {
+  "H11N": [
+   497,
+   511
+  ],
+  "H11C": [
+   512,
+   526
+  ]
+ },
+ "h12_sensitivity_range": [
+  538,
+  544
+ ],
+ "n_chains": 788,
+ "groups": {
+  "cl7": 445,
+  "cl4": 329,
+  "minor": 14
+ },
+ "frame_max_abs_diff_A": 2.1316282072803006e-14,
+ "sv02_crosscheck": {
+  "H1": {
+   "status_equal": 788,
+   "start_end_equal": 788,
+   "start_censored_equal": 788,
+   "end_censored_equal": 788,
+   "n_helix": 788,
+   "n": 788
+  },
+  "H3": {
+   "status_equal": 788,
+   "start_end_equal": 788,
+   "start_censored_equal": 788,
+   "end_censored_equal": 788,
+   "n_helix": 788,
+   "n": 788
+  },
+  "H4/5": {
+   "status_equal": 788,
+   "start_end_equal": 788,
+   "start_censored_equal": 788,
+   "end_censored_equal": 788,
+   "n_helix": 788,
+   "n": 788
+  },
+  "H7": {
+   "status_equal": 788,
+   "start_end_equal": 788,
+   "start_censored_equal": 788,
+   "end_censored_equal": 788,
+   "n_helix": 788,
+   "n": 788
+  },
+  "H8": {
+   "status_equal": 788,
+   "start_end_equal": 788,
+   "start_censored_equal": 788,
+   "end_censored_equal": 788,
+   "n_helix": 788,
+   "n": 788
+  },
+  "H9": {
+   "status_equal": 788,
+   "start_end_equal": 788,
+   "start_censored_equal": 788,
+   "end_censored_equal": 788,
+   "n_helix": 788,
+   "n": 788
+  },
+  "H10/11": {
+   "status_equal": 788,
+   "start_end_equal": 788,
+   "start_censored_equal": 788,
+   "end_censored_equal": 788,
+   "n_helix": 788,
+   "n": 788
+  },
+  "H12_w544": {
+   "status_equal": 788,
+   "start_end_equal": 761,
+   "start_censored_equal": 761,
+   "end_censored_equal": 761,
+   "n_helix": 761,
+   "n": 788
+  }
+ },
+ "axis_status": {
+  "H1": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  },
+  "H10/11": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  },
+  "H11C": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  },
+  "H11N": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  },
+  "H12": {
+   "no axis: < 6 observed helical CA": 40,
+   "ok": 748
+  },
+  "H12_w544": {
+   "no axis: < 6 observed helical CA": 40,
+   "ok": 748
+  },
+  "H3": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  },
+  "H4/5": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  },
+  "H7": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  },
+  "H8": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  },
+  "H9": {
+   "no axis: < 6 observed helical CA": 0,
+   "ok": 788
+  }
+ },
+ "n_h12_axis": 748,
+ "h12_axis_n_ca_by_group": {
+  "cl4": {
+   "6": 34,
+   "7": 166,
+   "8": 84,
+   "9": 6,
+   "10": 17
+  },
+  "cl7": {
+   "6": 1,
+   "7": 28,
+   "8": 262,
+   "9": 82,
+   "10": 58
+  },
+  "minor": {
+   "6": 6,
+   "7": 2,
+   "8": 1,
+   "9": 1
+  }
+ },
+ "n_h12_map_points": 748,
+ "descriptor_n": {
+  "ulen_H1": 784,
+  "ulen_H3": 599,
+  "ulen_H45": 785,
+  "ulen_H7": 670,
+  "ulen_H8": 772,
+  "ulen_H9": 353,
+  "ulen_H1011": 615,
+  "ulen_H12": 510,
+  "ulen_H12_w544": 510,
+  "angle_H12_H3_deg": 748,
+  "angle_H12_H11_deg": 748,
+  "angle_H12_H45_deg": 748,
+  "angle_H11_H3_deg": 788,
+  "dist_H12c_H3axis_A": 748,
+  "dist_H12c_H11axis_A": 748,
+  "kink_H11_deg": 788,
+  "hinge_H11C_H12_deg": 748,
+  "angle_H12_H3_deg_w544": 748,
+  "angle_H12_H11_deg_w544": 748,
+  "angle_H12_H45_deg_w544": 748,
+  "dist_H12c_H3axis_A_w544": 748,
+  "dist_H12c_H11axis_A_w544": 748,
+  "hinge_H11C_H12_deg_w544": 748
+ }
+}

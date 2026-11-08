@@ -206,3 +206,25 @@ LANG log v1
 2026-10-25T02:29+05:00 | Y39 | DONE | who=opus | chk=2/2 | ev=run_all.sh,requirements-lock.txt | note=run_all.sh stages upstream/core/ext/docs in tracker dependency order; verification: 'bash run_all.sh ext' re-ran all 33 ext scripts and 111/111 files in results/ext are byte-identical (sha256) to before; first attempt stopped at ext_pymol_renders because PYTHONPATH used ':' (Windows Python needs ';') - fixed by taking os.pathsep from the interpreter, remaining 4 scripts then completed; requirements-lock.txt pins 19 packages + external PyMOL 3.1.0 / P2Rank 2.5.1; core/upstream stages not re-run here (they rewrite frozen outputs)
 2026-10-25T02:29+05:00 | Y40 | DONE | who=opus | chk=2/2 | ev=scripts/check_evidence_ext.py,docs/EVIDENCE_EXT.md | note=34 final-run tasks: independent recount of each logged claim (Y05, Y23, Y26, Y42 recomputed from the frozen matrix) + tl.py check: all 34 PASS/MATCH; note Y42 full-recompute difference vs S04 is 5e-12 A (float noise; the log said 0.0 at 3 decimals)
 2026-10-25T02:29+05:00 | Y41 | DONE | who=opus | chk=2/2 | ev=final_pack_20261025.zip,docs/MANIFEST_final.csv,scripts/make_final_pack.py | note=final pack: docs (gallery, interactive HTML, INDEX, METHODOLOGY, RESULTS_SUMMARY, EXPLORATION, HUMAN_STEPS, EVIDENCE_EXT), all figures (PNG+SVG), result CSV/JSON + key matrices, scripts, esr_analysis code/config, tracker, run_all.sh, requirements-lock; MANIFEST with sha256; bulk re-downloadable data left out
+2026-11-08T17:04+05:00 | W17 | MANUAL | who=opus | ev=docs/supervisor_feedback.md | note=feedback of the 2026-10-28 meeting written verbatim (RUN_SV1028 PRE); human to confirm the presentation and log DONE --who human
+2026-11-08T17:31+05:00 | SV00 | DONE | who=opus | chk=3/3 | ev=results/sv/SV00/chain_table.csv,results/sv/SV00/observed_mask.npy,results/sv/SV00/SUMMARY.md,data/sv/manifest.csv
+2026-11-08T17:38+05:00 | SV01a | DONE | who=opus | chk=3/3 | ev=results/sv/SV01a/model_blocks.csv,results/sv/SV01a/verdict.md,results/sv/SV01a/SUMMARY.md
+2026-11-08T17:44+05:00 | SV06 | DONE | who=opus | chk=2/2 | ev=results/sv/SV06/outliers_on_map.csv,results/sv/SV06/verdict.md,results/sv/SV06/SUMMARY.md
+2026-11-08T17:47+05:00 | SV10 | DONE | who=opus | chk=2/2 | ev=results/sv/SV10/ligand_druglikeness.csv,results/sv/SV10/druglikeness_by_group.csv,results/sv/SV10/SUMMARY.md
+2026-11-08T17:53+05:00 | SV11 | DONE | who=opus | chk=2/2 | ev=results/sv/SV11/pocket_labels.csv,results/sv/SV11/site_tests.csv,results/sv/SV11/ligand_steroid.csv,results/sv/SV11/SUMMARY.md
+2026-11-08T18:00+05:00 | SV02 | DONE | who=opus | chk=4/4 | ev=results/sv/SV02/sse_per_position.csv,results/sv/SV02/rama_summary.csv,results/sv/SV02/h12_window.md,results/sv/SV02/SUMMARY.md
+2026-11-08T18:07+05:00 | SV01b | DONE | who=opus | chk=3/3 | ev=results/sv/SV01b/model_blocks.csv,results/sv/SV01b/verdict.md,results/sv/SV01b/SUMMARY.md,scripts/sv/common/lattice_contacts.py
+2026-11-08T18:14+05:00 | SV03 | DONE | who=opus | chk=2/2 | ev=results/sv/SV03/geometry_per_chain.csv,results/sv/SV03/tests.csv,results/sv/SV03/SUMMARY.md
+2026-11-08T18:20+05:00 | SV04 | DONE | who=opus | chk=2/2 | ev=results/sv/SV04/midpoints.csv,results/sv/SV04/validation_error.csv,results/sv/SV04/partial_h12_assignment.csv,results/sv/SV04/SUMMARY.md
+2026-11-08T18:24+05:00 | SV05 | DONE | who=opus | chk=2/2 | ev=results/sv/SV05/core_v4.json,results/sv/SV05/spread.csv,results/sv/SV05/ari.csv,results/sv/SV05/SUMMARY.md
+2026-11-08T18:32+05:00 | SV07 | DONE | who=opus | chk=2/2 | ev=results/sv/SV07/spikes.csv,results/sv/SV07/verdict.csv,results/sv/SV07/SUMMARY.md | note=sparse-sample verdict rule degenerate for cluster-mean spikes (see SUMMARY line 1)
+2026-11-08T18:36+05:00 | SV01c | DONE | who=opus | chk=1/1 | ev=results/sv/SV01c/SUMMARY.md,results/sv/SV01c/side_by_side.csv,results/sv/SV01c/verdict.md
+2026-11-08T18:51+05:00 | SV08 | DONE | who=opus | chk=1/1 | ev=docs/sv/literature.md,results/sv/SV08/SUMMARY.md
+2026-11-08T19:19+05:00 | SV12 | DONE | who=opus | chk=2/2 | ev=results/sv/SV12/action_class.csv,results/sv/SV12/ligand_ids.csv,results/sv/SV12/chembl_activities.csv,results/sv/SV12/SUMMARY.md
+2026-11-08T19:28+05:00 | SV14 | DONE | who=opus | chk=2/2 | ev=results/sv/SV14/pocket_per_chain.csv,results/sv/SV14/references.json,results/sv/SV14/SUMMARY.md
+2026-11-08T19:33+05:00 | SV15 | DONE | who=opus | chk=2/2 | ev=results/sv/SV15/affinity_per_ligand.csv,results/sv/SV15/assay_spread.csv,results/sv/SV15/SUMMARY.md
+2026-11-08T19:40+05:00 | SV13 | DONE | who=opus | chk=2/2 | ev=results/sv/SV13/class_by_cluster.csv,results/sv/SV13/tests.csv,results/sv/SV13/verdict.md,results/sv/SV13/SUMMARY.md
+2026-11-08T19:51+05:00 | SV08b | DONE | who=opus | chk=1/1 | ev=docs/sv/literature_class.md,results/sv/SV08b/SUMMARY.md
+2026-11-08T20:01+05:00 | SV09 | DONE | who=opus | chk=2/2 | ev=docs/RESULTS_SUMMARY.md,docs/limitations.md,results/sv/SV09/number_check.csv,results/sv/SV09/SUMMARY.md
+2026-11-08T20:25+05:00 | VIS1 | DONE | who=opus | chk=1/1 | ev=figures/panels/manifest.csv,results/sv/VIS1/SUMMARY.md
+2026-11-08T20:34+05:00 | VIS2 | DONE | who=opus | chk=1/1 | ev=visuals/INDEX.md,results/sv/VIS2/SUMMARY.md

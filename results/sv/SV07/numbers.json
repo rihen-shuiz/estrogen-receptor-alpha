@@ -1,0 +1,242 @@
+{
+ "gate_vs_s03_coords": {
+  "max_abs_diff_A": 3.552713678800501e-14,
+  "same_gaps": true
+ },
+ "y10_reproduction_max_abs_diff": 1.6431300764452317e-14,
+ "y10_reproduction_same_nan": true,
+ "y10_medoids": [
+  "5TM1|A|1",
+  "7UJ7|C|1"
+ ],
+ "residue_mapping_rows_vs_mask": {
+  "rows": 181829,
+  "mask_observed": 181829,
+  "mapped_and_masked": 181829
+ },
+ "n_chains_offset_flag": 11,
+ "chains_offset_flag": [
+  "6IAR|A|1",
+  "9VT5|A|1",
+  "9VT5|B|1",
+  "9VTU|A|1",
+  "9VTU|B|1",
+  "9W11|A|1",
+  "9W11|B|1",
+  "9W12|A|1",
+  "9W12|B|1",
+  "9W13|A|1",
+  "9W13|B|1"
+ ],
+ "n_unexplained_residues_305_550": 157,
+ "b_z_check_vs_SV01b": {
+  "n_compared": 13575,
+  "max_abs_diff": 8.881784197001252e-16,
+  "n_nan_mismatch": 0
+ },
+ "restricted_vs_y10": {
+  "max_abs_diff_d_mean_A": 1.6431300764452317e-14,
+  "n_positions_d_medoid_changed": 1,
+  "n_positions_d_medoid_defined_only_restricted": 38,
+  "positions_restricted_medoid_gt_1_outside_528_550_where_y10_nan": [
+   331,
+   332,
+   333,
+   334,
+   335,
+   336,
+   337,
+   338,
+   462,
+   463,
+   464,
+   465,
+   466,
+   467,
+   468,
+   470,
+   471
+  ],
+  "max_d_mean_entry_outside_528_550_A": 3.6025671215120134,
+  "positions_d_mean_entry_gt_1_outside_528_550": [
+   331,
+   332,
+   333,
+   334,
+   335,
+   336,
+   337,
+   338,
+   339,
+   340,
+   462,
+   464,
+   465,
+   466,
+   467,
+   468
+  ]
+ },
+ "n_entries_with_cl7_and_cl4_chains": 2,
+ "n_entries_cl7_or_cl4": 347,
+ "n_spikes": 19,
+ "spike_positions": [
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  397,
+  420,
+  459,
+  462,
+  464,
+  466,
+  467,
+  468
+ ],
+ "n_covariate_tests": 84,
+ "covariates_associated": [
+  [
+   331,
+   "ligand_chemotype",
+   0.014923847899568632,
+   0.0031722448419915293
+  ],
+  [
+   331,
+   "peptide_bound",
+   0.027831951856866335,
+   0.000143459353269043
+  ],
+  [
+   332,
+   "ligand_chemotype",
+   0.00013659049437480733,
+   4.250338841237531e-09
+  ],
+  [
+   334,
+   "dimer_partner_source",
+   1.2316499537200713e-05,
+   8.598946949775994e-05
+  ],
+  [
+   334,
+   "ligand_chemotype",
+   1.3547058710416903e-14,
+   2.6883307888061204e-12
+  ],
+  [
+   335,
+   "dimer_partner_source",
+   2.295736142289916e-07,
+   4.250338841237531e-09
+  ],
+  [
+   335,
+   "ligand_chemotype",
+   6.346352499001675e-08,
+   3.7294629861637165e-19
+  ],
+  [
+   336,
+   "dimer_partner_source",
+   1.8080673696717756e-08,
+   3.0298498859588696e-11
+  ],
+  [
+   336,
+   "ligand_chemotype",
+   1.2600047910138363e-07,
+   8.068005980279949e-22
+  ],
+  [
+   337,
+   "dimer_partner_source",
+   7.500455717318062e-08,
+   3.634304016117569e-08
+  ],
+  [
+   337,
+   "ligand_chemotype",
+   2.4755862530904234e-06,
+   1.4700674826095478e-19
+  ],
+  [
+   338,
+   "dimer_partner_source",
+   0.0003585558140709961,
+   7.369300402578927e-07
+  ],
+  [
+   338,
+   "ligand_chemotype",
+   0.0003585558140709961,
+   8.791313417623712e-13
+  ],
+  [
+   339,
+   "dimer_partner_source",
+   2.5532462321054505e-06,
+   1.178253348725801e-21
+  ],
+  [
+   339,
+   "ligand_chemotype",
+   0.0023769389823417556,
+   9.890513810140418e-09
+  ],
+  [
+   340,
+   "dimer_partner_source",
+   8.763812933925385e-06,
+   4.75084736310976e-19
+  ],
+  [
+   466,
+   "peptide_bound",
+   0.0026877540678801335,
+   0.034422829984416814
+  ],
+  [
+   467,
+   "dimer_partner_source",
+   8.87788629216534e-06,
+   0.037511952169430526
+  ],
+  [
+   467,
+   "peptide_bound",
+   3.3898105062581537e-09,
+   0.00031852473153096405
+  ],
+  [
+   468,
+   "dimer_partner_source",
+   5.187784383620962e-05,
+   0.040926420533905813
+  ],
+  [
+   468,
+   "peptide_bound",
+   1.0801303294538873e-08,
+   0.0003585558140709961
+  ]
+ ],
+ "verdict_counts_chain": {
+  "genuine loop difference": 14,
+  "driven by <= 3 entries": 5
+ },
+ "verdict_counts_entry": {
+  "genuine loop difference": 14,
+  "driven by <= 3 entries": 5
+ },
+ "n_levels_disagree": 0
+}

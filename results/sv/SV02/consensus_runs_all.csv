@@ -1,0 +1,30 @@
+group,run_start,run_end,run_length,start,end,length,trimmed_start,trimmed_end,status
+global,312,321,10,312,321,10,0,0,kept
+global,339,340,2,339,340,2,0,0,dropped: < 4 positions after trimming
+global,342,361,20,342,361,20,0,0,kept
+global,372,394,23,372,394,23,0,0,kept
+global,414,415,2,414,415,2,0,0,dropped: < 4 positions after trimming
+global,422,437,16,422,437,16,0,0,kept
+global,442,455,14,442,455,14,0,0,kept
+global,471,471,1,471,471,1,0,0,dropped: < 4 positions after trimming
+global,473,492,20,473,492,20,0,0,kept
+global,497,526,30,497,526,30,0,0,kept
+global,538,544,7,538,544,7,0,0,kept
+cl7,312,321,10,312,321,10,0,0,kept
+cl7,339,361,23,339,361,23,0,0,kept
+cl7,372,394,23,372,394,23,0,0,kept
+cl7,414,415,2,414,415,2,0,0,dropped: < 4 positions after trimming
+cl7,422,437,16,422,437,16,0,0,kept
+cl7,442,455,14,442,455,14,0,0,kept
+cl7,473,492,20,473,492,20,0,0,kept
+cl7,497,530,34,497,530,34,0,0,kept
+cl7,538,545,8,538,545,8,0,0,kept
+cl4,312,321,10,312,321,10,0,0,kept
+cl4,342,361,20,342,361,20,0,0,kept
+cl4,372,394,23,372,394,23,0,0,kept
+cl4,414,415,2,414,415,2,0,0,dropped: < 4 positions after trimming
+cl4,422,437,16,422,437,16,0,0,kept
+cl4,442,455,14,442,455,14,0,0,kept
+cl4,466,492,27,466,492,27,0,0,kept
+cl4,497,525,29,497,525,29,0,0,kept
+cl4,537,544,8,537,544,8,0,0,kept

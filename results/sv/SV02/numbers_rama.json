@@ -1,0 +1,65 @@
+{
+ "positions": [
+  537,
+  533,
+  534,
+  535,
+  536,
+  538,
+  539,
+  540,
+  329,
+  359,
+  457,
+  333,
+  467
+ ],
+ "y12_top_positions": [
+  537,
+  329,
+  359,
+  457
+ ],
+ "rows_phipsi": 181827,
+ "chains": 788,
+ "residues_with_phi": 179576,
+ "residues_with_psi": 179510,
+ "residues_with_both": 177265,
+ "peptide_links_observed": 179629,
+ "peptide_links_gt_2A": 2,
+ "check_537_psi": {
+  "cl7": {
+   "expected_psi": 157.0,
+   "psi_circular_mean": 156.63,
+   "abs_diff": 0.37,
+   "within_10": true
+  },
+  "cl4": {
+   "expected_psi": -47.0,
+   "psi_circular_mean": -46.82,
+   "abs_diff": 0.18,
+   "within_10": true
+  }
+ },
+ "check_537_pass": true,
+ "gemmi_check": {
+  "chains": [
+   "5TM1|A|1",
+   "7UJ7|C|1",
+   "7NFB|B|1",
+   "1A52|A|1",
+   "6IAR|A|1"
+  ],
+  "residues_compared": 1156,
+  "max_dphi": 8.176469738440005,
+  "max_dpsi": 11.18925205691616,
+  "residues_altloc_in_triplet": 55,
+  "max_dphi_no_altloc_in_triplet": 2.842170943040401e-14,
+  "max_dpsi_no_altloc_in_triplet": 2.842170943040401e-14,
+  "only_numpy_phi": 0,
+  "only_gemmi_phi": 0,
+  "only_numpy_psi": 0,
+  "only_gemmi_psi": 0
+ },
+ "mkdssp_comparison": "not possible: mkdssp not installed (docs/sv/env_pre.txt)"
+}

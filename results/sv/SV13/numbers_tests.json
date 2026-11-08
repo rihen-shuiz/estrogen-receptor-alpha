@@ -1,0 +1,298 @@
+{
+ "psi537": {
+  "cl7_circular_mean_psi537_deg": 156.4569872271355,
+  "n_cl7_chains_with_psi537": 435,
+  "n_cl7_chains": 445
+ },
+ "coverage_crosscheck_vs_SV12": {
+  "rows_compared": 56,
+  "chains_equal": 56,
+  "entries_equal": 56
+ },
+ "predictor_rebuild_check": {
+  "cl7": {
+   "n_chains": 445,
+   "columns_compared": [
+    "resolution_A",
+    "r_free",
+    "mean_b",
+    "ph",
+    "growth_temp_K",
+    "ambient_temp_K",
+    "p21",
+    "esr1_chains_asu",
+    "dimer_symmetry",
+    "ph_missing",
+    "growth_temp_K_missing",
+    "ambient_temp_K_missing",
+    "lattice_asu",
+    "lattice_sym",
+    "mut_Y537S",
+    "mut_L536S",
+    "mut_D538G",
+    "mut_other",
+    "peptide"
+   ],
+   "max_abs_diff_rebuilt_vs_model_data": 0.0
+  },
+  "cl4": {
+   "n_chains": 329,
+   "columns_compared": [
+    "resolution_A",
+    "r_free",
+    "mean_b",
+    "ph",
+    "growth_temp_K",
+    "ambient_temp_K",
+    "p21",
+    "esr1_chains_asu",
+    "dimer_symmetry",
+    "ph_missing",
+    "growth_temp_K_missing",
+    "ambient_temp_K_missing",
+    "lattice_asu",
+    "lattice_sym",
+    "mut_Y537S",
+    "mut_L536S",
+    "mut_D538G",
+    "mut_other",
+    "peptide"
+   ],
+   "max_abs_diff_rebuilt_vs_model_data": 0.0
+  }
+ },
+ "gate": [
+  {
+   "set": "primary",
+   "comparison": "C1_SERD_vs_SERM",
+   "part": "C1",
+   "stratum": "all",
+   "side_a": "SERD",
+   "chains_a": 9,
+   "entries_a": 4,
+   "side_b": "SERM",
+   "chains_b": 53.0,
+   "entries_b": 20.0,
+   "gate_pass": false,
+   "gate_reason": "SERD 4 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "primary",
+   "comparison": "C1_SERD_vs_SERM",
+   "part": "C1",
+   "stratum": "cl4",
+   "side_a": "SERD",
+   "chains_a": 9,
+   "entries_a": 4,
+   "side_b": "SERM",
+   "chains_b": 48.0,
+   "entries_b": 19.0,
+   "gate_pass": false,
+   "gate_reason": "SERD 4 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "primary",
+   "comparison": "C1_antagonist_vs_SERM",
+   "part": "C1",
+   "stratum": "all",
+   "side_a": "antagonist",
+   "chains_a": 0,
+   "entries_a": 0,
+   "side_b": "SERM",
+   "chains_b": 53.0,
+   "entries_b": 20.0,
+   "gate_pass": false,
+   "gate_reason": "antagonist 0 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "primary",
+   "comparison": "C1_antagonist_vs_SERM",
+   "part": "C1",
+   "stratum": "cl4",
+   "side_a": "antagonist",
+   "chains_a": 0,
+   "entries_a": 0,
+   "side_b": "SERM",
+   "chains_b": 48.0,
+   "entries_b": 19.0,
+   "gate_pass": false,
+   "gate_reason": "antagonist 0 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "primary",
+   "comparison": "C2a_partial_agonist_vs_agonist",
+   "part": "C2a",
+   "stratum": "cl7",
+   "side_a": "partial_agonist",
+   "chains_a": 0,
+   "entries_a": 0,
+   "side_b": "agonist",
+   "chains_b": 52.0,
+   "entries_b": 25.0,
+   "gate_pass": false,
+   "gate_reason": "partial_agonist 0 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "primary",
+   "comparison": "C2b_agonist_rho_dpX",
+   "part": "C2b",
+   "stratum": "cl7",
+   "side_a": "agonist with dpX",
+   "chains_a": 6,
+   "entries_a": 3,
+   "side_b": "",
+   "chains_b": NaN,
+   "entries_b": NaN,
+   "gate_pass": false,
+   "gate_reason": "agonist entries with a tested SV15 dpX: 3 < 5 (DES 2, J3Z 1; 25 agonist entries in cl7)",
+   "dpx_ligands": "DES:2;J3Z:1"
+  },
+  {
+   "set": "all",
+   "comparison": "C1_SERD_vs_SERM",
+   "part": "C1",
+   "stratum": "all",
+   "side_a": "SERD",
+   "chains_a": 9,
+   "entries_a": 4,
+   "side_b": "SERM",
+   "chains_b": 53.0,
+   "entries_b": 20.0,
+   "gate_pass": false,
+   "gate_reason": "SERD 4 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "all",
+   "comparison": "C1_SERD_vs_SERM",
+   "part": "C1",
+   "stratum": "cl4",
+   "side_a": "SERD",
+   "chains_a": 9,
+   "entries_a": 4,
+   "side_b": "SERM",
+   "chains_b": 48.0,
+   "entries_b": 19.0,
+   "gate_pass": false,
+   "gate_reason": "SERD 4 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "all",
+   "comparison": "C1_antagonist_vs_SERM",
+   "part": "C1",
+   "stratum": "all",
+   "side_a": "antagonist",
+   "chains_a": 0,
+   "entries_a": 0,
+   "side_b": "SERM",
+   "chains_b": 53.0,
+   "entries_b": 20.0,
+   "gate_pass": false,
+   "gate_reason": "antagonist 0 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "all",
+   "comparison": "C1_antagonist_vs_SERM",
+   "part": "C1",
+   "stratum": "cl4",
+   "side_a": "antagonist",
+   "chains_a": 0,
+   "entries_a": 0,
+   "side_b": "SERM",
+   "chains_b": 48.0,
+   "entries_b": 19.0,
+   "gate_pass": false,
+   "gate_reason": "antagonist 0 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "all",
+   "comparison": "C2a_partial_agonist_vs_agonist",
+   "part": "C2a",
+   "stratum": "cl7",
+   "side_a": "partial_agonist",
+   "chains_a": 0,
+   "entries_a": 0,
+   "side_b": "agonist",
+   "chains_b": 52.0,
+   "entries_b": 25.0,
+   "gate_pass": false,
+   "gate_reason": "partial_agonist 0 entries < 5",
+   "dpx_ligands": NaN
+  },
+  {
+   "set": "all",
+   "comparison": "C2b_agonist_rho_dpX",
+   "part": "C2b",
+   "stratum": "cl7",
+   "side_a": "agonist with dpX",
+   "chains_a": 6,
+   "entries_a": 3,
+   "side_b": "",
+   "chains_b": NaN,
+   "entries_b": NaN,
+   "gate_pass": false,
+   "gate_reason": "agonist entries with a tested SV15 dpX: 3 < 5 (DES 2, J3Z 1; 25 agonist entries in cl7)",
+   "dpx_ligands": "DES:2;J3Z:1"
+  }
+ ],
+ "comparison_verdicts": {
+  "all|C1_SERD_vs_SERM": "not testable",
+  "all|C1_antagonist_vs_SERM": "not testable",
+  "all|C2a_partial_agonist_vs_agonist": "not testable",
+  "all|C2b_agonist_rho_dpX": "not testable",
+  "primary|C1_SERD_vs_SERM": "not testable",
+  "primary|C1_antagonist_vs_SERM": "not testable",
+  "primary|C2a_partial_agonist_vs_agonist": "not testable",
+  "primary|C2b_agonist_rho_dpX": "not testable"
+ },
+ "n_tests_rows": 88,
+ "n_fitted": 0,
+ "n_not_testable": 88,
+ "c2b_agonist_chains_with_dpx_cl7": [
+  {
+   "chain_key": "3ERD|A|1",
+   "entry_id": "3ERD",
+   "ccd": "DES",
+   "dpx": 0.6275
+  },
+  {
+   "chain_key": "3ERD|B|1",
+   "entry_id": "3ERD",
+   "ccd": "DES",
+   "dpx": 0.6275
+  },
+  {
+   "chain_key": "3HM1|A|1",
+   "entry_id": "3HM1",
+   "ccd": "J3Z",
+   "dpx": -0.7775000000000003
+  },
+  {
+   "chain_key": "3HM1|B|1",
+   "entry_id": "3HM1",
+   "ccd": "J3Z",
+   "dpx": -0.7775000000000003
+  },
+  {
+   "chain_key": "4ZN7|A|1",
+   "entry_id": "4ZN7",
+   "ccd": "DES",
+   "dpx": 0.6275
+  },
+  {
+   "chain_key": "4ZN7|B|1",
+   "entry_id": "4ZN7",
+   "ccd": "DES",
+   "dpx": 0.6275
+  }
+ ],
+ "gate_min_entries": 5
+}

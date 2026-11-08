@@ -1,0 +1,14 @@
+# VIS1 SVG renderer check, 2026-11-08T20:25+0500
+rsvg-convert: not found
+inkscape: not found
+magick: not found
+convert: not found
+resvg: not found
+cairosvg: not found
+python cairosvg 2.9.1: import fails, no library called "cairo-2" was found (system libcairo missing)
+sips: /usr/bin/sips (macOS system tool)
+qlmanage: /usr/bin/qlmanage (macOS system tool)
+Google Chrome.app: present
+SVG twins under figures/: 85; with live <text> elements (matplotlib svg.fonttype 'none', scripts/ext_common.py): 85
+DejaVu Sans installed system-wide (font used in the SVG text): no
+Decision: method (b) needs cairosvg or rsvg-convert (step 4b); neither works here, so (b) is unavailable and every multi image without SV-script panels uses (c). sips/qlmanage/Chrome can rasterise SVG but are not named by the step and would substitute the missing DejaVu Sans font, so the render would not reproduce the original; not used (rule 1.5). The SVG is only read for the axes layout (top-level <g id='axes_N'> rectangles and text anchors) to place cuts in the PNG.

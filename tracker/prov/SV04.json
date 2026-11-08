@@ -1,0 +1,29 @@
+{
+ "task": "SV04",
+ "ts": "2026-11-08T18:20+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV04/midpoints.csv",
+   "size": 2317044,
+   "sha": "5da66b431a77bde4"
+  },
+  {
+   "path": "results/sv/SV04/validation_error.csv",
+   "size": 32992,
+   "sha": "1013e73be0e0b780"
+  },
+  {
+   "path": "results/sv/SV04/partial_h12_assignment.csv",
+   "size": 50152,
+   "sha": "5a4d114e6e0da4e7"
+  },
+  {
+   "path": "results/sv/SV04/SUMMARY.md",
+   "size": 13444,
+   "sha": "8be06d1192d639f6"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "n_chains": 788,
+ "n_entries": 351,
+ "chains_not_in_model": 0,
+ "crystal_frame": {
+  "standard": 350,
+  "standardized": 1
+ },
+ "own_peptide_agrees_with_SV00": 788,
+ "own_peptide_disagrees": [],
+ "own_peptide_source": {
+  "asu": 417,
+  "none": 369,
+  "symmetry": 2
+ },
+ "residues_528_550_found": 14340,
+ "residues_528_550_ca_observed_mask": 14336,
+ "found_not_ca_observed": [
+  "1UOM|A|1:547",
+  "3ERD|A|1:550",
+  "3ERD|B|1:550",
+  "5UFX|A|1:530"
+ ],
+ "ca_observed_not_found": [],
+ "chains_with_asu_contact": 359,
+ "chains_with_sym_contact": 614,
+ "seconds": 53.7
+}

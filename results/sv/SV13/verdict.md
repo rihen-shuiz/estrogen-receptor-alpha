@@ -1,0 +1,6 @@
+- C1 SERD vs SERM (H12 complete, fraction observed, mobility z; all chains and within cl4): **not testable** - SERD 4 entries (all in cl4) vs SERM 20 (19 in cl4); coverage gate needs >= 5 entries per side.
+- C1 antagonist vs SERM: **not testable** (0 antagonist entries in SV12). C2a partial agonist vs agonist within cl7: **not testable** (0 partial-agonist entries; 25 agonist entries in cl7).
+- C2b agonists vs dpX within cl7 (the VDR superagonist point): **not testable** (3 agonist entries with an SV15-tested dpX: DES 2, J3Z 1 entries; E2 is the reference and 4OH has an absolute value only).
+- So no class-H12 link can be stated: 0 of 22 comparison x stratum x outcome rows pass the gate (sensitivity set with connectivity_only rows: same counts, 69 added chains carry no class).
+- Drawn, not tested (panels, maps): chains with complete H12 538-547 agonist 53 of 55, SERM 19 of 53, SERD 5 of 9; classes follow the clusters (agonist 25 of 27 entries in cl7, SERM 19 of 20 and SERD 4 of 4 in cl4).
+- Crystal structures show H12 order and position (H12 disorder, H12 mobility), not receptor degradation or cellular activity; the classes are provisional ChEMBL-mechanism labels (SV12).

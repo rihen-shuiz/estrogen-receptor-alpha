@@ -1,0 +1,5 @@
+regenerated,frozen,byte_identical,rows_regenerated,rows_frozen,same_columns,max_abs_numeric_diff,numeric_columns_differing,text_cells_differing
+data/sv/lbd_extract/residue_mapping.csv,results/lbd_extract/residue_mapping.csv,True,222348,222348,True,0.0,,0
+data/sv/lbd_extract/receptor_chains.csv,results/lbd_extract/receptor_chains.csv,True,1666,1666,True,0.0,,0
+data/sv/lbd_extract/entries.csv,results/lbd_extract/entries.csv,False,526,526,True,7.105427357601002e-15,mean_B_factor_A2,0
+data/sv/lbd_chains.csv,results/lbd_chains.csv,False,987,987,True,1.4210854715202004e-14,mean_CA_B_A2,0

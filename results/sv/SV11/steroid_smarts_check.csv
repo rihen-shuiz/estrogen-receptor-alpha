@@ -1,0 +1,6 @@
+ligand_id,expected_match,observed_match,reason,passed
+EST,True,True,,True
+DES,False,False,,True
+GEN,False,False,,True
+OHT,False,False,,True
+RAL,False,False,,True

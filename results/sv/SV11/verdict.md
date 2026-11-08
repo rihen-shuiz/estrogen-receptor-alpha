@@ -1,0 +1,5 @@
+# SV11 verdict ([DEFAULT] site sets and labels; 'differs' = q < 0.05 at chain and entry level): the rank-1 P2Rank pocket is the ligand pocket in 788/788 chains, so cl7 and cl4 do not differ there (best probability median 0.92 vs 0.92, q 0.88 chain / 0.68 entry).
+- AF-2 groove: differs - a groove pocket in chains cl7 0.53 (234/445) vs cl4 0.02 (5/329); entries 0.72 vs 0.01 (q 5.1e-69 / 1.7e-44); P2Rank saw no peptide; in cl7, groove pockets occur in 234/414 peptide-bound chains and 0/31 without a peptide.
+- Dimer interface: differs - chains cl7 0.18 (81/445) vs cl4 0.31 (103/329); entries 0.29 vs 0.42 (q 0.0034 / 0.022); cl4 pockets rank better (median 3 vs 4, q 1.1e-22 / 2.1e-12).
+- Groove and dimer pockets are low-probability P2Rank pockets (median probability 0.010 and 0.013 vs 0.924 for the ligand pocket); the groove rank/probability contrasts rest on 5 cl4 chains in 4 entries.
+- Part B: steroid ring system in 23 of 306 ligands; ligands cl7 19/192 (0.10) vs cl4 4/104 (0.04), q 0.071; entries 41/217 (0.19) vs 5/124 (0.04), q 0.00011 (ring system only, no action class).

@@ -1,0 +1,24 @@
+{
+ "task": "SV03",
+ "ts": "2026-11-08T18:14+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV03/geometry_per_chain.csv",
+   "size": 896669,
+   "sha": "4da78c37f6ae53af"
+  },
+  {
+   "path": "results/sv/SV03/tests.csv",
+   "size": 192689,
+   "sha": "91b89c7788a767e0"
+  },
+  {
+   "path": "results/sv/SV03/SUMMARY.md",
+   "size": 17066,
+   "sha": "ecb68596c6b198c5"
+  }
+ ]
+}

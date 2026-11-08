@@ -1,0 +1,26 @@
+# PRE environment (RUN_SV1028), 2026-11-08 17:12 +0500
+Interpreter: Python 3.11.18 at .venv (uv-managed CPython); original run: Python 3.11.0, requirements-lock.txt
+Install source: public PyPI (Socket proxy unreachable without VPN); installed by the user from requirements-lock.txt (exact pins) + pydssp, cairosvg
+
+numpy          2.3.5
+pandas         3.0.6
+scipy          1.16.3
+scikit-learn   1.7.2
+statsmodels    0.15.0
+matplotlib     3.10.8
+gemmi          0.7.5
+rdkit          2026.09.1
+Pillow         12.2.0
+cairosvg       installed 2.9.1 but UNUSABLE: system library libcairo not found (no Homebrew/conda); VIS1 method (b) falls back to (c) PNG gutters
+pydssp         0.9.1
+biopython      1.88
+requests       2.34.2
+umap-learn     0.5.12
+seaborn        0.13.2
+
+mkdssp: not found; no conda/Homebrew on this machine -> SV02 uses the pydssp fallback (H/E/loop only, 3_10 and pi not available)
+rsvg-convert: not found
+conda: not found
+
+Network: files.rcsb.org HTTP 200; data.rcsb.org/graphql HTTP 200 ({"data":{"entry":{"rcsb_id":"5TM1"}}})
+Web search: available to the orchestrator (WebSearch/WebFetch tools)

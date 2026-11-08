@@ -1,0 +1,791 @@
+entry_id,auth_asym_id,label_asym_id,chain_key,chain_in_model,peptide_bound,peptide_auth_asym_id,peptide_source,peptide_contact_atoms,peptide_second_best_atoms,n_peptide_copies_in_contact,peptide_length,peptide_description,crystal_frame
+1A52,A,A,1A52|A|1,True,False,,none,0,0,0,,,standard
+1A52,B,B,1A52|B|1,True,False,,none,0,0,0,,,standard
+1ERE,A,A,1ERE|A|1,True,False,,none,0,0,0,,,standard
+1ERE,B,B,1ERE|B|1,True,False,,none,0,0,0,,,standard
+1ERE,C,C,1ERE|C|1,True,False,,none,0,0,0,,,standard
+1ERE,D,D,1ERE|D|1,True,False,,none,0,0,0,,,standard
+1ERE,E,E,1ERE|E|1,True,False,,none,0,0,0,,,standard
+1ERE,F,F,1ERE|F|1,True,False,,none,0,0,0,,,standard
+1ERR,A,A,1ERR|A|1,True,False,,none,0,0,0,,,standard
+1ERR,B,B,1ERR|B|1,True,False,,none,0,0,0,,,standard
+1G50,A,A,1G50|A|1,True,False,,none,0,0,0,,,standard
+1G50,B,B,1G50|B|1,True,False,,none,0,0,0,,,standard
+1G50,C,C,1G50|C|1,True,False,,none,0,0,0,,,standard
+1GWQ,A,A,1GWQ|A|1,True,True,C,asu,25,0,1,9.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+1GWQ,B,B,1GWQ|B|1,True,True,D,asu,20,0,1,9.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+1GWR,A,A,1GWR|A|1,True,True,C,asu,20,1,2,9.0,TRANSCRIPTION INTERMEDIARY FACTOR-2,standard
+1GWR,B,B,1GWR|B|1,True,True,D,asu,23,5,3,9.0,TRANSCRIPTION INTERMEDIARY FACTOR-2,standard
+1L2I,A,A,1L2I|A|1,True,True,C,asu,26,5,3,13.0,GLUCOCORTICOID RECEPTOR-INTERACTING PROTEIN 1,standard
+1L2I,B,B,1L2I|B|1,True,True,D,asu,21,17,3,13.0,GLUCOCORTICOID RECEPTOR-INTERACTING PROTEIN 1,standard
+1PCG,A,A,1PCG|A|1,True,True,E,asu,21,12,2,9.0,peptide inhibitor,standard
+1PCG,B,B,1PCG|B|1,True,True,F,asu,25,6,2,9.0,peptide inhibitor,standard
+1QKT,A,A,1QKT|A|1,True,False,,none,0,0,0,,,standard
+1QKU,A,A,1QKU|A|1,True,False,,none,0,0,0,,,standard
+1QKU,B,B,1QKU|B|1,True,False,,none,0,0,0,,,standard
+1QKU,C,C,1QKU|C|1,True,False,,none,0,0,0,,,standard
+1R5K,A,A,1R5K|A|1,True,False,,none,0,0,0,,,standard
+1R5K,B,B,1R5K|B|1,True,False,,none,0,0,0,,,standard
+1R5K,C,C,1R5K|C|1,True,False,,none,0,0,0,,,standard
+1SJ0,A,A,1SJ0|A|1,True,False,,none,0,0,0,,,standard
+1UOM,A,A,1UOM|A|1,True,False,,none,0,0,0,,,standard
+1X7E,A,A,1X7E|A|1,True,True,C,asu,27,8,3,13.0,steroid receptor coactivator-3,standard
+1X7E,B,B,1X7E|B|1,True,True,D,asu,27,10,3,13.0,steroid receptor coactivator-3,standard
+1X7R,A,A,1X7R|A|1,True,True,B,asu,24,16,2,13.0,steroid receptor coactivator-3,standard
+1XP1,A,A,1XP1|A|1,True,False,,none,0,0,0,,,standard
+1XP6,A,A,1XP6|A|1,True,False,,none,0,0,0,,,standard
+1XP9,A,A,1XP9|A|1,True,False,,none,0,0,0,,,standard
+1XPC,A,A,1XPC|A|1,True,False,,none,0,0,0,,,standard
+1XQC,A,A,1XQC|A|1,True,False,,none,0,0,0,,,standard
+1XQC,B,B,1XQC|B|1,True,False,,none,0,0,0,,,standard
+1XQC,C,C,1XQC|C|1,True,False,,none,0,0,0,,,standard
+1XQC,D,D,1XQC|D|1,True,False,,none,0,0,0,,,standard
+1YIM,A,A,1YIM|A|1,True,False,,none,0,0,0,,,standard
+1YIN,A,A,1YIN|A|1,True,False,,none,0,0,0,,,standard
+1ZKY,A,A,1ZKY|A|1,True,True,C,asu,28,3,2,13.0,Nuclear receptor coactivator 2,standard
+1ZKY,B,B,1ZKY|B|1,True,True,D,asu,25,24,4,13.0,Nuclear receptor coactivator 2,standard
+2AYR,A,A,2AYR|A|1,True,False,,none,0,0,0,,,standard
+2B1V,A,A,2B1V|A|1,True,True,C,asu,25,3,2,13.0,Nuclear receptor coactivator 2,standard
+2B1V,B,B,2B1V|B|1,True,True,D,symmetry,28,24,4,13.0,Nuclear receptor coactivator 2,standard
+2B1Z,A,A,2B1Z|A|1,True,True,C,asu,32,2,2,13.0,Nuclear receptor coactivator 2,standard
+2B1Z,B,B,2B1Z|B|1,True,True,D,asu,24,20,3,13.0,Nuclear receptor coactivator 2,standard
+2B23,A,A,2B23|A|1,True,True,C,asu,28,10,3,13.0,Nuclear receptor coactivator 2,standard
+2B23,B,B,2B23|B|1,True,True,D,asu,26,5,3,13.0,Nuclear receptor coactivator 2,standard
+2BJ4,A,A,2BJ4|A|1,True,True,C,asu,49,1,2,11.0,PEPTIDE ANTAGONIST,standard
+2BJ4,B,B,2BJ4|B|1,True,True,D,asu,49,1,2,11.0,PEPTIDE ANTAGONIST,standard
+2FAI,A,A,2FAI|A|1,True,True,C,asu,22,6,3,13.0,Nuclear receptor coactivator 2,standard
+2FAI,B,B,2FAI|B|1,True,True,D,asu,23,16,4,13.0,Nuclear receptor coactivator 2,standard
+2G44,A,A,2G44|A|1,True,True,C,asu,25,6,3,13.0,Nuclear receptor coactivator 2,standard
+2G44,B,B,2G44|B|1,True,True,D,asu,25,14,3,13.0,Nuclear receptor coactivator 2,standard
+2G5O,A,A,2G5O|A|1,True,True,C,asu,24,1,2,13.0,Nuclear receptor coactivator 2,standard
+2G5O,B,B,2G5O|B|1,True,True,D,asu,24,16,4,13.0,Nuclear receptor coactivator 2,standard
+2I0J,A,A,2I0J|A|1,True,False,,none,0,0,0,,,standard
+2I0J,B,B,2I0J|B|1,True,False,,none,0,0,0,,,standard
+2I0J,C,C,2I0J|C|1,True,False,,none,0,0,0,,,standard
+2I0J,D,D,2I0J|D|1,True,False,,none,0,0,0,,,standard
+2IOG,A,A,2IOG|A|1,True,False,,none,0,0,0,,,standard
+2IOK,A,A,2IOK|A|1,True,False,,none,0,0,0,,,standard
+2IOK,B,B,2IOK|B|1,True,False,,none,0,0,0,,,standard
+2JF9,A,A,2JF9|A|1,True,True,P,asu,35,7,2,13.0,AB5 PEPTIDE,standard
+2JF9,B,B,2JF9|B|1,True,True,Q,asu,32,0,1,13.0,AB5 PEPTIDE,standard
+2JF9,C,C,2JF9|C|1,True,True,R,asu,30,7,3,13.0,AB5 PEPTIDE,standard
+2JFA,A,A,2JFA|A|1,True,True,P,asu,23,0,1,16.0,COREPRESSOR PEPTIDE,standard
+2JFA,B,B,2JFA|B|1,True,True,Q,asu,21,0,1,16.0,COREPRESSOR PEPTIDE,standard
+2OCF,A,A,2OCF|A|1,True,False,,none,0,0,0,,,standard
+2OUZ,A,A,2OUZ|A|1,True,False,,none,0,0,0,,,standard
+2P15,A,A,2P15|A|1,True,True,C,asu,34,2,2,13.0,GRIP peptide,standard
+2P15,B,B,2P15|B|1,True,True,D,asu,27,11,4,13.0,GRIP peptide,standard
+2POG,A,A,2POG|A|1,True,False,,none,0,0,0,,,standard
+2POG,B,B,2POG|B|1,True,False,,none,0,0,0,,,standard
+2Q6J,A,A,2Q6J|A|1,True,True,C,symmetry,23,21,4,13.0,GRIP peptide,standard
+2Q6J,B,B,2Q6J|B|1,True,True,D,asu,18,1,2,13.0,GRIP peptide,standard
+2Q70,A,A,2Q70|A|1,True,False,,none,0,0,0,,,standard
+2Q70,B,B,2Q70|B|1,True,False,,none,0,0,0,,,standard
+2QA6,A,A,2QA6|A|1,True,True,C,asu,25,0,1,13.0,nuclear receptor coactivator 2,standard
+2QA6,B,B,2QA6|B|1,True,True,D,asu,23,18,3,13.0,nuclear receptor coactivator 2,standard
+2QA8,A,A,2QA8|A|1,True,True,C,asu,27,10,3,13.0,nuclear receptor coactivator 2,standard
+2QA8,B,B,2QA8|B|1,True,True,D,asu,26,0,1,13.0,nuclear receptor coactivator 2,standard
+2QAB,A,A,2QAB|A|1,True,True,C,asu,28,3,2,13.0,nuclear receptor coactivator 2,standard
+2QAB,B,B,2QAB|B|1,True,True,D,asu,25,9,4,13.0,nuclear receptor coactivator 2,standard
+2QE4,A,A,2QE4|A|1,True,False,,none,0,0,0,,,standard
+2QE4,B,B,2QE4|B|1,True,False,,none,0,0,0,,,standard
+2QGT,A,A,2QGT|A|1,True,True,C,asu,29,15,4,13.0,Nuclear receptor coactivator 2,standard
+2QGT,B,B,2QGT|B|1,True,True,D,asu,30,8,2,13.0,Nuclear receptor coactivator 2,standard
+2QGW,A,A,2QGW|A|1,True,True,C,asu,26,3,2,13.0,Nuclear receptor coactivator 2,standard
+2QGW,B,B,2QGW|B|1,True,True,D,asu,27,4,3,13.0,Nuclear receptor coactivator 2,standard
+2QH6,A,A,2QH6|A|1,True,True,C,asu,26,0,1,13.0,Nuclear receptor coactivator 2,standard
+2QH6,B,B,2QH6|B|1,True,True,D,asu,24,6,4,13.0,Nuclear receptor coactivator 2,standard
+2QR9,A,A,2QR9|A|1,True,True,C,asu,28,0,1,13.0,Nuclear receptor coactivator 2,standard
+2QR9,B,B,2QR9|B|1,True,True,D,asu,32,13,3,13.0,Nuclear receptor coactivator 2,standard
+2QSE,A,A,2QSE|A|1,True,True,C,asu,30,0,1,13.0,Nuclear receptor coactivator 2,standard
+2QSE,B,B,2QSE|B|1,True,True,D,asu,31,16,3,13.0,Nuclear receptor coactivator 2,standard
+2QXM,A,A,2QXM|A|1,True,True,C,asu,28,2,2,13.0,Nuclear receptor coactivator 2,standard
+2QXM,B,B,2QXM|B|1,True,True,D,asu,29,16,3,13.0,Nuclear receptor coactivator 2,standard
+2QXS,A,A,2QXS|A|1,True,False,,none,0,0,0,,,standard
+2QXS,B,B,2QXS|B|1,True,False,,none,0,0,0,,,standard
+2QZO,A,A,2QZO|A|1,True,True,C,asu,28,1,2,13.0,Nuclear receptor coactivator 2,standard
+2QZO,B,B,2QZO|B|1,True,True,D,asu,34,18,4,13.0,Nuclear receptor coactivator 2,standard
+2R6W,A,A,2R6W|A|1,True,False,,none,0,0,0,,,standard
+2R6W,B,B,2R6W|B|1,True,False,,none,0,0,0,,,standard
+2R6Y,A,A,2R6Y|A|1,True,False,,none,0,0,0,,,standard
+2R6Y,B,B,2R6Y|B|1,True,False,,none,0,0,0,,,standard
+2YAT,A,A,2YAT|A|1,True,False,,none,0,0,0,,,standard
+2YJA,B,B,2YJA|B|1,True,True,A,asu,25,4,2,13.0,STAPLED PEPTIDE,standard
+3DT3,A,A,3DT3|A|1,True,False,,none,0,0,0,,,standard
+3DT3,B,B,3DT3|B|1,True,False,,none,0,0,0,,,standard
+3ERD,A,A,3ERD|A|1,True,True,C,asu,28,7,3,13.0,GLUCOCORTICOID RECEPTOR INTERACTING PROTEIN 1,standard
+3ERD,B,B,3ERD|B|1,True,True,D,asu,25,14,3,13.0,GLUCOCORTICOID RECEPTOR INTERACTING PROTEIN 1,standard
+3ERT,A,A,3ERT|A|1,True,False,,none,0,0,0,,,standard
+3HLV,A,A,3HLV|A|1,True,True,C,asu,19,0,1,13.0,Nuclear receptor coactivator 2,standard
+3HLV,B,B,3HLV|B|1,True,True,D,asu,24,11,3,13.0,Nuclear receptor coactivator 2,standard
+3HM1,A,A,3HM1|A|1,True,True,C,asu,18,0,1,13.0,Nuclear receptor coactivator 2,standard
+3HM1,B,B,3HM1|B|1,True,True,D,asu,28,16,2,13.0,Nuclear receptor coactivator 2,standard
+3L03,A,A,3L03|A|1,True,True,C,asu,34,2,2,13.0,Nuclear receptor coactivator 2,standard
+3L03,B,B,3L03|B|1,True,True,D,asu,27,17,4,13.0,Nuclear receptor coactivator 2,standard
+3OS8,A,A,3OS8|A|1,True,False,,none,0,0,0,,,standard
+3OS8,B,B,3OS8|B|1,True,False,,none,0,0,0,,,standard
+3OS8,C,C,3OS8|C|1,True,False,,none,0,0,0,,,standard
+3OS8,D,D,3OS8|D|1,True,False,,none,0,0,0,,,standard
+3OS9,A,A,3OS9|A|1,True,False,,none,0,0,0,,,standard
+3OS9,B,B,3OS9|B|1,True,False,,none,0,0,0,,,standard
+3OS9,C,C,3OS9|C|1,True,False,,none,0,0,0,,,standard
+3OS9,D,D,3OS9|D|1,True,False,,none,0,0,0,,,standard
+3OSA,A,A,3OSA|A|1,True,False,,none,0,0,0,,,standard
+3OSA,B,B,3OSA|B|1,True,False,,none,0,0,0,,,standard
+3OSA,C,C,3OSA|C|1,True,False,,none,0,0,0,,,standard
+3OSA,D,D,3OSA|D|1,True,False,,none,0,0,0,,,standard
+3Q95,A,A,3Q95|A|1,True,True,C,asu,24,10,3,13.0,Nuclear receptor coactivator 2,standard
+3Q95,B,B,3Q95|B|1,True,True,D,asu,29,16,3,13.0,Nuclear receptor coactivator 2,standard
+3UU7,A,A,3UU7|A|1,True,True,F,asu,26,7,3,13.0,Nuclear receptor coactivator 1,standard
+3UU7,B,B,3UU7|B|1,True,True,G,asu,25,16,3,13.0,Nuclear receptor coactivator 1,standard
+3UUA,A,A,3UUA|A|1,True,True,F,asu,28,6,3,13.0,Nuclear receptor coactivator 1,standard
+3UUA,B,B,3UUA|B|1,True,True,G,asu,22,9,3,13.0,Nuclear receptor coactivator 1,standard
+3UUC,A,A,3UUC|A|1,True,False,,none,0,0,0,,,standard
+3UUC,B,B,3UUC|B|1,True,False,,none,0,0,0,,,standard
+3UUC,C,C,3UUC|C|1,True,False,,none,0,0,0,,,standard
+3UUC,D,D,3UUC|D|1,True,False,,none,0,0,0,,,standard
+3UUD,A,A,3UUD|A|1,True,True,C,asu,29,6,3,13.0,Nuclear receptor coactivator 1,standard
+3UUD,B,B,3UUD|B|1,True,True,D,asu,25,18,3,13.0,Nuclear receptor coactivator 1,standard
+4DMA,A,A,4DMA|A|1,True,True,E,asu,23,7,3,15.0,Nuclear receptor coactivator 1,standard
+4DMA,B,B,4DMA|B|1,True,True,F,asu,25,18,3,15.0,Nuclear receptor coactivator 1,standard
+4IU7,A,A,4IU7|A|1,True,True,C,asu,28,23,3,10.0,Nuclear receptor coactivator 2,standard
+4IU7,B,B,4IU7|B|1,True,True,D,asu,31,6,3,10.0,Nuclear receptor coactivator 2,standard
+4IUI,A,A,4IUI|A|1,True,True,C,asu,23,2,2,10.0,Nuclear receptor coactivator 2,standard
+4IUI,B,C,4IUI|C|1,True,True,D,asu,24,6,3,10.0,Nuclear receptor coactivator 2,standard
+4IV2,A,A,4IV2|A|1,True,True,C,asu,27,24,3,10.0,Nuclear receptor coactivator 2,standard
+4IV2,B,B,4IV2|B|1,True,True,D,asu,31,6,3,10.0,Nuclear receptor coactivator 2,standard
+4IV4,A,A,4IV4|A|1,True,True,C,asu,29,24,2,10.0,Nuclear receptor coactivator 2,standard
+4IV4,B,B,4IV4|B|1,True,True,D,asu,30,7,3,10.0,Nuclear receptor coactivator 2,standard
+4IVW,A,A,4IVW|A|1,True,True,C,asu,26,15,3,10.0,Nuclear receptor coactivator 2,standard
+4IVW,B,C,4IVW|C|1,True,True,D,asu,30,7,3,10.0,Nuclear receptor coactivator 2,standard
+4IVY,A,A,4IVY|A|1,True,True,C,asu,25,19,3,10.0,Nuclear receptor coactivator 2,standard
+4IVY,B,C,4IVY|C|1,True,True,D,asu,28,6,3,10.0,Nuclear receptor coactivator 2,standard
+4IW6,A,A,4IW6|A|1,True,True,C,asu,27,14,3,10.0,Nuclear receptor coactivator 2,standard
+4IW6,B,C,4IW6|C|1,True,True,D,asu,29,6,3,10.0,Nuclear receptor coactivator 2,standard
+4IW8,A,A,4IW8|A|1,True,True,C,asu,28,5,3,10.0,Nuclear receptor coactivator 2,standard
+4IW8,B,D,4IW8|D|1,True,True,D,asu,31,26,3,10.0,Nuclear receptor coactivator 2,standard
+4IWC,A,A,4IWC|A|1,True,True,C,asu,34,14,3,10.0,Nuclear receptor coactivator 2,standard
+4IWC,B,B,4IWC|B|1,True,True,D,asu,30,0,1,10.0,Nuclear receptor coactivator 2,standard
+4IWF,A,A,4IWF|A|1,True,True,C,asu,27,17,4,10.0,Nuclear receptor coactivator 2,standard
+4IWF,B,B,4IWF|B|1,True,True,D,asu,28,0,1,10.0,Nuclear receptor coactivator 2,standard
+4MG5,A,A,4MG5|A|1,True,True,C,asu,26,7,3,13.0,Nuclear receptor coactivator 1,standard
+4MG5,B,B,4MG5|B|1,True,True,D,asu,22,9,3,13.0,Nuclear receptor coactivator 1,standard
+4MG6,A,A,4MG6|A|1,True,True,C,asu,31,6,3,13.0,Nuclear receptor coactivator 1,standard
+4MG6,B,B,4MG6|B|1,True,True,D,asu,28,17,3,13.0,Nuclear receptor coactivator 1,standard
+4MG7,A,A,4MG7|A|1,True,True,C,asu,29,7,3,13.0,Nuclear receptor coactivator 1,standard
+4MG7,B,B,4MG7|B|1,True,True,D,asu,21,11,3,13.0,Nuclear receptor coactivator 1,standard
+4MG8,A,A,4MG8|A|1,True,True,C,asu,29,6,3,13.0,Nuclear receptor coactivator 1,standard
+4MG8,B,B,4MG8|B|1,True,True,D,asu,22,9,3,13.0,Nuclear receptor coactivator 1,standard
+4MG9,A,A,4MG9|A|1,True,True,F,asu,30,6,3,13.0,Nuclear receptor coactivator 1,standard
+4MG9,B,B,4MG9|B|1,True,True,G,asu,27,9,3,13.0,Nuclear receptor coactivator 1,standard
+4MGA,A,A,4MGA|A|1,True,True,C,asu,25,7,3,13.0,Nuclear receptor coactivator 1,standard
+4MGA,B,B,4MGA|B|1,True,True,D,asu,23,9,3,13.0,Nuclear receptor coactivator 1,standard
+4MGB,A,A,4MGB|A|1,True,True,C,asu,27,6,3,13.0,Nuclear receptor coactivator 1,standard
+4MGB,B,B,4MGB|B|1,True,True,D,asu,24,6,3,13.0,Nuclear receptor coactivator 1,standard
+4MGC,A,A,4MGC|A|1,True,True,F,asu,21,3,2,13.0,Nuclear receptor coactivator 1,standard
+4MGC,B,B,4MGC|B|1,True,True,G,asu,23,15,2,13.0,Nuclear receptor coactivator 1,standard
+4MGD,A,A,4MGD|A|1,True,True,F,asu,25,6,3,13.0,Nuclear receptor coactivator 1,standard
+4MGD,B,B,4MGD|B|1,True,True,G,asu,24,9,3,13.0,Nuclear receptor coactivator 1,standard
+4PP6,A,A,4PP6|A|1,True,True,C,asu,29,14,2,9.0,Nuclear receptor coactivator 2,standard
+4PP6,B,B,4PP6|B|1,True,True,D,asu,28,0,1,9.0,Nuclear receptor coactivator 2,standard
+4PPP,A,A,4PPP|A|1,True,True,C,asu,16,0,1,9.0,Nuclear receptor coactivator 2,standard
+4PPP,B,B,4PPP|B|1,True,True,D,asu,18,1,2,9.0,Nuclear receptor coactivator 2,standard
+4PPS,A,A,4PPS|A|1,True,True,C,asu,34,2,2,12.0,Nuclear receptor coactivator 2,standard
+4PPS,B,B,4PPS|B|1,True,True,D,asu,25,14,3,12.0,Nuclear receptor coactivator 2,standard
+4PXM,A,A,4PXM|A|1,True,True,C,asu,25,12,4,13.0,Nuclear receptor coactivator 2,standard
+4PXM,B,B,4PXM|B|1,True,True,D,asu,20,0,1,13.0,Nuclear receptor coactivator 2,standard
+4Q13,A,A,4Q13|A|1,True,True,C,asu,17,2,2,13.0,Glucocorticoid receptor-interacting protein 1 NR box II peptide,standard
+4Q13,B,B,4Q13|B|1,True,True,D,asu,22,2,2,13.0,Glucocorticoid receptor-interacting protein 1 NR box II peptide,standard
+4Q50,A,A,4Q50|A|1,True,False,,none,0,0,0,,,standard
+4Q50,B,B,4Q50|B|1,True,False,,none,0,0,0,,,standard
+4Q50,C,C,4Q50|C|1,True,False,,none,0,0,0,,,standard
+4Q50,D,D,4Q50|D|1,True,False,,none,0,0,0,,,standard
+4Q50,E,E,4Q50|E|1,True,False,,none,0,0,0,,,standard
+4Q50,F,F,4Q50|F|1,True,False,,none,0,0,0,,,standard
+4Q50,G,G,4Q50|G|1,True,False,,none,0,0,0,,,standard
+4Q50,H,H,4Q50|H|1,True,False,,none,0,0,0,,,standard
+4TUZ,A,A,4TUZ|A|1,True,True,F,asu,24,19,3,13.0,Nuclear receptor coactivator 1,standard
+4TUZ,B,B,4TUZ|B|1,True,True,G,asu,23,3,2,13.0,Nuclear receptor coactivator 1,standard
+4TV1,A,A,4TV1|A|1,True,True,C,asu,24,15,2,13.0,Nuclear receptor coactivator 1,standard
+4TV1,B,B,4TV1|B|1,True,True,D,asu,26,4,2,13.0,Nuclear receptor coactivator 1,standard
+4XI3,A,A,4XI3|A|1,True,False,,none,0,0,0,,,standard
+4XI3,B,B,4XI3|B|1,True,False,,none,0,0,0,,,standard
+4XI3,C,C,4XI3|C|1,True,False,,none,0,0,0,,,standard
+4XI3,D,D,4XI3|D|1,True,False,,none,0,0,0,,,standard
+4ZN7,A,A,4ZN7|A|1,True,True,D,asu,30,20,3,13.0,Nuclear receptor coactivator 2,standard
+4ZN7,B,B,4ZN7|B|1,True,True,C,asu,31,7,3,13.0,Nuclear receptor coactivator 2,standard
+4ZN9,A,A,4ZN9|A|1,True,True,C,asu,27,23,3,13.0,Nuclear receptor-interacting peptide,standard
+4ZN9,B,B,4ZN9|B|1,True,True,D,asu,28,0,1,13.0,Nuclear receptor-interacting peptide,standard
+4ZNH,A,A,4ZNH|A|1,True,True,C,asu,28,17,4,13.0,Nuclear receptor-interacting peptide,standard
+4ZNH,B,B,4ZNH|B|1,True,True,D,asu,28,0,1,13.0,Nuclear receptor-interacting peptide,standard
+4ZNS,A,A,4ZNS|A|1,True,True,C,asu,22,10,3,13.0,Nuclear receptor-interacting peptide,standard
+4ZNS,B,B,4ZNS|B|1,True,True,D,asu,29,8,3,13.0,Nuclear receptor-interacting peptide,standard
+4ZNT,A,A,4ZNT|A|1,True,True,C,asu,24,9,3,13.0,Nuclear receptor-interacting peptide,standard
+4ZNT,B,B,4ZNT|B|1,True,True,D,asu,29,6,3,13.0,Nuclear receptor-interacting peptide,standard
+4ZNU,A,A,4ZNU|A|1,True,True,C,asu,28,7,3,13.0,Nuclear receptor-interacting peptide,standard
+4ZNU,B,C,4ZNU|C|1,True,True,D,asu,17,4,3,13.0,Nuclear receptor-interacting peptide,standard
+4ZNV,A,A,4ZNV|A|1,True,True,D,asu,27,15,2,13.0,Nuclear receptor-interacting peptide,standard
+4ZNV,B,B,4ZNV|B|1,True,True,C,asu,30,6,3,13.0,Nuclear receptor-interacting peptide,standard
+4ZNW,A,A,4ZNW|A|1,True,True,C,asu,24,12,2,13.0,Nuclear receptor-interacting peptide,standard
+4ZNW,B,B,4ZNW|B|1,True,True,D,asu,26,6,3,13.0,Nuclear receptor-interacting peptide,standard
+5AAU,A,A,5AAU|A|1,True,False,,none,0,0,0,,,standard
+5AAU,B,B,5AAU|B|1,True,False,,none,0,0,0,,,standard
+5AAV,A,A,5AAV|A|1,True,False,,none,0,0,0,,,standard
+5AAV,B,B,5AAV|B|1,True,False,,none,0,0,0,,,standard
+5ACC,A,A,5ACC|A|1,True,False,,none,0,0,0,,,standard
+5AK2,A,A,5AK2|A|1,True,False,,none,0,0,0,,,standard
+5AK2,B,B,5AK2|B|1,True,False,,none,0,0,0,,,standard
+5DI7,A,A,5DI7|A|1,True,True,C,asu,24,21,3,14.0,Nuclear receptor coactivator 2,standard
+5DI7,B,B,5DI7|B|1,True,True,D,asu,28,2,2,14.0,Nuclear receptor coactivator 2,standard
+5DID,A,A,5DID|A|1,True,True,C,asu,23,16,3,14.0,Nuclear receptor coactivator 2,standard
+5DID,B,B,5DID|B|1,True,True,D,asu,23,1,2,14.0,Nuclear receptor coactivator 2,standard
+5DIE,A,A,5DIE|A|1,True,True,C,asu,26,15,3,14.0,Nuclear receptor coactivator 2,standard
+5DIE,B,B,5DIE|B|1,True,True,D,asu,29,0,1,14.0,Nuclear receptor coactivator 2,standard
+5DIG,A,A,5DIG|A|1,True,True,C,asu,21,16,3,14.0,Nuclear receptor coactivator 2,standard
+5DIG,B,B,5DIG|B|1,True,True,D,asu,35,0,1,14.0,Nuclear receptor coactivator 2,standard
+5DK9,A,A,5DK9|A|1,True,True,C,asu,24,11,3,14.0,Nuclear receptor coactivator 2,standard
+5DK9,B,B,5DK9|B|1,True,True,D,asu,24,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DKB,A,A,5DKB|A|1,True,True,C,asu,28,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DKB,B,B,5DKB|B|1,True,True,D,asu,31,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DKE,A,A,5DKE|A|1,True,True,C,asu,29,1,4,14.0,Nuclear receptor coactivator 2,standard
+5DKE,B,B,5DKE|B|1,True,True,D,asu,24,5,3,14.0,Nuclear receptor coactivator 2,standard
+5DKG,A,A,5DKG|A|1,True,True,C,asu,29,10,3,14.0,Nuclear receptor coactivator 2,standard
+5DKG,B,B,5DKG|B|1,True,True,D,asu,31,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DKS,A,A,5DKS|A|1,True,True,C,asu,28,3,2,14.0,Nuclear receptor coactivator 2,standard
+5DKS,B,B,5DKS|B|1,True,True,D,asu,26,5,3,14.0,Nuclear receptor coactivator 2,standard
+5DL4,A,A,5DL4|A|1,True,True,C,asu,25,8,3,14.0,Nuclear receptor coactivator 2,standard
+5DL4,B,B,5DL4|B|1,True,True,D,asu,29,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DLR,A,A,5DLR|A|1,True,True,D,asu,29,15,3,14.0,Nuclear receptor coactivator 2,standard
+5DLR,B,B,5DLR|B|1,True,True,C,asu,27,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DMC,A,A,5DMC|A|1,True,True,C,asu,25,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DMC,B,B,5DMC|B|1,True,True,D,asu,23,4,3,14.0,Nuclear receptor coactivator 2,standard
+5DMF,A,A,5DMF|A|1,True,True,C,asu,30,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DMF,B,B,5DMF|B|1,True,True,D,asu,25,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DP0,A,A,5DP0|A|1,True,True,D,asu,24,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DP0,B,B,5DP0|B|1,True,True,C,asu,25,4,3,14.0,Nuclear receptor coactivator 2,standard
+5DRJ,A,A,5DRJ|A|1,True,True,C,asu,26,16,3,14.0,Nuclear receptor coactivator 2,standard
+5DRJ,B,B,5DRJ|B|1,True,True,D,asu,30,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DRM,A,A,5DRM|A|1,True,True,C,asu,30,14,3,14.0,Nuclear receptor coactivator 2,standard
+5DRM,B,B,5DRM|B|1,True,True,D,asu,31,0,1,14.0,Nuclear receptor coactivator 2,standard
+5DTV,A,A,5DTV|A|1,True,True,C,asu,20,2,3,14.0,Nuclear receptor coactivator 2,standard
+5DTV,B,C,5DTV|C|1,True,True,D,asu,23,2,2,14.0,Nuclear receptor coactivator 2,standard
+5DU5,A,A,5DU5|A|1,True,True,C,asu,26,2,2,14.0,Nuclear receptor coactivator 2,standard
+5DU5,B,B,5DU5|B|1,True,True,D,asu,22,6,2,14.0,Nuclear receptor coactivator 2,standard
+5DUE,A,A,5DUE|A|1,True,True,C,asu,22,8,3,14.0,Nuclear receptor coactivator 2,standard
+5DUE,B,B,5DUE|B|1,True,True,D,asu,24,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DUG,A,A,5DUG|A|1,True,True,C,asu,26,12,3,14.0,Nuclear receptor coactivator 2,standard
+5DUG,B,B,5DUG|B|1,True,True,D,asu,24,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DUH,A,A,5DUH|A|1,True,True,C,asu,24,19,4,14.0,Nuclear receptor coactivator 2,standard
+5DUH,B,B,5DUH|B|1,True,True,D,asu,27,1,2,14.0,Nuclear receptor coactivator 2,standard
+5DVS,A,A,5DVS|A|1,True,True,C,asu,27,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DVS,B,B,5DVS|B|1,True,True,D,asu,22,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DVV,A,A,5DVV|A|1,True,True,C,asu,18,0,1,14.0,Nuclear receptor coactivator 2,standard
+5DVV,B,B,5DVV|B|1,True,True,D,asu,14,0,1,14.0,Nuclear receptor coactivator 2,standard
+5DWE,A,A,5DWE|A|1,True,True,C,asu,27,11,3,14.0,Nuclear receptor coactivator 2,standard
+5DWE,B,B,5DWE|B|1,True,True,D,asu,28,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DWG,A,A,5DWG|A|1,True,True,C,asu,25,6,2,14.0,Nuclear receptor coactivator 2,standard
+5DWG,B,B,5DWG|B|1,True,True,D,asu,18,6,2,14.0,Nuclear receptor coactivator 2,standard
+5DWI,A,A,5DWI|A|1,True,True,C,asu,25,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DWI,B,B,5DWI|B|1,True,True,D,asu,23,3,2,14.0,Nuclear receptor coactivator 2,standard
+5DWJ,A,A,5DWJ|A|1,True,True,C,asu,29,9,3,14.0,Nuclear receptor coactivator 2,standard
+5DWJ,B,B,5DWJ|B|1,True,True,D,asu,24,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DX3,A,A,5DX3|A|1,True,True,C,asu,26,15,4,13.0,Stapled Peptide SRC2-P3,standard
+5DX3,B,B,5DX3|B|1,True,True,D,asu,18,1,2,13.0,Stapled Peptide SRC2-P3,standard
+5DXB,A,A,5DXB|A|1,True,True,D,asu,18,13,4,13.0,Nuclear receptor coactivator 2,standard
+5DXB,B,B,5DXB|B|1,True,True,E,asu,15,7,2,13.0,Nuclear receptor coactivator 2,standard
+5DXE,A,A,5DXE|A|1,True,True,C,asu,23,14,4,13.0,Nuclear receptor coactivator 2,standard
+5DXE,B,B,5DXE|B|1,True,True,D,asu,21,3,2,13.0,Nuclear receptor coactivator 2,standard
+5DXG,A,A,5DXG|A|1,True,True,C,asu,28,14,2,13.0,Stapled Peptide SRC2-P5,standard
+5DXG,B,B,5DXG|B|1,True,True,D,asu,21,0,1,13.0,Stapled Peptide SRC2-P5,standard
+5DXK,A,A,5DXK|A|1,True,True,C,asu,24,11,3,14.0,Nuclear receptor coactivator 2,standard
+5DXK,B,B,5DXK|B|1,True,True,D,asu,28,5,3,14.0,Nuclear receptor coactivator 2,standard
+5DXM,A,A,5DXM|A|1,True,True,C,asu,21,10,3,14.0,Nuclear receptor coactivator 2,standard
+5DXM,B,B,5DXM|B|1,True,True,D,asu,26,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DXP,A,A,5DXP|A|1,True,True,C,asu,28,1,2,14.0,Nuclear receptor coactivator 2,standard
+5DXP,B,B,5DXP|B|1,True,True,D,asu,25,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DXQ,A,A,5DXQ|A|1,True,True,C,asu,25,8,3,14.0,Nuclear receptor coactivator 2,standard
+5DXQ,B,B,5DXQ|B|1,True,True,D,asu,26,4,3,14.0,Nuclear receptor coactivator 2,standard
+5DXR,A,A,5DXR|A|1,True,True,C,asu,27,12,3,14.0,Nuclear receptor coactivator 2,standard
+5DXR,B,B,5DXR|B|1,True,True,D,asu,30,8,3,14.0,Nuclear receptor coactivator 2,standard
+5DY8,A,A,5DY8|A|1,True,True,C,asu,29,22,3,14.0,Nuclear receptor coactivator 2,standard
+5DY8,B,B,5DY8|B|1,True,True,D,asu,30,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DYB,A,A,5DYB|A|1,True,True,C,asu,31,16,3,14.0,Nuclear receptor coactivator 2,standard
+5DYB,B,B,5DYB|B|1,True,True,D,asu,27,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DYD,A,A,5DYD|A|1,True,True,C,asu,23,8,2,14.0,Nuclear receptor coactivator 2,standard
+5DYD,B,B,5DYD|B|1,True,True,D,asu,15,4,3,14.0,Nuclear receptor coactivator 2,standard
+5DZ0,A,A,5DZ0|A|1,True,True,C,asu,27,16,3,14.0,Nuclear receptor coactivator 2,standard
+5DZ0,B,B,5DZ0|B|1,True,True,D,asu,28,8,3,14.0,Nuclear receptor coactivator 2,standard
+5DZ1,A,A,5DZ1|A|1,True,True,C,asu,29,24,3,14.0,Nuclear receptor coactivator 2,standard
+5DZ1,B,B,5DZ1|B|1,True,True,D,asu,33,6,3,14.0,Nuclear receptor coactivator 2,standard
+5DZ3,A,A,5DZ3|A|1,True,True,C,asu,28,20,2,14.0,Nuclear receptor coactivator 2,standard
+5DZ3,B,B,5DZ3|B|1,True,True,D,asu,31,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DZH,A,A,5DZH|A|1,True,True,C,asu,28,8,3,14.0,Nuclear receptor coactivator 2,standard
+5DZH,B,B,5DZH|B|1,True,True,D,asu,28,7,3,14.0,Nuclear receptor coactivator 2,standard
+5DZI,A,A,5DZI|A|1,True,True,C,asu,32,14,3,14.0,Nuclear receptor coactivator 2,standard
+5DZI,B,B,5DZI|B|1,True,True,D,asu,26,6,3,14.0,Nuclear receptor coactivator 2,standard
+5E0W,A,A,5E0W|A|1,True,True,C,asu,32,7,3,14.0,Nuclear receptor coactivator 2,standard
+5E0W,B,B,5E0W|B|1,True,True,D,asu,27,16,2,14.0,Nuclear receptor coactivator 2,standard
+5E0X,A,A,5E0X|A|1,True,True,C,asu,26,7,3,14.0,Nuclear receptor coactivator 2,standard
+5E0X,B,B,5E0X|B|1,True,True,D,asu,25,9,2,14.0,Nuclear receptor coactivator 2,standard
+5E14,A,A,5E14|A|1,True,True,C,asu,25,6,3,14.0,Nuclear receptor coactivator 2,standard
+5E14,B,B,5E14|B|1,True,True,D,asu,30,7,3,14.0,Nuclear receptor coactivator 2,standard
+5E15,A,A,5E15|A|1,True,True,C,asu,19,6,4,14.0,Nuclear receptor coactivator 2,standard
+5E15,B,B,5E15|B|1,True,True,D,asu,25,4,3,14.0,Nuclear receptor coactivator 2,standard
+5E19,A,A,5E19|A|1,True,True,D,asu,27,5,3,14.0,Nuclear receptor coactivator 2,standard
+5E19,B,B,5E19|B|1,True,True,C,asu,30,7,3,14.0,Nuclear receptor coactivator 2,standard
+5E1C,A,A,5E1C|A|1,True,True,C,asu,33,9,3,14.0,Nuclear receptor coactivator 2,standard
+5E1C,B,B,5E1C|B|1,True,True,D,asu,30,6,3,14.0,Nuclear receptor coactivator 2,standard
+5EGV,A,A,5EGV|A|1,True,True,C,asu,28,1,2,14.0,NCOA2,standard
+5EGV,B,B,5EGV|B|1,True,True,D,asu,25,7,3,14.0,NCOA2,standard
+5EHJ,A,A,5EHJ|A|1,True,True,D,asu,28,10,3,14.0,NCOA2,standard
+5EHJ,B,B,5EHJ|B|1,True,True,C,asu,32,8,3,14.0,NCOA2,standard
+5EI1,A,A,5EI1|A|1,True,True,C,asu,23,9,2,14.0,NCOA2,standard
+5EI1,B,B,5EI1|B|1,True,True,D,asu,23,6,3,14.0,NCOA2,standard
+5EIT,A,A,5EIT|A|1,True,True,C,asu,22,9,3,14.0,NCOA2,standard
+5EIT,B,B,5EIT|B|1,True,True,D,asu,26,6,3,14.0,NCOA2,standard
+5FQP,A,A,5FQP|A|1,True,False,,none,0,0,0,,,standard
+5FQR,A,A,5FQR|A|1,True,False,,none,0,0,0,,,standard
+5FQS,A,A,5FQS|A|1,True,False,,none,0,0,0,,,standard
+5FQT,A,A,5FQT|A|1,True,False,,none,0,0,0,,,standard
+5FQV,A,A,5FQV|A|1,True,False,,none,0,0,0,,,standard
+5GS4,A,A,5GS4|A|1,True,True,B,asu,24,13,2,10.0,ARG-IAS-ILE-LEU-DNP-ARG-LEU-LEU-GLN,standard
+5GTR,A,A,5GTR|A|1,True,True,C,asu,26,13,3,10.0,ARG-IAS-ILE-0JY-DPP-ARG-0JY-0JY-GLN-NH2,standard
+5HYR,A,A,5HYR|A|1,True,True,F,asu,27,16,3,13.0,Stapled Peptide SRC2-SP2,standard
+5HYR,B,B,5HYR|B|1,True,True,G,asu,22,4,2,13.0,Stapled Peptide SRC2-SP2,standard
+5JMM,A,A,5JMM|A|1,True,True,F,asu,31,6,3,13.0,Nuclear receptor coactivator 1,standard
+5JMM,B,B,5JMM|B|1,True,True,G,asu,27,19,3,13.0,Nuclear receptor coactivator 1,standard
+5KCC,A,A,5KCC|A|1,True,True,C,asu,27,8,3,14.0,NCOA2,standard
+5KCC,B,B,5KCC|B|1,True,True,D,asu,26,8,3,14.0,NCOA2,standard
+5KCD,A,A,5KCD|A|1,True,True,C,asu,31,19,3,14.0,NCOA2,standard
+5KCD,B,B,5KCD|B|1,True,True,D,asu,30,0,1,14.0,NCOA2,standard
+5KCE,A,A,5KCE|A|1,True,True,D,asu,21,2,3,13.0,Nuclear receptor coactivator 2,standard
+5KCE,B,B,5KCE|B|1,True,True,C,asu,24,3,3,13.0,Nuclear receptor coactivator 2,standard
+5KCF,A,A,5KCF|A|1,True,True,D,asu,32,18,3,14.0,NCOA2,standard
+5KCF,B,B,5KCF|B|1,True,True,C,asu,27,6,3,14.0,NCOA2,standard
+5KCT,A,A,5KCT|A|1,True,True,C,asu,33,20,3,14.0,NCOA2,standard
+5KCT,B,B,5KCT|B|1,True,True,D,asu,32,6,3,14.0,NCOA2,standard
+5KCU,A,A,5KCU|A|1,True,True,C,asu,28,9,2,14.0,NCOA2,standard
+5KCU,B,B,5KCU|B|1,True,True,D,asu,21,6,3,14.0,NCOA2,standard
+5KCW,A,A,5KCW|A|1,True,True,C,asu,27,13,3,14.0,NCOA2,standard
+5KCW,B,B,5KCW|B|1,True,True,D,asu,24,6,3,14.0,NCOA2,standard
+5KD9,A,A,5KD9|A|1,True,True,C,asu,24,17,3,14.0,NCOA2,standard
+5KD9,B,B,5KD9|B|1,True,True,D,asu,17,6,3,14.0,NCOA2,standard
+5KR9,A,A,5KR9|A|1,True,True,C,asu,28,10,3,14.0,NCOA2,standard
+5KR9,B,B,5KR9|B|1,True,True,D,asu,30,7,3,14.0,NCOA2,standard
+5KRA,A,A,5KRA|A|1,True,True,C,asu,27,5,3,14.0,NCOA2,standard
+5KRA,B,B,5KRA|B|1,True,True,D,asu,25,6,3,14.0,NCOA2,standard
+5KRA,E,E,5KRA|E|1,True,True,G,asu,28,6,2,14.0,NCOA2,standard
+5KRA,F,F,5KRA|F|1,True,True,H,asu,31,4,3,14.0,NCOA2,standard
+5KRC,A,A,5KRC|A|1,True,True,D,asu,23,9,3,14.0,NCOA2,standard
+5KRC,B,B,5KRC|B|1,True,True,C,asu,29,6,3,14.0,NCOA2,standard
+5KRF,A,A,5KRF|A|1,True,True,C,asu,24,21,3,14.0,KHKILHRLLQDSSS Peptide,standard
+5KRF,B,B,5KRF|B|1,True,True,D,asu,33,7,3,14.0,KHKILHRLLQDSSS Peptide,standard
+5KRH,A,A,5KRH|A|1,True,True,C,asu,29,9,3,14.0,NCOA2,standard
+5KRH,B,B,5KRH|B|1,True,True,D,asu,29,7,3,14.0,NCOA2,standard
+5KRI,A,A,5KRI|A|1,True,True,C,asu,26,7,2,14.0,NCOA2,standard
+5KRI,B,B,5KRI|B|1,True,True,D,asu,27,4,3,14.0,NCOA2,standard
+5KRJ,A,A,5KRJ|A|1,True,True,C,asu,27,8,3,14.0,NCOA2,standard
+5KRJ,B,B,5KRJ|B|1,True,True,D,asu,28,6,3,14.0,NCOA2,standard
+5KRK,A,A,5KRK|A|1,True,True,C,asu,22,6,2,14.0,NCOA2,standard
+5KRK,B,B,5KRK|B|1,True,True,D,asu,21,5,2,14.0,NCOA2,standard
+5KRL,A,A,5KRL|A|1,True,True,C,asu,23,19,2,14.0,NCOA2,standard
+5KRL,B,B,5KRL|B|1,True,True,D,asu,25,0,1,14.0,NCOA2,standard
+5KRM,A,A,5KRM|A|1,True,True,C,asu,21,15,3,14.0,NCOA2,standard
+5KRM,B,B,5KRM|B|1,True,True,D,asu,28,0,1,14.0,NCOA2,standard
+5KRO,A,A,5KRO|A|1,True,True,C,asu,28,10,2,14.0,NCOA2,standard
+5KRO,B,B,5KRO|B|1,True,True,D,asu,24,5,3,14.0,NCOA2,standard
+5T1Z,A,A,5T1Z|A|1,True,True,C,asu,24,13,4,13.0,Nuclear receptor coactivator 2,standard
+5T1Z,B,B,5T1Z|B|1,True,True,D,asu,32,0,1,13.0,Nuclear receptor coactivator 2,standard
+5T92,A,A,5T92|A|1,True,False,,none,0,0,0,,,standard
+5T92,B,B,5T92|B|1,True,False,,none,0,0,0,,,standard
+5T97,A,A,5T97|A|1,True,False,,none,0,0,0,,,standard
+5T97,B,B,5T97|B|1,True,False,,none,0,0,0,,,standard
+5TLD,A,A,5TLD|A|1,True,True,C,asu,29,9,2,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLD,B,B,5TLD|B|1,True,True,D,asu,26,5,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLF,A,A,5TLF|A|1,True,True,C,asu,29,19,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLF,B,B,5TLF|B|1,True,True,D,asu,28,6,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLG,A,A,5TLG|A|1,True,True,C,asu,23,4,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLG,B,B,5TLG|B|1,True,True,D,asu,20,3,2,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLL,A,A,5TLL|A|1,True,True,C,asu,27,4,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLL,B,B,5TLL|B|1,True,True,D,asu,24,6,2,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLM,A,A,5TLM|A|1,True,True,C,asu,16,4,2,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLM,B,B,5TLM|B|1,True,True,D,asu,24,2,2,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLO,A,A,5TLO|A|1,True,True,C,asu,26,6,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLO,B,B,5TLO|B|1,True,True,D,asu,25,7,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLP,A,A,5TLP|A|1,True,True,C,asu,26,11,2,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLP,B,B,5TLP|B|1,True,True,D,asu,11,0,1,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLT,A,A,5TLT|A|1,True,True,C,asu,24,15,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLT,B,B,5TLT|B|1,True,True,D,asu,28,7,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLU,A,A,5TLU|A|1,True,True,C,asu,27,9,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLU,B,B,5TLU|B|1,True,True,D,asu,31,6,3,13.0,NUCLEAR RECEPTOR COACTIVATOR 2,standard
+5TLV,A,A,5TLV|A|1,True,True,C,asu,26,15,3,13.0,Nuclear receptor coactivator 2,standard
+5TLV,B,B,5TLV|B|1,True,True,D,asu,29,7,3,13.0,Nuclear receptor coactivator 2,standard
+5TLX,A,A,5TLX|A|1,True,True,C,asu,23,6,3,13.0,Nuclear receptor coactivator 2,standard
+5TLX,B,B,5TLX|B|1,True,True,D,asu,25,4,3,13.0,Nuclear receptor coactivator 2,standard
+5TLY,A,A,5TLY|A|1,True,True,C,asu,25,6,2,13.0,Nuclear receptor coactivator 2,standard
+5TLY,B,B,5TLY|B|1,True,True,D,asu,22,5,3,13.0,Nuclear receptor coactivator 2,standard
+5TM1,A,A,5TM1|A|1,True,True,C,asu,23,2,2,13.0,Nuclear receptor coactivator 2,standard
+5TM1,B,B,5TM1|B|1,True,True,D,asu,22,5,3,13.0,Nuclear receptor coactivator 2,standard
+5TM2,A,A,5TM2|A|1,True,True,C,asu,18,1,2,13.0,Nuclear receptor coactivator 2,standard
+5TM2,B,B,5TM2|B|1,True,True,D,asu,23,4,3,13.0,Nuclear receptor coactivator 2,standard
+5TM3,A,A,5TM3|A|1,True,True,C,asu,23,8,2,13.0,Nuclear receptor coactivator 2,standard
+5TM3,B,B,5TM3|B|1,True,True,D,asu,29,6,3,13.0,Nuclear receptor coactivator 2,standard
+5TM4,A,A,5TM4|A|1,True,True,C,asu,28,6,2,13.0,Nuclear receptor coactivator 2,standard
+5TM4,B,B,5TM4|B|1,True,True,D,asu,26,0,1,13.0,Nuclear receptor coactivator 2,standard
+5TM5,A,A,5TM5|A|1,True,True,C,asu,30,6,3,13.0,Nuclear receptor coactivator 2,standard
+5TM5,B,B,5TM5|B|1,True,True,D,asu,27,9,3,13.0,Nuclear receptor coactivator 2,standard
+5TM6,A,A,5TM6|A|1,True,True,C,asu,24,13,3,13.0,Nuclear receptor coactivator 2,standard
+5TM6,B,B,5TM6|B|1,True,True,D,asu,28,8,3,13.0,Nuclear receptor coactivator 2,standard
+5TM7,A,A,5TM7|A|1,True,True,C,asu,21,10,3,13.0,Nuclear receptor coactivator 2,standard
+5TM7,B,B,5TM7|B|1,True,True,D,asu,28,8,2,13.0,Nuclear receptor coactivator 2,standard
+5TM8,A,A,5TM8|A|1,True,True,C,asu,32,8,3,13.0,Nuclear receptor coactivator 2,standard
+5TM8,B,B,5TM8|B|1,True,True,D,asu,23,5,2,13.0,Nuclear receptor coactivator 2,standard
+5TM9,A,A,5TM9|A|1,True,True,C,asu,11,7,2,13.0,Nuclear receptor coactivator 2,standard
+5TM9,B,B,5TM9|B|1,True,True,D,asu,14,0,1,13.0,Nuclear receptor coactivator 2,standard
+5TML,A,A,5TML|A|1,True,True,C,asu,23,8,3,13.0,Nuclear receptor coactivator 2,standard
+5TML,B,B,5TML|B|1,True,True,D,asu,31,7,3,13.0,Nuclear receptor coactivator 2,standard
+5TMM,A,A,5TMM|A|1,True,True,C,asu,27,2,2,13.0,Nuclear receptor coactivator 2,standard
+5TMM,B,B,5TMM|B|1,True,True,D,asu,26,9,2,13.0,Nuclear receptor coactivator 2,standard
+5TMO,A,A,5TMO|A|1,True,True,C,asu,24,11,3,13.0,Nuclear receptor coactivator 2,standard
+5TMO,B,B,5TMO|B|1,True,True,D,asu,32,9,3,13.0,Nuclear receptor coactivator 2,standard
+5TMQ,A,A,5TMQ|A|1,True,True,C,asu,27,10,3,13.0,Nuclear receptor coactivator 2,standard
+5TMQ,B,B,5TMQ|B|1,True,True,D,asu,28,7,3,13.0,Nuclear receptor coactivator 2,standard
+5TMR,A,A,5TMR|A|1,True,True,C,asu,27,7,3,13.0,Nuclear receptor coactivator 2,standard
+5TMR,B,C,5TMR|C|1,True,True,D,asu,25,8,3,13.0,Nuclear receptor coactivator 2,standard
+5TMS,A,A,5TMS|A|1,True,True,C,asu,26,13,3,13.0,Nuclear receptor coactivator 2,standard
+5TMS,B,B,5TMS|B|1,True,True,D,asu,30,7,3,13.0,Nuclear receptor coactivator 2,standard
+5TMT,A,A,5TMT|A|1,True,True,C,asu,30,5,3,13.0,Nuclear receptor coactivator 2,standard
+5TMT,B,B,5TMT|B|1,True,True,D,asu,25,19,3,13.0,Nuclear receptor coactivator 2,standard
+5TMU,A,A,5TMU|A|1,True,True,C,asu,29,10,3,13.0,Nuclear receptor coactivator 2,standard
+5TMU,B,C,5TMU|C|1,True,True,D,asu,25,13,3,13.0,Nuclear receptor coactivator 2,standard
+5TMV,A,A,5TMV|A|1,True,True,C,asu,23,8,3,13.0,Nuclear receptor coactivator 2,standard
+5TMV,B,B,5TMV|B|1,True,True,D,asu,29,5,3,13.0,Nuclear receptor coactivator 2,standard
+5TMW,A,A,5TMW|A|1,True,True,C,asu,24,4,3,13.0,Nuclear receptor coactivator 2,standard
+5TMW,B,C,5TMW|C|1,True,True,D,asu,26,3,2,13.0,Nuclear receptor coactivator 2,standard
+5TMZ,A,A,5TMZ|A|1,True,True,C,asu,25,8,3,13.0,Nuclear receptor coactivator 2,standard
+5TMZ,B,C,5TMZ|C|1,True,True,D,asu,31,7,3,13.0,Nuclear receptor coactivator 2,standard
+5TN1,A,A,5TN1|A|1,True,True,C,asu,27,0,1,13.0,Nuclear receptor coactivator 2,standard
+5TN1,B,B,5TN1|B|1,True,True,D,asu,27,18,3,13.0,Nuclear receptor coactivator 2,standard
+5TN3,A,A,5TN3|A|1,True,True,C,asu,25,13,3,13.0,Nuclear receptor coactivator 2,standard
+5TN3,B,B,5TN3|B|1,True,True,D,asu,28,9,3,13.0,Nuclear receptor coactivator 2,standard
+5TN4,A,A,5TN4|A|1,True,True,C,asu,27,14,3,13.0,Nuclear receptor coactivator 2,standard
+5TN4,B,B,5TN4|B|1,True,True,D,asu,30,7,3,13.0,Nuclear receptor coactivator 2,standard
+5TN5,A,A,5TN5|A|1,True,True,C,asu,35,15,3,13.0,Nuclear receptor coactivator 2,standard
+5TN5,B,B,5TN5|B|1,True,True,D,asu,29,6,3,13.0,Nuclear receptor coactivator 2,standard
+5TN6,A,A,5TN6|A|1,True,True,C,asu,23,3,3,13.0,Nuclear receptor coactivator 2,standard
+5TN6,B,B,5TN6|B|1,True,True,D,asu,29,5,2,13.0,Nuclear receptor coactivator 2,standard
+5TN7,A,A,5TN7|A|1,True,True,C,asu,23,6,2,13.0,Nuclear receptor coactivator 2,standard
+5TN7,B,B,5TN7|B|1,True,True,D,asu,25,5,2,13.0,Nuclear receptor coactivator 2,standard
+5TN8,A,A,5TN8|A|1,True,True,C,asu,26,7,2,13.0,Nuclear receptor coactivator 2,standard
+5TN8,B,B,5TN8|B|1,True,True,D,asu,20,6,3,13.0,Nuclear receptor coactivator 2,standard
+5TN9,A,A,5TN9|A|1,True,False,,none,0,0,0,,,standard
+5TN9,B,B,5TN9|B|1,True,False,,none,0,0,0,,,standard
+5TN9,C,C,5TN9|C|1,True,False,,none,0,0,0,,,standard
+5TN9,D,D,5TN9|D|1,True,False,,none,0,0,0,,,standard
+5TNB,A,A,5TNB|A|1,True,False,,none,0,0,0,,,standard
+5TNB,B,B,5TNB|B|1,True,False,,none,0,0,0,,,standard
+5TNB,C,C,5TNB|C|1,True,False,,none,0,0,0,,,standard
+5TNB,D,D,5TNB|D|1,True,False,,none,0,0,0,,,standard
+5U2B,A,A,5U2B|A|1,True,False,,none,0,0,0,,,standard
+5U2B,B,B,5U2B|B|1,True,False,,none,0,0,0,,,standard
+5U2B,C,C,5U2B|C|1,True,False,,none,0,0,0,,,standard
+5U2B,D,D,5U2B|D|1,True,False,,none,0,0,0,,,standard
+5U2B,E,E,5U2B|E|1,True,False,,none,0,0,0,,,standard
+5U2B,F,F,5U2B|F|1,True,False,,none,0,0,0,,,standard
+5U2D,A,A,5U2D|A|1,True,True,C,asu,33,7,3,13.0,Nuclear receptor coactivator 2,standard
+5U2D,B,B,5U2D|B|1,True,True,D,asu,32,19,2,13.0,Nuclear receptor coactivator 2,standard
+5UFW,A,A,5UFW|A|1,True,False,,none,0,0,0,,,standard
+5UFW,B,B,5UFW|B|1,True,False,,none,0,0,0,,,standard
+5UFX,A,A,5UFX|A|1,True,False,,none,0,0,0,,,standard
+5UFX,B,B,5UFX|B|1,True,False,,none,0,0,0,,,standard
+5W9C,A,A,5W9C|A|1,True,False,,none,0,0,0,,,standard
+5W9C,B,B,5W9C|B|1,True,False,,none,0,0,0,,,standard
+5W9C,C,C,5W9C|C|1,True,False,,none,0,0,0,,,standard
+5W9C,D,D,5W9C|D|1,True,False,,none,0,0,0,,,standard
+5W9D,A,A,5W9D|A|1,True,False,,none,0,0,0,,,standard
+5W9D,B,B,5W9D|B|1,True,False,,none,0,0,0,,,standard
+5WGD,A,A,5WGD|A|1,True,True,E,asu,24,8,2,13.0,(ACE)HKILHKLLQDS(NH2),standard
+5WGD,B,B,5WGD|B|1,True,True,F,asu,22,1,2,12.0,(ACE)AILHKLLQDS(NH2),standard
+5WGQ,A,A,5WGQ|A|1,True,True,F,asu,22,2,3,13.0,SRC2-BCP1,standard
+5WGQ,B,B,5WGQ|B|1,True,True,E,asu,29,12,2,13.0,SRC2-BCP1,standard
+6B0F,A,A,6B0F|A|1,True,False,,none,0,0,0,,,standard
+6B0F,B,B,6B0F|B|1,True,False,,none,0,0,0,,,standard
+6C42,A,A,6C42|A|1,True,False,,none,0,0,0,,,standard
+6C42,B,B,6C42|B|1,True,False,,none,0,0,0,,,standard
+6CBZ,A,A,6CBZ|A|1,True,True,C,asu,23,13,3,8.0,grip peptide,standard
+6CBZ,B,B,6CBZ|B|1,True,True,D,asu,26,0,1,8.0,grip peptide,standard
+6CHW,A,A,6CHW|A|1,True,False,,none,0,0,0,,,standard
+6CHZ,A,A,6CHZ|A|1,True,False,,none,0,0,0,,,standard
+6CZN,A,A,6CZN|A|1,True,True,C,asu,14,1,2,13.0,GRIP Peptide,standard
+6CZN,B,B,6CZN|B|1,True,True,D,asu,15,1,2,13.0,GRIP Peptide,standard
+6D0F,A,A,6D0F|A|1,True,True,C,asu,22,4,2,10.0,GRIP Peptide,standard
+6D0F,B,B,6D0F|B|1,True,True,D,asu,19,4,2,10.0,GRIP Peptide,standard
+6DF6,A,A,6DF6|A|1,True,False,,none,0,0,0,,,standard
+6DF6,B,B,6DF6|B|1,True,False,,none,0,0,0,,,standard
+6DF6,C,C,6DF6|C|1,True,False,,none,0,0,0,,,standard
+6DF6,D,D,6DF6|D|1,True,False,,none,0,0,0,,,standard
+6DFN,A,A,6DFN|A|1,True,False,,none,0,0,0,,,standard
+6DFN,B,B,6DFN|B|1,True,False,,none,0,0,0,,,standard
+6DFN,C,C,6DFN|C|1,True,False,,none,0,0,0,,,standard
+6DFN,D,D,6DFN|D|1,True,False,,none,0,0,0,,,standard
+6IAR,A,A,6IAR|A|1,True,False,,none,0,0,0,,,standardized
+6OWC,A,A,6OWC|A|1,True,False,,none,0,0,0,,,standard
+6OWC,B,B,6OWC|B|1,True,False,,none,0,0,0,,,standard
+6PET,A,B,6PET|B|1,True,False,,none,0,0,0,,,standard
+6PET,B,D,6PET|D|1,True,False,,none,0,0,0,,,standard
+6PET,C,C,6PET|C|1,True,False,,none,0,0,0,,,standard
+6PET,D,A,6PET|A|1,True,False,,none,0,0,0,,,standard
+6PFM,A,B,6PFM|B|1,True,False,,none,0,0,0,,,standard
+6PFM,D,A,6PFM|A|1,True,False,,none,0,0,0,,,standard
+6PIT,A,A,6PIT|A|1,True,True,C,asu,5,0,1,12.0,Stapled Peptide 41A,standard
+6PIT,B,B,6PIT|B|1,True,True,D,asu,14,6,2,12.0,Stapled Peptide 41A,standard
+6PSJ,A,A,6PSJ|A|1,True,False,,none,0,0,0,,,standard
+6PSJ,B,B,6PSJ|B|1,True,False,,none,0,0,0,,,standard
+6SBO,A,A,6SBO|A|1,True,False,,none,0,0,0,,,standard
+6SBO,B,B,6SBO|B|1,True,False,,none,0,0,0,,,standard
+6SQ0,A,A,6SQ0|A|1,True,False,,none,0,0,0,,,standard
+6SQ0,B,B,6SQ0|B|1,True,False,,none,0,0,0,,,standard
+6SUO,A,A,6SUO|A|1,True,False,,none,0,0,0,,,standard
+6SUO,B,B,6SUO|B|1,True,False,,none,0,0,0,,,standard
+6V87,A,A,6V87|A|1,True,False,,none,0,0,0,,,standard
+6V87,B,B,6V87|B|1,True,False,,none,0,0,0,,,standard
+6V8T,A,A,6V8T|A|1,True,False,,none,0,0,0,,,standard
+6V8T,B,B,6V8T|B|1,True,False,,none,0,0,0,,,standard
+6VGH,A,A,6VGH|A|1,True,False,,none,0,0,0,,,standard
+6VGH,B,B,6VGH|B|1,True,False,,none,0,0,0,,,standard
+6VJD,A,A,6VJD|A|1,True,False,,none,0,0,0,,,standard
+6VJD,B,B,6VJD|B|1,True,False,,none,0,0,0,,,standard
+6VJD,C,C,6VJD|C|1,True,False,,none,0,0,0,,,standard
+6VJD,D,D,6VJD|D|1,True,False,,none,0,0,0,,,standard
+6VPF,A,B,6VPF|B|1,True,False,,none,0,0,0,,,standard
+6VPF,B,A,6VPF|A|1,True,False,,none,0,0,0,,,standard
+6VPF,C,C,6VPF|C|1,True,False,,none,0,0,0,,,standard
+6VPF,D,D,6VPF|D|1,True,False,,none,0,0,0,,,standard
+6WOK,A,B,6WOK|B|1,True,False,,none,0,0,0,,,standard
+6WOK,B,D,6WOK|D|1,True,False,,none,0,0,0,,,standard
+6WOK,C,C,6WOK|C|1,True,False,,none,0,0,0,,,standard
+6WOK,D,A,6WOK|A|1,True,False,,none,0,0,0,,,standard
+6ZOQ,A,A,6ZOQ|A|1,True,False,,none,0,0,0,,,standard
+6ZOQ,B,B,6ZOQ|B|1,True,False,,none,0,0,0,,,standard
+6ZOR,A,A,6ZOR|A|1,True,False,,none,0,0,0,,,standard
+6ZOR,B,B,6ZOR|B|1,True,False,,none,0,0,0,,,standard
+6ZOS,A,A,6ZOS|A|1,True,False,,none,0,0,0,,,standard
+6ZOS,B,B,6ZOS|B|1,True,False,,none,0,0,0,,,standard
+7JHD,A,A,7JHD|A|1,True,True,C,asu,22,4,2,13.0,Nuclear receptor coactivator 2,standard
+7JHD,B,B,7JHD|B|1,True,True,D,asu,22,1,2,13.0,Nuclear receptor coactivator 2,standard
+7KBS,A,A,7KBS|A|1,True,False,,none,0,0,0,,,standard
+7KBS,B,B,7KBS|B|1,True,False,,none,0,0,0,,,standard
+7MSA,A,B,7MSA|B|1,True,False,,none,0,0,0,,,standard
+7MSA,B,D,7MSA|D|1,True,False,,none,0,0,0,,,standard
+7MSA,C,C,7MSA|C|1,True,False,,none,0,0,0,,,standard
+7MSA,D,A,7MSA|A|1,True,False,,none,0,0,0,,,standard
+7N9O,A,A,7N9O|A|1,True,False,,none,0,0,0,,,standard
+7N9O,B,B,7N9O|B|1,True,False,,none,0,0,0,,,standard
+7N9O,C,C,7N9O|C|1,True,False,,none,0,0,0,,,standard
+7N9O,D,D,7N9O|D|1,True,False,,none,0,0,0,,,standard
+7NDO,A,A,7NDO|A|1,True,False,,none,0,0,0,,,standard
+7NDO,B,B,7NDO|B|1,True,False,,none,0,0,0,,,standard
+7NEL,A,A,7NEL|A|1,True,True,C,asu,36,19,4,15.0,Nuclear receptor coactivator 2,standard
+7NEL,B,B,7NEL|B|1,True,True,D,asu,34,2,2,15.0,Nuclear receptor coactivator 2,standard
+7NFB,A,A,7NFB|A|1,True,True,C,asu,25,25,4,15.0,Nuclear receptor coactivator 2,standard
+7NFB,B,B,7NFB|B|1,True,True,D,asu,28,4,2,15.0,Nuclear receptor coactivator 2,standard
+7QVJ,A,A,7QVJ|A|1,True,False,,none,0,0,0,,,standard
+7QVJ,B,B,7QVJ|B|1,True,False,,none,0,0,0,,,standard
+7QVL,A,A,7QVL|A|1,True,False,,none,0,0,0,,,standard
+7QVL,B,B,7QVL|B|1,True,False,,none,0,0,0,,,standard
+7R62,A,A,7R62|A|1,True,False,,none,0,0,0,,,standard
+7RKE,A,A,7RKE|A|1,True,True,C,asu,27,0,1,10.0,Nuclear receptor coactivator 2,standard
+7RKE,B,B,7RKE|B|1,True,True,D,asu,26,14,2,10.0,Nuclear receptor coactivator 2,standard
+7RNM,A,A,7RNM|A|1,True,True,C,asu,20,0,1,10.0,Nuclear receptor coactivator 2,standard
+7RNM,B,B,7RNM|B|1,True,True,D,asu,29,12,2,10.0,Nuclear receptor coactivator 2,standard
+7RRX,A,A,7RRX|A|1,True,False,,none,0,0,0,,,standard
+7RRX,B,B,7RRX|B|1,True,False,,none,0,0,0,,,standard
+7RRX,C,C,7RRX|C|1,True,False,,none,0,0,0,,,standard
+7RRX,D,D,7RRX|D|1,True,False,,none,0,0,0,,,standard
+7RRY,A,A,7RRY|A|1,True,False,,none,0,0,0,,,standard
+7RRY,B,B,7RRY|B|1,True,False,,none,0,0,0,,,standard
+7RRY,C,C,7RRY|C|1,True,False,,none,0,0,0,,,standard
+7RRY,D,D,7RRY|D|1,True,False,,none,0,0,0,,,standard
+7RRZ,A,A,7RRZ|A|1,True,False,,none,0,0,0,,,standard
+7RRZ,B,B,7RRZ|B|1,True,False,,none,0,0,0,,,standard
+7RRZ,C,C,7RRZ|C|1,True,False,,none,0,0,0,,,standard
+7RRZ,D,D,7RRZ|D|1,True,False,,none,0,0,0,,,standard
+7RS0,A,A,7RS0|A|1,True,False,,none,0,0,0,,,standard
+7RS0,B,B,7RS0|B|1,True,False,,none,0,0,0,,,standard
+7RS0,C,C,7RS0|C|1,True,False,,none,0,0,0,,,standard
+7RS0,D,D,7RS0|D|1,True,False,,none,0,0,0,,,standard
+7RS1,A,A,7RS1|A|1,True,False,,none,0,0,0,,,standard
+7RS1,B,B,7RS1|B|1,True,False,,none,0,0,0,,,standard
+7RS1,C,C,7RS1|C|1,True,False,,none,0,0,0,,,standard
+7RS1,D,D,7RS1|D|1,True,False,,none,0,0,0,,,standard
+7RS2,A,A,7RS2|A|1,True,False,,none,0,0,0,,,standard
+7RS2,B,B,7RS2|B|1,True,False,,none,0,0,0,,,standard
+7RS2,C,C,7RS2|C|1,True,False,,none,0,0,0,,,standard
+7RS2,D,D,7RS2|D|1,True,False,,none,0,0,0,,,standard
+7RS3,A,A,7RS3|A|1,True,False,,none,0,0,0,,,standard
+7RS3,B,B,7RS3|B|1,True,False,,none,0,0,0,,,standard
+7RS3,C,C,7RS3|C|1,True,False,,none,0,0,0,,,standard
+7RS3,D,D,7RS3|D|1,True,False,,none,0,0,0,,,standard
+7RS4,A,A,7RS4|A|1,True,False,,none,0,0,0,,,standard
+7RS4,B,B,7RS4|B|1,True,False,,none,0,0,0,,,standard
+7RS4,C,C,7RS4|C|1,True,False,,none,0,0,0,,,standard
+7RS4,D,D,7RS4|D|1,True,False,,none,0,0,0,,,standard
+7RS7,A,A,7RS7|A|1,True,False,,none,0,0,0,,,standard
+7RS7,B,B,7RS7|B|1,True,False,,none,0,0,0,,,standard
+7RS7,C,C,7RS7|C|1,True,False,,none,0,0,0,,,standard
+7RS7,D,D,7RS7|D|1,True,False,,none,0,0,0,,,standard
+7RS8,A,A,7RS8|A|1,True,False,,none,0,0,0,,,standard
+7RS8,B,B,7RS8|B|1,True,False,,none,0,0,0,,,standard
+7RS8,C,C,7RS8|C|1,True,False,,none,0,0,0,,,standard
+7RS8,D,D,7RS8|D|1,True,False,,none,0,0,0,,,standard
+7RS9,A,A,7RS9|A|1,True,False,,none,0,0,0,,,standard
+7RS9,B,B,7RS9|B|1,True,False,,none,0,0,0,,,standard
+7RS9,C,C,7RS9|C|1,True,False,,none,0,0,0,,,standard
+7RS9,D,D,7RS9|D|1,True,False,,none,0,0,0,,,standard
+7SFO,A,A,7SFO|A|1,True,True,C,asu,26,0,1,10.0,Nuclear receptor coactivator 2,standard
+7SFO,B,B,7SFO|B|1,True,True,D,asu,27,16,2,10.0,Nuclear receptor coactivator 2,standard
+7T2X,A,A,7T2X|A|1,True,True,C,asu,17,0,1,13.0,Nuclear receptor coactivator 2,standard
+7T2X,B,B,7T2X|B|1,True,True,D,asu,20,10,2,13.0,Nuclear receptor coactivator 2,standard
+7TE7,A,A,7TE7|A|1,True,False,,none,0,0,0,,,standard
+7UJ7,A,C,7UJ7|C|1,True,False,,none,0,0,0,,,standard
+7UJ7,B,B,7UJ7|B|1,True,False,,none,0,0,0,,,standard
+7UJ7,C,D,7UJ7|D|1,True,False,,none,0,0,0,,,standard
+7UJ7,D,A,7UJ7|A|1,True,False,,none,0,0,0,,,standard
+7UJ8,A,B,7UJ8|B|1,True,False,,none,0,0,0,,,standard
+7UJ8,B,A,7UJ8|A|1,True,False,,none,0,0,0,,,standard
+7UJC,A,A,7UJC|A|1,True,False,,none,0,0,0,,,standard
+7UJC,B,B,7UJC|B|1,True,False,,none,0,0,0,,,standard
+7UJF,A,B,7UJF|B|1,True,False,,none,0,0,0,,,standard
+7UJF,B,A,7UJF|A|1,True,False,,none,0,0,0,,,standard
+7UJF,C,C,7UJF|C|1,True,False,,none,0,0,0,,,standard
+7UJF,D,D,7UJF|D|1,True,False,,none,0,0,0,,,standard
+7UJM,A,B,7UJM|B|1,True,False,,none,0,0,0,,,standard
+7UJM,B,A,7UJM|A|1,True,False,,none,0,0,0,,,standard
+7UJM,C,C,7UJM|C|1,True,False,,none,0,0,0,,,standard
+7UJM,D,D,7UJM|D|1,True,False,,none,0,0,0,,,standard
+7UJO,A,D,7UJO|D|1,True,False,,none,0,0,0,,,standard
+7UJO,B,A,7UJO|A|1,True,False,,none,0,0,0,,,standard
+7UJO,C,C,7UJO|C|1,True,False,,none,0,0,0,,,standard
+7UJO,D,B,7UJO|B|1,True,False,,none,0,0,0,,,standard
+7UJW,A,D,7UJW|D|1,True,False,,none,0,0,0,,,standard
+7UJW,B,A,7UJW|A|1,True,False,,none,0,0,0,,,standard
+7UJW,C,C,7UJW|C|1,True,False,,none,0,0,0,,,standard
+7UJW,D,B,7UJW|B|1,True,False,,none,0,0,0,,,standard
+7UJY,A,B,7UJY|B|1,True,False,,none,0,0,0,,,standard
+7UJY,B,A,7UJY|A|1,True,False,,none,0,0,0,,,standard
+7UJY,C,C,7UJY|C|1,True,False,,none,0,0,0,,,standard
+7UJY,D,D,7UJY|D|1,True,False,,none,0,0,0,,,standard
+7WNV,A,A,7WNV|A|1,True,False,,none,0,0,0,,,standard
+7WNV,B,B,7WNV|B|1,True,False,,none,0,0,0,,,standard
+7WNV,C,C,7WNV|C|1,True,False,,none,0,0,0,,,standard
+7WNV,D,D,7WNV|D|1,True,False,,none,0,0,0,,,standard
+7Y8F,A,A,7Y8F|A|1,True,True,C,asu,28,23,2,8.0,Grip peptide,standard
+7Y8F,B,C,7Y8F|C|1,True,True,D,asu,22,4,2,8.0,Grip peptide,standard
+7Y8G,A,A,7Y8G|A|1,True,True,C,asu,27,24,2,8.0,Grip peptide,standard
+7Y8G,B,C,7Y8G|C|1,True,True,D,asu,23,9,2,8.0,Grip peptide,standard
+7YMK,A,A,7YMK|A|1,True,True,C,asu,30,22,2,8.0,Grip peptide,standard
+7YMK,B,C,7YMK|C|1,True,True,D,asu,14,3,2,8.0,Grip peptide,standard
+8DU6,A,A,8DU6|A|1,True,False,,none,0,0,0,,,standard
+8DU6,B,B,8DU6|B|1,True,False,,none,0,0,0,,,standard
+8DU8,A,A,8DU8|A|1,True,False,,none,0,0,0,,,standard
+8DU8,B,B,8DU8|B|1,True,False,,none,0,0,0,,,standard
+8DU9,A,A,8DU9|A|1,True,False,,none,0,0,0,,,standard
+8DU9,B,B,8DU9|B|1,True,False,,none,0,0,0,,,standard
+8DUB,A,A,8DUB|A|1,True,False,,none,0,0,0,,,standard
+8DUB,B,B,8DUB|B|1,True,False,,none,0,0,0,,,standard
+8DUC,A,A,8DUC|A|1,True,False,,none,0,0,0,,,standard
+8DUD,A,A,8DUD|A|1,True,False,,none,0,0,0,,,standard
+8DUG,A,A,8DUG|A|1,True,False,,none,0,0,0,,,standard
+8DUG,B,B,8DUG|B|1,True,False,,none,0,0,0,,,standard
+8DUH,A,A,8DUH|A|1,True,False,,none,0,0,0,,,standard
+8DUH,B,B,8DUH|B|1,True,False,,none,0,0,0,,,standard
+8DUI,A,A,8DUI|A|1,True,False,,none,0,0,0,,,standard
+8DUI,B,B,8DUI|B|1,True,False,,none,0,0,0,,,standard
+8DUK,A,A,8DUK|A|1,True,False,,none,0,0,0,,,standard
+8DUK,B,B,8DUK|B|1,True,False,,none,0,0,0,,,standard
+8DUK,C,C,8DUK|C|1,True,False,,none,0,0,0,,,standard
+8DUK,D,D,8DUK|D|1,True,False,,none,0,0,0,,,standard
+8DUS,A,A,8DUS|A|1,True,False,,none,0,0,0,,,standard
+8DUS,B,B,8DUS|B|1,True,False,,none,0,0,0,,,standard
+8DUS,E,C,8DUS|C|1,True,False,,none,0,0,0,,,standard
+8DUS,F,D,8DUS|D|1,True,False,,none,0,0,0,,,standard
+8DUS,G,E,8DUS|E|1,True,False,,none,0,0,0,,,standard
+8DUS,H,F,8DUS|F|1,True,False,,none,0,0,0,,,standard
+8DV5,A,A,8DV5|A|1,True,False,,none,0,0,0,,,standard
+8DV5,B,B,8DV5|B|1,True,False,,none,0,0,0,,,standard
+8DV7,A,A,8DV7|A|1,True,False,,none,0,0,0,,,standard
+8DV7,B,B,8DV7|B|1,True,False,,none,0,0,0,,,standard
+8DV8,A,A,8DV8|A|1,True,False,,none,0,0,0,,,standard
+8DV8,B,B,8DV8|B|1,True,False,,none,0,0,0,,,standard
+8DVB,A,A,8DVB|A|1,True,False,,none,0,0,0,,,standard
+8DVB,B,B,8DVB|B|1,True,False,,none,0,0,0,,,standard
+8EV1,A,A,8EV1|A|1,True,True,C,asu,26,8,3,13.0,Nuclear receptor coactivator 2,standard
+8EV1,B,B,8EV1|B|1,True,True,D,asu,27,2,2,13.0,Nuclear receptor coactivator 2,standard
+8EV2,A,A,8EV2|A|1,True,True,C,asu,26,7,3,13.0,Nuclear receptor coactivator 2,standard
+8EV2,B,B,8EV2|B|1,True,True,D,asu,26,7,2,13.0,Nuclear receptor coactivator 2,standard
+8VV1,A,A,8VV1|A|1,True,False,,none,0,0,0,,,standard
+8VV1,B,B,8VV1|B|1,True,False,,none,0,0,0,,,standard
+8VYT,A,A,8VYT|A|1,True,False,,none,0,0,0,,,standard
+8VYT,B,B,8VYT|B|1,True,False,,none,0,0,0,,,standard
+8VYT,C,C,8VYT|C|1,True,False,,none,0,0,0,,,standard
+8VYT,D,D,8VYT|D|1,True,False,,none,0,0,0,,,standard
+8VYX,A,A,8VYX|A|1,True,False,,none,0,0,0,,,standard
+8VYX,B,B,8VYX|B|1,True,False,,none,0,0,0,,,standard
+8VYX,C,C,8VYX|C|1,True,False,,none,0,0,0,,,standard
+8VYX,D,D,8VYX|D|1,True,False,,none,0,0,0,,,standard
+8VZ0,A,A,8VZ0|A|1,True,False,,none,0,0,0,,,standard
+8VZ0,B,B,8VZ0|B|1,True,False,,none,0,0,0,,,standard
+8VZ0,C,C,8VZ0|C|1,True,False,,none,0,0,0,,,standard
+8VZ0,D,D,8VZ0|D|1,True,False,,none,0,0,0,,,standard
+8VZ1,A,A,8VZ1|A|1,True,False,,none,0,0,0,,,standard
+8VZ1,B,B,8VZ1|B|1,True,False,,none,0,0,0,,,standard
+8VZ1,C,C,8VZ1|C|1,True,False,,none,0,0,0,,,standard
+8VZ1,D,D,8VZ1|D|1,True,False,,none,0,0,0,,,standard
+8VZP,A,A,8VZP|A|1,True,False,,none,0,0,0,,,standard
+8VZP,B,B,8VZP|B|1,True,False,,none,0,0,0,,,standard
+8VZP,C,C,8VZP|C|1,True,False,,none,0,0,0,,,standard
+8VZP,D,D,8VZP|D|1,True,False,,none,0,0,0,,,standard
+8VZQ,A,A,8VZQ|A|1,True,False,,none,0,0,0,,,standard
+8VZQ,B,B,8VZQ|B|1,True,False,,none,0,0,0,,,standard
+8VZQ,C,C,8VZQ|C|1,True,False,,none,0,0,0,,,standard
+8VZQ,D,D,8VZQ|D|1,True,False,,none,0,0,0,,,standard
+8W03,A,A,8W03|A|1,True,False,,none,0,0,0,,,standard
+8W03,B,B,8W03|B|1,True,False,,none,0,0,0,,,standard
+8W03,C,C,8W03|C|1,True,False,,none,0,0,0,,,standard
+8W03,D,D,8W03|D|1,True,False,,none,0,0,0,,,standard
+8W07,A,A,8W07|A|1,True,False,,none,0,0,0,,,standard
+8W07,B,B,8W07|B|1,True,False,,none,0,0,0,,,standard
+8W07,C,C,8W07|C|1,True,False,,none,0,0,0,,,standard
+8W07,D,D,8W07|D|1,True,False,,none,0,0,0,,,standard
+9B25,A,A,9B25|A|1,True,False,,none,0,0,0,,,standard
+9B25,B,B,9B25|B|1,True,False,,none,0,0,0,,,standard
+9B25,C,C,9B25|C|1,True,False,,none,0,0,0,,,standard
+9B25,D,D,9B25|D|1,True,False,,none,0,0,0,,,standard
+9B2B,A,A,9B2B|A|1,True,False,,none,0,0,0,,,standard
+9B2B,B,B,9B2B|B|1,True,False,,none,0,0,0,,,standard
+9B2B,C,C,9B2B|C|1,True,False,,none,0,0,0,,,standard
+9B2B,D,D,9B2B|D|1,True,False,,none,0,0,0,,,standard
+9BPX,A,A,9BPX|A|1,True,False,,none,0,0,0,,,standard
+9BPX,B,B,9BPX|B|1,True,False,,none,0,0,0,,,standard
+9BQE,A,A,9BQE|A|1,True,False,,none,0,0,0,,,standard
+9BQE,B,B,9BQE|B|1,True,False,,none,0,0,0,,,standard
+9BU1,A,A,9BU1|A|1,True,False,,none,0,0,0,,,standard
+9BU1,B,B,9BU1|B|1,True,False,,none,0,0,0,,,standard
+9EBG,A,C,9EBG|C|1,True,True,B,asu,22,1,3,13.0,Nuclear receptor coactivator 2,standard
+9EBG,C,D,9EBG|D|1,True,True,D,asu,19,2,2,13.0,Nuclear receptor coactivator 2,standard
+9ECK,A,A,9ECK|A|1,True,False,,none,0,0,0,,,standard
+9ECK,B,B,9ECK|B|1,True,False,,none,0,0,0,,,standard
+9ECK,C,C,9ECK|C|1,True,False,,none,0,0,0,,,standard
+9ECK,D,D,9ECK|D|1,True,False,,none,0,0,0,,,standard
+9VT5,A,A,9VT5|A|1,True,False,,none,0,0,0,,,standard
+9VT5,B,B,9VT5|B|1,True,False,,none,0,0,0,,,standard
+9VTU,A,B,9VTU|B|1,True,False,,none,0,0,0,,,standard
+9VTU,B,A,9VTU|A|1,True,False,,none,0,0,0,,,standard
+9W11,A,A,9W11|A|1,True,False,,none,0,0,0,,,standard
+9W11,B,B,9W11|B|1,True,False,,none,0,0,0,,,standard
+9W12,A,A,9W12|A|1,True,False,,none,0,0,0,,,standard
+9W12,B,B,9W12|B|1,True,False,,none,0,0,0,,,standard
+9W13,A,A,9W13|A|1,True,False,,none,0,0,0,,,standard
+9W13,B,B,9W13|B|1,True,False,,none,0,0,0,,,standard
+9WB2,A,C,9WB2|C|1,True,True,C,asu,27,11,2,8.0,GRIP Peptide,standard
+9WB2,B,A,9WB2|A|1,True,True,D,asu,28,22,2,8.0,GRIP Peptide,standard

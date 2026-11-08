@@ -1,0 +1,206 @@
+{
+ "groups": {
+  "global": 788,
+  "cl7": 445,
+  "cl4": 329
+ },
+ "n_consensus": {
+  "global": 8,
+  "cl7": 8,
+  "cl4": 8
+ },
+ "consensus": {
+  "global": [
+   "H1 312-321",
+   "H3 342-361",
+   "H4/5 372-394",
+   "H7 422-437",
+   "H8 442-455",
+   "H9 473-492",
+   "H10/11 497-526",
+   "H12 538-544"
+  ],
+  "cl7": [
+   "H1 312-321",
+   "H3 339-361",
+   "H4/5 372-394",
+   "H7 422-437",
+   "H8 442-455",
+   "H9 473-492",
+   "H10/11 497-530",
+   "H12 538-545"
+  ],
+  "cl4": [
+   "H1 312-321",
+   "H3 342-361",
+   "H4/5 372-394",
+   "H7 422-437",
+   "H8 442-455",
+   "H9 466-492",
+   "H10/11 497-525",
+   "H12 537-544"
+  ]
+ },
+ "runs_dropped": {
+  "global": 3,
+  "cl7": 1,
+  "cl4": 1
+ },
+ "low_support_positions": {
+  "global": [
+   462,
+   463,
+   464,
+   465,
+   466,
+   549,
+   550
+  ],
+  "cl7": [
+   462,
+   463,
+   464,
+   465,
+   466,
+   467,
+   468,
+   469,
+   549,
+   550
+  ],
+  "cl4": [
+   305,
+   462,
+   463,
+   464,
+   529,
+   530,
+   531,
+   532,
+   547,
+   548,
+   549,
+   550
+  ]
+ },
+ "h12_proposal": [
+  538,
+  544
+ ],
+ "h12_comparisons": [
+  {
+   "window": "538-547 (settings h12_range, primary)",
+   "start": 538,
+   "end": 547,
+   "shared": 7,
+   "only_window": [
+    545,
+    546,
+    547
+   ],
+   "only_proposal": [],
+   "jaccard": 0.7,
+   "start_shift": 0,
+   "end_shift": -3,
+   "equal": false
+  },
+  {
+   "window": "537-546 (helix table AC4, 7NFB struct_conf)",
+   "start": 537,
+   "end": 546,
+   "shared": 7,
+   "only_window": [
+    537,
+    545,
+    546
+   ],
+   "only_proposal": [],
+   "jaccard": 0.7,
+   "start_shift": 1,
+   "end_shift": -2,
+   "equal": false
+  },
+  {
+   "window": "536-545",
+   "start": 536,
+   "end": 545,
+   "shared": 7,
+   "only_window": [
+    536,
+    537,
+    545
+   ],
+   "only_proposal": [],
+   "jaccard": 0.7,
+   "start_shift": 2,
+   "end_shift": -1,
+   "equal": false
+  }
+ ],
+ "per_chain_status": [
+  {
+   "helix_name": "H1",
+   "n_helix": 788,
+   "n_not_obs": 0,
+   "n_not_helical": 0,
+   "start_cens": 4,
+   "end_cens": 0
+  },
+  {
+   "helix_name": "H10/11",
+   "n_helix": 788,
+   "n_not_obs": 0,
+   "n_not_helical": 0,
+   "start_cens": 0,
+   "end_cens": 172
+  },
+  {
+   "helix_name": "H12",
+   "n_helix": 761,
+   "n_not_obs": 23,
+   "n_not_helical": 4,
+   "start_cens": 55,
+   "end_cens": 223
+  },
+  {
+   "helix_name": "H3",
+   "n_helix": 788,
+   "n_not_obs": 0,
+   "n_not_helical": 0,
+   "start_cens": 189,
+   "end_cens": 0
+  },
+  {
+   "helix_name": "H4/5",
+   "n_helix": 788,
+   "n_not_obs": 0,
+   "n_not_helical": 0,
+   "start_cens": 2,
+   "end_cens": 1
+  },
+  {
+   "helix_name": "H7",
+   "n_helix": 788,
+   "n_not_obs": 0,
+   "n_not_helical": 0,
+   "start_cens": 116,
+   "end_cens": 0
+  },
+  {
+   "helix_name": "H8",
+   "n_helix": 788,
+   "n_not_obs": 0,
+   "n_not_helical": 0,
+   "start_cens": 0,
+   "end_cens": 2
+  },
+  {
+   "helix_name": "H9",
+   "n_helix": 788,
+   "n_not_obs": 0,
+   "n_not_helical": 0,
+   "start_cens": 434,
+   "end_cens": 0
+  }
+ ]
+}

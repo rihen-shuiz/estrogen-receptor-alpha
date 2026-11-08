@@ -1,0 +1,27 @@
+{
+ "n_ccd": 306,
+ "rcsb_ok": 306,
+ "inchikey_missing": 0,
+ "smiles_stereo_missing": 0,
+ "n_entries": 351,
+ "doi_mmcif": 328,
+ "doi_data_api": 0,
+ "doi_none": 23,
+ "graphql_test_5TM1": [
+  {
+   "rcsb_id": "5TM1",
+   "rcsb_primary_citation": {
+    "id": "primary",
+    "pdbx_database_id_DOI": "10.1016/j.chembiol.2016.11.014",
+    "pdbx_database_id_PubMed": 28042045,
+    "title": "Systems Structural Biology Analysis of Ligand Effects on ER alpha Predicts Cellular Response to Environmental Estrogens and Anti-hormone Therapies.",
+    "year": 2017
+   }
+  }
+ ],
+ "http": {
+  "network": 0,
+  "cache": 308,
+  "retries": 0
+ }
+}

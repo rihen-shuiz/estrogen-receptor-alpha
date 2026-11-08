@@ -1,0 +1,141 @@
+{
+ "ligand_100pct": {
+  "median_A3": 223.6800000000001,
+  "q1_A3": 218.94400000000005,
+  "q3_A3": 224.83200000000005,
+  "n_chains": 17,
+  "definition": "median EST ligand vdW volume (heavy atoms, Bondi) over wild-type EST chains"
+ },
+ "pocket_100pct": {
+  "source": "wild-type EST chains (fallback: fewer than 5 apo entries pass)",
+  "median_A3": 956.2240000000004,
+  "q1_A3": 557.5680000000001,
+  "q3_A3": 1011.2000000000004,
+  "fallback_used": true
+ },
+ "apo_baseline": {
+  "candidate_entries": 5,
+  "candidate_chains": 7,
+  "entries_passing": 3,
+  "chains_passing": 5,
+  "entries": {
+   "2B23": {
+    "n_chains": 2,
+    "passes": true,
+    "median_pocket_A3": 817.8880000000001,
+    "blocking_residues": ""
+   },
+   "4Q13": {
+    "n_chains": 2,
+    "passes": true,
+    "median_pocket_A3": 793.2480000000002,
+    "blocking_residues": ""
+   },
+   "7Y8F": {
+    "n_chains": 1,
+    "passes": false,
+    "median_pocket_A3": 658.1120000000002,
+    "blocking_residues": "E|PEG|601|."
+   },
+   "7YMK": {
+    "n_chains": 1,
+    "passes": false,
+    "median_pocket_A3": 647.4880000000002,
+    "blocking_residues": "E|PEG|601|."
+   },
+   "9VTU": {
+    "n_chains": 1,
+    "passes": true,
+    "median_pocket_A3": 655.5520000000001,
+    "blocking_residues": ""
+   }
+  },
+  "median_of_entry_medians_A3": 793.2480000000002,
+  "q1_A3": 724.4000000000001,
+  "q3_A3": 805.5680000000002,
+  "definition": "ligand_chemotype none and no residue other than the chain's own polymer or water with >= 6 heavy atoms within 4 A of the ligand-pocket residues (every kept chain of the entry)"
+ },
+ "e2_bound_pocket": {
+  "median_A3": 956.2240000000004,
+  "q1_A3": 557.5680000000001,
+  "q3_A3": 1011.2000000000004,
+  "n_chains": 17,
+  "n_entries": 7,
+  "chains": [
+   "1ERE|A|1",
+   "1ERE|B|1",
+   "1ERE|C|1",
+   "1ERE|D|1",
+   "1ERE|E|1",
+   "1ERE|F|1",
+   "1G50|A|1",
+   "1G50|B|1",
+   "1G50|C|1",
+   "1GWR|A|1",
+   "1GWR|B|1",
+   "1QKU|A|1",
+   "1QKU|B|1",
+   "1QKU|C|1",
+   "2YJA|B|1",
+   "5GS4|A|1",
+   "5GTR|A|1"
+  ],
+  "definition": "median pocket volume (>= 10 rays) over wild-type chains whose analysed ligand is EST alone, complete"
+ },
+ "e2_reference_centroid": {
+  "definition": "per-coordinate median of EST heavy-atom centroids (core v3 frame), wild-type EST chains with a complete ligand",
+  "chains": [
+   "1ERE|A|1",
+   "1ERE|B|1",
+   "1ERE|C|1",
+   "1ERE|D|1",
+   "1ERE|E|1",
+   "1ERE|F|1",
+   "1G50|A|1",
+   "1G50|B|1",
+   "1G50|C|1",
+   "1GWR|A|1",
+   "1GWR|B|1",
+   "1QKU|A|1",
+   "1QKU|B|1",
+   "1QKU|C|1",
+   "2YJA|B|1",
+   "5GS4|A|1",
+   "5GTR|A|1"
+  ],
+  "n_chains": 17,
+  "centroid_A": [
+   15.029818534851074,
+   -3.3368983268737793,
+   33.39582443237305
+  ],
+  "max_distance_of_chain_centroid_to_median_A": 0.367617666721344
+ },
+ "grid": {
+  "spacing_A": 0.4,
+  "voxel_A3": 0.064,
+  "probe_A": 1.4,
+  "box_margin_A": 6.0,
+  "ray_length_A": 10.0,
+  "rays": 14,
+  "buried_min_rays_primary": 10,
+  "sensitivity": [
+   8,
+   12
+  ]
+ },
+ "class_gate": {
+  "sv12_gate_classes": [
+   "agonist",
+   "SERM"
+  ],
+  "entries_in_sv14_primary_set": {
+   "agonist": 27,
+   "SERM": 20
+  },
+  "analysed": [
+   "agonist",
+   "SERM"
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+set,action_class,s08_cluster,cluster_group,n_chains,n_entries,n_ligands,n_complete_h12
+primary,agonist,1,minor,2,1,1,0
+primary,agonist,2,minor,0,0,0,0
+primary,agonist,3,minor,0,0,0,0
+primary,agonist,4,cl4,1,1,1,1
+primary,agonist,5,minor,0,0,0,0
+primary,agonist,6,minor,0,0,0,0
+primary,agonist,7,cl7,52,25,4,52
+primary,agonist,cl7,cl7,52,25,4,52
+primary,agonist,cl4,cl4,1,1,1,1
+primary,agonist,"minor (1,2,3,5,6)",minor,2,1,1,0
+primary,agonist,all,all,55,27,4,53
+primary,partial_agonist,1,minor,0,0,0,0
+primary,partial_agonist,2,minor,0,0,0,0
+primary,partial_agonist,3,minor,0,0,0,0
+primary,partial_agonist,4,cl4,0,0,0,0
+primary,partial_agonist,5,minor,0,0,0,0
+primary,partial_agonist,6,minor,0,0,0,0
+primary,partial_agonist,7,cl7,0,0,0,0
+primary,partial_agonist,cl7,cl7,0,0,0,0
+primary,partial_agonist,cl4,cl4,0,0,0,0
+primary,partial_agonist,"minor (1,2,3,5,6)",minor,0,0,0,0
+primary,partial_agonist,all,all,0,0,0,0
+primary,SERM,1,minor,1,1,1,0
+primary,SERM,2,minor,0,0,0,0
+primary,SERM,3,minor,0,0,0,0
+primary,SERM,4,cl4,48,19,5,17
+primary,SERM,5,minor,0,0,0,0
+primary,SERM,6,minor,0,0,0,0
+primary,SERM,7,cl7,4,3,3,2
+primary,SERM,cl7,cl7,4,3,3,2
+primary,SERM,cl4,cl4,48,19,5,17
+primary,SERM,"minor (1,2,3,5,6)",minor,1,1,1,0
+primary,SERM,all,all,53,20,6,19
+primary,SERD,1,minor,0,0,0,0
+primary,SERD,2,minor,0,0,0,0
+primary,SERD,3,minor,0,0,0,0
+primary,SERD,4,cl4,9,4,4,5
+primary,SERD,5,minor,0,0,0,0
+primary,SERD,6,minor,0,0,0,0
+primary,SERD,7,cl7,0,0,0,0
+primary,SERD,cl7,cl7,0,0,0,0
+primary,SERD,cl4,cl4,9,4,4,5
+primary,SERD,"minor (1,2,3,5,6)",minor,0,0,0,0
+primary,SERD,all,all,9,4,4,5
+primary,antagonist,1,minor,0,0,0,0
+primary,antagonist,2,minor,0,0,0,0
+primary,antagonist,3,minor,0,0,0,0
+primary,antagonist,4,cl4,0,0,0,0
+primary,antagonist,5,minor,0,0,0,0
+primary,antagonist,6,minor,0,0,0,0
+primary,antagonist,7,cl7,0,0,0,0
+primary,antagonist,cl7,cl7,0,0,0,0
+primary,antagonist,cl4,cl4,0,0,0,0
+primary,antagonist,"minor (1,2,3,5,6)",minor,0,0,0,0
+primary,antagonist,all,all,0,0,0,0
+primary,other,1,minor,0,0,0,0
+primary,other,2,minor,0,0,0,0
+primary,other,3,minor,0,0,0,0
+primary,other,4,cl4,0,0,0,0
+primary,other,5,minor,0,0,0,0
+primary,other,6,minor,0,0,0,0
+primary,other,7,cl7,0,0,0,0
+primary,other,cl7,cl7,0,0,0,0
+primary,other,cl4,cl4,0,0,0,0
+primary,other,"minor (1,2,3,5,6)",minor,0,0,0,0
+primary,other,all,all,0,0,0,0
+primary,unlabelled,1,minor,2,1,1,0
+primary,unlabelled,2,minor,3,1,1,0
+primary,unlabelled,3,minor,2,1,1,1
+primary,unlabelled,4,cl4,242,94,91,86
+primary,unlabelled,5,minor,1,1,1,1
+primary,unlabelled,6,minor,2,1,1,0
+primary,unlabelled,7,cl7,350,174,169,339
+primary,unlabelled,cl7,cl7,350,174,169,339
+primary,unlabelled,cl4,cl4,242,94,91,86
+primary,unlabelled,"minor (1,2,3,5,6)",minor,10,4,4,2
+primary,unlabelled,all,all,602,271,259,427
+all,agonist,1,minor,2,1,1,0
+all,agonist,2,minor,0,0,0,0
+all,agonist,3,minor,0,0,0,0
+all,agonist,4,cl4,1,1,1,1
+all,agonist,5,minor,0,0,0,0
+all,agonist,6,minor,0,0,0,0
+all,agonist,7,cl7,52,25,4,52
+all,agonist,cl7,cl7,52,25,4,52
+all,agonist,cl4,cl4,1,1,1,1
+all,agonist,"minor (1,2,3,5,6)",minor,2,1,1,0
+all,agonist,all,all,55,27,4,53
+all,partial_agonist,1,minor,0,0,0,0
+all,partial_agonist,2,minor,0,0,0,0
+all,partial_agonist,3,minor,0,0,0,0
+all,partial_agonist,4,cl4,0,0,0,0
+all,partial_agonist,5,minor,0,0,0,0
+all,partial_agonist,6,minor,0,0,0,0
+all,partial_agonist,7,cl7,0,0,0,0
+all,partial_agonist,cl7,cl7,0,0,0,0
+all,partial_agonist,cl4,cl4,0,0,0,0
+all,partial_agonist,"minor (1,2,3,5,6)",minor,0,0,0,0
+all,partial_agonist,all,all,0,0,0,0
+all,SERM,1,minor,1,1,1,0
+all,SERM,2,minor,0,0,0,0
+all,SERM,3,minor,0,0,0,0
+all,SERM,4,cl4,48,19,5,17
+all,SERM,5,minor,0,0,0,0
+all,SERM,6,minor,0,0,0,0
+all,SERM,7,cl7,4,3,3,2
+all,SERM,cl7,cl7,4,3,3,2
+all,SERM,cl4,cl4,48,19,5,17
+all,SERM,"minor (1,2,3,5,6)",minor,1,1,1,0
+all,SERM,all,all,53,20,6,19
+all,SERD,1,minor,0,0,0,0
+all,SERD,2,minor,0,0,0,0
+all,SERD,3,minor,0,0,0,0
+all,SERD,4,cl4,9,4,4,5
+all,SERD,5,minor,0,0,0,0
+all,SERD,6,minor,0,0,0,0
+all,SERD,7,cl7,0,0,0,0
+all,SERD,cl7,cl7,0,0,0,0
+all,SERD,cl4,cl4,9,4,4,5
+all,SERD,"minor (1,2,3,5,6)",minor,0,0,0,0
+all,SERD,all,all,9,4,4,5
+all,antagonist,1,minor,0,0,0,0
+all,antagonist,2,minor,0,0,0,0
+all,antagonist,3,minor,0,0,0,0
+all,antagonist,4,cl4,0,0,0,0
+all,antagonist,5,minor,0,0,0,0
+all,antagonist,6,minor,0,0,0,0
+all,antagonist,7,cl7,0,0,0,0
+all,antagonist,cl7,cl7,0,0,0,0
+all,antagonist,cl4,cl4,0,0,0,0
+all,antagonist,"minor (1,2,3,5,6)",minor,0,0,0,0
+all,antagonist,all,all,0,0,0,0
+all,other,1,minor,0,0,0,0
+all,other,2,minor,0,0,0,0
+all,other,3,minor,0,0,0,0
+all,other,4,cl4,0,0,0,0
+all,other,5,minor,0,0,0,0
+all,other,6,minor,0,0,0,0
+all,other,7,cl7,0,0,0,0
+all,other,cl7,cl7,0,0,0,0
+all,other,cl4,cl4,0,0,0,0
+all,other,"minor (1,2,3,5,6)",minor,0,0,0,0
+all,other,all,all,0,0,0,0
+all,unlabelled,1,minor,2,1,1,0
+all,unlabelled,2,minor,3,1,1,0
+all,unlabelled,3,minor,3,2,2,1
+all,unlabelled,4,cl4,271,105,101,97
+all,unlabelled,5,minor,1,1,1,1
+all,unlabelled,6,minor,2,1,1,0
+all,unlabelled,7,cl7,389,193,190,377
+all,unlabelled,cl7,cl7,389,193,190,377
+all,unlabelled,cl4,cl4,271,105,101,97
+all,unlabelled,"minor (1,2,3,5,6)",minor,11,5,5,2
+all,unlabelled,all,all,671,301,290,476

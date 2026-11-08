@@ -1,0 +1,29 @@
+{
+ "task": "SV02",
+ "ts": "2026-11-08T18:00+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV02/sse_per_position.csv",
+   "size": 70205,
+   "sha": "c3df89b0b9b59bad"
+  },
+  {
+   "path": "results/sv/SV02/rama_summary.csv",
+   "size": 3903,
+   "sha": "907b77ec377bcbb1"
+  },
+  {
+   "path": "results/sv/SV02/h12_window.md",
+   "size": 2962,
+   "sha": "bbeb2bb2abc38f65"
+  },
+  {
+   "path": "results/sv/SV02/SUMMARY.md",
+   "size": 11701,
+   "sha": "73292e80bb066040"
+  }
+ ]
+}

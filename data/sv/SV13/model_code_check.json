@@ -1,0 +1,226 @@
+{
+ "note": "code-path check only: seeded random pseudo-labels (1/3 of cl4 primary entries as 'SERD', rest 'SERM') for the C1 models and seeded random pseudo-dpX per agonist ligand for the C2b path; no estimate is saved or reported; not a result",
+ "seed": 42,
+ "rows": [
+  {
+   "stratum": "cl4",
+   "outcome": "complete",
+   "level": "chain",
+   "status": "fitted",
+   "n_chains": 300,
+   "n_covariates": 17,
+   "dropped": "mut_D538G: separation (with = 1: 8 chains, none complete);peptide: separation (with = 1: 4 chains, none complete)",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl4",
+   "outcome": "complete",
+   "level": "entry",
+   "status": "fitted",
+   "n_chains": 117,
+   "n_covariates": 15,
+   "dropped": "p21: separation (with = 1: 1 chains, none complete);ambient_temp_K_missing: separation (with = 1: 4 chains, none complete);mut_D538G: separation (with = 1: 1 chains, none complete);peptide: separation (with = 1: 3 chains, none complete)",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl4",
+   "outcome": "frac_obs",
+   "level": "chain",
+   "status": "fitted",
+   "n_chains": 300,
+   "n_covariates": 18,
+   "dropped": "peptide: separation (with = 1: 4 chains, none complete)",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl4",
+   "outcome": "frac_obs",
+   "level": "entry",
+   "status": "fitted",
+   "n_chains": 117,
+   "n_covariates": 17,
+   "dropped": "p21: separation (with = 1: 1 chains, none complete);peptide: separation (with = 1: 3 chains, none complete)",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl4",
+   "outcome": "mobility_z",
+   "level": "chain",
+   "status": "fitted",
+   "n_chains": 297,
+   "n_covariates": 19,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl4",
+   "outcome": "mobility_z",
+   "level": "entry",
+   "status": "fitted",
+   "n_chains": 117,
+   "n_covariates": 19,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "all",
+   "outcome": "complete",
+   "level": "chain",
+   "status": "fitted",
+   "n_chains": 300,
+   "n_covariates": 17,
+   "dropped": "mut_D538G: separation (with = 1: 8 chains, none complete);peptide: separation (with = 1: 4 chains, none complete)",
+   "p_finite": true
+  },
+  {
+   "stratum": "all",
+   "outcome": "complete",
+   "level": "entry",
+   "status": "fitted",
+   "n_chains": 117,
+   "n_covariates": 15,
+   "dropped": "p21: separation (with = 1: 1 chains, none complete);ambient_temp_K_missing: separation (with = 1: 4 chains, none complete);mut_D538G: separation (with = 1: 1 chains, none complete);peptide: separation (with = 1: 3 chains, none complete)",
+   "p_finite": true
+  },
+  {
+   "stratum": "all",
+   "outcome": "frac_obs",
+   "level": "chain",
+   "status": "fitted",
+   "n_chains": 300,
+   "n_covariates": 18,
+   "dropped": "peptide: separation (with = 1: 4 chains, none complete)",
+   "p_finite": true
+  },
+  {
+   "stratum": "all",
+   "outcome": "frac_obs",
+   "level": "entry",
+   "status": "fitted",
+   "n_chains": 117,
+   "n_covariates": 17,
+   "dropped": "p21: separation (with = 1: 1 chains, none complete);peptide: separation (with = 1: 3 chains, none complete)",
+   "p_finite": true
+  },
+  {
+   "stratum": "all",
+   "outcome": "mobility_z",
+   "level": "chain",
+   "status": "fitted",
+   "n_chains": 297,
+   "n_covariates": 19,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "all",
+   "outcome": "mobility_z",
+   "level": "entry",
+   "status": "fitted",
+   "n_chains": 117,
+   "n_covariates": 19,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "mobility_z",
+   "level": "chain",
+   "status": "fitted (C2b path)",
+   "n_chains": 52,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "mobility_z",
+   "level": "entry",
+   "status": "fitted (C2b path)",
+   "n_chains": 52,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "angle_H12_H3_deg",
+   "level": "chain",
+   "status": "fitted (C2b path)",
+   "n_chains": 49,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "angle_H12_H3_deg",
+   "level": "entry",
+   "status": "fitted (C2b path)",
+   "n_chains": 49,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "dist_H12c_H11axis_A",
+   "level": "chain",
+   "status": "fitted (C2b path)",
+   "n_chains": 49,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "dist_H12c_H11axis_A",
+   "level": "entry",
+   "status": "fitted (C2b path)",
+   "n_chains": 49,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "ulen_H12",
+   "level": "chain",
+   "status": "fitted (C2b path)",
+   "n_chains": 42,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "ulen_H12",
+   "level": "entry",
+   "status": "fitted (C2b path)",
+   "n_chains": 42,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "psi537_wrapdiff",
+   "level": "chain",
+   "status": "fitted (C2b path)",
+   "n_chains": 52,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  },
+  {
+   "stratum": "cl7",
+   "outcome": "psi537_wrapdiff",
+   "level": "entry",
+   "status": "fitted (C2b path)",
+   "n_chains": 52,
+   "n_covariates": null,
+   "dropped": "",
+   "p_finite": true
+  }
+ ]
+}

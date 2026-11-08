@@ -1,0 +1,7 @@
+action_class,n_chains,n_entries,n_complete_h12,representative,rep_entry,rep_ligand,rep_ligand_codes,rep_cluster,rep_s08_cluster,rep_median_rmsd_A,rep_resolution_A,rep_h12_complete,n_tied_at_min,second_chain,second_median_rmsd_A,rule
+agonist,55,27,53,5WGD|B|1,5WGD,EST,EST,cl7,7.0,0.3822184412741604,1.8,1.0,1.0,5DXB|B|1,0.42597495422280635,"lowest median RMSD (results/rmsd_entry.npy) to the other chains of the class; ties by resolution, then chain_key"
+partial_agonist,0,0,0,,,,,,,,,,,,,
+SERM,53,20,19,2BJ4|A|1,2BJ4,OHT,OHT,cl4,4.0,0.7209516406756831,2.0,0.0,1.0,2JFA|A|1,0.7889594554594814,"lowest median RMSD (results/rmsd_entry.npy) to the other chains of the class; ties by resolution, then chain_key"
+SERD,9,4,5,7MSA|C|1,7MSA,ZNM,ZNM,cl4,4.0,0.559665708519356,2.24,0.0,1.0,6SBO|A|1,0.7046943203695055,"lowest median RMSD (results/rmsd_entry.npy) to the other chains of the class; ties by resolution, then chain_key"
+antagonist,0,0,0,,,,,,,,,,,,,
+other,0,0,0,,,,,,,,,,,,,

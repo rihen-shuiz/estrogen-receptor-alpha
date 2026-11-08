@@ -1,0 +1,150 @@
+{
+ "teammate_file_exists": false,
+ "n_rows": 362,
+ "n_entries": 349,
+ "n_ccd": 306,
+ "rows_by_match_type": {
+  "full": 172,
+  "no_chembl": 158,
+  "connectivity_only": 32
+ },
+ "ccd_by_match_type": {
+  "no_chembl": 146,
+  "full": 129,
+  "connectivity_only": 31
+ },
+ "label_b_rows": {
+  "unlabelled": 311,
+  "agonist": 27,
+  "SERM": 20,
+  "SERD": 4
+ },
+ "label_b_parents": {
+  "SERM": 6,
+  "agonist": 4,
+  "SERD": 4
+ },
+ "label_c_rows": {
+  "unlabelled": 338,
+  "SERD": 19,
+  "antagonist": 4,
+  "agonist": 1
+ },
+ "c_reason_rows": {
+  "no_chembl_parent": 158,
+  "doi_not_in_chembl": 134,
+  "pattern_match": 24,
+  "no_pattern_match": 18,
+  "no_doi": 16,
+  "ligand_has_no_esr1_activity_in_document": 11,
+  "no_activity_with_pchembl_ge6": 1
+ },
+ "gate": {
+  "n_compared": 2,
+  "n_agree": 1,
+  "agreement": 0.5,
+  "passed": false,
+  "n_compared_ccd": 2,
+  "n_compared_entries": 2,
+  "min_rows": 10,
+  "min_agreement": 0.8
+ },
+ "final_rows": {
+  "unlabelled": 311,
+  "agonist": 27,
+  "SERM": 20,
+  "SERD": 4
+ },
+ "final_rows_by_source": [
+  {
+   "source": "chembl_mechanism",
+   "action_class": "SERD",
+   "n": 4
+  },
+  {
+   "source": "chembl_mechanism",
+   "action_class": "SERM",
+   "n": 20
+  },
+  {
+   "source": "chembl_mechanism",
+   "action_class": "agonist",
+   "n": 27
+  },
+  {
+   "source": "none",
+   "action_class": "unlabelled",
+   "n": 311
+  }
+ ],
+ "final_ccd": {
+  "unlabelled": 292,
+  "SERM": 6,
+  "agonist": 4,
+  "SERD": 4
+ },
+ "n_conflicts": 0,
+ "conflicts": [],
+ "chains": {
+  "n": 788,
+  "by_class": {
+   "unlabelled": 671,
+   "agonist": 55,
+   "SERM": 53,
+   "SERD": 9
+  },
+  "by_class_cluster": [
+   {
+    "action_class": "SERD",
+    "cluster": "cl4",
+    "n": 9
+   },
+   {
+    "action_class": "SERM",
+    "cluster": "cl4",
+    "n": 48
+   },
+   {
+    "action_class": "SERM",
+    "cluster": "cl7",
+    "n": 4
+   },
+   {
+    "action_class": "SERM",
+    "cluster": "minor",
+    "n": 1
+   },
+   {
+    "action_class": "agonist",
+    "cluster": "cl4",
+    "n": 1
+   },
+   {
+    "action_class": "agonist",
+    "cluster": "cl7",
+    "n": 52
+   },
+   {
+    "action_class": "agonist",
+    "cluster": "minor",
+    "n": 2
+   },
+   {
+    "action_class": "unlabelled",
+    "cluster": "cl4",
+    "n": 271
+   },
+   {
+    "action_class": "unlabelled",
+    "cluster": "cl7",
+    "n": 389
+   },
+   {
+    "action_class": "unlabelled",
+    "cluster": "minor",
+    "n": 11
+   }
+  ],
+  "two_codes_differing_class": 0
+ }
+}

@@ -1,0 +1,13 @@
+set,comparison,part,stratum,side_a,chains_a,entries_a,side_b,chains_b,entries_b,gate_pass,gate_reason,dpx_ligands
+primary,C1_SERD_vs_SERM,C1,all,SERD,9,4,SERM,53.0,20.0,False,SERD 4 entries < 5,
+primary,C1_SERD_vs_SERM,C1,cl4,SERD,9,4,SERM,48.0,19.0,False,SERD 4 entries < 5,
+primary,C1_antagonist_vs_SERM,C1,all,antagonist,0,0,SERM,53.0,20.0,False,antagonist 0 entries < 5,
+primary,C1_antagonist_vs_SERM,C1,cl4,antagonist,0,0,SERM,48.0,19.0,False,antagonist 0 entries < 5,
+primary,C2a_partial_agonist_vs_agonist,C2a,cl7,partial_agonist,0,0,agonist,52.0,25.0,False,partial_agonist 0 entries < 5,
+primary,C2b_agonist_rho_dpX,C2b,cl7,agonist with dpX,6,3,,,,False,"agonist entries with a tested SV15 dpX: 3 < 5 (DES 2, J3Z 1; 25 agonist entries in cl7)",DES:2;J3Z:1
+all,C1_SERD_vs_SERM,C1,all,SERD,9,4,SERM,53.0,20.0,False,SERD 4 entries < 5,
+all,C1_SERD_vs_SERM,C1,cl4,SERD,9,4,SERM,48.0,19.0,False,SERD 4 entries < 5,
+all,C1_antagonist_vs_SERM,C1,all,antagonist,0,0,SERM,53.0,20.0,False,antagonist 0 entries < 5,
+all,C1_antagonist_vs_SERM,C1,cl4,antagonist,0,0,SERM,48.0,19.0,False,antagonist 0 entries < 5,
+all,C2a_partial_agonist_vs_agonist,C2a,cl7,partial_agonist,0,0,agonist,52.0,25.0,False,partial_agonist 0 entries < 5,
+all,C2b_agonist_rho_dpX,C2b,cl7,agonist with dpX,6,3,,,,False,"agonist entries with a tested SV15 dpX: 3 < 5 (DES 2, J3Z 1; 25 agonist entries in cl7)",DES:2;J3Z:1

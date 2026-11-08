@@ -1,0 +1,29 @@
+{
+ "task": "SV11",
+ "ts": "2026-11-08T17:53+05:00",
+ "who": "opus",
+ "git": "8828a30",
+ "tl_sha": "0d05c1e8dbd9846c",
+ "ev": [
+  {
+   "path": "results/sv/SV11/pocket_labels.csv",
+   "size": 429785,
+   "sha": "7423978653174158"
+  },
+  {
+   "path": "results/sv/SV11/site_tests.csv",
+   "size": 5707,
+   "sha": "59fc311e808bb577"
+  },
+  {
+   "path": "results/sv/SV11/ligand_steroid.csv",
+   "size": 62530,
+   "sha": "fb2abc97987bcffb"
+  },
+  {
+   "path": "results/sv/SV11/SUMMARY.md",
+   "size": 10915,
+   "sha": "01bb3365ab0d6483"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "window": [
+  538,
+  547
+ ],
+ "model_block_rows": 128,
+ "model_block_rows_sv01b": 128,
+ "max_abs_diff_gain": 9.71445146547012e-17,
+ "max_abs_diff_block_p": 9.020562075079397e-17,
+ "max_abs_diff_block_q": 9.8879238130678e-17,
+ "odds_rows": 368,
+ "odds_rows_sv01b": 368,
+ "status_equal": 368,
+ "max_abs_diff_coef": 1.7763568394002505e-15,
+ "max_abs_diff_se": 4.440892098500626e-16,
+ "max_abs_diff_q": 1.1102230246251565e-16,
+ "n_tests_bh": 368,
+ "n_tests_bh_sv01b": 368,
+ "mobility_rows": 788,
+ "mobility_rows_sv01b": 788,
+ "max_abs_diff_mobility_z": 4.440892098500626e-16,
+ "mobility_defined_equal": 788
+}

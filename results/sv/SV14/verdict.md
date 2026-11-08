@@ -1,0 +1,5 @@
+- Ligand and pocket volume go together over all chains (Spearman rho 0.44 ligand level, 0.47 entry level, q 2.0e-14 / 1.4e-18) and within cl7 (0.41 / 0.46), not within cl4 (0.11 / 0.14, q >= 0.20) nor within agonist or SERM (q >= 0.15).
+- Filling (median 33.8 %, IQR 24.8-39.2) does not differ cl7 vs cl4 (entry medians 33.0 vs 32.3 %, q 0.14; chain bootstrap q 0.19) or agonist vs SERM (q 0.94 / 0.60).
+- References: ligand 100 % = E2 224 A^3; pocket 100 % = wild-type E2 pocket 956 A^3 (fallback: 3 apo entries pass, < 5); the E2 pocket is bimodal (505-579 vs 956-1027 A^3): in 9 of 17 chains it joins a buried region past E353/R394.
+- cl4 ligands are larger (median 363 vs 250 A^3) and sit less completely inside the pocket (inside share 0.83 vs 0.98); filling stays similar because their pockets are larger too (929 vs 768 A^3).
+- These are crystal-structure pocket geometries only; they say nothing about cellular activity or receptor degradation.

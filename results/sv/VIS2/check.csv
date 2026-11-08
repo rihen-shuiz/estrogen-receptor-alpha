@@ -1,0 +1,412 @@
+check,item,result,detail
+claim,01_data_precipitant_peg.png,pass,"docs/RESULTS_SUMMARY.md, The data: 323 were grown with PEG"
+claim,02_data_construct_mutations.png,pass,"docs/RESULTS_SUMMARY.md, The data: 443 chains carry Y537S and 243 carry L536S; only 58 are wild type in t"
+claim,03_dendrogram_1p5_cut.png,pass,"docs/RESULTS_SUMMARY.md, §1: Average linkage at 1.5 A gives 7 clusters"
+claim,04_rmsd_heatmap_two_blocks.png,pass,"docs/RESULTS_SUMMARY.md, §1: The median RMSD between cl7 and cl4 is 3.49 A"
+claim,04_rmsd_heatmap_two_blocks.png,pass,"docs/RESULTS_SUMMARY.md, Storyline: The 788 x 788 RMSD matrix has two dark blocks."
+claim,05_embedding_pca.png,pass,"docs/RESULTS_SUMMARY.md, §1: All five embeddings separate the two"
+claim,06_zoo_best_per_family.png,pass,"docs/RESULTS_SUMMARY.md, §1: The declared rule selects spectral|sigma=2.0,k=2 (silhouette 0.74, boo"
+claim,07_zoo_pairwise_ari.png,pass,"docs/RESULTS_SUMMARY.md, §1: The best runs of the top-7 families agree with S08 at ARI 0.89-0.98; d"
+claim,08_cluster_compactness.png,pass,"docs/RESULTS_SUMMARY.md, §1: cl7 mean pairwise RMSD 0.70 A (diameter 3.1 A), cl4 0.91 A (diameter 2"
+claim,09_robustness_split_agreement.png,pass,"docs/RESULTS_SUMMARY.md, §1: recovers the split with agreement 0.98-1.00"
+claim,10_metric_triangle_inequality.png,pass,"docs/RESULTS_SUMMARY.md, §1: 5.4% of triples break the triangle inequality"
+claim,11_metric_h12less_hubs.png,pass,"docs/RESULTS_SUMMARY.md, §1: chains without H12 look close to everyone"
+claim,12_region_rmsd_h12_only.png,pass,"docs/RESULTS_SUMMARY.md, §2: On H12 alone the median cl7-cl4 distance is 14.0 A"
+claim,13_region_rmsd_no_h12.png,pass,"docs/RESULTS_SUMMARY.md, §2: without residues 528-550 it is 0.82 A and the clusters merge"
+claim,14_displacement_profile.png,pass,"docs/RESULTS_SUMMARY.md, §2: Positions 528-550 carry 99% of the squared difference between the clus"
+claim,15_h12_shift_by_cluster.png,pass,"docs/RESULTS_SUMMARY.md, §2: H12 sits 12.3 A from its cl7 position in cl4 (cl7 0.2 A)"
+claim,16_h12_h3_angle_by_cluster.png,pass,"docs/RESULTS_SUMMARY.md, §2: the H12-H3 axis angle is 82 vs 43 deg"
+claim,17_k362_e542_by_cluster.png,pass,"docs/RESULTS_SUMMARY.md, §2: K362-E542 C-alpha distance is 19.3 vs 13.6 A"
+claim,18_medoids_superposed_front.png,pass,"docs/RESULTS_SUMMARY.md, §2: This is the agonist (H12 capping the pocket, coactivator groove free) "
+claim,18_medoids_superposed_front.png,pass,"docs/RESULTS_SUMMARY.md, Storyline: H12 caps the ligand pocket in cl7 and lies in the coactivator groove i"
+claim,18b_medoids_superposed_legend.png,pass,"docs/RESULTS_SUMMARY.md, Storyline: H12 caps the ligand pocket in cl7 and lies in the coactivator groove i"
+claim,19_phipsi_pca.png,pass,"docs/RESULTS_SUMMARY.md, §2: backbone dihedrals separate the clusters (silhouette 0.66)"
+claim,20_phipsi_pc1_loadings.png,pass,"docs/RESULTS_SUMMARY.md, §2: PC1 is essentially one residue, 537, the H11-H12 hinge"
+claim,21_split_binary_hypotheses.png,pass,"docs/RESULTS_SUMMARY.md, §2: 414 of 445 cl7 chains have a co-crystallised peptide vs 4 of 329 cl4 c"
+claim,22_split_continuous_hypotheses.png,pass,"docs/RESULTS_SUMMARY.md, §2: cl4 structures are, if anything, better (median resolution 1.88 vs 2.2"
+claim,23_cl4_subclusters_features.png,pass,"docs/RESULTS_SUMMARY.md, §2: Inside cl4, the 1.0 A sub-partition separates L536S constructs from th"
+claim,24_cl4_subclusters_profile.png,pass,"docs/RESULTS_SUMMARY.md, §2: they differ at the H11-H12 loop (534, 533, 339) rather than H12"
+claim,25_outlier_detector_agreement.png,pass,"docs/RESULTS_SUMMARY.md, §3: Five detectors flag 357 chains at least once; 22 chains (17 entries) a"
+claim,26_outlier_quality.png,pass,"docs/RESULTS_SUMMARY.md, §3: Consensus outliers are not worse in resolution, R-free, B or missing r"
+claim,26_outlier_quality.png,pass,"docs/RESULTS_SUMMARY.md, §3: 6 of 22 have an individual quality reason, 16 look like real conformat"
+claim,27_metadata_vs_cluster.png,pass,"docs/RESULTS_SUMMARY.md, §3: crystal form, construct and peptide track the cluster strongly; precip"
+claim,28_h12_lattice_contacts.png,pass,"docs/RESULTS_SUMMARY.md, §3: median 1 lattice atoms touch H12 in cl7 (the peptide sits there) vs 10"
+claim,29_h12_contacts_vs_shift_cl4.png,pass,"docs/RESULTS_SUMMARY.md, §3: a larger H12 shift (Spearman 0.55)"
+claim,30_helix_b_ranking.png,pass,"docs/RESULTS_SUMMARY.md, §4: The helix ranking by normalised B is the same in every B-group, cluste"
+claim,30_helix_b_ranking.png,pass,"docs/RESULTS_SUMMARY.md, §4: H12 is relatively more mobile in cl4 (H12 / core-v3 B ratio 1.53 vs 1."
+claim,31_core_v3_selection.png,pass,"docs/RESULTS_SUMMARY.md, §4: core v3 = the five most stable helices (338-362; 371-396; 420-439; 441"
+claim,32_core_v3_vs_old_core_b.png,pass,"docs/RESULTS_SUMMARY.md, §4: Per chain, normalised B on core v3 is 0.93 vs 1.04 on the old core"
+claim,33_chem_zoo_runs.png,pass,"docs/RESULTS_SUMMARY.md, §5: Chemistry zoo: 276 runs; auto-selected MACCS|kmeans_mds|k=6 (K = 6, si"
+claim,34_ligand_physchem_by_cluster.png,pass,"docs/RESULTS_SUMMARY.md, §5: Ligands of cl4 chains are larger (34 vs 24 heavy atoms, MW 470 vs 344)"
+claim,35_chem_struct_permutation.png,pass,"docs/RESULTS_SUMMARY.md, §5: permutation p 0.0001, Cramer's V 0.43"
+claim,36_nn_ligand_h12_agreement.png,pass,"docs/RESULTS_SUMMARY.md, §5: 89% of ligands share the H12 state of their nearest chemical neighbour"
+claim,37_potency_cl4_vs_cl7.png,pass,"docs/RESULTS_SUMMARY.md, §5: cl4 ligands are more potent at ESR1 (+1.13 pChEMBL; +0.83 within chemi"
+claim,38_hill_numbers.png,pass,"docs/RESULTS_SUMMARY.md, §6: Effective number of conformations (Hill q1): 2.19 at 1.5 A (q0 = 7 clu"
+claim,39_set_cover.png,pass,"docs/RESULTS_SUMMARY.md, §6: Two complete-H12 representatives place 90% of all 788 chains within 1."
+claim,40_cluster_discovery_curve.png,pass,"docs/RESULTS_SUMMARY.md, §6: 488 random chains to see 90% of the 1.5 A clusters, because of rare si"
+claim,41_ncs_copies.png,pass,"docs/RESULTS_SUMMARY.md, §6: Copies in one crystal differ by a median 0.54 A, the same ligand in an"
+claim,42_novelty_by_year.png,pass,"docs/RESULTS_SUMMARY.md, §6: since 2010 only 0.4% of new chains are > 1.5 A from every earlier one "
+claim,43_release_timeline.png,pass,"docs/RESULTS_SUMMARY.md, §6: both states have existed since 1998"
+claim,44_esr2_peptide.png,pass,"docs/RESULTS_SUMMARY.md, §7: ESR2 (86 chains, 39 entries) shows the same split: main basin 93% pept"
+claim,45_esr2_esr1_state_distances.png,pass,"docs/RESULTS_SUMMARY.md, §7: ESR2 agonist-state chains sit 1.33 A from ESR1 cl7, and the ESR2 secon"
+claim,46_esr1_esr2_residue_shift.png,pass,"docs/RESULTS_SUMMARY.md, §7: The draft pocket selectivity residues (384, 421) shift < 0.25 A in bac"
+claim,47_esr1_vs_esr2_potency.png,pass,"docs/RESULTS_SUMMARY.md, §7: 1615 compounds measured at both receptors, Spearman 0.50, 54% within 1"
+claim,48_sv01a_completeness_profile.png,pass,"docs/RESULTS_SUMMARY.md, SV01a: H12 538-547 is complete in 431 of 445 cl7 chains (0.969) but in 120 of"
+claim,49_sv01b_forest_completeness.png,pass,"docs/RESULTS_SUMMARY.md, SV01b: H12 complete, chain level, Q+X vs B gain cl7 0.414 vs 0.225 and cl4 0."
+claim,49_sv01b_forest_completeness.png,pass,"docs/RESULTS_SUMMARY.md, SV01b: per SD of symmetry-mate contact atoms the odds of a complete H12 rise "
+claim,50_sv01b_forest_mobility.png,pass,"docs/RESULTS_SUMMARY.md, SV01b: H12 mobility cl7 0.184 vs 0.076 and cl4 0.210 vs 0.143"
+claim,50_sv01b_forest_mobility.png,pass,"docs/RESULTS_SUMMARY.md, SV01b: H12 mobility falls by 0.268 z in cl4 (0.17 in cl7)"
+claim,51_sv02_helix_track.png,pass,"docs/RESULTS_SUMMARY.md, SV02: The data-derived H12 window is 538-544 (cl7 538-545, cl4 537-544)"
+claim,51_sv02_helix_track.png,pass,"docs/RESULTS_SUMMARY.md, SV02: H10/11 ends at 530 in cl7 and 525 in cl4, H9 starts at 473 in cl7 and "
+claim,52_sv02_rama_537.png,pass,"docs/RESULTS_SUMMARY.md, SV02: Residue 537 alone separates the clusters: circular-mean psi +156.6 deg"
+claim,53_sv03_h12_h3_angle.png,pass,"docs/RESULTS_SUMMARY.md, SV03: the largest are the H12-H3 angle (median 79.05 vs 46.63 deg)"
+claim,54_sv03_h12_h11axis_distance.png,pass,"docs/RESULTS_SUMMARY.md, SV03: the distance from the H12 centroid to the H11 axis (12.48 vs 22.26 A)"
+claim,55_sv04_h12_map_partial_a.png,pass,"docs/RESULTS_SUMMARY.md, SV04: Of 212 partial-H12 chains, 199 have a usable H12 midpoint, and every o"
+claim,56_sv04_h12_map_partial_b.png,pass,"docs/RESULTS_SUMMARY.md, SV04: panel (b) uses the SV04 estimator for all chains, because midpoint and"
+claim,57_sv05_core_v4_spread.png,pass,"docs/RESULTS_SUMMARY.md, SV05: iterative superposition keeps 128 positions with spread at most 0.5 A "
+claim,58_sv05_core_v4_membership.png,pass,"docs/RESULTS_SUMMARY.md, SV05: it adds H1 and H9, drops 25 v3 positions at helix ends, and has Jaccar"
+claim,59_sv05_displacement_v3_v4.png,pass,"docs/RESULTS_SUMMARY.md, SV05: 98.5 % of the squared cl7-cl4 difference stays in 528-550 (v3 98.6 %)"
+claim,60_sv05_clusters_ari.png,pass,"docs/RESULTS_SUMMARY.md, SV05: ARI with S08 0.990 at 1.5 A, 3 chains change cluster"
+claim,61_sv06_outliers_map.png,pass,"docs/RESULTS_SUMMARY.md, SV06: 2 in cl7 against 8.0 expected (q 0.0023)"
+claim,61_sv06_outliers_map.png,pass,"docs/RESULTS_SUMMARY.md, SV06: None (0 of 14) of the main-cluster outliers is closer to the other clu"
+claim,62_sv07_spike_profile.png,pass,"docs/RESULTS_SUMMARY.md, SV07: 19 positions outside 528-550 exceed 1.0 A in the Y10 profile"
+claim,62_sv07_spike_profile.png,pass,"docs/RESULTS_SUMMARY.md, SV07: 14 are genuine loop differences (331-340, 464, 466-468)"
+claim,63_sv07_observation_share.png,pass,"docs/RESULTS_SUMMARY.md, SV07: Y10 already averages only the chains that observe a position"
+claim,64_sv11_pocket_site_share.png,pass,"docs/RESULTS_SUMMARY.md, SV11: A pocket in the AF-2 groove is found in 0.53 of cl7 chains (234 of 445"
+claim,64_sv11_pocket_site_share.png,pass,"docs/RESULTS_SUMMARY.md, SV11: a dimer-interface pocket in 0.18 vs 0.31 of chains"
+claim,65_sv13_forest_c1_complete.png,pass,"docs/RESULTS_SUMMARY.md, SV13: Every class comparison fails the coverage gate (0 of 22 comparison row"
+claim,66_sv13_forest_c1_mobility_c2a.png,pass,"docs/RESULTS_SUMMARY.md, SV13: partial agonist vs agonist (0 partial-agonist entries)"
+claim,67_sv13_forest_c2b.png,pass,"docs/RESULTS_SUMMARY.md, SV13: agonist affinity vs H12 within cl7 (3 agonist entries with a tested SV"
+claim,68_sv13_h12_panel_agonist.png,pass,"docs/RESULTS_SUMMARY.md, SV13: `5WGD|B|1`, agonist, H12 10 of 10 residues modelled"
+claim,68_sv13_h12_panel_agonist.png,pass,"docs/RESULTS_SUMMARY.md, SV13: complete H12 538-547 in agonist 53 of 55 chains"
+claim,69_sv13_h12_panel_serm.png,pass,"docs/RESULTS_SUMMARY.md, SV13: `2BJ4|A|1`, SERM, H12 not modelled"
+claim,69_sv13_h12_panel_serm.png,pass,"docs/RESULTS_SUMMARY.md, SV13: SERM 19 of 53"
+claim,70_sv13_h12_panel_serd.png,pass,"docs/RESULTS_SUMMARY.md, SV13: `7MSA|C|1`, SERD, 7 of 10"
+claim,70_sv13_h12_panel_serd.png,pass,"docs/RESULTS_SUMMARY.md, SV13: SERD 5 of 9"
+claim,71_sv13_h12_class_overlay.png,pass,"docs/RESULTS_SUMMARY.md, SV13: one view for all panels"
+claim,71_sv13_h12_class_overlay.png,pass,"docs/RESULTS_SUMMARY.md, SV13: drawn with matplotlib because PyMOL is not available"
+claim,72_sv13_class_mds_map.png,pass,"docs/RESULTS_SUMMARY.md, SV13: agonist entries are 25 of 27 in cl7 and SERM entries 19 of 20 in cl4, "
+claim,73_sv14_pocket_vs_ligand.png,pass,"docs/RESULTS_SUMMARY.md, SV14: Ligand and pocket volume go together (Spearman rho 0.44 at ligand leve"
+claim,74_sv14_filling.png,pass,"docs/RESULTS_SUMMARY.md, SV14: Filling has a median of 33.8 % and does not differ between cl7 and cl4"
+claim,75_sv15_dpx_by_group.png,pass,"docs/RESULTS_SUMMARY.md, SV15: dpX does not differ significantly between cl7 and cl4 ligands (median "
+claim,76_sv15_dpx_vs_filling.png,pass,"docs/RESULTS_SUMMARY.md, SV15: does not follow pocket filling (rho -0.03)"
+listed,01_data_precipitant_peg.png,pass,
+listed,02_data_construct_mutations.png,pass,
+listed,03_dendrogram_1p5_cut.png,pass,
+listed,04_rmsd_heatmap_two_blocks.png,pass,
+listed,05_embedding_pca.png,pass,
+listed,06_zoo_best_per_family.png,pass,
+listed,07_zoo_pairwise_ari.png,pass,
+listed,08_cluster_compactness.png,pass,
+listed,09_robustness_split_agreement.png,pass,
+listed,10_metric_triangle_inequality.png,pass,
+listed,11_metric_h12less_hubs.png,pass,
+listed,12_region_rmsd_h12_only.png,pass,
+listed,13_region_rmsd_no_h12.png,pass,
+listed,14_displacement_profile.png,pass,
+listed,15_h12_shift_by_cluster.png,pass,
+listed,16_h12_h3_angle_by_cluster.png,pass,
+listed,17_k362_e542_by_cluster.png,pass,
+listed,18_medoids_superposed_front.png,pass,
+listed,18b_medoids_superposed_legend.png,pass,
+listed,19_phipsi_pca.png,pass,
+listed,20_phipsi_pc1_loadings.png,pass,
+listed,21_split_binary_hypotheses.png,pass,
+listed,22_split_continuous_hypotheses.png,pass,
+listed,23_cl4_subclusters_features.png,pass,
+listed,24_cl4_subclusters_profile.png,pass,
+listed,25_outlier_detector_agreement.png,pass,
+listed,26_outlier_quality.png,pass,
+listed,27_metadata_vs_cluster.png,pass,
+listed,28_h12_lattice_contacts.png,pass,
+listed,29_h12_contacts_vs_shift_cl4.png,pass,
+listed,30_helix_b_ranking.png,pass,
+listed,31_core_v3_selection.png,pass,
+listed,32_core_v3_vs_old_core_b.png,pass,
+listed,33_chem_zoo_runs.png,pass,
+listed,34_ligand_physchem_by_cluster.png,pass,
+listed,35_chem_struct_permutation.png,pass,
+listed,36_nn_ligand_h12_agreement.png,pass,
+listed,37_potency_cl4_vs_cl7.png,pass,
+listed,38_hill_numbers.png,pass,
+listed,39_set_cover.png,pass,
+listed,40_cluster_discovery_curve.png,pass,
+listed,41_ncs_copies.png,pass,
+listed,42_novelty_by_year.png,pass,
+listed,43_release_timeline.png,pass,
+listed,44_esr2_peptide.png,pass,
+listed,45_esr2_esr1_state_distances.png,pass,
+listed,46_esr1_esr2_residue_shift.png,pass,
+listed,47_esr1_vs_esr2_potency.png,pass,
+listed,48_sv01a_completeness_profile.png,pass,
+listed,49_sv01b_forest_completeness.png,pass,
+listed,50_sv01b_forest_mobility.png,pass,
+listed,51_sv02_helix_track.png,pass,
+listed,52_sv02_rama_537.png,pass,
+listed,53_sv03_h12_h3_angle.png,pass,
+listed,54_sv03_h12_h11axis_distance.png,pass,
+listed,55_sv04_h12_map_partial_a.png,pass,
+listed,56_sv04_h12_map_partial_b.png,pass,
+listed,57_sv05_core_v4_spread.png,pass,
+listed,58_sv05_core_v4_membership.png,pass,
+listed,59_sv05_displacement_v3_v4.png,pass,
+listed,60_sv05_clusters_ari.png,pass,
+listed,61_sv06_outliers_map.png,pass,
+listed,62_sv07_spike_profile.png,pass,
+listed,63_sv07_observation_share.png,pass,
+listed,64_sv11_pocket_site_share.png,pass,
+listed,65_sv13_forest_c1_complete.png,pass,
+listed,66_sv13_forest_c1_mobility_c2a.png,pass,
+listed,67_sv13_forest_c2b.png,pass,
+listed,68_sv13_h12_panel_agonist.png,pass,
+listed,69_sv13_h12_panel_serm.png,pass,
+listed,70_sv13_h12_panel_serd.png,pass,
+listed,71_sv13_h12_class_overlay.png,pass,
+listed,72_sv13_class_mds_map.png,pass,
+listed,73_sv14_pocket_vs_ligand.png,pass,
+listed,74_sv14_filling.png,pass,
+listed,75_sv15_dpx_by_group.png,pass,
+listed,76_sv15_dpx_vs_filling.png,pass,
+opens,01_data_precipitant_peg.png,pass,912x689
+opens,02_data_construct_mutations.png,pass,898x694
+opens,03_dendrogram_1p5_cut.png,pass,1272x725
+opens,04_rmsd_heatmap_two_blocks.png,pass,2506x2314
+opens,05_embedding_pca.png,pass,749x744
+opens,06_zoo_best_per_family.png,pass,1168x1143
+opens,07_zoo_pairwise_ari.png,pass,1337x1258
+opens,08_cluster_compactness.png,pass,926x966
+opens,09_robustness_split_agreement.png,pass,1875x1703
+opens,10_metric_triangle_inequality.png,pass,956x774
+opens,11_metric_h12less_hubs.png,pass,909x774
+opens,12_region_rmsd_h12_only.png,pass,805x761
+opens,13_region_rmsd_no_h12.png,pass,826x761
+opens,14_displacement_profile.png,pass,3183x1871
+opens,15_h12_shift_by_cluster.png,pass,816x652
+opens,16_h12_h3_angle_by_cluster.png,pass,832x655
+opens,17_k362_e542_by_cluster.png,pass,817x655
+opens,18_medoids_superposed_front.png,pass,1114x682
+opens,18b_medoids_superposed_legend.png,pass,1087x45
+opens,19_phipsi_pca.png,pass,1130x1205
+opens,20_phipsi_pc1_loadings.png,pass,2215x574
+opens,21_split_binary_hypotheses.png,pass,1365x1265
+opens,22_split_continuous_hypotheses.png,pass,1196x1265
+opens,23_cl4_subclusters_features.png,pass,2438x1060
+opens,24_cl4_subclusters_profile.png,pass,3421x693
+opens,25_outlier_detector_agreement.png,pass,956x881
+opens,26_outlier_quality.png,pass,3832x1873
+opens,27_metadata_vs_cluster.png,pass,1266x1603
+opens,28_h12_lattice_contacts.png,pass,1191x1005
+opens,29_h12_contacts_vs_shift_cl4.png,pass,1177x1021
+opens,30_helix_b_ranking.png,pass,3784x1773
+opens,31_core_v3_selection.png,pass,1682x1070
+opens,32_core_v3_vs_old_core_b.png,pass,1466x1073
+opens,33_chem_zoo_runs.png,pass,1074x1022
+opens,34_ligand_physchem_by_cluster.png,pass,3383x1381
+opens,35_chem_struct_permutation.png,pass,1128x1046
+opens,36_nn_ligand_h12_agreement.png,pass,1489x1005
+opens,37_potency_cl4_vs_cl7.png,pass,1223x1046
+opens,38_hill_numbers.png,pass,1995x1065
+opens,39_set_cover.png,pass,3185x1145
+opens,40_cluster_discovery_curve.png,pass,1200x720
+opens,41_ncs_copies.png,pass,1193x985
+opens,42_novelty_by_year.png,pass,1881x1025
+opens,43_release_timeline.png,pass,3184x1969
+opens,44_esr2_peptide.png,pass,1063x894
+opens,45_esr2_esr1_state_distances.png,pass,1509x1205
+opens,46_esr1_esr2_residue_shift.png,pass,3181x1479
+opens,47_esr1_vs_esr2_potency.png,pass,1387x1105
+opens,48_sv01a_completeness_profile.png,pass,1490x832
+opens,49_sv01b_forest_completeness.png,pass,3399x1941
+opens,50_sv01b_forest_mobility.png,pass,3643x1941
+opens,51_sv02_helix_track.png,pass,2308x1487
+opens,52_sv02_rama_537.png,pass,900x990
+opens,53_sv03_h12_h3_angle.png,pass,784x721
+opens,54_sv03_h12_h11axis_distance.png,pass,768x721
+opens,55_sv04_h12_map_partial_a.png,pass,1793x896
+opens,56_sv04_h12_map_partial_b.png,pass,1671x896
+opens,57_sv05_core_v4_spread.png,pass,2616x587
+opens,58_sv05_core_v4_membership.png,pass,2715x257
+opens,59_sv05_displacement_v3_v4.png,pass,2681x590
+opens,60_sv05_clusters_ari.png,pass,1246x574
+opens,61_sv06_outliers_map.png,pass,3261x1364
+opens,62_sv07_spike_profile.png,pass,3093x1143
+opens,63_sv07_observation_share.png,pass,2618x508
+opens,64_sv11_pocket_site_share.png,pass,1080x784
+opens,65_sv13_forest_c1_complete.png,pass,1826x580
+opens,66_sv13_forest_c1_mobility_c2a.png,pass,2024x629
+opens,67_sv13_forest_c2b.png,pass,1248x712
+opens,68_sv13_h12_panel_agonist.png,pass,936x704
+opens,69_sv13_h12_panel_serm.png,pass,936x704
+opens,70_sv13_h12_panel_serd.png,pass,936x704
+opens,71_sv13_h12_class_overlay.png,pass,936x689
+opens,72_sv13_class_mds_map.png,pass,1511x1077
+opens,73_sv14_pocket_vs_ligand.png,pass,1719x1017
+opens,74_sv14_filling.png,pass,2045x782
+opens,75_sv15_dpx_by_group.png,pass,2305x1020
+opens,76_sv15_dpx_vs_filling.png,pass,1348x898
+sha1,77 files,pass,77 distinct SHA-1
+source,01_data_precipitant_peg.png,pass,figures/panels/figures_ext__Y02_metadata_overview__02_main_precipitant_class_n_351.png
+source,02_data_construct_mutations.png,pass,figures/panels/figures_ext__Y02_metadata_overview__05_lbd_mutation_status_per_chain.png
+source,03_dendrogram_1p5_cut.png,pass,figures/dendrogram.png
+source,04_rmsd_heatmap_two_blocks.png,pass,figures/ext/Y07_rmsd_heatmap_annotated.png
+source,05_embedding_pca.png,pass,figures/panels/figures_ext__Y03_embeddings__01_pca_trust_0_783_rho_0_87.png
+source,06_zoo_best_per_family.png,pass,figures/panels/figures_ext__Y04_zoo_metrics__02_best_setting_of_each_family.png
+source,07_zoo_pairwise_ari.png,pass,figures/panels/figures_ext__Y06_agreement__01_pairwise_ari_1_identical_partitions.png
+source,08_cluster_compactness.png,pass,figures/panels/figures_ext__Y05_compactness__01_s08_1_5_a_clusters_cl7_is_the_tightest.png
+source,09_robustness_split_agreement.png,pass,figures/panels/figures_ext__Y28_robustness_grid__01_cl7_cl4_split_agreement.png
+source,10_metric_triangle_inequality.png,pass,figures/panels/figures_ext__Y42_metric_check__01_s04_breaks_the_triangle_inequality_in_5.png
+source,11_metric_h12less_hubs.png,pass,figures/panels/figures_ext__Y42_metric_check__02_chains_without_h12_sit_close_to.png
+source,12_region_rmsd_h12_only.png,pass,figures/panels/figures_ext__Y42_region_rmsd__04_h12only_10_positions.png
+source,13_region_rmsd_no_h12.png,pass,figures/panels/figures_ext__Y42_region_rmsd__02_noh12_223_positions.png
+source,14_displacement_profile.png,pass,figures/ext/Y10_displacement_profile.png
+source,15_h12_shift_by_cluster.png,pass,figures/panels/figures_ext__Y11_features_by_cluster__01_h12_shift_a_median_0_2_vs_12_3_r_1_00.png
+source,16_h12_h3_angle_by_cluster.png,pass,figures/panels/figures_ext__Y11_features_by_cluster__05_h12_h3_angle_deg_median_81_7_vs_42_5_r.png
+source,17_k362_e542_by_cluster.png,pass,figures/panels/figures_ext__Y11_features_by_cluster__07_k362_e542_a_median_19_3_vs_13_6_r_1_00.png
+source,18_medoids_superposed_front.png,pass,figures/panels/figures_ext__Y30_pymol_medoids__01_front_view.png
+source,18b_medoids_superposed_legend.png,pass,figures/panels/figures_ext__Y30_pymol_medoids__legend.png
+source,19_phipsi_pca.png,pass,figures/panels/figures_ext__Y12_phipsi_pca__01_phi_psi_pca_190_positions_silhouette_of.png
+source,20_phipsi_pc1_loadings.png,pass,figures/panels/figures_ext__Y12_phipsi_pca__02_h10_11.png
+source,21_split_binary_hypotheses.png,pass,figures/panels/figures_ext__Y14_split_hypotheses__01_binary_hypotheses_violet_chain_grey.png
+source,22_split_continuous_hypotheses.png,pass,figures/panels/figures_ext__Y14_split_hypotheses__02_continuous_hypotheses.png
+source,23_cl4_subclusters_features.png,pass,figures/panels/figures_ext__Y45_cl4_substructure__02_what_differs_between_the_cl4_sub.png
+source,24_cl4_subclusters_profile.png,pass,figures/panels/figures_ext__Y45_cl4_substructure__03_where_cl4_1_and_cl4_2_differ_largest_at.png
+source,25_outlier_detector_agreement.png,pass,figures/panels/figures_ext__Y15_outliers__07_how_many_methods_agree.png
+source,26_outlier_quality.png,pass,figures/ext/Y16_outlier_quality.png
+source,27_metadata_vs_cluster.png,pass,figures/panels/figures_ext__Y17_metadata_effects__01_metadata_vs_structural_cluster.png
+source,28_h12_lattice_contacts.png,pass,figures/panels/figures_ext__Y44_h12_contacts__01_packing_at_h12_cl7_vs_cl4_p_6e_70_cl4.png
+source,29_h12_contacts_vs_shift_cl4.png,pass,figures/panels/figures_ext__Y44_h12_contacts__03_within_cl4_contacts_vs_h12_position.png
+source,30_helix_b_ranking.png,pass,figures/ext/Y21_helix_b.png
+source,31_core_v3_selection.png,pass,figures/panels/figures_ext__Y21_core_selection__01_k04_rule_helices_in_the_better_half_in.png
+source,32_core_v3_vs_old_core_b.png,pass,figures/panels/figures_ext__Y21_core_selection__02_per_chain_n_788_median_old_core_1_038.png
+source,33_chem_zoo_runs.png,pass,figures/panels/figures_ext__Y08_chem_zoo_metrics__03_all_chemistry_runs.png
+source,34_ligand_physchem_by_cluster.png,pass,figures/ext/Y09_physchem_by_cluster.png
+source,35_chem_struct_permutation.png,pass,figures/panels/figures_ext__Y25_chem_struct_link__02_cramer_s_v_0_43_95_ci_0_40_0_55_mi_0_31.png
+source,36_nn_ligand_h12_agreement.png,pass,figures/panels/figures_ext__Y25_nn_agreement__01_do_similar_ligands_give_the_same_h12.png
+source,37_potency_cl4_vs_cl7.png,pass,figures/panels/figures_ext__Y25_chem_struct_link__03_potency_cl4_cl7_1_13_raw_p_3e_05_0_83.png
+source,38_hill_numbers.png,pass,figures/panels/figures_ext__Y26_hill_numbers__01_hill_numbers_many_clusters_2_effective.png
+source,39_set_cover.png,pass,figures/ext/Y26_set_cover.png
+source,40_cluster_discovery_curve.png,pass,figures/diversity_curve.png
+source,41_ncs_copies.png,pass,figures/panels/figures_ext__Y43_ncs_copies__01_pair_classes.png
+source,42_novelty_by_year.png,pass,figures/panels/figures_ext__Y27_novelty__01_each_new_structure_vs_everything.png
+source,43_release_timeline.png,pass,figures/ext/Y27_timeline.png
+source,44_esr2_peptide.png,pass,figures/panels/figures_ext__Y22_esr2_parallel__03_coloured_by_co_crystallised_peptide.png
+source,45_esr2_esr1_state_distances.png,pass,figures/panels/figures_ext__Y23_joint_embedding__02_receptor_vs_state_which_distance_is.png
+source,46_esr1_esr2_residue_shift.png,pass,figures/ext/Y23_receptor_residue_diff.png
+source,47_esr1_vs_esr2_potency.png,pass,figures/panels/figures_ext__Y24_potency_esr1_vs_esr2__01_potency_at_the_two_receptors_spearman_0.png
+source,48_sv01a_completeness_profile.png,pass,figures/sv/SV01a/SV01a_completeness_profile.png
+source,49_sv01b_forest_completeness.png,pass,figures/sv/SV01b/SV01b_forest_completeness.png
+source,50_sv01b_forest_mobility.png,pass,figures/sv/SV01b/SV01b_forest_mobility.png
+source,51_sv02_helix_track.png,pass,figures/sv/SV02/SV02_helix_track.png
+source,52_sv02_rama_537.png,pass,figures/sv/SV02/rama/SV02_rama_537.png
+source,53_sv03_h12_h3_angle.png,pass,figures/panels/sv/SV03/SV03_descriptors_by_cluster__angle_H12_H3_deg.png
+source,54_sv03_h12_h11axis_distance.png,pass,figures/panels/sv/SV03/SV03_descriptors_by_cluster__dist_H12c_H11axis_A.png
+source,55_sv04_h12_map_partial_a.png,pass,figures/panels/figures_sv_SV04__h12_map_partial__01_a_h12_map_549_complete_h12_chains_at.png
+source,56_sv04_h12_map_partial_b.png,pass,figures/panels/figures_sv_SV04__h12_map_partial__02_b_same_chains_all_at_sv04_estimates_549.png
+source,57_sv05_core_v4_spread.png,pass,figures/panels/figures_sv_SV05__SV05_core_v4__01_a_128_of_132_candidate_positions.png
+source,58_sv05_core_v4_membership.png,pass,figures/panels/figures_sv_SV05__SV05_core_v4__02_b_core_positions_v3_123_v4_128_jaccard.png
+source,59_sv05_displacement_v3_v4.png,pass,figures/panels/figures_sv_SV05__SV05_core_v4__03_c_cluster_mean_distance_cl7_cl4_per.png
+source,60_sv05_clusters_ari.png,pass,figures/panels/figures_sv_SV05__SV05_core_v4__04_d_clusters_per_cut_ari_of_v4_against.png
+source,61_sv06_outliers_map.png,pass,figures/sv/SV06/SV06_outliers_map.png
+source,62_sv07_spike_profile.png,pass,figures/panels/sv/SV07/SV07_spike_profile__profile.png
+source,63_sv07_observation_share.png,pass,figures/panels/sv/SV07/SV07_spike_profile__observation.png
+source,64_sv11_pocket_site_share.png,pass,figures/sv/SV11/SV11_site_share.png
+source,65_sv13_forest_c1_complete.png,pass,figures/panels/sv/SV13/SV13_forest__C1_logit.png
+source,66_sv13_forest_c1_mobility_c2a.png,pass,figures/panels/sv/SV13/SV13_forest__C1_mobility_C2a.png
+source,67_sv13_forest_c2b.png,pass,figures/panels/sv/SV13/SV13_forest__C2b_rho.png
+source,68_sv13_h12_panel_agonist.png,pass,figures/panels/sv/SV13/SV13_h12_class_panels__agonist.png
+source,69_sv13_h12_panel_serm.png,pass,figures/panels/sv/SV13/SV13_h12_class_panels__SERM.png
+source,70_sv13_h12_panel_serd.png,pass,figures/panels/sv/SV13/SV13_h12_class_panels__SERD.png
+source,71_sv13_h12_class_overlay.png,pass,figures/panels/sv/SV13/SV13_h12_class_panels__overlay.png
+source,72_sv13_class_mds_map.png,pass,figures/sv/SV13/SV13_mds_map.png
+source,73_sv14_pocket_vs_ligand.png,pass,figures/sv/SV14/SV14_pocket_vs_ligand.png
+source,74_sv14_filling.png,pass,figures/sv/SV14/SV14_filling.png
+source,75_sv15_dpx_by_group.png,pass,figures/sv/SV15/SV15_dpx_by_group.png
+source,76_sv15_dpx_vs_filling.png,pass,figures/sv/SV15/SV15_dpx_vs_filling.png
+numbering,01_data_precipitant_peg.png,pass,
+numbering,02_data_construct_mutations.png,pass,
+numbering,03_dendrogram_1p5_cut.png,pass,
+numbering,04_rmsd_heatmap_two_blocks.png,pass,
+numbering,05_embedding_pca.png,pass,
+numbering,06_zoo_best_per_family.png,pass,
+numbering,07_zoo_pairwise_ari.png,pass,
+numbering,08_cluster_compactness.png,pass,
+numbering,09_robustness_split_agreement.png,pass,
+numbering,10_metric_triangle_inequality.png,pass,
+numbering,11_metric_h12less_hubs.png,pass,
+numbering,12_region_rmsd_h12_only.png,pass,
+numbering,13_region_rmsd_no_h12.png,pass,
+numbering,14_displacement_profile.png,pass,
+numbering,15_h12_shift_by_cluster.png,pass,
+numbering,16_h12_h3_angle_by_cluster.png,pass,
+numbering,17_k362_e542_by_cluster.png,pass,
+numbering,18_medoids_superposed_front.png,pass,
+numbering,18b_medoids_superposed_legend.png,pass,legend follows its graph
+numbering,19_phipsi_pca.png,pass,
+numbering,20_phipsi_pc1_loadings.png,pass,
+numbering,21_split_binary_hypotheses.png,pass,
+numbering,22_split_continuous_hypotheses.png,pass,
+numbering,23_cl4_subclusters_features.png,pass,
+numbering,24_cl4_subclusters_profile.png,pass,
+numbering,25_outlier_detector_agreement.png,pass,
+numbering,26_outlier_quality.png,pass,
+numbering,27_metadata_vs_cluster.png,pass,
+numbering,28_h12_lattice_contacts.png,pass,
+numbering,29_h12_contacts_vs_shift_cl4.png,pass,
+numbering,30_helix_b_ranking.png,pass,
+numbering,31_core_v3_selection.png,pass,
+numbering,32_core_v3_vs_old_core_b.png,pass,
+numbering,33_chem_zoo_runs.png,pass,
+numbering,34_ligand_physchem_by_cluster.png,pass,
+numbering,35_chem_struct_permutation.png,pass,
+numbering,36_nn_ligand_h12_agreement.png,pass,
+numbering,37_potency_cl4_vs_cl7.png,pass,
+numbering,38_hill_numbers.png,pass,
+numbering,39_set_cover.png,pass,
+numbering,40_cluster_discovery_curve.png,pass,
+numbering,41_ncs_copies.png,pass,
+numbering,42_novelty_by_year.png,pass,
+numbering,43_release_timeline.png,pass,
+numbering,44_esr2_peptide.png,pass,
+numbering,45_esr2_esr1_state_distances.png,pass,
+numbering,46_esr1_esr2_residue_shift.png,pass,
+numbering,47_esr1_vs_esr2_potency.png,pass,
+numbering,48_sv01a_completeness_profile.png,pass,
+numbering,49_sv01b_forest_completeness.png,pass,
+numbering,50_sv01b_forest_mobility.png,pass,
+numbering,51_sv02_helix_track.png,pass,
+numbering,52_sv02_rama_537.png,pass,
+numbering,53_sv03_h12_h3_angle.png,pass,
+numbering,54_sv03_h12_h11axis_distance.png,pass,
+numbering,55_sv04_h12_map_partial_a.png,pass,
+numbering,56_sv04_h12_map_partial_b.png,pass,
+numbering,57_sv05_core_v4_spread.png,pass,
+numbering,58_sv05_core_v4_membership.png,pass,
+numbering,59_sv05_displacement_v3_v4.png,pass,
+numbering,60_sv05_clusters_ari.png,pass,
+numbering,61_sv06_outliers_map.png,pass,
+numbering,62_sv07_spike_profile.png,pass,
+numbering,63_sv07_observation_share.png,pass,
+numbering,64_sv11_pocket_site_share.png,pass,
+numbering,65_sv13_forest_c1_complete.png,pass,
+numbering,66_sv13_forest_c1_mobility_c2a.png,pass,
+numbering,67_sv13_forest_c2b.png,pass,
+numbering,68_sv13_h12_panel_agonist.png,pass,
+numbering,69_sv13_h12_panel_serm.png,pass,
+numbering,70_sv13_h12_panel_serd.png,pass,
+numbering,71_sv13_h12_class_overlay.png,pass,
+numbering,72_sv13_class_mds_map.png,pass,
+numbering,73_sv14_pocket_vs_ligand.png,pass,
+numbering,74_sv14_filling.png,pass,
+numbering,75_sv15_dpx_by_group.png,pass,
+numbering,76_sv15_dpx_vs_filling.png,pass,
+sv09_main,table found,pass,10 files
+sv09_main,figures/sv/SV01b/SV01b_forest_completeness.png,pass,
+sv09_main,figures/sv/SV01b/SV01b_forest_mobility.png,pass,
+sv09_main,figures/sv/SV02/SV02_helix_track.png,pass,
+sv09_main,figures/sv/SV02/rama/SV02_rama_537.png,pass,
+sv09_main,figures/sv/SV04/h12_map_partial.png,pass,
+sv09_main,figures/sv/SV06/SV06_outliers_map.png,pass,
+sv09_main,figures/sv/SV07/SV07_spike_profile.png,pass,
+sv09_main,figures/sv/SV13/SV13_forest.png,pass,
+sv09_main,figures/sv/SV13/SV13_h12_class_panels.png,pass,
+sv09_main,figures/sv/SV14/SV14_pocket_vs_ligand.png,pass,

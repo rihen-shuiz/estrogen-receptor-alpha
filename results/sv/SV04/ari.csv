@@ -1,0 +1,9 @@
+distance,level,K,chains,reference,n,n_clusters_sv04,n_clusters_reference,sv04_cluster_sizes,ari
+midpoint_rms,chain,2,cl7 + cl4 chains,S08 group cl7 / cl4,774,2,2,446;328,0.9539482798456529
+midpoint_rms,chain,7,all chains,S08 cut 1.5 A (7 clusters),788,7,7,448;333;2;2;1;1;1,0.9308649727064399
+midpoint_rms,entry,2,cl7 + cl4 chains,S08 group cl7 / cl4,344,2,2,219;125,0.9766912520853793
+midpoint_rms,entry,7,all chains,S08 cut 1.5 A (7 clusters),351,7,7,220;124;2;2;1;1;1,0.9586085407713117
+axis_angle_rms,chain,2,cl7 + cl4 chains,S08 group cl7 / cl4,774,2,2,453;321,0.9488919688303181
+axis_angle_rms,chain,7,all chains,S08 cut 1.5 A (7 clusters),788,7,7,454;306;18;5;3;1;1,0.9104995210990771
+axis_angle_rms,entry,2,cl7 + cl4 chains,S08 group cl7 / cl4,344,2,2,220;124,0.9651309852235413
+axis_angle_rms,entry,7,all chains,S08 cut 1.5 A (7 clusters),351,7,7,221;123;2;2;1;1;1,0.9554429652738787

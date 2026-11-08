@@ -1,0 +1,37 @@
+cluster_group,h12_status,measure,n_chains,n_entries,k,fraction,entries_with_blocked_chain,median_clash_atoms,median_clash_backbone_atoms
+cl4,not_modelled,cl7 medoid H12 blocked,14,10.0,2,0.14285714285714285,1.0,0.5,0.0
+cl4,not_modelled,cl4 medoid H12 blocked,14,10.0,2,0.14285714285714285,1.0,1.5,0.0
+cl4,not_modelled,only cl7 position blocked,14,,0,0.0,,,
+cl4,not_modelled,only cl4 position blocked,14,,0,0.0,,,
+cl4,not_modelled,both positions blocked,14,,2,0.14285714285714285,,,
+cl4,not_modelled,neither position blocked,14,,12,0.8571428571428571,,,
+cl4,partial,cl7 medoid H12 blocked,5,4.0,0,0.0,0.0,0.0,0.0
+cl4,partial,cl4 medoid H12 blocked,5,4.0,0,0.0,0.0,4.0,0.0
+cl4,partial,only cl7 position blocked,5,,0,0.0,,,
+cl4,partial,only cl4 position blocked,5,,0,0.0,,,
+cl4,partial,both positions blocked,5,,0,0.0,,,
+cl4,partial,neither position blocked,5,,5,1.0,,,
+cl7,not_modelled,cl7 medoid H12 blocked,7,6.0,0,0.0,0.0,0.0,0.0
+cl7,not_modelled,cl4 medoid H12 blocked,7,6.0,0,0.0,0.0,0.0,0.0
+cl7,not_modelled,only cl7 position blocked,7,,0,0.0,,,
+cl7,not_modelled,only cl4 position blocked,7,,0,0.0,,,
+cl7,not_modelled,both positions blocked,7,,0,0.0,,,
+cl7,not_modelled,neither position blocked,7,,7,1.0,,,
+cl7,partial,cl7 medoid H12 blocked,3,3.0,0,0.0,0.0,0.0,0.0
+cl7,partial,cl4 medoid H12 blocked,3,3.0,0,0.0,0.0,0.0,0.0
+cl7,partial,only cl7 position blocked,3,,0,0.0,,,
+cl7,partial,only cl4 position blocked,3,,0,0.0,,,
+cl7,partial,both positions blocked,3,,0,0.0,,,
+cl7,partial,neither position blocked,3,,3,1.0,,,
+minor,not_modelled,cl7 medoid H12 blocked,2,2.0,1,0.5,1.0,19.0,10.0
+minor,not_modelled,cl4 medoid H12 blocked,2,2.0,1,0.5,1.0,28.5,14.0
+minor,not_modelled,only cl7 position blocked,2,,0,0.0,,,
+minor,not_modelled,only cl4 position blocked,2,,0,0.0,,,
+minor,not_modelled,both positions blocked,2,,1,0.5,,,
+minor,not_modelled,neither position blocked,2,,1,0.5,,,
+all,all,cl7 medoid H12 blocked,31,22.0,3,0.0967741935483871,2.0,0.0,0.0
+all,all,cl4 medoid H12 blocked,31,22.0,3,0.0967741935483871,2.0,1.0,0.0
+all,all,only cl7 position blocked,31,,0,0.0,,,
+all,all,only cl4 position blocked,31,,0,0.0,,,
+all,all,both positions blocked,31,,3,0.0967741935483871,,,
+all,all,neither position blocked,31,,28,0.9032258064516129,,,

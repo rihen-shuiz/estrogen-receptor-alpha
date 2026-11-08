@@ -1,0 +1,39 @@
+level,group_type,group,n,complete,partial,not_modelled,frac_complete
+chain,cluster,cl7,445,431,7,7,0.9685393258426966
+chain,cluster,cl4,329,120,195,14,0.364741641337386
+chain,cluster,minor,14,2,10,2,0.14285714285714285
+chain,mutation,Cys->Ser/Ala only,30,17,4,9,0.5666666666666667
+chain,mutation,D538G,12,4,8,0,0.3333333333333333
+chain,mutation,L536S,243,81,159,3,0.3333333333333333
+chain,mutation,Y537S,443,407,32,4,0.9187358916478555
+chain,mutation,other,2,0,2,0,0.0
+chain,mutation,wild type,58,44,7,7,0.7586206896551724
+chain,all,all,788,553,212,23,0.7017766497461929
+chain,cluster_mutation,cl7|Cys->Ser/Ala only,6,5,0,1,0.8333333333333334
+chain,cluster_mutation,cl7|D538G,4,4,0,0,1.0
+chain,cluster_mutation,cl7|Y537S,405,394,7,4,0.9728395061728395
+chain,cluster_mutation,cl7|wild type,30,28,0,2,0.9333333333333333
+chain,cluster_mutation,cl4|Cys->Ser/Ala only,24,12,4,8,0.5
+chain,cluster_mutation,cl4|D538G,8,0,8,0,0.0
+chain,cluster_mutation,cl4|L536S,237,80,155,2,0.33755274261603374
+chain,cluster_mutation,cl4|Y537S,37,13,24,0,0.35135135135135137
+chain,cluster_mutation,cl4|wild type,23,15,4,4,0.6521739130434783
+entry,cluster,cl7,221,216,1,4,0.9773755656108597
+entry,cluster,cl4,128,73,49,6,0.5703125
+entry,cluster,minor,7,1,5,1,0.14285714285714285
+entry,mutation,Cys->Ser/Ala only,16,10,2,4,0.625
+entry,mutation,D538G,3,2,1,0,0.6666666666666666
+entry,mutation,L536S,84,44,40,0,0.5238095238095238
+entry,mutation,Y537S,216,208,7,1,0.9629629629629629
+entry,mutation,other,1,0,1,0,0.0
+entry,mutation,wild type,31,25,3,3,0.8064516129032258
+entry,all,all,351,289,54,8,0.8233618233618234
+entry,cluster_mutation,cl7|Cys->Ser/Ala only,4,3,0,1,0.75
+entry,cluster_mutation,cl7|D538G,2,2,0,0,1.0
+entry,cluster_mutation,cl7|Y537S,200,198,1,1,0.99
+entry,cluster_mutation,cl7|wild type,15,13,0,2,0.8666666666666667
+entry,cluster_mutation,cl4|Cys->Ser/Ala only,12,7,2,3,0.5833333333333334
+entry,cluster_mutation,cl4|D538G,1,0,1,0,0.0
+entry,cluster_mutation,cl4|L536S,82,44,38,0,0.5365853658536586
+entry,cluster_mutation,cl4|Y537S,16,10,6,0,0.625
+entry,cluster_mutation,cl4|wild type,17,12,2,3,0.7058823529411765

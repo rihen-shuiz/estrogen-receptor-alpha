@@ -1,0 +1,20 @@
+chembl_parent,molecule_chembl_id,mec_id,target_chembl_id,esr1_target,action_type,mechanism_of_action,mechanism_comment,max_phase,direct_interaction,mechanism_refs
+CHEMBL81,CHEMBL1116,649,CHEMBL242,False,MODULATOR,Estrogen receptor beta modulator,Mixed agonist/antagonist,4,1,DailyMed:setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9#nlm34090-1;Wikipedia:Estrogen_receptor
+CHEMBL81,CHEMBL81,10131,CHEMBL206,True,MODULATOR,Estrogen receptor modulator,,4,1,DailyMed:setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9
+CHEMBL135,CHEMBL135,858,CHEMBL206,True,AGONIST,Estrogen receptor alpha agonist,,4,1,DailyMed:setid=0f943869-41a2-4f7e-943d-dd8c17996dd8#nlm34090-1;Wikipedia:Estrogen_receptor
+CHEMBL411,CHEMBL411,867,CHEMBL206,True,AGONIST,Estrogen receptor alpha agonist,,4,1,PubMed:22682699
+CHEMBL489,CHEMBL489,4566,CHEMBL2093866,True,MODULATOR,Estrogen receptor modulator,Active metabolite of tamoxifen,3,1,KEGG:D06551;Wikipedia:Afimoxifene
+CHEMBL489,CHEMBL489,4567,CHEMBL4245,False,ANTAGONIST,Estrogen-related receptor gamma antagonist,Active metabolite of tamoxifen,3,1,PubMed:11447273
+CHEMBL954,CHEMBL954,7688,CHEMBL206,True,MODULATOR,Estrogen receptor alpha modulator,,3,1,EMA:https://www.ema.europa.eu/en/documents/assessment-report/encyzix-epar-public-assessment-report_en.pdf;Other:https://www.jstage.jst.go.jp/article/endocrj/57/6/57_K09E-368/_pdf/-char/en;PubMed:23875626;PubMed:27337642
+CHEMBL1405,CHEMBL1405,857,CHEMBL206,True,AGONIST,Estrogen receptor alpha agonist,,4,1,PubMed:6863279
+CHEMBL46740,CHEMBL2106615,2248,CHEMBL2093866,True,MODULATOR,Estrogen receptor modulator,"Bazedoxifene profile is antagonistic in breast and endometrial tissue, while an estrogen agonist in bone tissue;  Bazedoxifene in combination with conjugated estrogens is the first approved tissue-selective estrogen receptor complex (TSEC)",4,1,FDA:label/2013/022247Orig1s001lbl.pdf;PubMed:24373794
+CHEMBL193482,CHEMBL193482,7533,CHEMBL2093866,True,MODULATOR,Estrogen receptor modulator,,4,1,Other:https://www.ema.europa.eu/en/medicines/veterinary/EPAR/incurin;PubMed:6202959;PubMed:6863280
+CHEMBL278703,CHEMBL278703,4569,CHEMBL242,False,AGONIST,Estrogen receptor beta agonist,"Ph2 study for indication Benign Prostatic Hyperplasia was terminated, drug in Ph2 trial for Schizophrenia.",2,1,Other:https://clinicaltrials.gov/ct2/results?term=LY-500307&Search=Search;PubMed:25348255
+CHEMBL328190,CHEMBL328190,7582,CHEMBL2093866,True,MODULATOR,Estrogen receptor modulator,Activates some estrogen pathways and blocks other estrogen pathways. ,4,1,Other:https://www.ema.europa.eu/en/documents/product-information/fablyn-epar-product-information_en.pdf
+CHEMBL328190,CHEMBL6067998,9682,CHEMBL2093866,True,MODULATOR,Estrogen receptor modulator,,4,1,EMA:https://www.ema.europa.eu/en/documents/product-information/fablyn-epar-product-information_en.pdf
+CHEMBL1230314,CHEMBL6068423,8551,CHEMBL2093866,True,AGONIST,Estrogen receptor agonist,,4,1,FDA:label/2021/214154s000lbl.pdf
+CHEMBL3581693,CHEMBL3581693,10102,CHEMBL206,True,DEGRADER,Estrogen receptor degrader,,2,1,PubMed:25879485
+CHEMBL4297509,CHEMBL4297509,4552,CHEMBL206,True,DEGRADER,Estrogen receptor alpha degrader,FDA accepted IND-application in December 2014. Is a SERM (selective estrogen receptor modulator) and SERD (selective estrogen receptor down-regulator/degrader),4,1,Other:http://ir.radiuspharm.com/releasedetail.cfm?ReleaseID=888510;Other:http://www.radiuspharm.com/index.php/r-d/pipeline.html;PubMed:26164151
+CHEMBL4297509,CHEMBL4594273,9606,CHEMBL206,True,DEGRADER,Estrogen receptor alpha degrader,,4,1,FDA:label/2023/217639s000lbl.pdf
+CHEMBL4475463,CHEMBL4475463,8713,CHEMBL206,True,DEGRADER,Estrogen receptor alpha degrader,"Antagonises, leads to degradation",3,1,PubMed:34360578
+CHEMBL4650316,CHEMBL4650316,8949,CHEMBL206,True,DEGRADER,Estrogen receptor alpha degrader,"Antagonises, leads to degradation",3,1,PubMed:34360578

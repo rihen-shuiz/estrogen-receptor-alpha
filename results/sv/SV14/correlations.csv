@@ -1,0 +1,15 @@
+subset,level,kind,in_bh,n_chains,n_entries,x,y,n_units,rho,p,tested,note,q_bh
+all,ligand,ligand vs pocket volume,True,701,331,ligand_volume_A3,pocket_volume_A3,287,0.44380799828220807,2.789951986936419e-15,True,,1.9529663908554935e-14
+all,entry,ligand vs pocket volume,True,701,331,ligand_volume_A3,pocket_volume_A3,331,0.4714445552511719,1.0171206964435353e-19,True,,1.4239689750209496e-18
+cl7,ligand,ligand vs pocket volume,True,393,204,ligand_volume_A3,pocket_volume_A3,183,0.4060053868139559,1.1825327802862727e-08,True,,4.138864731001955e-08
+cl7,entry,ligand vs pocket volume,True,393,204,ligand_volume_A3,pocket_volume_A3,204,0.46061847815603674,4.145018920916057e-12,True,,1.93434216309416e-11
+cl4,ligand,ligand vs pocket volume,True,294,125,ligand_volume_A3,pocket_volume_A3,108,0.11093512945797622,0.253043323163497,True,,0.3936229471432175
+cl4,entry,ligand vs pocket volume,True,294,125,ligand_volume_A3,pocket_volume_A3,125,0.14251305683563745,0.11286620700008203,True,,0.19751586225014356
+class agonist,ligand,ligand vs pocket volume,True,55,27,ligand_volume_A3,pocket_volume_A3,4,-0.39999999999999997,0.6,True,,0.7000000000000001
+class agonist,entry,ligand vs pocket volume,True,55,27,ligand_volume_A3,pocket_volume_A3,27,0.08669108669108669,0.6672276723540678,True,,0.7185528779197653
+class SERM,ligand,ligand vs pocket volume,True,53,20,ligand_volume_A3,pocket_volume_A3,6,0.3714285714285715,0.46847813411078715,True,,0.5962448979591837
+class SERM,entry,ligand vs pocket volume,True,53,20,ligand_volume_A3,pocket_volume_A3,20,0.4240601503759398,0.06240648623134545,True,,0.14561513453980604
+all,chain,buriedness sensitivity >= 8 vs >= 10 rays,False,701,331,pocket_volume_b8_A3,pocket_volume_A3,701,0.7107210478471822,7.138486334872651e-109,True,,
+all,entry,buriedness sensitivity >= 8 vs >= 10 rays,False,701,331,pocket_volume_b8_A3,pocket_volume_A3,331,0.7515239344950242,2.1494084483475893e-61,True,,
+all,chain,buriedness sensitivity >= 12 vs >= 10 rays,False,701,331,pocket_volume_b12_A3,pocket_volume_A3,701,0.6663455251651659,3.5830097647624235e-91,True,,
+all,entry,buriedness sensitivity >= 12 vs >= 10 rays,False,701,331,pocket_volume_b12_A3,pocket_volume_A3,331,0.6563696655764797,3.6523176314770656e-42,True,,
