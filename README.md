@@ -12,7 +12,7 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 PYTHON=.venv/bin/python bash reproduce.sh
 ```
 
-`reproduce.sh` runs the pipeline stages in order, redraws every figure and re-checks every number of the evidence index
+`reproduce.sh` runs the pipeline stages in order, redraws every figure and the slides, and re-checks every number of the evidence index
 (about one minute). It ends with `all numbers match`.
 
 ## Layout (pipeline order)
@@ -35,7 +35,7 @@ PYTHON=.venv/bin/python bash reproduce.sh
 | `results/<stage>/` | Tables and `numbers.json` written by each stage |
 | `figures/` | All figures |
 | `evidence/` | `INDEX.md` (claims, numbers, figures, sources), `data/` (tables behind the figures), `rebuild.py` |
-| `docs/` | Project summary, meeting notes, literature checked |
+| `docs/` | Project summary, meeting notes, literature checked; `recent_results.pdf`, slides of the results since the October report (built by `recent_results.py`) |
 
 ## Conventions
 

@@ -12,5 +12,7 @@ for stage in pipeline/[0-9][0-9]_*.py; do
 done
 echo ">>> figures"
 (cd pipeline/figures && for fig in fig_*.py; do "$PY" -B "${fig}" > /dev/null; done)
+echo ">>> slides: docs/recent_results.pdf"
+"$PY" -B docs/recent_results.py > /dev/null
 echo ">>> evidence: copy source tables, redraw evidence figures, re-check every number"
 "$PY" -B evidence/rebuild.py --refresh | tail -1
