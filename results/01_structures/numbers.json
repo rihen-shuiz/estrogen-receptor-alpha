@@ -1,0 +1,38 @@
+{
+ "esr1_entries_queried": 487,
+ "esr2_entries_queried": 39,
+ "esr1_entries_with_receptor_chain": 444,
+ "esr1_chain_models": 901,
+ "chains_analysed": 788,
+ "entries_analysed": 351,
+ "selected_entries_qc_pass_all_three": 247,
+ "chains_tier": {
+  "A": 544,
+  "B": 240,
+  "C": 4
+ },
+ "entries_with_peptide": 210,
+ "chains_with_peptide_bound": 419,
+ "chains_by_construct": {
+  "Y537S": 443,
+  "L536S": 243,
+  "wild type": 58,
+  "Cys->Ser/Ala only": 30,
+  "D538G": 12,
+  "other": 2
+ },
+ "september_matrix_chains": 351,
+ "september_groups_at_1p5": 9,
+ "september_groups_by_cut": {
+  "1.0": 18,
+  "1.5": 9,
+  "2.0": 5,
+  "2.5": 4
+ },
+ "october_groups_by_cut": {
+  "1.0": 16,
+  "1.5": 7,
+  "2.0": 4,
+  "2.5": 3
+ }
+}

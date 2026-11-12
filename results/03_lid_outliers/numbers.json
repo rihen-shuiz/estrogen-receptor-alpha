@@ -1,0 +1,69 @@
+{
+ "median_A": {
+  "cl7": 12.48214010934364,
+  "cl4": 22.26377386787069,
+  "minor": 17.872725186123603
+ },
+ "sd_A": {
+  "cl7": 0.3891248758164496,
+  "cl4": 0.6088581660698932,
+  "minor": 4.057804675149359
+ },
+ "copy_p95_A": {
+  "cl7": 0.9114568709173555,
+  "cl4": 1.0770857102331026,
+  "minor": 8.36275060538495
+ },
+ "threshold_A": {
+  "cl7": 0.9114568709173555,
+  "cl4": 1.0770857102331026,
+  "minor": 8.36275060538495
+ },
+ "n_with_value": {
+  "cl7": 431,
+  "cl4": 307,
+  "minor": 10
+ },
+ "n_tukey": {
+  "cl7": 6,
+  "cl4": 0,
+  "minor": 0
+ },
+ "tukey_cl7": [
+  "5GS4|A|1",
+  "5KCU|B|1",
+  "5KD9|B|1",
+  "5TN8|B|1",
+  "9W11|B|1",
+  "9W12|B|1"
+ ],
+ "tukey_cl7_beyond_ordinary": [
+  "5GS4|A|1",
+  "5KCU|B|1",
+  "5KD9|B|1",
+  "5TN8|B|1",
+  "9W11|B|1",
+  "9W12|B|1"
+ ],
+ "cl4_extremes": [
+  "4Q50|C|1",
+  "6B0F|A|1",
+  "6V8T|B|1"
+ ],
+ "minor_with_value": 10,
+ "minor_lid_state": {
+  "between cl7 and cl4": 5,
+  "no H12 axis": 4,
+  "cl4-like": 3,
+  "cl7-like": 1,
+  "beyond the cl4 range": 1
+ },
+ "minor_intermediate": [],
+ "drivers_real": [],
+ "class_tests_min_q": 1.0,
+ "h12_h3_angle_median": {
+  "cl4": 46.63212741888887,
+  "cl7": 79.0469315042129,
+  "minor": 35.69871605973295
+ }
+}

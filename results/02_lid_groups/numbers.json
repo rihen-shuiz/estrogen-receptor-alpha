@@ -1,0 +1,56 @@
+{
+ "reference": "7NFB|B|1",
+ "core_positions": 123,
+ "chains": 788,
+ "core_fit_rmsd_median_A": 0.47294049532842675,
+ "groups_equal_frozen": {
+  "1.0": true,
+  "1.5": true,
+  "2.0": true,
+  "2.5": true
+ },
+ "n_groups_by_cut": {
+  "1.0": 16,
+  "1.5": 7,
+  "2.0": 4,
+  "2.5": 3
+ },
+ "group_sizes_1p5": {
+  "cl7": 445,
+  "cl4": 329,
+  "minor": 14
+ },
+ "entries_by_group": {
+  "cl7": 220,
+  "cl4": 126,
+  "minor": 5
+ },
+ "median_rmsd_within_cl7": 0.6717979967559295,
+ "median_rmsd_within_cl4": 0.8705522530530028,
+ "mean_rmsd_within_cl7": 0.7041854470871437,
+ "mean_rmsd_within_cl4": 0.9090084920510685,
+ "median_rmsd_cl7_cl4": 3.49371036866194,
+ "median_rmsd_cl7_cl4_without_528_550": 0.8225217214629942,
+ "median_rmsd_all_pairs": 1.3529731581783744,
+ "share_sq_difference_528_550": 0.9857753305481168,
+ "max_distance_outside_528_550_A": 3.584889875269256,
+ "copy_rmsd_median": 0.5332828572432685,
+ "copy_rmsd_p95": 1.2579779093170869,
+ "peptide_bound_cl7": 414,
+ "constructs_cl7": {
+  "Y537S": 405,
+  "wild type": 30,
+  "Cys->Ser/Ala only": 6,
+  "D538G": 4
+ },
+ "h12_complete_cl7": 431,
+ "peptide_bound_cl4": 4,
+ "constructs_cl4": {
+  "L536S": 237,
+  "Y537S": 37,
+  "Cys->Ser/Ala only": 24,
+  "wild type": 23,
+  "D538G": 8
+ },
+ "h12_complete_cl4": 120
+}

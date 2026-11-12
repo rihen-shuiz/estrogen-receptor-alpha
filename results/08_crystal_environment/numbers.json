@@ -1,0 +1,203 @@
+{
+ "n_entries": 351,
+ "entries_with_additive": 50,
+ "median_additives_per_chain": 0.0,
+ "max_additives_per_chain": 11.5,
+ "solvent_pct_median": 41.55,
+ "solvent_pct_n": 349,
+ "n_tests": 22,
+ "n_q_lt_005": 10,
+ "n_real": 0,
+ "significant": [
+  {
+   "group": "cl7",
+   "outcome": "lid_order",
+   "predictor": "recipe_classes",
+   "rho": -0.2194624230312086,
+   "effect": 0.0,
+   "threshold": 1.3628923115863083,
+   "q": 0.0028127678991990376,
+   "real": false
+  },
+  {
+   "group": "cl7",
+   "outcome": "lid_order",
+   "predictor": "solvent_pct",
+   "rho": -0.1942504603216953,
+   "effect": 0.0,
+   "threshold": 1.3628923115863083,
+   "q": 0.008591110228524115,
+   "real": false
+  },
+  {
+   "group": "cl7",
+   "outcome": "lid_order",
+   "predictor": "sym_atoms",
+   "rho": 0.28831184314336594,
+   "effect": 0.0,
+   "threshold": 1.3628923115863083,
+   "q": 4.888423445334997e-05,
+   "real": false
+  },
+  {
+   "group": "cl7",
+   "outcome": "lid_order",
+   "predictor": "n_residues_sym_contact",
+   "rho": 0.23559350366411627,
+   "effect": 0.0,
+   "threshold": 1.3628923115863083,
+   "q": 0.0012945423233953013,
+   "real": false
+  },
+  {
+   "group": "cl7",
+   "outcome": "mobility_h12_z",
+   "predictor": "solvent_pct",
+   "rho": 0.41616677172797645,
+   "effect": 0.6709936557464591,
+   "threshold": 1.4418207098684512,
+   "q": 9.030346316788595e-10,
+   "real": false
+  },
+  {
+   "group": "cl4",
+   "outcome": "lid_order",
+   "predictor": "sym_atoms",
+   "rho": 0.7143655489171644,
+   "effect": 1.5,
+   "threshold": 3.0,
+   "q": 6.320923980385521e-20,
+   "real": false
+  },
+  {
+   "group": "cl4",
+   "outcome": "lid_order",
+   "predictor": "n_residues_sym_contact",
+   "rho": 0.7019539249603776,
+   "effect": 1.5,
+   "threshold": 3.0,
+   "q": 2.965627854849037e-19,
+   "real": false
+  },
+  {
+   "group": "cl4",
+   "outcome": "mobility_h12_z",
+   "predictor": "solvent_pct",
+   "rho": -0.26724712054621974,
+   "effect": -0.4831079889349357,
+   "threshold": 2.8391788489666667,
+   "q": 0.006859752276296731,
+   "real": false
+  },
+  {
+   "group": "cl4",
+   "outcome": "mobility_h12_z",
+   "predictor": "sym_atoms",
+   "rho": -0.5426251707171857,
+   "effect": -0.989005236029203,
+   "threshold": 2.8391788489666667,
+   "q": 4.939121743406309e-10,
+   "real": false
+  },
+  {
+   "group": "cl4",
+   "outcome": "mobility_h12_z",
+   "predictor": "n_residues_sym_contact",
+   "rho": -0.5592736257970332,
+   "effect": -1.065677604606512,
+   "threshold": 2.8391788489666667,
+   "q": 1.299905243983359e-10,
+   "real": false
+  }
+ ],
+ "within_crystal": [
+  {
+   "contact": "sym_atoms",
+   "outcome": "lid_order",
+   "group": "cl7",
+   "entries": 200,
+   "more_contacts_better": 6,
+   "more_contacts_worse": 1,
+   "ties": 193,
+   "p_sign": 0.125,
+   "q": 0.2
+  },
+  {
+   "contact": "sym_atoms",
+   "outcome": "lid_order",
+   "group": "cl4",
+   "entries": 95,
+   "more_contacts_better": 38,
+   "more_contacts_worse": 14,
+   "ties": 43,
+   "p_sign": 0.0011951203200073481,
+   "q": 0.009560962560058785
+  },
+  {
+   "contact": "sym_atoms",
+   "outcome": "mobility_h12_z",
+   "group": "cl7",
+   "entries": 198,
+   "more_contacts_better": 89,
+   "more_contacts_worse": 109,
+   "ties": 0,
+   "p_sign": 0.17677965404809842,
+   "q": 0.2142398491042204
+  },
+  {
+   "contact": "sym_atoms",
+   "outcome": "mobility_h12_z",
+   "group": "cl4",
+   "entries": 90,
+   "more_contacts_better": 55,
+   "more_contacts_worse": 35,
+   "ties": 0,
+   "p_sign": 0.04459752462791592,
+   "q": 0.11892673234110912
+  },
+  {
+   "contact": "n_residues_sym_contact",
+   "outcome": "lid_order",
+   "group": "cl7",
+   "entries": 194,
+   "more_contacts_better": 6,
+   "more_contacts_worse": 1,
+   "ties": 187,
+   "p_sign": 0.125,
+   "q": 0.2
+  },
+  {
+   "contact": "n_residues_sym_contact",
+   "outcome": "lid_order",
+   "group": "cl4",
+   "entries": 88,
+   "more_contacts_better": 36,
+   "more_contacts_worse": 14,
+   "ties": 38,
+   "p_sign": 0.0026021714567221466,
+   "q": 0.010408685826888586
+  },
+  {
+   "contact": "n_residues_sym_contact",
+   "outcome": "mobility_h12_z",
+   "group": "cl7",
+   "entries": 192,
+   "more_contacts_better": 98,
+   "more_contacts_worse": 94,
+   "ties": 0,
+   "p_sign": 0.8286634291730077,
+   "q": 0.8286634291730077
+  },
+  {
+   "contact": "n_residues_sym_contact",
+   "outcome": "mobility_h12_z",
+   "group": "cl4",
+   "entries": 83,
+   "more_contacts_better": 48,
+   "more_contacts_worse": 35,
+   "ties": 0,
+   "p_sign": 0.18745986796619285,
+   "q": 0.2142398491042204
+  }
+ ]
+}

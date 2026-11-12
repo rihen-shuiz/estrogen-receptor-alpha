@@ -1,0 +1,789 @@
+chain_key,entry_id,group,cluster_1p5,space_group,mutation_status,peptide_bound,ligand_basic_amine,action_class,h12_label,ligand_chemotype,average_silhouette_best,average_first_balanced,spectral_k2
+1A52|A|1,1A52,minor,1,H 3 2,other,False,False,agonist,partial,other,1,1,1
+1A52|B|1,1A52,minor,1,H 3 2,other,False,False,agonist,partial,other,1,1,1
+1ERE|A|1,1ERE,cl7,7,P 1 21 1,wild type,False,False,agonist,complete,other,1,1,1
+1ERE|B|1,1ERE,cl7,7,P 1 21 1,wild type,False,False,agonist,complete,other,1,1,1
+1ERE|C|1,1ERE,cl7,7,P 1 21 1,wild type,False,False,agonist,complete,other,1,1,1
+1ERE|D|1,1ERE,cl7,7,P 1 21 1,wild type,False,False,agonist,complete,other,1,1,1
+1ERE|E|1,1ERE,cl7,7,P 1 21 1,wild type,False,False,agonist,complete,other,1,1,1
+1ERE|F|1,1ERE,cl7,7,P 1 21 1,wild type,False,False,agonist,complete,other,1,1,1
+1ERR|A|1,1ERR,cl4,4,C 1 2 1,wild type,False,True,SERM,complete,amine,1,1,1
+1ERR|B|1,1ERR,cl4,4,C 1 2 1,wild type,False,True,SERM,complete,amine,1,1,1
+1G50|A|1,1G50,cl7,7,P 32 2 1,wild type,False,False,agonist,complete,other,1,1,1
+1G50|B|1,1G50,cl7,7,P 32 2 1,wild type,False,False,agonist,complete,other,1,1,1
+1G50|C|1,1G50,cl7,7,P 32 2 1,wild type,False,False,agonist,complete,other,1,1,1
+1GWQ|A|1,1GWQ,cl7,7,P 1 21 1,wild type,True,False,unlabelled,complete,other,1,1,1
+1GWQ|B|1,1GWQ,cl7,7,P 1 21 1,wild type,True,False,unlabelled,complete,other,1,1,1
+1GWR|A|1,1GWR,cl7,7,P 1 21 1,wild type,True,False,agonist,complete,other,1,1,1
+1GWR|B|1,1GWR,cl7,7,P 1 21 1,wild type,True,False,agonist,complete,other,1,1,1
+1L2I|A|1,1L2I,cl7,7,P 1 21 1,wild type,True,False,unlabelled,complete,other,1,1,1
+1L2I|B|1,1L2I,cl7,7,P 1 21 1,wild type,True,False,unlabelled,complete,other,1,1,1
+1PCG|A|1,1PCG,cl7,7,C 2 2 21,Cys->Ser/Ala only,True,False,agonist,complete,other,1,1,1
+1PCG|B|1,1PCG,cl7,7,C 2 2 21,Cys->Ser/Ala only,True,False,agonist,complete,other,1,1,1
+1QKT|A|1,1QKT,cl4,4,P 65 2 2,Cys->Ser/Ala only,False,False,agonist,complete,other,1,2,2
+1QKU|A|1,1QKU,cl7,7,P 32 2 1,wild type,False,False,agonist,complete,other,1,1,1
+1QKU|B|1,1QKU,cl7,7,P 32 2 1,wild type,False,False,agonist,complete,other,1,1,1
+1QKU|C|1,1QKU,cl7,7,P 32 2 1,wild type,False,False,agonist,complete,other,1,1,1
+1R5K|A|1,1R5K,minor,2,P 61 2 2,wild type,False,False,unlabelled,partial,acid,1,1,1
+1R5K|B|1,1R5K,minor,2,P 61 2 2,wild type,False,False,unlabelled,partial,acid,1,1,1
+1R5K|C|1,1R5K,minor,2,P 61 2 2,wild type,False,False,unlabelled,partial,acid,1,1,1
+1SJ0|A|1,1SJ0,cl4,4,P 65 2 2,wild type,False,True,unlabelled,complete,amine,1,2,2
+1UOM|A|1,1UOM,cl4,4,P 65 2 2,Cys->Ser/Ala only,False,True,unlabelled,partial,amine,1,2,2
+1X7E|A|1,1X7E,cl7,7,P 1 21 1,wild type,True,False,unlabelled,complete,other,1,1,1
+1X7E|B|1,1X7E,cl7,7,P 1 21 1,wild type,True,False,unlabelled,complete,other,1,1,1
+1X7R|A|1,1X7R,cl7,7,P 21 21 2,wild type,True,False,unlabelled,complete,other,1,1,1
+1XP1|A|1,1XP1,cl4,4,P 65 2 2,wild type,False,True,unlabelled,complete,amine,1,2,2
+1XP6|A|1,1XP6,cl4,4,P 65 2 2,wild type,False,True,unlabelled,complete,amine,1,2,2
+1XP9|A|1,1XP9,cl4,4,P 65 2 2,wild type,False,True,unlabelled,complete,amine,1,2,2
+1XPC|A|1,1XPC,cl4,4,P 65 2 2,wild type,False,True,unlabelled,complete,amine,1,2,2
+1XQC|A|1,1XQC,cl4,4,P 1 21 1,Cys->Ser/Ala only,False,True,unlabelled,complete,amine,1,1,1
+1XQC|B|1,1XQC,cl4,4,P 1 21 1,Cys->Ser/Ala only,False,True,unlabelled,complete,amine,1,1,1
+1XQC|C|1,1XQC,cl4,4,P 1 21 1,Cys->Ser/Ala only,False,True,unlabelled,complete,amine,1,1,1
+1XQC|D|1,1XQC,cl4,4,P 1 21 1,Cys->Ser/Ala only,False,True,unlabelled,complete,amine,1,1,1
+1YIM|A|1,1YIM,cl4,4,P 65 2 2,wild type,False,True,unlabelled,complete,amine,1,2,2
+1YIN|A|1,1YIN,cl4,4,P 65 2 2,wild type,False,True,unlabelled,complete,amine,1,2,2
+1ZKY|A|1,1ZKY,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+1ZKY|B|1,1ZKY,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2AYR|A|1,2AYR,cl4,4,P 65 2 2,Cys->Ser/Ala only,False,True,unlabelled,complete,amine,1,2,2
+2B1V|A|1,2B1V,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2B1V|B|1,2B1V,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2B1Z|A|1,2B1Z,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2B1Z|B|1,2B1Z,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2B23|A|1,2B23,cl7,7,P 1 21 1,Y537S,True,,unlabelled,complete,none,1,1,1
+2B23|B|1,2B23,cl7,7,P 1 21 1,Y537S,True,,unlabelled,complete,none,1,1,1
+2BJ4|A|1,2BJ4,cl4,4,P 21 21 21,wild type,True,True,SERM,not_modelled,amine,1,1,1
+2BJ4|B|1,2BJ4,cl4,4,P 21 21 21,wild type,True,True,SERM,not_modelled,amine,2,5,2
+2FAI|A|1,2FAI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2FAI|B|1,2FAI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2G44|A|1,2G44,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2G44|B|1,2G44,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2G5O|A|1,2G5O,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2G5O|B|1,2G5O,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2I0J|A|1,2I0J,cl4,4,P 1 21 1,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,other,1,2,2
+2I0J|B|1,2I0J,cl4,4,P 1 21 1,Cys->Ser/Ala only,False,False,unlabelled,complete,other,1,2,2
+2I0J|C|1,2I0J,cl4,4,P 1 21 1,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,other,1,2,2
+2I0J|D|1,2I0J,cl4,4,P 1 21 1,Cys->Ser/Ala only,False,False,unlabelled,complete,other,1,2,1
+2IOG|A|1,2IOG,cl4,4,P 65 2 2,wild type,False,True,unlabelled,complete,amine,1,2,2
+2IOK|A|1,2IOK,cl4,4,P 41,wild type,False,False,unlabelled,partial,other,1,2,2
+2IOK|B|1,2IOK,cl4,4,P 41,wild type,False,False,unlabelled,partial,other,1,2,2
+2JF9|A|1,2JF9,minor,1,P 32 2 1,wild type,True,True,SERM,not_modelled,amine,1,1,1
+2JF9|B|1,2JF9,cl4,4,P 32 2 1,wild type,True,True,SERM,not_modelled,amine,1,1,1
+2JF9|C|1,2JF9,cl7,7,P 32 2 1,wild type,True,True,SERM,not_modelled,amine,1,9,1
+2JFA|A|1,2JFA,cl7,7,P 32 2 1,wild type,True,True,SERM,not_modelled,amine,1,1,1
+2JFA|B|1,2JFA,cl4,4,P 32 2 1,wild type,True,True,SERM,not_modelled,amine,2,6,2
+2OCF|A|1,2OCF,cl7,7,P 61 2 2,Y537S,False,False,agonist,complete,other,1,1,1
+2OUZ|A|1,2OUZ,cl4,4,P 65 2 2,wild type,False,True,SERM,complete,amine,1,2,2
+2P15|A|1,2P15,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2P15|B|1,2P15,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2POG|A|1,2POG,cl4,4,C 2 2 21,Cys->Ser/Ala only,False,False,unlabelled,complete,other,1,2,2
+2POG|B|1,2POG,cl4,4,C 2 2 21,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,other,1,2,1
+2Q6J|A|1,2Q6J,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2Q6J|B|1,2Q6J,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2Q70|A|1,2Q70,cl4,4,C 2 2 21,Cys->Ser/Ala only,False,False,unlabelled,complete,other,2,5,2
+2Q70|B|1,2Q70,cl4,4,C 2 2 21,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,other,1,2,1
+2QA6|A|1,2QA6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QA6|B|1,2QA6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QA8|A|1,2QA8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QA8|B|1,2QA8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QAB|A|1,2QAB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QAB|B|1,2QAB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QE4|A|1,2QE4,cl4,4,C 1 2 1,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,other,1,1,1
+2QE4|B|1,2QE4,cl4,4,C 1 2 1,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,other,1,2,1
+2QGT|A|1,2QGT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QGT|B|1,2QGT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QGW|A|1,2QGW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QGW|B|1,2QGW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QH6|A|1,2QH6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QH6|B|1,2QH6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QR9|A|1,2QR9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QR9|B|1,2QR9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QSE|A|1,2QSE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QSE|B|1,2QSE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QXM|A|1,2QXM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QXM|B|1,2QXM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2QXS|A|1,2QXS,cl4,4,C 1 2 1,L536S,False,True,SERM,complete,amine,1,2,1
+2QXS|B|1,2QXS,cl4,4,C 1 2 1,L536S,False,True,SERM,complete,amine,1,2,1
+2QZO|A|1,2QZO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,4,1
+2QZO|B|1,2QZO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+2R6W|A|1,2R6W,cl4,4,C 2 2 21,Cys->Ser/Ala only,False,True,unlabelled,complete,amine,1,2,1
+2R6W|B|1,2R6W,cl4,4,C 2 2 21,Cys->Ser/Ala only,False,True,unlabelled,partial,amine,1,1,1
+2R6Y|A|1,2R6Y,cl4,4,C 2 2 21,Cys->Ser/Ala only,False,True,unlabelled,complete,amine,1,2,1
+2R6Y|B|1,2R6Y,cl4,4,C 2 2 21,Cys->Ser/Ala only,False,True,unlabelled,partial,amine,1,2,1
+2YAT|A|1,2YAT,cl7,7,P 32 1 2,Cys->Ser/Ala only,False,True,unlabelled,complete,both,1,1,1
+2YJA|B|1,2YJA,cl7,7,C 2 2 21,wild type,True,False,agonist,complete,other,1,1,1
+3DT3|A|1,3DT3,cl4,4,C 1 2 1,wild type,False,False,unlabelled,complete,other,1,2,2
+3DT3|B|1,3DT3,minor,5,C 1 2 1,wild type,False,False,unlabelled,complete,other,1,2,2
+3ERD|A|1,3ERD,cl7,7,P 1 21 1,wild type,True,False,agonist,complete,other,1,1,1
+3ERD|B|1,3ERD,cl7,7,P 1 21 1,wild type,True,False,agonist,complete,other,1,1,1
+3ERT|A|1,3ERT,cl4,4,P 65 2 2,wild type,False,True,SERM,complete,amine,1,2,2
+3HLV|A|1,3HLV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+3HLV|B|1,3HLV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+3HM1|A|1,3HM1,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+3HM1|B|1,3HM1,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+3L03|A|1,3L03,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+3L03|B|1,3L03,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+3OS8|A|1,3OS8,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,3,1
+3OS8|B|1,3OS8,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,3,1
+3OS8|C|1,3OS8,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+3OS8|D|1,3OS8,cl4,4,P 1,L536S,False,False,unlabelled,complete,other,1,2,1
+3OS9|A|1,3OS9,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+3OS9|B|1,3OS9,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+3OS9|C|1,3OS9,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+3OS9|D|1,3OS9,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+3OSA|A|1,3OSA,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,3,1
+3OSA|B|1,3OSA,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,3,1
+3OSA|C|1,3OSA,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+3OSA|D|1,3OSA,cl4,4,P 1,L536S,False,False,unlabelled,complete,other,1,2,1
+3Q95|A|1,3Q95,cl7,7,P 1 21 1,Y537S,True,False,SERM,complete,other,1,1,1
+3Q95|B|1,3Q95,cl7,7,P 1 21 1,Y537S,True,False,SERM,complete,other,1,1,1
+3UU7|A|1,3UU7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+3UU7|B|1,3UU7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+3UUA|A|1,3UUA,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+3UUA|B|1,3UUA,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+3UUC|A|1,3UUC,cl4,4,P 1,wild type,False,False,unlabelled,partial,other,1,1,1
+3UUC|B|1,3UUC,cl4,4,P 1,wild type,False,False,unlabelled,complete,other,1,1,1
+3UUC|C|1,3UUC,cl4,4,P 1,wild type,False,False,unlabelled,partial,other,1,1,1
+3UUC|D|1,3UUC,cl4,4,P 1,wild type,False,False,unlabelled,complete,other,1,1,1
+3UUD|A|1,3UUD,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+3UUD|B|1,3UUD,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+4DMA|A|1,4DMA,cl7,7,P 1 21 1,Cys->Ser/Ala only,True,False,unlabelled,complete,other,1,1,1
+4DMA|B|1,4DMA,cl7,7,P 1 21 1,Cys->Ser/Ala only,True,False,unlabelled,complete,other,1,1,1
+4IU7|A|1,4IU7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IU7|B|1,4IU7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IUI|A|1,4IUI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IUI|C|1,4IUI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IV2|A|1,4IV2,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IV2|B|1,4IV2,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IV4|A|1,4IV4,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IV4|B|1,4IV4,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IVW|A|1,4IVW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IVW|C|1,4IVW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IVY|A|1,4IVY,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IVY|C|1,4IVY,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IW6|A|1,4IW6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IW6|C|1,4IW6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IW8|A|1,4IW8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IW8|D|1,4IW8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IWC|A|1,4IWC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IWC|B|1,4IWC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IWF|A|1,4IWF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4IWF|B|1,4IWF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG5|A|1,4MG5,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG5|B|1,4MG5,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG6|A|1,4MG6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG6|B|1,4MG6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG7|A|1,4MG7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG7|B|1,4MG7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG8|A|1,4MG8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG8|B|1,4MG8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG9|A|1,4MG9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MG9|B|1,4MG9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MGA|A|1,4MGA,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MGA|B|1,4MGA,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MGB|A|1,4MGB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MGB|B|1,4MGB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MGC|A|1,4MGC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MGC|B|1,4MGC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MGD|A|1,4MGD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4MGD|B|1,4MGD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4PP6|A|1,4PP6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4PP6|B|1,4PP6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4PPP|A|1,4PPP,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4PPP|B|1,4PPP,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4PPS|A|1,4PPS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4PPS|B|1,4PPS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4PXM|A|1,4PXM,cl7,7,P 1 21 1,D538G,True,False,agonist,complete,other,1,1,1
+4PXM|B|1,4PXM,cl7,7,P 1 21 1,D538G,True,False,agonist,complete,other,1,1,1
+4Q13|A|1,4Q13,cl7,7,P 1 21 1,D538G,True,,unlabelled,complete,none,1,1,1
+4Q13|B|1,4Q13,cl7,7,P 1 21 1,D538G,True,,unlabelled,complete,none,1,1,1
+4Q50|A|1,4Q50,cl4,4,P 21 21 21,D538G,False,True,SERM,partial,amine,1,1,1
+4Q50|B|1,4Q50,cl4,4,P 21 21 21,D538G,False,True,SERM,partial,amine,1,1,1
+4Q50|C|1,4Q50,cl4,4,P 21 21 21,D538G,False,True,SERM,partial,amine,1,1,1
+4Q50|D|1,4Q50,cl4,4,P 21 21 21,D538G,False,True,SERM,partial,amine,1,1,1
+4Q50|E|1,4Q50,cl4,4,P 21 21 21,D538G,False,True,SERM,partial,amine,1,1,1
+4Q50|F|1,4Q50,cl4,4,P 21 21 21,D538G,False,True,SERM,partial,amine,1,1,1
+4Q50|G|1,4Q50,cl4,4,P 21 21 21,D538G,False,True,SERM,partial,amine,1,1,1
+4Q50|H|1,4Q50,cl4,4,P 21 21 21,D538G,False,True,SERM,partial,amine,1,1,1
+4TUZ|A|1,4TUZ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4TUZ|B|1,4TUZ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4TV1|A|1,4TV1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4TV1|B|1,4TV1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4XI3|A|1,4XI3,cl4,4,P 1,L536S,False,True,SERM,partial,amine,1,2,1
+4XI3|B|1,4XI3,cl4,4,P 1,L536S,False,True,SERM,partial,amine,1,1,1
+4XI3|C|1,4XI3,cl4,4,P 1,L536S,False,True,SERM,partial,amine,1,1,1
+4XI3|D|1,4XI3,cl4,4,P 1,L536S,False,True,SERM,partial,amine,1,2,1
+4ZN7|A|1,4ZN7,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+4ZN7|B|1,4ZN7,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+4ZN9|A|1,4ZN9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZN9|B|1,4ZN9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNH|A|1,4ZNH,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNH|B|1,4ZNH,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNS|A|1,4ZNS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNS|B|1,4ZNS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNT|A|1,4ZNT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNT|B|1,4ZNT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNU|A|1,4ZNU,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNU|C|1,4ZNU,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNV|A|1,4ZNV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNV|B|1,4ZNV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNW|A|1,4ZNW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+4ZNW|B|1,4ZNW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5AAU|A|1,5AAU,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,both,1,1,1
+5AAU|B|1,5AAU,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,both,1,1,1
+5AAV|A|1,5AAV,cl4,4,C 1 2 1,L536S,False,False,unlabelled,complete,acid,1,1,1
+5AAV|B|1,5AAV,cl4,4,C 1 2 1,L536S,False,False,unlabelled,partial,acid,1,1,1
+5ACC|A|1,5ACC,cl4,4,P 65 2 2,L536S,False,True,unlabelled,partial,both,1,2,2
+5AK2|A|1,5AK2,cl4,4,C 1 2 1,L536S,False,False,unlabelled,complete,acid,1,1,1
+5AK2|B|1,5AK2,cl4,4,C 1 2 1,L536S,False,False,unlabelled,partial,acid,1,1,1
+5DI7|A|1,5DI7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DI7|B|1,5DI7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DID|A|1,5DID,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DID|B|1,5DID,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DIE|A|1,5DIE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DIE|B|1,5DIE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DIG|A|1,5DIG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DIG|B|1,5DIG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DK9|A|1,5DK9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DK9|B|1,5DK9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DKB|A|1,5DKB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DKB|B|1,5DKB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DKE|A|1,5DKE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DKE|B|1,5DKE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,2,2
+5DKG|A|1,5DKG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DKG|B|1,5DKG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DKS|A|1,5DKS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DKS|B|1,5DKS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DL4|A|1,5DL4,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DL4|B|1,5DL4,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DLR|A|1,5DLR,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DLR|B|1,5DLR,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DMC|A|1,5DMC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DMC|B|1,5DMC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DMF|A|1,5DMF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DMF|B|1,5DMF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DP0|A|1,5DP0,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,7,1
+5DP0|B|1,5DP0,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DRJ|A|1,5DRJ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DRJ|B|1,5DRJ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DRM|A|1,5DRM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DRM|B|1,5DRM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DTV|A|1,5DTV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DTV|C|1,5DTV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DU5|A|1,5DU5,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DU5|B|1,5DU5,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DUE|A|1,5DUE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DUE|B|1,5DUE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DUG|A|1,5DUG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DUG|B|1,5DUG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DUH|A|1,5DUH,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DUH|B|1,5DUH,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DVS|A|1,5DVS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DVS|B|1,5DVS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DVV|A|1,5DVV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DVV|B|1,5DVV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DWE|A|1,5DWE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DWE|B|1,5DWE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DWG|A|1,5DWG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DWG|B|1,5DWG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DWI|A|1,5DWI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DWI|B|1,5DWI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DWJ|A|1,5DWJ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DWJ|B|1,5DWJ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DX3|A|1,5DX3,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5DX3|B|1,5DX3,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5DXB|A|1,5DXB,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5DXB|B|1,5DXB,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5DXE|A|1,5DXE,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5DXE|B|1,5DXE,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5DXG|A|1,5DXG,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5DXG|B|1,5DXG,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5DXK|A|1,5DXK,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DXK|B|1,5DXK,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DXM|A|1,5DXM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DXM|B|1,5DXM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DXP|A|1,5DXP,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DXP|B|1,5DXP,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,2,2
+5DXQ|A|1,5DXQ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DXQ|B|1,5DXQ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DXR|A|1,5DXR,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DXR|B|1,5DXR,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DY8|A|1,5DY8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DY8|B|1,5DY8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DYB|A|1,5DYB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DYB|B|1,5DYB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DYD|A|1,5DYD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DYD|B|1,5DYD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZ0|A|1,5DZ0,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZ0|B|1,5DZ0,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZ1|A|1,5DZ1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZ1|B|1,5DZ1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,4,1
+5DZ3|A|1,5DZ3,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZ3|B|1,5DZ3,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZH|A|1,5DZH,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZH|B|1,5DZH,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZI|A|1,5DZI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5DZI|B|1,5DZI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E0W|A|1,5E0W,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E0W|B|1,5E0W,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E0X|A|1,5E0X,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E0X|B|1,5E0X,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E14|A|1,5E14,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E14|B|1,5E14,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E15|A|1,5E15,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E15|B|1,5E15,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E19|A|1,5E19,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E19|B|1,5E19,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E1C|A|1,5E1C,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5E1C|B|1,5E1C,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5EGV|A|1,5EGV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5EGV|B|1,5EGV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5EHJ|A|1,5EHJ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5EHJ|B|1,5EHJ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5EI1|A|1,5EI1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5EI1|B|1,5EI1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5EIT|A|1,5EIT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5EIT|B|1,5EIT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5FQP|A|1,5FQP,cl4,4,P 65 2 2,L536S,False,True,unlabelled,complete,both,1,2,2
+5FQR|A|1,5FQR,cl4,4,P 65 2 2,L536S,False,True,unlabelled,partial,both,1,2,2
+5FQS|A|1,5FQS,cl4,4,P 65 2 2,L536S,False,True,unlabelled,partial,both,1,2,2
+5FQT|A|1,5FQT,cl4,4,P 65 2 2,L536S,False,True,unlabelled,partial,both,1,2,2
+5FQV|A|1,5FQV,cl4,4,P 65 2 2,L536S,False,True,unlabelled,partial,both,1,2,2
+5GS4|A|1,5GS4,cl7,7,P 2 21 21,wild type,True,False,agonist,complete,other,1,1,1
+5GTR|A|1,5GTR,cl7,7,P 2 21 21,wild type,True,False,agonist,complete,other,1,1,1
+5HYR|A|1,5HYR,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5HYR|B|1,5HYR,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5JMM|A|1,5JMM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5JMM|B|1,5JMM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCC|A|1,5KCC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCC|B|1,5KCC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCD|A|1,5KCD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCD|B|1,5KCD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCE|A|1,5KCE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCE|B|1,5KCE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCF|A|1,5KCF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCF|B|1,5KCF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCT|A|1,5KCT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCT|B|1,5KCT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCU|A|1,5KCU,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCU|B|1,5KCU,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,partial,other,1,1,1
+5KCW|A|1,5KCW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KCW|B|1,5KCW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KD9|A|1,5KD9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KD9|B|1,5KD9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KR9|A|1,5KR9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KR9|B|1,5KR9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRA|A|1,5KRA,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRA|B|1,5KRA,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRA|E|1,5KRA,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRA|F|1,5KRA,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,4,1
+5KRC|A|1,5KRC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRC|B|1,5KRC,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRF|A|1,5KRF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRF|B|1,5KRF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRH|A|1,5KRH,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRH|B|1,5KRH,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRI|A|1,5KRI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRI|B|1,5KRI,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRJ|A|1,5KRJ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRJ|B|1,5KRJ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRK|A|1,5KRK,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRK|B|1,5KRK,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRL|A|1,5KRL,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRL|B|1,5KRL,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRM|A|1,5KRM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRM|B|1,5KRM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRO|A|1,5KRO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5KRO|B|1,5KRO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5T1Z|A|1,5T1Z,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5T1Z|B|1,5T1Z,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5T92|A|1,5T92,cl4,4,C 1 2 1,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,acid,1,1,1
+5T97|B|1,5T97,cl7,7,C 1 2 1,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,acid,1,1,1
+5TLD|A|1,5TLD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLD|B|1,5TLD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLF|A|1,5TLF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLF|B|1,5TLF,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLG|A|1,5TLG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLG|B|1,5TLG,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLL|A|1,5TLL,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLL|B|1,5TLL,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLM|A|1,5TLM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLM|B|1,5TLM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLO|A|1,5TLO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLO|B|1,5TLO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLP|A|1,5TLP,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLP|B|1,5TLP,cl7,7,P 1 21 1,Y537S,True,True,unlabelled,not_modelled,amine,1,1,1
+5TLT|A|1,5TLT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLT|B|1,5TLT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLU|A|1,5TLU,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLU|B|1,5TLU,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLV|A|1,5TLV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLV|B|1,5TLV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLX|A|1,5TLX,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLX|B|1,5TLX,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLY|A|1,5TLY,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TLY|B|1,5TLY,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TM1|A|1,5TM1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TM1|B|1,5TM1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,partial,other,1,1,1
+5TM2|A|1,5TM2,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,partial,other,1,1,1
+5TM2|B|1,5TM2,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,partial,other,1,1,1
+5TM3|A|1,5TM3,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TM3|B|1,5TM3,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TM4|A|1,5TM4,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM4|B|1,5TM4,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM5|A|1,5TM5,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM5|B|1,5TM5,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM6|A|1,5TM6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM6|B|1,5TM6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM7|A|1,5TM7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM7|B|1,5TM7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM8|A|1,5TM8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM8|B|1,5TM8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TM9|A|1,5TM9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,not_modelled,acid,1,1,1
+5TM9|B|1,5TM9,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,not_modelled,acid,1,1,1
+5TML|A|1,5TML,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TML|B|1,5TML,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TMM|A|1,5TMM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TMM|B|1,5TMM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,acid,1,1,1
+5TMO|A|1,5TMO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMO|B|1,5TMO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMQ|A|1,5TMQ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMQ|B|1,5TMQ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMR|A|1,5TMR,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMR|C|1,5TMR,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMS|A|1,5TMS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMS|B|1,5TMS,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMT|A|1,5TMT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMT|B|1,5TMT,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMU|A|1,5TMU,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMU|C|1,5TMU,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMV|A|1,5TMV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMV|B|1,5TMV,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMW|A|1,5TMW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMW|C|1,5TMW,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMZ|A|1,5TMZ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TMZ|C|1,5TMZ,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN1|A|1,5TN1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN1|B|1,5TN1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN3|A|1,5TN3,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN3|B|1,5TN3,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN4|A|1,5TN4,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN4|B|1,5TN4,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN5|A|1,5TN5,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN5|B|1,5TN5,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN6|A|1,5TN6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN6|B|1,5TN6,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN7|A|1,5TN7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN7|B|1,5TN7,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN8|A|1,5TN8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN8|B|1,5TN8,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5TN9|A|1,5TN9,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+5TN9|B|1,5TN9,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+5TN9|C|1,5TN9,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+5TN9|D|1,5TN9,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+5TNB|A|1,5TNB,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+5TNB|B|1,5TNB,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+5TNB|C|1,5TNB,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+5TNB|D|1,5TNB,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+5U2B|A|1,5U2B,cl7,7,P 1,Y537S,False,False,unlabelled,complete,other,1,1,1
+5U2B|B|1,5U2B,cl7,7,P 1,Y537S,False,False,unlabelled,complete,other,1,2,1
+5U2B|C|1,5U2B,cl7,7,P 1,Y537S,False,False,unlabelled,complete,other,1,1,1
+5U2B|D|1,5U2B,cl7,7,P 1,Y537S,False,False,unlabelled,complete,other,1,1,1
+5U2B|E|1,5U2B,cl7,7,P 1,Y537S,False,False,unlabelled,complete,other,1,1,1
+5U2B|F|1,5U2B,cl7,7,P 1,Y537S,False,False,unlabelled,complete,other,1,1,1
+5U2D|A|1,5U2D,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5U2D|B|1,5U2D,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+5UFW|A|1,5UFW,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+5UFW|B|1,5UFW,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+5UFX|A|1,5UFX,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+5UFX|B|1,5UFX,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+5W9C|A|1,5W9C,cl4,4,P 32,L536S,False,True,SERM,complete,amine,1,2,2
+5W9C|B|1,5W9C,cl4,4,P 32,L536S,False,True,SERM,partial,amine,1,2,2
+5W9C|C|1,5W9C,cl4,4,P 32,L536S,False,True,SERM,complete,amine,1,2,2
+5W9C|D|1,5W9C,cl4,4,P 32,L536S,False,True,SERM,partial,amine,1,2,2
+5W9D|A|1,5W9D,cl4,4,P 65,L536S,False,True,unlabelled,complete,amine,1,2,2
+5W9D|B|1,5W9D,cl4,4,P 65,L536S,False,True,unlabelled,partial,amine,1,2,2
+5WGD|A|1,5WGD,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5WGD|B|1,5WGD,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5WGQ|A|1,5WGQ,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+5WGQ|B|1,5WGQ,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+6B0F|A|1,6B0F,cl4,4,C 1 2 1,Cys->Ser/Ala only,False,False,unlabelled,partial,acid,1,1,1
+6B0F|B|1,6B0F,cl4,4,C 1 2 1,Cys->Ser/Ala only,False,False,unlabelled,not_modelled,acid,1,1,1
+6C42|A|1,6C42,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+6C42|B|1,6C42,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+6CBZ|A|1,6CBZ,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+6CBZ|B|1,6CBZ,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+6CHW|A|1,6CHW,cl4,4,P 65 2 2,Y537S,False,True,unlabelled,complete,amine,1,2,2
+6CHZ|A|1,6CHZ,cl4,4,P 65 2 2,Y537S,False,True,unlabelled,complete,amine,1,2,2
+6CZN|A|1,6CZN,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+6CZN|B|1,6CZN,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+6D0F|A|1,6D0F,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+6D0F|B|1,6D0F,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+6DF6|A|1,6DF6,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+6DF6|B|1,6DF6,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,2,6,2
+6DF6|C|1,6DF6,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+6DF6|D|1,6DF6,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+6DFN|A|1,6DFN,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+6DFN|B|1,6DFN,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+6DFN|C|1,6DFN,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+6DFN|D|1,6DFN,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+6IAR|A|1,6IAR,cl4,4,P 65 2 2,L536S,False,True,unlabelled,complete,both,1,2,2
+6OWC|A|1,6OWC,cl4,4,P 43 21 2,Y537S,False,True,unlabelled,partial,amine,1,1,1
+6OWC|B|1,6OWC,minor,3,P 43 21 2,Y537S,False,True,unlabelled,partial,amine,1,10,1
+6PET|A|1,6PET,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+6PET|B|1,6PET,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+6PET|C|1,6PET,cl4,4,P 1,L536S,False,False,unlabelled,complete,other,1,1,1
+6PET|D|1,6PET,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+6PFM|A|1,6PFM,minor,1,H 3 2,L536S,False,True,unlabelled,partial,amine,1,1,1
+6PFM|B|1,6PFM,minor,1,H 3 2,L536S,False,True,unlabelled,not_modelled,amine,1,1,1
+6PIT|A|1,6PIT,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+6PIT|B|1,6PIT,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+6PSJ|A|1,6PSJ,cl4,4,C 1 2 1,Y537S,False,True,SERM,complete,amine,1,2,1
+6PSJ|B|1,6PSJ,cl4,4,C 1 2 1,Y537S,False,True,SERM,partial,amine,1,2,1
+6SBO|A|1,6SBO,cl4,4,C 1 2 1,L536S,False,True,SERD,complete,both,1,2,1
+6SBO|B|1,6SBO,cl4,4,C 1 2 1,L536S,False,True,SERD,complete,both,1,2,2
+6SQ0|A|1,6SQ0,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,both,1,1,1
+6SQ0|B|1,6SQ0,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,both,1,1,1
+6SUO|A|1,6SUO,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,both,1,1,1
+6SUO|B|1,6SUO,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,both,1,1,1
+6V87|A|1,6V87,cl4,4,C 1 2 1,Y537S,False,True,SERM,partial,amine,1,1,1
+6V87|B|1,6V87,cl4,4,C 1 2 1,Y537S,False,True,SERM,partial,amine,1,1,1
+6V8T|A|1,6V8T,cl4,4,C 1 2 1,Y537S,False,False,unlabelled,partial,acid,1,1,1
+6V8T|B|1,6V8T,cl4,4,C 1 2 1,Y537S,False,False,unlabelled,partial,acid,1,1,1
+6VGH|A|1,6VGH,cl4,4,P 65,Y537S,False,True,SERM,complete,amine,1,2,2
+6VGH|B|1,6VGH,cl4,4,P 65,Y537S,False,True,SERM,partial,amine,1,2,2
+6VJD|A|1,6VJD,cl4,4,P 32,L536S,False,True,SERM,complete,amine,1,2,2
+6VJD|B|1,6VJD,cl4,4,P 32,L536S,False,True,SERM,partial,amine,1,2,2
+6VJD|C|1,6VJD,cl4,4,P 32,L536S,False,True,SERM,complete,amine,1,2,2
+6VJD|D|1,6VJD,cl4,4,P 32,L536S,False,True,SERM,partial,amine,1,2,2
+6VPF|A|1,6VPF,cl4,4,P 32,L536S,False,True,SERM,complete,amine,1,2,2
+6VPF|B|1,6VPF,cl4,4,P 32,L536S,False,True,SERM,partial,amine,1,2,2
+6VPF|C|1,6VPF,cl4,4,P 32,L536S,False,True,SERM,partial,amine,1,2,2
+6VPF|D|1,6VPF,cl4,4,P 32,L536S,False,True,SERM,partial,amine,1,2,2
+6WOK|A|1,6WOK,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+6WOK|B|1,6WOK,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+6WOK|C|1,6WOK,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+6WOK|D|1,6WOK,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+6ZOQ|A|1,6ZOQ,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+6ZOQ|B|1,6ZOQ,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,1,1
+6ZOR|A|1,6ZOR,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+6ZOR|B|1,6ZOR,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,1,1
+6ZOS|A|1,6ZOS,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+6ZOS|B|1,6ZOS,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7JHD|A|1,7JHD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7JHD|B|1,7JHD,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7KBS|A|1,7KBS,cl4,4,C 1 2 1,L536S,False,True,SERM,complete,amine,1,2,2
+7KBS|B|1,7KBS,cl4,4,C 1 2 1,L536S,False,True,SERM,partial,amine,1,2,2
+7MSA|A|1,7MSA,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+7MSA|B|1,7MSA,cl4,4,P 1,L536S,False,True,SERD,partial,amine,1,1,1
+7MSA|C|1,7MSA,cl4,4,P 1,L536S,False,True,SERD,partial,amine,1,2,1
+7MSA|D|1,7MSA,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+7N9O|A|1,7N9O,cl4,4,P 32,L536S,False,False,unlabelled,complete,other,1,2,2
+7N9O|B|1,7N9O,cl4,4,P 32,L536S,False,False,unlabelled,partial,other,1,2,2
+7N9O|C|1,7N9O,cl4,4,P 32,L536S,False,False,unlabelled,complete,other,1,2,2
+7N9O|D|1,7N9O,cl4,4,P 32,L536S,False,False,unlabelled,partial,other,1,2,2
+7NDO|A|1,7NDO,cl4,4,P 1,L536S,False,True,SERM,complete,amine,1,8,1
+7NDO|B|1,7NDO,cl4,4,P 1,L536S,False,True,SERM,complete,amine,1,8,1
+7NEL|A|1,7NEL,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+7NEL|B|1,7NEL,cl7,7,P 1 21 1,Y537S,True,False,agonist,complete,other,1,1,1
+7NFB|A|1,7NFB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7NFB|B|1,7NFB,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7QVJ|A|1,7QVJ,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+7QVJ|B|1,7QVJ,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,1,1
+7QVL|A|1,7QVL,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,both,1,1,1
+7QVL|B|1,7QVL,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,both,1,1,1
+7R62|A|1,7R62,cl4,4,P 65 2 2,L536S,False,False,unlabelled,complete,other,1,2,2
+7RKE|A|1,7RKE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7RKE|B|1,7RKE,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7RNM|A|1,7RNM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7RNM|B|1,7RNM,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7RRX|A|1,7RRX,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7RRX|B|1,7RRX,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+7RRX|C|1,7RRX,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7RRX|D|1,7RRX,cl4,4,P 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+7RRY|A|1,7RRY,cl4,4,P 1,L536S,False,True,unlabelled,complete,amine,1,1,1
+7RRY|B|1,7RRY,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+7RRY|C|1,7RRY,cl4,4,P 1,L536S,False,True,unlabelled,complete,amine,1,1,1
+7RRY|D|1,7RRY,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+7RRZ|A|1,7RRZ,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7RRZ|B|1,7RRZ,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+7RRZ|C|1,7RRZ,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7RRZ|D|1,7RRZ,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+7RS0|A|1,7RS0,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7RS0|B|1,7RS0,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+7RS0|C|1,7RS0,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7RS0|D|1,7RS0,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+7RS1|A|1,7RS1,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+7RS1|B|1,7RS1,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+7RS1|C|1,7RS1,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+7RS1|D|1,7RS1,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+7RS2|A|1,7RS2,cl4,4,P 1,L536S,False,False,unlabelled,partial,acid,1,1,1
+7RS2|B|1,7RS2,cl4,4,P 1,L536S,False,False,unlabelled,partial,acid,1,2,1
+7RS2|C|1,7RS2,cl4,4,P 1,L536S,False,False,unlabelled,partial,acid,1,1,1
+7RS2|D|1,7RS2,cl4,4,P 1,L536S,False,False,unlabelled,partial,acid,1,2,1
+7RS3|A|1,7RS3,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+7RS3|B|1,7RS3,cl4,4,P 1,L536S,False,False,unlabelled,not_modelled,other,1,2,1
+7RS3|C|1,7RS3,cl4,4,P 1,L536S,False,False,unlabelled,not_modelled,other,1,2,1
+7RS3|D|1,7RS3,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+7RS4|A|1,7RS4,cl4,4,P 1,L536S,False,False,SERD,partial,acid,1,1,1
+7RS4|B|1,7RS4,cl4,4,P 1,L536S,False,False,SERD,complete,acid,1,2,2
+7RS4|C|1,7RS4,cl4,4,P 1,L536S,False,False,SERD,partial,acid,1,1,1
+7RS4|D|1,7RS4,cl4,4,P 1,L536S,False,False,SERD,complete,acid,1,2,2
+7RS7|A|1,7RS7,cl4,4,P 1,L536S,False,False,unlabelled,complete,other,1,1,1
+7RS7|B|1,7RS7,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,2
+7RS7|C|1,7RS7,cl4,4,P 1,L536S,False,False,unlabelled,complete,other,1,1,1
+7RS7|D|1,7RS7,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,2
+7RS8|A|1,7RS8,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7RS8|B|1,7RS8,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+7RS8|C|1,7RS8,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,1,1
+7RS8|D|1,7RS8,cl4,4,P 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+7RS9|A|1,7RS9,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+7RS9|B|1,7RS9,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+7RS9|C|1,7RS9,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+7RS9|D|1,7RS9,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+7SFO|A|1,7SFO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7SFO|B|1,7SFO,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7T2X|A|1,7T2X,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7T2X|B|1,7T2X,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+7TE7|A|1,7TE7,cl4,4,P 65 2 2,L536S,False,True,SERD,complete,amine,1,2,2
+7UJ7|A|1,7UJ7,cl4,4,P 1,Y537S,False,True,unlabelled,complete,amine,1,2,1
+7UJ7|B|1,7UJ7,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,2,2
+7UJ7|C|1,7UJ7,cl4,4,P 1,Y537S,False,True,unlabelled,complete,amine,1,2,1
+7UJ7|D|1,7UJ7,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,2,2
+7UJ8|A|1,7UJ8,cl4,4,C 1 2 1,Y537S,False,True,SERM,partial,amine,1,1,1
+7UJ8|B|1,7UJ8,cl4,4,C 1 2 1,Y537S,False,True,SERM,partial,amine,1,1,1
+7UJC|A|1,7UJC,cl4,4,C 1 2 1,Y537S,False,True,SERM,complete,amine,1,2,2
+7UJC|B|1,7UJC,cl4,4,C 1 2 1,Y537S,False,True,SERM,partial,amine,1,2,1
+7UJF|A|1,7UJF,cl4,4,P 32,L536S,False,True,unlabelled,complete,amine,1,2,2
+7UJF|B|1,7UJF,cl4,4,P 32,L536S,False,True,unlabelled,partial,amine,1,2,2
+7UJF|C|1,7UJF,cl4,4,P 32,L536S,False,True,unlabelled,complete,amine,1,2,2
+7UJF|D|1,7UJF,cl4,4,P 32,L536S,False,True,unlabelled,partial,amine,1,2,2
+7UJM|A|1,7UJM,cl4,4,P 32,L536S,False,True,unlabelled,complete,amine,1,2,2
+7UJM|B|1,7UJM,cl4,4,P 32,L536S,False,True,unlabelled,partial,amine,1,2,2
+7UJM|C|1,7UJM,cl4,4,P 32,L536S,False,True,unlabelled,complete,amine,1,2,2
+7UJM|D|1,7UJM,cl4,4,P 32,L536S,False,True,unlabelled,partial,amine,1,2,2
+7UJO|A|1,7UJO,cl4,4,P 32,L536S,False,True,unlabelled,partial,amine,1,2,2
+7UJO|B|1,7UJO,cl4,4,P 32,L536S,False,True,unlabelled,complete,amine,1,2,2
+7UJO|C|1,7UJO,cl4,4,P 32,L536S,False,True,unlabelled,partial,amine,1,2,2
+7UJO|D|1,7UJO,cl4,4,P 32,L536S,False,True,unlabelled,partial,amine,1,2,2
+7UJW|A|1,7UJW,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,1,1
+7UJW|B|1,7UJW,cl4,4,P 1,Y537S,False,True,unlabelled,complete,amine,1,1,1
+7UJW|C|1,7UJW,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,1,1
+7UJW|D|1,7UJW,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,1,1
+7UJY|A|1,7UJY,cl4,4,P 32,Y537S,False,True,unlabelled,complete,amine,1,2,2
+7UJY|B|1,7UJY,cl4,4,P 32,Y537S,False,True,unlabelled,partial,amine,1,2,2
+7UJY|C|1,7UJY,cl4,4,P 32,Y537S,False,True,unlabelled,complete,amine,1,2,2
+7UJY|D|1,7UJY,cl4,4,P 32,Y537S,False,True,unlabelled,partial,amine,1,2,2
+7WNV|A|1,7WNV,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,1,1
+7WNV|B|1,7WNV,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,1,1
+7WNV|C|1,7WNV,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,1,1
+7WNV|D|1,7WNV,cl4,4,P 1,Y537S,False,True,unlabelled,partial,amine,1,1,1
+7Y8F|A|1,7Y8F,cl7,7,C 2 2 21,Y537S,True,,unlabelled,complete,none,1,1,1
+7Y8F|C|1,7Y8F,cl7,7,C 2 2 21,Y537S,True,False,unlabelled,partial,other,1,1,1
+7Y8G|A|1,7Y8G,cl7,7,C 2 2 21,Y537S,True,False,unlabelled,complete,other,1,1,1
+7Y8G|C|1,7Y8G,cl7,7,C 2 2 21,Y537S,True,False,unlabelled,complete,other,1,1,1
+7YMK|A|1,7YMK,cl7,7,C 2 2 21,Y537S,True,,unlabelled,complete,none,1,1,1
+7YMK|C|1,7YMK,cl7,7,C 2 2 21,Y537S,True,False,unlabelled,not_modelled,other,1,1,1
+8DU6|A|1,8DU6,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DU6|B|1,8DU6,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+8DU8|A|1,8DU8,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DU8|B|1,8DU8,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8DU9|A|1,8DU9,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DU9|B|1,8DU9,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+8DUB|A|1,8DUB,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DUB|B|1,8DUB,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+8DUC|A|1,8DUC,cl4,4,P 65 2 2,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DUD|A|1,8DUD,cl4,4,P 65 2 2,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DUG|A|1,8DUG,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+8DUG|B|1,8DUG,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+8DUH|A|1,8DUH,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+8DUH|B|1,8DUH,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8DUI|A|1,8DUI,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+8DUI|B|1,8DUI,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+8DUK|A|1,8DUK,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DUK|B|1,8DUK,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8DUK|C|1,8DUK,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DUK|D|1,8DUK,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8DUS|A|1,8DUS,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DUS|B|1,8DUS,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8DUS|C|1,8DUS,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DUS|D|1,8DUS,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8DUS|E|1,8DUS,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DUS|F|1,8DUS,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8DV5|A|1,8DV5,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DV5|B|1,8DV5,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,1
+8DV7|A|1,8DV7,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DV7|B|1,8DV7,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DV8|A|1,8DV8,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8DV8|B|1,8DV8,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+8DVB|A|1,8DVB,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8DVB|B|1,8DVB,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+8EV1|A|1,8EV1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+8EV1|B|1,8EV1,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+8EV2|A|1,8EV2,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+8EV2|B|1,8EV2,cl7,7,P 1 21 1,Y537S,True,False,unlabelled,complete,other,1,1,1
+8VV1|A|1,8VV1,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,2
+8VV1|B|1,8VV1,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+8VYT|A|1,8VYT,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VYT|B|1,8VYT,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8VYT|C|1,8VYT,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VYT|D|1,8VYT,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8VYX|A|1,8VYX,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VYX|B|1,8VYX,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8VYX|C|1,8VYX,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VYX|D|1,8VYX,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,2
+8VZ0|A|1,8VZ0,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VZ0|B|1,8VZ0,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8VZ0|C|1,8VZ0,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VZ0|D|1,8VZ0,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8VZ1|A|1,8VZ1,cl4,4,P 1,L536S,False,False,unlabelled,complete,other,1,1,1
+8VZ1|B|1,8VZ1,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8VZ1|C|1,8VZ1,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VZ1|D|1,8VZ1,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8VZP|A|1,8VZP,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VZP|B|1,8VZP,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,2
+8VZP|C|1,8VZP,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VZP|D|1,8VZP,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8VZQ|A|1,8VZQ,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VZQ|B|1,8VZQ,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,2
+8VZQ|C|1,8VZQ,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8VZQ|D|1,8VZQ,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8W03|A|1,8W03,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8W03|B|1,8W03,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,2
+8W03|C|1,8W03,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8W03|D|1,8W03,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,2
+8W07|A|1,8W07,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8W07|B|1,8W07,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+8W07|C|1,8W07,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,1,1
+8W07|D|1,8W07,cl4,4,P 1,L536S,False,False,unlabelled,partial,other,1,2,1
+9B25|A|1,9B25,minor,6,P 1 21 1,L536S,False,False,unlabelled,partial,other,1,1,1
+9B25|B|1,9B25,minor,3,P 1 21 1,L536S,False,False,unlabelled,complete,other,1,1,1
+9B25|C|1,9B25,minor,6,P 1 21 1,L536S,False,False,unlabelled,partial,other,1,1,1
+9B25|D|1,9B25,minor,3,P 1 21 1,L536S,False,False,unlabelled,partial,other,1,1,1
+9B2B|A|1,9B2B,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+9B2B|B|1,9B2B,cl4,4,C 1 2 1,L536S,False,True,unlabelled,partial,amine,1,2,2
+9B2B|C|1,9B2B,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+9B2B|D|1,9B2B,cl4,4,C 1 2 1,L536S,False,True,unlabelled,complete,amine,1,2,1
+9BPX|A|1,9BPX,cl4,4,C 1 2 1,Y537S,False,True,unlabelled,complete,amine,1,2,2
+9BPX|B|1,9BPX,cl4,4,C 1 2 1,Y537S,False,True,unlabelled,partial,amine,1,2,2
+9BQE|A|1,9BQE,cl4,4,C 1 2 1,Y537S,False,True,unlabelled,complete,amine,1,2,2
+9BQE|B|1,9BQE,cl4,4,C 1 2 1,Y537S,False,True,unlabelled,partial,amine,1,2,1
+9BU1|A|1,9BU1,cl4,4,C 1 2 1,Y537S,False,True,unlabelled,complete,amine,1,2,2
+9BU1|B|1,9BU1,cl4,4,C 1 2 1,Y537S,False,True,unlabelled,partial,amine,1,2,1
+9EBG|C|1,9EBG,cl7,7,P 31,wild type,True,False,unlabelled,complete,other,1,1,1
+9EBG|D|1,9EBG,cl7,7,P 31,wild type,True,False,unlabelled,complete,other,1,7,1
+9ECK|A|1,9ECK,cl4,4,P 1,L536S,False,True,unlabelled,partial,both,1,2,1
+9ECK|B|1,9ECK,cl4,4,P 1,L536S,False,True,unlabelled,partial,both,1,2,1
+9ECK|C|1,9ECK,cl4,4,P 1,L536S,False,True,unlabelled,partial,both,1,2,1
+9ECK|D|1,9ECK,cl4,4,P 1,L536S,False,True,unlabelled,partial,both,1,2,1
+9VT5|A|1,9VT5,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,complete,other,1,1,1
+9VT5|B|1,9VT5,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,partial,other,1,2,1
+9VTU|A|1,9VTU,cl7,7,C 2 2 21,Y537S,False,,unlabelled,complete,none,1,1,1
+9VTU|B|1,9VTU,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,partial,other,1,1,1
+9W11|A|1,9W11,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,complete,other,1,1,1
+9W11|B|1,9W11,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,complete,other,1,1,1
+9W12|A|1,9W12,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,complete,other,1,1,1
+9W12|B|1,9W12,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,complete,other,1,1,1
+9W13|A|1,9W13,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,complete,other,1,1,1
+9W13|B|1,9W13,cl7,7,C 2 2 21,Y537S,False,False,unlabelled,complete,other,1,1,1
+9WB2|A|1,9WB2,cl7,7,C 2 2 21,Y537S,True,False,unlabelled,complete,other,1,1,1
+9WB2|C|1,9WB2,cl7,7,C 2 2 21,Y537S,True,False,unlabelled,complete,other,1,1,1

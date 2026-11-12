@@ -1,0 +1,58 @@
+{
+  "name": "alignment_core_v3",
+  "core_ranges": [
+    [
+      338,
+      362
+    ],
+    [
+      371,
+      396
+    ],
+    [
+      420,
+      439
+    ],
+    [
+      441,
+      456
+    ],
+    [
+      496,
+      531
+    ]
+  ],
+  "helices": [
+    "AB5",
+    "AB7",
+    "AB9",
+    "AC1",
+    "AC3"
+  ],
+  "residues_total": 123,
+  "rule": "helix in the better half (rank <= n_helices/2) in every b_group (low, mid, high); never H12; >= 60 residues",
+  "source": "results/helix_stability_by_bgroup.csv (K04) from results/helix_bfactor_by_chain.csv (K03) and results/helix_table.csv (K02)",
+  "previous_core_ranges": [
+    [
+      340,
+      360
+    ],
+    [
+      400,
+      420
+    ],
+    [
+      450,
+      470
+    ],
+    [
+      500,
+      520
+    ]
+  ],
+  "h12_settings_range": [
+    538,
+    547
+  ],
+  "analysis_settings_changed": false
+}

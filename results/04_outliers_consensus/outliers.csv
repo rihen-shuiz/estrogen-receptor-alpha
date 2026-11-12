@@ -1,0 +1,23 @@
+chain_key,entry_id,group,n_methods,outlier_verdict,outlier_reasons,resolution_A,peptide_bound,mutation_status,space_group,ligand_id_primary,action_class
+1A52|A|1,1A52,minor,3,quality,resolution_A 2.8 > p95 2.7,2.8,False,other,H 3 2,EST,agonist
+1A52|B|1,1A52,minor,4,quality,resolution_A 2.8 > p95 2.7,2.8,False,other,H 3 2,EST,agonist
+1R5K|C|1,1R5K,minor,3,conformation,none,2.7,False,wild type,P 61 2 2,GW5,unlabelled
+2BJ4|B|1,2BJ4,cl4,4,quality,H12 not modelled,2.0,True,wild type,P 21 21 21,OHT,SERM
+2JFA|B|1,2JFA,cl4,4,quality,H12 not modelled,2.55,True,wild type,P 32 2 1,RAL,SERM
+2Q70|A|1,2Q70,cl4,4,quality,r_free 0.303 > p95 0.275,1.95,False,Cys->Ser/Ala only,C 2 2 21,DC8,unlabelled
+3DT3|B|1,3DT3,minor,4,conformation,none,2.4,False,wild type,C 1 2 1,369,unlabelled
+3ERT|A|1,3ERT,cl4,3,conformation,none,1.9,False,wild type,P 65 2 2,OHT,SERM
+5DKE|B|1,5DKE,cl7,4,conformation,none,2.6,True,Y537S,P 1 21 1,5C8,unlabelled
+5DXP|B|1,5DXP,cl7,3,conformation,none,2.201,True,Y537S,P 1 21 1,5HX,unlabelled
+6DF6|B|1,6DF6,cl4,3,conformation,none,2.5,False,L536S,P 1,G8Y,unlabelled
+6OWC|B|1,6OWC,minor,3,conformation,none,1.85,False,Y537S,P 43 21 2,ND1,unlabelled
+6PFM|A|1,6PFM,minor,4,quality,resolution_A 2.84 > p95 2.7; mean_b_chain 70.7 > p95 66.4,2.84,False,L536S,H 3 2,OGJ,unlabelled
+6ZOQ|A|1,6ZOQ,cl4,4,conformation,none,1.8,False,L536S,C 1 2 1,QNE,unlabelled
+7NDO|A|1,7NDO,cl4,3,conformation,none,1.6,False,L536S,P 1,RAL,SERM
+7NDO|B|1,7NDO,cl4,4,conformation,none,1.6,False,L536S,P 1,RAL,SERM
+7RS4|B|1,7RS4,cl4,3,conformation,none,1.78,False,L536S,P 1,7I0,SERD
+7RS4|D|1,7RS4,cl4,3,conformation,none,1.78,False,L536S,P 1,7I0,SERD
+8DUK|B|1,8DUK,cl4,3,conformation,none,1.7,False,L536S,C 1 2 1,TW6,unlabelled
+8DUK|D|1,8DUK,cl4,3,conformation,none,1.7,False,L536S,C 1 2 1,TW6,unlabelled
+9B25|A|1,9B25,minor,3,conformation,none,1.45,False,L536S,P 1 21 1,A1AIZ,unlabelled
+9B25|C|1,9B25,minor,3,conformation,none,1.45,False,L536S,P 1 21 1,A1AIZ,unlabelled

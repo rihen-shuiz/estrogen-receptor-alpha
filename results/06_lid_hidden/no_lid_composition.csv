@@ -1,0 +1,15 @@
+split,nolid_group,n_chains,n_entries,cl7,cl4,minor,top_space_group,top_space_group_share,top_mutation,top_mutation_share,peptide_share,basic_amine_share,h12_complete_share,chains,classes
+average_silhouette_best,1,784,351,445,325,14,P 1 21 1,0.5280612244897959,Y537S,0.5650510204081632,0.5318877551020408,0.29214929214929214,0.7040816326530612,,unlabelled:669;agonist:55;SERM:51;SERD:9
+average_silhouette_best,2,4,4,0,4,0,P 21 21 21,0.25,wild type,0.5,0.5,0.75,0.25,2BJ4|B|1;2JFA|B|1;2Q70|A|1;6DF6|B|1,SERM:2;unlabelled:2
+average_first_balanced,1,564,278,435,117,12,P 1 21 1,0.7163120567375887,Y537S,0.7304964539007093,0.725177304964539,0.12926391382405744,0.7943262411347518,,unlabelled:485;agonist:54;SERM:22;SERD:3
+average_first_balanced,2,207,108,4,202,1,C 1 2 1,0.32367149758454106,L536S,0.7391304347826086,0.00966183574879227,0.7294685990338164,0.46859903381642515,,unlabelled:174;SERM:26;SERD:6;agonist:1
+average_first_balanced,3,4,2,0,4,0,P 1,1.0,L536S,1.0,0.0,0.0,0.0,3OS8|A|1;3OS8|B|1;3OSA|A|1;3OSA|B|1,unlabelled:4
+average_first_balanced,4,3,3,3,0,0,P 1 21 1,1.0,Y537S,1.0,1.0,0.0,1.0,2QZO|A|1;5DZ1|B|1;5KRA|F|1,unlabelled:3
+average_first_balanced,5,2,2,0,2,0,P 21 21 21,0.5,wild type,0.5,0.5,0.5,0.5,2BJ4|B|1;2Q70|A|1,SERM:1;unlabelled:1
+average_first_balanced,6,2,2,0,2,0,P 32 2 1,0.5,wild type,0.5,0.5,1.0,0.0,2JFA|B|1;6DF6|B|1,SERM:1;unlabelled:1
+average_first_balanced,7,2,2,2,0,0,P 1 21 1,0.5,Y537S,0.5,1.0,0.0,1.0,5DP0|A|1;9EBG|D|1,unlabelled:2
+average_first_balanced,8,2,1,0,2,0,P 1,1.0,L536S,1.0,0.0,1.0,1.0,7NDO|A|1;7NDO|B|1,SERM:2
+average_first_balanced,9,1,1,1,0,0,P 32 2 1,1.0,wild type,1.0,1.0,1.0,0.0,2JF9|C|1,SERM:1
+average_first_balanced,10,1,1,0,0,1,P 43 21 2,1.0,Y537S,1.0,0.0,1.0,0.0,6OWC|B|1,unlabelled:1
+spectral_k2,1,654,306,443,198,13,P 1 21 1,0.6253822629969419,Y537S,0.6513761467889908,0.6345565749235474,0.18856259659969088,0.7324159021406728,,unlabelled:563;agonist:54;SERM:32;SERD:5
+spectral_k2,2,134,86,2,131,1,C 1 2 1,0.30597014925373134,L536S,0.6940298507462687,0.029850746268656716,0.8059701492537313,0.5522388059701493,,unlabelled:108;SERM:21;SERD:4;agonist:1

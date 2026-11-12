@@ -1,0 +1,23 @@
+{
+ "n_consensus_outliers": 22,
+ "n_entries": 17,
+ "by_group": {
+  "cl4": 12,
+  "minor": 8,
+  "cl7": 2
+ },
+ "verdicts": {
+  "conformation": 16,
+  "quality": 6
+ },
+ "cl7_vs_cl4_chain": {
+  "observed": 2.0,
+  "expected": 8.049095607235142,
+  "q_bh": 0.002343640762786224
+ },
+ "cl7_vs_cl4_entry": {
+  "observed": 2.0,
+  "expected": 6.965616045845272,
+  "q_bh": 0.0034418103187291403
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "ligands_compared": {
+  "cl4": 104,
+  "cl7": 192
+ },
+ "heavy_atoms_median": {
+  "cl4": 34.0,
+  "cl7": 24.0
+ },
+ "basic_amine_share": {
+  "cl4": 0.7403846153846154,
+  "cl7": 0.010416666666666666
+ },
+ "heavy_atoms_p": 1.0511626238657887e-21,
+ "class_rows": {
+  "unlabelled": 311,
+  "agonist": 27,
+  "SERM": 20,
+  "SERD": 4
+ },
+ "class_rows_total": 362,
+ "class_entries_by_group": {
+  "cl4": {
+   "SERD": 4,
+   "SERM": 19,
+   "agonist": 1,
+   "unlabelled": 105
+  },
+  "cl7": {
+   "SERD": 0,
+   "SERM": 3,
+   "agonist": 25,
+   "unlabelled": 193
+  },
+  "minor": {
+   "SERD": 0,
+   "SERM": 1,
+   "agonist": 1,
+   "unlabelled": 5
+  }
+ },
+ "top_pocket_is_ligand_pocket": 788,
+ "chains_with_pockets": 788,
+ "pocket_sites_share": {
+  "chains": {
+   "cl4": 329.0,
+   "cl7": 445.0,
+   "minor": 14.0
+  },
+  "groove": {
+   "cl4": 0.015197568389057751,
+   "cl7": 0.5258426966292135,
+   "minor": 0.07142857142857142
+  },
+  "dimer": {
+   "cl4": 0.3130699088145897,
+   "cl7": 0.18202247191011237,
+   "minor": 0.21428571428571427
+  }
+ },
+ "filling_chains": 701,
+ "filling_median_pct": 33.84954072724511,
+ "filling_q_cl7_cl4_entry": 0.1351184926729921,
+ "ligand_vs_pocket_volume_rho_ligand_level": 0.45203657192395397,
+ "affinity_ligands_relative_to_e2": 15,
+ "affinity_ligands_absolute_only": 58
+}

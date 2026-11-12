@@ -1,0 +1,90 @@
+{
+ "pca_components_95pct": 6,
+ "pca_cum_var_k": 0.9509228528398124,
+ "pca_reuse_max_abs_diff": 1.7053025658242404e-13,
+ "sammon_stress": 0.04102025033978626,
+ "sammon_iterations": 206,
+ "sammon_zero_pairs_set_0p01": 0,
+ "som_grid": [
+  12,
+  12
+ ],
+ "som_qe": 0.937410081455406,
+ "som_te": 0.09644670050761421,
+ "som_units_used": 117,
+ "som_units_mixed_cl7_cl4": 3,
+ "quality": {
+  "sammon": {
+   "trustworthiness": 0.8699563024657895,
+   "spearman_dist": 0.9187607476759512
+  },
+  "som": {
+   "trustworthiness": 0.8514459612636144,
+   "spearman_dist": 0.6283072712642891
+  },
+  "umap_on_pca": {
+   "trustworthiness": 0.8629768534489839,
+   "spearman_dist": 0.76566514788325
+  },
+  "pca": {
+   "trustworthiness": 0.7828084700934733,
+   "spearman_dist": 0.8664556151165851
+  },
+  "cmds": {
+   "trustworthiness": 0.8054025594270038,
+   "spearman_dist": 0.8673553579118722
+  },
+  "mds": {
+   "trustworthiness": 0.84610385556815,
+   "spearman_dist": 0.917614111805566
+  },
+  "tsne": {
+   "trustworthiness": 0.9371829875314178,
+   "spearman_dist": 0.6789377860494547
+  },
+  "umap": {
+   "trustworthiness": 0.9130795262267344,
+   "spearman_dist": 0.5835001308664074
+  }
+ },
+ "silhouette_cl7_cl4": {
+  "sammon": 0.7612888087768224,
+  "som": 0.4497482220674878,
+  "umap_on_pca": 0.7582444548606873
+ },
+ "silhouette_cl4_sub": {
+  "sammon": 0.09505890471669753,
+  "som": -0.1374787814543904,
+  "umap_on_pca": -0.03131033480167389
+ },
+ "hdbscan_groups": {
+  "sammon": 3.0,
+  "som": 10.0,
+  "umap_on_pca": 12.0
+ },
+ "hdbscan_ari": {
+  "sammon": 0.936779681463439,
+  "som": 0.6353560508212791,
+  "umap_on_pca": 0.5545121603444576
+ },
+ "flagged_at_group_edge_share": {
+  "sammon": 0.5263157894736842,
+  "som": 0.05263157894736842,
+  "umap_on_pca": 0.21052631578947367
+ },
+ "copy_rmsd_p95": 1.2579779093170869,
+ "copy_rmsd_median": 0.5332828572432685,
+ "umap_islands_ari": {
+  "cut_1.0": 0.6302681337876584,
+  "space_group": 0.6821973276550954,
+  "mutation_status": 0.6448796292530471,
+  "peptide_bound": 0.4648769989694505,
+  "entry_id": 0.005254336540876859
+ },
+ "islands_exceeding_ordinary": [],
+ "n_islands": {
+  "sammon": 3,
+  "som": 32,
+  "umap_on_pca": 12
+ }
+}
