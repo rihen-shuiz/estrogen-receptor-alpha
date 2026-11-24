@@ -1,0 +1,20 @@
+chain_key,entry_id,group,reason_flagged,lid_to_h11_A,ligand,action_class_cur,doi,primary_source
+9W11|B|1,9W11,cl7,Tukey outlier,11.371345438774966,ZHB,unknown,10.1016/j.foodchem.2026.148697,none
+5TN8|B|1,5TN8,cl7,Tukey outlier,11.38274969182198,7G3,unknown,10.1016/j.chembiol.2016.11.014,none
+9W12|B|1,9W12,cl7,Tukey outlier,11.41699418082204,A1ET8,unknown,10.1016/j.foodchem.2026.148697,none
+1A52|A|1,1A52,minor,minor cluster (grey),12.972680055772637,EST,agonist,10.1073/pnas.95.11.5998,ligand_identity
+5GS4|A|1,5GS4,cl7,Tukey outlier,13.41280753833083,EST,agonist,10.1021/acs.jmedchem.7b00732,ligand_identity
+5KCU|B|1,5KCU,cl7,Tukey outlier,14.015380214625116,OB8,antagonist,10.1038/nchembio.2236,full_text
+5KD9|B|1,5KD9,cl7,Tukey outlier,14.130934741992224,OBT,antagonist,10.1038/nchembio.2236,full_text
+9B25|C|1,9B25,minor,minor cluster (grey),14.959767129100513,A1AIZ,unknown,,none
+1A52|B|1,1A52,minor,minor cluster (grey),16.097315072247305,EST,agonist,10.1073/pnas.95.11.5998,ligand_identity
+6PFM|A|1,6PFM,minor,minor cluster (grey),16.315544333633998,OGJ,antagonist,10.1016/j.bmcl.2019.07.013,full_text
+9B25|A|1,9B25,minor,minor cluster (grey),16.707569902592272,A1AIZ,unknown,,none
+1R5K|A|1,1R5K,minor,minor cluster (grey),19.037880469654937,GW5,antagonist,10.1016/j.molcel.2005.04.014,abstract
+3DT3|B|1,3DT3,minor,minor cluster (grey),22.78793492586831,369,unknown,10.1016/j.bmcl.2008.07.121,none
+9B25|B|1,9B25,minor,minor cluster (grey),23.311189781148553,A1AIZ,unknown,,none
+9B25|D|1,9B25,minor,minor cluster (grey),23.32737257162985,A1AIZ,unknown,,none
+4Q50|C|1,4Q50,cl4,cl4 extreme |z|>=2,23.715814378929657,OHT,antagonist,10.7554/eLife.12792,abstract
+6OWC|B|1,6OWC,minor,minor cluster (grey),23.799696131189823,ND1,antagonist,10.1158/1535-7163.mct-21-0378,abstract
+6B0F|A|1,6B0F,cl4,cl4 extreme |z|>=2,23.879473591807393,C6V,antagonist,10.1021/acs.jmedchem.7b01682,abstract
+6V8T|B|1,6V8T,cl4,cl4 extreme |z|>=2,24.002707196006487,C6V,antagonist,10.7554/eLife.72512,full_text

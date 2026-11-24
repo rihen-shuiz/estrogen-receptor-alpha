@@ -1,0 +1,8 @@
+role,cluster_1p5,group,cluster_size_chains,cluster_size_pdbs,chain_key,pdb_norm,lig_norm,action_class,qc_label,h12_label,mean_rmsd_to_cluster_mates_A
+cluster_medoid_1p5,7,cl7,445,221,5TM1|A|1,5TM1,7EQ,unknown,B,complete,0.4435147522900476
+cluster_medoid_1p5,4,cl4,329,128,2QE4|B|1,2QE4,JJ3,unknown,A,not_modelled,0.5039134183956441
+cluster_medoid_1p5,1,minor,5,3,2JF9|A|1,2JF9,OHT,antagonist,A,not_modelled,0.5717823268224986
+cluster_medoid_1p5,3,minor,3,2,9B25|B|1,9B25,A1AIZ,unknown,A,complete,0.8086270340434397
+cluster_medoid_1p5,2,minor,3,1,1R5K|B|1,1R5K,GW5,antagonist,B,partial,0.5166378987207544
+cluster_medoid_1p5,6,minor,2,1,9B25|A|1,9B25,A1AIZ,unknown,A,partial,0.9844805157215045
+cluster_medoid_1p5,5,minor,1,1,3DT3|B|1,3DT3,369,unknown,A,complete,0.0

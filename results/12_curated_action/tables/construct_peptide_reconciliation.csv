@@ -1,0 +1,356 @@
+pdb_norm,lig_norm,action_class,construct_mutations,mutation_status,mutations_norm_csv,is_mutant_csv,peptide_bound_any,has_peptide_csv,struct_is_mutant,mutant_flag_mismatch,peptide_flag_mismatch
+1A52,EST,agonist,Q502E,other,WT,False,False,False,True,True,False
+1ERE,EST,agonist,none,wild type,WT,False,False,False,False,False,False
+1ERR,RAL,antagonist,none,wild type,WT,False,False,False,False,False,False
+1G50,EST,agonist,none,wild type,WT,False,False,False,False,False,False
+1GWQ,ZTW,agonist,none,wild type,WT,False,True,True,False,False,False
+1GWR,EST,agonist,none,wild type,WT,False,True,True,False,False,False
+1L2I,ETC,agonist,none,wild type,WT,False,True,True,False,False,False
+1PCG,EST,agonist,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,True,True,True,False,False
+1QKT,EST,partial_agonist,C381S;C417S;C530S,Cys->Ser/Ala only,YES (unspecified),True,False,False,True,False,False
+1QKU,EST,agonist,none,wild type,WT,False,False,False,False,False,False
+1R5K,GW5,antagonist,none,wild type,WT,False,False,False,False,False,False
+1SJ0,E4D,antagonist,none,wild type,WT,False,False,False,False,False,False
+1UOM,PTI,antagonist,C381S;C417S;C530S,Cys->Ser/Ala only,YES (unspecified),True,False,False,True,False,False
+1X7E,244,unknown,none,wild type,WT,False,True,True,False,False,False
+1X7R,GEN,agonist,none,wild type,WT,False,True,True,False,False,False
+1XP1,AIH,antagonist,none,wild type,WT,False,False,False,False,False,False
+1XP6,AIU,partial_agonist,none,wild type,WT,False,False,False,False,False,False
+1XP9,AIJ,antagonist,none,wild type,WT,False,False,False,False,False,False
+1XPC,AIT,partial_agonist,none,wild type,WT,False,False,False,False,False,False
+1XQC,AEJ,mixed,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+1YIM,CM4,antagonist,none,wild type,WT,False,False,False,False,False,False
+1YIN,CM3,antagonist,none,wild type,WT,False,False,False,False,False,False
+1ZKY,689,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2AYR,L4G,antagonist,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+2B1V,458,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2B1Z,17M,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2BJ4,OHT,antagonist,none,wild type,WT,False,True,True,False,False,False
+2FAI,459,agonist,Y537S,Y537S,WT,False,True,True,True,True,False
+2G44,T3O,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2G5O,DRQ,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2I0J,I0G,agonist,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+2IOG,IOG,mixed,none,wild type,WT,False,False,False,False,False,False
+2IOK,IOK,unknown,none,wild type,WT,False,False,False,False,False,False
+2JF9,OHT,antagonist,none,wild type,WT,False,True,True,False,False,False
+2JFA,RAL,antagonist,none,wild type,WT,False,True,True,False,False,False
+2OCF,EST,agonist,Y537S,Y537S,Y537S,True,False,False,True,False,False
+2OUZ,C3D,antagonist,none,wild type,WT,False,False,False,False,False,False
+2P15,EZT,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2POG,WST,unknown,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+2Q6J,A48,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2Q70,DC8,unknown,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+2QA6,KN2,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2QA8,GEN,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2QAB,EI1,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2QE4,JJ3,unknown,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+2QGT,EED,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2QGW,EES,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2QH6,ODE,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2QR9,HZ3,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2QSE,1HP,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+2QXM,PIQ,partial_agonist,Y537S,Y537S,WT,False,True,True,True,True,False
+2QXS,RAL,antagonist,L536S,L536S,L536S,True,False,False,True,False,False
+2QZO,KN1,partial_agonist,Y537S,Y537S,WT,False,True,True,True,True,False
+2R6W,LLB,unknown,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+2R6Y,LLC,unknown,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+2YAT,EEU,agonist,C381S;C417S;C530S,Cys->Ser/Ala only,YES (unspecified),True,False,False,True,False,False
+2YJA,EST,agonist,none,wild type,WT,False,True,True,False,False,False
+3DT3,369,unknown,none,wild type,WT,False,False,False,False,False,False
+3ERD,DES,agonist,none,wild type,WT,False,True,True,False,False,False
+3ERT,OHT,antagonist,none,wild type,WT,False,False,False,False,False,False
+3HLV,J2Z,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+3HM1,J3Z,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+3L03,4OH,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+3OS8,KN0,partial_agonist,L372R;L536S,L536S,WT,False,False,False,True,True,False
+3OSA,KN3,partial_agonist,L372R;L536S,L536S,WT,False,False,False,True,True,False
+3Q95,ESL,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+3UU7,2OH,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+3UUA,0CZ,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+3UUC,0D1,partial_agonist,none,wild type,WT,False,False,False,False,False,False
+3UUD,EST,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4DMA,0L8,agonist,C530A,Cys->Ser/Ala only,C530A,True,True,True,True,False,False
+4IU7,1GM,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IUI,1GQ,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IV2,1GR,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IV4,1GS,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IVW,1GJ,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IVY,1GT,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IW6,1GU,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IW8,KN3,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IWC,1GV,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4IWF,15Q,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MG5,A1AQV,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MG6,27G,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MG7,27H,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MG8,27J,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MG9,27K,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MGA,27L,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MGB,XDH,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MGC,27M,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4MGD,27N,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4PP6,STL,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4PPP,FSV,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4PPS,ESE,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4PXM,EST,agonist,D538G,D538G,WT,False,True,True,True,True,False
+4Q50,OHT,antagonist,D538G,D538G,WT,False,False,False,True,True,False
+4TUZ,36J,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4TV1,36M,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4XI3,29S,antagonist,L372S;L536S,L536S,WT,False,False,False,True,True,False
+4ZN7,DES,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4ZN9,OBH,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4ZNH,OBC,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4ZNS,OFB,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4ZNT,OBB,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4ZNU,4Q9,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4ZNV,4Q7,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+4ZNW,OBM,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5AAU,XBR,unknown,C381S;C417S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5AAV,GW5,antagonist,C381S;C417S;C530S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5ACC,KE9,antagonist,C381S;C417S;C530S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5AK2,85Z,unknown,C381S;C417S;C530S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5DI7,5CQ,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DID,5CK,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DIE,5CJ,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DIG,5CE,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DK9,5CC,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DKB,5C9,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DKE,5C8,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DKG,5C7,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DKS,5C6,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DL4,5C4,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DLR,5DJ,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DMC,5DH,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DMF,5DG,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DP0,5ES,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DRJ,5EU,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DRM,5ET,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DTV,5FS,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DU5,5G2,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DUE,5FY,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DUG,5FV,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DUH,5FT,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DVS,5G7,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DVV,5G6,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DWE,5G5,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DWG,5G4,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DWI,5G3,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DWJ,5J2,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DX3,EST,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DXB,EST,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DXE,EST,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DXG,EST,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DXK,5J1,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DXM,5J0,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DXP,5HX,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DXQ,5HZ,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DXR,5HW,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DY8,5K4,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DYB,5K2,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DYD,5K1,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DZ0,5K0,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DZ1,5JY,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DZ3,5JX,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DZH,5KG,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5DZI,5KF,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5E0W,5KE,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5E0X,5KD,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5E14,5KB,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5E15,5KA,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5E19,5K7,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5E1C,5K8,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5EGV,5OS,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5EHJ,5K5,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5EI1,5OR,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5EIT,5P1,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5FQP,GQD,antagonist,C381S;C417S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5FQR,QHG,antagonist,C381S;C417S;C530S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5FQS,J0W,antagonist,C381S;C417S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5FQT,7QN,antagonist,C381S;C417S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5FQV,VQI,antagonist,C381S;C417S;L536S,L536S,YES (unspecified),True,False,False,True,False,False
+5GS4,EST,agonist,none,wild type,WT,False,True,True,False,False,False
+5GTR,EST,agonist,none,wild type,WT,False,True,True,False,False,False
+5HYR,EST,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5JMM,QSO,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCC,OB1,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCD,OB2,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCE,OB3,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCF,OB4,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCF,OB5,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCT,OB6,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCT,OB7,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCU,OB8,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KCW,OB9,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KD9,OBT,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KR9,CUE,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRA,6WS,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRA,6WT,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRC,ZER,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRF,6WL,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRH,6WN,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRI,6WM,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRJ,6WP,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRK,6WQ,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRL,6WR,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRM,6WU,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5KRO,6WW,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5T1Z,Q97,agonist,C381M;Y537S,Y537S,WT,False,True,True,True,True,False
+5T92,77W,antagonist,C381S;C417S;C530S,Cys->Ser/Ala only,WT,False,False,False,True,True,False
+5T97,782,antagonist,C381S;C417S;C530S,Cys->Ser/Ala only,WT,False,False,False,True,True,False
+5TLD,6WV,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLF,7EF,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLG,7EG,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLL,7EL,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLM,7EM,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLO,7EE,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLP,7EH,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLP,7ET,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLT,7ED,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLU,7EE,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLV,7ES,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TLY,7ER,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM1,7EQ,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM2,7EO,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM3,7EN,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM4,7E3,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM5,7EV,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM6,7J9,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM7,7JY,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM8,7K6,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TM9,7KL,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TML,7E1,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMM,7M4,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMO,7M1,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMQ,7M7,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMR,7FD,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMS,7FG,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMT,7FJ,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMU,7FL,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMV,7FO,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMW,7FP,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TMZ,7FQ,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TN1,7FR,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TN3,7FS,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TN4,7FZ,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TN5,7G0,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TN6,7G1,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TN7,7G2,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TN8,7G3,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5TN9,7EC,partial_agonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+5TNB,7EB,partial_agonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+5U2B,6WV,partial_agonist,Y537S,Y537S,Y537S,True,False,False,True,False,False
+5U2D,OBH,partial_agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+5UFW,86V,partial_agonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+5UFX,86Y,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+5W9C,OHT,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S",True,False,False,True,False,False
+5W9D,9XY,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+5WGD,EST,agonist,Y537S,Y537S,Y364S,True,True,True,True,False,False
+5WGQ,EST,agonist,Y537S,Y537S,Y364S,True,True,True,True,False,False
+6B0F,C6V,antagonist,C381S;C417S;C530S,Cys->Ser/Ala only,"C381S, C417S, C530S",True,False,False,True,False,False
+6C42,85M,partial_agonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+6CBZ,EST,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+6CHW,F3D,antagonist,C381S;C417S;Y537S,Y537S,"C381S, C417S, Y537S",True,False,False,True,False,False
+6CHZ,F3D,antagonist,C381S;C417S;Y537S,Y537S,"C381S, C417S, Y537S",True,False,False,True,False,False
+6CZN,FNJ,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+6D0F,FYS,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+6DF6,G8Y,antagonist,L372S;L536S,L536S,WT,False,False,False,True,True,False
+6DFN,G9J,unknown,L372S;L536S,L536S,WT,False,False,False,True,True,False
+6IAR,H8W,antagonist,C381S;C417S;L536S,L536S,WT,False,False,False,True,True,False
+6OWC,ND1,antagonist,C417S;Y537S,Y537S,"C147S, Y537S",True,False,False,True,False,False
+6PET,G9J,unknown,L372S;L536S,L536S,WT,False,False,False,True,True,False
+6PET,ODY,unknown,L372S;L536S,L536S,WT,False,False,False,True,True,False
+6PFM,OGJ,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+6PIT,EST,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+6PSJ,29S,antagonist,C381S;C417S;C530S;Y537S,Y537S,"C381S, C417S, C530S",True,False,False,True,False,False
+6SBO,L5B,unknown,L536S,L536S,L536S,True,False,False,True,False,False
+6SQ0,LRQ,unknown,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+6SUO,LVH,unknown,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+6V87,OHT,antagonist,C381S;C417S;C530S;Y537S,Y537S,Y537S,True,False,False,True,False,False
+6V8T,C6V,antagonist,C381S;C417S;C530S;Y537S,Y537S,WT,False,False,False,True,True,False
+6VGH,C3D,antagonist,C381S;C417S;C530S;Y537S,Y537S,WT,False,False,False,True,True,False
+6VJD,C3D,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+6VPF,53Q,unknown,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+6WOK,G9J,unknown,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+6WOK,U6D,unknown,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+6ZOQ,QNE,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+6ZOR,QNH,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+6ZOS,QNK,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+7JHD,V9J,agonist,Y537S,Y537S,WT,False,True,True,True,True,False
+7KBS,RAL,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+7MSA,G9J,unknown,L372S;L536S,L536S,WT,False,False,False,True,True,False
+7MSA,ZNM,antagonist,L372S;L536S,L536S,WT,False,False,False,True,True,False
+7N9O,5YR,unknown,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+7NDO,RAL,antagonist,M315I;V316I;D321E;T334S;S341Y;R363K;T371S;L372R;C381S;E397D;N407D;N413E;C417S;S433E;M437E;N439K;G442R;S450A;E471N;D473E;H474K;V478M;T485A;H488W;L489Y;A493S;T496S;C530S;L536S,L536S,"M315I, V316I, D321E, T334S, S341Y, R363K, T371S, L372R, C381S, E397D, N407D, N413E, C417S, S433E, M437E, N439K, G442R, S450A, E471N, D473E, H474K, V478M, T485A, H488W, L489Y, A493S, T496S, C530S, L536S",True,False,False,True,False,False
+7NEL,EST,agonist,M315I;V316I;D321E;T334S;S341Y;R363K;T371S;C381S;E397D;N407D;N413E;C417S;S433E;M437E;N439K;G442R;S450A;E471N;D473E;H474K;V478M;T485A;H488W;L489Y;A493S;T496S;C530S;Y537S,Y537S,"M315I, V316I, D321E, T334S, S341Y, R363K, T371S, C381S, E397D, N407D, N413E, C417S, S433E, M437E, N439K, G442R, S450A, E471N, D473E, H474K, V478M, T485A, H488W, L489Y, A493S, T496S, C530S, Y537S",True,True,True,True,False,False
+7NFB,GEN,agonist,M315I;V316I;D321E;T334S;S341Y;R363K;T371S;C381S;E397D;N407D;N413E;C417S;S433E;M437E;N439K;G442R;S450A;E471N;D473E;H474K;V478M;T485A;H488W;L489Y;A493S;T496S;C530S;Y537S,Y537S,"M315I, V316I, D321E, T334S, S341Y, R363K, T371S, C381S, E397D, N407D, N413E, C417S, S433E, M437E, N439K, G442R, S450A, E471N, D473E, H474K, V478M, T485A, H488W, L489Y, A493S, T496S, C530S, Y537S",True,True,True,True,False,False
+7QVJ,H09,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+7QVL,GZI,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+7R62,3YJ,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+7RKE,5VP,agonist,Y537S,Y537S,WT,False,True,True,True,True,False
+7RNM,61Z,agonist,Y537S,Y537S,WT,False,True,True,True,True,False
+7RRX,7AI,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RRY,L84,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RRZ,77I,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RS0,7I9,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RS1,7Q5,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RS2,7I5,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RS3,7OR,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RS4,7I0,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RS7,73I,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RS8,7EI,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7RS9,7OI,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+7SFO,98L,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+7T2X,EMY,agonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+7TE7,I0V,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+7UJ7,NYU,antagonist,C381S;C417S;C530S;Y537S,Y537S,WT,False,False,False,True,True,False
+7UJ8,OHT,antagonist,C381S;C417S;C530S;Y537S,Y537S,WT,False,False,False,True,True,False
+7UJC,RAL,antagonist,C381S;C417S;C530S;Y537S,Y537S,Y537S,True,False,False,True,False,False
+7UJF,R3V,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+7UJM,RL4,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S",True,False,False,True,False,False
+7UJO,QYM,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+7UJW,R3V,antagonist,C381S;C417S;C530S;Y537S,Y537S,Y537S,True,False,False,True,False,False
+7UJY,RL4,antagonist,C381S;C417S;C530S;Y537S,Y537S,Y537S,True,False,False,True,False,False
+7WNV,2I9,antagonist,C417S;Y537S,Y537S,"C417S, Y537S",True,False,False,True,False,False
+7Y8F,IC7,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+7Y8G,IAT,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False
+7YMK,IX0,antagonist,C381S;C417S;Y537S,Y537S,"C381S, C417S, Y531S",True,True,True,True,False,False
+8DU6,TQF,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DU8,TS7,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+8DU9,TT5,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DUB,TTU,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DUC,TU9,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+8DUD,TV3,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+8DUG,TVF,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DUH,TVL,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DUI,TVX,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+8DUK,TW6,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DUS,TWF,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DV5,TX9,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DV7,TXK,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DV8,TZ3,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8DVB,TZI,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S, L536S",True,False,False,True,False,False
+8EV1,WVW,antagonist,Y537S,Y537S,Y537S,True,True,True,True,False,False
+8VV1,A1AEA,antagonist,C381S;C417S;C530S;L536S,L536S,"C381S, C417S, C530S",True,False,False,True,False,False
+8VYT,A1AHV,partial_agonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+8VYX,A1AHU,agonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+8VZ0,A1AHO,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+8VZ1,A1AHS,partial_agonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+8VZP,A1AHW,partial_agonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+8VZQ,A1AHX,unknown,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+8W03,OBT,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+8W07,A1AHY,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+8W07,A1AHZ,antagonist,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+9B25,A1AIZ,unknown,L372S;L536S,L536S,"L372S, L536S",True,False,False,True,False,False
+9B2B,A1AI0,antagonist,C381S;C417S;C530S;L536S,L536S,WT,False,False,False,True,True,False
+9BPX,A1BV9,unknown,C381S;C417S;C530S;Y537S,Y537S,WT,False,False,False,True,True,False
+9BPX,TZI,antagonist,C381S;C417S;C530S;Y537S,Y537S,WT,False,False,False,True,True,False
+9BQE,TV3,antagonist,C381S;C417S;C530S;Y537S,Y537S,"C381S, C417S, C530S, Y537S",True,False,False,True,False,False
+9BU1,A1ASN,unknown,C381S;C417S;C530S;Y537S,Y537S,"C381S, C417S, C530S, Y537S",True,False,False,True,False,False
+9EBG,B81,agonist,none,wild type,WT,False,True,True,False,False,False
+9ECK,A1BHJ,unknown,C381S;C417S;L536S,L536S,"C381S, C417S, L536S",True,False,False,True,False,False
+9VT5,A1ETI,unknown,Y537S,Y537S,Y537S,True,False,False,True,False,False
+9VTU,A1ETN,unknown,Y537S,Y537S,Y537S,True,False,False,True,False,False
+9W11,ZHB,unknown,Y537S,Y537S,Y537S,True,False,False,True,False,False
+9W12,A1ET8,unknown,Y537S,Y537S,Y537S,True,False,False,True,False,False
+9W13,A1ET9,unknown,Y537S,Y537S,Y537S,True,False,False,True,False,False
+9WB2,A1EVS,unknown,Y537S,Y537S,Y537S,True,True,True,True,False,False

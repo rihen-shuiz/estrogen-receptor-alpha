@@ -1,0 +1,118 @@
+{
+  "n_perm": 200,
+  "set_cover_check": [
+    {
+      "radius_A": 0.5,
+      "reps_90pct": 48,
+      "reps_95pct": null,
+      "max_coverage": 0.9251269035532995
+    },
+    {
+      "radius_A": 0.75,
+      "reps_90pct": 3,
+      "reps_95pct": 4.0,
+      "max_coverage": 0.9873096446700508
+    },
+    {
+      "radius_A": 1.0,
+      "reps_90pct": 2,
+      "reps_95pct": 2.0,
+      "max_coverage": 0.9898477157360406
+    },
+    {
+      "radius_A": 1.5,
+      "reps_90pct": 2,
+      "reps_95pct": 2.0,
+      "max_coverage": 0.9936548223350253
+    }
+  ],
+  "qc_missing_counts": {
+    "missing_rfree_chains": 0,
+    "missing_rfree_pdbs": 0,
+    "missing_resolution_chains": 0,
+    "missing_mean_b_chains": 0,
+    "qc_pass_all3_chains": 544,
+    "qc_pass_all3_pdbs": 247
+  },
+  "hill_1p5_core_classes": [
+    {
+      "subset": "all_351_pdbs",
+      "cut_A": 1.5,
+      "n_pdbs": 351,
+      "n_chains": 788,
+      "n_inchikeys": 304,
+      "n_doi_blocks": 111,
+      "q0_clusters": 7,
+      "shannon_bits": 1.076557320306359,
+      "hill_q1": 2.108997405477919,
+      "hill_q2": 1.9199557416392221,
+      "n90_pdbs": 281,
+      "n90_frac_pdbs": 0.8005698005698005
+    },
+    {
+      "subset": "agonist",
+      "cut_A": 1.5,
+      "n_pdbs": 98,
+      "n_chains": 200,
+      "n_inchikeys": 73,
+      "n_doi_blocks": 42,
+      "q0_clusters": 3,
+      "shannon_bits": 0.22556410134541188,
+      "hill_q1": 1.1692343359658035,
+      "hill_q2": 1.0635658914728683,
+      "n90_pdbs": 77,
+      "n90_frac_pdbs": 0.7857142857142857
+    },
+    {
+      "subset": "partial_agonist",
+      "cut_A": 1.5,
+      "n_pdbs": 77,
+      "n_chains": 171,
+      "n_inchikeys": 75,
+      "n_doi_blocks": 15,
+      "q0_clusters": 2,
+      "shannon_bits": 0.6550239908788728,
+      "hill_q1": 1.5746421379755553,
+      "hill_q2": 1.390152403282532,
+      "n90_pdbs": 9,
+      "n90_frac_pdbs": 0.11688311688311688
+    },
+    {
+      "subset": "antagonist",
+      "cut_A": 1.5,
+      "n_pdbs": 112,
+      "n_chains": 260,
+      "n_inchikeys": 93,
+      "n_doi_blocks": 48,
+      "q0_clusters": 5,
+      "shannon_bits": 0.8931992244185682,
+      "hill_q1": 1.8572901635291872,
+      "hill_q2": 1.5223608891765608,
+      "n90_pdbs": 85,
+      "n90_frac_pdbs": 0.7589285714285714
+    }
+  ],
+  "qc_ari_1p5": [
+    {
+      "subset": "full_788",
+      "n_chains": 788,
+      "n_clusters": 7,
+      "ari_vs_full": 1.0,
+      "hill_q1_pdb": 2.108997405477919
+    },
+    {
+      "subset": "rfree_le_0p30",
+      "n_chains": 767,
+      "n_clusters": 6,
+      "ari_vs_full": 0.9978620090602502,
+      "hill_q1_pdb": 2.0855341010167123
+    },
+    {
+      "subset": "qc_all3_tierA",
+      "n_chains": 544,
+      "n_clusters": 4,
+      "ari_vs_full": 0.9819838401639648,
+      "hill_q1_pdb": 2.0290397146480537
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+subset,orig_group,new_cluster_ranked,n_chains
+full_788,cl4,new_rank2 (n=329),329
+full_788,cl7,new_rank1 (n=445),445
+full_788,minor,new_rank3 (n=5),5
+full_788,minor,new_rank4 (n=3),3
+full_788,minor,new_rank5 (n=3),3
+full_788,minor,new_rank6 (n=2),2
+full_788,minor,new_rank7 (n=1),1
+rfree_le_0p30,cl4,new_rank2 (n=315),314
+rfree_le_0p30,cl7,new_rank1 (n=439),439
+rfree_le_0p30,minor,new_rank2 (n=315),1
+rfree_le_0p30,minor,new_rank3 (n=5),5
+rfree_le_0p30,minor,new_rank4 (n=3),3
+rfree_le_0p30,minor,new_rank5 (n=3),3
+rfree_le_0p30,minor,new_rank6 (n=2),2
+qc_all3_tierA,cl4,new_rank1 (n=284),1
+qc_all3_tierA,cl4,new_rank2 (n=256),254
+qc_all3_tierA,cl7,new_rank1 (n=284),282
+qc_all3_tierA,minor,new_rank1 (n=284),1
+qc_all3_tierA,minor,new_rank2 (n=256),2
+qc_all3_tierA,minor,new_rank3 (n=2),2
+qc_all3_tierA,minor,new_rank4 (n=2),2

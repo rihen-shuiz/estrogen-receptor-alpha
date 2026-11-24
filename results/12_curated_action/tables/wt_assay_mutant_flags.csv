@@ -1,0 +1,20 @@
+pdb_norm,lig_norm,group,action_class,mutation_status,primary_source,luc_efficacy_pct,proliferation_pct,note
+2G44,T3O,cl7,agonist,Y537S,chembl,,,Structure carries Y537S mutation; agonist activity from COS-1 WT ERalpha assay (related citation 10.1074/jbc.M513684200 / CHEMBL178734).
+2QAB,EI1,cl7,partial_agonist,Y537S,chembl,,,The specific ligand and its action on ERalpha are not stated in the abstract. [Full text (supplied PDF): Full text gives no functional class for this compound; activity data sit in the supplementary tables.] [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]
+2QGW,EES,cl7,partial_agonist,Y537S,chembl,,,The specific ligand and its action on ERalpha are not stated in the abstract. [Full text (supplied PDF): Full text gives no functional class for this compound; activity data sit in the supplementary tables.] [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]
+3HLV,J2Z,cl7,agonist,Y537S,literature,,,Structure carries Y537S mutation; endogenous ERalpha agonist pharmacology refers to WT ERalpha.
+3HM1,J3Z,cl7,agonist,Y537S,chembl,,,Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.
+3L03,4OH,cl7,agonist,Y537S,literature,,,Structure carries Y537S mutation; clinical nuclear ERalpha agonist (NEST) pharmacology refers to WT ERalpha.
+3Q95,ESL,cl7,agonist,Y537S,chembl,,,Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.
+4TV1,36M,cl7,agonist,Y537S,chembl,,,"The abstract mentions parabens in general (activation or inhibition of nuclear receptors) but does not state the specific action of propylparaben (36M) on ERalpha. [Full text (supplied PDF): Review confirms 4TV1 is the propylparaben complex but states no ERalpha action class. Butylparaben, a close analogue, is classed as an ERalpha partial agonist in 10.1289/ehp.1408453 (structure 4MG9); again a different molecule, so not carried over.] [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]"
+5TLG,7EG,cl7,agonist,Y537S,chembl,,,The specific ligands and their functional action on ERalpha are not stated in the abstract. [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]
+5TLL,7EL,cl7,agonist,Y537S,chembl,,,The specific ligands and their functional action on ERalpha are not stated in the abstract. [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]
+5TLM,7EM,cl7,agonist,Y537S,chembl,,,The specific ligands and their functional action on ERalpha are not stated in the abstract. [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]
+5TLO,7EE,cl7,agonist,Y537S,chembl,,,The specific ligands and their functional action on ERalpha are not stated in the abstract. [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]
+5TLU,7EE,cl7,agonist,Y537S,chembl,,,The specific ligands and their functional action on ERalpha are not stated in the abstract. [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]
+5TLV,7ES,cl7,partial_agonist,Y537S,chembl,,,The specific ligands and their functional action on ERalpha are not stated in the abstract. [ChEMBL tail: Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.]
+6CHW,F3D,cl4,antagonist,Y537S,abstract,,,Classified in the abstract as a SERCA (covalent antagonist of wild-type and mutant ERalpha).
+6OWC,ND1,cl4,antagonist,Y537S,abstract,,,"Clinical covalent ERalpha antagonist (SERCA) active on both WT and Y537S mutant ERalpha (Furman et al., Mol Cancer Ther 2022)."
+6OWC,ND1,minor,antagonist,Y537S,abstract,,,"Clinical covalent ERalpha antagonist (SERCA) active on both WT and Y537S mutant ERalpha (Furman et al., Mol Cancer Ther 2022)."
+6V87,OHT,cl4,antagonist,Y537S,chembl,,,Structure has Y537S mutation; ChEMBL functional data is for WT ERalpha.
+6VGH,C3D,cl4,antagonist,Y537S,chembl,,,pdb_title indicates Y537S mutant; ChEMBL functional data is for WT ERalpha.

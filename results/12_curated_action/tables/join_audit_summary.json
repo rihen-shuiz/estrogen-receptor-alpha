@@ -1,0 +1,49 @@
+{
+  "git_sha": "f66ae14b88f7026db4cfae72e0b6bd11148c7aeb",
+  "dataset_path": "/home/rihen/Desktop/estrogen-receptor-alpha/esr1_dataset_final.csv",
+  "curated_total_rows": 377,
+  "curated_real_rows": 368,
+  "curated_real_action_counts": {
+    "antagonist": 119,
+    "agonist": 104,
+    "partial_agonist": 79,
+    "unknown": 64,
+    "mixed": 2
+  },
+  "curated_core3_rows": 302,
+  "curated_drug_classes_filled_real": 54,
+  "curated_unknown_serd": 9,
+  "chain_table_chains": 788,
+  "chain_table_pdbs": 351,
+  "chain_table_groups": {
+    "cl7": 445,
+    "cl4": 329,
+    "minor": 14
+  },
+  "exact_primary_match_chains": 781,
+  "exact_primary_match_pairs": 360,
+  "strict_single_chains": 765,
+  "strict_single_pairs": 355,
+  "strict_single_pdbs": 346,
+  "core3_strict_chains": 631,
+  "core3_strict_pairs": 291,
+  "core3_strict_pdbs": 287,
+  "core3_strict_inchikeys": 240,
+  "core3_strict_by_class": {
+    "antagonist": 115,
+    "agonist": 98,
+    "partial_agonist": 78
+  },
+  "pair_audit_status_counts": {
+    "included_strict": 350,
+    "matched_multi": 10,
+    "excluded_non_ligand": 9,
+    "unmatched_missing_pdb": 6,
+    "unmatched_secondary_ccd": 2
+  },
+  "unmatched_chains_count": 7,
+  "mutant_flag_mismatches": 47,
+  "peptide_flag_mismatches": 0,
+  "inchikey_conflict_count": 1,
+  "wt_assay_on_mutant_flagged_rows": 19
+}
