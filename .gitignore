@@ -1,3 +1,7 @@
 .venv/
 __pycache__/
 .DS_Store
+# downloaded mmCIF cache and slide-only chart copies (rebuilt by reproduce.sh)
+results/12_curated_action/pymol/structures/
+results/12_curated_action/slides/
+results/doc_figures/

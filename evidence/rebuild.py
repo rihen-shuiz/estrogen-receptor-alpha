@@ -55,6 +55,20 @@ SOURCES = {
     "assay_spread.csv": "data/ligands/assay_spread.csv",
     "druglikeness_by_group.csv": "data/ligands/druglikeness_by_group.csv",
     "pocket_filling_tests.csv": "data/ligands/pocket_filling_tests.csv",
+    "action_class.csv": "data/ligands/action_class.csv",
+    "join_audit_summary.json": "results/12_curated_action/tables/join_audit_summary.json",
+    "pairs_core3_with_chem.csv": "results/12_curated_action/tables/pairs_core3_with_chem.csv",
+    "pairs_by_group.csv": "results/12_curated_action/tables/pairs_by_group.csv",
+    "effects_summary.csv": "results/12_curated_action/tables/effects_summary.csv",
+    "robustness_sensitivity.csv": "results/12_curated_action/tables/robustness_sensitivity.csv",
+    "steroid_summary.csv": "results/12_curated_action/tables/steroid_summary.csv",
+    "redundancy_hill_summary.csv": "results/12_curated_action/tables/redundancy_hill_summary.csv",
+    "redundancy_accumulation_curves.csv": "results/12_curated_action/tables/redundancy_accumulation_curves.csv",
+    "qc_clustering_sensitivity.csv": "results/12_curated_action/tables/qc_clustering_sensitivity.csv",
+    "chem_struct_class_associations.csv": "results/12_curated_action/tables/chem_struct_class_associations.csv",
+    "pocket_by_class.csv": "results/12_curated_action/tables/pocket_by_class.csv",
+    "pymol_contacts.csv": "results/12_curated_action/tables/pymol_contacts.csv",
+    "esr1_esr2_displacement_profile.csv": "data/esr2/esr1_esr2_displacement_profile.csv",
 }
 
 
@@ -106,6 +120,27 @@ def _h12_rho(grp):
 
 
 # id, theme, claim, number (as stated), values (stated), tolerances, check, figure, source, obtained, calculated, caveat
+def _class_group(cls, grp):
+    p = D("pairs_core3_with_chem.csv")
+    return int(((p.action_class == cls) & (p.h12_group_excl == grp)).sum()), int((p.action_class == cls).sum())
+
+
+def _eff(cid):
+    return D("effects_summary.csv").set_index("contrast_id").loc[cid, "diff_a_minus_b"]
+
+
+def _steroid(st):
+    t = D("steroid_summary.csv")
+    r = t[(t.level == "pairs_core3") & (t.steroid.astype(str) == st)].iloc[0]
+    return r
+
+
+def _rob(contrast):
+    r = D("robustness_sensitivity.csv")
+    d = r[r.contrast == contrast].diff_A
+    return d.min(), d.max()
+
+
 CLAIMS = [
     ("L1", "Lid position", "The lid-to-H11 distance separates the two groups with no overlap.",
      "cl7 12.48 Å, cl4 22.26 Å (medians)", (12.48, 22.26), 0.005,
@@ -141,7 +176,7 @@ CLAIMS = [
      lambda: (lambda d: (int(d.real.astype(str).eq("True").sum()), d.effect.abs().max()))(D("lid_spread_drivers.csv")),
      "lid_spread_drivers", "lid_spread_drivers.csv", "entry means within cl7 / cl4; peptide, construct, ligand, class, quality, contacts",
      "Mann-Whitney / Spearman, BH; effect = entry-median difference vs copy 95th pct", "detectable (q < 0.05) is not large"),
-    ("L7", "Lid position", "Action classes nearly coincide with the lid groups, so class cannot be tested apart from lid.",
+    ("L7", "Lid position", "With the October ChEMBL labels, action classes nearly coincided with the lid groups (superseded by A2).",
      "agonist 25 of 27 entries in cl7; SERM 19 of 20 in cl4", (25, 27, 19, 20), 0, lambda: (*_cls("agonist", "cl7"), *_cls("SERM", "cl4")),
      "class_vs_group", "chain_class.csv", "uncurated ChEMBL mechanism labels (4 Nov)",
      "entries with ≥ 1 chain of the class in the group", "51 of 362 entry × ligand rows labelled"),
@@ -249,6 +284,73 @@ CLAIMS = [
      lambda: (lambda a: (int((a.sd_dpx < a.sd_px_abs).sum()), a.sd_px_abs.median(), a.sd_dpx.median()))(D("assay_spread.csv")),
      "assay_spread", "assay_spread.csv", "ChEMBL binding activities on CHEMBL206", "SD across assays of pX vs dpX = pX − pX(E2)",
      "only 5 ligands have ≥ 2 paired assays"),
+    ("A1", "Action class", "Hand labels cover most ligands and tie 291 pairs to one ligand in a structure.",
+     "302 of 368 real pairs labelled (51 of 362 with ChEMBL); 291 linked", (302, 368, 291), 0,
+     lambda: (lambda j: (j["curated_core3_rows"], j["curated_real_rows"], j["core3_strict_pairs"]))(D("join_audit_summary.json")),
+     "curated_labels", "join_audit_summary.json", "labels from the primary article of each entry (data/ligands/esr1_dataset_final.csv)",
+     "exact entry + primary ligand match, single-ligand chains, agonist / partial agonist / antagonist",
+     "85 labels derived from assay thresholds"),
+    ("A2", "Action class", "Agonists close the lid; antagonists mostly leave it in the groove; partial agonists mostly close it.",
+     "agonist 95 / 98 in cl7; antagonist 88 / 115 in cl4 and 22 in cl7; partial agonist 65 cl7, 13 cl4",
+     (95, 98, 88, 115, 22, 65, 13), 0,
+     lambda: (*_class_group("agonist", "cl7"), *_class_group("antagonist", "cl4"), _class_group("antagonist", "cl7")[0],
+              _class_group("partial_agonist", "cl7")[0], _class_group("partial_agonist", "cl4")[0]),
+     "curated_class_h12", "pairs_core3_with_chem.csv", "291 PDB entry × ligand pairs",
+     "lid group of the pair's chains ('multiple' when they differ)", "20 of the 22 closed-lid antagonists are Y537S constructs"),
+    ("A3", "Action class", "Inside one lid position the class moves H12 far less than ordinary variation.",
+     "cl7 Y537S + peptide: antagonist +0.21 Å, partial agonist −0.17 Å vs agonist; cl4 L536S: −0.02 Å; ordinary 0.91 / 1.08 Å",
+     (0.21, -0.17, -0.02), 0.005,
+     lambda: (_eff("cl7_Y537S_pep: ant vs ago"), _eff("cl7_Y537S_pep: part vs ago"), _eff("cl4_L536S_nopep: ant vs part")),
+     "curated_h12_within", "effects_summary.csv", "median lid-to-H11 distance per pair, matched construct and peptide",
+     "difference of medians, 95% CI by bootstrap over DOI blocks", "4 articles hold both antagonists and agonists"),
+    ("A4", "Action class", "The small cl7 shifts hold under 11 filters (quality, H12 completeness, label source, repeats, top article).",
+     "antagonist − agonist 0.14 to 0.25 Å; partial agonist − agonist −0.27 to −0.16 Å", (0.14, 0.25, -0.27, -0.16), 0.005,
+     lambda: (*_rob("ant_vs_ago"), *_rob("part_vs_ago")), "curated_effects", "robustness_sensitivity.csv",
+     "same contrast after each filter", "difference of medians per filter", "some filters leave < 4 DOI blocks (no CI)"),
+    ("A5", "Action class", "Steroidal ligands are mostly agonists, not antagonists.",
+     "33 of 42 steroid pairs agonist, 3 antagonist vs 112 of 249 other pairs; Fisher p 7e-7", (33, 42, 3, 112, 249, 7.5e-7),
+     1e-7, lambda: (lambda a, b: (a.agonist, a.n, a.antagonist, b.antagonist, b.n, a.antagonist_fisher_p))(_steroid("True"),
+                                                                                                        _steroid("False")),
+     "curated_steroid_class", "steroid_summary.csv", "RDKit substructure: carbon four-ring 6-6-6-5 nucleus",
+     "Fisher exact test, antagonist vs other classes", "18 steroidal ligands; the 3 antagonists carry long side chains"),
+    ("A6", "Action class", "Each class holds fewer effective conformations than the whole set.",
+     "Hill q1 at 1.5 Å: all 2.11; agonist 1.17; partial agonist 1.57; antagonist 1.86", (2.11, 1.17, 1.57, 1.86), 0.005,
+     lambda: tuple(D("redundancy_hill_summary.csv").set_index(["subset", "cut_A"]).hill_q1.loc[
+         [("all_351_pdbs", 1.5), ("agonist", 1.5), ("partial_agonist", 1.5), ("antagonist", 1.5)]]),
+     "curated_redundancy", "redundancy_hill_summary.csv", "1.5 Å clusters of all chains of each entry",
+     "exp(Shannon entropy), each entry weighted equally", "class sets differ in size (77-112 entries)"),
+    ("A7", "Action class", "Removing low-quality structures leaves the clusters in place.",
+     "ARI 0.998 (R-free ≤ 0.30, 767 chains) and 0.982 (all three limits, 544 chains) at 1.5 Å", (0.998, 0.982), 0.0005,
+     lambda: tuple(D("qc_clustering_sensitivity.csv").set_index(["subset", "cut_A"]).ari_vs_full.loc[
+         [("rfree_le_0p30", 1.5), ("qc_all3_tierA", 1.5)]]),
+     "curated_qc", "qc_clustering_sensitivity.csv", "saved RMSD matrix restricted to the kept chains",
+     "average linkage; ARI against the full clustering on shared chains", "the 1.0 Å cut changes more (ARI 0.91-0.92)"),
+    ("A8", "Action class", "Chemical clusters go with action class more than with lid position.",
+     "Cramér's V 0.62 (class) and 0.46 (lid) on pairs; 0.51 / 0.38 one pair per article", (0.62, 0.46, 0.51, 0.38), 0.005,
+     lambda: tuple(D("chem_struct_class_associations.csv").set_index(["level", "target"]).cramers_v.loc[
+         [("pairs_core3", "action_class"), ("pairs_core3", "h12_group"), ("doi_dedup_pairs", "action_class"),
+          ("doi_dedup_pairs", "h12_group")]]),
+     "—", "chem_struct_class_associations.csv", "ECFP4 clusters (average linkage, Tanimoto distance 0.6)",
+     "Cramér's V, permutation p ≤ 0.004", "204 close pairs (Tc ≥ 0.55) differ in class or lid"),
+    ("A9", "Action class", "Inside the closed position the pocket grows from agonist to antagonist.",
+     "75%, 85%, 91% of the E2 pocket; Kruskal-Wallis p 0.0008", (75, 85, 91, 0.0008), 0.5,
+     lambda: (lambda r: (r.median_agonist, r.median_partial_agonist, r.median_antagonist, r.kruskal_p))(
+         D("pocket_by_class.csv").set_index(["group", "metric"]).loc[("cl7", "pocket_pct_of_E2_pocket")]),
+     "curated_pocket", "pocket_by_class.csv", "buriedness-grid pocket volume, fully modelled ligands",
+     "medians per class; Kruskal-Wallis", "filling stays about one third in every class"),
+    ("A10", "Action class", "The antagonist side chain occupies the place of the closed H12.",
+     "1.2 Å from Leu540; 6 atoms within 3 Å; H12 centre moves 13 Å; core fit 0.27 Å", (1.2, 6, 13, 0.27), 0.05,
+     lambda: (lambda r: (r.closest_approach_A, r.n_ligand_atoms_within_3A_of_agonist_h12, r.h12_centre_shift_A,
+                         r.core_fit_rmsd_A))(D("pymol_contacts.csv").iloc[0]),
+     "—", "pymol_contacts.csv", "3ERD (agonist) and 3ERT (antagonist) superposed in PyMOL (figures/pymol_*.png)",
+     "closest ligand-to-H12 atom distance after core fit", "one pair of structures"),
+    ("E1", "ESR2", "Matched ESR1/ESR2 backbones agree closely; the pocket selectivity positions barely move.",
+     "median 0.53 Å over 135 pairs; L384/M336 0.25 Å, M421/I373 0.28 Å", (0.53, 135, 0.25, 0.28), 0.005,
+     lambda: (lambda p: (p[p.n_pairs == p.n_pairs.max()].median_displacement_A.median(), p.n_pairs.max(),
+                         p.set_index("esr1_position").loc[384, "median_displacement_A"],
+                         p.set_index("esr1_position").loc[421, "median_displacement_A"]))(D("esr1_esr2_displacement_profile.csv")),
+     "esr2_displacement", "esr1_esr2_displacement_profile.csv", "C-alpha distance after a core fit, same ligand in both",
+     "median per ESR1 position over the pairs", "115 of 135 pairs carry estradiol"),
 ]
 
 
@@ -287,7 +389,8 @@ def check():
 
 def index():
     lines = ["# Evidence index", "",
-             "Results added since the October report (28 Oct, 4 Nov and 11 Nov) that carry the conclusions. Every number is recomputed "
+             "Results added since the October report (28 Oct, 4 Nov and 11 Nov requests and the hand-labelled action classes) that "
+             "carry the conclusions. Every number is recomputed "
              "from the copies in `evidence/data/` by `python evidence/rebuild.py` (result in `checks.csv`), which also redraws the "
              "figures (`figures/`). "
              "'Ordinary variation' = the larger of the within-group SD and the 95th percentile of differences between "

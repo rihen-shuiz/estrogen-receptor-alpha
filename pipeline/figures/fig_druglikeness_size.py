@@ -9,8 +9,8 @@ import style as s
 
 d = s.csv("data/ligands/druglikeness_by_group.csv")
 d = d[d.identical_to.isna()].copy()            # drop QED terms that repeat a plain parameter
-d["q_raw"] = d[["lig_q", "ent_q"]].max(1)
-d["q_adj"] = d[["lig_adj_q", "ent_adj_q"]].max(1)
+d["q_raw"] = d[["lig_q", "ent_q"]].max(axis=1)
+d["q_adj"] = d[["lig_adj_q", "ent_adj_q"]].max(axis=1)
 d = d.sort_values("q_adj", ascending=False)
 names = {"mw": "molecular weight", "clogp": "cLogP", "hbd": "H-bond donors", "hba": "H-bond acceptors",
          "lipinski_violations": "Lipinski violations", "rotb": "rotatable bonds", "tpsa": "polar surface area",

@@ -1,12 +1,11 @@
 """Stage 12.1 - Exact dataset join, coverage audit, construct/peptide reconciliation, and master tables.
 
 Usage:
-  python pipeline/curated_action/01_join_and_audit.py --dataset esr1_dataset_final.csv
+  python pipeline/curated_action/01_join_and_audit.py [--dataset data/ligands/esr1_dataset_final.csv]
 """
 from __future__ import annotations
 
 import argparse
-import subprocess
 import sys
 from pathlib import Path
 
@@ -17,16 +16,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common_curated as cc  # noqa: E402
 
 
-def get_git_sha() -> str:
-    try:
-        return subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=cc.ROOT, text=True).strip()
-    except Exception:
-        return "unknown"
-
-
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dataset", default=str(cc.ROOT / "esr1_dataset_final.csv"))
+    ap.add_argument("--dataset", default=str(cc.DATA / "ligands" / "esr1_dataset_final.csv"))
     args = ap.parse_args()
     cc.ensure_dirs()
 
@@ -427,8 +419,7 @@ def main():
     core3_pairs = pairs_df[pairs_df["action_class"].isin(cc.CLASS_ORDER_CORE)]
     core3_chains = merged[merged["in_core3_strict"]]
     summary = {
-        "git_sha": get_git_sha(),
-        "dataset_path": str(dataset_path),
+        "dataset_path": str(dataset_path.relative_to(cc.ROOT)) if dataset_path.is_relative_to(cc.ROOT) else dataset_path.name,
         "curated_total_rows": int(len(cur)),
         "curated_real_rows": int(len(cur_real)),
         "curated_real_action_counts": cur_real["action_class"].value_counts().to_dict(),

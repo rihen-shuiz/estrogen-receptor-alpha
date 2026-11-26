@@ -3,7 +3,11 @@
 788 chains of the oestrogen receptor α ligand-binding domain (351 PDB entries) fall into two groups set by the position
 of helix 12 (the lid): closed over the ligand pocket (cl7, 445 chains) or lying in the coactivator groove (cl4, 329).
 This repository holds the data, the code that rebuilds every result from it, the figures and the checked evidence.
-Summary of all stages: [docs/project_summary.md](docs/project_summary.md).
+Full account (data, methods, results, discussion, coverage of the project brief):
+[docs/project_summary_full.pdf](docs/project_summary_full.pdf); short summary by stage:
+[docs/project_summary.md](docs/project_summary.md); latest monthly report:
+[docs/report_month3.pdf](docs/report_month3.pdf); slides: [docs/slides_action_class.pptx](docs/slides_action_class.pptx)
+(PDF alongside).
 
 ## Reproduce
 
@@ -12,8 +16,10 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 PYTHON=.venv/bin/python bash reproduce.sh
 ```
 
-`reproduce.sh` runs the pipeline stages in order, redraws every figure and the slides, and re-checks every number of the evidence index
-(about one minute). It ends with `all numbers match`.
+`reproduce.sh` runs the pipeline stages in order (including the PyMOL views, which download 3ERD and 3ERT from RCSB when
+not cached), redraws every figure and the slides, and re-checks every number of the evidence index
+(about four minutes). It ends with `all numbers match`. `.venv/bin/python docs/build_docs.py` prints the two documents
+(needs Google Chrome).
 
 ## Layout (pipeline order)
 
@@ -30,23 +36,27 @@ PYTHON=.venv/bin/python bash reproduce.sh
 | `pipeline/08_crystal_environment.py` | Additives, solvent and lattice contacts against lid order and mobility |
 | `pipeline/09_ligands_pockets.py` | Ligand size and chemistry, action classes, pockets, filling, affinities |
 | `pipeline/10_redundancy.py` | Hill numbers, set cover, copies of one crystal, novelty over time |
-| `pipeline/11_esr2.py` | ESR2 groups and their distance to the ESR1 groups |
+| `pipeline/11_esr2.py` | ESR2 groups, their distance to the ESR1 groups, joint map, ESR1/ESR2 residue displacement |
+| `pipeline/curated_action/01-05` | Stage 12: hand-labelled action classes joined to the chains; redundancy and quality checks by class; chemistry (steroids, UMAP, K-means); class effects inside one lid position, pockets; PyMOL views of an agonist and an antagonist complex |
 | `pipeline/figures/` | One script per figure (`fig_<name>.py` → `figures/<name>.png` and `.svg`) |
 | `results/<stage>/` | Tables and `numbers.json` written by each stage |
 | `figures/` | All figures |
 | `evidence/` | `INDEX.md` (claims, numbers, figures, sources), `data/` (tables behind the figures), `rebuild.py` |
-| `docs/` | Project summary, meeting notes, literature checked; `recent_results.pdf`, slides of the results since the October report (built by `recent_results.py`) |
+| `docs/` | `project_summary_full.pdf` and `report_month3.pdf` (HTML sources, built by `build_docs.py`), `project_summary.md`, meeting notes, literature checked; slides `slides_action_class.pptx/.pdf` with speaker notes (built by `slides_action_class.py`) and `recent_results.pdf` (11 November results, built by `recent_results.py`) |
 
 ## Conventions
 
 Groups: average linkage on the C-alpha RMSD at 1.5 Å after superposition on 123 core positions of the five most stable
 helices onto chain 7NFB B. Ordinary variation: an effect counts only if larger than both the within-group SD and the
-95th percentile of the difference between copies of one crystal. Seed 42. Distances in Å. Action classes are uncurated
-ChEMBL mechanism labels (51 of 362 entry-ligand rows) until the hand-labelled set replaces them.
+95th percentile of the difference between copies of one crystal. Seed 42. Distances in Å. Action classes come from
+`data/ligands/esr1_dataset_final.csv` (hand labels from the primary article of each entry; dictionary alongside); the
+October ChEMBL mechanism labels (`action_class.csv`, `chain_class.csv`, 51 of 362 rows) are kept for history only.
 
 ## Inputs not rebuilt here
 
 The tables in `data/` come from the mmCIF files listed in `data/ids/` (checksums in `download_manifest.csv` and
 `sha256sums.txt`) through extraction, pydssp secondary structure, lattice-contact counting, P2Rank pockets, a buriedness
-grid, RDKit descriptors and ChEMBL queries. The pipeline starts from these tables and from the deposited backbone
-coordinates; superposition, RMSD and groups are recomputed and checked against the frozen groups.
+grid, RDKit descriptors and ChEMBL queries. `data/esr2/esr1_esr2_displacement_profile.csv` summarises the per-residue
+C-alpha distances of 135 matched ESR1/ESR2 chain pairs from the October core fits. The pipeline starts from these tables
+and from the deposited backbone coordinates; superposition, RMSD and groups are recomputed and checked against the
+frozen groups.

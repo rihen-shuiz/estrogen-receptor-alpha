@@ -12,8 +12,8 @@
   "n_discordant_close_pairs_tc_ge_0p55": 204,
   "top_discordant_pairs": [
     {
-      "lig_a": "AIH",
-      "lig_b": "AIU",
+      "lig_a": "AIJ",
+      "lig_b": "AIT",
       "tanimoto_ecfp4": 1.0,
       "tanimoto_maccs": 1.0,
       "diff_class": true,
@@ -22,8 +22,8 @@
       "class_b": "partial_agonist",
       "group_a": "cl4",
       "group_b": "cl4",
-      "pdb_a": "1XP1",
-      "pdb_b": "1XP6",
+      "pdb_a": "1XP9",
+      "pdb_b": "1XPC",
       "construct_a": "none",
       "construct_b": "none",
       "peptide_a": false,
@@ -56,8 +56,8 @@
       "doi_b": "10.1038/s41467-018-04413-3"
     },
     {
-      "lig_a": "AIJ",
-      "lig_b": "AIT",
+      "lig_a": "AIH",
+      "lig_b": "AIU",
       "tanimoto_ecfp4": 1.0,
       "tanimoto_maccs": 1.0,
       "diff_class": true,
@@ -66,8 +66,8 @@
       "class_b": "partial_agonist",
       "group_a": "cl4",
       "group_b": "cl4",
-      "pdb_a": "1XP9",
-      "pdb_b": "1XPC",
+      "pdb_a": "1XP1",
+      "pdb_b": "1XP6",
       "construct_a": "none",
       "construct_b": "none",
       "peptide_a": false,
@@ -199,5 +199,29 @@
       "cramers_v": 0.5079902579002012,
       "perm_p": 0.000999000999000999
     }
-  ]
+  ],
+  "steroid_ligands": 18,
+  "steroid_ligand_codes": [
+    "17M",
+    "3YJ",
+    "4OH",
+    "6WM",
+    "6WN",
+    "6WV",
+    "6WW",
+    "7EE",
+    "B81",
+    "EED",
+    "EEU",
+    "ESL",
+    "EST",
+    "EZT",
+    "J2Z",
+    "J3Z",
+    "NYU",
+    "QYM"
+  ],
+  "steroid_ecfp4_0p6_clusters": 5,
+  "steroids_in_largest_steroid_cluster": 12,
+  "kmeans_best_k_silhouette": 6
 }

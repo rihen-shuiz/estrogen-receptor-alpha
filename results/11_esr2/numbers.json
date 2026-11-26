@@ -16,5 +16,15 @@
   "ESR1 cl7 - ESR2 second": 2.997525893926979,
   "ESR1 cl4 - ESR2 second": 2.305702199028982,
   "ESR1 cl7 - ESR1 cl4": 3.493710368661946
+ },
+ "joint_mds_variance_share": 0.724354904459966,
+ "displacement_pairs": 135,
+ "displacement_positions": 239,
+ "displacement_median_all_positions_A": 0.5296,
+ "displacement_positions_over_1p5_A": 23,
+ "differing_residues_shared_positions": 73,
+ "selectivity_positions_A": {
+  "L384/M336": 0.2516,
+  "M421/I373": 0.2831
  }
 }

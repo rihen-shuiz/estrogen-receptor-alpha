@@ -77,9 +77,25 @@ find what drives the groups and how much of the set repeats itself. "Lid" means 
   the cl4 copy with more lattice contacts at the lid has more of it modelled (38 vs 14 crystals) [C2]. Crystals cannot
   show dynamics in water; they show that the local packing, not the drop composition, goes with lid order.
 
+## 5. Hand-labelled action classes (late November)
+
+- **Added.** Action classes from the primary article of every entry: 368 real ligand pairs (agonist 104, partial agonist
+  79, antagonist 119), 302 with a main class against 51 ChEMBL labels in October; 291 pairs tie to one ligand in a
+  structure [A1]. Steroid flag, fingerprint UMAP and K-means; PyMOL views of 3ERD and 3ERT; residue-level ESR1/ESR2
+  distances ported from the October run.
+- **Results.** Agonists 95 / 98 closed (cl7), antagonists 88 / 115 in the groove (cl4), partial agonists 65 cl7 and 13
+  cl4 [A2]. Inside one lid position the class moves H12 by at most 0.21 Å, below ordinary variation, under 11 filters
+  [A3, A4]. Steroids are mostly agonists (33 of 42 pairs; 3 antagonists) [A5]. Each class holds 1.2-1.9 effective
+  conformations [A6]; quality filtering leaves the clusters in place [A7]; chemistry goes with class (Cramér's V 0.62)
+  [A8]. The antagonist side chain sits 1.2 Å from Leu540 of the closed H12 [A10]. ESR1/ESR2 backbones differ by a median
+  0.53 Å; the selectivity positions L384/M336 and M421/I373 move 0.25-0.28 Å [E1].
+- **What changed.** Class can now be tested apart from lid position (revising L7): it acts as a switch between the two
+  positions, not as a graded shift within one. Full detail: `docs/project_summary_full.pdf` and
+  `docs/report_month3.pdf`.
+
 ## Open work
 
-- Replace the uncurated classes with the teammate's hand labels and test class against lid position within each group.
+- Check the 22 closed-lid antagonist and 13 cl4 partial-agonist complexes one by one against their articles.
+- Relate continuous efficacy (92 pairs from 5 articles) to H12 geometry inside one assay; label the 64 unknown pairs.
 - Sign off the H12 window and repeat the secondary structure with DSSP.
-- Link structure to affinity or activity (asked on 4 Nov, not attempted) and compare with solution data (HDX, MD).
-- Find the residue-level effect of L536S (243 chains) and an apo wild-type baseline, both absent from the literature read.
+- Compare pocket side chains (all-atom) for matched ligands; extend the class analysis to ESR2.

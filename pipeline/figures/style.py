@@ -29,6 +29,12 @@ GROUP_COLOR = {"cl7": CL7, "cl4": CL4, "minor": MINOR}
 GROUP_MARKER = {"cl7": "o", "cl4": "o", "minor": "^"}
 GROUP_LABEL = {"cl7": "cl7: lid closed over the pocket", "cl4": "cl4: lid in the coactivator groove",
                "minor": "minor groups (grey)"}
+# Curated action classes: own hues (never the group blue/orange) plus a shape, so class is not colour-only
+CLASSES = ["agonist", "partial_agonist", "antagonist"]
+CLASS_COLOR = {"agonist": "#1b9e77", "partial_agonist": "#7b3294", "antagonist": "#c2185b"}
+CLASS_MARKER = {"agonist": "^", "partial_agonist": "D", "antagonist": "s"}
+CLASS_LABEL = {"agonist": "agonist", "partial_agonist": "partial agonist", "antagonist": "antagonist"}
+CURATED = "results/12_curated_action/tables"
 
 plt.rcParams.update({
     "figure.facecolor": "white", "axes.facecolor": "white", "savefig.facecolor": "white",
@@ -37,6 +43,7 @@ plt.rcParams.update({
     "xtick.color": INK2, "ytick.color": INK2, "xtick.labelsize": 8.5, "ytick.labelsize": 8.5,
     "axes.spines.top": False, "axes.spines.right": False, "legend.frameon": False, "legend.fontsize": 8.5,
     "lines.linewidth": 2, "svg.fonttype": "none", "axes.grid": False,
+    "svg.hashsalt": "esr1",  # fixed element ids: the same figure gives the same SVG on every run
 })
 
 
@@ -57,13 +64,21 @@ def numbers(stage: str) -> dict:
     return json.loads((ROOT / "results" / stage / "numbers.json").read_text())
 
 
+def signed(v: float, fmt: str = "+.2f") -> str:
+    """Number with a typographic minus sign."""
+    return format(v, fmt).replace("-", "\u2212")
+
+
 def grid(ax, axis="y"):
     ax.grid(True, axis=axis, color=GRID, linewidth=0.8)
     ax.set_axisbelow(True)
 
 
 def title(fig_or_ax, text: str, width: int = 95):
-    """Plain title that states the result, wrapped; placed on the figure (suptitle) or an axes."""
+    """Plain title that states the result, wrapped; placed on the figure (suptitle) or an axes. ESR1_NO_TITLE=1 skips it
+    (slide versions, where the slide carries the headline)."""
+    if os.environ.get("ESR1_NO_TITLE"):
+        return
     t = "\n".join(textwrap.wrap(text, width))
     if hasattr(fig_or_ax, "suptitle"):
         fig_or_ax.suptitle(t, x=0.01, y=1.0, ha="left", va="bottom", fontsize=11, fontweight="bold", color=INK)
@@ -74,7 +89,7 @@ def title(fig_or_ax, text: str, width: int = 95):
 def save(fig, name: str):
     png, svg = OUT / f"{name}.png", OUT / f"{name}.svg"
     fig.savefig(png, dpi=200, bbox_inches="tight")
-    fig.savefig(svg, bbox_inches="tight")
+    fig.savefig(svg, bbox_inches="tight", metadata={"Date": None})
     plt.close(fig)
     print("wrote", png.name, svg.name)
 

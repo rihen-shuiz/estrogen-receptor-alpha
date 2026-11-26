@@ -10,9 +10,12 @@ for stage in pipeline/[0-9][0-9]_*.py; do
   echo ">>> ${stage}"
   "$PY" -B "${stage}" > /dev/null
 done
+echo ">>> curated action classes (stage 12; the PyMOL step downloads 3ERD/3ERT from RCSB if not cached)"
+for stage in pipeline/curated_action/0[0-9]_*.py; do echo ">>> ${stage}"; "$PY" -B "${stage}" > /dev/null; done
 echo ">>> figures"
 (cd pipeline/figures && for fig in fig_*.py; do "$PY" -B "${fig}" > /dev/null; done)
-echo ">>> slides: docs/recent_results.pdf"
+echo ">>> slides: docs/recent_results.pdf, docs/slides_action_class.pptx/.pdf"
 "$PY" -B docs/recent_results.py > /dev/null
+"$PY" -B docs/slides_action_class.py > /dev/null
 echo ">>> evidence: copy source tables, redraw evidence figures, re-check every number"
 "$PY" -B evidence/rebuild.py --refresh | tail -1

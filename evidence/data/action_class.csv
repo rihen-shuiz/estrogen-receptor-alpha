@@ -1,0 +1,363 @@
+entry_id,ccd,action_class,source,class_conflict,doi,match_type,primary_set,chembl_parent,parent_pref_name,label_b,label_c,route_c_used,c_reason,b_action_types,b_mechanisms,n_chains_with_ligand,doi_source
+1A52,EST,agonist,chembl_mechanism,False,10.1073/pnas.95.11.5998,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+1ERE,EST,agonist,chembl_mechanism,False,10.1038/39645,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,6,mmcif_citation_primary
+1ERR,RAL,SERM,chembl_mechanism,False,10.1038/39645,full,True,CHEMBL81,RALOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+1G50,EST,agonist,chembl_mechanism,False,10.1006/prep.2001.1409,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,3,mmcif_citation_primary
+1GWQ,ZTW,unlabelled,none,False,10.1074/JBC.M200764200,full,True,CHEMBL431698,RALOXIFENE CORE,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+1GWR,EST,agonist,chembl_mechanism,False,10.1074/JBC.M200764200,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+1L2I,ETC,unlabelled,none,False,,full,True,CHEMBL282489,,unlabelled,unlabelled,False,no_doi,,,2,none
+1PCG,EST,agonist,chembl_mechanism,False,10.1073/pnas.1934759100,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+1QKT,EST,agonist,chembl_mechanism,False,10.1074/JBC.M009870200,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,1,mmcif_citation_primary
+1QKU,EST,agonist,chembl_mechanism,False,10.1074/jbc.M009870200,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,3,mmcif_citation_primary
+1R5K,GW5,unlabelled,none,False,10.1016/j.molcel.2005.04.014,full,True,CHEMBL33899,,unlabelled,unlabelled,False,doi_not_in_chembl,,,3,mmcif_citation_primary
+1SJ0,E4D,unlabelled,none,False,10.1021/jm034243o,full,True,CHEMBL304552,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+1UOM,PTI,unlabelled,none,False,10.1021/JM030086H,connectivity_only,False,CHEMBL101382,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+1X7E,244,unlabelled,none,False,10.1021/ja047633o,full,True,CHEMBL184151,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+1X7R,GEN,unlabelled,none,False,10.1016/j.str.2004.09.015,full,True,CHEMBL44,GENISTEIN,unlabelled,unlabelled,False,doi_not_in_chembl,,,1,mmcif_citation_primary
+1XP1,AIH,unlabelled,none,False,10.1016/j.bmcl.2004.10.036,full,True,CHEMBL182980,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+1XP6,AIU,unlabelled,none,False,10.1016/j.bmcl.2004.10.036,full,True,CHEMBL183467,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+1XP9,AIJ,unlabelled,none,False,10.1016/j.bmcl.2004.10.036,full,True,CHEMBL180300,,unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,1,mmcif_citation_primary
+1XPC,AIT,unlabelled,none,False,10.1016/j.bmcl.2004.10.036,full,True,CHEMBL180792,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+1XQC,AEJ,unlabelled,none,False,10.1021/jm040858p,connectivity_only,False,CHEMBL195212,,unlabelled,unlabelled,False,no_pattern_match,,,4,mmcif_citation_primary
+1YIM,CM4,unlabelled,none,False,10.1016/j.bmcl.2005.01.046,full,True,CHEMBL181936,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+1YIN,CM3,unlabelled,none,False,10.1016/j.bmcl.2005.01.046,full,True,CHEMBL180146,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+1ZKY,689,unlabelled,none,False,10.1074/jbc.M513684200,connectivity_only,False,CHEMBL1451012,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+2AYR,L4G,unlabelled,none,False,10.1021/jm050723z,full,True,CHEMBL243789,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+2B1V,458,unlabelled,none,False,10.1074/jbc.M513684200,full,True,CHEMBL193676,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+2B1Z,17M,unlabelled,none,False,10.1016/j.steroids.2007.08.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+2BJ4,OHT,SERM,chembl_mechanism,False,10.1073/PNAS.0407189102,full,True,CHEMBL489,AFIMOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+2FAI,459,unlabelled,none,False,10.1074/jbc.M513684200,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+2G44,T3O,unlabelled,none,False,,connectivity_only,False,CHEMBL178734,,unlabelled,unlabelled,False,no_doi,,,2,none
+2G5O,DRQ,unlabelled,none,False,,connectivity_only,False,CHEMBL291384,,unlabelled,unlabelled,False,no_doi,,,2,none
+2I0J,I0G,unlabelled,none,False,10.1021/jm060491j,full,True,CHEMBL278703,ERTEBEREL,unlabelled,unlabelled,False,no_pattern_match,,,4,mmcif_citation_primary
+2IOG,IOG,unlabelled,none,False,10.1016/j.bmcl.2007.01.054,full,True,CHEMBL241303,,unlabelled,unlabelled,False,no_pattern_match,,,1,mmcif_citation_primary
+2IOK,IOK,unlabelled,none,False,10.1016/j.bmcl.2007.01.054,full,True,CHEMBL391910,,unlabelled,unlabelled,False,no_pattern_match,,,2,mmcif_citation_primary
+2JF9,OHT,SERM,chembl_mechanism,False,10.1074/JBC.M611424200,full,True,CHEMBL489,AFIMOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,3,mmcif_citation_primary
+2JFA,RAL,SERM,chembl_mechanism,False,10.1074/JBC.M611424200,full,True,CHEMBL81,RALOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+2OCF,EST,agonist,chembl_mechanism,False,10.1073/pnas.032665299,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,1,mmcif_citation_primary
+2OUZ,C3D,SERM,chembl_mechanism,False,10.1110/ps.062729207,full,True,CHEMBL328190,LASOFOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,1,mmcif_citation_primary
+2P15,EZT,unlabelled,none,False,10.1038/sj.embor.7400963,full,True,CHEMBL219585,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+2POG,WST,unlabelled,none,False,10.1016/j.bmcl.2007.04.051,connectivity_only,False,CHEMBL234638,,unlabelled,unlabelled,False,no_pattern_match,,,2,mmcif_citation_primary
+2Q6J,A48,unlabelled,none,False,10.1016/j.chembiol.2007.04.009,full,True,CHEMBL1230722,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+2Q70,DC8,unlabelled,none,False,10.1016/j.bmcl.2007.06.052,full,True,CHEMBL236718,,unlabelled,unlabelled,False,no_pattern_match,,,2,mmcif_citation_primary
+2QA6,KN2,unlabelled,none,False,10.1038/nchembio.76,full,True,CHEMBL223026,,unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,2,mmcif_citation_primary
+2QA8,GEN,unlabelled,none,False,10.1038/nchembio.76,full,True,CHEMBL44,GENISTEIN,unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,2,mmcif_citation_primary
+2QAB,EI1,unlabelled,none,False,10.1038/nchembio.76,full,True,CHEMBL180517,,unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,2,mmcif_citation_primary
+2QE4,JJ3,unlabelled,none,False,10.1016/j.bmcl.2007.07.009,full,True,CHEMBL236086,,unlabelled,unlabelled,False,no_pattern_match,,,2,mmcif_citation_primary
+2QGT,EED,unlabelled,none,False,10.1038/nchembio.76,connectivity_only,False,CHEMBL1627700,,unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,2,mmcif_citation_primary
+2QGW,EES,unlabelled,none,False,10.1038/nchembio.76,full,True,CHEMBL180071,,unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,2,mmcif_citation_primary
+2QH6,ODE,unlabelled,none,False,10.1038/nchembio.76,connectivity_only,False,CHEMBL388318,,unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,2,mmcif_citation_primary
+2QR9,HZ3,unlabelled,none,False,10.1038/nchembio.76,full,True,CHEMBL1213270,,unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,2,mmcif_citation_primary
+2QSE,1HP,unlabelled,none,False,10.1038/nchembio.76,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+2QXM,PIQ,unlabelled,none,False,10.1038/nchembio.76,full,True,CHEMBL1213271,"2-AMINO-1-METHYL-6- PHENYLIMIDAZO[4,5- B]PYRIDINE",unlabelled,unlabelled,False,ligand_has_no_esr1_activity_in_document,,,2,mmcif_citation_primary
+2QXS,RAL,SERM,chembl_mechanism,False,10.1038/nchembio.451,full,True,CHEMBL81,RALOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+2QZO,KN1,unlabelled,none,False,10.1038/nchembio.451,full,True,CHEMBL222501,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+2R6W,LLB,unlabelled,none,False,10.1073/pnas.0710802105,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+2R6Y,LLC,unlabelled,none,False,10.1073/pnas.0710802105,full,True,CHEMBL10030,LY-117018,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+2YAT,EEU,unlabelled,none,False,10.1021/JM200192Y,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+2YJA,EST,agonist,chembl_mechanism,False,10.1021/JA202946K,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,1,mmcif_citation_primary
+3DT3,369,unlabelled,none,False,10.1016/j.bmcl.2008.07.121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+3ERD,DES,agonist,chembl_mechanism,False,10.1016/S0092-8674(00)81717-1,full,True,CHEMBL411,DIETHYLSTILBESTROL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+3ERT,OHT,SERM,chembl_mechanism,False,10.1016/S0092-8674(00)81717-1,full,True,CHEMBL489,AFIMOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,1,mmcif_citation_primary
+3HLV,J2Z,unlabelled,none,False,,full,True,CHEMBL1233720,,unlabelled,unlabelled,False,no_doi,,,2,none
+3HM1,J3Z,agonist,chembl_mechanism,False,,full,True,CHEMBL1405,ESTRONE,agonist,unlabelled,False,no_doi,AGONIST,Estrogen receptor alpha agonist,2,none
+3L03,4OH,agonist,chembl_mechanism,False,,full,True,CHEMBL1230314,ESTETROL ANHYDROUS,agonist,unlabelled,False,no_doi,AGONIST,Estrogen receptor agonist,2,none
+3OS8,KN0,unlabelled,none,False,10.1038/nchembio.451,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+3OS9,KN1,unlabelled,none,False,10.1038/nchembio.451,full,True,CHEMBL222501,,unlabelled,unlabelled,False,doi_not_in_chembl,,,4,mmcif_citation_primary
+3OSA,KN3,unlabelled,none,False,10.1038/nchembio.451,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+3Q95,ESL,SERM,chembl_mechanism,False,,full,True,CHEMBL193482,ESTRIOL,SERM,unlabelled,False,no_doi,MODULATOR,Estrogen receptor modulator,2,none
+3UU7,2OH,unlabelled,none,False,10.1073/pnas.1203574109,full,True,CHEMBL418971,BISPHENOL A,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+3UUA,0CZ,unlabelled,none,False,10.1073/pnas.1203574109,full,True,CHEMBL1900054,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+3UUC,0D1,unlabelled,none,False,10.1073/pnas.1203574109,full,True,CHEMBL592305,,unlabelled,unlabelled,False,doi_not_in_chembl,,,4,mmcif_citation_primary
+3UUD,EST,agonist,chembl_mechanism,False,10.1073/pnas.1203574109,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+4DMA,0L8,unlabelled,none,False,10.1073/pnas.1118192109,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IU7,1GM,unlabelled,none,False,10.1038/nchembio.1214,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IUI,1GQ,unlabelled,none,False,10.1038/nchembio.1214,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IV2,1GR,unlabelled,none,False,10.1038/nchembio.1214,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IV4,1GS,unlabelled,none,False,10.1038/nchembio.1214,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IVW,1GJ,unlabelled,none,False,10.1038/nchembio.1214,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IVY,1GT,unlabelled,none,False,10.1038/nchembio.1214,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IW6,1GU,unlabelled,none,False,10.1038/nchembio.1214,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IW8,KN3,unlabelled,none,False,10.1038/nchembio.1214,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4IWC,1GV,unlabelled,none,False,10.1038/nchembio.1214,full,True,CHEMBL2332602,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4IWF,15Q,unlabelled,none,False,10.1038/nchembio.1214,full,True,CHEMBL1782958,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4MG5,A1AQV,unlabelled,none,False,10.1289/ehp.1408453,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4MG6,27G,unlabelled,none,False,10.1289/ehp.1408453,full,True,CHEMBL1450327,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4MG7,27H,unlabelled,none,False,10.1289/ehp.1408453,full,True,CHEMBL465040,FERUTININ,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4MG8,27J,unlabelled,none,False,10.1289/ehp.1408453,full,True,CHEMBL450613,ZERANOL,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4MG9,27K,unlabelled,none,False,10.1289/ehp.1408453,full,True,CHEMBL459008,BUTYLPARABEN,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4MGA,27L,unlabelled,none,False,10.1289/ehp.1408453,full,True,CHEMBL259327,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4MGB,XDH,unlabelled,none,False,10.1289/ehp.1408453,full,True,CHEMBL1738928,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4MGC,27M,unlabelled,none,False,10.1289/ehp.1408453,full,True,CHEMBL3185091,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4MGD,27N,unlabelled,none,False,10.1289/ehp.1408453,full,True,CHEMBL196585,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4PP6,STL,unlabelled,none,False,10.7554/eLife.02057,full,True,CHEMBL165,RESVERATROL,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4PPP,FSV,unlabelled,none,False,10.7554/eLife.02057,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4PPS,ESE,unlabelled,none,False,10.7554/eLife.02057,full,True,CHEMBL1651152,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4PXM,EST,agonist,chembl_mechanism,False,10.7554/eLife.12792,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+4Q50,OHT,SERM,chembl_mechanism,False,10.7554/eLife.12792,full,True,CHEMBL489,AFIMOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,8,mmcif_citation_primary
+4TUZ,36J,unlabelled,none,False,10.1038/aps.2014.133,full,True,CHEMBL371463,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4TV1,36M,unlabelled,none,False,10.1038/aps.2014.133,full,True,CHEMBL194014,PROPYLPARABEN,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+4XI3,29S,SERM,chembl_mechanism,False,10.7554/eLife.37161,full,True,CHEMBL46740,BAZEDOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,4,mmcif_citation_primary
+4ZN7,DES,agonist,chembl_mechanism,False,10.15252/msb.20156701,full,True,CHEMBL411,DIETHYLSTILBESTROL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+4ZN9,OBH,unlabelled,none,False,10.1002/cmdc.201200048,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4ZNH,OBC,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4ZNS,OFB,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4ZNT,OBB,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4ZNU,4Q9,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4ZNV,4Q7,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+4ZNW,OBM,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5AAU,XBR,unlabelled,none,False,10.1021/ACS.JMEDCHEM.5B00984,connectivity_only,False,CHEMBL3622993,,unlabelled,unlabelled,False,no_activity_with_pchembl_ge6,,,2,mmcif_citation_primary
+5AAV,GW5,unlabelled,none,False,10.1021/ACS.JMEDCHEM.5B00984,full,True,CHEMBL33899,,unlabelled,unlabelled,False,no_pattern_match,,,2,mmcif_citation_primary
+5ACC,KE9,unlabelled,none,False,10.1021/ACS.JMEDCHEM.5B00984,full,True,CHEMBL3623004,AZD-9496,unlabelled,antagonist,False,pattern_match,,,1,mmcif_citation_primary
+5AK2,85Z,unlabelled,none,False,10.1021/ACS.JMEDCHEM.5B00066,full,True,CHEMBL3427397,,unlabelled,unlabelled,False,no_pattern_match,,,2,mmcif_citation_primary
+5DI7,5CQ,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL1650940,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DID,5CK,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL1651143,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DIE,5CJ,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL1651145,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DIG,5CE,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL1650941,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DK9,5CC,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DKB,5C9,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DKE,5C8,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DKG,5C7,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DKS,5C6,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DL4,5C4,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DLR,5DJ,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL415864,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DMC,5DH,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL65053,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DMF,5DG,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DP0,5ES,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DRJ,5EU,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL2332577,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DRM,5ET,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL2332594,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DTV,5FS,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DU5,5G2,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DUE,5FY,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL2031528,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DUG,5FV,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL2031518,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DUH,5FT,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL2031530,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DVS,5G7,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL3234614,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DVV,5G6,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL3234612,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DWE,5G5,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL3234617,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DWG,5G4,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL3234627,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DWI,5G3,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL3234630,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DWJ,5J2,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL3234634,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DX3,EST,agonist,chembl_mechanism,False,10.1002/anie.201510557,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+5DXB,EST,agonist,chembl_mechanism,False,10.1002/anie.201510557,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+5DXE,EST,agonist,chembl_mechanism,False,10.1002/anie.201510557,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+5DXG,EST,agonist,chembl_mechanism,False,10.1002/anie.201510557,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+5DXK,5J1,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL40512,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DXM,5J0,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL295420,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DXP,5HX,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL296018,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DXQ,5HZ,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL41128,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DXR,5HW,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DY8,5K4,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DYB,5K2,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DYD,5K1,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5DZ0,5K0,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL205939,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DZ1,5JY,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL204739,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DZ3,5JX,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL205375,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DZH,5KG,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL205232,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5DZI,5KF,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL205779,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5E0W,5KE,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5E0X,5KD,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5E14,5KB,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5E15,5KA,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL206282,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5E19,5K7,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL207728,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5E1C,5K8,unlabelled,none,False,10.15252/msb.20156701,connectivity_only,False,CHEMBL203391,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5EGV,5OS,unlabelled,none,False,10.15252/msb.20156701,full,True,CHEMBL2332590,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5EHJ,5K5,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5EI1,5OR,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5EIT,5P1,unlabelled,none,False,10.15252/msb.20156701,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5FQP,GQD,unlabelled,none,False,10.1021/ACSMEDCHEMLETT.5B00413,full,True,CHEMBL3775378,,unlabelled,SERD,False,pattern_match,,,1,mmcif_citation_primary
+5FQR,QHG,unlabelled,none,False,10.1021/ACSMEDCHEMLETT.5B00413,full,True,CHEMBL3775824,,unlabelled,SERD,False,pattern_match,,,1,mmcif_citation_primary
+5FQS,J0W,unlabelled,none,False,10.1021/ACSMEDCHEMLETT.5B00413,full,True,CHEMBL3774494,,unlabelled,SERD,False,pattern_match,,,1,mmcif_citation_primary
+5FQT,7QN,unlabelled,none,False,10.1021/ACSMEDCHEMLETT.5B00413,full,True,CHEMBL3774774,,unlabelled,SERD,False,pattern_match,,,1,mmcif_citation_primary
+5FQV,VQI,unlabelled,none,False,10.1021/ACSMEDCHEMLETT.5B00413,full,True,CHEMBL3775060,,unlabelled,SERD,False,pattern_match,,,1,mmcif_citation_primary
+5GS4,EST,agonist,chembl_mechanism,False,10.1021/acs.jmedchem.7b00732,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,ligand_has_no_esr1_activity_in_document,AGONIST,Estrogen receptor alpha agonist,1,mmcif_citation_primary
+5GTR,EST,agonist,chembl_mechanism,False,10.1021/acs.jmedchem.7b00732,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,ligand_has_no_esr1_activity_in_document,AGONIST,Estrogen receptor alpha agonist,1,mmcif_citation_primary
+5HYR,EST,agonist,chembl_mechanism,False,10.1002/anie.201510557,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+5JMM,QSO,unlabelled,none,False,,full,True,CHEMBL131921,BIOCHANIN,unlabelled,unlabelled,False,no_doi,,,2,none
+5KCC,OB1,unlabelled,none,False,10.1038/nchembio.2236,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5KCD,OB2,unlabelled,none,False,10.1038/nchembio.2236,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5KCE,OB3,unlabelled,none,False,10.1038/nchembio.2236,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5KCF,OB4,unlabelled,none,False,10.1038/nchembio.2236,connectivity_only,False,CHEMBL5406865,,unlabelled,unlabelled,False,doi_not_in_chembl,,,1,mmcif_citation_primary
+5KCF,OB5,unlabelled,none,False,10.1038/nchembio.2236,connectivity_only,False,CHEMBL5406865,,unlabelled,unlabelled,False,doi_not_in_chembl,,,1,mmcif_citation_primary
+5KCT,OB6,unlabelled,none,False,10.1038/nchembio.2236,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+5KCT,OB7,unlabelled,none,False,10.1038/nchembio.2236,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+5KCU,OB8,unlabelled,none,False,10.1038/nchembio.2236,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5KCW,OB9,unlabelled,none,False,10.1038/nchembio.2236,connectivity_only,False,CHEMBL4849015,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KD9,OBT,unlabelled,none,False,10.1038/nchembio.2236,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5KR9,CUE,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL30707,COUMESTROL,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KRA,6WS,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL363207,DICHLORODIPHENYLDICHLOROETHYLENE,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KRA,6WT,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL416898,CHLOROPHENOTHANE,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KRC,ZER,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL454173,ZEARALENONE,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KRF,6WL,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5KRH,6WN,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL1628056,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KRI,6WM,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL270250,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KRJ,6WP,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,connectivity_only,False,CHEMBL4798153,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KRK,6WQ,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5KRL,6WR,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5KRM,6WU,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL3318248,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5KRO,6WW,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5T1Z,Q97,unlabelled,none,False,10.1124/mol.117.111385,full,True,CHEMBL1091658,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5T92,77W,unlabelled,none,False,10.1021/acs.jmedchem.6b01468,connectivity_only,False,CHEMBL4063001,,unlabelled,SERD,False,pattern_match,,,1,mmcif_citation_primary
+5T97,782,unlabelled,none,False,10.1021/acs.jmedchem.6b01468,full,True,CHEMBL4063838,,unlabelled,antagonist,False,pattern_match,,,1,mmcif_citation_primary
+5TLD,6WV,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TLF,7EF,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TLG,7EG,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL1782956,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TLL,7EL,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL405154,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TLM,7EM,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL2332580,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TLO,7EE,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL603966,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TLP,7EH,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+5TLP,7ET,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+5TLT,7ED,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TLU,7EE,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL603966,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TLV,7ES,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL2332572,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TLX,7EH,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TLX,7G5,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TLY,7ER,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM1,7EQ,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM2,7EO,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM3,7EN,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM4,7E3,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM5,7EV,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM6,7J9,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM7,7JY,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM8,7K6,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TM9,7KL,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TML,7E1,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMM,7M4,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMO,7M1,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMQ,7M7,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMR,7FD,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMS,7FG,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMT,7FJ,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMU,7FL,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL154947,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TMV,7FO,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMW,7FP,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TMZ,7FQ,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TN1,7FR,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TN3,7FS,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TN4,7FZ,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5TN5,7G0,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL460833,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TN6,7G1,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL2029656,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TN7,7G2,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,full,True,CHEMBL475278,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TN8,7G3,unlabelled,none,False,10.1016/j.chembiol.2016.11.014,connectivity_only,False,CHEMBL480420,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5TN9,7EC,unlabelled,none,False,10.1021/acschembio.6b00918,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+5TNB,7EB,unlabelled,none,False,10.1021/acschembio.6b00918,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+5U2B,6WV,unlabelled,none,False,10.1016/j.molcel.2017.02.008,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,6,mmcif_citation_primary
+5U2D,OBH,unlabelled,none,False,10.1016/j.molcel.2017.02.008,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+5UFW,86V,unlabelled,none,False,10.1038/s41467-018-04413-3,connectivity_only,False,CHEMBL5280976,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5UFX,86Y,unlabelled,none,False,10.1038/s41467-018-04413-3,full,True,CHEMBL5280976,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5W9C,OHT,SERM,chembl_mechanism,False,10.1124/mol.117.111385,full,True,CHEMBL489,AFIMOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,4,mmcif_citation_primary
+5W9D,9XY,unlabelled,none,False,10.1124/mol.117.111385,full,True,CHEMBL1093458,ENDOXIFEN,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+5WGD,EST,agonist,chembl_mechanism,False,10.1039/c8ob00790j,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+5WGQ,EST,agonist,chembl_mechanism,False,10.1039/c8ob00790j,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+6B0F,C6V,unlabelled,none,False,10.1021/acs.jmedchem.7b01682,full,True,CHEMBL4076124,LSZ-102,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+6C42,85M,unlabelled,none,False,10.1038/s41467-018-04413-3,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+6CBZ,EST,agonist,chembl_mechanism,False,10.1124/mol.117.111385,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+6CHW,F3D,unlabelled,none,False,10.1158/2159-8290.CD-17-1229,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+6CHZ,F3D,unlabelled,none,False,10.1158/2159-8290.CD-17-1229,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+6CZN,FNJ,unlabelled,none,False,,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,none
+6D0F,FYS,unlabelled,none,False,,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,none
+6DF6,G8Y,unlabelled,none,False,10.1016/j.bmcl.2019.01.036,full,True,CHEMBL4464058,,unlabelled,SERD,False,pattern_match,,,4,mmcif_citation_primary
+6DFN,G91,unlabelled,none,False,10.1016/j.bmcl.2019.01.036,full,True,CHEMBL4437985,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+6DFN,G9J,unlabelled,none,False,10.1016/j.bmcl.2019.01.036,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+6IAR,H8W,unlabelled,none,False,10.1021/acs.jmedchem.8b01837,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+6OWC,ND1,unlabelled,none,False,,connectivity_only,False,CHEMBL5425361,H3B-6545 FREE BASE,unlabelled,unlabelled,False,no_doi,,,2,none
+6PET,G9J,unlabelled,none,False,10.1016/j.bmcl.2019.07.013,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+6PET,ODY,unlabelled,none,False,10.1016/j.bmcl.2019.07.013,full,True,CHEMBL4455953,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+6PFM,OGJ,unlabelled,none,False,10.1016/j.bmcl.2019.07.013,full,True,CHEMBL4447340,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+6PIT,EST,agonist,chembl_mechanism,False,10.1021/jacs.9b07578,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+6PSJ,29S,SERM,chembl_mechanism,False,10.7554/eLife.72512,full,True,CHEMBL46740,BAZEDOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+6SBO,L5B,SERD,chembl_mechanism,False,10.1021/acs.jmedchem.9b01293,full,True,CHEMBL4475463,AMCENESTRANT,SERD,SERD,False,pattern_match,DEGRADER,Estrogen receptor alpha degrader,2,mmcif_citation_primary
+6SQ0,LRQ,unlabelled,none,False,10.1021/acsmedchemlett.9b00370,full,True,CHEMBL4452972,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+6SUO,LVH,unlabelled,none,False,10.1021/acsmedchemlett.9b00370,full,True,CHEMBL4447306,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+6V87,OHT,SERM,chembl_mechanism,False,,full,True,CHEMBL489,AFIMOXIFENE,SERM,unlabelled,False,no_doi,MODULATOR,Estrogen receptor modulator,2,none
+6V8T,C6V,unlabelled,none,False,10.7554/eLife.72512,full,True,CHEMBL4076124,LSZ-102,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+6VGH,C3D,SERM,chembl_mechanism,False,,full,True,CHEMBL328190,LASOFOXIFENE,SERM,unlabelled,False,no_doi,MODULATOR,Estrogen receptor modulator,2,none
+6VJD,C3D,SERM,chembl_mechanism,False,,full,True,CHEMBL328190,LASOFOXIFENE,SERM,unlabelled,False,no_doi,MODULATOR,Estrogen receptor modulator,4,none
+6VPF,53Q,SERM,chembl_mechanism,False,10.7554/eLife.72512,full,True,CHEMBL954,ENCLOMIPHENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor alpha modulator,4,mmcif_citation_primary
+6WOK,G9J,unlabelled,none,False,10.1021/acsmedchemlett.0c00224,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+6WOK,U6D,unlabelled,none,False,10.1021/acsmedchemlett.0c00224,full,True,CHEMBL4528514,,unlabelled,SERD,False,pattern_match,,,3,mmcif_citation_primary
+6ZOQ,QNE,unlabelled,none,False,10.1021/acs.jmedchem.0c01163,full,True,CHEMBL4742862,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+6ZOR,QNH,unlabelled,none,False,10.1021/acs.jmedchem.0c01163,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+6ZOS,QNK,unlabelled,none,False,10.1021/acs.jmedchem.0c01163,full,True,CHEMBL4759607,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+7JHD,V9J,unlabelled,none,False,10.1158/1535-7163.MCT-20-0563,full,True,CHEMBL3763743,TTC-352,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+7KBS,RAL,SERM,chembl_mechanism,False,10.7554/eLife.72512,full,True,CHEMBL81,RALOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+7MSA,G9J,unlabelled,none,False,10.1021/acs.jmedchem.1c00847,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+7MSA,ZNM,SERD,chembl_mechanism,False,10.1021/acs.jmedchem.1c00847,full,True,CHEMBL4650316,GIREDESTRANT,SERD,antagonist,False,pattern_match,DEGRADER,Estrogen receptor alpha degrader,2,mmcif_citation_primary
+7N9O,5YR,unlabelled,none,False,,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,none
+7NDO,RAL,SERM,chembl_mechanism,False,10.1038/s41598-021-89785-1,full,True,CHEMBL81,RALOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+7NEL,EST,agonist,chembl_mechanism,False,10.1038/s41598-021-89785-1,full,True,CHEMBL135,ESTRADIOL,agonist,unlabelled,False,doi_not_in_chembl,AGONIST,Estrogen receptor alpha agonist,2,mmcif_citation_primary
+7NFB,GEN,unlabelled,none,False,10.1038/s41598-021-89785-1,full,True,CHEMBL44,GENISTEIN,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+7QVJ,H09,unlabelled,none,False,10.1021/acs.jmedchem.2c01964,full,True,CHEMBL5400637,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+7QVL,GZI,unlabelled,none,False,10.1021/acs.jmedchem.2c01964,full,True,CHEMBL5426983,,unlabelled,SERD,False,pattern_match,,,2,mmcif_citation_primary
+7R62,3YJ,unlabelled,none,False,,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,none
+7RKE,5VP,unlabelled,none,False,10.1021/acsmedchemlett.2c00180,full,True,CHEMBL5173390,,unlabelled,agonist,False,pattern_match,,,2,mmcif_citation_primary
+7RNM,61Z,unlabelled,none,False,10.1002/hlca.202300097,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+7RRX,7AI,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RRY,L84,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RRZ,77I,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RS0,7I9,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RS1,7Q5,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RS2,7I5,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RS3,7OR,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RS4,7I0,SERD,chembl_mechanism,False,10.1073/pnas.2101657118,full,True,CHEMBL3581693,BRILANESTRANT,SERD,unlabelled,False,doi_not_in_chembl,DEGRADER,Estrogen receptor degrader,4,mmcif_citation_primary
+7RS7,73I,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RS8,7EI,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7RS9,7OI,unlabelled,none,False,10.1073/pnas.2101657118,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7SFO,98L,unlabelled,none,False,,full,True,CHEMBL5184474,,unlabelled,unlabelled,False,no_doi,,,2,none
+7T2X,EMY,unlabelled,none,False,10.1021/acsmedchemlett.2c00180,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+7TE7,I0V,SERD,chembl_mechanism,False,10.1038/s41523-022-00497-9,full,True,CHEMBL4297509,ELACESTRANT,SERD,unlabelled,False,doi_not_in_chembl,DEGRADER,Estrogen receptor alpha degrader,1,mmcif_citation_primary
+7UJ7,NYU,unlabelled,none,False,10.7554/eLife.72512,full,True,CHEMBL1628190,,unlabelled,unlabelled,False,doi_not_in_chembl,,,4,mmcif_citation_primary
+7UJ8,OHT,SERM,chembl_mechanism,False,10.7554/eLife.72512,full,True,CHEMBL489,AFIMOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+7UJC,RAL,SERM,chembl_mechanism,False,10.7554/eLife.72512,full,True,CHEMBL81,RALOXIFENE,SERM,unlabelled,False,doi_not_in_chembl,MODULATOR,Estrogen receptor modulator,2,mmcif_citation_primary
+7UJF,R3V,unlabelled,none,False,10.7554/eLife.72512,connectivity_only,False,CHEMBL437695,,unlabelled,unlabelled,False,doi_not_in_chembl,,,4,mmcif_citation_primary
+7UJM,RL4,unlabelled,none,False,10.7554/eLife.72512,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7UJO,QYM,unlabelled,none,False,10.7554/eLife.72512,connectivity_only,False,CHEMBL1628190,,unlabelled,unlabelled,False,doi_not_in_chembl,,,4,mmcif_citation_primary
+7UJW,R3V,unlabelled,none,False,10.7554/eLife.72512,connectivity_only,False,CHEMBL437695,,unlabelled,unlabelled,False,doi_not_in_chembl,,,4,mmcif_citation_primary
+7UJY,RL4,unlabelled,none,False,10.7554/eLife.72512,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7WNV,2I9,unlabelled,none,False,10.1016/j.bioorg.2023.106919,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+7Y8F,IC7,unlabelled,none,False,10.1016/j.ejmech.2023.115328,connectivity_only,False,CHEMBL5405944,,unlabelled,antagonist,False,pattern_match,,,1,mmcif_citation_primary
+7Y8G,IAT,unlabelled,none,False,10.1016/j.ejmech.2023.115328,connectivity_only,False,CHEMBL5394546,,unlabelled,unlabelled,False,no_pattern_match,,,2,mmcif_citation_primary
+7YMK,IX0,unlabelled,none,False,10.1016/j.apsb.2023.05.005,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+8DU6,TQF,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DU8,TS7,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DU9,TT5,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DUB,TTU,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DUC,TU9,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+8DUD,TV3,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+8DUG,TVF,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DUH,TVL,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DUI,TVX,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DUK,TW6,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+8DUS,TWF,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,6,mmcif_citation_primary
+8DV5,TX9,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DV7,TXK,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DV8,TZ3,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8DVB,TZI,unlabelled,none,False,10.1038/s41523-022-00497-9,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8EV1,WVR,unlabelled,none,False,10.1016/j.ejmech.2022.115011,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+8EV1,WVW,unlabelled,none,False,10.1016/j.ejmech.2022.115011,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8EV2,LYQ,unlabelled,none,False,10.1016/j.ejmech.2022.115011,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8EV2,WVE,unlabelled,none,False,10.1016/j.ejmech.2022.115011,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+8VV1,A1AEA,unlabelled,none,False,10.1021/acsomega.4c11023,full,True,CHEMBL5314475,PALAZESTRANT,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+8VYT,A1AHV,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+8VYX,A1AHU,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+8VZ0,A1AHO,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+8VZ1,A1AHS,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+8VZP,A1AHW,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+8VZQ,A1AHX,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+8W03,OBT,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+8W07,A1AHY,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+8W07,A1AHZ,unlabelled,none,False,10.1073/pnas.2321344121,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,3,mmcif_citation_primary
+9B25,A1AIZ,unlabelled,none,False,,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,none
+9B2B,A1AI0,unlabelled,none,False,10.1021/acsmedchemlett.5c00667,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,4,mmcif_citation_primary
+9BPX,A1BV9,unlabelled,none,False,10.1186/s13058-024-01945-z,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+9BPX,TZI,unlabelled,none,False,10.1186/s13058-024-01945-z,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,mmcif_citation_primary
+9BQE,TV3,unlabelled,none,False,10.1186/s13058-024-01945-z,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+9BU1,A1ASN,unlabelled,none,False,10.1186/s13058-024-01945-z,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+9EBG,B81,unlabelled,none,False,,full,True,CHEMBL440283,ANDROSTENEDIOL,unlabelled,unlabelled,False,no_doi,,,2,none
+9ECK,A1BHJ,unlabelled,none,False,,connectivity_only,False,CHEMBL5396619,,unlabelled,unlabelled,False,no_doi,,,4,none
+9VT5,A1ETI,unlabelled,none,False,,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,none
+9VTU,A1ETN,unlabelled,none,False,,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,1,none
+9W11,ZHB,unlabelled,none,False,10.1016/j.foodchem.2026.148697,full,True,CHEMBL372840,,unlabelled,unlabelled,False,doi_not_in_chembl,,,2,mmcif_citation_primary
+9W12,A1ET8,unlabelled,none,False,10.1016/j.foodchem.2026.148697,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+9W13,A1ET9,unlabelled,none,False,10.1016/j.foodchem.2026.148697,no_chembl,True,,,unlabelled,unlabelled,False,no_chembl_parent,,,2,mmcif_citation_primary
+9WB2,A1EVS,unlabelled,none,False,,full,True,CHEMBL495708,,unlabelled,unlabelled,False,no_doi,,,2,none

@@ -52,3 +52,9 @@ If too zoom in, we will see smth
 Future work : you define the range of the helix, extension decrease of the helix tells about stability, define com center of mass virtual point for every helix , pairwise distanse, com for every protein , you see how this point is moving, combine movement (which parts are moving) which feature (rank) connected to which part (no superimposing needed)
 Dana: Look at outliers, action type (even if partially) sample of structures. Agonist antagonist prove, api from chembl uncurated
 ```
+
+## Meeting notes received 2026-11-26
+
+```
+Steroidal, non-steroidal clustering. Steroidal should be antagonists.
+```

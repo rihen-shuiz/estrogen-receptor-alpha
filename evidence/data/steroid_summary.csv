@@ -1,0 +1,5 @@
+level,steroid,n,agonist,partial_agonist,antagonist,cl7,cl4,minor,multiple,antagonist_odds_ratio_steroid,antagonist_fisher_p
+unique_ligands,False,222,62,70,90,140,79,2,1,0.29333333333333333,0.04800711897366016
+unique_ligands,True,18,11,4,3,15,3,0,0,0.29333333333333333,0.04800711897366016
+pairs_core3,False,249,65,72,112,145,99,2,3,0.09409340659340659,7.494448573957418e-07
+pairs_core3,True,42,33,6,3,37,4,1,0,0.09409340659340659,7.494448573957418e-07

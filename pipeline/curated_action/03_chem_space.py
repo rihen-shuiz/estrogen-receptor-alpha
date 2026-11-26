@@ -1,4 +1,5 @@
-"""Stage 12.3 - Chemical space (RDKit ECFP4 & MACCS), Tanimoto matrices, clustering stability, structural overlay, and discordant close pairs."""
+"""Stage 12.3 - Chemical space (RDKit ECFP4 & MACCS), Tanimoto matrices, clustering stability, steroid flag, UMAP and
+K-means of the fingerprints, structural overlay, and discordant close pairs."""
 from __future__ import annotations
 
 import sys
@@ -6,16 +7,21 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from rdkit import Chem, DataStructs
+from rdkit import Chem, DataStructs, RDLogger
 from rdkit.Chem import AllChem, MACCSkeys
 from scipy.cluster.hierarchy import fcluster, linkage
 from scipy.spatial.distance import squareform
-from scipy.stats import chi2_contingency
+from scipy.stats import chi2_contingency, fisher_exact
+from sklearn.cluster import KMeans
 from sklearn.manifold import MDS
-from sklearn.metrics import adjusted_rand_score
+from sklearn.metrics import adjusted_rand_score, silhouette_score
+from umap import UMAP
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common_curated as cc  # noqa: E402
+
+RDLogger.DisableLog("rdApp.*")  # the old Morgan call prints a deprecation line per ligand
+STEROID = Chem.MolFromSmarts("[#6]1~[#6]~[#6]~[#6]2~[#6](~[#6]~1)~[#6]~[#6]~[#6]1~[#6]~2~[#6]~[#6]~[#6]2~[#6]~[#6]~[#6]~[#6]~1~2")
 
 
 def tanimoto_matrix(fps) -> np.ndarray:
@@ -150,11 +156,27 @@ def main():
     xy = mds.fit_transform(dist_ecfp4)
     lig_df["mds_x"] = xy[:, 0]
     lig_df["mds_y"] = xy[:, 1]
+
+    # Steroid nucleus: four fused rings (6-6-6-5) of carbon, any bond order or aromaticity
+    lig_df["steroid"] = [Chem.MolFromSmiles(smi).HasSubstructMatch(STEROID) for smi in lig_df["smiles_stereo"]]
+    # UMAP of the ECFP4 bits (Jaccard distance = 1 - Tanimoto) and K-means on the bits, K = 3-7
+    bits = np.array([list(fp) for fp in ecfp4_fps], dtype=bool)
+    xy_u = UMAP(n_components=2, metric="jaccard", n_neighbors=15, min_dist=0.3, random_state=cc.SEED).fit_transform(bits)
+    lig_df["umap_x"], lig_df["umap_y"] = xy_u[:, 0], xy_u[:, 1]
+    km_rows = []
+    for k in range(3, 8):
+        lab = KMeans(n_clusters=k, random_state=cc.SEED, n_init=10).fit_predict(bits)
+        lig_df[f"kmeans_{k}"] = lab
+        km_rows.append({"k": k, "silhouette_tanimoto": float(silhouette_score(dist_ecfp4, lab, metric="precomputed")),
+                        "ari_vs_cl_ecfp4_0p6": float(adjusted_rand_score(lig_df["cl_ecfp4_0p6"], lab)),
+                        "steroids_in_one_cluster": int(pd.Series(lab[lig_df["steroid"].to_numpy()]).value_counts().iloc[0])})
+    km_df = pd.DataFrame(km_rows)
+    km_df.to_csv(cc.TABLES_DIR / "chem_kmeans_scan.csv", index=False)
     lig_df.to_csv(cc.TABLES_DIR / "chem_ligands_order.csv", index=False)
 
     # Merge primary chemical cluster (cl_ecfp4_0p6) back to pair level for contingency & association tests
     primary_cl_col = "cl_ecfp4_0p6"
-    pairs_chem = core3.merge(lig_df[["lig_norm", primary_cl_col, "cl_ecfp4_0p5", "cl_maccs_0p4", "mds_x", "mds_y"]],
+    pairs_chem = core3.merge(lig_df[["lig_norm", primary_cl_col, "cl_ecfp4_0p5", "cl_maccs_0p4", "mds_x", "mds_y", "steroid"]],
                              on="lig_norm", how="left", validate="many_to_one")
     pairs_chem.to_csv(cc.TABLES_DIR / "pairs_core3_with_chem.csv", index=False)
 
@@ -213,6 +235,26 @@ def main():
     disc_df = pd.DataFrame(disc_rows).sort_values("tanimoto_ecfp4", ascending=False)
     disc_df.to_csv(cc.TABLES_DIR / "chem_discordant_pairs.csv", index=False)
 
+    # Steroidal vs non-steroidal ligands: action class and H12 position, at ligand and pair level
+    st_rows = []
+    for level, df_lvl, cls_col, grp_col in (("unique_ligands", lig_df, "action_class_majority", "h12_group_majority"),
+                                            ("pairs_core3", pairs_chem, "action_class", "h12_group_excl")):
+        for st, d in df_lvl.groupby("steroid"):
+            row = {"level": level, "steroid": bool(st), "n": int(len(d))}
+            row.update({c: int((d[cls_col] == c).sum()) for c in cc.CLASS_ORDER_CORE})
+            row.update({g: int((d[grp_col] == g).sum()) for g in ("cl7", "cl4", "minor", "multiple")})
+            st_rows.append(row)
+    st_df = pd.DataFrame(st_rows)
+    for level in st_df.level.unique():
+        d = st_df[st_df.level == level].set_index("steroid")
+        tab = [[d.loc[True, "antagonist"], d.loc[True, "n"] - d.loc[True, "antagonist"]],
+               [d.loc[False, "antagonist"], d.loc[False, "n"] - d.loc[False, "antagonist"]]]
+        odds, p_ant = fisher_exact(tab)
+        st_df.loc[st_df.level == level, "antagonist_odds_ratio_steroid"] = odds
+        st_df.loc[st_df.level == level, "antagonist_fisher_p"] = p_ant
+    st_df.to_csv(cc.TABLES_DIR / "steroid_summary.csv", index=False)
+    steroid_clusters = lig_df[lig_df["steroid"]]["cl_ecfp4_0p6"].value_counts()
+
     summary = {
         "core3_pairs": int(len(core3)),
         "smiles_found_pairs": n_smiles_found,
@@ -227,6 +269,11 @@ def main():
         "n_discordant_close_pairs_tc_ge_0p55": int(len(disc_df)),
         "top_discordant_pairs": disc_df.head(6).to_dict("records"),
         "associations": assoc_df.to_dict("records"),
+        "steroid_ligands": int(lig_df["steroid"].sum()),
+        "steroid_ligand_codes": sorted(lig_df.loc[lig_df["steroid"], "lig_norm"]),
+        "steroid_ecfp4_0p6_clusters": int(len(steroid_clusters)),
+        "steroids_in_largest_steroid_cluster": int(steroid_clusters.iloc[0]),
+        "kmeans_best_k_silhouette": int(km_df.loc[km_df["silhouette_tanimoto"].idxmax(), "k"]),
     }
     cc.write_json(cc.TABLES_DIR / "chem_space_summary.json", summary)
     print("=== Stage 12.3 Chemical Space Summary ===")

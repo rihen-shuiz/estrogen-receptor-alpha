@@ -2,10 +2,13 @@
 
 Inputs (data/esr2/): rmsd_esr2.npy + rmsd_esr2_index.txt (86 ESR2 chains from 39 entries, superposed and measured
 the same way as ESR1, ESR1 numbering), esr2_chain_table.csv (peptide per chain), rmsd_joint.npy + joint_index.csv
-(788 ESR1 + 86 ESR2 chains in one frame on the same reference).
+(788 ESR1 + 86 ESR2 chains in one frame on the same reference), esr1_esr2_displacement_profile.csv (per ESR1 position:
+median C-alpha distance over 135 matched ESR1/ESR2 chain pairs with the same ligand after a core fit, and the residue
+pair) with esr1_esr2_matched_pairs.csv.
 Method: average linkage at 1.5 A, as for ESR1; the main and second ESR2 groups; median joint RMSD between the ESR1
-groups and the ESR2 groups.
-Outputs (results/11_esr2/): esr2_groups.csv, joint_block_medians.csv, numbers.json.
+groups and the ESR2 groups; classical MDS of the joint matrix (the ESR1+ESR2 landscape); the pocket selectivity
+positions of Pike et al. 1999 (ESR1 L384 / ESR2 M336, ESR1 M421 / ESR2 I373) on the displacement profile.
+Outputs (results/11_esr2/): esr2_groups.csv, joint_block_medians.csv, joint_map.csv, numbers.json.
 """
 import sys
 from pathlib import Path
@@ -45,9 +48,30 @@ for (a, b), (la, lb) in blocks.items():
     rows.append(dict(group_a=a, group_b=b, median_rmsd_A=float(np.median(dj[np.ix_(lab_j == la, lab_j == lb)]))))
 bm = pd.DataFrame(rows)
 bm.to_csv(OUT / "joint_block_medians.csv", index=False)
+# classical MDS of the joint matrix: the shared ESR1 + ESR2 landscape
+n_j = len(dj)
+jc = np.eye(n_j) - 1.0 / n_j
+bmat = -0.5 * jc @ (dj ** 2) @ jc
+w, v = np.linalg.eigh(bmat)
+top = np.argsort(w)[::-1][:2]
+xy = v[:, top] * np.sqrt(w[top])
+xy *= np.sign(xy[np.abs(xy).argmax(axis=0), [0, 1]])  # fix the sign of each axis
+jm = ji.assign(mds1=xy[:, 0], mds2=xy[:, 1])
+jm.to_csv(OUT / "joint_map.csv", index=False)
+prof = c.read("esr2_displacement")
+full = prof[prof.n_pairs == prof.n_pairs.max()]
+sel = prof.set_index("esr1_position").loc[[384, 421]]
+
 c.write_numbers(OUT, {
     "esr2_chains": len(e2), "esr2_entries": int(e2.entry_id.nunique()), "group_sizes": sizes.to_dict(),
     "peptide_share_main": float(pep[main]), "peptide_share_second": float(pep[second]),
     "block_medians": {f"{r.group_a} - {r.group_b}": r.median_rmsd_A for r in bm.itertuples()},
+    "joint_mds_variance_share": float(w[top].sum() / w[w > 0].sum()),
+    "displacement_pairs": int(prof.n_pairs.max()), "displacement_positions": int(len(prof)),
+    "displacement_median_all_positions_A": float(full.median_displacement_A.median()),
+    "displacement_positions_over_1p5_A": int((full.median_displacement_A > 1.5).sum()),
+    "differing_residues_shared_positions": int((~full.same_residue.astype(bool)).sum()),
+    "selectivity_positions_A": {f"{r.esr1_aa}{i}/{r.esr2_aa}{int(r.esr2_position)}": float(r.median_displacement_A)
+                                for i, r in sel.iterrows()},
 })
 print(sizes.to_dict(), pep.to_dict(), bm, sep="\n")

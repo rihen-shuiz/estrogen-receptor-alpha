@@ -67,6 +67,8 @@ INPUTS = {
     "esr2_chains": "data/esr2/esr2_chain_table.csv",
     "rmsd_joint": "data/esr2/rmsd_joint.npy",
     "joint_index": "data/esr2/joint_index.csv",
+    "esr2_displacement": "data/esr2/esr1_esr2_displacement_profile.csv",
+    "esr2_matched_pairs": "data/esr2/esr1_esr2_matched_pairs.csv",
     # produced by stage 02
     "aligned": "results/02_lid_groups/aligned_ca.npz",
     "rmsd": "results/02_lid_groups/rmsd.npy",

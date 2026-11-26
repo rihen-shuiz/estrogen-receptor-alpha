@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ESR1 ligand-binding domain structures in the PDB: data provenance, methods, results and discussion</title>
+<style>
+  @page { size: A4; margin: 2.0cm 2.1cm 2.1cm 2.1cm;
+          @bottom-center { content: "ESR1 ligand-binding domain structures in the PDB · Page " counter(page) " of " counter(pages);
+                           font: 8pt Arial, Helvetica, sans-serif; color: #666; } }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 10.2pt; line-height: 1.42; color: #111; }
+  h1 { font-size: 20pt; line-height: 1.2; margin: 0 0 6pt; }
+  .meta { color: #444; font-size: 9.6pt; margin-bottom: 12pt; }
+  h2 { font-size: 14pt; margin: 18pt 0 6pt; }
+  h3 { font-size: 11.5pt; margin: 14pt 0 4pt; break-after: avoid; }
+  .file { break-after: avoid; }
+  .lab { font-weight: bold; }
+  p { margin: 0 0 6pt; }
+  ol, ul { margin: 0 0 7pt 18pt; padding: 0; }
+  li { margin-bottom: 3pt; }
+  a { color: #1a4f8b; text-decoration: none; }
+  code { font-family: Menlo, Consolas, monospace; font-size: 8.8pt; }
+  table { border-collapse: collapse; width: 100%; font-size: 9pt; margin: 4pt 0 8pt; }
+  th, td { border: 0.6pt solid #bbb; padding: 3pt 5pt; vertical-align: top; text-align: left; }
+  th { background: #f1f0ec; }
+  figure { margin: 6pt 0 8pt; break-inside: avoid; }
+  figure img { width: 100%; display: block; }
+  figure.half img { width: 76%; margin: 0 auto; }
+  figure.sq img { width: 62%; margin: 0 auto; }
+  .two { display: block; }
+  .two figure img { width: 90%; margin: 0 auto; }
+  .two figure.sq img { width: 62%; }
+  .file { color: #555; font-size: 9pt; margin: 0 0 4pt; }
+  .box { border-left: 3pt solid #2a78d6; padding: 2pt 0 2pt 8pt; margin: 4pt 0 8pt; }
+</style>
+</head>
+<body>
+
+<h1>ESR1 ligand-binding domain structures in the PDB: data provenance, methods, results and discussion</h1>
+<p class="meta">26 November 2026 · Yerzhan Takauov, Ayan Duisenbekov, Dana Koshkinbayeva, Ayaulym Bekenova ·
+Supervisor: Ferdinand Molnár, Department of Biology, Nazarbayev University<br>
+Repository: <a href="https://github.com/rihen-shuiz/estrogen-receptor-alpha">github.com/rihen-shuiz/estrogen-receptor-alpha</a>
+(branch <code>final</code>; <code>bash reproduce.sh</code> rebuilds every number and figure)</p>
+
+<h2>Summary</h2>
+<p>The PDB (queried in September 2026) holds 487 X-ray entries of oestrogen receptor α (ESR1, UniProt P03372). 444
+contain an ESR1 chain (901 chain models); 788 chains from 351 entries pass our ligand-binding-domain screen and form the
+working set. 39 ESR2 entries (86 chains) serve as a comparison.</p>
+<ul>
+<li><b>Conformations.</b> The chains fall into two compact groups set by the position of helix 12 (H12, the "lid"):
+cl7, H12 closed over the ligand pocket (445 chains), and cl4, H12 in the coactivator groove (329), plus 14 chains in five
+small groups. Chains differ by a median 0.67 Å inside cl7, 0.87 Å inside cl4 and 3.49 Å between them; residues 528–550
+carry 98.6% of the squared difference.</li>
+<li><b>Redundancy.</b> The set holds about two effective conformations (Hill number q1 = 2.19 counting chains, 2.11
+counting entries equally); two representatives with a complete H12 place 90% of all chains within 1.0 Å.</li>
+<li><b>Function.</b> With hand-labelled action classes, 95 of 98 agonist complexes have the closed lid and 88 of 115
+antagonist complexes the lid in the groove; partial agonists sit mostly with agonists. Inside one lid position the class
+moves H12 by at most 0.21 Å, below the 0.91 Å by which copies of one crystal differ. An antagonist side chain occupies
+the place of the closed H12 (1.2 Å from Leu540 in a superposition of 3ERT onto 3ERD).</li>
+<li><b>Chemistry.</b> Chemical clusters go with action class (Cramér's V 0.62) more than with lid position (0.46).
+Steroidal ligands sit together in chemical space and are mostly agonists (33 of 42 complexes).</li>
+<li><b>Quality and conditions.</b> Removing low-quality structures leaves the clusters unchanged (adjusted Rand index
+0.998 and 0.982). Peptide, construct and crystal form go with the groups; additives do not; lattice contacts go with how
+much of H12 is modelled.</li>
+<li><b>ESR2.</b> ESR2 shows the same two states; matched ESR1/ESR2 backbones agree to a median 0.53 Å, and the two pocket
+selectivity positions move only 0.25–0.28 Å.</li>
+</ul>
+<p class="box"><b>Caveats:</b> action class is confounded with crystal context (constructs and coactivator peptides are
+chosen to suit the ligand); part of the labels come from assay thresholds; the comparison uses C-alpha atoms only, so
+side-chain differences are not measured.</p>
+
+<h2>1. Data acquisition</h2>
+<p>All queries used the public RCSB PDB and ChEMBL services in September–November 2026; the results describe the archives
+on those dates.</p>
+<ol>
+<li><span class="lab">Entry search.</span> One RCSB Search API query per receptor: UniProt accession P03372 (ESR1) or
+Q92731 (ESR2) and experimental method X-ray diffraction. Result: 487 ESR1 and 39 ESR2 entries
+(<code>data/ids/pdb_ids_esr1.txt</code>, <code>pdb_ids_esr2.txt</code>).</li>
+<li><span class="lab">Coordinates.</span> mmCIF files from <code>files.rcsb.org</code>; file names, sizes and SHA-256 sums
+in <code>data/ids/download_manifest.csv</code> and <code>sha256sums.txt</code>. The files themselves are not stored in
+the repository; the deposited backbone atoms of the 788 chains are (<code>data/coordinates/backbone.npz</code>).</li>
+<li><span class="lab">Metadata per entry and chain.</span> Resolution, R-free, R-work, mean B-factor, space group, pH,
+temperature, release year, TLS refinement, construct mutations (numbering offsets from SIFTS), co-crystallised peptides,
+ligands (CCD codes) and crystallisation additives (<code>data/structures/entries.csv</code>,
+<code>chain_table.csv</code>, <code>additives_per_entry.csv</code>).</li>
+<li><span class="lab">Domain screen.</span> A chain is kept when it covers at least 180 positions of the ligand-binding
+domain and 60 positions of the alignment core. 901 chain models → 788 chains from 351 entries
+(<code>data/structures/attrition_funnel.csv</code>, <code>chain_status.csv</code> records every excluded chain and why).
+</li>
+<li><span class="lab">Ligands.</span> CCD codes, SMILES and InChIKeys from the RCSB chemical component dictionary; ChEMBL
+parent compounds and activities at CHEMBL206 (<code>data/ligands/ligand_ids.csv</code>,
+<code>affinity_per_ligand.csv</code>, <code>assay_spread.csv</code>).</li>
+<li><span class="lab">Action classes.</span> October: ChEMBL mechanism labels, available for 51 of 362 entry × ligand
+pairs (<code>data/ligands/action_class.csv</code>, kept for history). November: hand labels from the primary article of
+every entry, 377 rows, 368 real ligands: agonist 104, partial agonist 79, antagonist 119, unknown 64, mixed 2, with
+evidence source, DOI and, where reported, efficacy and proliferation as % of E2
+(<code>data/ligands/esr1_dataset_final.csv</code> and its dictionary).</li>
+<li><span class="lab">ESR2.</span> The same pipeline on 86 ESR2 chains from 39 entries; 135 ESR1/ESR2 chain pairs with
+the same ligand for residue-level comparison (<code>data/esr2/</code>).</li>
+</ol>
+
+<h2>2. Processing pipeline</h2>
+<p>Code: <code>pipeline/01_structures.py</code> … <code>11_esr2.py</code> (structure analysis),
+<code>pipeline/curated_action/01–05</code> (action classes, chemistry, PyMOL), <code>pipeline/figures/fig_*.py</code> (one
+script per figure). Software: Python 3.11, NumPy 2.3.5, pandas 3.0.6, SciPy 1.16.3, scikit-learn 1.7.2, umap-learn
+0.5.12, Matplotlib 3.10.8, RDKit 2026.09.1, open-source PyMOL 3.2 (headless), python-pptx 1.0.2; gemmi, Biopython and
+P2Rank were used upstream to build the frozen tables.</p>
+<ol>
+<li><span class="lab">Numbering.</span> Every residue in UniProt ESR1 numbering; ESR2 mapped onto it by sequence
+alignment.</li>
+<li><span class="lab">Superposition.</span> Kabsch fit on the C-alpha atoms of the alignment core (123 positions on the
+five most stable helices: 338–362, 371–396, 420–439, 441–456, 496–531) onto chain 7NFB B; median core fit 0.47 Å.</li>
+<li><span class="lab">Distances.</span> C-alpha RMSD over the positions modelled in both chains (788 × 788, saved as
+<code>results/02_lid_groups/rmsd.npy</code>), also without residues 528–550.</li>
+<li><span class="lab">Clustering.</span> Average linkage cut at 1.0, 1.5, 2.0 and 2.5 Å (16, 7, 4 and 3 clusters); 1.5 Å
+is used throughout.</li>
+<li><span class="lab">Quality.</span> Resolution ≤ 2.5 Å, R-free ≤ 0.30 and mean B ≤ 50 Å² give tiers A/B/C (544/240/4
+chains); quality is a label, never a filter, and every result is repeated with filters.</li>
+<li><span class="lab">Lid geometry.</span> Distance from the H12 centre to the H11 axis, H12 angles, helix lengths from
+phi/psi, centres of mass of helices, H12 B-factor z-scores against the core, symmetry-mate atoms within 4 Å of
+H12.</li>
+<li><span class="lab">Ordinary variation.</span> For any quantity, the larger of the within-group SD and the 95th
+percentile of differences between copies of one crystal; an effect counts only above it.</li>
+<li><span class="lab">Ligands and pockets.</span> RDKit descriptors and fingerprints (ECFP4, MACCS), P2Rank pockets, a
+buriedness grid (0.4 Å) for pocket volume and filling (ligand volume over pocket volume).</li>
+<li><span class="lab">Action classes.</span> Exact join of entry and primary ligand to the labelled rows; single-ligand
+chains (765 chains, 355 pairs); three main classes 631 chains, 291 pairs; comparisons inside fixed construct and
+peptide strata, bootstrap over articles (DOI blocks), Benjamini–Hochberg correction.</li>
+<li><span class="lab">Maps and redundancy.</span> Sammon map, self-organising map, UMAP on PCA scores, classical MDS;
+Hill numbers, random accumulation curves, greedy set cover and cluster medoids.</li>
+</ol>
+<p>Outputs: <code>results/&lt;stage&gt;/</code> (tables and <code>numbers.json</code>), <code>figures/</code> (PNG and
+SVG), <code>evidence/</code> (index of claims with their source tables and a script that re-checks them),
+<code>docs/</code> (reports, slides). A full run takes about four minutes, most of it the PyMOL ray tracing.</p>
+
+<h3>Figure 1. Conformational clustering</h3>
+<p class="file">Files: rmsd_blocks, dendrogram</p>
+<div class="two">
+<figure class="sq"><img src="../results/doc_figures/rmsd_blocks.png"></figure>
+<figure><img src="../results/doc_figures/dendrogram.png"></figure>
+</div>
+<p><b>Methods.</b> Panel A shows the 788 × 788 C-alpha RMSD matrix ordered by group (mean per block of up to 10 chains);
+panel B the average-linkage tree with the four cuts.</p>
+<p><b>Results.</b> Two blocks: median RMSD 0.67 Å inside cl7, 0.87 Å inside cl4 and 3.49 Å between them. The cuts give 16,
+7, 4 and 3 clusters; at 1.5 Å the three largest clusters hold 99% of the chains. The cluster medoids are 5TM1 A (cl7)
+and 2QE4 B (cl4).</p>
+<p><b>Discussion.</b> The structural diversity of ESR1 is essentially two states; finer cuts split mostly by crystal form
+and construct, not by new conformations.</p>
+
+<h3>Figure 2. Where the groups differ</h3>
+<p class="file">File: where_groups_differ</p>
+<figure><img src="../results/doc_figures/where_groups_differ.png"></figure>
+<p><b>Methods.</b> Distance between the cl7 and cl4 mean C-alpha positions at each residue after the core fit.</p>
+<p><b>Results.</b> Residues 528–550 (the H11–H12 loop and H12) carry 98.6% of the squared difference; without them the
+groups are 0.82 Å apart and merge at 1.5 Å. The switch sits at the H11–H12 hinge: residue 537 has ψ +157° in cl7 and
+−47° in cl4. Without any superposition, only distances to H12 change (8 of 36 helix-centre distances; H7–H12 +5.45 Å;
+all others ≤ 0.20 Å).</p>
+<p><b>Discussion.</b> The rest of the domain keeps its shape; the two groups are two positions of one helix, and the
+superposition-free checks rule out an alignment artefact.</p>
+
+<h3>Figure 3. The lid position and its outliers</h3>
+<p class="file">File: lid_outliers</p>
+<figure><img src="../results/doc_figures/lid_outliers.png"></figure>
+<p><b>Methods.</b> Distance from the H12 centre to the H11 axis for every chain with a helical H12 (748); Tukey fences
+and the ordinary-variation rule per group.</p>
+<p><b>Results.</b> Medians 12.5 Å (cl7) and 22.3 Å (cl4), no overlap; 15 chains lie beyond ordinary variation. The two
+furthest cl7 chains (5KCU B, 5KD9 B) carry antagonists of one series crystallised with Y537S and a coactivator peptide;
+five grey chains hold the lid between the positions. In 7 of 15 crystals with several copies the other copies are
+ordinary.</p>
+<p><b>Discussion.</b> Unusual lids are rare and mostly belong to one copy in its lattice position; the closed-lid
+antagonists are the clearest cases of crystal context overriding ligand class.</p>
+
+<h3>Figure 4. Quality, conditions and crystal packing</h3>
+<p class="file">Files: curated_qc, crystal_components</p>
+<div class="two">
+<figure><img src="../results/doc_figures/curated_qc.png"></figure>
+<figure><img src="../results/doc_figures/crystal_components.png"></figure>
+</div>
+<p><b>Methods.</b> Panel A: average linkage repeated on the RMSD matrix restricted to chains with R-free ≤ 0.30 (767) or
+passing all three limits (544). Panel B: entry-level effects of additives, recipe, solvent and lattice contacts on lid
+order and H12 mobility, divided by ordinary variation. Consensus outliers: chains flagged by at least three of five
+detectors.</p>
+<p><b>Results.</b> The clusters survive filtering (adjusted Rand index 0.998 and 0.982 at 1.5 Å; Hill q1 2.11 → 2.09 and
+2.03). Of 22 consensus outliers, 16 have no quality problem and differ in peptide, construct, crystal form and pH. The
+199 chains with mean B above 50 Å² are spread over both groups (139 cl7, 58 cl4). No additive or recipe effect reaches
+ordinary variation (0 of 22 tests); in cl4 the copy with more lattice contacts at the lid has more of the lid modelled
+(38 crystals against 14).</p>
+<p><b>Discussion.</b> The structure groups are biology plus crystal context, not crystallographic noise. Peptide,
+construct and crystal form are markers chosen by crystallographers to suit the complex; we report association, not
+cause.</p>
+
+<h3>Figure 5. Ligand chemistry</h3>
+<p class="file">Files: ligand_size, curated_steroid_class</p>
+<div class="two">
+<figure><img src="../results/doc_figures/ligand_size.png"></figure>
+<figure><img src="../results/doc_figures/curated_steroid_class.png"></figure>
+</div>
+<p><b>Methods.</b> RDKit descriptors of the crystallised ligands; ECFP4 and MACCS Tanimoto matrices; average-linkage and
+K-means clusters; Cramér's V with permutation tests; the steroid nucleus by substructure search.</p>
+<p><b>Results.</b> Ligands of cl4 are larger (median 34 against 24 heavy atoms) and carry a basic amine (74% against 1%).
+Chemical clusters go with action class (Cramér's V 0.62 on pairs, 0.51 with one pair per article) and with lid position
+(0.46). 204 close ligand pairs (Tanimoto ≥ 0.55) differ in class or position. The 18 steroidal ligands sit together in
+chemical space; 33 of their 42 complexes are agonists and 3 antagonists (Fisher p = 7×10⁻⁷ against other ligands).</p>
+<p><b>Discussion.</b> Chemistry predicts function well, but a steroid scaffold does not make an antagonist: the three
+steroidal antagonists carry the long side chain typical of antagonists.</p>
+
+<h3>Figure 6. Action class and the position of H12</h3>
+<p class="file">Files: curated_class_h12, curated_h12_within</p>
+<div class="two">
+<figure><img src="../results/doc_figures/curated_class_h12.png"></figure>
+<figure><img src="../results/doc_figures/curated_h12_within.png"></figure>
+</div>
+<p><b>Methods.</b> 291 entry × ligand pairs with an agonist, partial agonist or antagonist label and a single ligand.
+Panel B compares classes inside cl7 with the Y537S construct and a peptide, and inside cl4 with L536S constructs and no
+peptide; 95% intervals from a bootstrap over articles.</p>
+<p><b>Results.</b> Agonists 95/98 in cl7; partial agonists 65 cl7 and 13 cl4; antagonists 88 cl4 and 22 cl7 (20 of them
+Y537S, 21 with a peptide). Inside cl7, antagonists sit +0.21 Å (−0.11 to 0.30) and partial agonists −0.17 Å (−0.29 to
+−0.02) from agonists; inside cl4 antagonists and partial agonists differ by −0.02 Å. The estimates hold across 11 filters
+and leave-one-article-out checks.</p>
+<p><b>Discussion.</b> The class acts as a switch between two lid positions and leaves no trace within a position beyond
+crystal-copy noise. Partial agonists behave structurally like agonists in most crystals.</p>
+
+<h3>Figure 7. Agonist against antagonist (PyMOL)</h3>
+<p class="file">Files: pymol_agonist_antagonist, pymol_h12_blocked (script pipeline/curated_action/05_pymol_agonist_antagonist.py)</p>
+<figure><img src="../results/12_curated_action/pymol/pymol_agonist_antagonist_untitled.png"></figure>
+<figure class="half"><img src="../results/12_curated_action/pymol/pymol_h12_blocked_untitled.png"></figure>
+<p><b>Methods.</b> 3ERD (diethylstilbestrol, GRIP1 peptide) and 3ERT (4-hydroxytamoxifen), both wild type, superposed on
+the core C-alpha atoms with outlier rejection (0.27 Å over 102 atoms); the same camera for both; closest approach of the
+3ERT ligand to the H12 of 3ERD.</p>
+<p><b>Results.</b> The H12 centre moves 13 Å; the antagonist side chain comes within 1.2 Å of Leu540 of the closed H12,
+with 6 atoms within 3 Å.</p>
+<p><b>Discussion.</b> The closed position is sterically blocked by the antagonist's side chain, which is why H12 relocates
+to the groove and coactivators cannot bind.</p>
+
+<h3>Figure 8. Redundancy</h3>
+<p class="file">Files: set_cover, curated_redundancy</p>
+<div class="two">
+<figure><img src="../results/doc_figures/set_cover.png"></figure>
+<figure><img src="../results/doc_figures/curated_redundancy.png"></figure>
+</div>
+<p><b>Methods.</b> Greedy set cover of all chains by representatives with a complete H12; clusters found as entries are
+added in random order (200 orders); Hill numbers with entries weighted equally.</p>
+<p><b>Results.</b> Two representatives cover 90% of the chains within 1.0 Å, 48 within 0.5 Å. Effective conformations: 2.11
+for all entries, 1.17 for agonists, 1.57 for partial agonists and 1.86 for antagonists. Copies in one crystal differ by a
+median 0.53 Å, and a chain released since 2010 lies a median 0.35 Å from its nearest earlier chain.</p>
+<p><b>Discussion.</b> Most new structures repeat a known state; new conformational information comes from new contexts
+(constructs without a peptide, intermediate lids), not from more ligands of a known class.</p>
+
+<h3>Figure 9. ESR2</h3>
+<p class="file">Files: esr2_map, esr2_displacement, pymol_esr2_displacement</p>
+<div class="two">
+<figure class="sq"><img src="../results/doc_figures/esr2_map.png"></figure>
+<figure><img src="../results/doc_figures/esr2_displacement.png"></figure>
+<figure class="half"><img src="../results/12_curated_action/pymol/pymol_esr2_displacement_untitled.png"></figure>
+</div>
+<p><b>Methods.</b> Joint RMSD matrix of 788 ESR1 and 86 ESR2 chains in one frame (classical MDS); median C-alpha distance
+per position over 135 matched ESR1/ESR2 pairs with the same ligand after a core fit, also painted on 3ERD in PyMOL
+(blue 0 Å, white 1.5 Å, red ≥ 3 Å; selectivity positions as spheres).</p>
+<p><b>Results.</b> The main ESR2 group (68 chains, 93% with a peptide) lies 1.33 Å from ESR1 cl7, the second (12 chains,
+none with a peptide) 2.31 Å from cl4. Matched backbones agree to a median 0.53 Å; the selectivity positions L384/M336 and
+M421/I373 move 0.25 and 0.28 Å.</p>
+<p><b>Discussion.</b> The two H12 states are conserved between the receptors. Pocket selectivity comes from side-chain
+identity rather than backbone shifts. With 86 chains and 12 in the second group, ESR2 statements are descriptive.</p>
+
+<h3>Figure 10. Pocket</h3>
+<p class="file">File: curated_pocket</p>
+<figure class="half"><img src="../results/doc_figures/curated_pocket.png"></figure>
+<p><b>Methods.</b> Pocket volume as a percentage of the E2 pocket and filling (ligand volume over pocket volume) for
+fully modelled ligands; Kruskal–Wallis across classes inside each group.</p>
+<p><b>Results.</b> P2Rank ranks the ligand pocket first in all 788 chains. Filling does not differ between cl7 and cl4
+(entry level q = 0.14). Inside cl7 the pocket grows from agonist to antagonist (75%, 85%, 91%; p = 0.0008) while filling
+stays about one third.</p>
+<p><b>Discussion.</b> Larger ligands open a larger pocket rather than packing it more tightly.</p>
+
+<h3>Approaches we replaced, and why</h3>
+<ol>
+<li><span class="lab">One chain per entry and a pass/fail quality filter (September).</span> It discarded 437 usable
+chains; we kept every chain and turned quality into tiers. The main groups did not change.</li>
+<li><span class="lab">Cluster-discovery curves as the redundancy measure.</span> They mostly counted rare single-chain
+clusters; coverage by representatives and Hill numbers measure redundancy directly.</li>
+<li><span class="lab">ChEMBL mechanism labels.</span> They covered 51 of 362 pairs and mixed SERM/SERD with function; hand
+labels from the primary articles replaced them.</li>
+<li><span class="lab">Multi-panel figures.</span> Replaced by one question per figure with the result in the title.</li>
+</ol>
+
+<h2>Limitations and suggested additions</h2>
+<p><b>Limitations.</b></p>
+<ol>
+<li>Confounding: action class co-varies with construct (Y537S, L536S), peptide and crystal form; only one well-filled
+stratum per group allows a clean class comparison, and few articles contain two classes.</li>
+<li>Labels: 85 labels are derived from assay thresholds of two articles; 47 pairs disagree with the structure on the
+mutant flag; 64 pairs remain unknown.</li>
+<li>Atoms: distances use C-alpha atoms; side-chain rearrangements in the pocket are not measured.</li>
+<li>Crystal packing: lid order and mobility depend on lattice contacts; copies of one crystal differ by up to 0.9–1.1 Å.</li>
+<li>Fixed thresholds: the 1.5 Å cut, 4 Å contacts and the H12 window (538–547 vs 538–544) shape the counts.</li>
+<li>ESR2: 86 chains, so basin statements carry little statistical weight.</li>
+</ol>
+<p><b>Recommended next steps, in order.</b></p>
+<ol>
+<li>Review the 22 closed-lid antagonist and 13 cl4 partial-agonist complexes against their articles and assays.</li>
+<li>Relate continuous efficacy (transcription, proliferation; 92 pairs from 5 articles) to H12 geometry inside one
+assay.</li>
+<li>Model the class effect with article and crystal form as random effects.</li>
+<li>Compare side chains in the pocket (all-atom RMSD) for matched ligands.</li>
+<li>Label the remaining unknown ligands and extend the class analysis to ESR2.</li>
+</ol>
+
+<h2>Coverage of the project brief</h2>
+<table>
+<tr><th style="width:30%">Deliverable (project description §10)</th><th style="width:12%">Status</th><th>Where</th></tr>
+<tr><td>Curated ESR1 + ESR2 dataset with QC flags, ligand classes, SMILES</td><td>Done</td><td><code>data/structures/chain_table.csv</code>, <code>data/ligands/esr1_dataset_final.csv</code>, <code>ligand_ids.csv</code>; mmCIF listed with checksums, not stored</td></tr>
+<tr><td>RMSD matrix saved to disk</td><td>Done</td><td><code>results/02_lid_groups/rmsd.npy</code></td></tr>
+<tr><td>Clusters at several cuts, dendrogram, landscape, medoids, QC-conditioned version</td><td>Done</td><td>Figures 1, 4; <code>groups.csv</code>, <code>cluster_medoids_1p5.csv</code>, <code>qc_clustering_sensitivity.csv</code></td></tr>
+<tr><td>Cumulative diversity, Shannon entropy, by ligand class</td><td>Done</td><td>Figure 8; <code>redundancy_*.csv</code></td></tr>
+<tr><td>Tanimoto matrices, UMAP, K-means (K = 3–7)</td><td>Done</td><td><code>tanimoto_ecfp4.npy</code>, <code>tanimoto_maccs.npy</code>, <code>chem_kmeans_scan.csv</code>, figure curated_steroid_map</td></tr>
+<tr><td>Chemistry–structure linkage, tests, disagreement cases</td><td>Done</td><td>Figure 5; <code>chem_struct_class_associations.csv</code>, <code>chem_discordant_pairs.csv</code></td></tr>
+<tr><td>Minimal representative set (≥ 90%)</td><td>Done</td><td>Figure 8; <code>greedy_set_cover_*.csv</code></td></tr>
+<tr><td>Per-residue ESR1/ESR2 displacement with selectivity residues, heatmap + PyMOL</td><td>Done</td><td>Figure 9; <code>data/esr2/esr1_esr2_displacement_profile.csv</code>, figure pymol_esr2_displacement</td></tr>
+<tr><td>ESR2 conformational landscape</td><td>Done, small-n</td><td>Figure 9; <code>results/11_esr2/</code></td></tr>
+<tr><td>P2Rank pocket analysis by ligand class</td><td>Done</td><td>Figure 10; <code>pocket_by_class.csv</code></td></tr>
+<tr><td>ChEMBL bioactivity mapping</td><td>Done</td><td>assay_spread figure; <code>affinity_per_ligand.csv</code></td></tr>
+<tr><td>QC questions of §4.2 (outlier quality, high-B grouping, entropy without R-free &gt; 0.30)</td><td>Answered</td><td>Figure 4 text</td></tr>
+<tr><td>Scripted PyMOL figures</td><td>Done</td><td>Figure 7</td></tr>
+<tr><td>Public repository, README, reproducible</td><td>Done</td><td><code>README.md</code>, <code>reproduce.sh</code></td></tr>
+<tr><td>Manuscript draft</td><td>In progress</td><td>This document and the monthly reports</td></tr>
+<tr><td>All-atom RMSD</td><td>Not done</td><td>C-alpha only, see limitations</td></tr>
+</table>
+
+<h2>Reproduction</h2>
+<p><b>Environment.</b></p>
+<p><code>python3.11 -m venv .venv &amp;&amp; .venv/bin/pip install -r requirements.txt</code></p>
+<p><b>Run order.</b></p>
+<table>
+<tr><th style="width:38%">File</th><th>Role</th></tr>
+<tr><td><code>pipeline/01_structures.py</code> … <code>11_esr2.py</code></td><td>Counts, superposition and groups, lid outliers, consensus outliers, maps, hidden lid, geometry without superposition, crystal environment, ligands and pockets, redundancy, ESR2</td></tr>
+<tr><td><code>pipeline/curated_action/01–04</code></td><td>Join of the hand labels, redundancy and QC by class, chemistry (steroids, UMAP, K-means), class effects and pockets</td></tr>
+<tr><td><code>pipeline/curated_action/05_pymol_agonist_antagonist.py</code></td><td>PyMOL views (downloads 3ERD and 3ERT if not cached)</td></tr>
+<tr><td><code>pipeline/figures/fig_*.py</code></td><td>One figure each, PNG and SVG in <code>figures/</code></td></tr>
+<tr><td><code>docs/slides_action_class.py</code>, <code>docs/recent_results.py</code></td><td>Slide decks</td></tr>
+<tr><td><code>evidence/rebuild.py</code></td><td>Re-checks every number in <code>evidence/INDEX.md</code></td></tr>
+<tr><td><code>docs/build_docs.py</code></td><td>This document and the monthly report (HTML → PDF with Chrome)</td></tr>
+</table>
+<p><code>PYTHON=.venv/bin/python bash reproduce.sh</code> runs everything above except the documents and ends with "all
+numbers match"; <code>.venv/bin/python docs/build_docs.py</code> prints the documents.</p>
+<p><b>Determinism.</b> Every random step uses seed 42; the same inputs give the same tables and figures.</p>
+<p><b>Figure files.</b> Figure 1 = rmsd_blocks, dendrogram; Figure 2 = where_groups_differ; Figure 3 = lid_outliers;
+Figure 4 = curated_qc, crystal_components; Figure 5 = ligand_size, curated_steroid_class; Figure 6 = curated_class_h12,
+curated_h12_within; Figure 7 = pymol_agonist_antagonist, pymol_h12_blocked; Figure 8 = set_cover, curated_redundancy;
+Figure 9 = esr2_map, esr2_displacement, pymol_esr2_displacement; Figure 10 = curated_pocket.</p>
+</body>
+</html>
